@@ -384,25 +384,53 @@ Otherwise, it's just a beautiful simulation without ground truth.
 
 Strict data model is needed.
 
-Minimum entity set:
+### Core Entities
 
-- UserProfile
-- CandidateProfile
-- EvidenceClaim
-- TypologyHypothesis
-- TwinSpec
-- ScenarioTemplate
-- ScenarioPack
-- SimulationRun
-- Transcript
-- JudgeAssessment
-- RiskFlag
-- MatchCard
-- ShortlistDigest
-- FeedbackEvent
-- ModelVersion
-- ConsentRecord
-- AuditLog
+**Profile & Evidence:**
+- `RawProfileItems` — Raw input data from user/candidate intake
+- `UserEvidenceProfile` / `CandidateEvidenceProfile` — Incremental evidence collected during onboarding
+- `EvidenceProfileNormalized` — Normalized facts, self-claims, hypotheses, unknowns
+- `EvidenceClaim` — Individual claim with evidence span and confidence
+
+**Typology:**
+- `TypologyHypotheses` — Probability distributions over types (not single labels)
+- `ConsentPolicyVersions` — Versioned consent policies
+
+**Twin:**
+- `TwinSpec` — Structured simulation policy for a person (machine-readable JSON)
+
+**Scenario:**
+- `ScenarioCatalog` — Repository of available scenario templates
+- `ScenarioPack` — Selected scenarios for a specific pair
+- `ScenarioInstance` — Single instantiated scenario for simulation
+
+**Simulation:**
+- `SimulationBatch` — Collection of runs for one pair
+- `SimulationRun` — Single simulation execution
+- `TranscriptStore` / `Transcript` — Simulation transcript records (JSONL)
+
+**Assessment:**
+- `JudgeAssessment` — Output from Judge Ensemble
+- `RiskFlag` — Individual risk indicator
+- `RubricVersion` — Version of scoring rubric
+- `CompatibilityAssessment` — Final structured assessment
+
+**Output & Feedback:**
+- `MatchCard` — Human-readable match summary with evidence
+- `ShortlistDigest` — Weekly digest for user
+- `FeedbackEvent` — Real-world outcome feedback
+- `FeedbackLabel` — Processed feedback labels
+
+**Governance & Compliance:**
+- `ConsentRecord` — Consent for data processing
+- `PolicyConstraints` — Current policy rules
+- `AuditLog` — Immutable audit trail
+
+**System:**
+- `ModelVersion` — Version of prompts, schemas, policies
+- `UserProfileIndex` / `CandidateIndex` — Searchable profile indices
+- `UserSessionTranscript` — Current session interview transcript
+- `WorkflowState` — Pipeline execution state
 
 This is important because without structured entities, you cannot:
 - Do explainability
