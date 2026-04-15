@@ -4,6 +4,46 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | All 16 temporistics types
+
+**Action:** Fetched all remaining types from temporistics.ru via web archive
+
+**Raw sources created:**
+- raw/temporistics/khozyain-host.md — Host (1 Present) type
+- raw/temporistics/mestnyi-local.md — Local (2 Present) type
+- raw/temporistics/izgnannik-exile.md — Exile (3 Present) type
+- raw/temporistics/gost-guest.md — Guest (4 Present) type
+- raw/temporistics/kapitan-captain.md — Captain (1 Future) type
+- raw/temporistics/rulevoi-steversman.md — Steersman (2 Future) type
+- raw/temporistics/bezbiletnik-stowaway.md — Stowaway (3 Future) type
+- raw/temporistics/passazhir-passenger.md — Passenger (4 Future) type
+- raw/temporistics/guru-eternity.md — Guru (1 Eternity) type
+- raw/temporistics/filosof-philosopher.md — Philosopher (2 Eternity) type
+- raw/temporistics/obyvatel-philistine.md — Philistine (3 Eternity) type
+- raw/temporistics/uchenik-student.md — Student (4 Eternity) type
+- raw/temporistics/letopisets-chronicler.md — Chronicler (2 Past) type
+- raw/temporistics/chitatel-reader.md — Reader (4 Past) type
+
+**Wiki entity pages created:**
+- wiki/entities/host-khozyain.md
+- wiki/entities/local-mestnyi.md
+- wiki/entities/exile-izgnannik.md
+- wiki/entities/guest-gost.md
+- wiki/entities/captain-kapitan.md
+- wiki/entities/stewersman-rulevoi.md
+- wiki/entities/stowaway-bezbiletnik.md
+- wiki/entities/passenger-passazhir.md
+- wiki/entities/guru-eternity.md
+- wiki/entities/philosopher-filosof.md
+- wiki/entities/philistine-obyvatel.md
+- wiki/entities/student-uchenik.md
+
+**Updated:**
+- index.md — Added all 20 entity pages
+- log.md — This entry
+
+---
+
 ## [2026-04-15] ingest | Temporistics.ru full site ingestion
 
 **Action:** Fetched and saved content from temporistics.ru via web archive
