@@ -66,4 +66,4 @@ SEE (Napoleon) is the politician and social climber. Known for social ambition, 
 - [[socionics-overview]]
 - [[iee-intuitive-ethical-extrovert]]
 - [[eii-emotional-intuitive-introvert]]
-- [[lse-logical-sensory-introvert]]
+- [[lii-logical-intuitive-introvert]]

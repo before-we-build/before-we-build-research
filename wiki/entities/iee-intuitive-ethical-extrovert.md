@@ -66,4 +66,4 @@ IEE (Huxley) is the humanitarian and visionary. Known for seeing potential in pe
 - [[socionics-overview]]
 - [[eii-emotional-intuitive-introvert]]
 - [[see-sensory-ethical-extrovert]]
-- [[lse-logical-sensory-introvert]]
+- [[lii-logical-intuitive-introvert]]

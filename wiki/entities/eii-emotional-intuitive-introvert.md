@@ -66,4 +66,4 @@ EII (Dostoevsky) is the humanist and moralist. Known for deep empathy, ethical c
 - [[socionics-overview]]
 - [[iee-intuitive-ethical-extrovert]]
 - [[see-sensory-ethical-extrovert]]
-- [[lse-logical-sensory-introvert]]
+- [[lii-logical-intuitive-introvert]]
