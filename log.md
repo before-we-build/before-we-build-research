@@ -4,6 +4,40 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] build | Created 8 agentic skills for Hang the DJ implementation
+
+**Action:** Created modular skill files in `skills/` directory to implement simulation-based compatibility testing
+
+**Skills created:**
+
+| Skill | Purpose | Key Capability |
+|-------|---------|----------------|
+| `persona-cloner` | Create digital twins from user data | Cross-system type mapping |
+| `type-mapper` | Translate between personality systems | Big Five ↔ MBTI ↔ Socionics |
+| `adversarial-designer` | Create pressure scenarios | Measure rebellion_score |
+| `simulation-runner` | Execute 1000+ scenarios | Parallel execution, memory injection |
+| `choice-tracker` | Log decisions across runs | Repeated choice metric |
+| `memory-persister` | Maintain cross-run memory | Episodic + Semantic + Identity |
+| `compatibility-scorer` | Calculate 99.8% | Base + Adversarial + Consistency |
+| `explanation-generator` | User-friendly output | "You keep finding each other" |
+
+**Architecture:**
+```
+persona-cloner → simulation-runner → choice-tracker
+        ↑                              ↓
+        │         memory-persister
+        │                ↓
+        └───── compatibility-scorer
+                        ↓
+              explanation-generator
+                        ↓
+                    USER OUTPUT
+```
+
+**Next:** Implement skills in code, start with MVP (2 personas, 100 scenarios)
+
+---
+
 ## [2026-04-15] ingest | Hang the DJ simulation compatibility
 
 **Action:** Ingested Black Mirror S03E04 "Hang the DJ" analysis as reference for simulation-based compatibility testing

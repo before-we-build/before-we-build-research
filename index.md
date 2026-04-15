@@ -26,6 +26,7 @@ wiki/          — LLM-generated wiki
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[cross-typology-mapping]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
+| [[agentic-skills-hang-the-dj]] | 8 agent skills to implement simulation-based compatibility testing | skills/index.md |
 
 ### Entities — Temporistics Types (24)
 
