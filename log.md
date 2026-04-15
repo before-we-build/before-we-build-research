@@ -4,6 +4,41 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] design | Scientific validation plan
+
+**Action:** Created comprehensive scientific validation plan for typological systems
+
+**Raw sources created:**
+- raw/general/scientific-validation-plan.md — Framework for scientifically proving typologies
+
+**Key components:**
+
+1. **Operationalization** — Define measurable proxies for abstract constructs
+   - "Information metabolism" → reaction time,瞳pupil dilation, recall accuracy
+
+2. **Reliability** — Test-retest, inter-rater, internal consistency
+   - 80%+ type stability over 1 year
+   - κ > 0.7 for inter-rater agreement
+
+3. **Validity** — Face, content, construct, factorial
+   - CFA: CFI > 0.95, RMSEA < 0.06
+
+4. **Predictive validity** — Pre-registered hypotheses BEFORE data collection
+   - Duality pairs: higher satisfaction (replicated 3x)
+   - Type predicts behavior in controlled experiments
+
+5. **Mechanism** — Process tracing, neuroimaging, physiology
+
+**Critical requirements:**
+- Pre-registration on OSF before data collection
+- No HARKing (Hypothesizing After Results are Known)
+- Effect sizes over p-values
+- 3 independent replications
+
+**Timeline:** 4 years, $800K
+
+---
+
 ## [2026-04-15] research | Type distribution statistics
 
 **Action:** Compiled reliable type distribution statistics from MBTI and Russian Socionics

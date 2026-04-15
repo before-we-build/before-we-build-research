@@ -206,13 +206,14 @@ wiki/          — LLM-generated wiki
 | christian-perspectives.md | Christian views on typologies (Orthodox, Protestant) | Multiple sources |
 | typology-crisis-war.md | Stress resilience, military leadership, crisis teams | Multiple sources |
 | type-distribution-statistics.md | MBTI and Socionics type distribution data | MBTI Manual, Terra Socionika |
+| scientific-validation-plan.md | Framework for scientifically validating typological systems | Academic standards |
 
 ---
 
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 43 (21 temporistics + 8 psychosophy + 11 socionics + 3 general)
+- **Raw sources**: 44 (21 temporistics + 8 psychosophy + 11 socionics + 4 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15
