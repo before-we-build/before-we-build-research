@@ -25,6 +25,7 @@ wiki/          — LLM-generated wiki
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
+| [[cross-typology-mapping]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
 
 ### Entities — Temporistics Types (24)
 

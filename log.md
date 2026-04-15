@@ -4,6 +4,34 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] build | Cloned key vendor repos for typology automation
+
+**Action:** Cloned production-ready open-source repos for typology validation pipeline
+
+**Vendor repos cloned:**
+
+| Repo | Purpose | Stars | Key Feature |
+|------|---------|-------|-------------|
+| `vendor/jpaf` | Jungian Personality Adaptation Framework | — | 100% MBTI alignment, triple mechanisms |
+| `vendor/oasis-platform` | AI-powered survey interviews | — | Voice/text agents, multi-provider LLM, Docker |
+| `vendor/oasis-sim` | Social media simulation | — | 1M agents, Twitter/Reddit, dynamic networks |
+| `vendor/personanexus` | Personality definition | — | OCEAN↔DISC↔Jungian bidirectional mapping |
+
+**Combined pipeline discovered:**
+
+```
+PersonaNexus (type mapping) → JPAF (agent simulation) → OASIS-sim (interaction testing)
+                                                      ↓
+                                       OASIS-platform (empirical validation)
+```
+
+**Key finding:** PersonaNexus has bidirectional mapping between OCEAN (Big Five), DISC, and Jungian 16-type. This bridges MBTI→Socionics→Psychosophy.
+
+**Updated:**
+- raw/general/typology-best-architecture.md — committed (cfd451e)
+
+---
+
 ## [2026-04-15] research | Modern agentic research systems (don't reinvent wheel)
 
 **Action:** Researched production-ready agentic research systems from arXiv 2026
