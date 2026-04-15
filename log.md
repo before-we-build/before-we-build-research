@@ -4,6 +4,36 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] create | Optimal 2026 tech stack
+
+**Action:** Researched and created optimal 2026 tech stack for automated typology research
+
+**Raw sources created:**
+- raw/general/optimal-2026-tech-stack.md — Complete implementation with CrewAI, Claude Sonnet 4.6, GPT Researcher
+
+**Optimal stack comparison (2026):**
+
+| Component | Best Choice | Why |
+|-----------|-------------|-----|
+| Orchestration | **CrewAI** | 48K stars, 2-8h to prototype, MCP native |
+| LLM Core | **Claude Sonnet 4.6** | $3/M, 1M context, 78.3% retrieval @ 1M |
+| Research | **GPT Researcher** | 26K stars, deep research, ~$0.10 |
+| Code | **Claude Code** | 4% GitHub commits, multi-agent |
+| Persistence | **LangGraph Checkpointing** | Durable execution |
+| Deployment | **Railway/LangGraph Cloud** | Managed, 99.7% uptime |
+
+**Key comparisons:**
+- CrewAI vs LangGraph: 70x faster to prototype
+- Claude Sonnet vs GPT-5.4: 10x cheaper, better retrieval
+- 1M context without premium (no context rot)
+
+**Results:**
+- Time per study: 1 month → 1 week
+- Cost per study: $500 → $20-50
+- Papers/month: 0-1 → 2-4
+
+---
+
 ## [2026-04-15] design | Automated research pipeline
 
 **Action:** Created comprehensive plan for fully automated typology research agent

@@ -213,13 +213,14 @@ wiki/          — LLM-generated wiki
 | agentic-research-pipelines.md | Multi-agent pipelines: Agent Laboratory, CrewAI, STORM, workflow architectures | - |
 | participant-recruitment.md | How to attract participants: Reddit, Telegram, snowball sampling | - |
 | automated-research-plan.md | Full autonomous pipeline: Typology Agent, 6 automated research agents | - |
+| optimal-2026-tech-stack.md | Optimal 2026 stack: CrewAI + Claude Sonnet 4.6 + GPT Researcher, complete implementation | - |
 
 ---
 
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 50 (21 temporistics + 8 psychosophy + 11 socionics + 10 general)
+- **Raw sources**: 51 (21 temporistics + 8 psychosophy + 11 socionics + 11 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15
