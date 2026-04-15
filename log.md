@@ -4,6 +4,33 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] research | Type distribution statistics
+
+**Action:** Compiled reliable type distribution statistics from MBTI and Russian Socionics
+
+**Raw sources created:**
+- raw/general/type-distribution-statistics.md — Statistics from MBTI Manual, 16 Personalities, Terra Socionika
+
+**Key findings:**
+
+**MBTI global (most reliable):**
+- ISFJ most common: 13.8%
+- INFJ rarest: 1.5%
+- Sensing dominates: 73.3% vs 26.7% Intuitive
+- SJ types: 46% of population
+
+**Russia (Terra Socionika, 5000+):**
+- Don Quixote (ILE): 15.9% — most common
+- Dostoevsky (EII): 1% — rarest
+- Intuitive types more common than globally
+- Beta+Gamma quadra: 59%
+
+**Gender differences:**
+- Women: more Feeling (59.8%)
+- Men: more Thinking (40.2%)
+
+---
+
 ## [2026-04-15] research | Typology in crisis and war
 
 **Action:** Researched typology applications in war, crisis, military leadership contexts
