@@ -1,3 +1,12 @@
+---
+title: Latent Processes
+type: concept
+tags: [latent-processes, theory]
+created: 2026-04-14
+updated: 2026-04-15
+sources: []
+---
+
 # Latent Processes: Theoretical Framework
 
 Latent processes are hidden internal mechanisms that are not directly observed but manifest through behavior, responses, errors, choices, reaction speed, reasoning style, and other observable signs.

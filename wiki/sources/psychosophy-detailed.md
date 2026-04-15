@@ -1,3 +1,12 @@
+---
+title: Psychosophy Detailed
+type: source
+tags: [psychosophy, operational-level, functions]
+created: 2026-04-15
+updated: 2026-04-15
+sources: []
+---
+
 # Psychosophy: Operational Level — Comprehensive Analysis
 
 > **Level:** Operational  

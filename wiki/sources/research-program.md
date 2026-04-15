@@ -1,3 +1,12 @@
+---
+title: Research Program
+type: source
+tags: [validation, methodology, research]
+created: 2026-04-14
+updated: 2026-04-15
+sources: []
+---
+
 # Research Program: Validation Framework for Typological Constructs
 
 Below is a program not for confirming faith in typology, but for attempting to break it. If it survives, then we can talk about strong verification. The basic principle is this: we validate not "typology in general," but interpretations of results for a specific application. If you want to use scales for describing a person, predicting joint behavior, and later for matchmaking, these are three different claims, and each must be separately defended with data. In modern standards, validity is the degree to which accumulated data and theory support the interpretation of a score for a given use case; the main threats are construct underrepresentation and extraneous variance.

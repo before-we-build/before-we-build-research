@@ -1,3 +1,12 @@
+---
+title: Weight Calibration
+type: concept
+tags: [research, scoring, weights]
+created: 2026-04-15
+updated: 2026-04-15
+sources: [plan.md]
+---
+
 # Weight Calibration Research Plan
 
 ## Objective

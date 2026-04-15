@@ -1,3 +1,12 @@
+---
+title: Socionics Detailed
+type: source
+tags: [socionics, tactical-level, model-a]
+created: 2026-04-15
+updated: 2026-04-15
+sources: []
+---
+
 # Socionics: Tactical Level — Comprehensive Analysis
 
 > **Level:** Tactical  

@@ -1,3 +1,12 @@
+---
+title: Common Projects
+type: source
+tags: [research, related-work]
+created: 2026-04-14
+updated: 2026-04-15
+sources: []
+---
+
 # Agentic Compatibility via LLM Social Simulation and Activity-Theoretic Typology
 
 ## Problem framing and a translation layer to mainstream research

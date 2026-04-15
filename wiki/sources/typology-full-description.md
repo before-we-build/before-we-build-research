@@ -1,3 +1,12 @@
+---
+title: Typology Full Description
+type: source
+tags: [typology, reference]
+created: 2026-04-15
+updated: 2026-04-15
+sources: [temporistics-detailed.md, psychosophy-detailed.md, socionics-detailed.md]
+---
+
 # Complete Typology Reference: Three Levels of Personality Analysis
 
 This document provides comprehensive descriptions of the three typological systems used in the Cognitive Matchmaker project: Temporistics (strategic level), Psychosophy (operational level), and Socionics (tactical level). Each typology is described through the lens of latent processes—the hidden internal mechanisms that manifest through observable behavior.

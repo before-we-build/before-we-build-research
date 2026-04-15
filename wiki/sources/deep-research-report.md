@@ -1,3 +1,12 @@
+---
+title: Deep Research Report
+type: source
+tags: [agents, frameworks, memory]
+created: 2026-04-15
+updated: 2026-04-15
+sources: []
+---
+
 # Selection of Agent Harnesses, Frameworks, Orchestration Systems, and Memory for Agent-Based Applications
 
 ## Executive Summary

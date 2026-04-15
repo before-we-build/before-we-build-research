@@ -1,3 +1,12 @@
+---
+title: Scientific Contribution Statement
+type: reference
+tags: [contribution, epistemology]
+created: 2026-04-14
+updated: 2026-04-15
+sources: []
+---
+
 # Cognitive Matchmaker: A Contribution to the Formalization of Induction, Deduction, Synthesis, Analysis, and Modeling in Human Compatibility Assessment
 
 ## Abstract

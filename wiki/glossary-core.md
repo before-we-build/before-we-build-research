@@ -1,3 +1,12 @@
+---
+title: Glossary Core
+type: reference
+tags: [glossary, terminology]
+created: 2026-04-15
+updated: 2026-04-15
+sources: []
+---
+
 # Glossary of Terms: Cognitive Matchmaker
 
 ## Purpose

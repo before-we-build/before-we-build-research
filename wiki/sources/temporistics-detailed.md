@@ -1,3 +1,12 @@
+---
+title: Temporistics Detailed
+type: source
+tags: [temporistics, strategic-level, temporal-aspects]
+created: 2026-04-15
+updated: 2026-04-15
+sources: [mystery-of-third-aspect.md]
+---
+
 # Temporistics: Strategic Level — Comprehensive Analysis
 
 > **Level:** Strategic  
