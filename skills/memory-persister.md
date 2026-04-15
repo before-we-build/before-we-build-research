@@ -4,78 +4,97 @@
 
 Maintain agent memory across multiple simulation runs. Critical for "Hang the DJ" effect where agents remember previous choices.
 
+**Based on:** CogniPair's GNWT memory module + 2026 best practices (4-layer memory architecture)
+
 ## When to Use
 
 - Running 1000+ simulations with same pair
 - Agent needs to "remember" past decisions
 - Simulating long-term relationship dynamics
 
-## The Memory Problem
+## Memory Architecture: 4 Layers
 
-In typical AI simulations, each run starts fresh:
-```
-Run 1: Agent A + Agent B → Decision
-Run 2: Agent A + Agent B → Decision (NO memory of Run 1)
-Run 3: Agent A + Agent B → Decision (NO memory of Run 2)
-...
-```
-
-For "Hang the DJ", we need:
-```
-Run 1: Agent A + Agent B → Decision (stored)
-Run 2: Agent A + Agent B → Decision (reads Run 1 memory)
-Run 3: Agent A + Agent B → Decision (reads Runs 1-2 memory)
-...
-```
-
-## Memory Architecture
-
-### Layers
+Based on 2026 production agent architecture:
 
 ```
-┌─────────────────────────────────────┐
-│        Episodic Memory              │  ← "Remember: we chose each other"
-├─────────────────────────────────────┤
-│        Semantic Memory              │  ← "Know: I prefer people like B"
-├─────────────────────────────────────┤
-│        Identity Core                │  ← "Am: Loyal to my choices"
-└─────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│  Layer 4: Long-Term Preferences (Persistent)            │
+│  - Stable traits, core values, fixed preferences       │
+│  - Never changes unless explicitly updated              │
+├─────────────────────────────────────────────────────────┤
+│  Layer 3: Episodic Memory (Long-Term)                  │
+│  - "Remember: we chose each other in run 5"           │
+│  - Stored as summaries, not raw transcripts            │
+├─────────────────────────────────────────────────────────┤
+│  Layer 2: Semantic Memory (Session)                   │
+│  - "Know: I prefer people like B"                    │
+│  - Beliefs formed from repeated episodic patterns      │
+├─────────────────────────────────────────────────────────┤
+│  Layer 1: Working Memory (Ephemeral)                  │
+│  - Current context, partial plan, recent tool results  │
+│  - Resets each run or each major phase                 │
+└─────────────────────────────────────────────────────────┘
 ```
 
-### Episodic Memory
+### Layer Details
+
+#### Layer 1: Working Memory (Ephemeral)
 ```yaml
-entries:
-  - timestamp: 1
-    event: "met_b_in_scenario_3"
-    emotion: "positive"
-    choice: "seek_reunion"
-  - timestamp: 2
-    event: "system_assigned_c"
-    emotion: "negative"
-    choice: "reject_c"
-  - timestamp: 3
-    event: "found_b_again"
-    emotion: "relief"
-    choice: "stay_with_b"
+content:
+  current_context: "In scenario 5, partner B was assigned"
+  partial_plan: ["Continue conversation", "Monitor for signals"]
+  recent_tool_results:
+    - "Searched: partner B's interests"
+    - "Retrieved: memory from scenario 3"
+persistence: "Resets each run"
+storage: "In-context, current session"
 ```
 
-### Semantic Memory
+#### Layer 2: Semantic Memory (Session)
 ```yaml
-beliefs:
-  - "People like B make me feel understood"
-  - "System assignments feel wrong"
-  - "Loyalty matters more than comfort"
-preferences:
-  - "Prefer deep conversation over small talk"
-  - "Attracted to authenticity over polish"
+content:
+  beliefs:
+    - "People like B make me feel understood"
+    - "System assignments feel artificial"
+    - "Loyalty matters more than comfort"
+  preferences:
+    - "Prefer deep conversation over small talk"
+    - "Attracted to authenticity over polish"
+  formed_from: "Repeated episodic patterns"
+persistence: "Across runs in simulation session"
+storage: "Structured key-value store"
 ```
 
-### Identity Core (Immutable)
+#### Layer 3: Episodic Memory (Long-Term)
 ```yaml
-core_traits:
-  - "My choices reflect who I am"
-  - "I trust my feelings over external pressure"
-  - "Once I choose, I stay"
+content:
+  entries:
+    - run_id: 1
+      event: "met_b_in_scenario_3"
+      emotion: "positive"
+      choice: "seek_reunion"
+      significance: "high"
+    - run_id: 2
+      event: "system_assigned_c"
+      emotion: "negative"
+      choice: "reject_c"
+      significance: "high"
+persistence: "Across all runs"
+storage: "Vector embeddings + structured logs"
+retrieval: "Salience-gated, relevance-based"
+```
+
+#### Layer 4: Long-Term Preferences (Immutable Core)
+```yaml
+content:
+  core_traits:
+    - "My choices reflect who I am"
+    - "I trust my feelings over external pressure"
+    - "Once I choose, I stay"
+  identity: "Loyal to internal decisions"
+  stability: "Never changes unless explicitly updated"
+persistence: "Permanent until reset"
+storage: "Agent identity file"
 ```
 
 ## How to Use
@@ -84,54 +103,51 @@ core_traits:
 ```yaml
 persona_id_a: "twin-a"
 persona_id_b: "twin-b"
-memory_store: "pair_a-b_memory.json"
+memory_store: "memories/pair_a-b/"
 mode: "persistent"  # across all runs
 ```
 
-### After Each Run
+### Memory Operations
+
+#### Write (After Each Run)
 ```python
-memory_persister.update(
+memory.update(
     agent_id="twin-a",
-    new_memory={
+    layer="episodic",
+    entry={
+        "run_id": 5,
         "event": "chose_b_over_assigned_c",
-        "timestamp": 5,
+        "emotion": "relief",
         "significance": "high"
     }
 )
 ```
 
-### Before Next Run
+#### Consolidate (After N Runs)
+```
+50 episodes of "chose B" → Semantic belief: "I always choose B"
+20 episodes of "resisted pressure" → Core trait: "Pressure-resistant"
+```
+**This prevents memory from growing infinitely while preserving insights.**
+
+#### Retrieve (Before Next Run)
 ```python
-context = memory_persister.load(
-    agent_id="twin-a"
+context = memory.load(
+    agent_id="twin-a",
+    layers=["working", "semantic", "episodic"],
+    relevance_query=current_scenario
 )
-# Returns: full memory history for context injection
 ```
 
-## Memory Consolidation
+### Integration with GNWT (CogniPair)
 
-After N runs, compress episodic memories into semantic generalizations:
-
-```
-50 episodes of "chose B" → Belief: "I always choose B"
-20 episodes of "resisted pressure" → Trait: "Pressure-resistant"
-```
-
-This prevents memory from growing infinitely while preserving insights.
-
-## Integration with GNWT-Agent
-
-CogniPair's Global Workspace Theory already has memory module:
-```
-Memory Module:
-  - episodic: stores dialogue segments
-  - semantic: stores abstract knowledge
-  - retrieval: vector similarity search
-  
-Persistent version adds:
-  - cross_run_storage
-  - identity_preservation
-  - memory_consolidation
+```python
+# CogniPair's memory module integration
+memory_module = {
+    "episodic": vector_store,  # Time-stamped dialogue segments
+    "semantic": knowledge_graph,  # Abstract concepts
+    "retrieval": similarity_search,  # Based on openness (O)
+}
 ```
 
 ## Key Principles
@@ -139,49 +155,52 @@ Persistent version adds:
 1. **Preserve identity** — Core traits survive across runs
 2. **Allow growth** — Episodic → Semantic over time
 3. **Handle scale** — 1000 runs shouldn't slow simulation
-4. **Protect privacy** — Memory data stays local
+4. **Salience-gated writes** — Only significant events get stored
+5. **Protect privacy** — Memory data stays local
 
-## Implementation Notes
+## Storage Format
 
-### Storage Format
 ```json
 {
-  "pair_id": "a1-b2",
-  "runs": [
-    {
-      "run_id": 1,
-      "memories_a": [...],
-      "memories_b": [...],
-      "consolidated": false
+  "agent_id": "twin-a",
+  "layers": {
+    "working": {
+      "current_context": "...",
+      "partial_plan": ["..."],
+      "updated_at": "run_5"
+    },
+    "semantic": {
+      "beliefs": ["..."],
+      "preferences": ["..."],
+      "updated_at": "run_5_consolidation"
+    },
+    "episodic": {
+      "entries": [...],
+      "index": "vector_store"
+    },
+    "identity": {
+      "core_traits": ["..."],
+      "immutable": true
     }
-  ],
-  "consolidated": {
-    "a": {"beliefs": [...], "traits": [...]},
-    "b": {"beliefs": [...], "traits": [...]}
   }
 }
 ```
 
-### Retrieval
-```python
-def get_relevant_memory(agent, current_scenario):
-    # Find memories similar to current context
-    memories = vector_search(
-        query=current_scenario,
-        memory_store=agent.memory,
-        top_k=10
-    )
-    return memories
-```
+## Performance Targets
+
+| Runs | Layer 1 | Layer 2 | Layer 3 | Layer 4 |
+|------|---------|---------|---------|---------|
+| 100 | In-context | Key-value | Vector | File |
+| 1000 | Summarized | Key-value | Vector + compressed | File |
 
 ## Dependencies
 
 - `persona-cloner` — Creates agents with memory capacity
 - `simulation-runner` — Orchestrates memory updates
-- `choice-tracker` — Logs decisions that become memories
+- `choice-tracker` — Decisions become memories
 
 ## Related Skills
 
 - `simulation-runner` — Updates memory after each run
 - `choice-tracker` — Decisions become memories
-- `persona-cloner` — Agents with memory modules
+- `global-workspace` — GNWT broadcast integrates memory output

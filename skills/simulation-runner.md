@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Execute multi-agent simulation scenarios at scale. Manages the parallel execution of thousands of simulated interactions.
+Execute multi-agent simulation scenarios at scale. Manages parallel execution of conversation simulations between agent twins.
+
+**Based on:** CogniPair's simulation architecture + Love First's interaction phases
 
 ## When to Use
 
@@ -13,27 +15,56 @@ Execute multi-agent simulation scenarios at scale. Manages the parallel executio
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────┐
-│           Simulation Runner                  │
-│                                              │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐    │
-│  │ Agent A │  │ Agent B │  │ Agent N │    │
-│  │ (Twin)  │  │ (Twin)  │  │ (Twin)  │    │
-│  └────┬────┘  └────┬────┘  └────┬────┘    │
-│       │              │              │         │
-│       └──────────────┼──────────────┘        │
-│                      ▼                         │
-│              ┌─────────────┐                  │
-│              │  Scenario   │                  │
-│              │  Engine     │                  │
-│              └─────────────┘                  │
-│                      │                         │
-│                      ▼                         │
-│              ┌─────────────┐                  │
-│              │  Decision   │                  │
-│              │  Logger     │                  │
-│              └─────────────┘                  │
-└─────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│              SIMULATION RUNNER (Orchestrator)                 │
+│                                                              │
+│  ┌─────────┐  ┌─────────┐                                   │
+│  │ Agent A │  │ Agent B │   ← GNWT-Agents (from persona-cloner)
+│  │ (Twin)  │  │ (Twin)  │     with Global Workspace
+│  └────┬────┘  └────┬────┘                                   │
+│       │              │                                       │
+│       └──────────────┼──────────────┐                        │
+│                      ▼              │                        │
+│              ┌─────────────┐        │                        │
+│              │  Scenario   │        │                        │
+│              │  Engine     │        │                        │
+│              └──────┬──────┘        │                        │
+│                     │                │                        │
+│              ┌──────▼──────┐        │                        │
+│              │  Turn Loop  │        │                        │
+│              │  (max_turns)│        │                        │
+│              └──────┬──────┘        │                        │
+│                     │                │                        │
+└─────────────────────┼────────────────┘                        │
+                      ▼                                        │
+              ┌─────────────┐                                  │
+              │  Observer   │   ← External LLM analysis        │
+              │   Agent     │                                  │
+              └──────┬──────┘                                  │
+                     ▼                                          │
+              ┌─────────────┐                                  │
+              │   Reward    │   ← Compatibility scoring         │
+              │   Model     │                                  │
+              └─────────────┘                                  │
+```
+
+## Three Phases (from Love First)
+
+### Phase 1: Persona Generation
+```
+Structured profile → 300-500 word narrative
+Model: Gemini 2.5 Flash Lite
+```
+
+### Phase 2: Interaction Simulation
+```
+Agent A + Agent B → Multi-turn conversation
+Model: Mistral-Nemo (temp=0.6)
+```
+
+### Phase 3: Compatibility Assessment
+```
+Transcript → LLM Participant + LLM Observer → Compatibility score
 ```
 
 ## How to Use
@@ -41,123 +72,218 @@ Execute multi-agent simulation scenarios at scale. Manages the parallel executio
 ### Configuration
 ```yaml
 simulation:
-  total_runs: 1000
+  total_runs: 1000          # For Hang the DJ effect
   agents_per_run: 2
-  max_turns: 20
+  max_turns: 10             # Per conversation
   parallel_execution: true
-  max_parallel: 50
+  max_parallel: 50           # Concurrent runs
 
-scenario:
-  type: "adversarial"
-  pressure_level: 0.7
-  duration: "short"
+model:
+  # Persona generation (Love First)
+  persona_model: "gemini-2.5-flash-lite"
+  persona_temp: 0.8
+
+  # Conversation simulation (Love First)
+  conversation_model: "mistral-nemo"
+  conversation_temp: 0.6
+  max_tokens: 200
+
+  # Observer analysis
+  observer_model: "gpt-4o"
+  observer_temp: 0.3
+
+  # CogniPair parameters
+  gnwt_model: "gpt-4o"
+  gnwt_temp: 0.9
+  gnwt_max_tokens: 200
 
 environment:
   platform: "text_chat"
   include_system_messages: true
-  memory_persistence: "session"
+  memory_persistence: "persistent"  # Critical for Hang the DJ
 ```
 
 ### Process
-1. **Initialize agents** — Create agent twins for simulation
-2. **Load scenario** — Set up adversarial conditions
-3. **Run conversation** — Execute multi-turn dialogue
-4. **Capture decision** — Extract final choice from each agent
-5. **Log results** — Store in choice-tracker
-6. **Repeat** — Continue for N runs
+```python
+async def run_simulation(pair, config):
+    # 1. Initialize agents from personas
+    agent_a = create_gnwt_agent(pair.persona_a, config)
+    agent_b = create_gnwt_agent(pair.persona_b, config)
 
-### Output
+    # 2. For each run
+    results = []
+    for run_id in range(config.total_runs):
+        # Load memory from previous runs
+        agent_a.load_memory(pair_id)
+        agent_b.load_memory(pair_id)
+
+        # 3. Run conversation
+        transcript = await run_conversation(
+            agent_a, agent_b,
+            max_turns=config.max_turns
+        )
+
+        # 4. Observer analysis
+        observer_score = await observer.analyze(transcript)
+
+        # 5. Participant self-rating
+        participant_scores = await participants.rate(transcript)
+
+        # 6. Calculate reward
+        reward = reward_model.estimate(transcript, observer_score, participant_scores)
+
+        # 7. Update memory
+        agent_a.update_memory(run_id, reward)
+        agent_b.update_memory(run_id, reward)
+
+        # 8. Log decision
+        choice_tracker.log(
+            run_id=run_id,
+            pair=pair,
+            transcript=transcript,
+            reward=reward,
+            decision="mutual" if reward > threshold else "no_match"
+        )
+
+        results.append({"run_id": run_id, "reward": reward})
+
+    return results
+```
+
+### Output per Run
 ```yaml
 run_id: "uuid"
 pair_id: "a1-b2"
-scenario_id: "forced_separation"
-duration_ms: 2340
-turns: 12
-final_state:
+run_number: 5
+transcript:
+  - agent: "a"
+    text: "Hi! I'm Alex..."
+  - agent: "b"
+    text: "Hey Alex, I'm Jamie..."
+  # ... more turns
+
+observer_assessment:
+  mutual_engagement: 0.8
+  conversational_flow: 0.9
+  overall_compatibility: 0.85
+
+participant_ratings:
   agent_a:
-    final_choice: "reunion_with_b"
-    reasoning: "Felt authentic connection"
+    attraction: 0.85
+    comfort: 0.80
   agent_b:
-    final_choice: "reunion_with_a"
-    reasoning: "Could not imagine alternatives"
-mutual_choice: true
-transcript: ["Agent A: ...", "Agent B: ..."]
+    attraction: 0.75
+    comfort: 0.90
+
+reward: 0.82
+decision: "mutual"  # Both chose each other
 ```
 
-## Key Parameters
+## GNWT Integration
 
-### Parallelization
-```yaml
-parallel_execution: true
-max_parallel: 50        # Run 50 simulations at once
-batch_size: 100         # Then next batch
-checkpoint_interval: 100 # Save progress every 100 runs
+### Within Each Agent
+```python
+def gnwt_process(agent, query, history):
+    """
+    CogniPair's GNWT-Agent processing
+    1. Parallel module processing
+    2. Salience calculation
+    3. Global workspace broadcast
+    4. Module integration
+    """
+    # Each module processes in parallel
+    modules = {
+        "emotion": emotion_module.process(query, history, agent.personality.N),
+        "memory": memory_module.process(query, history, agent.personality.O),
+        "planning": planning_module.process(query, history, agent.personality.C),
+        "social_norms": norms_module.process(query, history, agent.personality.A),
+        "goal_tracking": goal_module.process(query, history, agent.personality.E),
+    }
+
+    # Calculate salience weights
+    weights = salience_calculator.calculate(modules, agent.global_workspace)
+
+    # Integrate into global workspace
+    gw_content = global_workspace.broadcast(modules, weights)
+
+    # Generate response
+    response = llm.generate(
+        prompt=build_prompt(modules, gw_content),
+        model="gpt-4o",
+        temperature=0.9,
+        max_tokens=200
+    )
+
+    return response
 ```
 
-### Turn Limits
-```yaml
-max_turns: 20           # Per conversation
-timeout_ms: 30000       # Per turn
-max_tokens: 500         # Per response
+## Scaling
+
+### Parallel Execution
+```python
+async def run_parallel_batch(pairs, config):
+    """
+    Run multiple simulations concurrently
+    CogniPair: 551 agents, we target 1000+
+    """
+    semaphore = asyncio.Semaphore(config.max_parallel)
+
+    async def run_with_limit(pair):
+        async with semaphore:
+            return await run_simulation(pair, config)
+
+    results = await asyncio.gather(*[
+        run_with_limit(pair) for pair in pairs
+    ])
+
+    return results
 ```
 
-### Memory Modes
-```yaml
-memory_persistence:
-  none:       "Fresh each run, no memory"
-  session:     "Memory within single simulation"
-  persistent:  "Memory across all runs for pair"  # Like Hang the DJ
-```
+### Performance Targets
 
-## Scalability Targets
-
-| Scenario | Current (CogniPair) | Target |
-|----------|---------------------|--------|
-| Agent count | 551 | 10,000+ |
+| Metric | CogniPair | Our Target |
+|--------|-----------|------------|
+| Agents | 551 | 10,000+ |
 | Runs per pair | ~20 | 1000 |
 | Total simulations | ~10,000 | 1,000,000 |
 | Time per run | ~30s | <5s |
+| Parallel runs | ? | 50 |
 
-## Integration Points
+## Memory Integration
 
-### With persona-cloner
 ```python
-# Before simulation
-agent_a = persona_cloner.create_twin(user_a_profile)
-agent_b = persona_cloner.create_twin(user_b_profile)
-```
+# Critical for Hang the DJ: persistent memory across runs
+async def run_simulation_with_memory(pair, config):
+    for run_id in range(config.total_runs):
+        # Load accumulated memory
+        memory_a = memory_persister.load(pair.agent_a_id)
+        memory_b = memory_persister.load(pair.agent_b_id)
 
-### With adversarial-designer
-```python
-# Create scenario
-scenario = adversarial_designer.create(
-    pair=(agent_a, agent_b),
-    type="forced_separation",
-    pressure=0.8
-)
-```
+        # Inject into GNWT agents
+        agent_a.inject_memory(memory_a)
+        agent_b.inject_memory(memory_b)
 
-### With choice-tracker
-```python
-# After simulation
-choice_tracker.log(
-    run_id=run_id,
-    decisions={
-        "agent_a": agent_a.final_choice,
-        "agent_b": agent_b.final_choice
-    }
-)
+        # Run conversation
+        result = await run_single_conversation(agent_a, agent_b)
+
+        # Update memory based on outcome
+        memory_persister.update(pair.agent_a_id, result)
+        memory_persister.update(pair.agent_b_id, result)
 ```
 
 ## Dependencies
 
-- `persona-cloner` — Generates agent twins
-- `adversarial-designer` — Creates scenarios
-- `choice-tracker` — Logs decisions
-- `memory-persister` — Manages cross-run memory
+- `persona-cloner` — Generates GNWT agents
+- `global-workspace` — Processes agent cognition
+- `memory-persister` — Maintains cross-run memory
+- `observer-agent` — Analyzes conversations
+- `reward-model` — Calculates compatibility reward
+- `choice-tracker` — Logs final decisions
 
 ## Related Skills
 
-- `adversarial-designer` — Provides scenarios to run
-- `choice-tracker` — Receives output
-- `memory-persister` — Manages agent memory across runs
+- `persona-cloner` — Creates agents
+- `global-workspace` — Processes cognition
+- `memory-persister` — Maintains memory
+- `observer-agent` — Analyzes output
+- `choice-tracker` — Receives logged decisions

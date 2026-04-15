@@ -4,6 +4,8 @@
 
 Create a digital twin (persona) of a human for simulation purposes. The twin must exhibit consistent personality traits and behave like the original person in social scenarios.
 
+**Based on:** CogniPair's GNWT-Agent initialization + Love First's persona generation (300-500 word narratives)
+
 ## When to Use
 
 - Starting a new simulation with real users
@@ -12,79 +14,138 @@ Create a digital twin (persona) of a human for simulation purposes. The twin mus
 
 ## How to Use
 
-### Input
+### Input Types
+
 ```yaml
+# Type 1: Structured Assessment
 source:
-  type: interview | questionnaire | existing_assessment | social_profile
-data:
-  # For interview: transcript or summary
-  # For questionnaire: Big Five / MBTI / Socionics scores
-  # For social profile: posts, interactions, preferences
+  type: big_five
+  scores:
+    O: 0.7  # Openness
+    C: 0.8  # Conscientiousness
+    E: 0.3  # Extraversion
+    A: 0.6  # Agreeableness
+    N: 0.2  # Neuroticism
+
+# Type 2: Interview Transcript
+source:
+  type: interview
+  transcript: "..."
+  duration_minutes: 45
+
+# Type 3: Socionics/MBTI Type
+source:
+  type: socionics
+  type_code: "LII"
+  quadra: "alpha"
+  functions: ["Ti", "Ne", "Si", "Fe"]
 ```
 
-### Process
-1. **Extract traits** — Identify core personality dimensions
-2. **Map to type** — Classify into personality system (Big Five, MBTI, Socionics, Temporistics)
-3. **Generate behavioral policies** — Define how this persona responds to scenarios
-4. **Validate** — Confirm twin behaves consistently with source
+### Process (3 Phases)
+
+#### Phase 1: Trait Extraction
+```
+Structured Assessment → Direct scores
+Interview Transcript → LLM extracts values, fears, desires
+Social Profile → Behavioral patterns → Inferred traits
+```
+
+#### Phase 2: Narrative Generation
+```
+Extract traits → Generate 300-500 word persona narrative
+```
+
+**From Love First, Know Later:**
+> "Gemini 2.5 Flash Lite generates personas (300-500 words) from structured profiles"
+
+**Persona Narrative Template:**
+```markdown
+[Name] is a [age]-year-old [occupation] who values [top 3 values].
+In social situations, they tend to [behavioral tendency].
+When meeting someone new, they [first impression strategy].
+Their ideal partner would [preference description].
+They are motivated by [drives] and tend to avoid [avoidances].
+Key traits: [list 5-7 defining characteristics]
+```
+
+#### Phase 3: Module Weight Initialization
+```
+Narrative → Map to GNWT cognitive modules:
+
+Emotion Module ← Neuroticism (N)
+Memory Module ← Openness (O)
+Planning Module ← Conscientiousness (C)
+SocialNorms Module ← Agreeableness (A)
+GoalTracking Module ← Extraversion (E)
+```
 
 ### Output
 ```yaml
 persona_id: "uuid"
+persona_name: "Alex"
 type_system: "socionics"
 type_code: "LII"
-traits:
-  oocean:
-    O: 0.7
-    C: 0.8
-    E: 0.3
-    A: 0.6
-    N: 0.2
-behavioral_policies:
+
+# For CogniPair integration
+gnwt_weights:
+  emotion: 0.2      # From N=0.2
+  memory: 0.7        # From O=0.7
+  planning: 0.8     # From C=0.8
+  social_norms: 0.6 # From A=0.6
+  goal_tracking: 0.3 # From E=0.3
+
+# Narrative for LLM
+narrative: |
+  Alex is a 28-year-old software engineer who values intellectual
+  depth, authenticity, and independence. In social situations, they
+  tend to observe before engaging...
+  [300-500 words total]
+
+# Behavioral policies
+policies:
   conflict_response: "retreat_and_analyze"
-  flirtation: "subtle_intellectual"
+  flirtation_approach: "intellectual_bonding"
   loyalty_trigger: "shared_values"
-validation_score: 0.85
+  decision_style: "analytical_deliberate"
+
+validation:
+  target: 5.6/7.0  # CogniPair benchmark
+  method: "self_rating_comparison"
 ```
 
 ## Key Principles
 
-1. **Behavioral consistency** — Twin must respond same way to same stimulus as original would
+1. **Behavioral consistency** — Twin must respond same way to same stimulus as original
 2. **Trait stability** — Core traits don't change; only behaviors adapt to context
 3. **Evolvability** — Twin can learn within simulation without losing core identity
-4. **Cross-system mapping** — Support conversion between Big Five ↔ MBTI ↔ Socionics
+4. **Cross-system mapping** — Support conversion Big Five ↔ MBTI ↔ Socionics
 
-## Implementation Notes
+## Implementation Reference
 
-### Trait Extraction
+### LLM Parameters (from CogniPair)
+```yaml
+model: "gpt-4o"
+temperature: 0.9      # High for persona diversity
+top_p: 1.0
+max_tokens: 200
+min_tokens: 0
 ```
-Interview → LLM extract core values, fears, desires
-Questionnaire → Direct trait scores
-Social profile → Behavioral patterns → Inferred traits
-```
-
-### Type Mapping Reference
-
-| Big Five | MBTI Dichotomy | Socionics | Temporistics |
-|----------|----------------|-----------|--------------|
-| O (Openness) | Intuition > Sensing | Ne/Ni > Se/Si | Future > Present |
-| C (Conscientiousness) | Judging > Perceiving | Te/Ti > Fe/Fi | Order/Captain |
-| E (Extraversion) | Extrovert > Introvert | E/I | Social orientation |
-| A (Agreeableness) | Feeling > Thinking | Fe/Fi > Te/Ti | Harmony/Emotion |
-| N (Neuroticism) | — | Emotional stability | — |
 
 ### Validation Method
-Ask original person to rate twin responses: "Would you say this?"
-Target: 5.6/7.0 (CogniPair benchmark)
+```
+Ask original person: "Would you say this? Rate 1-7"
+Target: 5.6/7.0 (CogniPair human validation benchmark)
+```
 
 ## Dependencies
 
 - `type-mapper` — For cross-system translation
-- `behavior-generator` — For creating response policies
-- `validator` — For consistency checking
+- `global-workspace` — For GNWT module integration
+- `narrative-generator` — For 300-500 word persona creation
 
 ## Related Skills
 
 - `type-mapper` — Converts between personality systems
-- `adversarial-designer` — Uses personas for stress testing
-- `choice-tracker` — Tracks decisions made by persona
+- `global-workspace` — Initializes GNWT cognitive modules
+- `persona-generator` — Creates narrative from structured data
+- `observer-agent` — Validates persona with external analysis

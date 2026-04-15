@@ -1,178 +1,177 @@
 ---
 title: Agentic Skills for Simulation-Based Compatibility Testing
 type: concept
-tags: [skills, architecture, hang-the-dj, simulation, agents]
+tags: [skills, architecture, hang-the-dj, simulation, agents, research-validated]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [skills/index.md]
+sources: [skills/index.md, arxiv.org/abs/2506.03543, arxiv.org/abs/2512.11844]
 ---
 
 # Agentic Skills for "Hang the DJ" Implementation
 
-## Overview
+## Research Foundation
 
-Eight specialized agent skills that, combined, implement the simulation-based compatibility testing seen in Black Mirror's "Hang the DJ". Each skill handles a specific part of the pipeline from persona creation to user explanation.
+| Paper | Venue | Key Contributions |
+|-------|-------|------------------|
+| **CogniPair** | ICLR 2026 | GNWT-Agent, 72% correlation, 5 cognitive modules |
+| **Love First, Know Later** | NeurIPS 2025 | 3-phase pipeline, LLM Observer, reward modeling |
+| **Pairadigm** | 2026 | Bradley-Terry, CGCoT, pairwise comparison |
 
-## Skill Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                     ORCHESTRATOR                            │
 │                                                              │
-│  persona-cloner → simulation-runner → choice-tracker       │
-│         ↑                                    ↓              │
-│         │              memory-persister                    │
-│         │                    ↓                              │
-│         └────────── compatibility-scorer                   │
-│                             ↓                               │
-│                    explanation-generator                      │
-│                             ↓                               │
-│                        USER OUTPUT                          │
+│  persona-cloner → global-workspace → simulation-runner     │
+│         │                                    ↓              │
+│         │              memory-persister (4 layers)         │
+│         │                        ↓                          │
+│         └────────────── choice-tracker                     │
+│                            ↓                               │
+│                    compatibility-scorer (99.8%)            │
+│                            ↓                               │
+│                    explanation-generator                    │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## Core Skills
+## Core Skills (12 Total)
 
-### 1. persona-cloner
+### Persona & Cognition
 
-Creates a digital twin (agent) from real user data.
+| Skill | Purpose | Research Source |
+|-------|---------|----------------|
+| `persona-cloner` | Digital twins with GNWT weights | CogniPair |
+| `persona-generator` | Structured → 300-500 word narrative | Love First |
+| `global-workspace` | GNWT broadcast mechanism | CogniPair |
+| `type-mapper` | Cross-system translation | — |
 
-**Input:** Interview transcript, questionnaire, or existing assessment (Big Five, MBTI, Socionics)
-**Output:** Agent with consistent behavioral policies and validated personality
+### Simulation & Analysis
 
-**Key capability:** Cross-system type mapping (Big Five ↔ MBTI ↔ Socionics)
+| Skill | Purpose | Research Source |
+|-------|---------|----------------|
+| `simulation-runner` | Execute 1000+ scenarios | Love First |
+| `observer-agent` | External LLM analysis | Love First |
+| `adversarial-designer` | Pressure scenarios | Original |
+| `reward-model` | Compatibility as reward function | Love First + Pairadigm |
 
-**Validation target:** 5.6/7.0 (CogniPair benchmark)
+### Persistence & Output
 
-### 2. simulation-runner
+| Skill | Purpose | Research Source |
+|-------|---------|----------------|
+| `memory-persister` | 4-layer memory (2026 best practices) | — |
+| `choice-tracker` | Log repeated choices | Original |
+| `compatibility-scorer` | Calculate 99.8% | — |
+| `explanation-generator` | User-friendly output | — |
 
-Executes multi-agent scenarios at scale.
+## Key Research Insights
 
-**Configuration:**
-- `total_runs: 1000` — Number of simulations per pair
-- `parallel_execution: true` — Run multiple simultaneously
-- `max_parallel: 50` — Batch size for parallel runs
-- `memory_persistence: "persistent"` — Cross-run memory
+### CogniPair: GNWT-Agent
 
-**Output per run:** Transcript, final choices, timing metrics
-
-### 3. choice-tracker
-
-Logs all decisions made by agents across multiple runs.
-
-**Core metric:** `Repeated Choice Score`
 ```
-Compatibility = (Times Chose Each Other / Total Scenarios) × 100
+Each agent has 5 cognitive modules:
+- Emotion Module ← Neuroticism (N)
+- Memory Module ← Openness (O)
+- Planning Module ← Conscientiousness (C)
+- SocialNorms Module ← Agreeableness (A)
+- GoalTracking Module ← Extraversion (E)
+
+All process in parallel, integrated via global workspace.
 ```
 
-**Tracked decisions:**
-- `accept_assigned` / `reject_assigned`
-- `seek_reunion` / `stay_loyal`
-- `switch_partner` / `express_preference`
+### Love First, Know Later: 3 Phases
 
-### 4. compatibility-scorer
+```
+Phase 1: Persona Generation
+  Gemini 2.5 Flash Lite → 300-500 word narrative
 
-Calculates final "99.8%" from tracked choices.
+Phase 2: Interaction Simulation
+  Mistral-Nemo (temp=0.6) → Multi-turn conversation
 
-**Scoring components:**
-1. **Base score** — Raw mutual choice percentage
-2. **Adversarial bonus** — Weight for choices under pressure
-3. **Consistency bonus** — Reward for stable choices over time
-4. **Alignment bonus** — Reward for mutual agreement
+Phase 3: Compatibility Assessment
+  LLM Participant (self-rating) + LLM Observer (external) → Score
+```
 
-**Thresholds:**
-| Score | Signal |
-|-------|--------|
-| 95-100% | Very Strong |
-| 85-94% | Strong |
-| 70-84% | Moderate |
-| 50-69% | Weak |
-| <50% | Very Weak |
+### Love First: Reward Model
 
-### 5. explanation-generator
+```
+Compatibility = Reward Modeling Problem
 
-Transforms percentage into user-understandable narrative.
+Hypothesis 1: Sparse Rewards
+  Relationships determined by CRITICAL MOMENTS, not daily conversation
 
-**Template for 95%+:**
-> "In our simulation, your digital versions met 1,000 times in different scenarios. Every time, they found their way back to each other. When we made it difficult — separated them, created tempting alternatives — they chose each other anyway. That's not chemistry. That's repeated choice."
+Hypothesis 2: Deterministic Decisions
+  In critical moments, people show consistent (low-entropy) behavior
 
-## Support Skills
+Theorem: As LLM policy → human policy:
+  Prediction → Optimal stable matching
+```
 
-### 6. type-mapper
+### Memory: 4 Layers (2026 Best Practices)
 
-Translates personality types between systems.
+```
+Layer 1: Working (ephemeral) — Current context, partial plan
+Layer 2: Semantic (session) — "I prefer people like B"
+Layer 3: Episodic (long-term) — "We chose each other in run 5"
+Layer 4: Identity (immutable) — "I trust my feelings over system"
+```
 
-**Supported mappings:**
-- MBTI ↔ Socionics (established, 0.95 confidence)
-- Big Five ↔ MBTI (approximate, 0.8 confidence)
-- Socionics → Temporistics (theoretical, requires validation)
+## LLM Parameters
 
-### 7. adversarial-designer
+| Use Case | Model | Temperature | Max Tokens |
+|----------|-------|-------------|------------|
+| Persona Generation | Gemini 2.5 Flash Lite | 0.8 | — |
+| Conversation | Mistral-Nemo | 0.6 | 200 |
+| GNWT Processing | gpt-4o | 0.9 | 200 |
+| Observer Analysis | gpt-4o | 0.3 | — |
+| Participant Rating | gpt-4o | 0.7 | — |
 
-Creates scenarios that test compatibility under pressure.
+## "Hang the DJ" Specific Features
 
-**Scenario types:**
-- `forced_separation` — Short duration, then forced to new partners
-- `better_option` — Introduce seemingly "better" compatible partner
-- `distance_test` — Separation with local alternative
-- `system_interference` — App "recommends" breaking up
+### Repeated Choice Metric
 
-**Key metric:** `rebellion_score` — How much agent resisted system assignment
+```
+Score = (Mutual Choices / Total Runs) × 100
 
-### 8. memory-persister
+Example: 998/1000 = 99.8%
+```
 
-Maintains agent memory across simulation runs.
+### Adversarial Scenarios
 
-**Memory layers:**
-1. **Episodic** — "Remember: we chose each other in run 5"
-2. **Semantic** — "Know: I prefer people like B"
-3. **Identity Core** — "Am: Loyal to my choices" (immutable)
+- Forced separation
+- "Better" alternatives
+- System interference
+- Pressure points
 
-**Critical for:** "Hang the DJ" effect where agents remember past choices
+### Cross-Run Memory
 
-## Connection to Research
-
-### CogniPair Foundation
-
-CogniPair (ICLR 2026) provides the base architecture:
-- GNWT-Agent with 5 cognitive modules
-- 72% correlation with human attraction patterns
-- 77.8% match prediction accuracy
-
-Our skills extend CogniPair with:
-- Adversarial scenario design (missing in CogniPair)
-- Repeated choice metric (novel)
-- Cross-system type mapping (Socionics/Temporistics)
-
-### "Hang the DJ" Philosophy
-
-The series teaches us:
-1. **Test under adversity** — Not comfort, but resistance to system pressure
-2. **Repeated choice > single match** — 998/1000 > 100/100
-3. **Rebellion is signal** — Choosing each other despite interference = real compatibility
-4. **Simulation reveals truth** — What questionnaires miss, behavior shows
+Critical for repeated choice effect:
+- Agent remembers previous interactions
+- Preferences evolve based on experience
+- Identity core remains stable
 
 ## Implementation Priority
 
-### Phase 1: MVP (1-2 weeks)
+### Phase 1: MVP (1 week)
 ```
-persona-cloner + simulation-runner + choice-tracker + compatibility-scorer
+persona-generator + persona-cloner + simulation-runner + choice-tracker
 ```
-- 2 typed personas
-- 100 simple scenarios
-- Basic compatibility score
 
-### Phase 2: Full Core (1 month)
+### Phase 2: Research (1 month)
 ```
-+ adversarial-designer + memory-persister + type-mapper + explanation-generator
++ global-workspace + observer-agent + reward-model + memory-persister
 ```
-- 1000 runs with pressure scenarios
-- Cross-run memory
-- User-friendly output
 
-### Phase 3: Research (ongoing)
+### Phase 3: Production
 ```
-+ typology-tester + validation-harness
++ adversarial-designer + compatibility-scorer + explanation-generator
 ```
-- Test Socionics/Temporistics hypotheses
-- Compare simulation vs real-world outcomes
+
+## Validation
+
+| Metric | Benchmark | Target |
+|--------|-----------|--------|
+| Persona accuracy | CogniPair human validation | 5.6/7.0 |
+| Correlation | CogniPair (real human patterns) | 72% |
+| Match prediction | CogniPair | 77.8% |
+| Repeated choice | Hang the DJ | 99.8% |

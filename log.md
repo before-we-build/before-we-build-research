@@ -4,6 +4,31 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] build | Updated skills with research validation (CogniPair + Love First)
+
+**Action:** Updated all skills based on real research implementations
+
+**Key changes:**
+
+1. **persona-cloner** — Added GNWT module weight initialization, real LLM params (gpt-4o, temp=0.9)
+2. **memory-persister** — Rewrote as 4-layer architecture (Working → Semantic → Episodic → Identity)
+3. **simulation-runner** — Added 3-phase pipeline (Love First), real model params (Mistral-Nemo, temp=0.6)
+4. **global-workspace** ⭐ NEW — GNWT broadcast mechanism with 5 cognitive modules
+5. **persona-generator** ⭐ NEW — 300-500 word narratives (Love First, Gemini 2.5 Flash Lite)
+6. **observer-agent** ⭐ NEW — External LLM analysis (Love First LLM Observer)
+7. **reward-model** ⭐ NEW — Compatibility as reward + Bradley-Terry (Love First + Pairadigm)
+8. **index.md** — Updated with research citations, LLM parameters table
+
+**Research sources:**
+- CogniPair (ICLR 2026): GNWT-Agent, 72% correlation, 5 modules
+- Love First, Know Later (NeurIPS 2025): 3-phase pipeline, reward modeling
+- Pairadigm (2026): Bradley-Terry, CGCoT
+- 2026 Memory Best Practices: 4-layer architecture
+
+**Next:** Implement MVP (persona-generator + simulation-runner + choice-tracker)
+
+---
+
 ## [2026-04-15] build | Created 8 agentic skills for Hang the DJ implementation
 
 **Action:** Created modular skill files in `skills/` directory to implement simulation-based compatibility testing
@@ -20,19 +45,6 @@ Chronological record of wiki activity. Append-only.
 | `memory-persister` | Maintain cross-run memory | Episodic + Semantic + Identity |
 | `compatibility-scorer` | Calculate 99.8% | Base + Adversarial + Consistency |
 | `explanation-generator` | User-friendly output | "You keep finding each other" |
-
-**Architecture:**
-```
-persona-cloner → simulation-runner → choice-tracker
-        ↑                              ↓
-        │         memory-persister
-        │                ↓
-        └───── compatibility-scorer
-                        ↓
-              explanation-generator
-                        ↓
-                    USER OUTPUT
-```
 
 **Next:** Implement skills in code, start with MVP (2 personas, 100 scenarios)
 
