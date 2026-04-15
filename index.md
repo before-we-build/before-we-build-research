@@ -130,6 +130,7 @@ wiki/          — LLM-generated wiki
 | [[common-projects]] | Related projects and research | - |
 | [[deep-research-report]] | Agent frameworks, orchestration, memory comparison | - |
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
+| [[hang-the-dj-simulation]] | Black Mirror episode: simulation-based compatibility testing, 99.8% score from 1000 runs | - |
 
 ### Reference
 

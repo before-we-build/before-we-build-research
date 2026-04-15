@@ -4,6 +4,46 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Hang the DJ simulation compatibility
+
+**Action:** Ingested Black Mirror S03E04 "Hang the DJ" analysis as reference for simulation-based compatibility testing
+
+**Source created:**
+- wiki/sources/hang-the-dj-simulation-compatibility.md — Full digest with philosophical implications
+
+**Key insights:**
+1. The system tests DEEP compatibility: not "do you match?" but "would you choose each other under adversity?"
+2. 99.8% = 998/1000 simulations where digital versions chose each other
+3. The rebellion against the system IS the compatibility signal
+4. Parallel to CogniPair: simulation reveals what questionnaires miss
+
+**Questions raised:**
+- Would Socionics "conflict" types have low simulation scores but high real-world scores?
+- Should we test types in adversarial scenarios, not comfortable ones?
+- Is there a difference between "we're compatible" and "we keep choosing each other"?
+
+---
+
+## [2026-04-15] ingest | CogniPair: GNWT-based digital twins for dating
+
+**Action:** Researched CogniPair paper (ICLR 2026) — closest to our project concept
+
+**Source:** arxiv.org/abs/2506.03543
+
+**Key features:**
+- GNWT-Agent: 5 cognitive modules (Emotion, Memory, Planning, SocialNorms, GoalTracking)
+- Global Workspace Theory for consciousness simulation
+- 551 agents, Columbia University Speed Dating dataset
+- **72% correlation with human attraction patterns**
+- **77.8% match prediction accuracy**
+- Human validation: 5.6/7.0 behavioral accuracy
+
+**Limitation:** Uses Big Five (OCEAN), not Socionics/Temporistics
+
+**Our opportunity:** Replace Big Five with Socionics, test if prediction improves
+
+---
+
 ## [2026-04-15] build | Cloned key vendor repos for typology automation
 
 **Action:** Cloned production-ready open-source repos for typology validation pipeline
