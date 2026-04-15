@@ -214,13 +214,14 @@ wiki/          — LLM-generated wiki
 | participant-recruitment.md | How to attract participants: Reddit, Telegram, snowball sampling | - |
 | automated-research-plan.md | Full autonomous pipeline: Typology Agent, 6 automated research agents | - |
 | optimal-2026-tech-stack.md | Optimal 2026 stack: CrewAI + Claude Sonnet 4.6 + GPT Researcher, complete implementation | - |
+| modern-agentic-systems.md | Production-ready systems: InternAgent, The Agentic Researcher, Anthropic patterns, SciDER | arXiv 2026 |
 
 ---
 
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 51 (21 temporistics + 8 psychosophy + 11 socionics + 11 general)
+- **Raw sources**: 52 (21 temporistics + 8 psychosophy + 11 socionics + 12 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15

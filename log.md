@@ -4,6 +4,53 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] research | Modern agentic research systems (don't reinvent wheel)
+
+**Action:** Researched production-ready agentic research systems from arXiv 2026
+
+**Raw sources created:**
+- raw/general/modern-agentic-systems.md — Proven open-source systems ready to use
+
+**Key systems found:**
+
+**1. The Agentic Researcher** (ZIB-IOL, arXiv 2603.15914)
+- 10 Commandments for AI research
+- Sandbox container for autonomous sessions
+- 20+ hours autonomous operation
+- Works with Claude Code, Codex CLI, Gemini CLI
+
+**2. Anthropic Multi-Agent Research System**
+- Orchestrator-worker pattern
+- 90% faster with parallel tool calling
+- 8 principles for research agents
+
+**3. InternAgent 1.5** (Shanghai AI Lab, 1,269 stars)
+- End-to-end scientific discovery
+- Generation + Verification + Evolution
+- State-of-the-art on MLE-Bench
+
+**4. MARS** (Modular Agent with Reflective Search)
+- Cost-efficient: -28% tokens, -17% agent calls
+- Training-free REDEREF controller
+
+**5. Robin** (Multi-Agent Scientific Discovery)
+- First fully automated scientific process
+- Crow + Falcon + Finch agents
+- Drug discovery pipeline
+
+**6. SciDER** (Scientific Data-centric End-to-end Researcher)
+- LangGraph-based
+- Test-time memory
+- Full research lifecycle
+
+**Recommendation for typologies:**
+- Use The Agentic Researcher for methodology
+- Use Anthropic patterns for orchestration
+- Use InternAgent/SciDER for execution
+- Use Hybrid RAG for literature
+
+---
+
 ## [2026-04-15] create | Optimal 2026 tech stack
 
 **Action:** Researched and created optimal 2026 tech stack for automated typology research
