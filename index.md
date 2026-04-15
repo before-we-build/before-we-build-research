@@ -76,6 +76,42 @@ wiki/          — LLM-generated wiki
 |------|---------|---------|
 | [[socionics-overview]] | Overview of socionics: 8 IM elements, Model A, 16 types | raw/socionics/ |
 
+#### Alpha Quadra (Idealistic)
+
+| Page | Summary | Code |
+|------|---------|------|
+| [[ile-intuitive-logical-extrovert]] | Inventive, enthusiastic, creative | ILE (ENTp) |
+| [[lii-intuitive-logical-introvert]] | Logical analyst, systems thinker | LII (INTj) |
+| [[ese-emotional-sensory-extrovert]] | Caring host, warm, hospitable | ESE (ESFj) |
+| [[sli-sensory-logical-introvert]] | Craftsman, practical, skilled | SLI (ISTp) |
+
+#### Beta Quadra (Normative)
+
+| Page | Summary | Code |
+|------|---------|------|
+| [[sle-sensory-logical-extrovert]] | Commander, bold leader, decisive | SLE (ESTp) |
+| [[lie-logical-intuitive-extrovert]] | Entrepreneur, strategic organizer | LIE (ENTj) |
+| [[eie-emotional-intuitive-extrovert]] | Inspirer, charismatic dramatist | EIE (ENFj) |
+| [[lsi-sensory-logical-introvert]] | Inspector, principled guardian | LSI (ISTj) |
+
+#### Gamma Quadra (Pragmatic)
+
+| Page | Summary | Code |
+|------|---------|------|
+| [[sie-sensory-ethical-extrovert]] | Motivator, business-like actor | SIE (ESFp) |
+| [[ili-intuitive-logical-introvert]] | Analyst, strategic critic | ILI (INTp) |
+| [[esi-emotional-sensory-introvert]] | Protector, loyal sentinel | ESI (ISFj) |
+| [[lse-logical-sensory-extrovert]] | Administrator, practical organizer | LSE (ESTj) |
+
+#### Delta Quadra (Humanitarian)
+
+| Page | Summary | Code |
+|------|---------|------|
+| [[iee-intuitive-ethical-extrovert]] | Visionary, humanitarian | IEE (ENFp) |
+| [[eii-emotional-intuitive-introvert]] | Humanist, moralist | EII (INFj) |
+| [[see-sensory-ethical-extrovert]] | Politician, social climber | SEE (ESFp) |
+| [[lii-logical-intuitive-introvert]] | Analyst, scientific researcher | LII (INTj) |
+
 ### Relations
 
 | Page | Summary | Sources |
@@ -166,8 +202,8 @@ wiki/          — LLM-generated wiki
 
 ## Statistics
 
-- **Wiki pages**: ~37
+- **Wiki pages**: ~53
 - **Raw sources**: 34 (21 temporistics + 7 psychosophy + 6 socionics)
-- **Entity pages created**: 18 (16 temporistics + 1 psychosophy + 1 socionics overview)
+- **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 35
 - **Last updated**: 2026-04-15

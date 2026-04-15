@@ -4,6 +4,38 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | All 16 Socionics type pages
+
+**Action:** Created entity pages for all 16 Socionics types across 4 quadras
+
+**Wiki entity pages created:**
+
+**Alpha Quadra (Idealistic):**
+- wiki/entities/ile-intuitive-logical-extrovert.md — ILE (ENTp)
+- wiki/entities/lii-intuitive-logical-introvert.md — LII (INTj)
+- wiki/entities/ese-emotional-sensory-extrovert.md — ESE (ESFj)
+- wiki/entities/sli-sensory-logical-introvert.md — SLI (ISTp)
+
+**Beta Quadra (Normative):**
+- wiki/entities/sle-sensory-logical-extrovert.md — SLE (ESTp)
+- wiki/entities/lie-logical-intuitive-extrovert.md — LIE (ENTj)
+- wiki/entities/eie-emotional-intuitive-extrovert.md — EIE (ENFj)
+- wiki/entities/lsi-sensory-logical-introvert.md — LSI (ISTj)
+
+**Gamma Quadra (Pragmatic):**
+- wiki/entities/sie-sensory-ethical-extrovert.md — SIE (ESFp)
+- wiki/entities/ili-intuitive-logical-introvert.md — ILI (INTp)
+- wiki/entities/esi-emotional-sensory-introvert.md — ESI (ISFj)
+- wiki/entities/lse-logical-sensory-extrovert.md — LSE (ESTj)
+
+**Delta Quadra (Humanitarian):**
+- wiki/entities/iee-intuitive-ethical-extrovert.md — IEE (ENFp)
+- wiki/entities/eii-emotional-intuitive-introvert.md — EII (INFj)
+- wiki/entities/see-sensory-ethical-extrovert.md — SEE (ESFp)
+- wiki/entities/lii-logical-intuitive-introvert.md — LII (INTj)
+
+---
+
 ## [2026-04-15] ingest | Socionics research
 
 **Action:** Deep research on Socionics from bestsocionics.com
