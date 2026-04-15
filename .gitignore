@@ -44,5 +44,8 @@ env/
 .ipynb_checkpoints/
 *.ipynb
 
+# Vendor (external dependencies)
+vendor/
+
 # OS
 Thumbs.db
