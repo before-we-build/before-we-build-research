@@ -4,6 +4,48 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] design | Automated research pipeline
+
+**Action:** Created comprehensive plan for fully automated typology research agent
+
+**Raw sources created:**
+- raw/general/automated-research-plan.md — Typology Agent architecture, 6 automated agents
+
+**Architecture:**
+
+```
+Literature Scout → Hypothesis Generator → Survey Builder
+                                            ↓
+Paper Writer ← Data Analyst ← Recruitment Bot
+                   ↓
+           DATA COLLECTION (Reddit, Telegram)
+```
+
+**6 Automated Agents:**
+1. Literature Scout — ищет исследования (GPT Researcher)
+2. Hypothesis Generator — формулирует гипотезы (Claude)
+3. Survey Builder — создаёт опрос (Google Forms API)
+4. Recruitment Bot — постит в Reddit/Telegram (PRAW)
+5. Data Analyst — анализирует данные (Python + Claude)
+6. Paper Writer — пишет статью (Claude)
+
+**Automation levels:**
+- Level 1: Semi-automatic (human approves final)
+- Level 2: Automatic with oversight
+- Level 3: Fully autonomous
+
+**Implementation options:**
+- No-code: Make.com + APIs ($50/month)
+- Low-code: CrewAI ($20-50/month)
+- Full-code: LangGraph ($100-500/month)
+
+**Timeline:** 3 months to full automation
+- Month 1: Prototype
+- Month 2: Auto-recruitment
+- Month 3: Full pipeline
+
+---
+
 ## [2026-04-15] create | Participant recruitment guide
 
 **Action:** Created practical guide for attracting participants to typology research
