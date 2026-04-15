@@ -4,6 +4,41 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] research | Typology in crisis and war
+
+**Action:** Researched typology applications in war, crisis, military leadership contexts
+
+**Raw sources created:**
+- raw/general/typology-crisis-war.md — Stress resilience groups, military leadership types, crisis teams
+
+**Key findings:**
+
+**Stress resilience groups (Gulenko):**
+- "Fragile" (Aristocrats) - quick reaction, hard recovery
+- "Frame" (Rationals) - trainable under stress
+- "Sticky" (Democrats) - slow accumulation
+- "Flexible" (Left types) - natural management
+
+**Best war types:**
+- SLE (Zhukov) - born commander, iron control
+- SEE (Napoleon) - willpower, innovation
+- LIE - strategic organizer
+
+**Worst for war:**
+- Emotional ethics types in vulnerable position
+- "People of peace, not war"
+
+**Famous leaders typed:**
+- Zhukov → SLE, Stalin → LSI, Churchill → EIE/LIE
+- Zelenskyy → EIE, Rommel → LSI, Bismarck → SLE
+
+**Research:**
+- Russian military psychology uses socionics extensively
+- PTSD correlates with temperament (sanguine/phlegmatic better)
+- Ethnosocionics analyzes nations' integral types
+
+---
+
 ## [2026-04-15] research | Christian perspectives on typologies
 
 **Action:** Researched what Christians think about personality typologies

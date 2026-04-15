@@ -204,13 +204,14 @@ wiki/          — LLM-generated wiki
 |--------|---------|--------|
 | autoreasearch.md | Karpathy's AutoResearch adaptation | - |
 | christian-perspectives.md | Christian views on typologies (Orthodox, Protestant) | Multiple sources |
+| typology-crisis-war.md | Stress resilience, military leadership, crisis teams | Multiple sources |
 
 ---
 
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 41 (21 temporistics + 8 psychosophy + 11 socionics + 1 general)
+- **Raw sources**: 42 (21 temporistics + 8 psychosophy + 11 socionics + 2 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15
