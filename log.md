@@ -4,6 +4,33 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] create | Participant recruitment guide
+
+**Action:** Created practical guide for attracting participants to typology research
+
+**Raw sources created:**
+- raw/general/participant-recruitment.md — Reddit, Telegram, snowball sampling strategies
+
+**Key methods:**
+- Reddit (430M users, targeted subreddits)
+- Telegram channels and chats
+- VK and Discord communities
+- Snowball sampling (friends → their friends)
+- Social media posts (free)
+
+**Target subreddits:**
+- r/MBTI, r/Socionics, r/Jung ( типология)
+- r/psychology (академическая)
+- r/relationship_advice (целевая аудитория)
+
+**Expected results:**
+- 1 Reddit post: 5-20 participants
+- 1 Telegram: 10-50 participants
+- Snowball: 50-200 participants
+- Paid ads ($50): 200-500 participants
+
+---
+
 ## [2026-04-15] research | Agentic research pipelines
 
 **Action:** Researched multi-agent research pipelines and workflow architectures

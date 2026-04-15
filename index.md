@@ -211,13 +211,14 @@ wiki/          — LLM-generated wiki
 | simple-research-guide.md | Beginner-friendly guide: hypothesis → data → analysis → report | - |
 | ai-research-agents.md | AI agents for research: GPT Researcher, The AI Scientist, ChatGPT Code Interpreter | - |
 | agentic-research-pipelines.md | Multi-agent pipelines: Agent Laboratory, CrewAI, STORM, workflow architectures | - |
+| participant-recruitment.md | How to attract participants: Reddit, Telegram, snowball sampling | - |
 
 ---
 
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 48 (21 temporistics + 8 psychosophy + 11 socionics + 8 general)
+- **Raw sources**: 49 (21 temporistics + 8 psychosophy + 11 socionics + 9 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15
