@@ -70,6 +70,12 @@ wiki/          — LLM-generated wiki
 |------|---------|---------|
 | [[psychosophy-overview]] | Overview of psychosophy: Will/Emotion/Logic/Physics | raw/psychosophy/ |
 
+### Entities — Socionics
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [[socionics-overview]] | Overview of socionics: 8 IM elements, Model A, 16 types | raw/socionics/ |
+
 ### Relations
 
 | Page | Summary | Sources |
@@ -139,6 +145,17 @@ wiki/          — LLM-generated wiki
 | fourth-function.md | Fourth function properties | Psychosophy Library |
 | psychosophy-accentuations.md | Subtype system: 8 accentuations per function | BestSocionics |
 
+### socionics/
+
+| Source | Summary | Source |
+|--------|---------|--------|
+| what-is-socionics.md | Official definition and summary | BestSocionics |
+| model-a.md | Model A: 8 functions, properties | BestSocionics |
+| information-aspects.md | 8 information aspects (white/black) | BestSocionics |
+| intertype-relations.md | Types of information exchange | BestSocionics |
+| reinin-traits.md | Additional dichotomies beyond Jung | BestSocionics |
+| subtypes-dcnh.md | DCNH subtype theory | BestSocionics |
+
 ### general/
 
 | Source | Summary |
@@ -149,8 +166,8 @@ wiki/          — LLM-generated wiki
 
 ## Statistics
 
-- **Wiki pages**: ~36
-- **Raw sources**: 28
-- **Entity pages created**: 17 (16 temporistics + 1 psychosophy overview)
-- **Articles ingested**: 29
-- **Last updated**: 2025-04-15
+- **Wiki pages**: ~37
+- **Raw sources**: 34 (21 temporistics + 7 psychosophy + 6 socionics)
+- **Entity pages created**: 18 (16 temporistics + 1 psychosophy + 1 socionics overview)
+- **Articles ingested**: 35
+- **Last updated**: 2026-04-15

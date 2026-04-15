@@ -4,6 +4,31 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Socionics research
+
+**Action:** Deep research on Socionics from bestsocionics.com
+
+**Raw sources created:**
+- raw/socionics/what-is-socionics.md — Official definition and summary
+- raw/socionics/model-a.md — Model A theory (8 functions with properties)
+- raw/socionics/information-aspects.md — 8 information aspects (white/black variants)
+- raw/socionics/intertype-relations.md — Types of information exchange
+- raw/socionics/reinin-traits.md — Additional dichotomies beyond Jung
+- raw/socionics/subtypes-dcnh.md — DCNH subtype theory
+
+**Wiki entity pages created:**
+- wiki/entities/socionics-overview.md — Complete overview of socionics
+
+**Key findings:**
+- Founded by Aušra Augustinavičiūtė based on Jung's work
+- 8 IM elements: Ti, Te, Fi, Fe, Si, Se, Ni, Ne
+- Model A has 8 functions with 7 properties each
+- 16 types organized into 4 quadras (Alpha, Beta, Gamma, Delta)
+- Intertype relations describe information exchange patterns
+- DCNH subtypes can change under environmental influence
+
+---
+
 ## [2025-04-15] ingest | Psychosophy accentuations
 
 **Action:** Researched psychosophy subtype system from BestSocionics
