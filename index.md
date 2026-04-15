@@ -209,13 +209,14 @@ wiki/          — LLM-generated wiki
 | scientific-validation-plan.md | Framework for scientifically validating typological systems | Academic standards |
 | existing-validation-research.md | Existing peer-reviewed studies on MBTI and Socionics | Multiple researchers |
 | simple-research-guide.md | Beginner-friendly guide: hypothesis → data → analysis → report | - |
+| ai-research-agents.md | AI agents for research: GPT Researcher, The AI Scientist, ChatGPT Code Interpreter | - |
 
 ---
 
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 46 (21 temporistics + 8 psychosophy + 11 socionics + 6 general)
+- **Raw sources**: 47 (21 temporistics + 8 psychosophy + 11 socionics + 7 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15

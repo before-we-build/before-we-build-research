@@ -4,6 +4,43 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] research | AI agents for typology research
+
+**Action:** Researched AI agents that can accelerate typology validation research
+
+**Raw sources created:**
+- raw/general/ai-research-agents.md — AI agents for research with practical guide
+
+**Key findings:**
+
+**Speed comparison:**
+- Without AI: ~1 month
+- With AI: ~1 day
+- Speed increase: ~700x
+
+**Available tools:**
+- GPT Researcher: deep research in 5 min, ~$0.10
+- Perplexity AI: instant answers with sources
+- ChatGPT Code Interpreter: data analysis
+- The AI Scientist: full paper generation
+
+**The AI Scientist (Nature 2026):**
+- Generated novel research ideas
+- Wrote and executed experiments
+- Created paper that passed peer review!
+
+**Workflow for typologies:**
+1. Literature review: GPT Researcher (5 min)
+2. Hypothesis generation: ChatGPT (5 min)
+3. Survey creation: AI help
+4. Data analysis: Code Interpreter (5 min)
+5. Report writing: AI (10 min)
+
+**Budget:** $0 (free tools)
+**Time:** 1 day instead of 1 month
+
+---
+
 ## [2026-04-15] create | Simple research guide for beginners
 
 **Action:** Created beginner-friendly research guide
