@@ -1,136 +1,142 @@
-# Выбор агентных харнесов, фреймворков, систем оркестрации и памяти для agent-based приложений
+# Selection of Agent Harnesses, Frameworks, Orchestration Systems, and Memory for Agent-Based Applications
 
-## Исполнительное резюме
+## Executive Summary
 
-Рынок «agent-based» приложений складывается из нескольких слоёв, которые часто смешиваются в одном инструменте: **логика агента (planning/acting/tool-calls)**, **оркестрация (циклы, ветвления, ретраи, durable execution)**, **память и состояние (короткая/долгая, извлечение, персистентность)**, **продакшн-эксплуатация (наблюдаемость, безопасность, деплой, стоимость)**. На практике правильнее выбирать не «один фреймворк», а **конструкцию из 3–5 компонентов** с чёткими границами. Это уменьшает lock-in, облегчает тестирование и миграции.
+The "agent-based" application market consists of several layers often mixed in one tool: **agent logic (planning/acting/tool-calls)**, **orchestration (loops, branching, retries, durable execution)**, **memory and state (short/long-term, retrieval, persistence)**, **production operations (observability, security, deployment, cost)**. In practice, it's better to choose not "one framework" but a **construction of 3–5 components** with clear boundaries. This reduces lock-in, facilitates testing, and enables migrations.
 
-Ключевой архитектурный водораздел: **in-process orchestration** против **durable orchestration**. Библиотечные агент-фреймворки (LangChain / LlamaIndex / Haystack) дают самый быстрый путь к прототипу и удобную экосистему интеграций (например, LangChain подчёркивает единый API поверх провайдеров и большое число интеграций) citeturn8search4turn8search0, но надёжность long-running задач и повторяемость исполнения обычно приходится строить отдельным слоем (воркеры, очереди, WF-движок, идемпотентность). Durable-движки (Temporal) изначально обеспечивают персистентное исполнение и восстановление по истории событий, что лучше подходит для «длинных» бизнес-процессов и контролируемой отказоустойчивости citeturn12view0turn3search4turn3search0.
+Key architectural divide: **in-process orchestration** vs **durable orchestration**. Library agent frameworks (LangChain / LlamaIndex / Haystack) provide the fastest path to prototype and convenient integration ecosystem (e.g., LangChain emphasizes unified API across providers and large number of integrations), but reliability for long-running tasks and execution repeatability usually need to be built as a separate layer (workers, queues, WF engine, idempotency). Durable engines (Temporal) inherently provide persistent execution and recovery from event history, which is better suited for "long" business processes and controlled fault tolerance.
 
-По «памяти» важно разделять: **рабочая память (контекст диалога/треда)**, **долгосрочная память (векторная/гибридная база, политики TTL, персистентность)** и **операционное состояние (state машины/воркфлоу)**. Векторные БД (Weaviate / Milvus) и «developer-first» хранилища (Chroma) по-разному балансируют масштаб, функциональность поиска (гибрид, фильтры), безопасность (RBAC/TLS), наблюдаемость (Prometheus/OpenTelemetry), и операционные затраты citeturn6search0turn7search9turn15search1turn15search12turn18search0turn18search2.
+Regarding "memory," it's important to separate: **working memory (dialog/thread context)**, **long-term memory (vector/hybrid database, TTL policies, persistence)** and **operational state (state machine/workflow state)**. Vector databases (Weaviate / Milvus) and "developer-first" stores (Chroma) balance scale, search functionality (hybrid, filters), security (RBAC/TLS), observability (Prometheus/OpenTelemetry), and operational costs differently.
 
-Если нужен **быстрый старт**: чаще всего выигрывают LangChain или LlamaIndex + Chroma (локально/embedded) и постепенное усиление до Milvus/Weaviate при росте нагрузки citeturn9view1turn9view2turn2search11turn11view2. Если нужен **продакшн для многошаговых/долгих процессов** с жёсткими требованиями к ретраям/идемпотентности/восстановлению — Temporal как «позвоночник» оркестрации, а агент-фреймворк как библиотека внутри воркеров citeturn12view0turn12view2. Для **масштабирования вычислений и сервинга** (параллелизм, GPU, batching) полезны Ray и/или BentoML (в зависимости от того, чему вы доверяете как runtime) citeturn10view1turn13search4turn10view3turn16search2turn17search2. Для **пакетных ETL/cron/DAG**-процессов остаётся сильным Airflow, но его модель не про низкую латентность и не про «durable agent loops» citeturn3search1turn16search3turn13search8.
+If you need a **quick start**: LangChain or LlamaIndex + Chroma (local/embedded) with gradual scaling to Milvus/Weaviate as load grows is usually the winning choice. If you need **production for multi-step/long processes** with strict requirements for retries/idempotency/recovery — Temporal as the orchestration "backbone," with agent framework as a library inside workers. For **compute scaling and serving** (parallelism, GPU, batching), Ray and/or BentoML are useful (depending on what you trust as runtime). For **batch ETL/cron/DAG** processes, Airflow remains strong, but its model is not about low latency or "durable agent loops."
 
-Важная свежая деталь: AutoGen помечен как **maintenance mode**; сам проект рекомендует новым пользователям начинать с Microsoft Agent Framework и даёт руководство по миграции citeturn9view0turn5search11.
+Important update: AutoGen is marked as **maintenance mode**; the project recommends new users start with Microsoft Agent Framework and provides migration guide.
 
-## Определения и границы понятий
+---
 
-Ниже — практичные определения, которые помогают «разложить» стек и не путать инструменты между собой.
+## Definitions and Boundaries
 
-**Agent harness (харнес агента)** — операционная «обвязка», которая превращает агентный код в управляемую систему: контроль запуска/остановки и лимитов, трейсинг и наблюдаемость, тесты/бенчмарки, управление конфигурацией, секретами, ретеншеном логов/трасс, часто — деплой и run-тайм для long-running задач. Примеры признаков харнеса: встроенные eval/observability/bench-инструменты (AutoGen Bench описывает повторяемые прогоны сценариев в контролируемых условиях) citeturn13search0turn13search3; платформенный слой наблюдаемости и evaluation (LangSmith позиционирует observability и evaluation как части полного жизненного цикла) citeturn14search0turn14search1turn14search23.
+Below are practical definitions that help "unfold" the stack and avoid confusing tools with each other.
 
-**Agent framework (агентный фреймворк)** — библиотека/SDK для построения агентной логики: абстракции сообщений, tool calling, циклы «подумай → вызови инструмент → обработай» (например, LangChain описывает агентов как систему, которая умеет делать последовательные/параллельные tool calls и сохранять состояние между ними) citeturn5search4turn5search12. Некоторые фреймворки акцентируют multi-agent общение (AutoGen документирует multi-agent conversation framework) citeturn5search3turn9view0. Важно: фреймворк почти всегда **не равен** продакшн-оркестратору.
+**Agent harness** — operational "wrapper" that transforms agent code into a managed system: run/stop control and limits, tracing and observability, tests/benchmarks, configuration management, secrets, log/trace retention, often — deployment and runtime for long-running tasks. Examples of harness characteristics: built-in eval/observability/bench tools (AutoGen Bench describes repeatable scenario runs in controlled conditions); platform observability and evaluation layer (LangSmith positions observability and evaluation as parts of the full lifecycle).
 
-**Workflow system (система воркфлоу/оркестрации)** — движок и модель исполнения задач/процессов: DAG/графы, расписания, ретраи, распределение задач по воркерам, наблюдаемость, иногда — event-sourcing и детерминированное воспроизведение. Airflow определяет DAG как модель, включающую расписание, задачи и зависимости citeturn3search1turn16search3. Temporal описывает durable execution через Workflows/Activities и хранение Event History, позволяющее переживать сбои citeturn12view0turn3search4turn3search0. Prefect — оркестратор Python-пайплайнов с мониторингом и ретраями задач/флоу citeturn11view3turn3search10turn3search14.
+**Agent framework** — library/SDK for building agent logic: message abstractions, tool calling, "think → call tool → process" loops (e.g., LangChain describes agents as a system that can make sequential/parallel tool calls and maintain state between them). Some frameworks emphasize multi-agent communication (AutoGen documents multi-agent conversation framework). Important: framework is almost always **not equal** to production orchestrator.
 
-**Memory system (система памяти)** — слой хранения и извлечения состояния, используемого агентом: от «короткой памяти» диалога до долгосрочной семантической памяти и профилей. Здесь полезно разделить:
-- **Short-term / thread memory**: хранение состояния треда и последних ходов (LangChain говорит о short-term memory через checkpointer и thread-level persistence) citeturn5search16.
-- **Agent memory API**: интерфейс put/get и настраиваемые реализации (LlamaIndex описывает память агента как компонент с `memory.put()` и `memory.get()`) citeturn5search1.
-- **Long-term semantic memory**: векторный индекс/БД, гибридный поиск, фильтры, политики TTL, мульти-тенантность, RBAC (Weaviate подчёркивает гибридный поиск и RBAC в доках) citeturn6search0turn15search1.
-- **Retrieval pipelines**: выбор извлекателя, rerank, citations/provenance. Концептуальная база RAG — сочетание параметрической памяти модели и непараметрической памяти (dense index), как в классической работе Lewis et al. citeturn4search0turn4search4.
+**Workflow system** — task/process execution engine and model: DAG/graphs, schedules, retries, task distribution to workers, observability, sometimes — event-sourcing and deterministic replay. Airflow defines DAG as a model including schedule, tasks, and dependencies. Temporal describes durable execution through Workflows/Activities and Event History storage enabling failure survival. Prefect — Python pipeline orchestrator with monitoring and task/flow retries.
 
-## Критерии оценки и типовые компромиссы
+**Memory system** — storage and retrieval layer for state used by the agent: from "short-term memory" of dialog to long-term semantic memory and profiles. Here it's useful to separate:
+- **Short-term / thread memory**: thread state and recent turns storage
+- **Agent memory API**: put/get interface with customizable implementations
+- **Long-term semantic memory**: vector index/DB, hybrid search, filters, TTL policies, multi-tenancy, RBAC
+- **Retrieval pipelines**: retriever selection, rerank, citations/provenance. Conceptual basis of RAG is the combination of model's parametric memory and non-parametric memory (dense index).
 
-Ниже — «каркас» оценки. Я намеренно формулирую критерии так, чтобы ими можно было пользоваться и для open-source, и для SaaS/managed вариантов.
+---
 
-### Архитектура и границы ответственности
+## Evaluation Criteria and Typical Tradeoffs
 
-Архитектурный вопрос №1: **где живёт цикл агента** (agent loop) и **как он переживает сбои**.
-- **In-process loop** (внутри одного сервиса/воркера). Плюсы: минимальная латентность и проще дебажить. Минусы: если процесс упал, нужен внешний механизм восстановления и идемпотентность инструментов.
-- **Durable loop** (workflow engine). Плюсы: персистентное исполнение и восстановление. Temporal прямо описывает выполнение Workflows «в устойчивой манере» с обработкой сбоев и ретраями citeturn12view0turn3search4. Минус: цена в сложности и в «детерминизме»/ограничениях модели кода (у Temporal целая документация про Event History и replay-недетерминизм) citeturn3search16turn3search4.
+Below is the "framework" for evaluation. I deliberately formulate criteria so they can be used for both open-source and SaaS/managed options.
 
-Архитектурный вопрос №2: **где хранится состояние**.
-- «Состояние диалога» (chat history), «операционное состояние» (state machine), «память знаний» (vector store) — это разные вещи и часто требуют разных хранилищ.
-- Хорошая практика: **явно разделять**: (a) state воркфлоу, (b) chat-store, (c) vector DB/документное хранилище.
+### Architecture and Responsibility Boundaries
 
-### Масштабирование, латентность, throughput
+**Architectural question #1: where does the agent loop live and how does it survive failures.**
+- **In-process loop** (inside single service/worker). Pros: minimal latency, easier debugging. Cons: if process crashes, need external recovery mechanism and idempotency of tools.
+- **Durable loop** (workflow engine). Pros: persistent execution and recovery. Temporal directly describes Workflow execution "in a resilient manner" with failure handling and retries. Con: cost in complexity and in "determinism"/code model constraints.
 
-Для agent-based систем полезно оценивать латентность по цепочке:
-1) pre-processing/маршрутизация,
-2) retrieval (вектор/гибрид),
-3) rerank,
-4) LLM inference (часто доминирует),
-5) tool calls (внешние API),
-6) пост-обработка и стриминг.
+**Architectural question #2: where is state stored.**
+- "Dialog state" (chat history), "operational state" (state machine), "knowledge memory" (vector store) — these are different things and often require different stores.
+- Good practice: **explicitly separate**: (a) workflow state, (b) chat-store, (c) vector DB/document store.
 
-На уровне инфраструктуры:
-- Ray позиционируется как единый фреймворк для масштабирования Python/AI приложений от ноутбука до кластера и имеет базовые примитивы (tasks, actors) citeturn3search7turn10view1.
-- Для serving’а Ray Serve описывает оптимизации под LLM (streaming, dynamic batching, multi-node/multi-GPU) citeturn13search4.
-- BentoML ориентируется на модельный serving и прямо упоминает оптимизации вроде динамического batching и оркестрации inference-графов; документация отдельно описывает adaptive batching citeturn10view3turn16search2.
+### Scaling, Latency, Throughput
 
-### Надёжность, fault tolerance, state consistency
+For agent-based systems, it's useful to evaluate latency along the chain:
+1. Pre-processing/routing
+2. Retrieval (vector/hybrid)
+3. Rerank
+4. LLM inference (often dominates)
+5. Tool calls (external APIs)
+6. Post-processing and streaming
 
-- Temporal хранит Event History на весь жизненный цикл workflow execution и подчёркивает, что история — durable и переживёт падение сервиса citeturn3search4turn3search0. При этом есть лимиты на размер истории (важно для «болтливых» агентов) citeturn3search0.
-- Airflow и Prefect дают retry/observability, но модель чаще про задачи и планирование, а не про детерминированный «журнал событий» long-running процессов (Prefect описывает задачи как retryable units of work) citeturn3search14turn11view3.
+At the infrastructure level:
+- Ray is positioned as a unified framework for scaling Python/AI applications from laptop to cluster with basic primitives (tasks, actors)
+- For serving, Ray Serve describes optimizations for LLM (streaming, dynamic batching, multi-node/multi-GPU)
+- BentoML focuses on model serving and explicitly mentions optimizations like dynamic batching and inference graph orchestration
 
-### Security, privacy, compliance
+### Reliability, Fault Tolerance, State Consistency
 
-Слой безопасности обычно разный по классам инструментов:
-- Агентные фреймворки — библиотека в вашем приложении; безопасность в основном ваша ответственность (секреты, сетевые политики, фильтрация логов).
-- Базы памяти и workflow-движки — отдельные сервисы, где важны TLS, auth, RBAC, аудит, изоляция тенантов.
+- Temporal stores Event History for the entire workflow execution lifecycle and emphasizes that history is durable and will survive service crashes. There are limits on history size (important for "chatty" agents).
+- Airflow and Prefect provide retry/observability, but the model is more about tasks and scheduling than deterministic "event journal" of long-running processes.
 
-Факты «по месту»:
-- Weaviate документирует RBAC и модель авторизации citeturn15search1turn15search9.
-- Milvus документирует TLS (шифрование в транзите) и отдельно user authentication/RBAC citeturn15search12turn15search4turn15search8.
-- Temporal документирует security для self-hosted и для Cloud; Temporal Cloud различает TLS и mTLS как метод аутентификации, а также описывает сертификаты citeturn15search3turn15search11turn15search7.
-- Chroma документирует наличие аутентификации в client-server режиме и отсутствие её в embedded режиме citeturn15search2.
+### Security, Privacy, Compliance
 
-### Наблюдаемость и управляемость
+Security layer is usually different by tool class:
+- Agent frameworks are libraries in your application; security is mostly your responsibility (secrets, network policies, log filtering).
+- Memory databases and workflow engines are separate services where TLS, auth, RBAC, audit, tenant isolation matter.
 
-В продакшне оценивать нужно не только «есть ли метрики», но и:
-- корреляция: trace/span IDs,
-- cardinality,
-- возможность исключить/анонимизировать PII,
-- наличие UI для run-level дебага,
-- стоимость хранения трейсинга.
+Facts by location:
+- Weaviate documents RBAC and authorization model
+- Milvus documents TLS (encryption in transit) and separately user authentication/RBAC
+- Temporal documents security for self-hosted and Cloud; Temporal Cloud distinguishes TLS and mTLS as authentication methods
+- Chroma documents authentication in client-server mode and its absence in embedded mode
 
-Примеры:
-- Weaviate: Prometheus-совместимые метрики и рекомендации Prometheus/Grafana citeturn17search3.
-- Milvus: отдельная документация по monitoring framework (Prometheus+Grafana) citeturn18search0.
-- Chroma: observability через OpenTelemetry (tracing/logging/metrics) citeturn18search2turn18search6.
-- Ray: dashboard и инструкции по метрикам/Prometheus+Grafana citeturn17search4turn17search5turn17search1.
-- Airflow: UI описан как основной интерфейс для инспекции DAG runs и состояний задач citeturn13search2turn13search8.
+### Observability and Manageability
 
-### Extensibility, интеграции, API, языки, деплой
+In production, evaluate not only "are there metrics" but also:
+- Correlation: trace/span IDs
+- Cardinality
+- Ability to exclude/anonymize PII
+- Presence of UI for run-level debugging
+- Cost of trace storage
 
-- LangChain подчёркивает unified API поверх провайдеров моделей и большой набор интеграций citeturn8search4turn8search0turn8search12.
-- LlamaIndex отдельно перечисляет интеграции для LLM и vector stores citeturn8search1turn8search5.
-- Haystack описывает модель интеграций (дефолтные + партнёрские/комьюнити), и имеет отдельный репозиторий core integrations citeturn8search2turn8search6.
-- Weaviate явно описывает API (REST, GraphQL, gRPC) citeturn7search8turn7search4.
-- Milvus quickstart указывает REST и gRPC и набор языков клиентов citeturn7search9.
-- BentoML описывает упаковку сервисов в «Bento» и containerize как OCI-compliant image citeturn7search7turn7search19.
+Examples:
+- Weaviate: Prometheus-compatible metrics and Prometheus/Grafana recommendations
+- Milvus: separate documentation on monitoring framework (Prometheus+Grafana)
+- Chroma: observability via OpenTelemetry (tracing/logging/metrics)
+- Ray: dashboard and instructions for metrics/Prometheus+Grafana
+- Airflow: UI described as main interface for inspecting DAG runs and task states
 
-## Сравнение популярных проектов
+### Extensibility, Integrations, API, Languages, Deployment
 
-Ниже — сравнительный «срез» по 12 распространённым проектам. В таблице я deliberately использую компактные значения и иногда «оценку автора» (qualitative) — потому что абсолютные цифры latency/throughput зависят от модели, промптов, retrieval стратегии, профиля нагрузки и инфраструктуры. Там, где утверждение фактическое (лицензия, режим поддержки, наличие RBAC/TLS, API, формулировки архитектуры) — я привязываюсь к официальным источникам.
+- LangChain emphasizes unified API across model providers and large set of integrations
+- LlamaIndex separately lists integrations for LLMs and vector stores
+- Haystack describes integration model (default + partner/community), and has separate core integrations repository
+- Weaviate explicitly describes API (REST, GraphQL, gRPC)
+- Milvus quickstart specifies REST and gRPC with client language set
+- BentoML describes packaging services as "Bento" and containerize as OCI-compliant image
 
-### Сводная сравнительная таблица
+---
 
-Обозначения:
-- **Тип**: AF=agent framework, WF=workflow system, RT=distributed runtime, SV=serving, VS=vector store/DB.
-- **Архитектура**: Lib (встраиваемая библиотека), Server (сервис), Engine (durable/WF engine), Hybrid (и то, и то).
-- **Масштаб**: S=single node, H=горизонтальное масштабирование, C=кластер/мульти-ноды.
-- **Надёжность/FT** (qual): Low/Med/High как «насколько инструмент сам по себе решает durable execution & recovery».
-- **Наблюдаемость**: UI/метрики/OTel по докам.
-- **Безопасность**: наличие явной поддержки TLS/auth/RBAC в продукте (не считая «за прокси»).
+## Comparison of Popular Projects
 
-| Проект | Тип | Архитектура | Языки (основные) | Deployment варианты | API/интеграции | LLM support | State & memory | Персистентность/извлечение | Масштаб | Латентность/Throughput (ожид.) | Надёжность/FT | Observability | Security & privacy | Зрелость/активность | Лицензия |
+Below is a comparative "slice" across 12 popular projects. In the table I deliberately use compact values and sometimes "author rating" (qualitative) — because absolute latency/throughput numbers depend on model, prompts, retrieval strategy, load profile, and infrastructure. Where the statement is factual (license, support mode, RBAC/TLS presence, API, architectural formulations) — I reference official sources.
+
+### Summary Comparative Table
+
+Legend:
+- **Type**: AF=agent framework, WF=workflow system, RT=distributed runtime, SV=serving, VS=vector store/DB
+- **Architecture**: Lib (embeddable library), Server (service), Engine (durable/WF engine), Hybrid (both)
+- **Scale**: S=single node, H=horizontal scaling, C=cluster/multi-node
+- **Reliability/FT** (qual): Low/Med/High as "how much the tool itself solves durable execution & recovery"
+- **Observability**: UI/metrics/OTel per docs
+- **Security**: presence of explicit TLS/auth/RBAC support in the product (not counting "behind proxy")
+
+| Project | Type | Architecture | Languages | Deployment | API/Integrations | LLM Support | State & Memory | Persistence/Retrieval | Scale | Latency/Throughput | Reliability/FT | Observability | Security & Privacy | Maturity/Activity | License |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| LangChain | AF (+экосистема) | Lib | Python, JS/TS citeturn9view1 | self-host как часть app; экосистема включает LangSmith deployment citeturn9view1turn14search5 | 1000+ интеграций; unified API для провайдеров citeturn8search0turn8search4 | много провайдеров через provider packages citeturn8search12 | memory как концепт; агенты с persistence across tool calls; short-term через checkpointer citeturn5search0turn5search4turn5search16 | retrieval через интеграции (vector stores и др.) (часто внешние VS) citeturn8search0 | S/H (зависит от вашего рантайма) | низкий оверхед библиотеки; доминирует LLM/IO | Low–Med (зависит от внешнего WF/infra) | через LangSmith (tracing/evals) citeturn14search0turn14search1 | в основном на вас; чувствительны логи/PII | active OSS; экосистема продуктов citeturn9view1 | MIT citeturn9view1 |
-| LlamaIndex | AF/данные+агенты | Lib | Python (+TS) citeturn9view2turn5search17 | self-host; есть enterprise платформа LlamaParse/Parse citeturn9view2 | модульные интеграции; vector stores как точки интеграции citeturn8search5turn9view2 | список LLM интеграций (OpenAI/Anthropic/Google/… ) citeturn8search1 | memory put/get; chat stores; stateful chat engines citeturn5search1turn5search5turn5search9 | retrieval ориентирован на RAG; интеграции с VS citeturn8search5turn4search0 | S/H (через ваш рантайм/VS) | низкий оверхед библиотеки; доминирует LLM/VS | Low–Med | зависит от вашей обвязки | на вас (как библиотека); enterprise опции отдельно | active, широкий набор пакетов интеграций citeturn9view2turn8search9 | MIT citeturn0search1turn9view2 |
-| Haystack | AF (RAG/agents) | Lib | Python citeturn10view0 | self-host; есть enterprise платформа (HPE) | directed multigraph pipelines; интеграции выведены в отдельный repo citeturn5search6turn8search6 | vendor-agnostic (провайдеры перечислены в README) citeturn10view0 | агентная модель + pipelines; прозрачная архитектура retrieval/memory/generation citeturn10view0turn5search2turn5search6 | retrieval через pipeline-компоненты и document stores | S/H (через infra) | низкий оверхед библиотеки; throughput зависит от runtime | Low–Med | трассинг/метрики — через вашу обвязку; есть telemetry секция citeturn10view0 | как библиотека — на вас; enterprise может добавлять контроли | активный OSS; docs и breaking change policy citeturn10view0turn8search22 | Apache-2.0 citeturn0search2turn10view0 |
-| AutoGen | AF (multi-agent) | Lib (+инструменты) | Python (+упоминание .NET поддержки в Core API) citeturn9view0 | self-host; есть Studio (no-code) citeturn9view0 | multi-agent chat framework; Extensions API citeturn9view0turn5search3 | через extensions (OpenAI/AzureOpenAI в примерах) citeturn9view0 | фокус на multi-agent patterns (GroupChat и т.п.) citeturn5search3turn5search11 | зависит от подключённых stores | S/H (через infra) | зависит от реализации; прототипирование быстро | Low–Med | есть AutoGen Bench (benchmark suite) citeturn13search0turn13search3 | требуется своя prod security; есть security note; важное: maintenance mode citeturn9view0turn5search7 | **maintenance mode**; рекомендуют миграцию citeturn9view0turn5search11 | MIT (code) citeturn0search19turn9view0 |
-| Ray | RT (distributed) | Engine/RT | Python (ядро) citeturn10view1turn3search7 | laptop→cluster→Kubernetes citeturn10view1 | tasks/actors/objects; есть Serve/Dashboard citeturn3search7turn17search4 | сам по себе не LLM-фреймворк, но служит базой для LLM workloads/serving citeturn13search4 | stateful actors как модель состояния citeturn3search3turn3search19 | не «память» как VS; state нужно хранить отдельно | C/H | хорош для throughput/параллелизма; latency зависит от распределения | Med (устойчивость на уровне runtime, но не durable бизнес-процесс) | Dashboard; Prometheus metrics; интеграции citeturn17search4turn17search5turn17search1 | security в основном на уровне кластера/сети | active, большой стек библиотек citeturn10view1 | Apache-2.0 citeturn1search0turn10view1 |
-| Prefect | WF | Hybrid (Lib+Server) | Python citeturn11view3turn3search14 | self-host server или Prefect Cloud citeturn11view3turn16search10 | flows/tasks; retries; event-based automations citeturn11view3turn3search10turn3search14 | не про LLM напрямую, но подходит как orchestrator | состояние — через run state; задачи retryable citeturn3search14turn3search2 | персистентность зависит от backend Prefect Server/Cloud | H (через воркеры) | overhead выше, чем in-process; не для ultra-low-latency | Med | UI+мониторинг в реальном времени citeturn16search1turn11view3 | security зависит от self-host/Cloud; требует настройки | active; миграционные гайды (Airflow→Prefect) citeturn3search2 | Apache-2.0 citeturn1search1turn11view3 |
-| Temporal | WF (durable) | Engine (durable) | multi-SDK; server на Go citeturn12view0turn12view2 | self-host или Temporal Cloud citeturn12view2turn8search11 | workflows/activities; event history; retry semantics citeturn12view0turn3search4turn3search0 | не LLM-фреймворк; хорош как backbone для agent workflows | state через детерминированный workflow + history | history durable; limits по event history важны citeturn3search0turn3search4 | C/H | overhead выше, но даёт «гарантии» и восстановление | **High** (встроенная durable execution) citeturn12view0turn3search4 | Web UI; метрики (Prometheus/OpenMetrics в Cloud) citeturn12view0turn18search3turn18search15 | security docs (self-host), TLS/mTLS (Cloud) citeturn15search3turn15search11 | mature; частые релизы citeturn12view0turn8search23 | MIT citeturn1search2turn12view0 |
-| Airflow | WF (DAG, batch) | Engine/Server | Python citeturn13search8turn3search1 | от single-process до distributed citeturn13search8turn16search0 | DAGs: schedule/tasks/dependencies citeturn3search1turn3search9 | не LLM-фреймворк; годится для batch ingestion/ETL (RAG ingestion) | state в метаданных и состояниях задач/DAG runs | персистентность задач через метаданные Airflow | H/C | ориентирован на batch; латентность секунд/минут (планировщик) citeturn16search3 | Med | мощный UI для мониторинга/дебага citeturn13search2turn13search8 | security модель зависит от конфигурации | зрелый Apache-проект citeturn10view2turn1search3 | Apache-2.0 citeturn1search3turn10view2 |
-| BentoML | SV (serving) | Hybrid (Lib+tooling) | Python citeturn10view3turn7search7 | local, Docker/OCI, Kubernetes; BentoCloud citeturn10view3turn7search19turn7search3 | REST API, packaging; интеграция с vLLM упоминает OCI+K8s citeturn7search19turn6search7 | LLM serving через backends (vLLM и др.) citeturn6search7turn17search22 | не “память”; состояние обычно внешнее | persistence/VS — внешние | H/C (через контейнеры/оркестратор) | оптимизации throughput (batching) citeturn16search2 | Med (как serving слой) | метрики через prometheus_client citeturn17search2 | security зависит от окружения; endpoints нужно защищать | активный OSS | Apache-2.0 citeturn2search0turn10view3 |
-| Weaviate | VS (vector DB) | Server | Go (+клиенты) citeturn11view0turn7search8 | self-host; Weaviate Cloud/Agents docs citeturn2search13turn7search8 | REST + GraphQL + gRPC citeturn7search8turn7search4 | модель-провайдеры через модули/интеграции (зависит от setup) | long-term memory: объекты+вектора; TTL; multi-tenancy упомянуты в repo citeturn11view0 | hybrid search (BM25F + vector) citeturn6search0turn6search4 | C/H | подходит для низкой латентности retrieval при верной индексации | Med–High (как DB) | Prometheus-метрики citeturn17search3turn17search11 | RBAC и authn/authz docs citeturn15search1turn15search9 | активный, частые релизы citeturn11view0 | BSD-3-Clause citeturn2search1turn11view0 |
-| Milvus | VS (vector DB) | Server | Go/C++ (+клиенты) | self-host; managed через Zilliz Cloud citeturn11view1turn2search10 | REST+gRPC; клиенты Python/Java/Go/C#/Node citeturn7search9 | не про LLM напрямую; используется как память RAG | long-term memory: ANN search | индексы HNSW/IVF/PQ и др.; docs объясняют trade-offs citeturn6search13turn6search1turn6search5 | C/H | ориентирован на high-perf ANN | Med–High | monitoring framework Prometheus+Grafana citeturn18search0turn18search8 | TLS + auth + RBAC docs citeturn15search12turn15search4turn15search8 | зрелый проект, под эгидой LF AI & Data citeturn11view1 | Apache-2.0 citeturn2search2turn11view1 |
-| Chroma | VS (vector store) | Hybrid (embedded+server) | Python + JS + Go + Docker (доки) citeturn11view2turn7search18 | local/embedded; server; Chroma Cloud citeturn2search11turn11view2 | HTTP client для production; docs рекомендуют async http client citeturn7search6 | не про LLM напрямую; применяется как память | long-term memory (малые/средние); embedded быстро | full-text и hybrid search (RRF) в доках citeturn6search2turn6search10turn6search18 | S/H (Cloud/Server) | часто хорош для DX; масштаб зависит от режима | Med | observability через OpenTelemetry; distinction telemetry vs observability citeturn18search2turn18search6 | auth доступен в client-server; нет auth в embedded citeturn15search2 | активный, есть Cloud | Apache-2.0 citeturn2search3turn11view2 |
+| LangChain | AF (+ecosystem) | Lib | Python, JS/TS | self-host as part of app; ecosystem includes LangSmith deployment | 1000+ integrations; unified API for providers | many providers via provider packages | memory as concept; agents with persistence across tool calls; short-term via checkpointer | retrieval via integrations (vector stores and more) (often external VS) | S/H (depends on your runtime) | low library overhead; LLM/IO dominates | Low–Med (depends on external WF/infra) | via LangSmith (tracing/evals) | mainly on you; PII-sensitive logs | active OSS; product ecosystem | MIT |
+| LlamaIndex | AF/data+agents | Lib | Python (+TS) | self-host; enterprise platform LlamaParse/Parse | modular integrations; vector stores as integration points | LLM integrations list (OpenAI/Anthropic/Google/…) | memory put/get; chat stores; stateful chat engines | retrieval oriented to RAG; VS integrations | S/H (via your runtime/VS) | low library overhead; LLM/VS dominates | Low–Med | depends on your wrapper | on you (as library); enterprise options separately | active, wide integration package set | MIT |
+| Haystack | AF (RAG/agents) | Lib | Python | self-host; enterprise platform (HPE) | directed multigraph pipelines; integrations in separate repo | vendor-agnostic (providers listed in README) | agent model + pipelines; transparent retrieval/memory/generation architecture | retrieval via pipeline components and document stores | S/H (via infra) | low library overhead; throughput depends on runtime | Low–Med | tracing/metrics via your wrapper; telemetry section exists | as library — on you; enterprise can add controls | active OSS; docs and breaking change policy | Apache-2.0 |
+| AutoGen | AF (multi-agent) | Lib (+tools) | Python (+.NET support mention in Core API) | self-host; Studio (no-code) | multi-agent chat framework; Extensions API | via extensions (OpenAI/AzureOpenAI in examples) | focus on multi-agent patterns (GroupChat etc.) | depends on attached stores | S/H (via infra) | depends on implementation; prototyping fast | Low–Med | AutoGen Bench (benchmark suite) | requires own prod security; security note; important: maintenance mode | **maintenance mode**; migration recommended | MIT (code) |
+| Ray | RT (distributed) | Engine/RT | Python (core) | laptop→cluster→Kubernetes | tasks/actors/objects; Serve/Dashboard | not LLM framework itself, but serves as base for LLM workloads/serving | stateful actors as state model | not "memory" as VS; state needs separate storage | C/H | good for throughput/parallelism; latency depends on distribution | Med (resilience at runtime level, but not durable business processes) | Dashboard; Prometheus metrics; integrations | security mainly at cluster/network level | active, large library stack | Apache-2.0 |
+| Prefect | WF | Hybrid (Lib+Server) | Python | self-host server or Prefect Cloud | flows/tasks; retries; event-based automations | not directly about LLM, but fits as orchestrator | state via run state; retryable tasks | persistence depends on Prefect Server/Cloud backend | H (via workers) | higher overhead than in-process; not for ultra-low-latency | Med | UI+real-time monitoring | security depends on self-host/Cloud; requires setup | active; migration guides (Airflow→Prefect) | Apache-2.0 |
+| Temporal | WF (durable) | Engine (durable) | multi-SDK; server in Go | self-host or Temporal Cloud | workflows/activities; event history; retry semantics | not LLM framework; good as backbone for agent workflows | state via deterministic workflow + history | history durable; event history limits important | C/H | higher overhead, but gives "guarantees" and recovery | **High** (built-in durable execution) | Web UI; metrics (Prometheus/OpenMetrics in Cloud) | security docs (self-host), TLS/mTLS (Cloud) | mature; frequent releases | MIT |
+| Airflow | WF (DAG, batch) | Engine/Server | Python | from single-process to distributed | DAGs: schedule/tasks/dependencies | not LLM framework; suitable for batch ingestion/ETL (RAG ingestion) | state in metadata and task/DAG run states | task persistence via Airflow metadata | H/C | batch-oriented; latency seconds/minutes (scheduler) | Med | powerful UI for monitoring/debugging | security model depends on configuration | mature Apache project | Apache-2.0 |
+| BentoML | SV (serving) | Hybrid (Lib+tooling) | Python | local, Docker/OCI, Kubernetes; BentoCloud | REST API, packaging; vLLM integration mentions OCI+K8s | LLM serving via backends (vLLM and others) | not "memory"; state usually external | persistence/VS — external | H/C (via containers/orchestrator) | throughput optimizations (batching) | Med (as serving layer) | metrics via prometheus_client | security depends on environment; endpoints need protection | active OSS | Apache-2.0 |
+| Weaviate | VS (vector DB) | Server | Go (+clients) | self-host; Weaviate Cloud/Agents docs | REST + GraphQL + gRPC | model providers via modules/integrations (depends on setup) | long-term memory: objects+vectors; TTL; multi-tenancy mentioned in repo | hybrid search (BM25F + vector) | C/H | suitable for low-latency retrieval with correct indexing | Med–High (as DB) | Prometheus metrics | RBAC and authn/authz docs | active, frequent releases | BSD-3-Clause |
+| Milvus | VS (vector DB) | Server | Go/C++ (+clients) | self-host; managed via Zilliz Cloud | REST+gRPC; clients Python/Java/Go/C#/Node | not directly about LLM; used as RAG memory | long-term memory: ANN search | HNSW/IVF/PQ indexes and more; docs explain trade-offs | C/H | high-perf ANN-oriented | Med–High | monitoring framework Prometheus+Grafana | TLS + auth + RBAC docs | mature project, under LF AI & Data | Apache-2.0 |
+| Chroma | VS (vector store) | Hybrid (embedded+server) | Python + JS + Go + Docker (docs) | local/embedded; server; Chroma Cloud | HTTP client for production; docs recommend async http client | not directly about LLM; used as memory | long-term memory (small/medium); embedded fast | full-text and hybrid search (RRF) in docs | S/H (Cloud/Server) | often good for DX; scale depends on mode | Med | observability via OpenTelemetry | auth available in client-server; no auth in embedded | active, has Cloud | Apache-2.0 |
 
-### Официальные ссылки на документацию и репозитории
+### Official Documentation and Repository Links
 
-```text
+```
 LangChain
 - Repo: https://github.com/langchain-ai/langchain
 - Docs: https://docs.langchain.com/
@@ -180,142 +186,146 @@ Chroma
 - Docs: https://docs.trychroma.com/
 ```
 
-### Короткие заметки по каждому проекту
+### Short Notes on Each Project
 
 #### LangChain
-LangChain — библиотечный фреймворк для построения LLM-приложений и агентов и одновременно «экосистема», в которой отдельно фигурируют LangGraph (контролируемые agent workflows) и LangSmith (observability/evals/deployment) citeturn9view1turn14search23turn14search5.
+LangChain is a library framework for building LLM applications and agents and simultaneously an "ecosystem," with LangGraph (controlled agent workflows) and LangSmith (observability/evals/deployment) separately featured.
 
-Сильные стороны: большой слой интеграций и единый интерфейс к провайдерам; агентные абстракции и tool calling; развитая платформа наблюдаемости и оценки качества (LangSmith) citeturn8search0turn8search4turn14search0turn14search1. Слабые стороны: в «чистом виде» не даёт durable execution; безопасность/комплаенс и государственное управление данными зависят от вашей архитектуры. Типовые use cases: прототипирование, conversational agents, RAG, tool-using агенты; в проде часто комбинируется с отдельным workflow engine для долгих процессов. Зрелость: активный OSS и активная продуктовая линия citeturn9view1. Лицензия: MIT citeturn9view1.
+Strengths: large integration layer and unified interface to providers; agent abstractions and tool calling; advanced observability and quality assessment platform (LangSmith). Weaknesses: in "pure form" doesn't provide durable execution; security/compliance and data governance depend on your architecture. Typical use cases: prototyping, conversational agents, RAG, tool-using agents; in production often combined with separate workflow engine for long processes. Maturity: active OSS and active product line. License: MIT.
 
 #### LlamaIndex
-LlamaIndex позиционируется как open-source фреймворк для agentic приложений и «data framework» с большим числом интеграционных пакетов citeturn9view2turn8search9. Документация явно раскрывает memory API (put/get), chat engines как stateful интерфейс, и интеграции с vector stores citeturn5search1turn5search5turn8search5.
+LlamaIndex is positioned as an open-source framework for agentic applications and "data framework" with large number of integration packages. Documentation explicitly reveals memory API (put/get), chat engines as stateful interface, and integrations with vector stores.
 
-Сильные стороны: сильный фокус на данных, ingestion и RAG, множество коннекторов; явные абстракции памяти и chat-слоя. Слабые: как библиотека нуждается в продакшн-обвязке (наблюдаемость, ретраи внешних инструментов, деплой). Use cases: RAG чат-боты, «chat with your data», document agents. Зрелость: активный проект; есть enterprise платформа вокруг parsing/OCR/деploy агента citeturn9view2. Лицензия: MIT citeturn0search1turn9view2.
+Strengths: strong focus on data, ingestion and RAG, many connectors; explicit memory and chat layer abstractions. Weaknesses: as a library needs production wrapper (observability, external tool retries, deployment). Use cases: RAG chatbots, "chat with your data," document agents. Maturity: active project; enterprise platform around parsing/OCR/agent deploy exists. License: MIT.
 
 #### Haystack
-Haystack — Python-фреймворк «AI orchestration» с прозрачной моделью pipeline/agent workflows и вынесенными в отдельный репозиторий интеграциями citeturn10view0turn8search6turn5search6.
+Haystack is a Python "AI orchestration" framework with transparent pipeline/agent workflow model and integrations in separate repository.
 
-Сильные стороны: «явная» архитектура пайплайнов (directed multigraph), удобна для production RAG (контроль retrieval/routing); vendor-agnostic модель и развитая экосистема интеграций citeturn10view0turn8search2. Слабые: для long-running/durable бизнес-процессов обычно нужен отдельный workflow engine; наблюдаемость зависит от вашей инфраструктуры. Use cases: production RAG, поисковые/семантические системы, агенты с прозрачными retrieval цепочками. Лицензия: Apache-2.0 citeturn0search2turn10view0.
+Strengths: "explicit" pipeline architecture (directed multigraph), convenient for production RAG (retrieval/routing control); vendor-agnostic model and advanced integration ecosystem. Weaknesses: for long-running/durable business processes usually need separate workflow engine; observability depends on your infrastructure. Use cases: production RAG, search/semantic systems, agents with transparent retrieval chains. License: Apache-2.0.
 
 #### AutoGen
-AutoGen — multi-agent framework, но в репозитории явно указан **maintenance mode** и рекомендация начинать новые проекты с Microsoft Agent Framework; есть migration guide citeturn9view0turn5search11. AutoGen предлагает Core API (message passing, event-driven agents, runtime) и AgentChat API для быстрого прототипирования; также есть Studio и Bench citeturn9view0turn13search0.
+AutoGen is a multi-agent framework, but the repository explicitly states **maintenance mode** and recommends new projects start with Microsoft Agent Framework; migration guide exists. AutoGen offers Core API (message passing, event-driven agents, runtime) and AgentChat API for fast prototyping; also has Studio and Bench.
 
-Сильные стороны: сильные multi-agent паттерны и экосистемные инструменты (bench/studio). Слабые: режим поддержки (без новых фич), продакшн-требования по security/auth нужно строить самостоятельно (в README есть прямое предупреждение) citeturn9view0. Use cases: исследования multi-agent, быстрое прототипирование групповых чатов, сравнение подходов через Bench. Лицензия: MIT (code) citeturn0search19turn9view0.
+Strengths: strong multi-agent patterns and ecosystem tools (bench/studio). Weaknesses: support mode (without new features), prod security/auth requirements need to be built yourself (README has direct warning). Use cases: multi-agent research, fast prototyping of group chats, approach comparison via Bench. License: MIT (code).
 
 #### Ray
-Ray — распределённый runtime с примитивами tasks/actors/objects и экосистемой библиотек; официальные docs подчёркивают задачи и акторы как базовые концепты, а README — масштабирование Python/AI от ноутбука до кластера и Kubernetes citeturn3search7turn10view1turn10view1. Ray Dashboard и Prometheus-метрики документированы для наблюдаемости citeturn17search4turn17search5.
+Ray is a distributed runtime with tasks/actors/objects primitives and library ecosystem; official docs emphasize tasks and actors as basic concepts, and README — scaling Python/AI from laptop to cluster and Kubernetes. Ray Dashboard and Prometheus metrics documented for observability.
 
-Сильные стороны: throughput/параллелизм, удобен как «вычислительный слой» для агентов, особенно когда есть много tool calls/сабтасков, и когда надо эксплуатировать GPU/кластер. Слабые: не заменяет durable workflow engine (state consistency и recovery бизнес-процессов остаются на вас). Use cases: параллельная обработка документов для ingestion, распределённые агенты, LLM serving через Ray Serve citeturn13search4. Лицензия: Apache-2.0 citeturn1search0turn10view1.
+Strengths: throughput/parallelism, convenient as "compute layer" for agents, especially when many tool calls/subtasks exist and when GPU/cluster need exploitation. Weaknesses: doesn't replace durable workflow engine (state consistency and business process recovery remain on you). Use cases: parallel document processing for ingestion, distributed agents, LLM serving via Ray Serve. License: Apache-2.0.
 
 #### Prefect
-Prefect — workflow orchestrator для Python: flow/task, расписания, retries, мониторинг через UI, self-hosted server или managed Cloud citeturn11view3turn16search10turn16search1. Документация и примеры подчёркивают retry и наблюдаемость citeturn3search10turn3search14turn16search7.
+Prefect is a workflow orchestrator for Python: flow/task, schedules, retries, UI monitoring, self-hosted server or managed Cloud. Documentation and examples emphasize retry and observability.
 
-Сильные стороны: удобство для data/automation потоков, гибкость динамического исполнения, UI и простота «поднять сервер и смотреть графы» citeturn16search1turn11view3. Слабые: не даёт того же класса durable execution семантики, что Temporal; не предназначен для ultra-low-latency контуров. Use cases: ingestion pipeline для RAG, периодические jobs, ETL/ELT, бэкграундные агентные задания. Лицензия: Apache-2.0 citeturn1search1turn11view3.
+Strengths: convenience for data/automation flows, dynamic execution flexibility, UI and simplicity "raise server and look at graphs." Weaknesses: doesn't provide the same class of durable execution semantics as Temporal; not designed for ultra-low-latency loops. Use cases: RAG ingestion pipeline, periodic jobs, ETL/ELT, background agent tasks. License: Apache-2.0.
 
 #### Temporal
-Temporal — durable execution платформа: README подчёркивает «resilient execution», автоматическую обработку intermittent failures и retries citeturn12view0. Документация объясняет Event History как устойчивый журнал, переживающий сбои citeturn3search4turn3search0. Есть выбор self-host или Temporal Cloud citeturn12view2turn8search11.
+Temporal is a durable execution platform: README emphasizes "resilient execution," automatic handling of intermittent failures and retries. Documentation explains Event History as durable journal surviving crashes. Choice of self-host or Temporal Cloud available.
 
-Сильные стороны: гарантии исполнения long-running процессов, детерминированные replay-тесты, сильный контроль над ретраями и состоянием; подходит как «скелет» для агентных бизнес-процессов. Слабые: усложняет архитектуру и накладывает дисциплину детерминированного workflow-кода; нужно следить за ростом Event History (лимиты) citeturn3search0turn3search16. Use cases: многошаговые агентные процессы, оркестрация multi-agent как набор workflow/activities, интеграции с внешними системами с идемпотентностью. Лицензия: MIT citeturn12view0turn1search2.
+Strengths: guarantees for long-running process execution, deterministic replay tests, strong control over retries and state; fits as "skeleton" for agentic business processes. Weaknesses: complicates architecture and imposes deterministic workflow code discipline; need to watch Event History growth (limits). Use cases: multi-step agent processes, multi-agent orchestration as workflow/activities set, integrations with external systems with idempotency. License: MIT.
 
 #### Airflow
-Airflow — оркестратор batch-oriented workflows; documentation определяет DAG как модель со schedule/tasks/dependencies и описывает scheduler, который мониторит задачи/даги и триггерит task instances citeturn3search1turn16search3turn13search8. UI — основной интерфейс для диагностики DAG runs и состояний задач citeturn13search2.
+Airflow is a batch-oriented workflow orchestrator; documentation defines DAG as model with schedule/tasks/dependencies and describes scheduler that monitors tasks/dags and triggers task instances. UI is main interface for DAG runs and task states diagnostics.
 
-Сильные стороны: зрелая модель для batch и расписаний, огромная экосистема операторов/провайдеров, сильный UI. Слабые: не предназначен для «живых» agent loops с низкой латентностью; модель планировщика (по умолчанию циклы раз в минуту) не про реалтайм citeturn16search3. Use cases: ingestion/ETL для RAG, ночные/периодические пайплайны, backfills. Лицензия: Apache-2.0 citeturn1search3turn10view2.
+Strengths: mature model for batch and schedules, huge operator/provider ecosystem, strong UI. Weaknesses: not designed for "live" agent loops with low latency; scheduler model (default cycles every minute) not about real-time. Use cases: RAG ingestion/ETL, nightly/periodic pipelines, backfills. License: Apache-2.0.
 
 #### BentoML
-BentoML — serving для AI/ML: README описывает упаковку и деплой через Docker и BentoCloud, упоминает оптимизации inference (dynamic batching) citeturn10view3turn16search2. Документация описывает «Bentos» как стандартный формат packaging и `bentoml containerize` как OCI-compliant image builder citeturn7search7turn7search19. Есть справка по метрикам через Prometheus client citeturn17search2.
+BentoML is serving for AI/ML: README describes packaging and deploy via Docker and BentoCloud, mentions inference optimizations (dynamic batching). Documentation describes "Bentos" as standard packaging format and `bentoml containerize` as OCI-compliant image builder. Metrics documentation via Prometheus client.
 
-Сильные стороны: быстро делает из inference кода управляемый сервис; помогает с контейнеризацией, batching и scaling; подходит для LLM-serving в связке с backends (пример с vLLM) citeturn6search7turn17search22. Слабые: не решает оркестрацию агентных процессов и «память» сама по себе. Use cases: production API для модели/агента, сервисы embedder/reranker, inference pipelines. Лицензия: Apache-2.0 citeturn10view3turn2search0.
+Strengths: quickly makes inference code a managed service; helps with containerization, batching and scaling; fits LLM-serving in connection with backends (example with vLLM). Weaknesses: doesn't solve orchestration of agent processes and "memory" by itself. Use cases: production API for model/agent, embedder/reranker services, inference pipelines. License: Apache-2.0.
 
 #### Weaviate
-Weaviate — vector DB с REST/GraphQL/gRPC API citeturn7search8turn7search4, гибридным поиском (BM25F + vector fusion) citeturn6search0turn6search4 и документацией по RBAC citeturn15search1turn15search9. Есть Prometheus metrics для мониторинга citeturn17search3.
+Weaviate is vector DB with REST/GraphQL/gRPC API, hybrid search (BM25F + vector fusion) and RBAC documentation. Prometheus metrics for monitoring available.
 
-Сильные стороны: богатая функциональность retrieval (гибрид, операторы), безопасность и многопользовательский режим (RBAC) как часть продукта, зрелая эксплуатация. Слабые: как полноценная БД требует операционных усилий (кластер, обновления, capacity planning). Use cases: long-term memory/knowledge base, RAG на больших объёмах, hybrid search. Лицензия: BSD-3-Clause citeturn11view0turn2search1.
+Strengths: rich retrieval functionality (hybrid, operators), security and multi-user mode (RBAC) as part of product, mature operations. Weaknesses: as full-featured DB requires operational effort (cluster, updates, capacity planning). Use cases: long-term memory/knowledge base, RAG at scale, hybrid search. License: BSD-3-Clause.
 
 #### Milvus
-Milvus — cloud-native vector DB для ANN search; README упоминает, что проект под эгидой LF AI & Data Foundation, и что есть managed вариант на Zilliz Cloud citeturn11view1turn2search10. Документация описывает индексы (HNSW, IVF_PQ) и trade-offs память/латентность citeturn6search13turn6search1turn6search5, а также security (TLS, auth, RBAC) citeturn15search12turn15search4turn15search8 и мониторинг (Prometheus/Grafana) citeturn18search0turn18search8.
+Milvus is cloud-native vector DB for ANN search; README mentions project under LF AI & Data Foundation, and managed option on Zilliz Cloud. Documentation describes indexes (HNSW, IVF_PQ) and memory/latency trade-offs, also security (TLS, auth, RBAC) and monitoring (Prometheus/Grafana).
 
-Сильные стороны: производительность и масштаб для больших векторных коллекций, развитые индексы, продакшн-эксплуатация. Слабые: сложнее, чем «легковесные» варианты; требует грамотного выбора индекса и параметров. Use cases: высоконагруженный retrieval, long-term memory, большие RAG базы. Лицензия: Apache-2.0 citeturn2search2turn11view1.
+Strengths: performance and scale for large vector collections, advanced indexes, production operations. Weaknesses: more complex than "lightweight" options; requires competent index and parameter choice. Use cases: high-load retrieval, long-term memory, large RAG bases. License: Apache-2.0.
 
 #### Chroma
-Chroma — «developer-first» векторное хранилище: поддержка embedded режима и client-server, простой API; репозиторий прямо показывает, что есть Python и JS клиенты и команда `chroma run` для server mode citeturn11view2. Документация фиксирует Apache-2.0 и наличие managed Chroma Cloud citeturn2search11turn11view2. Есть hybrid search и full-text возможности (в доках) citeturn6search18turn6search10, observability через OpenTelemetry citeturn18search2turn18search6 и документация по authentication для client-server режима citeturn15search2.
+Chroma is "developer-first" vector store: embedded mode and client-server support, simple API; repository shows Python and JS clients and `chroma run` command for server mode. Documentation specifies Apache-2.0 and managed Chroma Cloud availability. Hybrid search and full-text capabilities exist (in docs), observability via OpenTelemetry and authentication documentation for client-server mode.
 
-Сильные стороны: скорость прототипирования, «встроить в приложение» без отдельного кластера, понятная эксплуатация на малых объёмах. Слабые: embedded режим без аутентификации; масштабирование и enterprise-контроли обычно лучше закрывают полноценные БД. Use cases: прототипы RAG, небольшие memory базы, дев/стейдж окружения.
+Strengths: prototyping speed, "embed in application" without separate cluster, understandable operations at small scale. Weaknesses: embedded mode without authentication; scaling and enterprise controls usually better served by full-featured DBs. Use cases: RAG prototypes, small memory bases, dev/staging environments.
 
-## Подбор решений по сценариям и decision flow
+---
 
-### Практические критерии выбора по use case
+## Selecting Solutions by Use Cases and Decision Flow
 
-**Прототипирование (days–weeks, быстрые итерации)**
-- Что важно: DX, простые интеграции, быстрый старт, минимальная инфраструктура.
-- Типовой стек: LangChain или LlamaIndex как агент-фреймворк citeturn9view1turn9view2 + Chroma embedded/server citeturn11view2turn2search11. Для наблюдаемости качества — быстро подключать трейсинг/evals (LangSmith как пример платформенного слоя) citeturn14search0turn14search1.
+### Practical Selection Criteria by Use Case
 
-**Production conversational agents (SLA, мониторинг, безопасные tool calls)**
-- Что важно: наблюдаемость «по траектории агента», контроль tool calls, стейт тредов, защита PII, стабильные интеграции.
-- Типовой стек: LangChain + short-term memory/checkpointing citeturn5search16turn5search4 + векторная БД для долговременной памяти (Weaviate/Milvus; Chroma для меньших масштабов) citeturn6search0turn6search13turn11view2. Для продакшн-оркестрации долгих задач — выносить фоновые процессы в WF engine (Temporal/Prefect) citeturn12view0turn11view3.
+**Prototyping (days–weeks, fast iterations)**
+- What's important: DX, simple integrations, fast start, minimal infrastructure
+- Typical stack: LangChain or LlamaIndex as agent framework + Chroma embedded/server. For quality observability — quickly add tracing/evals (LangSmith as example of platform layer)
 
-**Multi-agent orchestration (координация ролей, group chat, распределение задач)**
-- Что важно: модель коммуникации (agents-as-actors vs agents-as-workflows), управление состоянием группы, повторяемость, политика остановки, дебаг.
-- Если цель — research/прототип: AutoGen удобен, но учесть maintenance mode и план миграции citeturn9view0turn5search11.
-- Для продакшна: чаще полезнее сделать «роль агентов» как activities/workers под контролем Temporal (durable orchestration) citeturn12view0turn3search4, а multi-agent логику оставить в коде библиотечного фреймворка.
+**Production conversational agents (SLA, monitoring, secure tool calls)**
+- What's important: observability "along agent trajectory," tool call control, thread state, PII protection, stable integrations
+- Typical stack: LangChain + short-term memory/checkpointing + vector DB for long-term memory (Weaviate/Milvus; Chroma for smaller scales). For production orchestration of long tasks — move background processes to WF engine (Temporal/Prefect)
+
+**Multi-agent orchestration (role coordination, group chat, task distribution)**
+- What's important: communication model (agents-as-actors vs agents-as-workflows), group state management, repeatability, stopping policy, debug
+- If goal is research/prototype: AutoGen is convenient, but account for maintenance mode and migration plan
+- For production: often more useful to make "agent roles" as activities/workers under Temporal control (durable orchestration), keeping multi-agent logic in library framework code
 
 **RAG pipelines (ingestion + retrieval + generation)**
-- Что важно: качество retrieval (hybrid/rerank), воспроизводимость ingestion, наблюдаемость, способность к backfill.
-- Для быстрого RAG: LlamaIndex или Haystack (оба ориентированы на retrieval/pipelines) citeturn8search5turn5search6turn10view0.
-- Для ingestion по расписанию: Airflow (DAG и scheduler) citeturn3search1turn16search3 или Prefect. Retrieval memory: Weaviate (hybrid) citeturn6search0 или Milvus (индексы и масштаб) citeturn6search13turn6search1.
+- What's important: retrieval quality (hybrid/rerank), ingestion reproducibility, observability, ability for backfill
+- For quick RAG: LlamaIndex or Haystack (both focused on retrieval/pipelines)
+- For scheduled ingestion: Airflow (DAG and scheduler) or Prefect. Retrieval memory: Weaviate (hybrid) or Milvus (indexes and scale)
 
-**Long-term memory (персонализация, профили, знания, “evergreen” память)**
-- Что важно: персистентность, ACL/RBAC, аудит, multi-tenancy, TTL/retention, гибридный поиск.
-- Weaviate: RBAC + hybrid search + Prometheus мониторинг citeturn15search1turn6search0turn17search3.
-- Milvus: TLS/auth/RBAC + развитые индексы + Prometheus/Grafana citeturn15search12turn15search8turn18search0turn6search13.
-- Chroma: удобно, но security и масштаб нужно оценивать по режиму (embedded vs server) citeturn15search2turn11view2.
+**Long-term memory (personalization, profiles, knowledge, "evergreen" memory)**
+- What's important: persistence, ACL/RBAC, audit, multi-tenancy, TTL/retention, hybrid search
+- Weaviate: RBAC + hybrid search + Prometheus monitoring
+- Milvus: TLS/auth/RBAC + advanced indexes + Prometheus/Grafana
+- Chroma: convenient, but security and scale need evaluation by mode (embedded vs server)
 
-**Real-time control (низкая латентность, реактивное управление, event-driven)**
-- Что важно: p95/p99 latency, предсказуемость, управление параллелизмом, backpressure, безопасность tool calls.
-- Обычно избегают тяжёлых DAG-движков как «внутреннего цикла». Ray actors хорошо подходят как модель stateful workers citeturn3search3turn3search19. Для inference/serving — Ray Serve или BentoML (batching/streaming) citeturn13search4turn16search2.
-- Для «долгих» компенсирующих транзакций поверх real-time контура — отдельный durable workflow (Temporal) citeturn12view0turn3search4.
+**Real-time control (low latency, reactive management, event-driven)**
+- What's important: p95/p99 latency, predictability, concurrency management, backpressure, secure tool calls
+- Usually avoid heavy DAG engines as "inner loop." Ray actors fit well as stateful workers model. For inference/serving — Ray Serve or BentoML (batching/streaming)
+- For "long" compensating transactions over real-time circuit — separate durable workflow (Temporal)
 
-### Рекомендуемый decision flow / чеклист выбора
+### Recommended Decision Flow / Selection Checklist
 
-Ниже — практическая последовательность, которая обычно отсекает 70–80% неопределённости.
+Below is a practical sequence that usually eliminates 70–80% of uncertainty.
 
-1) **Определите тип работы:** интерактивный чат/реалтайм или batch/фон. Airflow прямо ориентирован на batch-oriented workflows citeturn13search8 — это хороший «флажок», что для realtime-агентов он редко оптимален.
+1) **Determine work type:** interactive chat/realtime or batch/background. Airflow is directly oriented toward batch-oriented workflows — this is a good "flag" that for realtime agents it's rarely optimal.
 
-2) **Нужна ли durable execution семантика?**  
-Если процесс может длиться минуты/часы/дни, должен переживать рестарты и иметь воспроизводимость — Temporal как класс решений. Temporal документирует Event History как durable журнал, переживающий сбои citeturn3search4turn3search0.
+2) **Is durable execution semantics needed?**
+If process can last minutes/hours/days, must survive restarts and have reproducibility — Temporal as class of solutions. Temporal documents Event History as durable journal surviving crashes.
 
-3) **Где будет состояние?**
-- Thread memory (диалог) — нужен ли checkpointer/хранилище (LangChain) citeturn5search16.
-- Long-term memory — нужен ли RBAC/multi-tenancy/hybrid search (Weaviate/Milvus) citeturn15search1turn15search8turn6search0.
+3) **Where will state be?**
+- Thread memory (dialog) — need checkpointer/storage (LangChain)?
+- Long-term memory — need RBAC/multi-tenancy/hybrid search (Weaviate/Milvus)?
 
-4) **Какой профиль retrieval?**
-- Нужен гибрид (keyword+semantic) — Weaviate hybrid search (BM25F+vector fusion) citeturn6search0turn6search4 или Chroma hybrid search (RRF) citeturn6search2turn6search18.
-- Нужен масштаб и выбор ANN индекса — Milvus (HNSW/IVF/PQ и объяснение trade-offs) citeturn6search13turn6search1turn6search5.
+4) **What is the retrieval profile?**
+- Need hybrid (keyword+semantic) — Weaviate hybrid search (BM25F+vector fusion) or Chroma hybrid search (RRF)
+- Need scale and ANN index choice — Milvus (HNSW/IVF/PQ with trade-off explanation)
 
-5) **Наблюдаемость и eval в продакшне:**
-- Хотите «агент-уровневые» трейсы и оценку качества — выделяйте слой харнеса/eval (например, LangSmith описывает observability и evaluation) citeturn14search0turn14search1.
-- Для инфраструктурных компонентов: Prometheus/Grafana или OpenTelemetry (Weaviate, Milvus, Chroma, Ray имеют официальные материалы) citeturn17search3turn18search0turn18search2turn17search5.
+5) **Observability and eval in production:**
+- Want "agent-level" traces and quality assessment — separate harness/eval layer (e.g., LangSmith describes observability and evaluation)
+- For infrastructure components: Prometheus/Grafana or OpenTelemetry (Weaviate, Milvus, Chroma, Ray have official materials)
 
-6) **Security/compliance constraints (PII, ключи, аудит):**
-- Если требуется RBAC в memory store — Weaviate/Milvus документационно подтверждают такие механизмы citeturn15search1turn15search8.
-- Если требуется mTLS для orchestration слоя — Temporal Cloud описывает mTLS и сертификаты citeturn15search11turn15search7.
+6) **Security/compliance constraints (PII, keys, audit):**
+- If RBAC in memory store is required — Weaviate/Milvus documentation confirm such mechanisms
+- If mTLS for orchestration layer is required — Temporal Cloud describes mTLS and certificates
 
-### Мини-матрица решений: use cases → топ-3
+### Mini Decision Matrix: Use Cases → Top 3
 
-| Use case | Лучшие 3 (порядок) | Почему именно они |
+| Use Case | Top 3 (order) | Why Exactly |
 |---|---|---|
-| Прототип агента | LangChain; LlamaIndex; Chroma | Быстрый старт и интеграции (LangChain), сильный data/RAG слой (LlamaIndex), простая память без кластера (Chroma) citeturn8search0turn8search5turn11view2 |
-| Продакшн чат + память | LangChain; Weaviate; Milvus | Агентный слой + short-term memory (LangChain); RBAC/hybrid (Weaviate) или масштаб/индексы/TLS(RBAC) (Milvus) citeturn5search16turn6search0turn15search12turn15search8 |
-| Multi-agent orchestration | Temporal; LangChain; Ray | Temporal как durable backbone; LangChain для agent/tool логики; Ray для масштабирования параллельных сабтасков citeturn12view0turn5search4turn3search7 |
-| RAG pipeline (prod) | Haystack; Milvus; Airflow | Haystack как прозрачный pipeline/agent orchestration; Milvus как high-perf retrieval; Airflow для ingestion/backfills по расписанию citeturn10view0turn6search13turn3search1 |
-| Long-term memory/knowledge base | Weaviate; Milvus; Chroma | Weaviate — гибрид+RBAC; Milvus — масштаб+индексы+TLS/RBAC; Chroma — лёгкая альтернатива для меньших объёмов citeturn6search0turn15search1turn6search13turn15search12turn15search2 |
-| Реалтайм контур + serving | Ray Serve; BentoML; Temporal | Ray Serve и BentoML про throughput/стриминг/batching; Temporal — для «долгой» компенсации/оркестрации вне realtime цикла citeturn13search4turn16search2turn12view0 |
+| Agent prototype | LangChain; LlamaIndex; Chroma | Fast start and integrations (LangChain), strong data/RAG layer (LlamaIndex), simple memory without cluster (Chroma) |
+| Production chat + memory | LangChain; Weaviate; Milvus | Agent layer + short-term memory (LangChain); RBAC/hybrid (Weaviate) or scale/indexes/TLS+RBAC (Milvus) |
+| Multi-agent orchestration | Temporal; LangChain; Ray | Temporal as durable backbone; LangChain for agent/tool logic; Ray for parallel subtask scaling |
+| RAG pipeline (prod) | Haystack; Milvus; Airflow | Haystack as transparent pipeline/agent orchestration; Milvus as high-perf retrieval; Airflow for scheduled ingestion/backfills |
+| Long-term memory/knowledge base | Weaviate; Milvus; Chroma | Weaviate — hybrid+RBAC; Milvus — scale+indexes+TLS+RBAC; Chroma — lightweight alternative for smaller volumes |
+| Realtime circuit + serving | Ray Serve; BentoML; Temporal | Ray Serve and BentoML for throughput/streaming/batching; Temporal for "long" compensation/orchestration outside realtime loop |
 
-## Референсные архитектуры
+---
 
-Ниже — три типовых схемы. Идея не в том, что «так надо всегда», а в том, чтобы **явно выделить границы**: где цикл агента, где durable orchestration, где память, где наблюдаемость.
+## Reference Architectures
 
-### Простой conversational agent с короткой памятью
+Below are three typical schemes. The idea is not that "this is how it must always be," but to **explicitly delineate boundaries**: where is agent loop, where is durable orchestration, where is memory, where is observability.
+
+### Simple Conversational Agent with Short Memory
 
 ```mermaid
 flowchart LR
@@ -331,9 +341,9 @@ flowchart LR
   APP --> OBS[Tracing/Logs/Metrics]
 ```
 
-Ключевые решения: (1) хранить thread-level state отдельно (checkpointer/DB/Redis), (2) не логировать PII в traces, (3) инструментальные вызовы делать идемпотентными.
+Key decisions: (1) store thread-level state separately (checkpointer/DB/Redis), (2) don't log PII in traces, (3) make tool calls idempotent.
 
-### RAG pipeline с vector DB и долгосрочной памятью
+### RAG Pipeline with Vector DB and Long-Term Memory
 
 ```mermaid
 flowchart TB
@@ -356,9 +366,9 @@ flowchart TB
   GEN --> OBS[Tracing/Evals/Monitoring]
 ```
 
-Концептуально это соответствует идее RAG как комбинации параметрической памяти LLM и непараметрической памяти (dense vector index) citeturn4search0turn4search4. Практически ключевые параметры качества — стратегия чанкинга, фильтры, hybrid поиск (где нужен), rerank, и политика обновления индекса.
+Conceptually this corresponds to the idea of RAG as combination of LLM's parametric memory and non-parametric memory (dense vector index). Practically, key quality parameters are chunking strategy, filters, hybrid search (where needed), rerank, and index update policy.
 
-### Multi-agent workflow + orchestration
+### Multi-Agent Workflow + Orchestration
 
 ```mermaid
 flowchart LR
@@ -379,143 +389,148 @@ flowchart LR
   WF --> OBS[Metrics/Tracing/UI]
 ```
 
-Если использовать Temporal-подобный движок, принципиально важны: (a) хранение истории событий, (b) replay тесты и контроль недетерминизма, (c) управление ростом history (лимиты) citeturn3search4turn3search16turn3search0.
+If using Temporal-like engine, critically important: (a) event history storage, (b) replay tests and non-determinism control, (c) history growth management (limits).
 
-## Производительность, стоимость и какие бенчмарки искать
+---
 
-### Где реально «горит» latency и стоимость
+## Performance, Cost, and Benchmarks
 
-1) **LLM inference** (обычно доминирует): токены входа (context) + токены выхода. Стоимость и latency — функция модели, провайдера и режима (streaming, batch).
-2) **Tool calls**: внешние API часто дают «хвосты» p95/p99, сетевые таймауты, rate limits.
-3) **Retrieval**: латентность запроса к vector DB; влияет индекс (HNSW vs IVF_PQ и др.), размер коллекции и фильтры. Milvus прямо описывает trade-off: HNSW — низкая латентность/высокая точность при большем memory overhead citeturn6search13turn6search9; IVF_PQ — часто экономит память ценой скорости/точности citeturn6search1turn6search5.
-4) **Оркестрация**: durable execution добавляет накладные расходы, но покупает guarantees (пример: Event History и recovery).
+### Where Latency and Cost Actually "Burn"
 
-### Что смотреть в бенчмарках (и чего часто не хватает)
+1) **LLM inference** (usually dominates): input tokens (context) + output tokens. Cost and latency are function of model, provider, and mode (streaming, batch).
+2) **Tool calls**: external APIs often give p95/p99 "tails," network timeouts, rate limits.
+3) **Retrieval**: vector DB query latency; index affects it (HNSW vs IVF_PQ and others), collection size and filters. Milvus directly describes trade-off: HNSW — low latency/high accuracy at higher memory overhead; IVF_PQ — often saves memory at cost of speed/accuracy.
+4) **Orchestration**: durable execution adds overhead, but buys guarantees (e.g., Event History and recovery).
 
-Для **agent frameworks**:
-- измерение «end-to-end» с учётом tool calls и retrieval, а не только latency одного LLM запроса;
-- стабильность и качество (win rate, task success) на репрезентативных сценариях;
-- воспроизводимость условий (фиксация начального состояния, окружения).
+### What to Look for in Benchmarks (and What's Often Missing)
 
-AutoGen Bench прямо ориентирован на повторяемые прогоны сценариев в контролируемых условиях citeturn13search0turn13search3. Для production-качества важны также evals и мониторинг качества в реальном времени; LangSmith описывает offline/online evaluation и связку с observability citeturn14search1turn14search7.
+For **agent frameworks**:
+- End-to-end measurement including tool calls and retrieval, not just single LLM request latency
+- Stability and quality (win rate, task success) on representative scenarios
+- Reproducibility of conditions (fixing initial state, environment)
 
-Для **vector DB**:
-- latency p50/p95/p99 на `topK` и на типовых фильтрах,
-- recall@K (если сравниваете ANN индексы),
-- скорость ingestion/build index,
-- стоимость RAM (особенно для HNSW),
-- стабильность при обновлениях/compaction.
+AutoGen Bench is directly oriented toward repeatable scenario runs in controlled conditions. For production quality, eval and real-time quality monitoring are also important; LangSmith describes offline/online evaluation and connection with observability.
 
-Для **serving**:
-- токены/сек (throughput) и tail latency,
-- эффективность batching (BentoML описывает adaptive batching как механизм, улучшающий throughput и utilization) citeturn16search2,
-- холодный старт, масштабирование replicas.
+For **vector DBs**:
+- p50/p95/p99 latency on `topK` and typical filters
+- recall@K (if comparing ANN indexes)
+- Ingestion/index build speed
+- RAM cost (especially for HNSW)
+- Stability during updates/compaction
 
-### Рекомендуемые тесты, которые стоит прогнать до выбора
+For **serving**:
+- Tokens/sec (throughput) and tail latency
+- Batching efficiency (BentoML describes adaptive batching as mechanism improving throughput and utilization)
+- Cold start, replica scaling
 
-Набор тестов, который обычно окупается за 1–2 недели работы и предотвращает «переезд через 3 месяца».
+### Recommended Tests to Run Before Selection
 
-**Нагрузочные тесты**
-- 3 профиля: steady QPS, bursty (пики), long-tail (редкие тяжёлые запросы).
-- Метрики: p50/p95/p99 по этапам пайплайна (retrieval, LLM, tools) + общий end-to-end.
-- Для Ray Serve/BentoML: тесты с batching on/off и разными max latency windows citeturn13search4turn16search2.
+Test set that usually pays off in 1–2 weeks of work and prevents "migration after 3 months."
 
-**Тесты отказов**
-- принудительные timeouts tool calls,
-- падение воркера/пода,
-- деградация vector DB (задержки, частичный отказ),
-- проверка идемпотентности и повторного исполнения (особенно в WF engine).
+**Load tests**
+- 3 profiles: steady QPS, bursty (peaks), long-tail (rare heavy queries)
+- Metrics: p50/p95/p99 per pipeline stage (retrieval, LLM, tools) + overall end-to-end
+- For Ray Serve/BentoML: tests with batching on/off and different max latency windows
 
-**Тесты качества (evaluation)**
-- набор golden queries со справочными ответами или критериями,
-- измерение hallucination rate и citation correctness,
-- A/B сравнение retrieval стратегий (vector vs hybrid vs rerank). Weaviate описывает hybrid search как слияние vector и BM25F результатов citeturn6search0turn6search4 — это типичный кандидат для A/B.
+**Failure tests**
+- Forced tool call timeouts
+- Worker/pod crash
+- Vector DB degradation (delays, partial failure)
+- Idempotency and re-execution verification (especially in WF engine)
 
-**Тесты стоимости**
-- токены на запрос, средний размер контекста,
-- стоимость embeddings и хранения,
-- стоимость observability (объём логов/трасс; retention).
+**Quality (evaluation) tests**
+- Golden queries set with reference answers or criteria
+- Hallucination rate and citation correctness measurement
+- A/B comparison of retrieval strategies (vector vs hybrid vs rerank)
 
-## Security, compliance, data privacy и миграции
+**Cost tests**
+- Tokens per query, average context size
+- Embeddings and storage cost
+- Observability cost (log/trace volume; retention)
 
-### Security & privacy чеклист (практический)
+---
 
-**Контроль данных**
-- Классифицируйте данные (PII/PHI/секреты/коммерческая тайна).
-- Определите, что можно отправлять провайдеру модели, а что должно оставаться on-prem.
-- Введите политики retention для chat history и vector store.
+## Security, Compliance, Data Privacy, and Migrations
 
-**Шифрование**
-- TLS в транзите между сервисами (особенно к DB/WF engine). Milvus описывает TLS для gRPC и REST traffic citeturn15search12.
-- Для managed orchestration — mTLS при необходимости. Temporal Cloud описывает TLS как шифрование и mTLS как метод доказательства идентичности citeturn15search11.
+### Security & Privacy Checklist (Practical)
 
-**Аутентификация и авторизация**
-- RBAC для long-term memory (Weaviate RBAC overview) citeturn15search1.
-- RBAC/auth в Milvus при необходимости tenant isolation citeturn15search8turn15search4.
-- Для Chroma: убедитесь, что вы не используете embedded mode там, где нужен auth (доки прямо говорят, что auth только для client-server) citeturn15search2.
+**Data Control**
+- Classify data (PII/PHI/secrets/commercial secret)
+- Determine what can be sent to model provider and what must stay on-prem
+- Implement retention policies for chat history and vector store
 
-**Аудит и наблюдаемость безопасности**
-- Логирование решений авторизации (Weaviate упоминает authorization decision logs для RBAC) citeturn15search21.
-- Раздельные каналы: security-аудит vs debug-логи (минимизация PII).
+**Encryption**
+- TLS in transit between services (especially to DB/WF engine). Milvus describes TLS for gRPC and REST traffic
+- For managed orchestration — mTLS when needed. Temporal Cloud describes TLS as encryption and mTLS as identity proof method
 
-**Управление секретами**
-- Секреты tool calls и ключи LLM провайдеров хранить в secret manager.
-- Rotations + rollback.
+**Authentication and Authorization**
+- RBAC for long-term memory (Weaviate RBAC overview)
+- RBAC/auth in Milvus when tenant isolation is needed
+- For Chroma: ensure you're not using embedded mode where auth is needed (docs directly say auth only for client-server)
 
-**Supply chain**
-- pin версий, SBOM, сканирование зависимостей.
-- отдельно оценивать лицензии (см. таблицу).
+**Audit and Security Observability**
+- Authorization decision logging (Weaviate mentions authorization decision logs for RBAC)
+- Separate channels: security audit vs debug logs (PII minimization)
 
-### Observability/комплаенс чеклист
+**Secrets Management**
+- Store tool call secrets and LLM provider keys in secret manager
+- Rotations + rollback
 
-- Метрики: QPS, p95/p99 latency, error rates, retries, token usage.
-- Tracing: end-to-end trace по запросу (retrieval + LLM + tools).
-- Для инфраструктуры: Prometheus/Grafana стандартно поддерживаются у Weaviate и Milvus citeturn17search3turn18search0; Chroma заявляет OpenTelemetry observability citeturn18search2turn18search6; Ray emits Prometheus-format metrics и имеет dashboard citeturn17search5turn17search4.
-- Для Temporal Cloud: экспорт метрик через OpenMetrics endpoint описан в документации citeturn18search3.
+**Supply Chain**
+- Pin versions, SBOM, dependency scanning
+- Separately evaluate licenses (see table)
 
-### Миграция и интероперабельность
+### Observability/Compliance Checklist
 
-**Как уменьшать lock-in между агент-фреймворками**
-- Держите «ядро агента» в виде чистых функций/классов с минимальными зависимостями от конкретного SDK.
-- Введите собственные абстракции:
-  - `Message` (role/content/metadata),
-  - `Tool` (schema, timeouts, retry policy),
-  - `Memory` (interface put/get, serialization).
-- Тогда смена LangChain ↔ LlamaIndex ↔ Haystack становится миграцией адаптеров, а не переписыванием бизнес-логики. Это особенно важно, потому что «tool calling» — общий паттерн взаимодействия модели и приложения (например, OpenAI описывает flow tool calling как многошаговый диалог application↔model) citeturn4search10.
+- Metrics: QPS, p95/p99 latency, error rates, retries, token usage
+- Tracing: end-to-end trace per request (retrieval + LLM + tools)
+- For infrastructure: Prometheus/Grafana standardly supported by Weaviate and Milvus; Chroma claims OpenTelemetry observability; Ray emits Prometheus-format metrics and has dashboard
+- For Temporal Cloud: metrics export via OpenMetrics endpoint documented
 
-**Как переключать vector DB**
-- Изолируйте слой retrieval:
-  - единый контракт «запрос → список документов/чанков + scores + metadata»,
-  - отдельные настройки индексации и гибридного поиска.
-- Если используете hybrid: переносите логику fusion (RRF/веса) на уровень приложения или выбирайте DB, где это нативно. Weaviate описывает fusing результатов vector и BM25F citeturn6search0turn6search4; Chroma описывает hybrid search с RRF citeturn6search2turn6search18.
-- План миграции данных:
-  - экспорт embeddings + metadata,
-  - переиндексация и валидация recall/latency,
-  - параллельный двойной прогон (shadow reads) на период переключения.
+### Migration and Interoperability
 
-**Как переезжать между оркестраторами**
-- Отделите definitions процесса (граф) от реализации действий.
-- Сведите «действия» к идемпотентным activities/tasks. Это особенно критично для durable engines.
-- Следите за ограничениями history/логов. Temporal имеет лимиты на Event History citeturn3search0 — это влияет на дизайн (например, не писать каждый токен в историю).
+**How to reduce lock-in between agent frameworks**
+- Keep "agent core" as pure functions/classes with minimal dependencies on specific SDK
+- Introduce your own abstractions:
+  - `Message` (role/content/metadata)
+  - `Tool` (schema, timeouts, retry policy)
+  - `Memory` (interface put/get, serialization)
+- Then switching LangChain ↔ LlamaIndex ↔ Haystack becomes adapter migration, not business logic rewriting. This is especially important because "tool calling" is common model-application interaction pattern
 
-**Migration tips, когда экосистема “двигается”**
-- Учитывайте статусы поддержки. AutoGen помечен как maintenance mode и сам рекомендует миграцию на новый фреймворк citeturn9view0turn5search11. Это сигнал: если вы выбираете AutoGen сегодня, заранее заложите boundary layer и тесты миграции.
+**How to switch vector DBs**
+- Isolate retrieval layer:
+  - Unified contract "query → document/chunk list + scores + metadata"
+  - Separate indexing and hybrid search settings
+- If using hybrid: move fusion logic (RRF/weights) to application level or choose DB where this is native
+- Data migration plan:
+  - Export embeddings + metadata
+  - Re-indexing and recall/latency validation
+  - Parallel dual run (shadow reads) during switch period
 
-## Краткие рекомендации
+**How to migrate between orchestrators**
+- Separate process definitions (graph) from action implementation
+- Reduce "actions" to idempotent activities/tasks. This is especially critical for durable engines
+- Watch history/log limits. Temporal has limits on Event History — this affects design (e.g., don't write every token to history)
 
-Если ваша цель — построить агентное приложение «как продукт», чаще всего разумно:
+**Migration tips when ecosystem "moves"**
+- Account for support statuses. AutoGen is marked as maintenance mode and recommends migration to new framework. This is a signal: if you choose AutoGen today, pre-emptively build boundary layer and migration tests.
 
-1) Выбирать **agent framework** по DX и интеграциям (LangChain / LlamaIndex / Haystack), а не пытаться решить им надежность и продакшн-эксплуатацию. Это соответствует тому, как сами проекты позиционируют себя: LangChain как фреймворк и экосистема, Haystack как orchestration framework для production RAG/agents citeturn9view1turn10view0.
+---
 
-2) Для **долгих бизнес-процессов** и multi-step задач с требованиями к восстановлению — ставить **Temporal** как backbone и запускать агентную логику в воркерах/activities, используя Event History и replay-подход там, где это критично citeturn12view0turn3search4turn3search16.
+## Brief Recommendations
 
-3) Для **памяти**:
-- Chroma — отличный старт и низкий friction, но учитывайте различие embedded vs server в части authentication citeturn15search2turn11view2.
-- При росте и требованиях к безопасности/тенантности — Weaviate (RBAC + hybrid) или Milvus (индексы + TLS/RBAC) citeturn15search1turn6search0turn15search12turn6search13.
+If your goal is to build agent application "as product," it's usually reasonable to:
 
-4) Для **масштабирования вычислений** и высоких throughput workloads — Ray как distributed runtime, а для serving и batching — Ray Serve и/или BentoML (выбор зависит от того, хотите ли вы unified runtime или специализированный serving слой) citeturn3search7turn13search4turn16search2.
+1) Choose **agent framework** by DX and integrations (LangChain / LlamaIndex / Haystack), not trying to solve reliability and production operations with it. This matches how projects position themselves: LangChain as framework and ecosystem, Haystack as orchestration framework for production RAG/agents.
 
-5) В проде не экономить на **observability+eval**: без трасс и систематической оценки качество «агентов» деградирует незаметно. Используйте подходы типа offline/online evaluation и трассинг траекторий (пример позиционирования — LangSmith) citeturn14search1turn14search7turn14search0.
+2) For **long business processes** and multi-step tasks with recovery requirements — put **Temporal** as backbone and run agent logic in workers/activities, using Event History and replay approach where critical.
 
-6) При выборе AutoGen закладывать миграцию, потому что проект сам фиксирует maintenance mode и рекомендует переход на новый фреймворк citeturn9view0turn5search11.
+3) For **memory**:
+- Chroma — great start and low friction, but account for embedded vs server difference in authentication
+- As you grow and security/tenant requirements increase — Weaviate (RBAC + hybrid) or Milvus (indexes + TLS/RBAC)
 
+4) For **compute scaling** and high throughput workloads — Ray as distributed runtime, and for serving and batching — Ray Serve and/or BentoML (choice depends on whether you want unified runtime or specialized serving layer).
+
+5) In production don't skimp on **observability+eval**: without traces and systematic quality assessment, "agent" quality degrades unnoticed. Use approaches like offline/online evaluation and trajectory tracing (positioning example — LangSmith).
+
+6) When choosing AutoGen, plan for migration because the project itself marks maintenance mode and recommends transition to new framework.

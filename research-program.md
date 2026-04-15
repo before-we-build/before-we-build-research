@@ -1,293 +1,333 @@
-Ниже программа не для подтверждения веры в типологию, а для попытки ее сломать. Если она выживет, тогда можно говорить о сильной верификации. Базовый принцип такой: валидируют не “типологию вообще”, а интерпретации результатов для конкретного применения. Если ты хочешь использовать шкалы для описания человека, предсказания совместного поведения и later для matchmaking, это три разных claims, и каждый надо отдельно защищать данными. В современных стандартах валидность — это степень, в которой накопленные данные и теория поддерживают интерпретацию score для заданного use case; при этом главные угрозы — недопредставленность конструкта и посторонняя вариативность. 
+# Research Program: Validation Framework for Typological Constructs
 
-Я бы сразу принял жесткое правило: на старте у тебя нет “типов”. У тебя есть только гипотезы о латентных процессах. COSMIN полезен как каркас, хотя он создавался для PROM-инструментов; сам manual прямо пишет, что методологию можно адаптировать и к другим измерительным инструментам, пусть и с оговорками. В этом каркасе тебе придется пройти content validity, structural validity, internal consistency, measurement invariance, reliability, criterion validity и hypothesis testing for construct validity, а не ограничиться одной красивой корреляцией или alpha. 
+Below is a program not for confirming faith in typology, but for attempting to break it. If it survives, then we can talk about strong verification. The basic principle is this: we validate not "typology in general," but interpretations of results for a specific application. If you want to use scales for describing a person, predicting joint behavior, and later for matchmaking, these are three different claims, and each must be separately defended with data. In modern standards, validity is the degree to which accumulated data and theory support the interpretation of a score for a given use case; the main threats are construct underrepresentation and extraneous variance.
 
-1. Цель программы
+I would immediately adopt a strict rule: at the start, you don't have "types." You only have hypotheses about latent processes. COSMIN is useful as a framework, although it was created for PROM instruments; the manual itself states that the methodology can be adapted to other measurement tools, albeit with caveats. In this framework, you will need to go through content validity, structural validity, internal consistency, measurement invariance, reliability, criterion validity, and hypothesis testing for construct validity—not just one beautiful correlation or alpha.
 
-Цель не доказать, что “темпористика/психософия/соционика истинны”, а выяснить четыре вещи:
-можно ли разложить их на измеримые конструкты;
-можно ли получить устойчивые шкалы;
-дают ли эти шкалы что-то сверх уже известных мер;
-возникают ли потом устойчивые типы как вторичный результат, а не как догма.
+---
 
-Если на любом шаге данные не держат конструкцию, ты режешь модель. Не переименовываешь. Не “уточняешь формулировки”. Режешь.
+## 1. Program Goal
 
-2. Что именно ты валидируешь
+The goal is not to prove that "temporistics/psychosophy/socionics are true," but to find out four things:
 
-Не валидация “типов”, а валидация набора шкал. Я бы декомпозировал твою теорию так.
+1. Can they be decomposed into measurable constructs?
+2. Can stable scales be obtained?
+3. Do these scales add something beyond already known measures?
+4. Do stable types emerge as a secondary result, not as dogma?
 
-Для темпористики:
-временной горизонт планирования;
-ориентация на прошлое как источник решений;
-ориентация на будущее как источник решений;
-устойчивость к неопределенности текущего момента;
-склонность к rule-based vs exploratory inference.
+If at any step the data does not hold the construction, you cut the model. Not rename. Not "clarify formulations." Cut.
 
-Для психософии:
-предпочтительный стиль распределения усилий по доменам;
-уверенность/ригидность в домене;
-чувствительность к внешнему влиянию в домене;
-паттерн конфликта вокруг домена.
+---
 
-Для соционически-подобного слоя:
-стиль работы с информацией;
-предпочтение структурирования vs генерации вариантов;
-стиль принятия решения при дефиците данных;
-уровень tolerance for ambiguity.
+## 2. What Exactly You Are Validating
 
-Это не окончательная онтология. Это сырой decomposed map. Пока ты не сведешь высокие слова к таким микроконструктам, исследование не начнется.
-
-3. Фаза 0 — construct map и rival hypotheses
-   Срок: 4–6 недель
-
-Что делаем:
-по каждому предполагаемому конструкту пишем definition sheet на 1–2 страницы;
-для каждого конструкта прописываем, чем он не является;
-для каждого конструкта задаем rival explanations.
+Not validation of "types," but validation of a set of scales. I would decompose your theory as follows.
 
-Пример:
-твоя “индукция–дедукция” может на деле быть смесью verbal sophistication, cognitive reflection, need for closure и tolerance for ambiguity. Если ты это не разведешь, инструмент будет мерить кашу, а не твой конструкт. Стандарты тестирования прямо рекомендуют строить validation argument через propositions и rival hypotheses, а не через самоуверенное объявление сущности. 
-
-Артефакты:
-construct dictionary;
-nomological network;
-list of rival constructs;
-use-case matrix.
-
-Жесткий критерий провала:
-если ты не можешь на бумаге различить два конструкта без поэтических описаний, в данных ты их тем более не различишь.
-
-4. Фаза 1 — item generation и multi-method design
-   Срок: 6–8 недель
-
-Что делаем:
-для каждого конструкта создаем 30–60 сырых индикаторов;
-делаем минимум три метода измерения:
-self-report,
-forced-choice / vignette judgments,
-observer-rating или behavioral coding.
+**For Temporistics:**
+- Planning time horizon
+- Orientation to the past as a source of decisions
+- Orientation to the future as a source of decisions
+- Tolerance for uncertainty of the current moment
+- Tendency toward rule-based vs. exploratory inference
 
-Самоотчет в одиночку не годится. Он слишком легко превращается в измерение самонарратива. Поэтому часть индикаторов должна быть задачной: короткие сценарии с выбором стратегии, приоритезацией, ревизией решения после новой информации, объяснением причин выбора.
-
-Мой рабочий минимум:
-8–12 конструктов в v1,
-по 20–25 анкетных items после первого отсева,
-по 3–5 vignette tasks на ключевой конструкт,
-по 1–2 observer-coded задания для подвыборки.
+**For Psychosophy:**
+- Preferred style of effort allocation across domains
+- Confidence/rigidity in a domain
+- Sensitivity to external influence in a domain
+- Conflict pattern around a domain
 
-Жесткий критерий провала:
-если любой конструкт существует только в виде “человек сказал о себе, что он такой”, это слабый кандидат на научную жизнь.
-
-5. Фаза 2 — content validity и cognitive interviews
-   Срок: 6 недель
+**For Socionics-like layer:**
+- Information processing style
+- Preference for structuring vs. generating options
+- Decision style under data deficit
+- Level of tolerance for ambiguity
 
-Здесь ты проверяешь не статистику, а содержательную адекватность инструмента. В логике COSMIN content validity — это адекватность содержания инструмента измеряемому конструкту, а ключевые оси проверки — relevance, comprehensiveness и comprehensibility. COSMIN отдельно рекомендует оценивать именно эти три вещи и делать это независимыми ревьюерами, а не только автором теории. 
+This is not the final ontology. This is a rough decomposed map. Until you reduce high-level words to such micro-constructs, research does not begin.
 
-Что делаем:
-берем 8–12 экспертов по measurement/psychometrics/behavioral science;
-даем им blind review item bank;
-проводим 20–30 cognitive interviews на пользователях;
-отсеиваем неясные, двусмысленные и идеологически нагруженные items.
-
-Что надо убивать сразу:
-items, которые требуют от респондента “узнать свою философскую сущность”;
-items, звучащие как identity labels;
-items, где правильный ответ очевидно социально желателен;
-items, которые кодируют уровень образования, а не стиль мышления.
+---
 
-Артефакт:
-v1 instrument blueprint.
-
-6. Фаза 3 — пилот и чистка инструмента
-   Срок: 8 недель
-   Рекомендованная выборка: 200–300 человек
-
-Что делаем:
-собираем первый пилот на RU/UA, лучше сразу и EN если ты хочешь международную жизнь дальше;
-смотрим пропуски, распределения, ceiling/floor effects, item-total patterns, acquiescence, time-on-item;
-проверяем test-retest на подвыборке через 2–4 недели;
-если есть observer block — inter-rater agreement.
-
-Здесь цель не “найти красивые факторы”, а удалить мусор. Статья Flake, Pek и Hehman полезна как напоминание: в социальной и личностной психологии очень часто ограничиваются минимальной психометрикой и alpha, хотя для латентных конструктов нужна ongoing construct validation, иначе выводы начинают висеть в воздухе. ([Eric Hehman][1])
-
-Мой kill rule:
-если после пилота больше трети items у конструкта не работают как задумано, проблема обычно не в items, а в самом конструкте.
-
-7. Фаза 4 — основная calibration study
-   Срок: 10–12 недель
-   Рекомендованная выборка: 800–1200 человек
-
-Что делаем:
-делим выборку на exploratory и confirmatory части;
-на первой строим EFA/graphical exploration;
-на второй тестируем CFA;
-для однородных шкал — Rasch/IRT;
-параллельно проверяем internal consistency и short-term stability.
-
-COSMIN дает вполне жесткие ориентиры по достаточности выборок: для factor analysis “very good” — примерно 7× число items в модели и не меньше 100; для более сильных IRT/parametric моделей требования выше; для cross-group analyses нужны отдельные достаточные размеры по группам. Эти числа не священные, но как консервативный ориентир нормальны. 
-
-Что считаем успехом:
-структура воспроизводится в holdout sample;
-альтернативные модели проигрывают не только по fit, но и по интерпретируемости;
-шкалы не разваливаются на почти дублирующие факторы.
-
-Что считаем провалом:
-факторная структура нестабильна;
-теория требует постоянных post-hoc перестановок;
-одни и те же items прыгают между факторами;
-структура держится только на одном языке или в одной подвыборке.
-
-8. Фаза 5 — convergent, discriminant и incremental validity
-   Срок: 8–10 недель
-   Выборка: та же calibration + внешняя репликация 300–500
-
-Теперь ты обязан сравнить свои шкалы с уже существующими мерами. Не потому что Big Five — абсолютная истина, а потому что без внешних якорей ты не докажешь, что измеряешь что-то свое, а не переименованный старый шум.
-
-Базовый battery для сравнения я бы сделал такой:
-Big Five,
-need for closure,
-cognitive reflection,
-attachment-related variables,
-time perspective/orientation scales,
-decision style / ambiguity tolerance,
-несколько behavioral tasks на revision of beliefs and planning horizon.
-
-Что тестируем:
-convergent validity — где теоретически должна быть связь;
-discriminant validity — где не должно быть сильного слияния;
-incremental validity — добавляют ли твои шкалы предсказание сверх baseline battery.
+## 3. Phase 0 — Construct Map and Rival Hypotheses
+**Duration:** 4–6 weeks
 
-Жесткий критерий провала:
-если твои “новые” конструкты почти полностью объясняются комбинацией старых шкал, то твоя теория не новая. Она максимум новый словарь описания старого.
+**What to do:**
+- For each supposed construct, write a definition sheet of 1–2 pages
+- For each construct, specify what it is NOT
+- For each construct, specify rival explanations
 
-9. Фаза 6 — measurement invariance и cross-lingual stability
-   Срок: 8 недель
-   Рекомендованные группы: RU, UA, EN; плюс пол и возрастные когорты
+**Example:**
+Your "induction-deduction" may actually be a mixture of verbal sophistication, cognitive reflection, need for closure, and tolerance for ambiguity. If you don't separate these, the instrument will measure noise, not your construct. Testing standards specifically recommend building a validation argument through propositions and rival hypotheses, not through confident declaration of entities.
 
-Если шкала по-разному работает у разных языков или групп, ты не имеешь права говорить, что сравниваешь одно и то же. В COSMIN cross-cultural validity / measurement invariance — отдельное обязательное свойство, а в качестве критериев они дают, например, отсутствие важных межгрупповых различий по MGCFA на уровне примерно ΔCFI < 0.01 или отсутствие существенного DIF. Для MGCFA/регрессионных/DIF-подходов manual также дает ориентиры по размеру групп. 
+**Artifacts:**
+- Construct dictionary
+- Nomological network
+- List of rival constructs
+- Use-case matrix
 
-Что делаем:
-configural, metric, scalar invariance;
-DIF по языку, полу, возрасту, образованию;
-отдельно смотрим, не являются ли “типы” просто языковыми артефактами.
+**Hard failure criterion:**
+If you cannot on paper distinguish two constructs without poetic descriptions, in data you definitely won't distinguish them either.
 
-Kill rule:
-если без сложных поправок инвариантности нет, ты не продаешь это как универсальную типологию. Максимум как локальный прототип для одной популяции и одного языка.
+---
 
-10. Фаза 7 — predictive validity на внешних outcome’ах
-    Срок: 3–6 месяцев
-    Дизайн: longitudinal
+## 4. Phase 1 — Item Generation and Multi-Method Design
+**Duration:** 6–8 weeks
 
-Вот здесь начинается реальная проверка, потому что без внешнего outcome вся история останется красивой психологической литературой.
+**What to do:**
+- For each construct, create 30–60 raw indicators
+- Use at least three measurement methods:
+  - Self-report
+  - Forced-choice / vignette judgments
+  - Observer-rating or behavioral coding
 
-Нужно заранее зарегистрировать, какие outcomes ты считаешь ключевыми:
-качество совместного решения задач;
-скорость согласования плана;
-устойчивость к стрессовому сценарию;
-observer-rated conflict handling;
-долгосрочная стабильность предпочтений;
-для matchmaking — не “ощущение глубины”, а реальные dyadic outcomes.
+Self-report alone is insufficient. It too easily turns into measurement of self-narrative. Therefore, part of indicators should be task-based: short scenarios with strategy choice, prioritization, decision revision after new information, explanation of choice reasons.
 
-Стандарты тестирования прямо говорят, что разные intended uses требуют собственной валидности, а COSMIN выделяет отдельно criterion validity и hypotheses testing for construct validity. Поэтому descriptive шкала, explanatory narrative и predictive engine — это не одно и то же. 
+**My working minimum:**
+- 8–12 constructs in v1
+- 20–25 questionnaire items after first elimination
+- 3–5 vignette tasks for key construct
+- 1–2 observer-coded tasks for subsample
 
-Я бы сделал два трека.
+**Hard failure criterion:**
+If any construct exists only as "person said about themselves that they are such," it's a weak candidate for scientific life.
 
-Трек А: лабораторно-поведенческий.
-Люди проходят battery, потом делают dyadic tasks:
-совместное планирование,
-распределение ограниченного ресурса,
-решение конфликта интересов,
-ревизия плана после новой информации.
+---
 
-Трек B: longitudinal real-world.
-Участники проходят battery, потом 3–6 месяцев follow-up:
-decision conflict,
-stability of preferences,
-relationship-relevant outcomes,
-observer or partner ratings.
+## 5. Phase 2 — Content Validity and Cognitive Interviews
+**Duration:** 6 weeks
 
-Kill rule:
-если predictive uplift над простыми baseline-моделями мал или нестабилен, все разговоры о практической типологии надо прекратить.
+Here you check not statistics but substantive adequacy of the instrument. In COSMIN logic, content validity is the adequacy of instrument content to the measured construct, and key axes of verification are relevance, comprehensiveness, and comprehensibility. COSMIN specifically recommends evaluating these three things and doing it with independent reviewers, not just the theory author.
 
-11. Фаза 8 — только теперь пробуем типы
-    Срок: 6 недель после стабильной dimensional model
+**What to do:**
+- Take 8–12 experts in measurement/psychometrics/behavioral science
+- Give them blind review of item bank
+- Conduct 20–30 cognitive interviews with users
+- Eliminate unclear, ambiguous, and ideologically loaded items
 
-Только после устойчивых шкал можно пытаться делать latent profile analysis / mixture modeling / clustering. Не раньше.
+**What to kill immediately:**
+- Items that require the respondent to "recognize their philosophical essence"
+- Items sounding like identity labels
+- Items where the correct answer is obviously socially desirable
+- Items that encode education level, not thinking style
 
-Что проверяем:
-кластеры устойчивы на bootstrap/resamples;
-кластеры воспроизводятся в независимой выборке;
-люди не прыгают между “типами” от небольшого шума score;
-типы дают прибавку к интерпретации или prediction по сравнению с непрерывными шкалами.
+**Artifact:** v1 instrument blueprint
 
-Мой прогноз:
-если что-то и выживет, то скорее как dimensional model, а не как красивая сетка из 24 или 16 типов. И это нормально. Типы надо заслужить, а не объявить.
+---
 
-12. Open science protocol
+## 6. Phase 3 — Pilot and Instrument Cleanup
+**Duration:** 8 weeks
+**Recommended sample:** 200–300 people
 
-Критические фазы надо пререгистрировать. COS определяет preregistration как заранее зафиксированный исследовательский план, поданный в реестр до анализа результатов; это нужно, чтобы отделить planned analyses от post-hoc. Для главного confirmatory study я бы целился в Registered Report: там рецензируют вопрос и метод до сбора данных, а не подстраиваются под результат. TOP Guidelines — нормальный каркас для прозрачности, данных и кода. ([Center for Open Science][2])
+**What to do:**
+- Collect first pilot in RU/UA, better to also include EN if you want international life later
+- Look at gaps, distributions, ceiling/floor effects, item-total patterns, acquiescence, time-on-item
+- Check test-retest on subsample after 2–4 weeks
+- If there's observer block — inter-rater agreement
 
-Минимум:
-OSF preregistration на каждую confirmatory phase;
-public codebook;
-analysis scripts;
-versioned item bank;
-separate exploratory vs confirmatory analyses;
-репликация на новой выборке.
+Here the goal is not "find beautiful factors," but remove garbage. The Flake, Pek, and Hehman article is useful as a reminder: in social and personality psychology, very often only minimal psychometrics and alpha are used, although for latent constructs ongoing construct validation is needed, otherwise conclusions start hanging in the air.
 
-13. Конкретный 12-месячный календарь
+**My kill rule:**
+If after pilot more than a third of items for a construct don't work as intended, the problem is usually not in items but in the construct itself.
 
-Месяц 1–2:
-construct map, rival hypotheses, use-case matrix, baseline battery.
+---
 
-Месяц 2–3:
-item bank, vignettes, observer protocols, coding manual.
+## 7. Phase 4 — Main Calibration Study
+**Duration:** 10–12 weeks
+**Recommended sample:** 800–1200 people
 
-Месяц 3–4:
-expert review + cognitive interviews + инструмент v1.
+**What to do:**
+- Split sample into exploratory and confirmatory parts
+- On the first, build EFA/graphical exploration
+- On the second, test CFA
+- For homogeneous scales — Rasch/IRT
+- In parallel, check internal consistency and short-term stability
 
-Месяц 4–5:
-pilot n=200–300, чистка items, test-retest subset.
+COSMIN gives quite strict benchmarks on sample sufficiency: for factor analysis "very good" is approximately 7× the number of items in the model and no less than 100; for stronger IRT/parametric models, requirements are higher; for cross-group analyses, separate sufficient sizes are needed per group. These numbers are not sacred, but as a conservative benchmark, they're fine.
 
-Месяц 6–8:
-main calibration n=800–1200, EFA/CFA/IRT, шкалы v2.
+**What counts as success:**
+- Structure reproduces in holdout sample
+- Alternative models lose not only on fit but on interpretability
+- Scales don't fall apart into almost duplicate factors
 
-Месяц 8–9:
-external battery, convergent/discriminant/incremental validity.
+**What counts as failure:**
+- Factor structure is unstable
+- Theory requires constant post-hoc permutations
+- Same items jump between factors
+- Structure holds only in one language or one subsample
 
-Месяц 9–10:
-measurement invariance RU/UA/EN и по ключевым группам.
+---
 
-Месяц 10–12:
-longitudinal predictive study + latent profiles only if dimensional model already stable.
+## 8. Phase 5 — Convergent, Discriminant, and Incremental Validity
+**Duration:** 8–10 weeks
+**Sample:** Same calibration + external replication 300–500
 
-14. Что будет ломаться первым
+Now you are obligated to compare your scales with already existing measures. Not because Big Five is absolute truth, but because without external anchors you cannot prove that you are measuring something of your own, not just renamed old noise.
 
-С высокой вероятностью первым сломается не статистика, а онтология:
-слишком красивые слова окажутся плохо различимыми конструкциями.
+**Basic battery for comparison I would do:**
+- Big Five
+- Need for closure
+- Cognitive reflection
+- Attachment-related variables
+- Time perspective/orientation scales
+- Decision style / ambiguity tolerance
+- Several behavioral tasks on revision of beliefs and planning horizon
 
-Вторым сломается discriminant validity:
-новые шкалы начнут сливаться со старыми.
+**What we test:**
+- Convergent validity — where there should theoretically be a connection
+- Discriminant validity — where there should not be strong merger
+- Incremental validity — do your scales add prediction beyond baseline battery
 
-Третьим сломается invariance:
-одни и те же items будут значить разное в разных языках и культурных контекстах.
+**Hard failure criterion:**
+If your "new" constructs are almost completely explained by a combination of old scales, your theory is not new. It's at most a new description vocabulary for the old.
 
-Четвертым сломается типизация:
-непрерывные различия не захотят честно превращаться в “типы”.
+---
 
-15. Финальный критерий успеха
+## 9. Phase 6 — Measurement Invariance and Cross-Lingual Stability
+**Duration:** 8 weeks
+**Recommended groups:** RU, UA, EN; plus gender and age cohorts
 
-Программа считается удачной не тогда, когда ты “подтвердил типологию”, а когда после всей мясорубки у тебя осталось следующее:
-несколько четко определенных и воспроизводимых шкал;
-понятные границы применимости;
-приемлемая стабильность;
-межгрупповая сопоставимость;
-внешняя предсказательная ценность;
-и только после этого — возможно — устойчивые profiles.
+If the scale works differently for different languages or groups, you don't have the right to say you're comparing the same thing. In COSMIN, cross-cultural validity / measurement invariance is a separate mandatory property; as criteria, they give, for example, absence of important intergroup differences on MGCFA at the level of approximately ΔCFI < 0.01 or absence of substantial DIF. For MGCFA/regression/DIF approaches, the manual also gives benchmarks on group sizes.
 
-Если после этого от исходной теории останется треть — отлично. Значит, ты занимался наукой, а не апологетикой.
+**What to do:**
+- Configural, metric, scalar invariance
+- DIF by language, gender, age, education
+- Separately look at whether "types" are just language artifacts
 
-Могу следующим сообщением превратить это в рабочий protocol pack: какие именно questionnaires брать в baseline, какие behavioral tasks использовать для индукции/дедукции и temporal orientation, и какую статистику запускать в R/Python на каждом этапе.
+**Kill rule:**
+If without complex invariance adjustments there is no invariance, you don't sell this as a universal typology. At most as a local prototype for one population and one language.
 
-[1]: https://erichehman.com/wp-content/uploads/2017/03/FlakePekHehmanSPPS.pdf "SPP693063 1..9"
-[2]: https://www.cos.io/initiatives/prereg?utm_source=chatgpt.com "Preregistration"
+---
+
+## 10. Phase 7 — Predictive Validity on External Outcomes
+**Duration:** 3–6 months
+**Design:** Longitudinal
+
+Here begins the real verification, because without external outcome the whole story will remain beautiful psychological literature.
+
+Need to preregister which outcomes you consider key:
+- Quality of joint problem solving
+- Speed of plan agreement
+- Stability under stress scenario
+- Observer-rated conflict handling
+- Long-term preference stability
+- For matchmaking — not "feeling of depth," but real dyadic outcomes
+
+Testing standards explicitly say that different intended uses require their own validity, and COSMIN separately highlights criterion validity and hypotheses testing for construct validity. Therefore, a descriptive scale, explanatory narrative, and predictive engine are not the same thing.
+
+**I would do two tracks.**
+
+**Track A: Laboratory-behavioral.**
+People go through battery, then do dyadic tasks:
+- Joint planning
+- Limited resource distribution
+- Interest conflict resolution
+- Plan revision after new information
+
+**Track B: Longitudinal real-world.**
+Participants go through battery, then 3–6 months follow-up:
+- Decision conflict
+- Preference stability
+- Relationship-relevant outcomes
+- Observer or partner ratings
+
+**Kill rule:**
+If predictive uplift over simple baseline models is small or unstable, all talk of practical typology should stop.
+
+---
+
+## 11. Phase 8 — Only Now Try Types
+**Duration:** 6 weeks after stable dimensional model
+
+Only after stable scales can you try latent profile analysis / mixture modeling / clustering. Not earlier.
+
+**What we check:**
+- Clusters are stable on bootstrap/resamples
+- Clusters reproduce in independent sample
+- People don't jump between "types" from small score noise
+- Types add improvement to interpretation or prediction compared to continuous scales
+
+**My forecast:**
+If something survives, it's more likely as a dimensional model, not as a beautiful grid of 24 or 16 types. And that's fine. Types must be earned, not declared.
+
+---
+
+## 12. Open Science Protocol
+
+Critical phases must be preregistered. COS defines preregistration as a research plan fixed in advance and submitted to a registry before analysis of results; this is needed to separate planned analyses from post-hoc. For the main confirmatory study, I would aim for Registered Report: reviewers evaluate the question and method before data collection, not adjust to the result. TOP Guidelines is a normal framework for transparency, data, and code.
+
+**Minimum:**
+- OSF preregistration for each confirmatory phase
+- Public codebook
+- Analysis scripts
+- Versioned item bank
+- Separate exploratory vs confirmatory analyses
+- Replication on new sample
+
+---
+
+## 13. Specific 12-Month Calendar
+
+**Month 1–2:**
+Construct map, rival hypotheses, use-case matrix, baseline battery.
+
+**Month 2–3:**
+Item bank, vignettes, observer protocols, coding manual.
+
+**Month 3–4:**
+Expert review + cognitive interviews + instrument v1.
+
+**Month 4–5:**
+Pilot n=200–300, item cleanup, test-retest subset.
+
+**Month 6–8:**
+Main calibration n=800–1200, EFA/CFA/IRT, scales v2.
+
+**Month 8–9:**
+External battery, convergent/discriminant/incremental validity.
+
+**Month 9–10:**
+Measurement invariance RU/UA/EN and by key groups.
+
+**Month 10–12:**
+Longitudinal predictive study + latent profiles only if dimensional model already stable.
+
+---
+
+## 14. What Will Break First
+
+With high probability, the first thing to break will not be statistics but ontology:
+Too beautiful words will turn out to be poorly distinguishable constructs.
+
+Second will break discriminant validity:
+New scales will start merging with old ones.
+
+Third will break invariance:
+Same items will mean different things in different languages and cultural contexts.
+
+Fourth will break typization:
+Continuous differences will not want to honestly turn into "types."
+
+---
+
+## 15. Final Success Criterion
+
+The program is considered successful not when you "confirmed the typology," but when after all the grinding you have left:
+
+- Several clearly defined and reproducible scales
+- Clear boundaries of applicability
+- Acceptable stability
+- Cross-group comparability
+- External predictive value
+- And only after that — possibly — stable profiles
+
+If after this only a third of the original theory remains — excellent. That means you were doing science, not apologetics.
+
+---
+
+I can in the next message turn this into a working protocol pack: which exact questionnaires to take in baseline, which behavioral tasks to use for induction/deduction and temporal orientation, and which statistics to run in R/Python at each stage.
+
+---
+
+## References
+
+- Flake, J. K., Pek, J., & Hehman, E. (2017). Construct validation in social and personality research. *Social Psychological and Personality Science*.
+- COSMIN (Consensus-based Standards for the selection of health Measurement INstruments). https://www.cosmin.nl/
+- Center for Open Science. https://cos.io/

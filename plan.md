@@ -1,38 +1,45 @@
-Ниже дам план так, как это стоило бы строить в реальном продукте, а не как красивую идею в промпте.
+# Cognitive Matchmaker: Product and Technical Plan
 
-Сразу главное: этот проект нельзя начинать с мысли “сделаем умную сваху на LLM и она сама все поймет”. Правильный путь другой: сначала строится строгий multi-agent pipeline, потом ограниченный MVP с человеком в контуре, потом проверка, предсказывает ли симуляция реальную совместимость, и только после этого — частичная автономия.
+Below is the plan as it should be built in a real product, not as a beautiful idea in a prompt.
 
-Я бы строил это как систему из 4 слоев:
+First, the key point: this project cannot be started with the thought "let's make a smart matchmaker on LLM and it will understand everything on its own." The correct path is different: first, a strict multi-agent pipeline is built, then a limited MVP with a human in the loop, then verification of whether the simulation predicts real compatibility, and only after that—partial autonomy.
 
-1. orchestration layer — кто запускает пайплайн и следит за состоянием
-2. cognition layer — агенты, которые интервьюируют, моделируют, симулируют, оценивают
-3. evidence layer — где хранятся факты, гипотезы, транскрипты, риски и объяснения
-4. action layer — что видит пользователь: shortlist, объяснение, вопросы на свидание, логистика
+I would build this as a system of 4 layers:
 
-Ниже детальный план.
+1. Orchestration layer — who runs the pipeline and monitors state
+2. Cognition layer — agents that interview, model, simulate, evaluate
+3. Evidence layer — where facts, hypotheses, transcripts, risks, and explanations are stored
+4. Action layer — what the user sees: shortlist, explanation, date questions, logistics
 
-1. Цель проекта
+Below is the detailed plan.
 
-Что именно должен делать продукт:
+---
 
-не показывать пользователю 300 анкет, а выдавать 1–5 сильных кандидатов в неделю с понятным объяснением, почему именно они;
-оценивать не только интересы и био, а то, как пара потенциально ведет себя в напряженных и значимых сценариях;
-давать не “магический verdict”, а гипотезу с evidence packet: что именно модель увидела, где риски, что проверить вживую;
-снижать когнитивную нагрузку и усталость от свайпов.
+## 1. Project Goal
 
-Что продукт не должен делать:
+### What the product should do:
 
-не должен делать жесткие исключения только по типологиям;
-не должен выдавать симуляцию за истину о человеке;
-не должен сразу сам писать людям, договариваться и принимать решения без прозрачного согласия;
-не должен строиться на непрозрачном scraping без consent.
+- Not show the user 300 profiles, but deliver 1–5 strong candidates per week with a clear explanation of why exactly they were selected
+- Evaluate not only interests and bio, but how the pair potentially behaves in stressful and significant scenarios
+- Give not a "magic verdict," but a hypothesis with an evidence packet: what the model saw, where the risks are, what to verify in real life
+- Reduce cognitive load and swipe fatigue
 
-2. Базовый принцип архитектуры
+### What the product should NOT do:
 
-Нужен не один “суперагент”, а оркестр специализированных агентов с четкими контрактами.
+- Should not make hard exclusions based solely on typologies
+- Should not present simulation as truth about a person
+- Should not immediately write to people, negotiate, and make decisions without transparent consent
+- Should not be built on opaque scraping without consent
 
-Правильная схема такая:
+---
 
+## 2. Basic Architecture Principle
+
+We need not one "super-agent," but an orchestra of specialized agents with clear contracts.
+
+The correct scheme is:
+
+```
 User / Candidate Data
 → Intake Agents
 → Profiling Agents
@@ -44,402 +51,427 @@ User / Candidate Data
 → Shortlist Composer
 → Human Review / Optional Concierge Actions
 → Feedback Loop / Retraining
+```
 
-Ключевая идея: каждый агент отвечает только за одну стадию. Никаких “один LLM все делает сам”.
+Key idea: each agent is responsible for only one stage. No "one LLM does everything itself."
 
-3. Набор агентов
+---
 
-Я бы сделал 12 основных агентов.
+## 3. Agent Set
 
-3.1 Orchestrator Agent
+I would create 12 main agents.
 
-Это главный workflow manager.
+### 3.1 Orchestrator Agent
 
-Что делает:
-принимает новый onboarding, нового кандидата, weekly run, feedback event;
-запускает правильные подагенты;
-следит за статусами, retries, версионностью профиля;
-останавливает pipeline, если confidence низкий или есть red flags.
+This is the main workflow manager.
 
-Вход:
-event type + entity id
+**What it does:**
+- Accepts new onboarding, new candidate, weekly run, feedback event
+- Runs the correct sub-agents
+- Monitors statuses, retries, profile versioning
+- Stops the pipeline if confidence is low or there are red flags
 
-Выход:
-state transition + список задач для других агентов
+**Input:** event type + entity id
 
-По сути это control plane всей системы.
+**Output:** state transition + list of tasks for other agents
 
-3.2 Onboarding Interview Agent
+This is essentially the control plane of the entire system.
 
-Это агент глубинного интервью с пользователем.
+---
 
-Задача:
-не просто собрать анкету, а вытащить реальные relationship-relevant patterns:
-ценности,
-границы,
-страхи,
-типичные конфликты,
-стиль коммуникации,
-ожидания от брака/отношений,
-отношение к деньгам, детям, карьере, переезду, вере, семье.
+### 3.2 Onboarding Interview Agent
 
-Он должен работать по адаптивному дереву интервью:
-если видит важный сигнал — углубляется;
-если ответ поверхностный — переформулирует;
-если область критична — просит пример из прошлого.
+This is the deep interview agent with the user.
 
-Выход не текст “пользователь такой-то”, а структурированный объект:
-UserEvidenceProfile v1
+**Task:**
+Not just collecting a form, but extracting real relationship-relevant patterns:
+- Values
+- Boundaries
+- Fears
+- Typical conflicts
+- Communication style
+- Expectations from marriage/relationships
+- Attitude toward money, children, career, relocation, faith, family
 
-Пример полей:
-identity_constraints
-relationship_goals
-non_negotiables
-conflict_patterns
-attachment_signals
-decision_style
-stress_response
-faith_values
-family_model
-time_horizon
-money_norms
-relocation_attitude
-child_preferences
-communication_style
-self_reported_typology
-confidence_per_field
+It should work on an adaptive interview tree:
+- If it sees an important signal — goes deeper
+- If the answer is superficial — reformulates
+- If an area is critical — asks for an example from the past
 
-3.3 Evidence Normalizer Agent
+**Output** is not text "user is such-and-such," but a structured object: `UserEvidenceProfile v1`
 
-Этот агент превращает сырые ответы в нормализованные факты и гипотезы.
+Example fields:
+- identity_constraints
+- relationship_goals
+- non_negotiables
+- conflict_patterns
+- attachment_signals
+- decision_style
+- stress_response
+- faith_values
+- family_model
+- time_horizon
+- money_norms
+- relocation_attitude
+- child_preferences
+- communication_style
+- self_reported_typology
+- confidence_per_field
 
-Почему он нужен:
-люди отвечают длинно, противоречиво, эмоционально;
-LLM любит делать слишком уверенные выводы;
-нужно отделять “факт”, “самоописание”, “гипотеза”, “непонятно”.
+---
 
-Он разбивает данные на 4 слоя:
-observed facts
-self-claims
-model inferences
-unknowns
+### 3.3 Evidence Normalizer Agent
 
-Это критично для безопасности и explainability.
+This agent converts raw responses into normalized facts and hypotheses.
 
-3.4 Typology Mapping Agent
+**Why it is needed:**
+- People respond lengthily, contradictorily, emotionally
+- LLMs like to make overly confident conclusions
+- Need to separate "fact," "self-description," "hypothesis," "unknown"
 
-Этот агент отдельно работает с темпористикой, психософией, соционикой.
+It splits data into 4 layers:
+- observed facts
+- self-claims
+- model inferences
+- unknowns
 
-Но очень важно: он не должен быть источником истины.
-Он должен выдавать не тип как догму, а распределение гипотез.
+This is critical for safety and explainability.
 
-Например:
+---
+
+### 3.4 Typology Mapping Agent
+
+This agent separately works with temporistics, psychosophy, and socionics.
+
+But very importantly: it should not be a source of truth.
+It should output not a type as dogma, but a distribution of hypotheses.
+
+For example:
+```
 socionics_hypotheses = [typeA: 0.41, typeB: 0.27, typeC: 0.13...]
 psychosophy_hypotheses = [...]
 temporistics_hypotheses = [...]
+```
 
-И рядом:
-which statements support this
-which statements contradict this
-confidence
-what should be validated in reality
+And alongside:
+- which statements support this
+- which statements contradict this
+- confidence
+- what should be validated in reality
 
-Так эти типологии становятся feature generators, а не “оракулом”.
+This is how typologies become feature generators, not an "oracle."
 
-3.5 Candidate Intake Agent
+---
 
-Этот агент принимает кандидатов из любого источника:
-анкета в приложении,
-приглашенный пул,
-ручной импорт,
-партнерский matchmaking pool,
-human curator input.
+### 3.5 Candidate Intake Agent
 
-Он должен:
-нормализовать профили;
-проверять наличие consent;
-удалять мусор;
-отмечать missing fields;
-создавать CandidateEvidenceProfile.
+This agent accepts candidates from any source:
+- Profile in the app
+- Invited pool
+- Manual import
+- Partner matchmaking pool
+- Human curator input
 
-Для MVP я бы вообще не трогал массовые dating apps.
-Лучше начать с закрытого consent-based пула, иначе утонете в этике, платформах и плохих данных.
+It should:
+- Normalize profiles
+- Check for consent
+- Remove garbage
+- Mark missing fields
+- Create `CandidateEvidenceProfile`
 
-3.6 Twin Builder Agent
+For MVP, I would not touch mass dating apps at all.
+Better to start with a closed consent-based pool, otherwise you'll drown in ethics, platforms, and bad data.
 
-Это один из главных агентов.
+---
 
-Его задача:
-собрать из evidence-профиля управляемого digital twin.
+### 3.6 Twin Builder Agent
 
-Twin — это не просто prompt.
-Это structured simulation policy.
+This is one of the main agents.
 
-Он строит:
-core motives
-decision heuristics
-emotional triggers
-style constraints
-red lines
-preferred repair strategies
-uncertainty zones
+**Its task:** From the evidence profile, build a controllable digital twin.
 
-То есть twin должен уметь отвечать не “красиво”, а консистентно.
+Twin is not just a prompt.
+It is a structured simulation policy.
 
-На выходе:
-UserTwinSpec
-CandidateTwinSpec
+It builds:
+- core motives
+- decision heuristics
+- emotional triggers
+- style constraints
+- red lines
+- preferred repair strategies
+- uncertainty zones
 
-Важно: twin spec должен быть machine-readable, а не только narrative text.
+The twin must be able to respond not "beautifully," but consistently.
 
-Например:
+**Output:**
+- `UserTwinSpec`
+- `CandidateTwinSpec`
+
+Important: twin spec must be machine-readable, not just narrative text.
+
+Example:
+```json
 {
-"conflict_style": {"mode": "withdraw_then_return", "confidence": 0.72},
-"money_decision_style": {"mode": "conservative_budgeting", "confidence": 0.81},
-"relocation_priority": {"mode": "relationship_over_career", "confidence": 0.49},
-"strategic_values": [...]
+  "conflict_style": {"mode": "withdraw_then_return", "confidence": 0.72},
+  "money_decision_style": {"mode": "conservative_budgeting", "confidence": 0.81},
+  "relocation_priority": {"mode": "relationship_over_career", "confidence": 0.49},
+  "strategic_values": [...]
 }
+```
 
-3.7 Scenario Planner Agent
+---
 
-Этот агент выбирает, какие именно сценарии гонять для пары.
+### 3.7 Scenario Planner Agent
 
-Не надо гонять 50 одинаковых диалогов.
-Нужны sparse high-information scenarios.
+This agent selects which specific scenarios to run for the pair.
 
-Он должен подбирать сценарии по матрице:
+Don't need to run 50 identical dialogues.
+Need sparse high-information scenarios.
 
-stakes:
-low / medium / high
+It should select scenarios by matrix:
 
-domains:
-money
-career
-faith
-family
-children
-location
-sexual boundaries
-social life
-caregiving
-failure
-illness
-jealousy
-time allocation
-conflict recovery
+**Stakes:**
+- low / medium / high
 
-axes:
-ambiguity
-time pressure
-value clash
-role asymmetry
-external stress
+**Domains:**
+- money
+- career
+- faith
+- family
+- children
+- location
+- sexual boundaries
+- social life
+- caregiving
+- failure
+- illness
+- jealousy
+- time allocation
+- conflict recovery
 
-На пару нужно не 3 случайных сценария, а сценарный пакет:
-ScenarioPack v1
+**Axes:**
+- ambiguity
+- time pressure
+- value clash
+- role asymmetry
+- external stress
 
-Например:
+For a pair, not 3 random scenarios, but a scenario pack: `ScenarioPack v1`
 
-1. career relocation under time pressure
-2. family budget after unexpected loss
-3. conflict about weekly routine / church / relatives
-4. response to partner burnout
-5. long-term vision alignment
+Example:
+1. Career relocation under time pressure
+2. Family budget after unexpected loss
+3. Conflict about weekly routine / church / relatives
+4. Response to partner burnout
+5. Long-term vision alignment
 
-3.8 Simulation Director Agent
+---
 
-Этот агент запускает симуляции и следит, чтобы они были качественные.
+### 3.8 Simulation Director Agent
 
-Его работа:
-делать multiple runs;
-менять seeds;
-пробовать role reversal;
-усиливать стресс;
-гонять counterfactual branches;
-останавливать явно невалидные симуляции;
-маркировать unstable outputs.
+This agent runs simulations and ensures they are high quality.
 
-То есть одна симуляция = мусор.
-Нужен ensemble.
+**Its work:**
+- Do multiple runs
+- Change seeds
+- Try role reversal
+- Increase stress
+- Run counterfactual branches
+- Stop explicitly invalid simulations
+- Mark unstable outputs
 
-Я бы делал минимум так:
-на одну пару 5–10 сценариев
-на каждый сценарий 3–5 прогонов
-итого 15–50 transcripts на пару
+One simulation = garbage.
+Need an ensemble.
 
-Потому что один диалог LLM легко уедет в случайность.
+I would do at least:
+- 5–10 scenarios per pair
+- 3–5 runs per scenario
+- Total: 15–50 transcripts per pair
 
-3.9 Pair Simulation Agents
+Because one LLM dialogue can easily drift into randomness.
 
-Технически это два агента:
-User Twin Agent
-Candidate Twin Agent
+---
 
-Они играют не “умного ассистента”, а конкретного человека внутри ограничений twin spec.
+### 3.9 Pair Simulation Agents
 
-Правила:
-не иметь доступа к итоговому score;
-не знать желаемый outcome;
-не подстраиваться специально ради совместимости;
-следовать internal policy, а не pleasing mode.
+Technically these are two agents:
+- User Twin Agent
+- Candidate Twin Agent
 
-Иначе все превратится в синтетическую вежливость.
+They play not a "smart assistant," but a specific person within twin spec constraints.
 
-3.10 Observer / Judge Ensemble Agent
+**Rules:**
+- Not have access to the final score
+- Not know the desired outcome
+- Not specifically adapt for the sake of compatibility
+- Follow internal policy, not pleasing mode
 
-Это самый важный аналитический слой.
+Otherwise, everything turns into synthetic politeness.
 
-Я бы не делал одного judge.
-Нужен ensemble из 3–4 оценочных ролей:
+---
 
-1. Strategic Judge
-   Смотрит на ценности, мотивы, жизненный вектор.
+### 3.10 Observer / Judge Ensemble Agent
 
-2. Operational Judge
-   Смотрит на распределение ролей, совместное решение задач, complementarity.
+This is the most important analytical layer.
 
-3. Tactical Judge
-   Смотрит на микродинамику общения:
-   эскалация,
-   repair attempts,
-   слушание,
-   перебивание,
-   дефенсивность,
-   withdrawal,
-   co-regulation.
+I would not make one judge.
+Need an ensemble of 3–4 evaluative roles:
 
-4. Skeptic / Red-Team Judge
-   Пытается доказать, что match плохой, и ищет слабые места модели.
+1. **Strategic Judge** — Looks at values, motives, life vector
 
-Это критично, потому что без red-team judge система будет галлюцинировать compatibility.
+2. **Operational Judge** — Looks at role distribution, joint problem solving, complementarity
 
-На выходе:
-CompatibilityAssessment
-RiskFlags
-EvidenceMoments
-ConfidenceScore
-Contradictions
+3. **Tactical Judge** — Looks at micro-dynamics of communication:
+   - escalation
+   - repair attempts
+   - listening
+   - interrupting
+   - defensiveness
+   - withdrawal
+   - co-regulation
 
-3.11 Explanation Composer Agent
+4. **Skeptic / Red-Team Judge** — Tries to prove the match is bad and looks for weaknesses in the model
 
-Этот агент превращает технический вывод в человеческий.
+This is critical because without a red-team judge, the system will hallucinate compatibility.
 
-Он делает:
-match card,
-plain-language explanation,
-why this candidate,
-why not others,
-what to validate offline,
-questions for first date,
-what could go wrong.
+**Output:**
+- `CompatibilityAssessment`
+- `RiskFlags`
+- `EvidenceMoments`
+- `ConfidenceScore`
+- `Contradictions`
 
-Пример хорошего объяснения:
-“В сценариях про деньги и стресс вы оба не уходили в contempt или silent withdrawal. У вас разный стиль принятия решений: один быстрее закрывает неопределенность, другой дольше исследует варианты. Но в 4 из 5 прогонов вы находили рабочий компромисс. Основной риск — разная срочность в теме переезда.”
+---
 
-Это и есть evidence packet.
+### 3.11 Explanation Composer Agent
 
-3.12 Feedback & Learning Agent
+This agent converts the technical output into human-readable form.
 
-После реального контакта или свидания он собирает реальность.
+It does:
+- Match card
+- Plain-language explanation
+- Why this candidate
+- Why not others
+- What to validate offline
+- Questions for first date
+- What could go wrong
 
-Что надо собирать:
-был ли mutual interest;
-было ли ощущение “модель промахнулась”;
-совпали ли конфликтные паттерны;
-появилось ли желание продолжить;
-что оказалось критичным, но модель не заметила.
+Example of a good explanation:
+"In scenarios about money and stress, you both did not fall into contempt or silent withdrawal. You have different decision-making styles: one closes uncertainty faster, the other explores options longer. But in 4 out of 5 runs, you found a working compromise. Main risk — different urgency on the relocation topic."
 
-Без этого проекта не существует.
-Иначе это просто красивая симуляция без ground truth.
+This is the evidence packet.
 
-4. Какие сущности и артефакты должны быть в системе
+---
 
-Нужна строгая data model.
+### 3.12 Feedback & Learning Agent
 
-Минимальный набор сущностей:
+After real contact or date, it collects reality.
 
-UserProfile
-CandidateProfile
-EvidenceClaim
-TypologyHypothesis
-TwinSpec
-ScenarioTemplate
-ScenarioPack
-SimulationRun
-Transcript
-JudgeAssessment
-RiskFlag
-MatchCard
-ShortlistDigest
-FeedbackEvent
-ModelVersion
-ConsentRecord
-AuditLog
+**What to collect:**
+- Whether there was mutual interest
+- Whether there was a feeling "the model missed"
+- Whether conflict patterns matched
+- Whether there was desire to continue
+- What turned out to be critical but the model didn't notice
 
-Это важно потому, что без структурированных сущностей нельзя:
-делать explainability,
-пересчитывать score,
-версионировать профили,
-строить offline evaluation,
-проводить A/B.
+Without this, the project does not exist.
+Otherwise, it's just a beautiful simulation without ground truth.
 
-5. Как должен выглядеть end-to-end pipeline
+---
 
-Шаг 1. Onboarding пользователя
-Пользователь проходит интервью.
-Система собирает evidence, а не просто анкету.
+## 4. Entities and Artifacts
 
-Шаг 2. Normalization
-Ответы очищаются, превращаются в факты, гипотезы, unknowns.
+Strict data model is needed.
 
-Шаг 3. Typology feature extraction
-Типологии используются как дополнительный словарь признаков, а не как ядро истины.
+Minimum entity set:
 
-Шаг 4. User twin build
-Собирается версия цифрового двойника пользователя.
+- UserProfile
+- CandidateProfile
+- EvidenceClaim
+- TypologyHypothesis
+- TwinSpec
+- ScenarioTemplate
+- ScenarioPack
+- SimulationRun
+- Transcript
+- JudgeAssessment
+- RiskFlag
+- MatchCard
+- ShortlistDigest
+- FeedbackEvent
+- ModelVersion
+- ConsentRecord
+- AuditLog
 
-Шаг 5. Candidate intake
-Кандидаты импортируются, проходят ту же нормализацию.
+This is important because without structured entities, you cannot:
+- Do explainability
+- Recalculate scores
+- Version profiles
+- Build offline evaluation
+- Conduct A/B
 
-Шаг 6. Candidate twin build
-Для каждого кандидата строится twin.
+---
 
-Шаг 7. Pair pre-filtering
-Быстрый фильтр по hard constraints:
-возрастной диапазон,
-география,
-статус отношений,
-дети / брак / вера / non-negotiables,
-consent,
-критичные несовместимости.
+## 5. End-to-End Pipeline
 
-Шаг 8. Scenario planning
-Для каждой пары подбирается индивидуальный пакет высокоинформативных сценариев.
+**Step 1. User Onboarding**
+User goes through interview.
+System collects evidence, not just a form.
 
-Шаг 9. Multi-run simulation
-Пара прогоняется через много сценариев и повторов.
+**Step 2. Normalization**
+Responses are cleaned, turned into facts, hypotheses, unknowns.
 
-Шаг 10. Judge ensemble scoring
-Судьи выдают layer-by-layer оценку и риски.
+**Step 3. Typology Feature Extraction**
+Typologies are used as an additional feature dictionary, not as the core of truth.
 
-Шаг 11. Explanation synthesis
-Собирается human-readable объяснение.
+**Step 4. User Twin Build**
+User's digital twin version is assembled.
 
-Шаг 12. Weekly ranking
-Пользователь получает shortlist 1–5 кандидатов.
+**Step 5. Candidate Intake**
+Candidates are imported, go through the same normalization.
 
-Шаг 13. Real-world validation
-После общения / свидания собирается обратная связь.
+**Step 6. Candidate Twin Build**
+Twin is built for each candidate.
 
-Шаг 14. Recalibration
-Модель, веса, сценарии, twin-building улучшаются на реальных outcome data.
+**Step 7. Pair Pre-filtering**
+Quick filter by hard constraints:
+- age range
+- geography
+- relationship status
+- children / marriage / faith / non-negotiables
+- consent
+- Critical incompatibilities
 
-6. Как считать score
+**Step 8. Scenario Planning**
+For each pair, an individual pack of high-information scenarios is selected.
 
-Я бы не делал один score “87/100”.
-Это слишком фальшиво.
+**Step 9. Multi-run Simulation**
+Pair is run through many scenarios and repeats.
 
-Нужно минимум 5 чисел:
+**Step 10. Judge Ensemble Scoring**
+Judges output layer-by-layer assessment and risks.
+
+**Step 11. Explanation Synthesis**
+Human-readable explanation is assembled.
+
+**Step 12. Weekly Ranking**
+User receives shortlist of 1–5 candidates.
+
+**Step 13. Real-world Validation**
+After communication / date, feedback is collected.
+
+**Step 14. Recalibration**
+Model, weights, scenarios, twin-building are improved on real outcome data.
+
+---
+
+## 6. How to Calculate Score
+
+I would not make one score "87/100".
+That's too fake.
+
+Need at least 5 numbers:
 
 1. strategic alignment
 2. operational complementarity
@@ -447,456 +479,478 @@ consent,
 4. risk severity
 5. confidence / evidence sufficiency
 
-Итоговая логика должна быть такой:
+**Final logic should be:**
 
+```
 final_match_score =
-0.40 strategic_alignment
+  0.40 * strategic_alignment
+  * 0.30 * operational_complementarity
+  * 0.20 * tactical_stability
+  * 0.10 * reciprocal_interest_prior
+  - risk_penalty
+```
 
-* 0.30 operational_complementarity
-* 0.20 tactical_stability
-* 0.10 reciprocal_interest_prior
+But separately required:
+- confidence_score
+- hard_stop_flags
 
-- risk_penalty
+**Example hard stop:**
+- Contradiction on children
+- Incompatibility on faith
+- Critical divergence in marriage expectations
+- Dangerous signs of control / aggression / manipulation
 
-Но отдельно обязательно:
-confidence_score
-hard_stop_flags
+High "chemistry" should not override hard incompatibility.
 
-Пример hard stop:
-противоречие по детям,
-несовместимость по вере,
-критичное расхождение в брачных ожиданиях,
-опасные признаки контроля / агрессии / манипуляции.
+---
 
-То есть высокая “химия” не должна перекрывать hard incompatibility.
+## 7. How to Make Simulations Non-Toy
 
-7. Как сделать симуляции не игрушечными
+This is where things most often break.
 
-Вот здесь чаще всего все ломается.
+To make simulation not be beautiful chatter, 7 rules are needed:
 
-Чтобы симуляция не была красивой болтовней, нужны 7 правил:
+1. **Structured world state** — Scenario must have world state: income, deadline, constraints, relatives, health, time, solution options.
 
-1. Structured world state
-   Сценарий должен иметь состояние мира:
-   доход,
-   срок,
-   ограничения,
-   родственники,
-   здоровье,
-   время,
-   варианты решения.
+2. **Goal tension** — Each twin in scenario must have real competing priorities.
 
-2. Goal tension
-   У каждого twin в сценарии должны быть реальные competing priorities.
+3. **Memory continuity** — If there was a conflict at the beginning, its consequences must remain in subsequent turns.
 
-3. Memory continuity
-   Если в начале был конфликт, его последствия должны оставаться в следующих репликах.
+4. **Stress modulation** — Ability to intensify stress and see how dynamics change.
 
-4. Stress modulation
-   Нужно уметь усиливать стресс и смотреть, как меняется динамика.
+5. **Multi-run variance tracking** — If outcome fluctuates too much, confidence must drop.
 
-5. Multi-run variance tracking
-   Если outcome слишком скачет, confidence должен падать.
-
-6. Counterfactual probes
-   Нужно прогонять “а что если условия хуже”, “а что если у одного меньше ресурсов”.
-
-7. Anti-pleasing constraints
-   Агенты не должны искусственно сглаживать конфликт ради красивого результата.
-
-8. Какой MVP реально делать первым
-
-Правильный MVP очень узкий.
-
-Не надо сразу:
-full autonomy,
-calendar booking,
-venue search,
-outreach,
-массовый пул,
-автопереписка с кандидатами.
-
-Первый MVP должен быть таким:
-
-MVP-1
-deep onboarding
-candidate intake from curated consent-based pool
-twin builder
-5–7 сценариев
-judge ensemble
-manual human review
-1–3 recommendations per week
-feedback collection after date
-
-Цель MVP:
-не “заработать вау”, а проверить 3 вещи:
-
-1. пользователю вообще полезно такое объяснение?
-
-2. shortlist реально лучше случайного или обычного выбора?
-
-3. simulation outputs хоть как-то коррелируют с реальностью?
-
-4. План по фазам
-
-Фаза 0. Research & problem framing
-Срок: 2–4 недели
-
-Что делаем:
-фиксируем продуктовую гипотезу;
-описываем outcomes;
-определяем sensitive domains;
-фиксируем legal boundaries;
-делаем data contracts;
-решаем, какие типологии optional, а какие вообще не используем в ядре.
-
-Артефакты:
-PRD
-risk register
-ontology of compatibility
-scenario taxonomy
-data schema draft
-evaluation plan v1
-
-Фаза 1. Human-in-the-loop concierge prototype
-Срок: 4–8 недель
-
-Что делаем:
-онбординг-агент;
-candidate intake;
-ручной или semi-automatic twin building;
-5 базовых сценариев;
-judge ensemble;
-ручная сборка shortlist.
-
-Цель:
-понять, какие объяснения полезны, и где модель несет чушь.
-
-Фаза 2. Simulation platform MVP
-Срок: 6–10 недель
-
-Что делаем:
-scenario compiler;
-simulation runner;
-logging of transcripts;
-variance tracking;
-confidence computation;
-explanation composer.
-
-Цель:
-получить стабильный simulation pipeline.
-
-Фаза 3. Evaluation loop
-Срок: 8–12 недель
-
-Что делаем:
-сбор реального feedback;
-post-date surveys;
-сравнение predicted vs actual;
-ablation tests:
-без типологий,
-только hard constraints,
-с типологиями,
-с симуляцией,
-без симуляции.
-
-Цель:
-доказать, что хоть какой-то кусок системы реально дает signal.
-
-Фаза 4. Partial automation
-Срок: 6–8 недель
-
-Что делаем:
-оркестратор;
-автоматический weekly digest;
-лучшие сценарии по сегментам;
-базовый risk gate;
-versioned twin specs.
+6. **Counterfactual probes** — Need to run "what if conditions are worse," "what if one has fewer resources."
 
-Фаза 5. Concierge action layer
-Срок: 4–6 недель
-
-Что делаем:
-вопросы на первое свидание;
-scheduling assist;
-venue suggestions;
-consent workflows.
-
-Фаза 6. Scaling & personalization
-Срок: дальше постоянно
-
-Что делаем:
-segment-specific models;
-personalized scenario selection;
-bandit-style scenario prioritization;
-retrieval of similar past outcomes;
-human coach escalation for edge cases.
-
-10. Какой стек я бы выбрал
-
-Не буду привязываться к хайпу, дам практичную схему.
-
-Backend:
-Python + FastAPI
-
-Workflow orchestration:
-Temporal или Prefect
-Я бы скорее взял Temporal, если проект реально станет event-driven и stateful.
-
-Database:
-PostgreSQL
-потому что нужна строгая relational model, auditability и versioning
-
-Vector store:
-pgvector на старте
-не надо тащить отдельный векторный зоопарк слишком рано
-
-Cache / queue:
-Redis
-
-LLM layer:
-абстракция над несколькими моделями
-нельзя завязывать весь продукт на одну модель
-
-Observability:
-OpenTelemetry
-structured logs
-trace per workflow
-prompt/version tracing
-
-Evaluation storage:
-отдельные таблицы под runs, judges, outcomes, confidence drift
+7. **Anti-pleasing constraints** — Agents should not artificially smooth conflict for a beautiful result.
 
-Policy / guardrails:
-отдельный rule engine, не внутри промпта
+---
 
-Frontend:
-в начале web dashboard для operator + user digest UI
+## 8. What MVP to Build First
 
-11. Как должна выглядеть память агентов
+Correct MVP is very narrow.
 
-Нельзя просто давать всем агентам всю историю.
-Нужна многослойная память.
-
-1. Raw memory
-   сырые интервью, анкеты, заметки
-
-2. Structured memory
-   факты, признаки, гипотезы
-
-3. Working memory
-   то, что нужно агенту в конкретной задаче
-
-4. Audit memory
-   какая версия модели, какой prompt, какие входы, какой output
+Don't do immediately:
+- Full autonomy
+- Calendar booking
+- Venue search
+- Outreach
+- Mass pool
+- Auto-writing to candidates
 
-Очень важно:
-агенты должны видеть только нужный минимум.
-Иначе будет leakage, bias и ненужное hallucination coupling.
+**First MVP should be:**
 
-12. Какие проверки должны быть у каждого агента
-
-У каждого output должны быть обязательные поля:
-
-claim
-evidence span
-confidence
-alternative interpretation
-missing information
-safe-to-use flag
-
-Тогда система будет не просто “умничать”, а реально держать epistemic discipline.
-
-13. Как валидировать научно, а не на ощущениях
-
-Тут нужен почти research-grade подход.
-
-13.1 Offline validation
-Берете исторические кейсы или пилотные пары и смотрите:
-предсказывает ли система:
-первое свидание,
-второе свидание,
-mutual interest,
-продолжение общения,
-расхождение модели и реальности.
-
-13.2 Online pilot
-Маленькая группа пользователей.
-Сравниваете:
-обычный поиск
-vs
-concierge shortlist
+```
+MVP-1:
+- Deep onboarding
+- Candidate intake from curated consent-based pool
+- Twin builder
+- 5–7 scenarios
+- Judge ensemble
+- Manual human review
+- 1–3 recommendations per week
+- Feedback collection after date
+```
 
-13.3 Ablation
-Проверяете вклад каждого слоя:
-только анкета
-анкета + hard filters
-анкета + типологии
-анкета + симуляции
-анкета + симуляции + judge ensemble
-
-13.4 Calibration
-Если система ставит 0.8 compatibility, это реально чаще приводит к позитивному outcome, чем 0.4?
-Если нет — score мусор.
-
-13.5 Human qualitative review
-Независимый reviewer читает transcript и говорит:
-это правдоподобно или synthetic nonsense?
-
-14. Главные риски проекта
-
-14.1 LLM twins будут правдоподобны, но не предиктивны
-Это риск номер один.
-
-14.2 Типологии дадут красивый narrative, но слабый signal
-Поэтому они должны быть optional features, а не foundation truth.
-
-14.3 Судьи будут усиливать bias
-Поэтому нужен skeptical judge и human review.
-
-14.4 Пользователь начнет воспринимать систему как “читает души”
-Нужно очень жестко формулировать output как hypothesis, not diagnosis.
-
-14.5 Автоматические исключения будут юридически и этически опасны
-Нужен human override и понятный consent.
-
-14.6 Модель начнет советовать слишком “удобные”, а не лучшие пары
-Потому что LLM любит социальную гладкость.
-Нужны stress scenarios и red-team probing.
-
-15. Privacy, ethics, compliance
-
-Это не “потом добавим”. Это в ядре.
-
-Нужно сразу:
-
-явный informed consent;
-понятный список, какие данные используются;
-право удалить профиль;
-retention policy;
-не хранить лишнее;
-audit log на automated decisions;
-объяснение, как формируется shortlist;
-запрет на hidden scraping без согласия;
-запрет на чувствительные выводы без достаточных оснований;
-human-in-the-loop для спорных кейсов.
-
-Особенно важно:
-если система кого-то исключает, должно быть ясно почему.
-И причина должна звучать как product reason, а не “AI решил”.
-
-16. Как я бы спроектировал weekly product output
-
-Пользователь должен видеть не кашу, а компактный digest.
-
-Для каждого кандидата:
-
-1. Почему вы попали в shortlist
-2. Где у вас сильная совместимость
-3. Где у вас возможный риск
-4. Что нужно проверить вживую
-5. 3–5 вопросов на первое свидание
-6. Общий confidence
-7. Что система пока не знает
+**MVP goal:**
+Not "make people say wow," but verify 3 things:
 
-Пример структуры card:
-match summary
-top strengths
-top risks
-key simulation moments
-validation questions
-suggested date style
-confidence level
+1. Is such explanation actually useful to the user?
+2. Is shortlist really better than random or ordinary choice?
+3. Do simulation outputs correlate with reality at all?
 
-17. Где нужен человек в контуре
+---
 
-На старте почти везде.
+## 9. Phased Plan
 
-Human operator нужен:
-после онбординга — проверить profile coherence;
-после twin build — проверить, не уехала ли модель;
-после scoring — проверить red flags и nonsense;
-перед выдачей shortlist — финальный sanity check;
-после feedback — размечать ошибки модели.
+### Phase 0. Research & Problem Framing
+**Duration:** 2–4 weeks
 
-Только потом можно убирать человека из части шагов.
+**What to do:**
+- Fix product hypothesis
+- Describe outcomes
+- Define sensitive domains
+- Fix legal boundaries
+- Make data contracts
+- Decide which typologies are optional and which are not used in core at all
 
-18. Какая команда нужна
+**Artifacts:**
+- PRD
+- Risk register
+- Ontology of compatibility
+- Scenario taxonomy
+- Data schema draft
+- Evaluation plan v1
 
-Минимально:
+---
 
-1 product lead
-1 research / behavioral design lead
-1 LLM engineer
-1 backend engineer
-1 frontend engineer
-1 data / evaluation engineer
-1 privacy / policy advisor part-time
-1 human concierge / operator на пилот
+### Phase 1. Human-in-the-Loop Concierge Prototype
+**Duration:** 4–8 weeks
 
-Если делать серьезно, еще нужен:
-conversation designer
-safety evaluator
-qa for prompts and workflows
+**What to do:**
+- Onboarding agent
+- Candidate intake
+- Manual or semi-automatic twin building
+- 5 basic scenarios
+- Judge ensemble
+- Manual shortlist assembly
 
-19. Что бы я сделал в первые 30 дней
+**Goal:** Understand which explanations are useful and where the model talks nonsense.
 
-Неделя 1
-зафиксировать продуктовую гипотезу;
-собрать ontology совместимости;
-описать data model;
-решить, какие данные вообще допустимы.
+---
 
-Неделя 2
-собрать interview framework;
-собрать 20–30 high-information questions;
-описать 15–20 сценариев;
-сделать формат evidence profile.
+### Phase 2. Simulation Platform MVP
+**Duration:** 6–10 weeks
 
-Неделя 3
-сделать twin spec schema;
-сделать judge rubric;
-сделать transcript format;
-сделать explanation format.
+**What to do:**
+- Scenario compiler
+- Simulation runner
+- Logging of transcripts
+- Variance tracking
+- Confidence computation
+- Explanation composer
 
-Неделя 4
-поднять прототип pipeline:
-onboarding
-normalization
-twin build
-3 сценария
-judge ensemble
-manual digest
+**Goal:** Get a stable simulation pipeline.
 
-Цель первого месяца:
-получить 5–10 тестовых кейсов end-to-end.
+---
 
-20. Что бы я точно не делал
+### Phase 3. Evaluation Loop
+**Duration:** 8–12 weeks
 
-Не строил бы сразу “универсальную любовь-машину”.
-Не делал бы hard ranking только на типологиях.
-Не делал бы fully autonomous messaging.
-Не делал бы black-box final score без evidence.
-Не лез бы сразу в большой dating marketplace.
-Не верил бы первому красивому demo.
+**What to do:**
+- Real feedback collection
+- Post-date surveys
+- Compare predicted vs actual
+- Ablation tests:
+  - without typologies
+  - only hard constraints
+  - with typologies
+  - with simulation
+  - without simulation
 
-21. Самая правильная формула продукта
+**Goal:** Prove that at least some part of the system actually gives signal.
 
-Если совсем сжать:
+---
 
-ядро проекта = не match by profile, а match by simulated joint behavior under constraint
+### Phase 4. Partial Automation
+**Duration:** 6–8 weeks
 
-но practically:
+**What to do:**
+- Orchestrator
+- Automatic weekly digest
+- Best scenarios by segments
+- Basic risk gate
+- Versioned twin specs
 
-value only exists if
-simulation → shortlist quality → real-world positive outcomes
+---
 
-Иначе это просто интересная интеллектуальная игрушка.
+### Phase 5. Concierge Action Layer
+**Duration:** 4–6 weeks
 
-22. Рекомендуемая первая версия архитектуры
+**What to do:**
+- Questions for first date
+- Scheduling assist
+- Venue suggestions
+- Consent workflows
 
-Самая здравая v1:
+---
 
+### Phase 6. Scaling & Personalization
+**Duration:** ongoing
+
+**What to do:**
+- Segment-specific models
+- Personalized scenario selection
+- Bandit-style scenario prioritization
+- Retrieval of similar past outcomes
+- Human coach escalation for edge cases
+
+---
+
+## 10. Tech Stack I Would Choose
+
+I won't tie to hype, will give practical scheme.
+
+**Backend:**
+- Python + FastAPI
+
+**Workflow orchestration:**
+- Temporal or Prefect
+- I would more likely take Temporal if the project really becomes event-driven and stateful
+
+**Database:**
+- PostgreSQL
+- Because strict relational model, auditability, and versioning are needed
+
+**Vector store:**
+- pgvector at start
+- Don't need to drag a separate vector zoo too early
+
+**Cache / queue:**
+- Redis
+
+**LLM layer:**
+- Abstraction over multiple models
+- Can't tie the entire product to one model
+
+**Observability:**
+- OpenTelemetry
+- Structured logs
+- Trace per workflow
+- Prompt/version tracing
+
+**Evaluation storage:**
+- Separate tables for runs, judges, outcomes, confidence drift
+
+**Policy / guardrails:**
+- Separate rule engine, not inside the prompt
+
+**Frontend:**
+- At the start, web dashboard for operator + user digest UI
+
+---
+
+## 11. How Agent Memory Should Look
+
+Cannot just give all agents the entire history.
+Need multi-layered memory.
+
+1. **Raw memory** — Raw interviews, forms, notes
+
+2. **Structured memory** — Facts, features, hypotheses
+
+3. **Working memory** — What the agent needs for a specific task
+
+4. **Audit memory** — Which model version, which prompt, which inputs, which output
+
+Very important:
+Agents should see only the necessary minimum.
+Otherwise there will be leakage, bias, and unnecessary hallucination coupling.
+
+---
+
+## 12. What Checks Each Agent Must Have
+
+Each output must have mandatory fields:
+
+- claim
+- evidence span
+- confidence
+- alternative interpretation
+- missing information
+- safe-to-use flag
+
+Then the system will not just "be smart," but will really hold epistemic discipline.
+
+---
+
+## 13. How to Validate Scientifically, Not by Feelings
+
+Need almost research-grade approach here.
+
+### 13.1 Offline Validation
+Take historical cases or pilot pairs and see if the system predicts:
+- First date
+- Second date
+- Mutual interest
+- Continued communication
+- Model vs reality divergence
+
+### 13.2 Online Pilot
+Small group of users.
+Compare:
+- Ordinary search
+  vs
+- Concierge shortlist
+
+### 13.3 Ablation
+Check the contribution of each layer:
+- Only form
+- Form + hard filters
+- Form + typologies
+- Form + simulations
+- Form + simulations + judge ensemble
+
+### 13.4 Calibration
+If the system puts 0.8 compatibility, does it really lead to positive outcome more often than 0.4?
+If not — score is garbage.
+
+### 13.5 Human Qualitative Review
+Independent reviewer reads transcript and says:
+Is this plausible or synthetic nonsense?
+
+---
+
+## 14. Main Project Risks
+
+### 14.1 LLM twins will be plausible but not predictive
+This is risk number one.
+
+### 14.2 Typologies will give beautiful narrative but weak signal
+That's why they must be optional features, not foundational truth.
+
+### 14.3 Judges will amplify bias
+That's why a skeptical judge and human review are needed.
+
+### 14.4 User will start perceiving the system as "reading souls"
+Need to very strictly formulate output as hypothesis, not diagnosis.
+
+### 14.5 Automated exclusions will be legally and ethically dangerous
+Need human override and clear consent.
+
+### 14.6 Model will start recommending too "convenient," not best pairs
+Because LLMs love social smoothness.
+Need stress scenarios and red-team probing.
+
+---
+
+## 15. Privacy, Ethics, Compliance
+
+This is not "we'll add later." It's in the core.
+
+Must have immediately:
+
+- Explicit informed consent
+- Clear list of what data is used
+- Right to delete profile
+- Retention policy
+- Don't store extra
+- Audit log on automated decisions
+- Explanation of how shortlist is formed
+- Ban on hidden scraping without agreement
+- Ban on sensitive inferences without sufficient grounds
+- Human-in-the-loop for disputed cases
+
+Especially important:
+If the system excludes someone, it must be clear why.
+And the reason should sound like a product reason, not "AI decided."
+
+---
+
+## 16. How Weekly Product Output Should Look
+
+User should see not a mess but a compact digest.
+
+**For each candidate:**
+
+1. Why you got into shortlist
+2. Where you have strong compatibility
+3. Where you have possible risk
+4. What needs to be verified in real life
+5. 3–5 questions for first date
+6. Overall confidence
+7. What the system doesn't know yet
+
+**Example card structure:**
+- match summary
+- top strengths
+- top risks
+- key simulation moments
+- validation questions
+- suggested date style
+- confidence level
+
+---
+
+## 17. Where Human Is Needed in the Loop
+
+At the start, almost everywhere.
+
+**Human operator needed:**
+- After onboarding — check profile coherence
+- After twin build — check if the model drifted
+- After scoring — check red flags and nonsense
+- Before shortlist output — final sanity check
+- After feedback — label model errors
+
+Only then can a human be removed from part of steps.
+
+---
+
+## 18. What Team Is Needed
+
+**Minimum:**
+
+- 1 product lead
+- 1 research / behavioral design lead
+- 1 LLM engineer
+- 1 backend engineer
+- 1 frontend engineer
+- 1 data / evaluation engineer
+- 1 privacy / policy advisor (part-time)
+- 1 human concierge / operator for pilot
+
+**If doing seriously, also needed:**
+- Conversation designer
+- Safety evaluator
+- QA for prompts and workflows
+
+---
+
+## 19. What I Would Do in First 30 Days
+
+**Week 1:**
+- Fix product hypothesis
+- Gather compatibility ontology
+- Describe data model
+- Decide what data is acceptable at all
+
+**Week 2:**
+- Gather interview framework
+- Gather 20–30 high-information questions
+- Describe 15–20 scenarios
+- Make evidence profile format
+
+**Week 3:**
+- Make twin spec schema
+- Make judge rubric
+- Make transcript format
+- Make explanation format
+
+**Week 4:**
+- Raise prototype pipeline:
+  - onboarding
+  - normalization
+  - twin build
+  - 3 scenarios
+  - judge ensemble
+  - manual digest
+
+**Goal of first month:**
+Get 5–10 test cases end-to-end.
+
+---
+
+## 20. What I Would Definitely NOT Do
+
+- Would not build immediately a "universal love machine"
+- Would not make hard ranking solely on typologies
+- Would not make fully autonomous messaging
+- Would not make black-box final score without evidence
+- Would not dive immediately into large dating marketplace
+- Would not believe the first beautiful demo
+
+---
+
+## 21. Most Correct Product Formula
+
+If completely compressed:
+
+**Core of project = not match by profile, but match by simulated joint behavior under constraint**
+
+But practically:
+
+**Value only exists if simulation → shortlist quality → real-world positive outcomes**
+
+Otherwise it's just an interesting intellectual toy.
+
+---
+
+## 22. Recommended First Architecture Version
+
+Most sane v1:
+
+```
 Orchestrator
 → Onboarding Interview Agent
 → Evidence Normalizer
@@ -911,21 +965,26 @@ Orchestrator
 → Human Reviewer
 → Weekly Digest
 → Feedback Agent
+```
 
-Это уже достаточно серьезно, чтобы проверить идею, и еще не настолько безумно, чтобы утонуть.
+This is already serious enough to verify the idea, and not yet so crazy to drown.
 
-23. Мой честный вывод
+---
 
-Идея сильная, но реальная ценность проекта не в “типологиях + агентах”, а в трех вещах:
+## 23. Honest Conclusion
 
-1. хорошая ontology совместимости
-2. качественные high-stakes scenarios
-3. жесткая валидация against real-world outcomes
+Idea is strong, but real value of the project is not in "typologies + agents," but in three things:
 
-Если это сделать слабо, получится псевдонаучный dating oracle.
-Если сделать сильно, может получиться новый класс agentic matchmaking systems.
+1. Good compatibility ontology
+2. High-quality high-stakes scenarios
+3. Strict validation against real-world outcomes
 
-Дальше я могу сразу развернуть это в следующем виде:
-или как техническую архитектуру с сервисами и API,
-или как roadmap на 3–6 месяцев с задачами по спринтам,
-или как полный список агентов с prompt contracts и JSON-схемами входов/выходов.
+If done weakly, you get a pseudoscientific dating oracle.
+If done strongly, you might get a new class of agentic matchmaking systems.
+
+---
+
+Next, I can immediately deploy this in the form of:
+- Technical architecture with services and API
+- Roadmap for 3–6 months with sprint tasks
+- Complete list of agents with prompt contracts and JSON input/output schemas

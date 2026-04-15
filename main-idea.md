@@ -1,23 +1,26 @@
-Інтеграція соціоніки, психософії та темпористики може бути використана як основа для побудови гіпотетичної багаторівневої моделі людської взаємодії, у межах якої міжособистісна координація аналізується на тактичному, оперативному та стратегічному рівнях. Ці рівні слід розрізняти як рівні аналізу, а не ототожнювати безпосередньо з типологічними моделями, що застосовуються для їх опису. У межах цієї інтерпретації кожному рівню відповідає окремий клас латентних процесів: тактичному — процеси інформаційного моделювання, оперативному — процеси аналізу, синтезу та організації дії, стратегічному — процеси індуктивно-дедуктивного структурування часового досвіду. Соціоніка, психософія і темпористика при цьому розглядаються як три типологічні моделі, кожна з яких описує не зміст психічного матеріалу, а специфічний спосіб організації відповідного класу латентних процесів. Позиції в межах цих моделей трактуються як позиційні режими переробки, тобто як відносно стійкі способи породження, модифікації, реконструкції або прийняття рамки, в межах якої психічний матеріал селектується, упорядковується та інтерпретується.
+# Theoretical Foundations: Integration of Socionics, Psychosophy, and Temporistics
 
+The integration of socionics, psychosophy, and temporistics can be used as a foundation for constructing a hypothetical multi-level model of human interaction, within which interpersonal coordination is analyzed at tactical, operational, and strategic levels. These levels should be distinguished as levels of analysis, not directly identified with the typological models used to describe them. Within this interpretation, each level corresponds to a separate class of latent processes: the tactical level corresponds to information modeling processes; the operational level corresponds to analysis, synthesis, and action organization processes; the strategic level corresponds to inductive-deductive structuring of temporal experience. Socionics, psychosophy, and temporistics are thus viewed as three typological models, each describing not the content of psychic material, but a specific way of organizing the corresponding class of latent processes. Positions within these models are interpreted as positional modes of processing, i.e., as relatively stable ways of generating, modifying, reconstructing, or accepting the frame within which psychic material is selected, ordered, and interpreted.
 
+---
 
-Соціоніка → тактичний рівень аналізу → інформаційне моделювання → робота з інформаційною рамкою
+Socionics → tactical level of analysis → information modeling → working with the information frame
 
-Психософія → оперативний рівень аналізу → аналіз, синтез і організація дії → робота з рамкою дії
+Psychosophy → operational level of analysis → analysis, synthesis, and action organization → working with the action frame
 
-Темпористика → стратегічний рівень аналізу → індуктивно-дедуктивне структурування часового досвіду → робота з часовою рамкою
+Temporistics → strategic level of analysis → inductive-deductive structuring of temporal experience → working with the temporal frame
 
-1 позиція → автономне породження рамки
-2 позиція → кооперативна модифікація рамки
-3 позиція → реконструкція рамки в умовах дефіциту або суперечності сигналів ( виведення рамки з неповного, суперечливого або проблемного матеріалу)
-4 позиція → прийняття зовнішньо заданої рамки
+---
 
+Position 1 → autonomous generation of the frame
+Position 2 → cooperative modification of the frame
+Position 3 → reconstruction of the frame under conditions of deficit or contradiction (deriving the frame from incomplete, contradictory, or problematic material)
+Position 4 → acceptance of an externally given frame
 
-Під латентними процесами тут розуміються не безпосередньо спостережувані механізми психічної організації, що реконструюються через характер переробки матеріалу та патерни взаємодії.
+---
 
-Під рамкою тут розуміється внутрішній принцип селекції, упорядкування та інтерпретації психічного матеріалу в межах певного класу процесів.
+**Latent processes** here refer to not directly observable mechanisms of psychic organization that are reconstructed through the character of material processing and interaction patterns.
 
-Під позиційним режимом тут розуміється стійкий спосіб роботи суб’єкта з відповідною рамкою.
+**Frame** here refers to an internal principle of selection, ordering, and interpretation of psychic material within a certain class of processes.
 
-
+**Positional mode** here refers to a stable way of the subject's work with the corresponding frame.
