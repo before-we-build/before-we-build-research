@@ -180,6 +180,7 @@ wiki/          — LLM-generated wiki
 | third-function.md | Third function properties | Psychosophy Library |
 | fourth-function.md | Fourth function properties | Psychosophy Library |
 | psychosophy-accentuations.md | Subtype system: 8 accentuations per function | BestSocionics |
+| psychosophy-compatibility-research.md | Synthax of Love, 4 Greek models, function compatibility | Multiple sources |
 
 ### socionics/
 
@@ -208,7 +209,7 @@ wiki/          — LLM-generated wiki
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 39 (21 temporistics + 7 psychosophy + 11 socionics)
+- **Raw sources**: 40 (21 temporistics + 8 psychosophy + 11 socionics)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15

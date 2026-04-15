@@ -4,6 +4,28 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Psychosophy compatibility research
+
+**Action:** Researched psychosophy compatibility theory and Synthax of Love
+
+**Raw sources created:**
+- raw/psychosophy/psychosophy-compatibility-research.md — Synthax of Love, 4 Greek models, function compatibility
+
+**Key findings:**
+1. **Afanasiev's Synthax of Love** (2001) - main theoretical framework
+2. **4 Greek love types:** Eros, Philia, Pseudophilia, Agape
+3. **Function compatibility:** 2nd↔2nd most compatible, 4th↔4th challenging
+4. **Research gap:** No large-scale statistical studies unlike Socionics
+5. **Combined analysis:** Socionics + Psychosophy integration for better predictions
+
+**4 Models of Relations:**
+- Eros (cross 1st-3rd): High intensity, dramatic
+- Philia (equality 1st-3rd): Balanced, friendship
+- Pseudophilia (cross 1st-2nd): Deceptive similarity
+- Agape (cross 2nd-3rd): Most stable, nurturing
+
+---
+
 ## [2026-04-15] ingest | Scientific validation studies
 
 **Action:** Researched scientific studies on socionics intertype relations
