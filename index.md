@@ -133,6 +133,17 @@ wiki/          — LLM-generated wiki
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
 | [[hang-the-dj-simulation]] | Black Mirror episode: simulation-based compatibility testing, 99.8% score from 1000 runs | - |
 
+### Research on AI in Psychology
+
+| Page | Summary | Source |
+|------|---------|--------|
+| [[llm-emulate-personality-nature-2025]] | GPT-4 emulates personality with superior internal consistency | Nature Scientific Reports |
+| [[llm-psychological-simulators-methodology]] | Methodological guide: LLM as psychological simulators | arXiv:2506.16702 |
+| [[ai-agents-psychometric-approach]] | Psychometric approach to assigning personalities to AI agents using BFI-2 | arXiv:2410.19238 |
+| [[psypilot-ai-psychologist-toolkit]] | AI as copilot for psychologists: risks and governance | Frontiers in Psychology |
+| [[s-researcher-llm-social-scientists]] | 100K agents for social science research, human-in-the-loop | arXiv:2604.01520 |
+| [[ai-experiment-participants]] | Trained AI as experiment participants: behavioral economics | Current Psychology |
+
 ### Reference
 
 | Page | Summary |

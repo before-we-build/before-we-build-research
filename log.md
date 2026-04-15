@@ -4,6 +4,35 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Research: AI agents in psychology — 6 papers ingested
+
+**Action:** Searched and ingested academic research on how psychologists use AI agents in research
+
+**Sources ingested (6):**
+
+| Source | Key Finding |
+|--------|------------|
+| Nature Scientific Reports | GPT-4 emulates personality with superior internal consistency, but more structured |
+| arXiv:2506.16702 | LLM as psychological simulators: methodological guide, 300-500 words per persona |
+| arXiv:2410.19238 | Psychometric approach using BFI-2 for AI agents |
+| Frontiers in Psychology | AI as copilot for psychologists (Psypilot case study) |
+| arXiv:2604.01520 | S-Researcher: 100K agents, human-in-the-loop |
+| Current Psychology | Trained AI as experiment participants |
+
+**Key insights:**
+1. LLM can simulate personality at basic level with high fidelity
+2. BFI-2 prompts > simple adjectives for persona
+3. More detailed persona = better simulation (scaling law)
+4. AI tends to inflate "moral" ratings
+5. Position as copilot, not oracle
+6. Use for hypothesis generation, validate with humans
+
+**Updated:**
+- index.md — Added "Research on AI in Psychology" section
+- wiki/sources/ — 6 new source files
+
+---
+
 ## [2026-04-15] build | Updated skills with research validation (CogniPair + Love First)
 
 **Action:** Updated all skills based on real research implementations
