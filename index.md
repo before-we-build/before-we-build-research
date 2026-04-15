@@ -27,6 +27,14 @@ wiki/          — LLM-generated wiki
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[cross-typology-mapping]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
 | [[agentic-skills-hang-the-dj]] | 8 agent skills to implement simulation-based compatibility testing | skills/index.md |
+| [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | psycalc/Psyche-Yoga |
+| [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | psycalc/Psyche-Yoga |
+| [[psychosophy-model]] | Psychosophy type structure | psycalc/Psyche-Yoga |
+| [[psychosophy-functions]] | Function block descriptions | psycalc/Psyche-Yoga |
+| [[socionics-model-a]] | Model A: 8 cognitive functions | raw/socionics |
+| [[temporistics-model]] | Temporistics type structure | raw/temporistics |
+| [[temporal-aspects]] | 1P, 1F, 1V, 2P aspects | raw/temporistics |
+| [[intertype-relations-matrix]] | Full compatibility matrix | raw/socionics |
 
 ### Entities — Temporistics Types (24)
 
@@ -196,6 +204,14 @@ wiki/          — LLM-generated wiki
 | psychosophy-accentuations.md | Subtype system: 8 accentuations per function | BestSocionics |
 | psychosophy-compatibility-research.md | Synthax of Love, 4 Greek models, function compatibility | Multiple sources |
 
+### Intertype Relations
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [[socionics-intertype-relations]] | Complete descriptions of 16 Socionics relationship types (EN/UK) | psycalc/socionics_matching_algorithm |
+| [[temporistics-intertype-relations]] | Temporal relationship types based on aspect position | psycalc/temporistics_matching_algorithm |
+| [[psychosophy-intertype-relations]] | Psychosophy relationship compatibility | psycalc/temporistics_matching_algorithm |
+
 ### socionics/
 
 | Source | Summary | Source |
@@ -234,8 +250,10 @@ wiki/          — LLM-generated wiki
 
 ## Statistics
 
-- **Wiki pages**: ~53
+- **Wiki pages**: ~64
 - **Raw sources**: 52 (21 temporistics + 8 psychosophy + 11 socionics + 12 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
+- **Relations pages**: 3 (socionics, temporistics, psychosophy)
+- **Concepts**: 14 (including 7 new stubs)
 - **Last updated**: 2026-04-15

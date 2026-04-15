@@ -4,6 +4,80 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] build | Repository cleanup and wiki migration
+
+**Action:** Cleaned up old GitHub repos and migrated valuable content to wiki
+
+**Migrated to wiki:**
+- `wiki/relations/socionics-intertype-relations.md` — 16 Socionics relation types (EN/UK)
+- `wiki/relations/temporistics-intertype-relations.md` — Temporistics temporal relations
+- `wiki/relations/psychosophy-intertype-relations.md` — Psychosophy compatibility scores
+- `wiki/concepts/afanasyev-model.md` — Afanasyev's Psychosophy theory
+
+**Archived repos (to delete):**
+- temporistics_matching_algorithm
+- socionics_matching_algorithm
+- socionics-typing-service
+- temporistics-backend
+- react-temporistics-test
+- levels-of-communications
+
+**Active repos created:**
+- https://github.com/psycalc/temporistics-core
+- https://github.com/psycalc/socionics-core
+- https://github.com/psycalc/psychosophy-core
+- https://github.com/psycalc/cognitive-matchmaker
+
+---
+
+## [2026-04-15] build | Created Variant C repository structure
+
+**Action:** Repository cleanup and new structure creation
+
+**Vendor repo analysis completed:**
+| Repo | Use | Migrated To |
+|------|-----|-------------|
+| personanexus | Framework mapping | `cognitive-matchmaker/cross_mapping.py` |
+| jpaf | Cognitive function weights | `temporistics-core/`, `socionics-core/` |
+| oasis-sim | Social simulation | Archived (Phase 2) |
+| oasis-platform | Interviews | Archived (Phase 3) |
+
+**New repository structure (Variant C):**
+```
+temporistics-core/     # 24 types, temporal frame matching
+├── temporistics/
+│   ├── types.py      # TemporalType class, 24 types
+│   └── compatibility.py
+├── tests/
+└── setup.py
+
+socionics-core/        # 16 types, intertype relations
+├── socionics/
+│   ├── types.py      # SocionicsType, 8 IM elements
+│   └── relations.py  # IntertypeRelation, Quadra
+├── tests/
+└── setup.py
+
+psychosophy-core/     # 81 types, 4-aspect model
+├── psychosophy/
+│   ├── types.py      # PsycheType, 4 aspects
+│   └── blocks.py     # FunctionBlock, Compatibility
+├── tests/
+└── setup.py
+
+cognitive-matchmaker/ # Main orchestrator
+├── cognitive_matchmaker/
+│   ├── profile.py    # PersonProfile, MatchResult
+│   ├── matcher.py    # Matchmaker class
+│   └── cross_mapping.py  # Cross-typology mapper
+├── tests/
+└── setup.py
+```
+
+**Archived:** `vendor/` → `archived-vendor/`
+
+---
+
 ## [2026-04-15] build | Updated consolidated plan with psychology research
 
 **Action:** Updated `docs/consolidated-action-plan.md` with research from 6 psychology papers
