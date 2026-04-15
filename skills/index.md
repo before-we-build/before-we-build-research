@@ -2,12 +2,25 @@
 
 ## Based on Research
 
+### AI/Dating Research
+
 | Paper | Key Contributions | Skills Informed |
 |-------|------------------|----------------|
 | CogniPair (ICLR 2026) | GNWT-Agent, 72% correlation, 5 cognitive modules | `global-workspace`, `persona-cloner`, `memory-persister` |
 | Love First, Know Later (NeurIPS 2025) | 3-phase pipeline, LLM Observer, reward modeling | `persona-generator`, `simulation-runner`, `reward-model`, `observer-agent` |
 | Pairadigm (2026) | Bradley-Terry, CGCoT, pairwise comparison | `reward-model` |
-| 2026 Agent Memory (Best Practices) | 4-layer memory architecture | `memory-persister` |
+
+### Psychology Research
+
+| Paper | Key Contributions | Skills Informed |
+|-------|------------------|----------------|
+| Nature Scientific Reports (2025) | GPT-4 emulates personality with high consistency | `persona-generator`, `persona-validator` |
+| arXiv: LLM Psych Simulators | 300-500 words minimum for valid simulation | `persona-generator` |
+| arXiv: Psychometric Approach | BFI-2 prompts > simple adjectives | `persona-generator` |
+| Frontiers: Psypilot (2026) | AI as copilot, not oracle | All (positioning) |
+| arXiv: S-Researcher (2026) | 100K agents, human-in-the-loop | `compatibility-scorer` |
+| Current Psychology (2025) | AI for hypothesis → validate with humans | Validation pipeline |
+| NeurIPS 2025 | Pre/post consistency testing reduces drift 55% | `persona-validator` |
 
 ---
 
@@ -23,9 +36,31 @@
 | Benchmark | 5.6/7.0 (CogniPair) |
 | LLM | gpt-4o, temp=0.9 |
 
-**Updated:** Now includes GNWT module weight initialization
+### 2. persona-generator
+**Converts BFI-2 → 300-500 word narratives**
 
-### 2. global-workspace ⭐ NEW
+| Aspect | Value |
+|--------|-------|
+| Input | BFI-2 scores (validated personality scales) |
+| Output | 300-500 word narrative |
+| Model | Gemini 2.5 Flash Lite |
+| Based on | Huang et al. (psychometric approach) |
+
+**Key rules:**
+- Minimum 300 words (scaling law)
+- Include demographics
+- Use all 5 Big Five dimensions
+
+### 3. persona-validator ⭐ NEW
+**Tests persona consistency, detects drift**
+
+| Aspect | Value |
+|--------|-------|
+| Method | Pre/post Big Five assessment |
+| Drift threshold | 0.2 (regenerate if higher) |
+| Based on | NeurIPS 2025 |
+
+### 4. global-workspace
 **Implements GNWT broadcast mechanism**
 
 | Aspect | Value |
@@ -34,17 +69,7 @@
 | Integration | `Response = Σ α·R_M + β·G(GW)` |
 | Based on | CogniPair Figure 5 |
 
-### 3. persona-generator ⭐ NEW
-**Converts structured data → 300-500 word narratives**
-
-| Aspect | Value |
-|--------|-------|
-| Input | Structured scores |
-| Output | Narrative for LLM roleplay |
-| Model | Gemini 2.5 Flash Lite |
-| Based on | Love First, Know Later |
-
-### 4. simulation-runner
+### 5. simulation-runner
 **Executes multi-agent scenarios at scale**
 
 | Aspect | Value |

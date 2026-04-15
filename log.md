@@ -4,6 +4,47 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] build | Updated consolidated plan with psychology research
+
+**Action:** Updated `docs/consolidated-action-plan.md` with research from 6 psychology papers
+
+**Key additions:**
+
+1. **Persona Generation** — BFI-2 based method (from Huang et al.)
+   - 300-500 word minimum (scaling law)
+   - Include demographics
+   - Use all 5 Big Five dimensions
+
+2. **Persona Consistency Testing** — Pre/post assessment
+   - Detect LLM drift (can be 20%+ without testing)
+   - Regenerate if drift > 0.2
+
+3. **Calibration** — AI inflates moral ratings
+   - Compare to human baseline
+   - Adjust scoring weights
+
+4. **Validation Pipeline** — AI for hypothesis → humans for validation
+   - Phase 1: AI simulation (cheap)
+   - Phase 2: Human pilot (expensive)
+   - Phase 3: Ongoing feedback
+
+5. **Core Principle** — "Copilot, not Oracle" (from Psypilot)
+   - Every output: "Hypothesis, verify in real life"
+   - Human validates, AI suggests
+
+**New skill added:**
+- `persona-validator.md` — Pre/post consistency test
+
+**Research sources integrated:**
+- Nature Scientific Reports (2025)
+- arXiv: LLM Psychological Simulators
+- arXiv: Psychometric Approach
+- Frontiers: Psypilot
+- arXiv: S-Researcher
+- Current Psychology
+
+---
+
 ## [2026-04-15] ingest | Research: AI agents in psychology — 6 papers ingested
 
 **Action:** Searched and ingested academic research on how psychologists use AI agents in research
