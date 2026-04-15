@@ -40,4 +40,4 @@ At the end, having tried everything his friends eat and all the food from Kanga'
 - [[temporistics-overview]]
 - [[avtor-author]] — 1st Past
 - [[kritik-critic]] — 3rd Past
-- [[chitatel-reader]] — 4th Past
+- [[reader-chitatel]] — 4th Past

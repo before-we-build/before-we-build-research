@@ -46,5 +46,5 @@ This little remark about our hero's life has symbolic meaning—it speaks about 
 
 - [[temporistics-overview]]
 - [[avtor-author]] — 1st Past
-- [[letopisets-chronicler]] — 2nd Past
+- [[chronicler-letopisets]] — 2nd Past
 - [[kritik-critic]] — 3rd Past
