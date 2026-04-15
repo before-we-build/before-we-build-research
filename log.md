@@ -4,6 +4,29 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Scientific validation studies
+
+**Action:** Researched scientific studies on socionics intertype relations
+
+**Raw sources created:**
+- raw/socionics/empirical-validation-studies.md — Comprehensive summary of 6 scientific studies
+
+**Key studies:**
+1. **Bukalov et al. (1998)**: 119 couples - 45% duality, 64% intra-quadra
+2. **Filatova (2000)**: 105 families, 299 people - children dual to mothers (25.7%)
+3. **Gulenko (1996)**: Temperament compatibility matrix
+4. **Boukalov & Boyko (1992)**: Quadra sexual compatibility
+5. **Reinin dichotomies validation**: Dynamic Socionics Center
+6. **Modern Socionist survey (2007)**: 49 respondents rate intertype relations 3.81/5
+
+**Key findings:**
+- Duality confirmed as most common in stable couples (45%)
+- Conflict rare in married couples (5%)
+- Children tend to be dual to mothers, identical to fathers
+- Suggests genetic basis for socionics types
+
+---
+
 ## [2026-04-15] ingest | Compatibility scoring research
 
 **Action:** Researched numerical scoring systems for intertype relations
