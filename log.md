@@ -4,6 +4,25 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Compatibility scoring research
+
+**Action:** Researched numerical scoring systems for intertype relations
+
+**Raw sources created:**
+- raw/socionics/intertype-relations-ratings.md — Star ratings (0-5) from Type•volution
+- raw/socionics/intertype-mapper-scoring.md — Rank-based scoring (1-16) from Neocities Mapper
+- raw/socionics/socion-app.md — Dating app using Socionics + empirical validation
+- raw/socionics/opteamyzer-compatibility.md — Intensity concept for group compatibility
+
+**Key findings:**
+- Type•volution: Star ratings with/without subtypes (Duality ★★★★★, Conflict 0)
+- Intertype Mapper: Rank system 1-16 where 1=best
+- Socion.app: Real dating app with empirical research goals
+- Opteamyzer: "Intensity" concept replaces subtypes
+- socionics-core npm package: Open source 16×16 relation matrix
+
+---
+
 ## [2026-04-15] ingest | All 16 Socionics type pages
 
 **Action:** Created entity pages for all 16 Socionics types across 4 quadras

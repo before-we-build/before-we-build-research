@@ -191,6 +191,10 @@ wiki/          — LLM-generated wiki
 | intertype-relations.md | Types of information exchange | BestSocionics |
 | reinin-traits.md | Additional dichotomies beyond Jung | BestSocionics |
 | subtypes-dcnh.md | DCNH subtype theory | BestSocionics |
+| intertype-relations-ratings.md | Star ratings (0-5) for relations | Type•volution |
+| intertype-mapper-scoring.md | Rank-based scoring (1-16) | Neocities Mapper |
+| socion-app.md | Dating app using Socionics + empirical research | Socion.app |
+| opteamyzer-compatibility.md | Intensity concept for group compatibility | Opteamyzer |
 
 ### general/
 
@@ -203,7 +207,7 @@ wiki/          — LLM-generated wiki
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 34 (21 temporistics + 7 psychosophy + 6 socionics)
+- **Raw sources**: 38 (21 temporistics + 7 psychosophy + 10 socionics)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
-- **Articles ingested**: 35
+- **Articles ingested**: 39
 - **Last updated**: 2026-04-15
