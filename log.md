@@ -4,6 +4,22 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Remaining articles
+
+**Action:** Ingested remaining temporistics.ru articles
+
+**Raw sources created:**
+- raw/temporistics/comet-in-brain-birth-of-temporistics.md — History of Temporistics creation by Dr. Radut
+
+**Already existed (verified complete):**
+- raw/temporistics/mystery-of-third-aspect.md — Article on the third aspect
+- raw/temporistics/how-to-distinguish-author-from-critic.md — Article on distinguishing Past types
+
+**Cleanup:**
+- Removed leftover guru-eternity.md (duplicate of guru.md)
+
+---
+
 ## [2026-04-15] ingest | All 16 temporistics types
 
 **Action:** Fetched all remaining types from temporistics.ru via web archive

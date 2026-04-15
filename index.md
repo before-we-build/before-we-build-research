@@ -113,12 +113,14 @@ wiki/          — LLM-generated wiki
 | rulevoi-steversman.md | Steersman (2 Future) type description | 2025-02-14 |
 | bezbiletnik-stowaway.md | Stowaway (3 Future) type description | 2024-12-04 |
 | passazhir-passenger.md | Passenger (4 Future) type description | 2025-02-14 |
-| guru-eternity.md | Guru (1 Eternity) type description | 2025-01-15 |
+| guru.md | Guru (1 Eternity) type description | 2025-01-15 |
 | filosof-philosopher.md | Philosopher (2 Eternity) type description | 2025-01-15 |
 | obyvatel-philistine.md | Philistine (3 Eternity) type description | 2024-12-04 |
 | uchenik-student.md | Student (4 Eternity) type description | 2025-03-17 |
 | letopisets-chronicler.md | Chronicler (2 Past) type description | 2025-01-15 |
 | chitatel-reader.md | Reader (4 Past) type description | 2024-12-04 |
+| how-to-distinguish-author-from-critic.md | Article on distinguishing Past types | 2025-01-15 |
+| comet-in-brain-birth-of-temporistics.md | History of Temporistics creation | 2025-01-15 |
 
 ### general/
 
@@ -131,6 +133,7 @@ wiki/          — LLM-generated wiki
 ## Statistics
 
 - **Wiki pages**: ~35
-- **Raw sources**: ~20
-- **Entity pages created**: 20 (all 24 temporistics types)
+- **Raw sources**: 21
+- **Entity pages created**: 16 (all 24 temporistics types)
+- **Articles ingested**: 23 (all types + 2 key articles)
 - **Last updated**: 2026-04-15
