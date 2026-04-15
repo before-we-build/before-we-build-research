@@ -63,12 +63,12 @@ With prolonged lack of meaning — **melancholy** (negative emotion of eternity)
 
 | Good with | Challenging with |
 |-----------|------------------|
-| [[Ученик]] (4V) — accepts their meaning system | [[Обыватель]] (3V) — struggles with meaning questions |
+| [[student-uchenik]] (4V) — accepts their meaning system | [[philistine-obyvatel]] (3V) — struggles with meaning questions |
 | Partners who value philosophical depth | Other 1V types — competing over whose meaning is correct |
 
 ## See Also
 
-- [[Философ]] — 2nd Eternity
-- [[Обыватель]] — 3rd Eternity
-- [[Ученик]] — 4th Eternity
+- [[philosopher-filosof]] — 2nd Eternity
+- [[philistine-obyvatel]] — 3rd Eternity
+- [[student-uchenik]] — 4th Eternity
 - [[temporistics-overview]] — full typology overview

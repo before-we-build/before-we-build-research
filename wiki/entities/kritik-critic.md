@@ -63,12 +63,12 @@ The Critic collects particular experiences, especially painful ones, and derives
 
 | Good with | Challenging with |
 |-----------|------------------|
-| [[Летописец]] (2P) — joint processing | [[Автор]] (1P) — doesn't understand weight of past |
+| [[chronicler-letopisets]] (2P) — joint processing | [[avtor-author]] (1P) — doesn't understand weight of past |
 | Partners with stable past-narrative | Other 3P — reinforcing past anxieties |
 
 ## See Also
 
-- [[Автор]] — 1st Past
-- [[Летописец]] — 2nd Past
-- [[Читатель]] — 4th Past
+- [[avtor-author]] — 1st Past
+- [[chronicler-letopisets]] — 2nd Past
+- [[reader-chitatel]] — 4th Past
 - [[temporistics-overview]] — full typology overview

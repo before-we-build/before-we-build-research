@@ -50,7 +50,7 @@ The Author first holds an internal thesis about themselves, then reads the past 
 
 | Good with | Challenging with |
 |-----------|-----------------|
-| [[Читатель]] (4P) — accepts their narrative | [[Критик]] (3P) — different relationship to past |
+| [[reader-chitatel]] (4P) — accepts their narrative | [[kritik-critic]] (3P) — different relationship to past |
 | Other 1P types with mutual understanding | Other 1P — competing over whose narrative is correct |
 
 ## Famous Examples
@@ -65,7 +65,7 @@ The Author first holds an internal thesis about themselves, then reads the past 
 
 ## See Also
 
-- [[Критик]] — 3rd Past
-- [[Летописец]] — 2nd Past
-- [[Читатель]] — 4th Past
+- [[kritik-critic]] — 3rd Past
+- [[chronicler-letopisets]] — 2nd Past
+- [[reader-chitatel]] — 4th Past
 - [[temporistics-overview]] — full typology overview

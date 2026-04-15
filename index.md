@@ -33,9 +33,9 @@ wiki/          — LLM-generated wiki
 | Page | Summary | Sources |
 |------|---------|---------|
 | [[avtor-author]] | 1st Past — forms identity, creates own story | raw/temporistics/author.md |
-| [[letopisets-chronicler]] | 2nd Past — uses past as tool, good memory | raw/temporistics/letopisets-chronicler.md |
+| [[chronicler-letopisets]] | 2nd Past — uses past as tool, good memory | raw/temporistics/letopisets-chronicler.md |
 | [[kritik-critic]] | 3rd Past — derives harsh conclusions from painful past | raw/temporistics/critic.md |
-| [[chitatel-reader]] | 4th Past — treats past as resource, blind spot | raw/temporistics/chitatel-reader.md |
+| [[reader-chitatel]] | 4th Past — treats past as resource, blind spot | raw/temporistics/chitatel-reader.md |
 
 #### Present Aspect (Настоящее)
 
@@ -59,10 +59,16 @@ wiki/          — LLM-generated wiki
 
 | Page | Summary | Sources |
 |------|---------|---------|
-| [[guru-eternity]] | 1st Eternity — creates meaning, spreads ideology | raw/temporistics/guru-eternity.md |
+| [[guru]] | 1st Eternity — creates meaning, spreads ideology | raw/temporistics/guru.md |
 | [[philosopher-filosof]] | 2nd Eternity — treats meaning as tool, analytical | raw/temporistics/filosof-philosopher.md |
 | [[philistine-obyvatel]] | 3rd Eternity — painful search for meaning | raw/temporistics/obyvatel-philistine.md |
 | [[student-uchenik]] | 4th Eternity — blind to meaning, accepts others' ideologies | raw/temporistics/uchenik-student.md |
+
+### Entities — Psychosophy
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [[psychosophy-overview]] | Overview of psychosophy: Will/Emotion/Logic/Physics | raw/psychosophy/ |
 
 ### Relations
 
@@ -113,7 +119,6 @@ wiki/          — LLM-generated wiki
 | rulevoi-steversman.md | Steersman (2 Future) type description | 2025-02-14 |
 | bezbiletnik-stowaway.md | Stowaway (3 Future) type description | 2024-12-04 |
 | passazhir-passenger.md | Passenger (4 Future) type description | 2025-02-14 |
-| guru.md | Guru (1 Eternity) type description | 2025-01-15 |
 | filosof-philosopher.md | Philosopher (2 Eternity) type description | 2025-01-15 |
 | obyvatel-philistine.md | Philistine (3 Eternity) type description | 2024-12-04 |
 | uchenik-student.md | Student (4 Eternity) type description | 2025-03-17 |
@@ -121,6 +126,17 @@ wiki/          — LLM-generated wiki
 | chitatel-reader.md | Reader (4 Past) type description | 2024-12-04 |
 | how-to-distinguish-author-from-critic.md | Article on distinguishing Past types | 2025-01-15 |
 | comet-in-brain-birth-of-temporistics.md | History of Temporistics creation | 2025-01-15 |
+
+### psychosophy/
+
+| Source | Summary | Source |
+|--------|---------|--------|
+| what-is-psychosophy.md | Official definition and summary | Psychosophy Library |
+| aspects.md | The four aspects: Will, Emotion, Logic, Physics | Psychosophy Library |
+| first-function.md | First function properties | Psychosophy Library |
+| second-function.md | Second function properties | Psychosophy Library |
+| third-function.md | Third function properties | Psychosophy Library |
+| fourth-function.md | Fourth function properties | Psychosophy Library |
 
 ### general/
 
@@ -132,8 +148,8 @@ wiki/          — LLM-generated wiki
 
 ## Statistics
 
-- **Wiki pages**: ~35
-- **Raw sources**: 21
-- **Entity pages created**: 16 (all 24 temporistics types)
-- **Articles ingested**: 23 (all types + 2 key articles)
-- **Last updated**: 2026-04-15
+- **Wiki pages**: ~36
+- **Raw sources**: 28
+- **Entity pages created**: 17 (16 temporistics + 1 psychosophy overview)
+- **Articles ingested**: 29
+- **Last updated**: 2025-04-15

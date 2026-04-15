@@ -4,6 +4,33 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2025-04-15] ingest | Psychosophy deep research
+
+**Action:** Deep research on psychosophy from internet sources
+
+**Sources researched:**
+- psychosophy.ru (official website)
+- sites.google.com/view/psychosophy (Psychosophy Library)
+- Personality Database Wiki
+
+**Raw sources created:**
+- raw/psychosophy/what-is-psychosophy.md — Official definition and summary
+- raw/psychosophy/aspects.md — The four aspects (Will, Emotion, Logic, Physics)
+- raw/psychosophy/first-function.md — First function properties ("hammer")
+- raw/psychosophy/second-function.md — Second function properties ("river")
+- raw/psychosophy/third-function.md — Third function properties ("ulcer")
+- raw/psychosophy/fourth-function.md — Fourth function properties ("trifle")
+
+**Wiki entity pages created:**
+- wiki/entities/psychosophy-overview.md — Complete overview of psychosophy
+
+**Key findings:**
+- Afanasyev self-typed as LVFE (1L, 2V, 3F, 4E)
+- 25th theoretical type exists (2-2-2-2) — harmony type
+- Will is the most important aspect, affecting all others
+
+---
+
 ## [2026-04-15] ingest | Remaining articles
 
 **Action:** Ingested remaining temporistics.ru articles

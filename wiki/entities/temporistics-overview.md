@@ -43,28 +43,28 @@ A person's type is written as 4 letters, e.g., **VPBN** = Eternity(1st) > Past(2
 ## All 24 Types
 
 ### Past Types
-- [[Автор]] (1P) — Author
-- [[Летописец]] (2P) — Chronicler
-- [[Критик]] (3P) — Critic
-- [[Читатель]] (4P) — Reader
+- [[avtor-author]] (1P) — Author
+- [[chronicler-letopisets]] (2P) — Chronicler
+- [[kritik-critic]] (3P) — Critic
+- [[reader-chitatel]] (4P) — Reader
 
 ### Present Types
-- [[Хозяин]] (1N) — Master
-- [[Местный]] (2N) — Local
-- [[Изгнанник]] (3N) — Exile
-- [[Гость]] (4N) — Guest
+- [[host-khozyain]] (1N) — Master
+- [[local-mestnyi]] (2N) — Local
+- [[exile-izgnannik]] (3N) — Exile
+- [[guest-gost]] (4N) — Guest
 
 ### Future Types
-- [[Капитан]] (1B) — Captain
-- [[Рулевой]] (2B) — Helmsman
-- [[Безбилетник]] (3B) — Free Rider
-- [[Пассажир]] (4B) — Passenger
+- [[captain-kapitan]] (1B) — Captain
+- [[stewersman-rulevoi]] (2B) — Helmsman
+- [[stowaway-bezbiletnik]] (3B) — Free Rider
+- [[passenger-passazhir]] (4B) — Passenger
 
 ### Eternity Types
-- [[Гуру]] (1V) — Guru
-- [[Философ]] (2V) — Philosopher
-- [[Обыватель]] (3V) — Common Man
-- [[Ученик]] (4V) — Student
+- [[guru]] (1V) — Guru
+- [[philosopher-filosof]] (2V) — Philosopher
+- [[philistine-obyvatel]] (3V) — Common Man
+- [[student-uchenik]] (4V) — Student
 
 ## Tetra Classification
 
