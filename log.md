@@ -4,6 +4,30 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] research | Existing scientific validation studies
+
+**Action:** Compiled existing peer-reviewed validation research for MBTI and Socionics
+
+**Raw sources created:**
+- raw/general/existing-validation-research.md — Summary of existing validation studies
+
+**Key studies found:**
+
+**MBTI (Well-validated):**
+- Capraro (2002): Internal consistency 0.80-0.87
+- Erford et al. (2025): 193 studies, n=57,170, consistency 0.845-0.921
+- CFA: GFI=0.949, NFI=0.967
+
+**Socionics (Emerging):**
+- Pietrak (2018): Foundation review, Cognitive Systems Research (Elsevier)
+- Kovalenko (2025): 95 couples, supports Bukalov/Filatova predictions
+- Horwood & Maw (2012): Theater teams study, improved team cohesiveness
+- Kovalenko (2020): EQ/SQ correlation confirmed
+
+**Key researchers:** Pietrak, Kovalenko, Bukalov, Filatova, Gulenko
+
+---
+
 ## [2026-04-15] design | Scientific validation plan
 
 **Action:** Created comprehensive scientific validation plan for typological systems
