@@ -4,6 +4,24 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] create | Simple research guide for beginners
+
+**Action:** Created beginner-friendly research guide
+
+**Raw sources created:**
+- raw/general/simple-research-guide.md — Simple step-by-step guide (no research experience needed)
+
+**Content:**
+1. Choose ONE simple hypothesis (e.g., "dual pairs are happier")
+2. Collect data via Google Forms (50+ couples)
+3. Analyze in Excel (t-test)
+4. Write simple report
+5. Replicate on new sample
+
+**Budget:** $0 (uses free tools)
+
+---
+
 ## [2026-04-15] research | Existing scientific validation studies
 
 **Action:** Compiled existing peer-reviewed validation research for MBTI and Socionics
