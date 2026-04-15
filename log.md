@@ -4,6 +4,41 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] research | Agentic research pipelines
+
+**Action:** Researched multi-agent research pipelines and workflow architectures
+
+**Raw sources created:**
+- raw/general/agentic-research-pipelines.md — Complete guide to agentic pipelines
+
+**Key pipelines found:**
+
+**Agent Laboratory (5465 stars, arXiv):**
+- 3 phases: Literature Review → Experimentation → Report Writing
+- 6+ specialized agents (PhD, Librarian, Planner, Coder, Writer, Reviewer)
+- Cost: ~$7-13 per research
+- Time: 4-8 hours
+
+**The AI Scientist:**
+- End-to-end: Idea → Code → Experiment → Article → Peer Review
+- Generated paper passed peer review!
+
+**Multi-Agent Research Lab:**
+- 4 agents: Scientist, Librarian, Analyst, Writer
+- Sequential collaboration
+
+**For typologies (custom pipeline):**
+1. GPT Researcher (5 min) → 2. Claude summary (5 min) → 3. Survey Builder (15 min) → 4. Code Interpreter (10 min) → 5. Writer (10 min)
+
+**No-code options:**
+- Make.com, Zapier, LangFlow
+- CrewAI (low-code)
+
+**Budget:** $0-13
+**Time:** 5 min - 8 hours
+
+---
+
 ## [2026-04-15] research | AI agents for typology research
 
 **Action:** Researched AI agents that can accelerate typology validation research
