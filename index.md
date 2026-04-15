@@ -137,6 +137,7 @@ wiki/          — LLM-generated wiki
 | second-function.md | Second function properties | Psychosophy Library |
 | third-function.md | Third function properties | Psychosophy Library |
 | fourth-function.md | Fourth function properties | Psychosophy Library |
+| psychosophy-accentuations.md | Subtype system: 8 accentuations per function | BestSocionics |
 
 ### general/
 

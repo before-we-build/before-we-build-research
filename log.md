@@ -4,6 +4,22 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2025-04-15] ingest | Psychosophy accentuations
+
+**Action:** Researched psychosophy subtype system from BestSocionics
+
+**Raw sources created:**
+- raw/psychosophy/psychosophy-accentuations.md — Subtype system (8 types of accentuations per function)
+
+**Key findings:**
+- Each function can be accentuated based on one of 3 dichotomies
+- 3 dichotomies: Strong/Weak, Result/Process, Introverted/Extraverted
+- Creates 4 possible accentuations per function position
+- Total: 16 possible subtype variations (4 functions × 4 accentuations)
+- Imperative Socionics labels: "strong function", "dominant", "accentuated", "suppressed"
+
+---
+
 ## [2025-04-15] ingest | Psychosophy deep research
 
 **Action:** Deep research on psychosophy from internet sources
