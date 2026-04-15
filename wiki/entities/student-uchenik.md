@@ -32,6 +32,6 @@ The most important thing about the Student and eternity is that the Student does
 ## See Also
 
 - [[temporistics-overview]]
-- [[guru-eternity]]
+- [[guru]]
 - [[philosopher-filosof]]
 - [[philistine-obyvatel]]

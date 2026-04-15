@@ -37,6 +37,6 @@ During the execution of a plan, the Captain needs to feel dynamics—that things
 ## See Also
 
 - [[temporistics-overview]]
-- [[stewersman]]
-- [[stowaway]]
-- [[passenger]]
+- [[stewersman-rulevoi]]
+- [[stowaway-bezbiletnik]]
+- [[passenger-passazhir]]

@@ -39,4 +39,4 @@ The Guest's strategy is aimed at **minimizing efforts** to determine their place
 - [[temporistics-overview]]
 - [[host-khozyain]]
 - [[local-mestnyi]]
-- [[exile]]
+- [[exile-izgnannik]]

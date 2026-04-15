@@ -40,5 +40,5 @@ The attempt to avoid the **criterion** makes the person with 3rd future a "stowa
 - [[temporistics-overview]]
 - [[captain-kapitan]]
 - [[stewersman-rulevoi]]
-- [[passenger]]
-- [[latent-processes]]
+- [[passenger-passazhir]]
+- [[latent-process]]

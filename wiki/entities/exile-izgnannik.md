@@ -51,5 +51,5 @@ Often feels they have no place at this "party of life," that their home is not h
 - [[temporistics-overview]]
 - [[host-khozyain]]
 - [[local-mestnyi]]
-- [[guest]]
-- [[latent-processes]] (for understanding the painful aspect)
+- [[guest-gost]]
+- [[latent-process]]

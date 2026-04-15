@@ -41,5 +41,5 @@ Joy in the moment, comfort, happiness from simple pleasures
 
 - [[temporistics-overview]]
 - [[host-khozyain]]
-- [[exile]]
-- [[guest]]
+- [[exile-izgnannik]]
+- [[guest-gost]]

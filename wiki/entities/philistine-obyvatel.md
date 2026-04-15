@@ -39,7 +39,7 @@ The Philistine (in the Temporistic sense) is closer to understanding their purpo
 ## See Also
 
 - [[temporistics-overview]]
-- [[guru-eternity]]
+- [[guru]]
 - [[philosopher-filosof]]
 - [[student-uchenik]]
-- [[latent-processes]]
+- [[latent-process]]

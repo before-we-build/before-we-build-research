@@ -55,6 +55,6 @@ Discomfort when the present moment ends
 ## See Also
 
 - [[temporistics-overview]]
-- [[local]]
-- [[exile]]
-- [[guest]]
+- [[local-mestnyi]]
+- [[exile-izgnannik]]
+- [[guest-gost]]

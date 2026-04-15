@@ -39,6 +39,6 @@ Eternity for the Philosopher is an endless riddle, and one can spend a lifetime 
 ## See Also
 
 - [[temporistics-overview]]
-- [[guru-eternity]]
+- [[guru]]
 - [[philistine-obyvatel]]
 - [[student-uchenik]]

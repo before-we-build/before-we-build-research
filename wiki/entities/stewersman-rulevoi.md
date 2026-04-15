@@ -37,5 +37,5 @@ As one Steersman (ПБНВ) said: "The best I can do is act so that tomorrow's m
 
 - [[temporistics-overview]]
 - [[captain-kapitan]]
-- [[stowaway]]
-- [[passenger]]
+- [[stowaway-bezbiletnik]]
+- [[passenger-passazhir]]

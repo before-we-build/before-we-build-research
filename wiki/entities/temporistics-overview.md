@@ -89,5 +89,5 @@ Types are grouped into 6 tetras based on relationships between "face" (Present +
 ## See Also
 
 - [[latent-process]] — Theoretical framework for latent processes
-- [[psychosophy-overview]] — Operational level typology
-- [[socionics-overview]] — Tactical level typology
+- [[psychosophy-detailed]] — Operational level typology
+- [[socionics-detailed]] — Tactical level typology
