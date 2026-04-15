@@ -4,6 +4,30 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] ingest | Temporistics.ru full site ingestion
+
+**Action:** Fetched and saved content from temporistics.ru via web archive
+
+**Raw sources created:**
+- raw/temporistics/theory-description.md — Full theory (5 sections on aspects and types)
+- raw/temporistics/types.md — Type matrix and 6 tetra classifications
+- raw/temporistics/author.md — Author (1P) detailed description with Winnie-the-Pooh analysis
+- raw/temporistics/critic.md — Critic (3P) detailed description with Kafka, Wells examples
+- raw/temporistics/guru.md — Guru (1V) detailed description with Ashley Wilkes example
+
+**Wiki entity pages created:**
+- wiki/entities/temporistics-overview.md — Complete overview of all 24 types
+- wiki/entities/avtor-author.md — Author type entity page
+- wiki/entities/kritik-critic.md — Critic type entity page
+- wiki/entities/guru.md — Guru type entity page
+
+**Methods used:**
+- Web archive (web.archive.org) for fetching temporistics.ru content
+- rentry.co for English introduction reference
+- typologies.ru for additional context
+
+---
+
 ## [2026-04-15] restructure | LLM Wiki reorganization
 
 **Action:** Restructured repository into LLM Wiki pattern

@@ -30,7 +30,11 @@ wiki/          — LLM-generated wiki
 
 | Page | Summary | Sources |
 |------|---------|---------|
-| (to be created) | | |
+| [[temporistics-overview]] | Overview of all 24 temporistics types | raw/temporistics/ |
+| [[Автор]] (avtor-author) | 1st Past — forms identity, reads past through it | raw/temporistics/author.md |
+| [[Критик]] (kritik-critic) | 3rd Past — derives harsh conclusions from painful past | raw/temporistics/critic.md |
+| [[Гуру]] (guru) | 1st Eternity — creates meaning, spreads ideology | raw/temporistics/guru.md |
+| (more types to be created) | | |
 
 ### Relations
 
@@ -67,7 +71,12 @@ wiki/          — LLM-generated wiki
 
 | Source | Summary |
 |--------|---------|
+| theory-description.md | Full theory description (archived from temporistics.ru) |
+| types.md | Type matrix, tetra classifications |
 | mystery-of-third-aspect.md | Dr. Radut's article on the third aspect |
+| author.md | Author (1P) type description |
+| critic.md | Critic (3P) type description |
+| guru.md | Guru (1V) type description |
 
 ### general/
 
@@ -79,6 +88,7 @@ wiki/          — LLM-generated wiki
 
 ## Statistics
 
-- **Wiki pages**: ~15
-- **Raw sources**: ~2
+- **Wiki pages**: ~20
+- **Raw sources**: ~7
+- **Entity pages created**: 4
 - **Last updated**: 2026-04-15
