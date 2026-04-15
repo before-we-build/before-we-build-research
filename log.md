@@ -4,6 +4,32 @@ Chronological record of wiki activity. Append-only.
 
 ---
 
+## [2026-04-15] research | Christian perspectives on typologies
+
+**Action:** Researched what Christians think about personality typologies
+
+**Raw sources created:**
+- raw/general/christian-perspectives.md — Orthodox, Protestant views on socionics/MBTI/temperaments
+
+**Key findings:**
+
+**Orthodox Church (Russia):**
+- Pravmir.ru: Socionics is "doubtful science mixed with occultism"
+- Calls it "sectarian method" to fit souls into types
+- BUT: Temperaments accepted, just don't over-emphasize
+
+**Protestant Views:**
+- MBTI acceptable as tool, not gospel truth
+- Don't let type define identity (identity is in Christ)
+- Use to understand how God wired you
+
+**Interesting:**
+- Russian authors applied socionics TO Christianity
+- Jesus typed as LIE (Jack)
+- Russian Orthodox Church typed as LSI (Maxim Gorky)
+
+---
+
 ## [2026-04-15] ingest | Psychosophy compatibility research
 
 **Action:** Researched psychosophy compatibility theory and Synthax of Love

@@ -200,16 +200,17 @@ wiki/          — LLM-generated wiki
 
 ### general/
 
-| Source | Summary |
-|--------|---------|
-| autoreasearch.md | Karpathy's AutoResearch adaptation |
+| Source | Summary | Source |
+|--------|---------|--------|
+| autoreasearch.md | Karpathy's AutoResearch adaptation | - |
+| christian-perspectives.md | Christian views on typologies (Orthodox, Protestant) | Multiple sources |
 
 ---
 
 ## Statistics
 
 - **Wiki pages**: ~53
-- **Raw sources**: 40 (21 temporistics + 8 psychosophy + 11 socionics)
+- **Raw sources**: 41 (21 temporistics + 8 psychosophy + 11 socionics + 1 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Last updated**: 2026-04-15
