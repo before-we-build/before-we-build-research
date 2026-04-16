@@ -27,16 +27,53 @@ Each person gets assessed across 3 typologies:
 
 ### Role Matching Matrix
 
-| Military Role | Socionics (Quadra) | Psychosophy | Temporistics |
-|---------------|-------------------|-------------|----------------|
-| **Commander** | SLE, LIE (Beta ✓) | Ф-В-Л-Э | Б-НПВ |
-| **Strategist** | LIE, ILE (Beta/Alpha) | Л-В-Э-Ф | БНПВ / БНВП |
-| **Operator** | SLE, SEE (Beta/Gamma) | Ф-Л-В-Э | НБПВ |
-| **Support** | ESE, SEI (Alpha) | Э-Ф-Л-В | НПБВ |
-| **Medic** | EII, ESI (Delta/Gamma) | Э-В-Ф-Л | ПНВБ |
-| **Logistics** | LSE, LSI (Gamma/Beta) | Л-Ф-В-Э | ПВНБ |
-| **Recon** | ILI, SLI (Gamma/Alpha) | Л-В-Ф-Э | НБВП |
-| **Psychologist** | EIE, IEE (Beta/Delta) | Э-Л-В-Ф | ВПНБ |
+## Role-Quadra-Tetra Alignment Matrix
+
+### Socionics (4 Quadras)
+
+| Quadra | Values | Best Military Roles |
+|-------|--------|---------------------|
+| **Alpha** | Ideas, playfulness, principles | Support, Communications, HR |
+| **Beta** | Power, justice, emotions, ideals | Commander, Politic, Instructor |
+| **Gamma** | Business, results, objects, facts | Operator, Logistic, Recon |
+| **Delta** | Knowledge, services, harmony, time | Medic, Psychologist, Analyst |
+
+### Psychosophy (6 Quadras)
+
+| Quadra | Process | Result | Best Military Roles |
+|-------|---------|--------|--------------------|
+| **1** | В + Л | Ф + Э | Technical, Logistics |
+| **2** | В + Ф | Л + Э | Engineer, Support |
+| **3** | Ф + Л | В + Э | Commander, Strategist |
+| **4** | Э + Ф | В + Л | Psychologist, Social |
+| **5** | Э + Л | Ф + В | Administrator, HR |
+| **6** | В + Э | Ф + Л | Instructor, Reorg |
+
+### Temporistics (6 Tetras)
+
+| Tetra Name | Aspects | Best Military Roles |
+|-----------|---------|---------------------|
+| **Antipodes** | N + P | Strategist (future) |
+| **Guardians** | E + P | Defender, Support |
+| **Old-Timers** | N + E | Historian, Analyst |
+| **Conductors** | F + E | Commander, Leader |
+| **Scouts** | N + F | Recon, Intelligence |
+| **Nomads** | P + F | Field Operative, Mobile |
+
+---
+
+### Complete Role Compatibility Table
+
+| Role | Socionics | Quadra | Psychosophy | Quadra | Temporistics | Tetra |
+|------|----------|--------|-------------|--------|--------------|-------|
+| **Commander** | SLE, LIE | **Beta** | Ф-В-Л-Э | **3** (Ф+Л→В+Э) | БНПВ | **Conductors** |
+| **Strategist** | LIE, ILE | Beta/Alpha | Л-В-Э-Ф | **1** or **6** | БНПВ / БНВП | **Antipodes** |
+| **Operator** | SLE, SEE | Beta/Gamma | Ф-Л-В-Э | **1** | НБПВ | **Scouts** |
+| **Support** | ESE, SEI | Alpha | Э-Ф-Л-В | **4** | НПБВ | **Guardians** |
+| **Medic** | EII, ESI | Delta/Gamma | Э-В-Ф-Л | **4** | ПНВБ | **Old-Timers** |
+| **Logistics** | LSE, LSI | Gamma/Beta | Л-Ф-В-Э | **2** | ПВНБ | **Nomads** |
+| **Recon** | ILI, SLI | Gamma/Alpha | Л-В-Ф-Э | **1** or **5** | НБВП | **Scouts** |
+| **Psychologist** | EIE, IEE | Beta/Delta | Э-Л-В-Ф | **4** | ВПНБ | **Old-Timers** |
 
 ### Output Example
 
