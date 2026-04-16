@@ -1,7 +1,7 @@
 ---
 title: Agentic Skills for Simulation-Based Compatibility Testing
 type: concept
-tags: [skills, architecture, hang-the-dj, simulation, agents, research-validated]
+tags: [skills, architecture, hang-the-dj, simulation, agents, exploratory]
 created: 2026-04-15
 updated: 2026-04-15
 sources: [skills/index.md, arxiv.org/abs/2506.03543, arxiv.org/abs/2512.11844]
@@ -13,9 +13,9 @@ sources: [skills/index.md, arxiv.org/abs/2506.03543, arxiv.org/abs/2512.11844]
 
 | Paper | Venue | Key Contributions |
 |-------|-------|------------------|
-| **CogniPair** | ICLR 2026 | GNWT-Agent, 72% correlation, 5 cognitive modules |
-| **Love First, Know Later** | NeurIPS 2025 | 3-phase pipeline, LLM Observer, reward modeling |
-| **Pairadigm** | 2026 | Bradley-Terry, CGCoT, pairwise comparison |
+| **CogniPair** | arXiv preprint (2025) | GNWT-style agent architecture, reported attraction correlation |
+| **Love First, Know Later** | workshop/preprint | 3-phase pipeline, observer idea, reward-style scoring |
+| **Bradley-Terry style ranking** | modeling approach | Pairwise comparison as a useful scoring tool |
 
 ## Architecture
 
@@ -29,7 +29,7 @@ sources: [skills/index.md, arxiv.org/abs/2506.03543, arxiv.org/abs/2512.11844]
 │         │                        ↓                          │
 │         └────────────── choice-tracker                     │
 │                            ↓                               │
-│                    compatibility-scorer (99.8%)            │
+│                    compatibility-scorer (simulation score) │
 │                            ↓                               │
 │                    explanation-generator                    │
 └─────────────────────────────────────────────────────────────┘
@@ -42,7 +42,7 @@ sources: [skills/index.md, arxiv.org/abs/2506.03543, arxiv.org/abs/2512.11844]
 | Skill | Purpose | Research Source |
 |-------|---------|----------------|
 | `persona-cloner` | Digital twins with GNWT weights | CogniPair |
-| `persona-generator` | Structured → 300-500 word narrative | Love First |
+| `persona-generator` | Structured → persona narrative | Project synthesis |
 | `global-workspace` | GNWT broadcast mechanism | CogniPair |
 | `type-mapper` | Cross-system translation | — |
 
@@ -59,9 +59,9 @@ sources: [skills/index.md, arxiv.org/abs/2506.03543, arxiv.org/abs/2512.11844]
 
 | Skill | Purpose | Research Source |
 |-------|---------|----------------|
-| `memory-persister` | 4-layer memory (2026 best practices) | — |
+| `memory-persister` | 4-layer memory (project architecture) | — |
 | `choice-tracker` | Log repeated choices | Original |
-| `compatibility-scorer` | Calculate 99.8% | — |
+| `compatibility-scorer` | Calculate simulation score | — |
 | `explanation-generator` | User-friendly output | — |
 
 ## Key Research Insights
@@ -83,7 +83,7 @@ All process in parallel, integrated via global workspace.
 
 ```
 Phase 1: Persona Generation
-  Gemini 2.5 Flash Lite → 300-500 word narrative
+  Generator model → persona narrative
 
 Phase 2: Interaction Simulation
   Mistral-Nemo (temp=0.6) → Multi-turn conversation
@@ -107,7 +107,7 @@ Theorem: As LLM policy → human policy:
   Prediction → Optimal stable matching
 ```
 
-### Memory: 4 Layers (2026 Best Practices)
+### Memory: 4 Layers (Project Architecture)
 
 ```
 Layer 1: Working (ephemeral) — Current context, partial plan
@@ -133,7 +133,7 @@ Layer 4: Identity (immutable) — "I trust my feelings over system"
 ```
 Score = (Mutual Choices / Total Runs) × 100
 
-Example: 998/1000 = 99.8%
+Example: 820/1000 = 82.0%
 ```
 
 ### Adversarial Scenarios
@@ -171,7 +171,7 @@ persona-generator + persona-cloner + simulation-runner + choice-tracker
 
 | Metric | Benchmark | Target |
 |--------|-----------|--------|
-| Persona accuracy | CogniPair human validation | 5.6/7.0 |
+| Persona accuracy | Pilot-defined human validation | Set in own study |
 | Correlation | CogniPair (real human patterns) | 72% |
 | Match prediction | CogniPair | 77.8% |
-| Repeated choice | Hang the DJ | 99.8% |
+| Repeated choice | Hang the DJ inspiration | Fictional example, not benchmark |

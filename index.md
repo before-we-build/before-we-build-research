@@ -25,7 +25,13 @@ wiki/          — LLM-generated wiki
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
-| [[cross-typology-mapping]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
+| [[cross-typology-mapping-framework]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
+| [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
+| [[typology-authors-timeline]] | Who created which typology and when (Jung, Eysenck, Augustinavičiūtė, etc.) | web research |
+| [[typology-activity-theory-mapping]] | Project heuristic: Socionics=Tactical, Psychosophy=Operational, Temporistics=Strategic | web research |
+| [[typology-researchers]] | Academic validation researchers and studies (Blutner, Pietrak, Kovalenko, Rook, etc.) | web research |
+| [[big-five-alternatives]] | Alternatives to Big Five: HEXACO, 16PF, PEN, RST, Dark Tetrad | web research |
+| [[temporistics-eternity-altruism-hypothesis]] | Hypothesis: 1E/4E Eternity → collectivism, 2E/3E → individualism | user observation |
 | [[agentic-skills-hang-the-dj]] | 8 agent skills to implement simulation-based compatibility testing | skills/index.md |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | psycalc/Psyche-Yoga |
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | psycalc/Psyche-Yoga |
@@ -33,7 +39,7 @@ wiki/          — LLM-generated wiki
 | [[psychosophy-functions]] | Function block descriptions | psycalc/Psyche-Yoga |
 | [[socionics-model-a]] | Model A: 8 cognitive functions | raw/socionics |
 | [[temporistics-model]] | Temporistics type structure | raw/temporistics |
-| [[temporal-aspects]] | 1P, 1F, 1V, 2P aspects | raw/temporistics |
+| [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
 | [[intertype-relations-matrix]] | Full compatibility matrix | raw/socionics |
 
 ### Entities — Temporistics Types (24)
@@ -126,7 +132,9 @@ wiki/          — LLM-generated wiki
 
 | Page | Summary | Sources |
 |------|---------|---------|
-| (to be created) | | |
+| [[socionics-intertype-relations]] | Socionics relation system summary | raw/socionics/intertype-relations.md |
+| [[psychosophy-intertype-relations]] | Psychosophy relation system summary | socionika.info / Syntax of Love |
+| [[temporistics-intertype-relations]] | Experimental Temporistics compatibility heuristics | project synthesis |
 
 ### Sources (Derived)
 
@@ -139,13 +147,13 @@ wiki/          — LLM-generated wiki
 | [[common-projects]] | Related projects and research | - |
 | [[deep-research-report]] | Agent frameworks, orchestration, memory comparison | - |
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
-| [[hang-the-dj-simulation]] | Black Mirror episode: simulation-based compatibility testing, 99.8% score from 1000 runs | - |
+| [[hang-the-dj-simulation-compatibility]] | Black Mirror episode used as simulation metaphor, including the fictional 99.8% reveal | - |
 
 ### Research on AI in Psychology
 
 | Page | Summary | Source |
 |------|---------|--------|
-| [[llm-emulate-personality-nature-2025]] | GPT-4 emulates personality with superior internal consistency | Nature Scientific Reports |
+| [[llm-emulate-personality-nature-2025]] | GPT-4 emulates constrained Big Five response patterns with high internal consistency | Scientific Reports |
 | [[llm-psychological-simulators-methodology]] | Methodological guide: LLM as psychological simulators | arXiv:2506.16702 |
 | [[ai-agents-psychometric-approach]] | Psychometric approach to assigning personalities to AI agents using BFI-2 | arXiv:2410.19238 |
 | [[psypilot-ai-psychologist-toolkit]] | AI as copilot for psychologists: risks and governance | Frontiers in Psychology |
@@ -174,7 +182,7 @@ wiki/          — LLM-generated wiki
 | mystery-of-third-aspect.md | Dr. Radut's article on the third aspect | - |
 | author.md | Author (1P) type description | - |
 | critic.md | Critic (3P) type description | - |
-| guru.md | Guru (1V) type description | - |
+| guru.md | Guru (1E) type description | - |
 | khozyain-host.md | Host (1 Present) type description | 2025-01-15 |
 | mestnyi-local.md | Local (2 Present) type description | 2025-01-15 |
 | izgnannik-exile.md | Exile (3 Present) type description | 2025-01-15 |

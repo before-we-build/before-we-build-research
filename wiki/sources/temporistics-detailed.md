@@ -14,11 +14,9 @@ sources: [mystery-of-third-aspect.md]
 > **Frame Type:** Temporal frame  
 > **Core Question:** "Where am I going and why?"
 
-Temporistics is a typology created by Alexander Latyshev and Veronica Shelman that describes how a person relates to time: past, present, future, and eternity. The name derives from "temporal" + "istics." According to the official temporistics.ru website, this is both a psychological typology and practical philosophy.
+Temporistics is a typology describing how a person relates to time: past, present, future, and eternity. In the primary source set in this repo, the theory is associated with Dr. Radut / Nika Sherman and Alexander Latyshev, with the site name and much published material credited to Latyshev.
 
-**Key distinction from Psychosophy:** While Psychosophy deals with how a person processes information about physical reality (logic, emotions, will, physics), Temporistics deals with how a person processes their relationship to time itself. The structural parallels are intentional—Temporistics was developed by adapting Psychosophy's model to the temporal domain.
-
-From PDB wiki: *"Temporistics asserts that the priority system in each person is innate (or acquired at an early age) and stable, meaning it does not change throughout one's life."*
+**Key distinction from Psychosophy:** In this project's framing, Psychosophy deals with attitudinal differences across logic, emotion, will, and physics, while Temporistics deals with differences in temporal worldview. The structural parallel to Psychosophy is explicit in the source history, but many detailed latent-process labels below are this repo's schema overlay rather than canonical Temporistics terminology.
 
 ---
 
@@ -30,14 +28,18 @@ From PDB wiki: *"Temporistics asserts that the priority system in each person is
 |--------|----------|--------|
 | **Past (P)** | "Who am I?" | Self-concept, identity, experience, causality, history |
 | **Present (N)** | "Where is my place?" | Immediate environment, short-term events, involvement, spatial orientation |
-| **Future (B)** | "Where am I going?" | Goals, planning, strategy, trajectory, potential |
-| **Eternity (V)** | "Why am I?" | Meaning, purpose, existential continuity, observer position |
+| **Future (F)** | "Where am I going?" | Goals, planning, strategy, trajectory, potential |
+| **Eternity (E)** | "Why am I?" | Meaning, purpose, existential continuity, observer position |
 
-The letters P-N-B-V correspond to Russian words: Прошлое (Past), Настоящее (Present), Будущее (Future), Вечность (Eternity).
+**Notation:**
+- Russian: P-N-B-V (Прошлое, Настоящее, Будущее, Вечность)
+- English: P-N-F-E (Past, Now/Present, Future, Eternity)
 
 ### The Four Positions
 
 Following the same structure as Psychosophy:
+
+The position names are canonical. The latent-process labels in the table below are this repo's interpretive overlay.
 
 | Position | Name | Latent Process | Characteristic Phrase |
 |----------|------|---------------|---------------------|
@@ -116,8 +118,8 @@ From lore at temporistics.ru: *"The Past is one of the most captivating topics i
 
 **Inductive movement:** Painful past episodes → harsh conclusion about self
 
-**From temporistics.ru:**
-> "The third aspect is always an area of solitude and darkness. In the case of the third Past, a person may feel a lack of global meaning in their life, and at the level of the relationship with the past—this is a critical, judging position."
+**From source tradition:**
+> "The third aspect is always an area of solitude and darkness. In the case of the third Past, this is a critical, judging position toward one's history and self-identification."
 
 **Forum discussions (Socionics forums):**
 > "3P types often feel like their past 'proves' something negative about them. They collect evidence of failure, silence, weakness—and conclude they are fundamentally flawed."
@@ -128,8 +130,7 @@ From lore at temporistics.ru: *"The Past is one of the most captivating topics i
 - Over-generalizes from specific failures
 - Past often experienced as source of self-criticism
 
-**From PDB Eternity page discussing 3rd Eternity (similar mechanism):**
-> "For those with a vulnerable Eternity, the questions of meaning are the most critical. Meaningfulness is an ongoing struggle."
+**Note:** Some community discussions mix third-Past and third-Eternity material. In this page they should be kept separate.
 
 **In relationships:**
 - May carry significant past relationship wounds
@@ -420,7 +421,7 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 - Gap between existential questions and available answers
 
 **Forum discussions:**
-> "3V types often struggle with 'why am I here' questions. They see suffering and injustice and can't reconcile it with a purposeful universe."
+> "3E types often struggle with 'why am I here' questions. They see suffering and injustice and can't reconcile it with a purposeful universe."
 
 **In relationships:**
 - May struggle with meaning questions in relationship context
@@ -428,7 +429,7 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 - May appear existential or melancholic
 - Can help partner confront difficult life questions honestly
 
-### 4th Eternity — The Disciple (Ученик)
+### 4th Eternity — The Student (Ученик)
 
 **Latent process:** Person more easily accepts existing meaning systems, traditions, or teachers rather than creating metaphysics independently.
 
@@ -453,61 +454,19 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 
 ## Tetra Classifications
 
-Temporistics also includes tetrad (group of 4 types) classifications based on how aspects relate to "face" (лицо) and "reverse" (изнанка) worlds:
+Temporistics groups types into six tetrads based on the two "worlds" described in the source materials:
 
-**Face world:** Present and Future (short-term orientation, action-oriented)
-**Reverse world:** Eternity and Past (long-term orientation, identity-oriented)
+**Face world:** Present and Future  
+**Reverse world:** Eternity and Past
 
-### Tetrad Groups:
-
-- **H (Golden Age)** — types 1-5-3: oriented toward ideal time
-- **B (Movement Era)** — types 4-5-6: oriented toward change
-- **V (Order Era)** — types 2-3-4: oriented toward stability
-- **P (Individuality Era)** — types 6-1-2: oriented toward personal meaning
-
-These tetra classifications relate to how types approach time collectively and individually.
-
----
-
-## Strategic Compatibility Patterns
-
-### Good Combinations
-
-**1 + 4 in same aspect:**
-- One generates frame, other accepts it without struggle
-- Example: 1P + 4P: One has stable identity narrative, other accepts it
-
-**2 + 2:**
-- Joint processing of temporal material
-- Both comfortable with collaborative meaning-making
-- Natural co-planners and history-sharers
-
-**1 + 3 with mutual understanding:**
-- One holds stable temporal narrative while helping other process
-
-### Challenging Combinations
-
-**1 + 1:**
-- Both want to set the temporal frame
-- Competition over whose vision of history/future is correct
-
-**3 + 3:**
-- Both agonizing over temporal meaning without resolution
-- May reinforce each other's temporal anxieties
-
-**1 + 3:**
-- One doesn't understand why other can't just move forward
-- 1 may dismiss 3's temporal concerns as unnecessary
-
-### Cross-Aspect Conflicts
-
-**Past-Future axis conflicts:**
-- 1P + 3B: One sees past as confirmation, other sees only risks ahead
-- Past identity conflicts with future vision
-
-**Present-Eternity conflicts:**
-- 1N + 3V: Focus on immediate vs. eternal meaning
-- "Why plan when life is meaningless?" vs. "Let's maximize now"
+| Tetrad | Aspect Pair | Types |
+|--------|-------------|-------|
+| **Antipodes** | N + P | Politician, Player, Maestro, Game Master |
+| **Guardians and Border Guards** | E + P | Missionary, Standard-Bearer, Rescuer, Knight |
+| **Old-Timers and Founders of the Face World** | N + E | Theorist, Oracle, Conqueror, Star |
+| **Conductors** | F + E | Ideologue, Samurai, Colonist, Pioneer |
+| **Scouts and Reconnaissance Types** | N + F | Sommelier, Grey Cardinal, Hacker, Scout |
+| **Nomads and Wanderers** | P + F | Initiator, Robinson, Pathfinder, Tamada |
 
 ---
 
@@ -518,15 +477,15 @@ These tetra classifications relate to how types approach time collectively and i
 From Personality Database Wiki discussions:
 - Temporistics is considered a "worldview typology" — it describes what people consider important, not just how they process information
 - The system has 24 types (4! permutations of aspect priority)
-- Each type is written as 4 letters, e.g., "VPBN" meaning Eternity=1st, Past=2nd, Present=3rd, Future=4th
+- Each type is written as 4 letters, e.g., "EPNF" meaning Eternity=1st, Past=2nd, Present=3rd, Future=4th
 
 ### Common Confusions (from forums)
 
 1. **Confusing with Psychosophy:** People often mix up the aspect meanings. Remember: Psychosophy is about processing style (HOW), Temporistics is about temporal values (WHAT MATTERS).
 
-2. **Confusing with MBTI:** While some correlations exist (e.g., 1N often correlates with ES types), the systems are fundamentally different. MBTI focuses on cognition, Temporistics on temporal values.
+2. **Confusing with MBTI:** The systems are fundamentally different. MBTI focuses on cognition, while Temporistics focuses on temporal values and worldview.
 
-3. **3rd position confusion:** The "painful" aspect is not about being in pain, but about being most aware of deficits in this area. It's where a person most notices their limitations.
+3. **3rd position confusion:** The "painful" aspect is not simply about suffering; it is the position where deficits and vulnerability are most noticeable.
 
 ### Real User Experiences (forums)
 
@@ -540,11 +499,9 @@ From Socionics forum discussions:
 ## Key References
 
 1. **Official site:** temporistics.ru — primary source for type descriptions
-2. **Personality Database Wiki** — community-maintained type descriptions
-3. **r/Psychosophy** — Reddit community discussing related typologies
-4. **Socionics forums** — discussions comparing Temporistics to Socionics and Psychosophy
-5. **"Understanding Temporistics Typology"** (Scribd) — community guide
+2. **Personality Database Wiki** — community-maintained secondary descriptions
+3. **Forum discussions** — useful for terminology comparison, but not primary evidence
 
 ---
 
-*This document provides comprehensive coverage of Temporistics as the Strategic level of the Cognitive Matchmaker framework. For the operational level, see psychosophy-detailed.md. For the tactical level, see socionics-detailed.md.*
+*This document summarizes source-backed Temporistics material first and uses secondary/community material cautiously. Compatibility claims should be handled separately from descriptive source content.*

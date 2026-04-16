@@ -2,6 +2,8 @@
 
 Chronological record of wiki activity. Append-only.
 
+Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
+
 ---
 
 ## [2026-04-15] build | Repository cleanup and wiki migration

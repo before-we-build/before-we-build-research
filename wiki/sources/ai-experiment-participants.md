@@ -9,13 +9,15 @@ sources: [Current Psychology, doi:10.1007/s12144-025-08082-6]
 
 # Trained AI as Experiment Participants
 
-**Authors:** Current Psychology
-**Published:** June 2025
+**Authors:** Yong Bian, Zhou Fang, Dawei Li
+**Venue:** Current Psychology
+**Published:** 24 June 2025
+**Status:** Peer-reviewed journal article
 **Open Access:** Yes
 
 ## Core Concept
 
-Replace functional groups in experiments with trained AI participants.
+Proposes using trained AI systems as functional benchmarks in some experimental designs.
 
 ## Why This Matters for Behavioral Economics
 
@@ -24,30 +26,30 @@ Replace functional groups in experiments with trained AI participants.
 - Ethics complicate certain experiments
 - Sample sizes limited
 
-### AI Solution
-- Simulate "rational actor" behavior
-- Test hypotheses before human trials
-- Scale experiments cheaply
+### AI Proposal
+- Build a content-only AI benchmark for a specific decision task
+- Compare AI predictions with real-world outcomes
+- Use the comparison to detect possible human bias patterns
 
 ## Methodology
 
-### Sample Study: Confirmation Bias
-1. Trained AI on confirmation bias patterns
-2. Used as control group in experiment
-3. Compared to human participants
-4. Results: Complements human data
+### Sample Study: Academic Publishing Bias
+1. Trained a text-based model on thousands of economics papers
+2. Excluded explicit gender information from the model input
+3. Predicted journal-placement outcomes from paper content alone
+4. Compared predicted outcomes with actual publication outcomes
 
 ## Key Insight
 
-> "AI fundamentally changes experimental design by reducing reliance on human participants"
+> The paper is best read as a proof-of-concept for AI as a benchmarking tool, not as broad evidence that AI can generally replace human participants.
 
 ## Applications to Our Project
 
 ### For Compatibility Testing
 1. **Pilot with AI first**
-   - Run 100 simulated dates
-   - Identify patterns
-   - Refine hypothesis
+   - Use AI benchmarking to stress-test hypotheses
+   - Identify obvious failure modes early
+   - Refine what should later be checked with humans
 
 2. **Then validate with humans**
    - Test AI findings on real pairs
@@ -66,5 +68,6 @@ AI Simulation → Hypothesis → Human Pilot → Real Data → Improved AI
 
 ## References
 
-- Current Psychology, Volume 44, Pages 13378-13385 (2025)
+- Bian, Y., Fang, Z., & Li, D. (2025). Trained AI as "Experiment Participants": theory and practice.
+- Current Psychology, 44(14), 13378-13385.
 - DOI: 10.1007/s12144-025-08082-6

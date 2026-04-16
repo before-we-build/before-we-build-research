@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Generate natural language persona narratives from structured data. Converts personality scores into 300-500 word narratives that LLMs can use to simulate behavior.
+Generate natural language persona narratives from structured data. Converts personality scores into structured persona prompts that LLMs can use to simulate behavior.
 
-**Based on:** Love First, Know Later's persona generation phase
+**Based on:** simulation-first persona generation ideas plus this project's validation choices
 
 ## When to Use
 
@@ -56,8 +56,8 @@ source:
 
 ```
 You are generating a persona narrative for a dating simulation.
-Given the following personality assessment, create a realistic 300-500 word
-persona description that captures the person's essence.
+Given the following personality assessment, create a realistic persona
+description that captures the person's essence.
 
 ---
 PERSONALITY DATA:
@@ -71,7 +71,7 @@ REQUIREMENTS:
 4. Add relationship preferences and deal-breakers
 5. End with how they approach new connections
 6. Write in third person
-7. Keep to 300-500 words
+7. Use enough detail to support stable simulation, but do not force a fixed word count
 
 ---
 OUTPUT FORMAT:
@@ -91,7 +91,7 @@ narrative: |
   and can engage with complex ideas. They are motivated by competence
   and growth, and tend to avoid superficial small talk...
 
-  [Total: 300-500 words]
+  [Structured persona narrative]
 
 metadata:
   word_count: 423
@@ -102,7 +102,7 @@ metadata:
 ## LLM Parameters
 
 ```yaml
-# From Love First, Know Later
+# Working project default
 model: "gemini-2.5-flash-lite"
 temperature: 0.8  # Some creativity but consistent
 purpose: "Fast persona generation at scale"
@@ -127,7 +127,7 @@ def generate_batch(sources: list[dict]) -> list[Persona]:
 
 ## Quality Checks
 
-1. **Word count** — Must be 300-500 words
+1. **Prompt richness** — Persona should contain enough detail for stable simulation
 2. **Coverage** — All 5 Big Five traits represented
 3. **Consistency** — No contradictions with assessment scores
 4. **Naturalness** — Reads like human writing, not template
@@ -138,7 +138,7 @@ After generation, validate with user:
 ```
 Rate this persona description on a scale of 1-7:
 "How well does this describe you?"
-Target: 5.6/7.0 (CogniPair benchmark)
+Define the acceptance threshold in your own pilot study.
 ```
 
 ## Dependencies

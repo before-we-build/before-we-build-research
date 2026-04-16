@@ -17,10 +17,10 @@ Temporistics uses four aspects representing different orientations in time.
 
 | Aspect | Description | Focus |
 |--------|-------------|-------|
-| 1P (1st Past) | Past orientation | Memory, tradition |
-| 1F (1st Present) | Present orientation | Action, here-and-now |
-| 1V (1st Future) | Future orientation | Vision, planning |
-| 2P (2nd Past) | Secondary past | Reflection |
+| **P** (Past) | Past orientation | Memory, identity, tradition |
+| **N** (Present / Now) | Present orientation | Place, involvement, here-and-now |
+| **F** (Future) | Future orientation | Vision, planning, direction |
+| **E** (Eternity) | Eternity orientation | Meaning, purpose, worldview |
 
 ## See Also
 

@@ -4,7 +4,7 @@
 
 Create a digital twin (persona) of a human for simulation purposes. The twin must exhibit consistent personality traits and behave like the original person in social scenarios.
 
-**Based on:** CogniPair's GNWT-Agent initialization + Love First's persona generation (300-500 word narratives)
+**Based on:** CogniPair-style GNWT initialization plus this project's persona-generation pipeline
 
 ## When to Use
 
@@ -52,11 +52,10 @@ Social Profile → Behavioral patterns → Inferred traits
 
 #### Phase 2: Narrative Generation
 ```
-Extract traits → Generate 300-500 word persona narrative
+Extract traits → Generate structured persona narrative
 ```
 
-**From Love First, Know Later:**
-> "Gemini 2.5 Flash Lite generates personas (300-500 words) from structured profiles"
+**Project note:** Narrative length should be treated as a tuning variable, not a fixed research-backed rule.
 
 **Persona Narrative Template:**
 ```markdown
@@ -99,7 +98,7 @@ narrative: |
   Alex is a 28-year-old software engineer who values intellectual
   depth, authenticity, and independence. In social situations, they
   tend to observe before engaging...
-  [300-500 words total]
+  [Structured narrative]
 
 # Behavioral policies
 policies:
@@ -109,7 +108,7 @@ policies:
   decision_style: "analytical_deliberate"
 
 validation:
-  target: 5.6/7.0  # CogniPair benchmark
+  target: pilot_defined  # define threshold in your own validation protocol
   method: "self_rating_comparison"
 ```
 
@@ -134,14 +133,14 @@ min_tokens: 0
 ### Validation Method
 ```
 Ask original person: "Would you say this? Rate 1-7"
-Target: 5.6/7.0 (CogniPair human validation benchmark)
+Use a pilot-defined human validation threshold rather than assuming a fixed external benchmark.
 ```
 
 ## Dependencies
 
 - `type-mapper` — For cross-system translation
 - `global-workspace` — For GNWT module integration
-- `narrative-generator` — For 300-500 word persona creation
+- `narrative-generator` — For persona narrative creation
 
 ## Related Skills
 

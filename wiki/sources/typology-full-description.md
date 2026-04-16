@@ -79,7 +79,7 @@ The Past aspect describes how a person relates to their history, how they interp
 **Latent process:** Person flexibly processes experience through dialogue and comparison with others. Identity is developed through mutual reflection.
 
 **Characteristic behavior:**
-- Values shared回忆 and mutual understanding
+- Values shared memories and mutual understanding
 - "Let's look at your experience and mine, compare, understand what follows"
 - Less rigid about self-narrative, more exploratory
 - Identity emerges through relationship with others' perspectives
@@ -342,7 +342,7 @@ A person's temporal type is determined by their position in each aspect:
 
 ### Strategic Compatibility Patterns
 
-**Strong strategic compatibility indicators:**
+**Possible strategic compatibility indicators in the current project model:**
 
 - Complementary positions in shared temporal aspects (1st + 4th, 2nd + 2nd)
 - Shared approach to temporal processing (both deductive or both comfortable with ambiguity)
@@ -355,7 +355,7 @@ A person's temporal type is determined by their position in each aspect:
 - Competing meaning systems without dialogue space
 - Hard incompatibility on life milestones (children, career path, lifestyle)
 
-**Good combinations:**
+**Potentially smoother combinations:**
 - 1st + 4th in same aspect: One generates frame, other accepts it without struggle
 - 2nd + 2nd: Joint processing of temporal material
 - 1st + 3rd with mutual understanding: One can hold stable narrative while helping other process
@@ -690,7 +690,7 @@ A person's psychosophic type is determined by their position in each aspect:
 
 ### Operational Compatibility Patterns
 
-**Good combinations:**
+**Potentially smoother combinations:**
 
 - **1 + 4** in same aspect: One assembles the scheme, other calmly accepts it
   - Example: 1L + 4L: One explains structure, other trusts and follows
@@ -881,7 +881,7 @@ The most natural support in Model A goes where:
 
 This means: one person naturally gives the way of seeing that the second lacks, and the second doesn't need to fight for it.
 
-#### Duality (Optimal Compatibility)
+#### Duality (Classic Socionics Best-Fit Hypothesis)
 
 **Pattern:** Functions mirror: 1↔5, 2↔6, 3↔7, 4↔8
 
@@ -919,14 +919,14 @@ Second feels: "I'm being broken by schemes."
 
 | Type | Leading | Creative | Role | Vulnerable |
 |------|---------|----------|------|------------|
-| ILE (ENTp) | Ne | Ti | Fe | Si |
-| LII (INTj) | Ti | Ne | Se | Fe |
-| ESE (ESFj) | Fe | Si | Ne | Te |
-| SLI (ISTp) | Si | Fe | Ti | Ne |
+| ILE | Ne | Ti | Fe | Si |
+| LII | Ti | Ne | Fi | Se |
+| ESE | Fe | Si | Ne | Ti |
+| SLI | Si | Te | Ni | Fe |
 |... (all 16 types) | | | | |
 
 **Full type list:**
-- ILE, LII, ESE, SLI, EIE, LIE, ESI, SLE, IEI, LSI, SEE, LSE, IEE, SLE, ESI, LIE
+- ILE, SEI, ESE, LII, EIE, LSI, SLE, IEI, SEE, ILI, LIE, ESI, LSE, EII, IEE, SLI
 
 ---
 
@@ -947,7 +947,7 @@ The three levels are not independent—they interact:
 
 ### Compatibility at Multiple Levels
 
-True compatibility requires:
+In the current project model, stronger compatibility may require:
 - Strategic: Shared temporal orientation and meaning framework
 - Operational: Complementary approaches to action and decision-making
 - Tactical: Natural information exchange and mutual support of modeling

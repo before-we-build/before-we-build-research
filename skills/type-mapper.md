@@ -17,8 +17,8 @@ Translate personality types between different typological systems. Enables cross
 | Big Five | Continuous (0-1 per trait) | O, C, E, A, N |
 | MBTI | 16 types | E/I, S/N, T/F, J/P |
 | Socionics | 16 types + quadras | 8 functions, IM elements |
-| Psychosophy | 81 types (theoretical) | V, F, L, P (first function dominant) |
-| Temporistics | 24 types | P/F/V/N, 4 positions per aspect |
+| Psychosophy | 81 types (theoretical) | V, F, L, E / 4 positions |
+| Temporistics | 24 types | P, N, F, E / 4 positions |
 
 ## How to Use
 
@@ -33,33 +33,27 @@ target_system: "socionics"
 ```yaml
 source: "INTJ"
 target: "LII"
-confidence: 0.95
-mapping_method: "function_equivalence"
-notes: "Both share Ti-Ne as leading functions"
+mapping_status: "disputed approximation"
+mapping_method: "description-level comparison"
+notes: "MBTI↔Socionics mappings are common in practice but not one-to-one"
 ```
 
 ## Mapping Tables
 
-### MBTI ↔ Socionics (Established)
+### MBTI ↔ Socionics (Common But Disputed)
 
-| MBTI | Socionics | Quadra | Leading Functions |
-|------|-----------|--------|-------------------|
-| INTJ | LII | Alpha | Ti Ne |
-| ENTP | ILE | Alpha | Ne Ti |
-| ESFJ | ESE | Alpha | Fe Si |
-| ISTP | SLI | Alpha | Si Te |
-| ESTP | SLE | Beta | Se Ti |
-| ENTJ | LIE | Beta | Te Ni |
-| ENFJ | EIE | Beta | Fe Ni |
-| ISTJ | LSI | Beta | Si Te |
-| ESFP | SIE | Gamma | Se Fi |
-| INTP | ILI | Gamma | Ni Te |
-| ISFJ | ESI | Gamma | Fi Si |
-| ESTJ | LSE | Gamma | Te Si |
-| ENFP | IEE | Delta | Ne Fi |
-| INFJ | EII | Delta | Fi Ne |
-| ISFP | ESI | Delta | Se Fi |
-| ENTJ | LIE | Delta | Te Ne |
+There is no universally accepted one-to-one crosswalk between MBTI and Socionics. Use approximate examples only, then validate against fuller descriptions.
+
+| MBTI | Common Socionics Approximation | Notes |
+|------|-------------------------------|-------|
+| ENTP | ILE | Common community mapping |
+| ENTJ | LIE | Common community mapping |
+| ENFJ | EIE | Common community mapping |
+| ENFP | IEE | Common community mapping |
+| INTP | LII or ILI | Depends on school and interpretation |
+| INTJ | ILI or LII | Especially disputed because MBTI and Socionics J/P do not align cleanly |
+| INFJ | EII or IEI | Commonly disputed |
+| ISFP | SEI or ESI | Commonly disputed |
 
 ### Big Five ↔ MBTI (Approximate)
 
@@ -73,10 +67,10 @@ notes: "Both share Ti-Ne as leading functions"
 
 ## Key Principles
 
-1. **Bidirectional** — Can convert A→B and B→A
-2. **Confidence scoring** — Not all mappings are equally certain
-3. **Preserve uncertainty** — Some types don't map cleanly
-4. **Function-based** — Prefer function mapping over letter mapping
+1. **Preserve uncertainty** — Some mappings do not resolve cleanly
+2. **Prefer descriptive comparison** — Compare functions, motivations, and behavior, not just letters
+3. **Do not assume one-to-one equivalence** — especially for MBTI ↔ Socionics
+4. **Use external validation** — questionnaire, examples, and scenario behavior should override letter-matching heuristics
 
 ## Known Gaps
 
@@ -86,23 +80,22 @@ notes: "Both share Ti-Ne as leading functions"
 - May need OCEAN as intermediary
 
 ### Temporistics → Other Systems
-- NOT established — Temporistics is niche, single-author (Dr. Radut)
+- NOT established — Temporistics is niche and has a small source ecosystem
 - Requires hypothesis testing
-- Best approach: map through aspect combinations to Big Five dimensions
+- Best approach: treat any cross-system mapping as exploratory
 
 ## Implementation Notes
 
-### Confidence Calculation
+### Confidence Handling
 ```
-confidence = base_match × consistency × validation_history
-base_match = 0.8 for established (MBTI↔Socionics)
-            = 0.5 for approximate (Big Five↔MBTI)
-            = 0.3 for theoretical (Temporistics↔others)
+mapping_status ∈ {common approximation, weak approximation, exploratory}
+evidence = description match + questionnaire overlap + scenario validation
+final judgment should be revised after real behavioral checks
 ```
 
 ### Hybrid Mapping (Socionics + Temporistics)
 ```
-Step 1: MBTI → Socionics (0.95 confidence)
+Step 1: MBTI → Socionics (approximate only)
 Step 2: Socionics IM elements → Temporistics aspect hypothesis
 Step 3: Validate with simulation
 ```

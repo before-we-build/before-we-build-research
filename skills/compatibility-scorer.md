@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Calculate final compatibility percentage from tracked choices. Produces the "99.8% match" output shown to users.
+Calculate a final compatibility signal from tracked choices. Produces a simulation-derived score shown to users.
 
 ## When to Use
 
@@ -15,8 +15,8 @@ Calculate final compatibility percentage from tracked choices. Produces the "99.
 ```yaml
 pair_id: "a1-b2"
 total_runs: 1000
-mutual_choices: 998
-compatibility_score: 99.8
+mutual_choices: 820
+compatibility_score: 82.0
 adversarial_strength: 0.97  # Under pressure
 early_lead: 0.02            # Small dropoff over time
 divergence_rate: 0.001
@@ -60,10 +60,10 @@ final = clamp(final, 0, 100)
 
 ### For User
 ```yaml
-compatibility_percentage: 99.8
-interpretation: "In 998 out of 1000 simulated scenarios, 
-                you chose each other — even when the system 
-                pushed you apart."
+compatibility_percentage: 82.0
+interpretation: "Across many simulated scenarios,
+                your digital versions often chose each other,
+                including under some pressure conditions."
 confidence: "very_high"
 summary: "Your simulated versions demonstrated remarkable 
           consistency in choosing each other."
@@ -72,9 +72,9 @@ summary: "Your simulated versions demonstrated remarkable
 ### Detailed Report
 ```yaml
 pair_id: "a1-b2"
-final_score: 99.8
+final_score: 82.0
 breakdown:
-  base_score: 99.8
+  base_score: 82.0
   adversarial_bonus: 0.0
   consistency_bonus: 0.0
   alignment_bonus: 0.0
@@ -104,10 +104,10 @@ recommendation: "strong_compatibility_signal"
 
 ## Key Principles
 
-1. **Repeated choice > single perfect match** — 80% across 1000 runs > 100% across 10 runs
+1. **Repeated choice > single perfect match** — stable patterns across many runs matter more than one perfect scene
 2. **Pressure reveals truth** — Choices under stress matter more
 3. **Consistency matters** — Early and late choices should align
-4. **No false precision** — Round to reasonable decimals
+4. **No false precision** — prefer coarse, uncertainty-aware reporting over overconfident exactness
 
 ## Edge Cases
 

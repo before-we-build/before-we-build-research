@@ -4,7 +4,7 @@
 
 Execute multi-agent simulation scenarios at scale. Manages parallel execution of conversation simulations between agent twins.
 
-**Based on:** CogniPair's simulation architecture + Love First's interaction phases
+**Based on:** CogniPair-style simulation architecture plus project-specific interaction phases
 
 ## When to Use
 
@@ -52,8 +52,8 @@ Execute multi-agent simulation scenarios at scale. Manages parallel execution of
 
 ### Phase 1: Persona Generation
 ```
-Structured profile → 300-500 word narrative
-Model: Gemini 2.5 Flash Lite
+Structured profile → persona prompt / narrative
+Model: project-selected generator model
 ```
 
 ### Phase 2: Interaction Simulation
@@ -79,11 +79,11 @@ simulation:
   max_parallel: 50           # Concurrent runs
 
 model:
-  # Persona generation (Love First)
+  # Persona generation (project default)
   persona_model: "gemini-2.5-flash-lite"
   persona_temp: 0.8
 
-  # Conversation simulation (Love First)
+  # Conversation simulation (project default)
   conversation_model: "mistral-nemo"
   conversation_temp: 0.6
   max_tokens: 200

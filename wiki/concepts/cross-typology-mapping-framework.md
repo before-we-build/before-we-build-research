@@ -4,14 +4,14 @@ type: concept
 tags: [architecture, mapping, tooling, personanexus, jpaf, oasis]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [vendor/personanexus, vendor/jpaf, vendor/oasis-platform, vendor/oasis-sim]
+sources: []
 ---
 
 # Cross-Typology Mapping Framework
 
 ## Overview
 
-Unified pipeline using open-source tools to bridge three typological systems (Temporistics, Psychosophy, Socionics) with MBTI/Jungian as the common reference frame. Enables simulation-based validation and empirical testing of compatibility hypotheses.
+Proposed pipeline for experimenting with bridges between three typological systems (Temporistics, Psychosophy, Socionics) and more mainstream trait/persona frameworks. This page records project architecture ideas, not an established mapping standard.
 
 ## Pipeline Architecture
 
@@ -60,26 +60,18 @@ Unified pipeline using open-source tools to bridge three typological systems (Te
 
 ## Cross-System Mapping
 
-### Socionics → MBTI (Established)
+### Socionics → MBTI (Common But Disputed Approximation)
 
-| Socionics | MBTI | Quadra | IM Elements |
-|-----------|------|--------|-------------|
-| LII | INTJ | Alpha | Ti Ne Si Fe |
-| ILE | ENTP | Alpha | Ne Ti Fe Si |
-| ESE | ESFJ | Alpha | Fe Si Ne Ti |
-| SLI | ISTP | Alpha | Si Te Ne Fe |
-| SLE | ESTP | Beta | Se Ti Ne Fe |
-| LIE | ENTJ | Beta | Te Ni Se Fi |
-| EIE | ENFJ | Beta | Fe Ni Se Ti |
-| LSI | ISTJ | Beta | Si Te Ni Fe |
-| SIE | ESFP | Gamma | Se Fi Ti Ne |
-| ILI | INTP | Gamma | Ni Te Fi Se |
-| ESI | ISFJ | Gamma | Fi Si Te Ni |
-| LSE | ESTJ | Gamma | Te Si Ne Fi |
-| IEE | ENFP | Delta | Ne Fi Ti Se |
-| EII | INFJ | Delta | Fi Ne Si Te |
-| SEE | ESFP | Delta | Se Fi Te Ni |
-| LIE | ENTJ | Delta | Te Ne Si Fe |
+| Socionics | Common MBTI Approximation | Note |
+|-----------|----------------------------|------|
+| ILE | ENTP | Common community mapping |
+| LIE | ENTJ | Common community mapping |
+| EIE | ENFJ | Common community mapping |
+| IEE | ENFP | Common community mapping |
+| ILI | INTP or INTJ | Disputed |
+| LII | INTP or INTJ | Disputed |
+| EII | INFJ | Common but still approximate |
+| SEE | ESFP | Approximate |
 
 ### Temporistics → MBTI (Hypothesized)
 
@@ -87,13 +79,13 @@ Temporal framing dimension maps to cognitive style preferences:
 
 | Temporistics Frame | Primary Preference | Secondary |
 |-------------------|-------------------|-----------|
-| Present types (1-4P) | Sensing (concrete) | Se/Si |
+| Present types (1-4N) | Sensing (concrete) | Se/Si |
 | Future types (1-4F) | Intuitive (abstract) | Ne/Ni |
-| Eternity types (1-4V) | Reflective (Ni/Si) | Balanced |
-| Past types (2-4P) | Memory-oriented | Si-heavy |
+| Eternity types (1-4E) | Reflective (Ni/Si) | Balanced |
+| Past types (1-4P) | Memory-oriented | Si-heavy |
 
 **Mapping approach:** Temporistics aspect combinations map to Jungian dichotomies:
-- Temporal focus (P/F/V) → E/I orientation
+- Temporal focus (P/N/F/E) → tentative orientation cues
 - Aspect density → S/N preference
 - Aspect role → T/F and J/P
 
@@ -101,13 +93,12 @@ Temporal framing dimension maps to cognitive style preferences:
 
 4-aspect structure maps through function weighting:
 
-| Psychosophy Profile | Dominant Function | Secondary |
-|--------------------|-------------------|-----------|
-| 1st strong (VFFD) | Thinking/Feeling | Te/Fe |
-| 1st strong (FVFD) | Feeling/Thinking | Fe/Te |
-| Mixed (2-2-2-2) | Balanced | Ti/Fi |
-| Physics-heavy | Sensing | Se/Si |
-| Will-heavy | Judgment | Te/Fe |
+| Psychosophy Pattern | Possible MBTI-Like Echo | Notes |
+|--------------------|--------------------------|-------|
+| Logic-heavy | Thinking emphasis | Approximate only |
+| Emotion-heavy | Feeling emphasis | Approximate only |
+| Physics-heavy | Sensing emphasis | Approximate only |
+| Will-heavy | Judgment / agency emphasis | Approximate only |
 
 ## Validation Hypothesis Examples
 
@@ -119,12 +110,12 @@ Temporal framing dimension maps to cognitive style preferences:
 ### H2: Temporistics Present types prefer real-time communication
 - **Method:** OASIS-sim measures message timing, response patterns
 - **Metric:** Latency correlation with temporal frame
-- **Expected:** Present types 40% faster response
+- **Expected:** test whether Present-heavy profiles respond faster in synchronous settings
 
 ### H3: Combined Temporistics + Socionics predicts satisfaction better than either alone
 - **Method:** OASIS-platform interviews 200 couples
 - **Metric:** Multi-factor regression, cross-validated
-- **Expected:** R² improvement of 0.15 over single-system
+- **Expected:** test whether combined features improve prediction over single-system baselines
 
 ## Vendor Tools Reference
 
@@ -133,6 +124,8 @@ Temporal framing dimension maps to cognitive style preferences:
 - **Key features:** OCEAN↔DISC↔Jungian bidirectional, YAML identity files, archetype inheritance
 - **Command:** `pip install personanexus`
 - **Example:** `personanexus personality jungian-to-traits --preset intj`
+
+**Audit note:** Vendor/source verification for this tooling stack is incomplete in the current repo; treat these tool references as exploratory pointers.
 
 ### JPAF (Jungian Personality Adaptation Framework)
 - **Purpose:** LLM personality simulation with triple mechanisms

@@ -9,13 +9,15 @@ sources: [arXiv:2410.19238]
 
 # Designing AI-Agents with Personalities: A Psychometric Approach
 
-**Authors:** Huang, Zhang, Soto, Evans (Stanford)
-**Published:** arXiv, October 2024
+**Authors:** Huang, Zhang, Soto, Evans
+**Published:** arXiv preprint, first posted 25 October 2024
+**Latest arXiv version noted in audit:** November 2025
+**Status:** Preprint, not peer-reviewed
 **Code:** github.com/muhua-h/Psychometrics4AI
 
 ## Core Contribution
 
-Three-study framework for assigning **quantifiable, psychometrically validated personalities** to AI agents using Big Five framework.
+Three-study framework for assigning Big Five-based trait profiles to AI agents and testing for partial psychometric alignment.
 
 ## Three Studies
 
@@ -26,11 +28,11 @@ Three-study framework for assigning **quantifiable, psychometrically validated p
 
 ### Study 2: BFI-2 Format
 - Uses Big Five Inventory-2 items
-- Results: Much closer to human responses
-- Better at capturing subtle personality variations
+- Results: Newer models aligned more closely with human responses on some measures
+- Limitation: Finer response patterns were not uniformly consistent
 
 ### Study 3: Moral Judgment
-- Validated on risk-taking and moral dilemmas
+- Evaluated on risk-taking and moral-dilemma vignettes
 - BFI-2-Expanded format most closely matches human responses
 - BUT: AI tends to **inflate "moral" ratings**
 
@@ -39,42 +41,22 @@ Three-study framework for assigning **quantifiable, psychometrically validated p
 ### What Works
 - BFI-2 prompts produce more human-like responses
 - Correlations between Big Five traits and behaviors match human patterns
-- Valid for preliminary research
+- Potentially useful for preliminary research
 
 ### What Doesn't Work
 - Finer response patterns inconsistent
 - AI sometimes inflates certain traits
-- Cannot fully substitute for human participants
+- Cannot fully substitute for human participants in precision or high-stakes settings
 
 ## Practical Implications
 
-### For Our Project: Persona Generation
+### For Our Project: Project Extrapolation
 
-Use this prompt structure:
-```
-Based on the following Big Five Inventory-2 scores:
-- Openness: [score]
-- Conscientiousness: [score]
-- Extraversion: [score]
-- Agreeableness: [score]
-- Neuroticism: [score]
-
-And demographics:
-- Age: [age]
-- Gender: [gender]
-- Occupation: [occupation]
-
-Describe how this person would respond to [scenario]
-```
-
-### Validation Checklist
-- [ ] Check internal consistency of responses
-- [ ] Compare to human baseline
-- [ ] Test for consistency over multiple prompts
-- [ ] Validate against external criteria
+- Big Five-based prompting is a reasonable starting point for persona generation
+- Demographic and contextual information may improve realism in some setups
+- Any such persona prompt should still be benchmarked against human data rather than assumed valid by default
 
 ## References
 
-- arXiv: 2410.19238
+- arXiv:2410.19238
 - Code: github.com/muhua-h/Psychometrics4AI
-- Models used: GPT-4, newer models show better alignment

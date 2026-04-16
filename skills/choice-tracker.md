@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Log all decisions made by agents across multiple simulation runs. Enables calculating "repeated choice" metrics like the 99.8% in "Hang the DJ".
+Log all decisions made by agents across multiple simulation runs. Enables calculating repeated-choice metrics for compatibility analysis.
 
 ## When to Use
 
@@ -16,7 +16,7 @@ Log all decisions made by agents across multiple simulation runs. Enables calcul
 Compatibility Score = (Times Chose Each Other / Total Scenarios) × 100
 ```
 
-For example: 998 out of 1000 scenarios = 99.8%
+Example: 820 out of 1000 scenarios = 82.0%
 
 ## How to Use
 
@@ -48,7 +48,7 @@ mutual_choice: true
 pair_id: "a1-b2"
 total_runs: 1000
 mutual_choices: 998
-compatibility_score: 99.8
+compatibility_score: 82.0
 choice_sequence: [true, true, false, true, ...]
 run_history:
   - run: 1

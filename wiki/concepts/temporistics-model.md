@@ -11,14 +11,14 @@ sources: [raw/temporistics]
 
 ## Overview
 
-Temporistics models personality through temporal experience structuring — how individuals organize past, present, and future.
+Temporistics models personality through temporal experience structuring — how individuals organize past, present, future, and eternity.
 
 ## Type Structure
 
-24 types based on combinations of 4 aspects in 4 positions:
-- Format: "1P-1F-1V-2P"
-- First letter: aspect (1P, 1F, 1V, 2P)
-- Position: 1st through 4th
+24 types based on permutations of 4 aspects across 4 positions:
+- English shorthand: `EPNF`, `NPFE`, etc.
+- Aspect letters: `P` = Past, `N` = Present, `F` = Future, `E` = Eternity
+- Position is determined by order from 1st through 4th
 
 ## Aspect Categories
 

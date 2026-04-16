@@ -15,11 +15,11 @@ The "agent-based" application market consists of several layers often mixed in o
 
 Key architectural divide: **in-process orchestration** vs **durable orchestration**. Library agent frameworks (LangChain / LlamaIndex / Haystack) provide the fastest path to prototype and convenient integration ecosystem (e.g., LangChain emphasizes unified API across providers and large number of integrations), but reliability for long-running tasks and execution repeatability usually need to be built as a separate layer (workers, queues, WF engine, idempotency). Durable engines (Temporal) inherently provide persistent execution and recovery from event history, which is better suited for "long" business processes and controlled fault tolerance.
 
-Regarding "memory," it's important to separate: **working memory (dialog/thread context)**, **long-term memory (vector/hybrid database, TTL policies, persistence)** and **operational state (state machine/workflow state)**. Vector databases (Weaviate / Milvus) and "developer-first" stores (Chroma) balance scale, search functionality (hybrid, filters), security (RBAC/TLS), observability (Prometheus/OpenTelemetry), and operational costs differently.
+Regarding "memory," it's important to separate: **working memory (dialog/thread context)**, **long-term memory (vector/hybrid database, persistence)** and **operational state (state machine/workflow state)**. Vector databases (Weaviate / Milvus) and "developer-first" stores (Chroma) balance scale, search functionality (hybrid, filters), security (RBAC/TLS), observability (Prometheus/OpenTelemetry), and operational costs differently.
 
-If you need a **quick start**: LangChain or LlamaIndex + Chroma (local/embedded) with gradual scaling to Milvus/Weaviate as load grows is usually the winning choice. If you need **production for multi-step/long processes** with strict requirements for retries/idempotency/recovery — Temporal as the orchestration "backbone," with agent framework as a library inside workers. For **compute scaling and serving** (parallelism, GPU, batching), Ray and/or BentoML are useful (depending on what you trust as runtime). For **batch ETL/cron/DAG** processes, Airflow remains strong, but its model is not about low latency or "durable agent loops."
+If you need a **quick start**: LangChain or LlamaIndex + Chroma (local/embedded) is a common low-friction starting stack, with gradual scaling to Milvus/Weaviate as load grows. If you need **production for multi-step/long processes** with strict requirements for retries/idempotency/recovery, Temporal is a strong orchestration candidate, with agent framework code running inside workers. For **compute scaling and serving** (parallelism, GPU, batching), Ray and/or BentoML are useful depending on runtime preference. For **batch ETL/cron/DAG** processes, Airflow remains strong, but its model is not about low latency or "durable agent loops."
 
-Important update: AutoGen is marked as **maintenance mode**; the project recommends new users start with Microsoft Agent Framework and provides migration guide.
+Important update: AutoGen is marked as **maintenance mode**; Microsoft positions Agent Framework as the recommended starting point for new projects and provides migration guidance.
 
 ---
 
@@ -36,7 +36,7 @@ Below are practical definitions that help "unfold" the stack and avoid confusing
 **Memory system** — storage and retrieval layer for state used by the agent: from "short-term memory" of dialog to long-term semantic memory and profiles. Here it's useful to separate:
 - **Short-term / thread memory**: thread state and recent turns storage
 - **Agent memory API**: put/get interface with customizable implementations
-- **Long-term semantic memory**: vector index/DB, hybrid search, filters, TTL policies, multi-tenancy, RBAC
+- **Long-term semantic memory**: vector index/DB, hybrid search, filters, multi-tenancy, RBAC
 - **Retrieval pipelines**: retriever selection, rerank, citations/provenance. Conceptual basis of RAG is the combination of model's parametric memory and non-parametric memory (dense index).
 
 ---
@@ -84,7 +84,7 @@ Security layer is usually different by tool class:
 Facts by location:
 - Weaviate documents RBAC and authorization model
 - Milvus documents TLS (encryption in transit) and separately user authentication/RBAC
-- Temporal documents security for self-hosted and Cloud; Temporal Cloud distinguishes TLS and mTLS as authentication methods
+- Temporal documents security for self-hosted and Cloud; Temporal Cloud uses TLS in transit, while authentication can use API keys or mTLS certificates
 - Chroma documents authentication in client-server mode and its absence in embedded mode
 
 ### Observability and Manageability
@@ -139,7 +139,7 @@ Legend:
 | Temporal | WF (durable) | Engine (durable) | multi-SDK; server in Go | self-host or Temporal Cloud | workflows/activities; event history; retry semantics | not LLM framework; good as backbone for agent workflows | state via deterministic workflow + history | history durable; event history limits important | C/H | higher overhead, but gives "guarantees" and recovery | **High** (built-in durable execution) | Web UI; metrics (Prometheus/OpenMetrics in Cloud) | security docs (self-host), TLS/mTLS (Cloud) | mature; frequent releases | MIT |
 | Airflow | WF (DAG, batch) | Engine/Server | Python | from single-process to distributed | DAGs: schedule/tasks/dependencies | not LLM framework; suitable for batch ingestion/ETL (RAG ingestion) | state in metadata and task/DAG run states | task persistence via Airflow metadata | H/C | batch-oriented; latency seconds/minutes (scheduler) | Med | powerful UI for monitoring/debugging | security model depends on configuration | mature Apache project | Apache-2.0 |
 | BentoML | SV (serving) | Hybrid (Lib+tooling) | Python | local, Docker/OCI, Kubernetes; BentoCloud | REST API, packaging; vLLM integration mentions OCI+K8s | LLM serving via backends (vLLM and others) | not "memory"; state usually external | persistence/VS — external | H/C (via containers/orchestrator) | throughput optimizations (batching) | Med (as serving layer) | metrics via prometheus_client | security depends on environment; endpoints need protection | active OSS | Apache-2.0 |
-| Weaviate | VS (vector DB) | Server | Go (+clients) | self-host; Weaviate Cloud/Agents docs | REST + GraphQL + gRPC | model providers via modules/integrations (depends on setup) | long-term memory: objects+vectors; TTL; multi-tenancy mentioned in repo | hybrid search (BM25F + vector) | C/H | suitable for low-latency retrieval with correct indexing | Med–High (as DB) | Prometheus metrics | RBAC and authn/authz docs | active, frequent releases | BSD-3-Clause |
+| Weaviate | VS (vector DB) | Server | Go (+clients) | self-host; Weaviate Cloud/Agents docs | REST + GraphQL + gRPC | model providers via modules/integrations (depends on setup) | long-term memory: objects+vectors; multi-tenancy mentioned in repo | hybrid search (BM25F + vector) | C/H | suitable for low-latency retrieval with correct indexing | Med–High (as DB) | Prometheus metrics | RBAC and authn/authz docs | active, frequent releases | BSD-3-Clause |
 | Milvus | VS (vector DB) | Server | Go/C++ (+clients) | self-host; managed via Zilliz Cloud | REST+gRPC; clients Python/Java/Go/C#/Node | not directly about LLM; used as RAG memory | long-term memory: ANN search | HNSW/IVF/PQ indexes and more; docs explain trade-offs | C/H | high-perf ANN-oriented | Med–High | monitoring framework Prometheus+Grafana | TLS + auth + RBAC docs | mature project, under LF AI & Data | Apache-2.0 |
 | Chroma | VS (vector store) | Hybrid (embedded+server) | Python + JS + Go + Docker (docs) | local/embedded; server; Chroma Cloud | HTTP client for production; docs recommend async http client | not directly about LLM; used as memory | long-term memory (small/medium); embedded fast | full-text and hybrid search (RRF) in docs | S/H (Cloud/Server) | often good for DX; scale depends on mode | Med | observability via OpenTelemetry | auth available in client-server; no auth in embedded | active, has Cloud | Apache-2.0 |
 
@@ -282,7 +282,7 @@ Strengths: prototyping speed, "embed in application" without separate cluster, u
 - For scheduled ingestion: Airflow (DAG and scheduler) or Prefect. Retrieval memory: Weaviate (hybrid) or Milvus (indexes and scale)
 
 **Long-term memory (personalization, profiles, knowledge, "evergreen" memory)**
-- What's important: persistence, ACL/RBAC, audit, multi-tenancy, TTL/retention, hybrid search
+- What's important: persistence, ACL/RBAC, audit, multi-tenancy, retention strategy, hybrid search
 - Weaviate: RBAC + hybrid search + Prometheus monitoring
 - Milvus: TLS/auth/RBAC + advanced indexes + Prometheus/Grafana
 - Chroma: convenient, but security and scale need evaluation by mode (embedded vs server)
@@ -317,9 +317,9 @@ If process can last minutes/hours/days, must survive restarts and have reproduci
 - If RBAC in memory store is required — Weaviate/Milvus documentation confirm such mechanisms
 - If mTLS for orchestration layer is required — Temporal Cloud describes mTLS and certificates
 
-### Mini Decision Matrix: Use Cases → Top 3
+### Mini Decision Matrix: Example Shortlists By Use Case
 
-| Use Case | Top 3 (order) | Why Exactly |
+| Use Case | Example shortlist | Why |
 |---|---|---|
 | Agent prototype | LangChain; LlamaIndex; Chroma | Fast start and integrations (LangChain), strong data/RAG layer (LlamaIndex), simple memory without cluster (Chroma) |
 | Production chat + memory | LangChain; Weaviate; Milvus | Agent layer + short-term memory (LangChain); RBAC/hybrid (Weaviate) or scale/indexes/TLS+RBAC (Milvus) |
@@ -522,7 +522,7 @@ Test set that usually pays off in 1–2 weeks of work and prevents "migration af
 - Watch history/log limits. Temporal has limits on Event History — this affects design (e.g., don't write every token to history)
 
 **Migration tips when ecosystem "moves"**
-- Account for support statuses. AutoGen is marked as maintenance mode and recommends migration to new framework. This is a signal: if you choose AutoGen today, pre-emptively build boundary layer and migration tests.
+- Account for support statuses. AutoGen is in maintenance mode and Microsoft recommends Agent Framework for new projects. If you still choose AutoGen, build a boundary layer and migration tests early.
 
 ---
 
@@ -542,4 +542,4 @@ If your goal is to build agent application "as product," it's usually reasonable
 
 5) In production don't skimp on **observability+eval**: without traces and systematic quality assessment, "agent" quality degrades unnoticed. Use approaches like offline/online evaluation and trajectory tracing (positioning example — LangSmith).
 
-6) When choosing AutoGen, plan for migration because the project itself marks maintenance mode and recommends transition to new framework.
+6) When choosing AutoGen, plan for migration because the project is in maintenance mode and Microsoft recommends Agent Framework for new projects.

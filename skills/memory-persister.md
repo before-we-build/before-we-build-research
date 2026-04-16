@@ -4,7 +4,7 @@
 
 Maintain agent memory across multiple simulation runs. Critical for "Hang the DJ" effect where agents remember previous choices.
 
-**Based on:** CogniPair's GNWT memory module + 2026 best practices (4-layer memory architecture)
+**Based on:** CogniPair's GNWT memory ideas plus a layered memory architecture chosen for this project
 
 ## When to Use
 
@@ -14,7 +14,7 @@ Maintain agent memory across multiple simulation runs. Critical for "Hang the DJ
 
 ## Memory Architecture: 4 Layers
 
-Based on 2026 production agent architecture:
+This is a project memory architecture, not a universal industry standard:
 
 ```
 ┌─────────────────────────────────────────────────────────┐

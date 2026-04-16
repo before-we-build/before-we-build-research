@@ -9,10 +9,11 @@ sources: [Frontiers in Psychology, doi:10.3389/fpsyg.2026.1775464]
 
 # AI in Psychologist's Toolkit: Psypilot as Case Study
 
-**Authors:** Frontiers in Psychology
-**Published:** February 2026
-**Impact Factor:** 2.9
-**CiteScore:** 6.3
+**Authors:** Pablo Roca, Rosaria Maria Zangri, Guillermo Rodriguez-Fernandez, Martin Sanchez-Pedreno, Eduardo P. Garcia del Valle
+**Venue:** Frontiers in Psychology
+**Published:** 27 February 2026
+**Article Type:** Perspective
+**Journal Metrics:** Impact Factor and CiteScore are journal-level metrics, not paper-level evidence
 
 ## The Strategic Choice
 
@@ -31,11 +32,11 @@ AI-powered clinical assistance platform for **Precision Mental Health**
 - Monitoring
 - Documentation
 
-### Why Copilot Works
-- Keeps human in decision loop
-- Reduces cognitive load
-- Maintains relational core
-- Enables scaling without replacement
+### Why The Authors Argue For A Copilot Model
+- Keeps the human in the decision loop
+- Frames AI as workflow-embedded decision support
+- Preserves the relational core of psychological work
+- Focuses on augmentation rather than replacement
 
 ## Key Insights for Our Project
 
@@ -57,17 +58,14 @@ This applies directly to dating/relationships:
 | Transparency | Explain decisions |
 | Accountability | Clear responsibility |
 
-## Research Findings
+## What The Paper Argues
 
-### AI Can
-- Match specialist-level performance on well-defined tasks
-- Reach/exceed human accuracy with clear metrics
-- Scale assessment to large populations
+### Broader Claim
+- The paper situates psychology within a wider healthcare-AI discussion where some narrow tasks can be automated or supported effectively
+- Psypilot itself is presented as a case study of responsible implementation, not as a fully validated clinical replacement tool
 
-### AI Cannot (Yet)
-- Replace relational expertise
-- Handle ambiguous cases
-- Maintain long-term therapeutic relationship
+### Core Limitation
+- The article argues that psychology should avoid treating AI as an autonomous substitute for relational expertise and professional judgment
 
 ## Implications
 
@@ -79,9 +77,9 @@ This applies directly to dating/relationships:
 
 ## Quote
 
-> "The question for psychology is not whether AI can achieve clinically relevant performance, but how to implement it responsibly."
+> Best read as a governance and workflow paper: how AI should be implemented responsibly in psychology, not proof that one toolkit is already clinically validated.
 
 ## References
 
-- Frontiers in Psychology, 2026
+- Frontiers in Psychology, 2026, article 1775464
 - DOI: 10.3389/fpsyg.2026.1775464

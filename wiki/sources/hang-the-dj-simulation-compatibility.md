@@ -11,7 +11,7 @@ sources: []
 
 ## Overview
 
-Fictional AI dating system that tests compatibility through repeated simulation scenarios. Relevant as thought experiment for CogniPair-style architecture.
+Fictional AI dating system that tests compatibility through repeated simulation scenarios. Relevant as a thought experiment and product metaphor, not as empirical evidence.
 
 ## Premise
 
@@ -19,7 +19,7 @@ In a dystopian world, an AI system ("the Processor") assigns romantic partners w
 
 ## The Twist
 
-The world is a **simulation** running inside the dating app. The system clones people's digital personas and runs them through thousands of relationship scenarios to test compatibility. The real-world couple sees a compatibility score (99.8%) based on how often simulated versions chose each other.
+The world is a **simulation** running inside the dating app. The system clones people's digital personas and runs them through many relationship scenarios to test compatibility. The real-world couple sees a compatibility score; in the episode this is presented as 99.8%.
 
 ## What the System Tests
 
@@ -34,9 +34,9 @@ Deeper traits:
 - **Rebellion propensity** — will they break rules for the relationship?
 - **Repeated choosing** — do they keep choosing each other across scenarios?
 
-## The 99.8% Score Explained
+## The 99.8% Score In The Fiction
 
-Out of 1,000 simulations, the digital Frank and Amy chose each other 998 times despite system interference. This isn't about perfect matching — it's about **consistency of choice under adversity**.
+In the episode's fictional logic, digital Frank and Amy choose each other in 998 out of 1,000 simulations despite system interference. This is best treated as a narrative device about **consistency of choice under adversity**, not as a validated scientific metric.
 
 ## Philosophical Implications
 
@@ -54,9 +54,9 @@ It's about:
 
 ### The Algorithm Paradox
 
-The system is cold and mechanical — yet it produces genuine connection. The simulation feels oppressive, but it reveals something true about human attachment.
+The system is cold and mechanical — yet the story uses it to dramatize questions about choice, attachment, and algorithmic control.
 
-> "The system doesn't know who you should love. It observes who you keep choosing."
+> As a design metaphor: the system is framed as observing who you keep choosing, not simply who looks compatible on paper.
 
 ### The Humanist Counter
 
@@ -69,7 +69,7 @@ Frank and Amy rebel against the system — and this rebellion IS the compatibili
 | Simulation environment | Digital world | Speed dating scenarios |
 | Agent initialization | Digital clones of real people | Big Five personality profiles |
 | Multiple scenarios | Thousands of relationship runs | Partner preference evolution |
-| Output | 99.8% compatibility score | 72% human correlation |
+| Output | Fictional compatibility score | Reported attraction-correlation metric |
 | Ground truth | "Would they choose each other?" | "Do they match real dating patterns?" |
 
 ## Key Insight for Our Project

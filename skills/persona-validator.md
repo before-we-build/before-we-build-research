@@ -4,7 +4,7 @@
 
 Test that generated persona remains consistent throughout simulation. Detects and corrects LLM persona drift.
 
-**Based on:** NeurIPS 2025 — "reducing inconsistency by 55%" + pre/post assessment methodology
+**Based on:** project safeguard for detecting persona drift with pre/post assessment checks
 
 ## When to Use
 

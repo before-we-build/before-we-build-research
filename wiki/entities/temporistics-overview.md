@@ -38,7 +38,13 @@ Temporistics is a typology describing how a person relates to time: past, presen
 
 ## Type Structure
 
-A person's type is written as 4 letters, e.g., **VPBN** = Eternity(1st) > Past(2nd) > Present(3rd) > Future(4th)
+A person's type is written as 4 letters, e.g., **EPNF** = Eternity(1st) > Past(2nd) > Now/Present(3rd) > Future(4th)
+
+**Notation:**
+- **P** = Past (Прошлое)
+- **N** = Now/Present (Настоящее)  
+- **F** = Future (Будущее)
+- **E** = Eternity (Вечность)
 
 ## All 24 Types
 
@@ -61,10 +67,10 @@ A person's type is written as 4 letters, e.g., **VPBN** = Eternity(1st) > Past(2
 - [[passenger-passazhir]] (4B) — Passenger
 
 ### Eternity Types
-- [[guru]] (1V) — Guru
-- [[philosopher-filosof]] (2V) — Philosopher
-- [[philistine-obyvatel]] (3V) — Common Man
-- [[student-uchenik]] (4V) — Student
+- [[guru]] (1E) — Guru
+- [[philosopher-filosof]] (2E) — Philosopher
+- [[philistine-obyvatel]] (3E) — Common Man
+- [[student-uchenik]] (4E) — Student
 
 ## Tetra Classification
 

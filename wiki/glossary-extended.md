@@ -1,3 +1,12 @@
+---
+title: Glossary Extended
+type: reference
+tags: [glossary, terminology, disambiguation]
+created: 2026-04-16
+updated: 2026-04-16
+sources: []
+---
+
 # Glossary Addendum: Extended Ambiguity Disambiguation
 
 ## Purpose
@@ -609,3 +618,13 @@ This addendum extends the glossary with additional ambiguous terms identified th
 ❌ INCORRECT:
 - "They will conflict"
 - "Incompatible personalities"
+
+---
+
+## Cross-System Terminology
+
+For terminology conflicts between typological systems (different definitions of Extraversion, Function, Intuition, etc.), see [[cross-typology-terminology-conflicts]].
+
+## Typology Attribution
+
+For correct attribution of who developed which system and when, see [[typology-authors-timeline]].

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Create human-readable explanations for compatibility scores. Transforms "99.8%" into a story users understand.
+Create human-readable explanations for compatibility scores. Transforms a simulation-derived percentage into a story users understand.
 
 ## When to Use
 
@@ -16,10 +16,10 @@ Create human-readable explanations for compatibility scores. Transforms "99.8%" 
 pair:
   user_a_type: "LII"
   user_b_type: "ESE"
-final_score: 99.8
+final_score: 82.0
 breakdown:
   total_runs: 1000
-  mutual_choices: 998
+  mutual_choices: 820
   adversarial_mutual: 195
   adversarial_total: 200
   early_choice_rate: 0.999
@@ -45,7 +45,7 @@ interpretation: |
   separated them, created friction — they chose each other anyway.
   That's not chemistry. That's repeated choice.
   
-  998 out of 1,000.
+  Strong repeated choice across many runs.
 details:
   - "Your versions never wavered, even under pressure"
   - "Better options didn't distract them"
@@ -140,7 +140,7 @@ trait_explanation: |
 ## Anti-Patterns to Avoid
 
 ❌ "You are 99.8% compatible — meant to be!"
-✓ "Your simulated versions chose each other 99.8% of the time"
+✓ "Your simulated versions often chose each other across many scenarios"
 
 ❌ "The algorithm says you should be together"
 ✓ "The simulation shows strong gravitational pull"

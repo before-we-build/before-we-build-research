@@ -63,8 +63,8 @@ With prolonged lack of meaning — **melancholy** (negative emotion of eternity)
 
 | Good with | Challenging with |
 |-----------|------------------|
-| [[student-uchenik]] (4V) — accepts their meaning system | [[philistine-obyvatel]] (3V) — struggles with meaning questions |
-| Partners who value philosophical depth | Other 1V types — competing over whose meaning is correct |
+| [[student-uchenik]] (4E) — accepts their meaning system | [[philistine-obyvatel]] (3E) — struggles with meaning questions |
+| Partners who value philosophical depth | Other 1E types — competing over whose meaning is correct |
 
 ## See Also
 

@@ -9,8 +9,9 @@ sources: [arXiv:2604.01520]
 
 # S-Researcher: LLM Agents as Social Scientists
 
-**Authors:** Wang et al.
-**Published:** arXiv, April 2026
+**Authors:** Lei Wang, Yuanzi Li, Jinchao Wu, Heyang Gao, Xiaohe Bo, Xu Chen, Ji-Rong Wen
+**Published:** arXiv preprint, 2 April 2026
+**Status:** Preprint, not peer-reviewed
 **Scale:** Up to 100,000 concurrent agents
 
 ## Overview
@@ -22,7 +23,7 @@ Human-AI collaborative platform for conducting social science research at scale.
 ### Distributed System
 - Supports up to 100,000 concurrent agents
 - Three reasoning modes: induction, deduction, abduction
-- Human-in-the-loop at every stage
+- Researcher oversight and intervention throughout the loop
 
 ### Research Loop
 ```
@@ -33,14 +34,14 @@ Researcher Design → LLM Simulation → Result Analysis → Report Generation
 
 ## Validation
 
-### Against Real Data
-- Deductive testing of competing hypotheses
-- Abductive identification of mechanisms
-- Both validated against human experiments
+### Case-Study Validation
+- Inductive case: cultural dynamics consistent with prior theory
+- Deductive case: teacher-attention simulation compared with survey data
+- Abductive case: cooperation mechanism later checked against human experiments
 
-### Reliability
-- Feedback-driven LLM fine-tuning
-- Consistent results across runs
+### Reliability Claim
+- The paper claims reliability improvements through feedback-driven fine-tuning
+- Evidence currently reported is case-study based, not broad proof of stable general reliability
 
 ## Key Findings
 
@@ -69,14 +70,14 @@ Researcher Design → LLM Simulation → Result Analysis → Report Generation
 
 ### Scalability Insight
 - 100,000 agents for hypothesis generation is feasible
-- For dating: 100-1,000 agents per pair is sufficient
-- Memory and state management scale differently
+- The paper suggests large-scale multi-agent experimentation is technically plausible
+- Our dating use case would still need separate validation for scale, memory, and persona quality
 
 ### Architecture Insight
-- Distributed agent management is solved
-- Focus on: persona quality, scenario design, validation
+- Distributed agent management is becoming more practical
+- Remaining bottlenecks for our project are still persona quality, scenario design, and external validation
 
 ## References
 
-- arXiv: 2604.01520
-- Submitted April 2026
+- arXiv:2604.01520
+- DOI: 10.48550/arXiv.2604.01520
