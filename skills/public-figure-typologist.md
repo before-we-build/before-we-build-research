@@ -192,13 +192,21 @@ Before finalizing, verify:
 | F | Б | Future | "Where am I going?" |
 | E | В | Eternity | "Why am I?" |
 
-**Format**: Letters in order of POSITION 1, 2, 3, 4 (like БНПВ = F1 N2 P3 E4)
+**Format**: **Letter order = position 1, 2, 3, 4**
 
 **Example**: БНПВ = Future 1st, Present 2nd, Past 3rd, Eternity 4th
+
+**Verification for Zaluzhnyi**:
+- Future (Б) = 1st: Victory drives him — "entire occupied territory must be liberated"
+- Present (Н) = 2nd: Lives in war reality — "every day it's those who were killed"
+- Past (П) = 3rd: Soviet legacy transformation in progress — "transformation remains irreversible"
+- Eternity (В) = 4th: Legacy is external output, not primary focus
 
 **Reference**: See `wiki/sources/temporistics-detailed.md`
 
 ### Psychosophy Type (4 letters in EXTERNAL order!)
+
+**CRITICAL FORMAT**: Letters = ASPECTS (L/E/V/F), ORDER = POSITION 1/2/3/4
 
 **User's notation**: ФВЛЭ (F V L E in Russian letters)
 
@@ -209,23 +217,40 @@ Before finalizing, verify:
 | V | В | Volition | Goals, decisions, will |
 | F | Ф | Physics | Material, comfort, resources |
 
-**Format**: Letters in order of POSITION 1, 2, 3, 4 (like ФВЛЭ = F1, V2, L3, E4)
+**Format**: **First letter = aspect at position 1**, second = position 2, etc.
 
-**Example**: ФВЛЭ = Physics 1st, Volition 2nd, Logic 3rd, Emotion 4th
+**Example**: ФВЛЭ (F-V-L-E) means:
+- Position 1: Physics (Ф)
+- Position 2: Volition (В)
+- Position 3: Logic (Л)
+- Position 4: Emotion (Э)
 
-**Reference**: See `wiki/sources/psychosophy-detailed.md`
+**IMPORTANT**: Don't confuse with format where each letter shows position number!
 
-### Socionics Type (4-letter code)
+Reference: See `wiki/sources/psychosophy-detailed.md`
 
-**User's notation examples**: СЛЭ (SLE), ИЛЭ (ILE), ЛСИ (LSI), etc.
+### Socionics Type — Key Correction!
+
+**IMPORTANT**: Different from my initial typing!
+
+**Common mistake**: Assuming vision/Intuition (Ne/Ni) leads for strategic commanders.
+**Correction**: Many military leaders lead with **Se** (External Sensing), not Ne!
+
+SLE (СЛЭ) = Se leading, Te creative, Fe role, Ne vulnerable:
+- Se = Action-oriented, battlefield adaptability, "kill enemy today"
+- Te = Systematic doctrine, external logic
+- Fe = Human touch as role, but not leading
+- Ne = Strategic vision is VULNERABLE (4th), not strength!
+
+**User's notation**: СЛЭ (SLE), ИЛЭ (ILE), ЛСИ (LSI), etc.
 
 Socionics uses 8 functions in 4 positions:
 
 | Function | Full Name |
 |----------|-----------|
-| **Ne** | External Intuition (creative) |
+| **Ne** | External Intuition |
 | **Ni** | Internal Intuition |
-| **Se** | External Sensing |
+| **Se** | External Sensing (ACTION) |
 | **Si** | Internal Sensing |
 | **Te** | External Logic |
 | **Ti** | Internal Logic |
@@ -234,13 +259,18 @@ Socionics uses 8 functions in 4 positions:
 
 **Model A (8 types in each of 4 clubs)**:
 - **Alpha**: ILE, SEI, EII, LII
-- **Beta**: SLE, ESFj, EIE,LSI
+- **Beta**: SLE, ESFj, EIE, LSI
 - **Gamma**: SLI, IEI, LIE, ESE
 - **Delta**: ESI, IEE, SEV, ILI
 
 **Type format**: 4 letters in order Leading, Creative, Role, Vulnerable
 
-**Example**: SLE (Te-Si-Fe-Ne) = External Logic leading, Internal Sensing creative, External Ethics role, External Intuition vulnerable
+**Example**: SLE (Se-Te-Fe-Ne) = External Sensing leading, External Logic creative, External Ethics role, External Intuition vulnerable
+
+**Verification for Zaluzhnyi**: СЛЭ (SLE) is more accurate than LIE because:
+- He is ACTION-oriented: "kill enemy today", "not a show"
+- His vision (Ne) is secondary to his tactical action (Se)
+- He delegated to commanders, didn't lead with big picture
 
 **Reference**: See `wiki/sources/socionics-detailed.md`
 
@@ -253,6 +283,43 @@ See `docs/typology-zaluzhnyi.md` for complete example showing:
 - Evidence-based reasoning
 - Three-system analysis
 - Proper disclaimer
+
+## Key Corrections from User Verification
+
+### Socionics Correction: СЛЭ (SLE) is valid, not just ILE/LIE
+
+**Common mistake**: Assuming strategic leaders = Ne (intuition) leading.
+**Reality**: Many leaders lead with Se (action/sensing), especially military.
+
+For Zaluzhnyi:
+- My initial: LIE (Ne leading)
+- User corrected: СЛЭ (SLE = Se leading)
+- **Why**: He focused on tactical action, adaptability, "kill enemy today" not abstract vision
+- **Lesson**: Don't assume vision types for commanders!
+
+### Temporistics Correction: Verified with Zaluzhnyi
+
+User's БНПВ (Future 1st) fits better than my NPFE:
+- Future = victory drives him
+- Present = daily war reality
+- Past = Soviet transformation in progress
+- Eternity = external legacy
+
+### Psychosophy: STILL NEEDS VERIFICATION
+
+User says ФВЛЭ but format unclear:
+- Does ФВЛЭ mean F1, V2, L3, E4?
+- Or different format?
+
+**Evidence for Zaluzhnyi** (need user clarification):
+- Logic strong: systematic reformer, "I read a lot of books"
+- Will strong: persistent, "I have to live with it"
+- Emotion as role: human touch but keeps distance
+- Physics: low priority (lives in bunker)
+
+This suggests "LV..." format (Logic 1st), not "Ф..." (Physics 1st).
+
+**Action needed**: Ask user to clarify Psychosophy format!
 
 ## Sources
 
