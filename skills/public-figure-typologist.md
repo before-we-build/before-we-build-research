@@ -101,11 +101,11 @@ Use this template:
 
 ## Summary Profile
 
-| System | Type Format | Rationale |
+| System | Type Format | Example |
 |--------|-------------|------------|
-| Temporistics | [4 letters] | Example: PNFE |
-| Psychosophy | [4 letters] | Example: LEVF |
-| Socionics | [4 letters] | Example: LIE |
+| Temporistics | БНПВ (F N P E) | User notation |
+| Psychosophy | ФВЛЭ (F V L E) | User notation |
+| Socionics | СЛЭ (SLE) | 4-letter code |
 
 ---
 
@@ -181,49 +181,68 @@ Before finalizing, verify:
 
 ## Typology Reference
 
-### Temporistics Type (4 letters!)
+### Temporistics Type (4 letters in EXTERNAL order!)
 
-**Format**: 4 letters in order P, N, F, E — each letter shows position (1/2/3/4)
+**User's notation**: БНПВ (F N P E in Russian letters)
 
-| Letter | Aspect | Core Question |
-|--------|--------|--------------|
-| P | Past | "Who am I?" |
-| N | Present | "Where is my place?" |
-| F | Future | "Where am I going?" |
-| E | Eternity | "Why am I?" |
+| Letter (EN) | Russian | Aspect | Core Question |
+|-------------|---------|--------|---------------|
+| P | П | Past | "Who am I?" |
+| N | Н | Present | "Where is my place?" |
+| F | Б | Future | "Where am I going?" |
+| E | В | Eternity | "Why am I?" |
 
-**Example**: PNFE = Past 1st, Present 2nd, Future 3rd, Eternity 4th
+**Format**: Letters in order of POSITION 1, 2, 3, 4 (like БНПВ = F1 N2 P3 E4)
+
+**Example**: БНПВ = Future 1st, Present 2nd, Past 3rd, Eternity 4th
 
 **Reference**: See `wiki/sources/temporistics-detailed.md`
 
-### Psychosophy Type (4 letters!)
+### Psychosophy Type (4 letters in EXTERNAL order!)
 
-**Format**: 4 letters in order L, E, V, F — each letter shows position (1/2/3/4)
+**User's notation**: ФВЛЭ (F V L E in Russian letters)
 
-| Letter | Position | Meaning |
-|--------|----------|---------|
-| L in type | Position of Logic (1/2/3/4) |
-| E in type | Position of Emotion |
-| V in type | Position of Volition |
-| F in type | Position of Physics |
+| Letter (EN) | Russian | Aspect | Domain |
+|-------------|---------|--------|---------|
+| L | Л | Logic | Truth, structure, analysis |
+| E | Э | Emotion | Feelings, relationships, values |
+| V | В | Volition | Goals, decisions, will |
+| F | Ф | Physics | Material, comfort, resources |
 
-**Example**: LEVF = Logic 1st, Emotion 2nd, Volition 3rd, Physics 4th
+**Format**: Letters in order of POSITION 1, 2, 3, 4 (like ФВЛЭ = F1, V2, L3, E4)
 
-**Reference**: See `wiki/sources/psychosophy-detailed.md` and `wiki/relations/psychosophy-intertype-relations.md`
+**Example**: ФВЛЭ = Physics 1st, Volition 2nd, Logic 3rd, Emotion 4th
 
-### Socionics Functions (Model A)
+**Reference**: See `wiki/sources/psychosophy-detailed.md`
 
-| Type | Leading | Creative | Role | Vulnerable |
-|------|---------|----------|---------|---------|-----------|
-| ILE | Ne | Ti | Se | Fi |
-| SEI | Si | Fe | Ne | Te |
-| LIE | Ne | Ti | Se | Fe |
-| ESFj | Fe | Si | Ne | Ti |
-| SLE | Te | Si | Fe | Ne |
-| EII | Fi | Ne | Ti | Se |
-| IEE | Ne | Fi | Te | Si |
-| SLI | Si | Te | Fi | Ne |
-| ... | ... | ... | ... | ... |
+### Socionics Type (4-letter code)
+
+**User's notation examples**: СЛЭ (SLE), ИЛЭ (ILE), ЛСИ (LSI), etc.
+
+Socionics uses 8 functions in 4 positions:
+
+| Function | Full Name |
+|----------|-----------|
+| **Ne** | External Intuition (creative) |
+| **Ni** | Internal Intuition |
+| **Se** | External Sensing |
+| **Si** | Internal Sensing |
+| **Te** | External Logic |
+| **Ti** | Internal Logic |
+| **Fe** | External Ethics |
+| **Fi** | Internal Ethics |
+
+**Model A (8 types in each of 4 clubs)**:
+- **Alpha**: ILE, SEI, EII, LII
+- **Beta**: SLE, ESFj, EIE,LSI
+- **Gamma**: SLI, IEI, LIE, ESE
+- **Delta**: ESI, IEE, SEV, ILI
+
+**Type format**: 4 letters in order Leading, Creative, Role, Vulnerable
+
+**Example**: SLE (Te-Si-Fe-Ne) = External Logic leading, Internal Sensing creative, External Ethics role, External Intuition vulnerable
+
+**Reference**: See `wiki/sources/socionics-detailed.md`
 
 ## Examples
 
