@@ -129,5 +129,5 @@ Socionics describes 16 types of relationships between personality types, each wi
 
 ## See Also
 
-- [[socionics-model-a]] — Socionics Model A function structure
+- [[socionics-detailed]] — Socionics Model A function structure
 - [[intertype-relations-matrix]] — Full compatibility matrix
