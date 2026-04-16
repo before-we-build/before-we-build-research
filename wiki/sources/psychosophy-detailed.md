@@ -25,6 +25,37 @@ From bestsocionics.com: *"The structure of psychosophy was first described by th
 
 ---
 
+## Quadra System (6 Quadras)
+
+Psychosophy has **6 quadras** (like Socionics), each containing 4 types. The quadras are defined by which aspects are "process" (driving force) vs "result" (outcome).
+
+| Quadra | Process Aspects | Result Aspects | Mission | Types Reference |
+|-------|--------------|-------------|----------|----------------|
+| **1** | В + Л | Ф + Э | Survival / Очищение | Гете, Андерсен, Аристипп, Газали |
+| **2** | В + Ф | Л + Э | Agriculture / Хозяйство | Лао-Цзы, Пушкин, Платон, Пастернак |
+| **3** | Ф + Л | В + Э | Centralized Management / Управление | Наполеон, Руссо, Бухарин, Ленин |
+| **4** | Э + Ф | В + Л | Cultural Development / Культура | Твардовский, Августин, Бертье, Толстой |
+| **5** | Э + Л | Ф + В | Consumer Society / Потребление | Сократ, Бордж, Эпикур, Ахматова |
+| **6** | В + Э | Ф + Л | Reorganization / Реорганизация | Чехов, Паскаль, Дюма, Эйнштейн |
+
+**Source:** socionika.lv
+
+### Determining Your Quadra
+
+Your type format: `[1st, 2nd, 3rd, 4th]`
+
+- If your 1st position is **Ф (Physics)** → Quadra 1 or 2
+- If your 1st is **В (Will)** → Quadra 3 or 6  
+- If your 1st is **Э (Emotion)** → Quadra 4 or 5
+- If your 1st is **Л (Logic)** → depends on 2nd position
+
+**Example:** Your type is **ФВЛЭ**:
+- 1st = Ф (process)
+- 2nd = В (also process or result depending on pair)
+- This makes you **Quadra 1 or 2** (Ф is process aspect)
+
+---
+
 ## Theoretical Foundation
 
 ### The Four Aspects
