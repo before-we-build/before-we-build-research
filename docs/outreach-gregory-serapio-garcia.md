@@ -22,7 +22,7 @@ No commitment — just looking for honest guidance on what would make a skeptica
 
 Best,  
 Oleg  
-oprotsenko@proton.me
+designofhumanity@gmail.com
 
 ---
 
