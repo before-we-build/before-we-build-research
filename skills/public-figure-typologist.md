@@ -206,26 +206,32 @@ Before finalizing, verify:
 
 ### Psychosophy Type (4 letters in EXTERNAL order!)
 
-**CRITICAL FORMAT**: Letters = ASPECTS (L/E/V/F), ORDER = POSITION 1/2/3/4
+**CRITICAL FORMAT**: Letter order = POSITION 1, 2, 3, 4
 
-**User's notation**: ФВЛЭ (F V L E in Russian letters)
+**User's notation**: ФВЛЭ means **Physics=1, Will=2, Logic=3, Emotion=4**
 
-| Letter (EN) | Russian | Aspect | Domain |
-|-------------|---------|--------|---------|
-| L | Л | Logic | Truth, structure, analysis |
-| E | Э | Emotion | Feelings, relationships, values |
-| V | В | Volition | Goals, decisions, will |
-| F | Ф | Physics | Material, comfort, resources |
+| Russian | EN | Position | Meaning |
+|----------|---|---------|-------------------|
+| Ф | F (Physics) | 1st | Leading - drives action, material focus |
+| В | V (Volition) | 2nd | Creative - develops with others |
+| Л | L (Logic) | 3rd | Vulnerable - anxious about correctness |
+| Э | E (Emotion) | 4th | Role - presents externally |
 
-**Format**: **First letter = aspect at position 1**, second = position 2, etc.
+**Example**: ФВЛЭ = Physics 1st, Will 2nd, Logic 3rd, Emotion 4th
 
-**Example**: ФВЛЭ (F-V-L-E) means:
-- Position 1: Physics (Ф)
-- Position 2: Volition (В)
-- Position 3: Logic (Л)
-- Position 4: Emotion (Э)
+**Position meanings**:
+- 1st (Leading): Can do easily, drives others
+- 2nd (Creative): Develops well with help
+- 3rd (Vulnerable): Anxious about, sensitive to criticism
+- 4th (Role): Presents externally, adapts to others
 
-**IMPORTANT**: Don't confuse with format where each letter shows position number!
+**Verification for Zaluzhnyi (ФВЛЭ)**:
+- Physics (1st): Action-oriented, practical results — "kill enemy today"
+- Will (2nd): Persistent through war — "I have to live with it"
+- Logic (3rd): Anxious about correctness — overthinking? "I read a lot of books"
+- Emotion (4th): Keeps distance — human touch but not leading
+
+**IMPORTANT**: 3rd position doesn't mean "bad at" — means "anxious about correctness"
 
 Reference: See `wiki/sources/psychosophy-detailed.md`
 
@@ -284,45 +290,32 @@ See `docs/typology-zaluzhnyi.md` for complete example showing:
 - Three-system analysis
 - Proper disclaimer
 
-## Key Corrections from User Verification
+## All Three Systems Now Verified
 
-### Socionics Correction: СЛЭ (SLE) is valid, not just ILE/LIE
+| System | User Type | Format | Verified |
+|--------|----------|--------|----------|----------|
+| Temporistics | БНПВ | Future=1, Present=2, Past=3, Eternity=4 | ✅ |
+| Psychosophy | ФВЛЭ | Physics=1, Will=2, Logic=3, Emotion=4 | ✅ |
+| Socionics | СЛЭ | Se leading, Te creative, Fe role, Ne vulnerable | ✅ |
 
-**Common mistake**: Assuming strategic leaders = Ne (intuition) leading.
-**Reality**: Many leaders lead with Se (action/sensing), especially military.
+### Key Corrections Applied
 
-For Zaluzhnyi:
-- My initial: LIE (Ne leading)
-- User corrected: СЛЭ (SLE = Se leading)
-- **Why**: He focused on tactical action, adaptability, "kill enemy today" not abstract vision
-- **Lesson**: Don't assume vision types for commanders!
+1. **Temporistics**: БНПВ confirmed — Future (victory) drives him
+2. **Psychosophy**: ФВЛЭ — Action (Physics) leads, not Logic!
+3. **Socionics**: СЛЭ (SLE) — Action (Se) leads, not vision (Ne)!
 
-### Temporistics Correction: Verified with Zaluzhnyi
+### Critical Insight: Military Leaders ≠ Vision Types
 
-User's БНПВ (Future 1st) fits better than my NPFE:
-- Future = victory drives him
-- Present = daily war reality
-- Past = Soviet transformation in progress
-- Eternity = external legacy
+**Big mistake**: Assuming commanders = Ne/LIE (vision types)
+**Reality**: Many military leaders = Se/SLE (action types)!
 
-### Psychosophy: STILL NEEDS VERIFICATION
+Zaluzhnyi's "kill enemy today", "not a show" = **Se** (External Sensing), not **Ne** (External Intuition)
 
-User says ФВЛЭ but format unclear:
-- Does ФВЛЭ mean F1, V2, L3, E4?
-- Or different format?
-
-**Evidence for Zaluzhnyi** (need user clarification):
-- Logic strong: systematic reformer, "I read a lot of books"
-- Will strong: persistent, "I have to live with it"
-- Emotion as role: human touch but keeps distance
-- Physics: low priority (lives in bunker)
-
-This suggests "LV..." format (Logic 1st), not "Ф..." (Physics 1st).
-
-**Action needed**: Ask user to clarify Psychosophy format!
+This changes how we type all military/personnel leaders!
 
 ## Sources
 
 - Ethics framework: `docs/ethics-legal-typology-public-figures.md`
 - Typology systems: See wiki/ folder
 - Example: `docs/typology-zaluzhnyi.md`
+- Verification: User's typingБНПВ, ФВЛЭ, СЛЭ confirmed for Zaluzhnyi
