@@ -21,8 +21,9 @@ Would you have 15 minutes for a quick call to tell me where my validation design
 No commitment — just looking for honest guidance on what would make a skeptical reviewer take this seriously.
 
 Best,  
-Oleksandr
+Oleg  
+oprotsenko@proton.me
 
 ---
 
-**Evidence packet:** https://github.com/psycalc/psycalc-wiki/blob/main/docs/researcher-evidence-packet.md
+**Evidence packet:** https://raw.githubusercontent.com/psycalc/psycalc-wiki/main/docs/researcher-evidence-packet.md
