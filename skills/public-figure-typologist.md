@@ -67,11 +67,20 @@ For each typological system, find evidence for:
 - Future: What are their goals/vision?
 - Eternity: What is their sense of meaning/legacy?
 
-#### Psychosophy (Operational - Logic/Emotion/Will/Physics)
-- Logic: How do they make decisions?
-- Emotion: How do they handle relationships/values?
-- Will: How persistent/determined are they?
-- Physics: How do they handle practical matters?
+#### Psychosophy (Operational - 4 Functions × 4 Positions)
+
+Each person has ONE position (1/2/3/4) for each of 4 aspects = 2-letter type!
+
+**Type format**: [Aspect][Position] + [Aspect][Position]
+- Example: LE means 1st position in Logic, 2nd in Emotion
+
+**How to determine**:
+- Which aspect is LEADING (1)? = What they naturally drive
+- Which aspect is CREATIVE (2)? = What they develop with others
+- Which is VULNERABLE (3)? = What causes anxiety
+- Which is ROLE (4)? = How they present
+
+**Reference**: `wiki/sources/psychosophy-detailed.md` for full function descriptions
 
 #### Socionics (Tactical - 8 functions)
 - Leading function: What drives them?
@@ -92,11 +101,11 @@ Use this template:
 
 ## Summary Profile
 
-| System | Typology | Rationale |
-|--------|----------|------------|
-| Temporistics | [Type] | [Brief explanation] |
-| Psychosophy | [Type] | [Brief explanation] |
-| Socionics | [Type] | [Brief explanation] |
+| System | Type Format | Rationale |
+|--------|-------------|------------|
+| Temporistics | [2-letter ring] | [Brief explanation] |
+| Psychosophy | [2 letters x 2 positions] | Example: LE = 1L2E |
+| Socionics | [4-letter code] | Example: LIE |
 
 ---
 
@@ -116,12 +125,24 @@ Use this template:
 
 ---
 
-## Psychosophy Analysis
+## Psychosophy Analysis (4 aspects × 4 positions = LEVF format)
 
-### [Type determination]
-**Rationale**: [Explanation with evidence]
+### Determining Positions
 
-[Detailed function analysis]
+Each aspect (L/E/V/F) has position 1-4:
+
+| Position | What to look for |
+|----------|----------------|
+| 1 (Leading) | What they naturally drive, confident in |
+| 2 (Creative) | What they develop with others |
+| 3 (Vulnerable) | What causes anxiety/doubt |
+| 4 (Role) | How they present externally |
+
+**Output format**: 4-character like "1L2E3V4F" or simplified "LEV" (just leading + creative)
+
+### Analysis
+
+[Which position for each: L, E, V, F]
 
 ---
 
@@ -168,14 +189,20 @@ Before finalizing, verify:
 | 2nd | Future/Eternity | Goals vs meaning |
 | Rings 1-2 × 6 rings | 24 types | Full system |
 
-### Psychosophy Functions
+### Psychosophy Functions (4 positions each!)
 
-| Function | Primary |
-|----------|---------|
-| Logic (L) | Decision-making, analysis |
-| Emotion (E) | Values, relationships |
-| Will (W) | Persistence, determination |
-| Physics (P) | Practical, sensory |
+Each function has 4 positions. Type = 4 characters like "1L2E3V4F" or "LEVF"
+
+| Position | Properties | Description |
+|----------|------------|-------------------|
+| 1st | Subjective, Unconscious | Leading, result-oriented |
+| 2nd | Subjective, Conscious | Creative, process-oriented |
+| 3rd | Objective, Conscious | Vulnerable, anxious |
+| 4th | Objective, Unconscious | Role, flexible |
+
+**Example**: 1L2E3V4F = Logic leading (1L), Emotion creative (2E), Will vulnerable (3V), Physics role (4F)
+
+**Full Psychosophy reference**: See `wiki/sources/psychosophy-detailed.md`
 
 ### Socionics Functions (Model A)
 
