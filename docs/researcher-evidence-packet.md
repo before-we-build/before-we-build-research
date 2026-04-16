@@ -2,7 +2,7 @@
 
 ## Three-Sentence Version
 
-Cognitive Matchmaker is a research prototype for **simulation-assisted compatibility assessment** using persona-conditioned LLM agents rather than static profile matching alone. It builds a structured persona, runs a small set of high-information relationship scenarios, and produces a **simulation-derived compatibility signal** plus an explanation of where alignment or friction appeared. The project treats typological systems as **schema languages for hypothesis generation**, not as established psychometric truth, and assumes that any useful claim must be validated against real outcomes.
+Cognitive Matchmaker is a research prototype for **simulation-assisted compatibility assessment** using persona-conditioned LLM agents rather than static profile matching alone. It uses three typological systems — Temporistics (strategic), Psychosophy (operational), Socionics (tactical) — as **structured schema languages for hypothesis generation**, then tests those hypotheses through counterfactual interpersonal simulation. The core method relies on **induction, deduction, synthesis, and analysis** to build personas, run dyadic scenarios, and extract compatibility signals — all validated against external outcomes.
 
 ## One-Sentence Thesis
 
@@ -18,6 +18,12 @@ The project decomposes compatibility into strategic, operational, and tactical l
 
 3. **Typology as schema, not dogma**
 Temporistics, Psychosophy, and Socionics are used as structured hypothesis languages, while external validation remains the arbiter.
+
+4. **Brain-based grounding (exploratory)**
+Each typological dimension maps to known brain networks (exploratory hypothesis):
+- Past/Future/Eternity processing → Hippocampus, vmPFC, Default Mode Network
+- Thinking → Left Frontal Lobe; Feeling → OFC/Amygdala
+- Intuition → Right Frontal; Sensing → Parietal cortex
 
 ## What Exists Already
 

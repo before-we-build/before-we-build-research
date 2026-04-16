@@ -148,6 +148,7 @@ wiki/          — LLM-generated wiki
 | [[deep-research-report]] | Agent frameworks, orchestration, memory comparison | - |
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
 | [[hang-the-dj-simulation-compatibility]] | Black Mirror episode used as simulation metaphor, including the fictional 99.8% reveal | - |
+| [[brain-typology-neuroscience]] | Mapping typology systems to brain regions and neural networks | web research |
 
 ### Research on AI in Psychology
 
