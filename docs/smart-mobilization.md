@@ -27,16 +27,16 @@ Each person gets assessed across 3 typologies:
 
 ### Role Matching Matrix
 
-| Military Role | Socionics | Psychosophy | Temporistics |
-|---------------|----------|------------|--------------|
-| **Commander** | SLE, LIE | Ф-В-Л-Э | Б-Н-П-В |
-| **Strategist** | LIE, ILE | Л-В-Э-Ф | Б-Н-В-П |
-| **Operator** | SLE, SEE | Ф-Л-В-Э | Н-Б-П-В |
-| **Support** | ESE, SEI | Э-Ф-Л-В | Н-П-Б-В |
-| **Medic** | EII, ESI | Э-В-Ф-Л | П-Н-В-Б |
-| **Logistics** | LSE, LSI | Л-Ф-В-Э | П-В-Н-Б |
-| **Recon** | ILI, SLI | Л-В-Ф-Э | Н-Б-В-П |
-| **Psychologist** | EIE, IEE | Э-Л-В-Ф | В-П-Н-Б |
+| Military Role | Socionics (Quadra) | Psychosophy | Temporistics |
+|---------------|-------------------|-------------|----------------|
+| **Commander** | SLE, LIE (Beta ✓) | Ф-В-Л-Э | Б-НПВ |
+| **Strategist** | LIE, ILE (Beta/Alpha) | Л-В-Э-Ф | БНПВ / БНВП |
+| **Operator** | SLE, SEE (Beta/Gamma) | Ф-Л-В-Э | НБПВ |
+| **Support** | ESE, SEI (Alpha) | Э-Ф-Л-В | НПБВ |
+| **Medic** | EII, ESI (Delta/Gamma) | Э-В-Ф-Л | ПНВБ |
+| **Logistics** | LSE, LSI (Gamma/Beta) | Л-Ф-В-Э | ПВНБ |
+| **Recon** | ILI, SLI (Gamma/Alpha) | Л-В-Ф-Э | НБВП |
+| **Psychologist** | EIE, IEE (Beta/Delta) | Э-Л-В-Ф | ВПНБ |
 
 ### Output Example
 
