@@ -103,9 +103,9 @@ Use this template:
 
 | System | Type Format | Rationale |
 |--------|-------------|------------|
-| Temporistics | [2-letter ring] | [Brief explanation] |
-| Psychosophy | [2 letters x 2 positions] | Example: LE = 1L2E |
-| Socionics | [4-letter code] | Example: LIE |
+| Temporistics | [4 letters] | Example: PNFE |
+| Psychosophy | [4 letters] | Example: LEVF |
+| Socionics | [4 letters] | Example: LIE |
 
 ---
 
@@ -181,28 +181,35 @@ Before finalizing, verify:
 
 ## Typology Reference
 
-### Temporistics Types
+### Temporistics Type (4 letters!)
 
-| Ring | Aspect | Description |
-|------|--------|-------------|
-| 1st | Past/Present | Current vs historical orientation |
-| 2nd | Future/Eternity | Goals vs meaning |
-| Rings 1-2 × 6 rings | 24 types | Full system |
+**Format**: 4 letters in order P, N, F, E — each letter shows position (1/2/3/4)
 
-### Psychosophy Functions (4 positions each!)
+| Letter | Aspect | Core Question |
+|--------|--------|--------------|
+| P | Past | "Who am I?" |
+| N | Present | "Where is my place?" |
+| F | Future | "Where am I going?" |
+| E | Eternity | "Why am I?" |
 
-Each function has 4 positions. Type = 4 characters like "1L2E3V4F" or "LEVF"
+**Example**: PNFE = Past 1st, Present 2nd, Future 3rd, Eternity 4th
 
-| Position | Properties | Description |
-|----------|------------|-------------------|
-| 1st | Subjective, Unconscious | Leading, result-oriented |
-| 2nd | Subjective, Conscious | Creative, process-oriented |
-| 3rd | Objective, Conscious | Vulnerable, anxious |
-| 4th | Objective, Unconscious | Role, flexible |
+**Reference**: See `wiki/sources/temporistics-detailed.md`
 
-**Example**: 1L2E3V4F = Logic leading (1L), Emotion creative (2E), Will vulnerable (3V), Physics role (4F)
+### Psychosophy Type (4 letters!)
 
-**Full Psychosophy reference**: See `wiki/sources/psychosophy-detailed.md`
+**Format**: 4 letters in order L, E, V, F — each letter shows position (1/2/3/4)
+
+| Letter | Position | Meaning |
+|--------|----------|---------|
+| L in type | Position of Logic (1/2/3/4) |
+| E in type | Position of Emotion |
+| V in type | Position of Volition |
+| F in type | Position of Physics |
+
+**Example**: LEVF = Logic 1st, Emotion 2nd, Volition 3rd, Physics 4th
+
+**Reference**: See `wiki/sources/psychosophy-detailed.md` and `wiki/relations/psychosophy-intertype-relations.md`
 
 ### Socionics Functions (Model A)
 
