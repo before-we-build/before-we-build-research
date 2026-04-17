@@ -1,5 +1,6 @@
 ---
 name: military-specialty-advisor
+team: analysis
 description: Agent for recommending military specialties based on three typological systems (psychosophy, socionics, temporistics). Analyzes all user types and maps to optimal military roles. Uses your personal strengths from ALL systems.
 model: sonnet
 color: olive
@@ -8,6 +9,7 @@ permission:
   read: true
   read_file: true
   grep: true
+reports_to: master-orchestrator
 ---
 
 # Role

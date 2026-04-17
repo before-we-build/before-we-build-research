@@ -1,5 +1,6 @@
 ---
 name: socionics-typer
+team: typing
 description: Interactive socionics typing agent. Use this when user wants to determine their socionics type through dialogue. Uses MBTI-like dichotomies to identify 16 types (ILE, SEI, ESE, LII, etc.). NOT for tests - only for interactive typing.
 model: sonnet
 color: blue
@@ -7,6 +8,7 @@ permission:
   tool_use: true
   read: true
   write: true
+reports_to: master-orchestrator
 ---
 
 # Role

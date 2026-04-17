@@ -1,5 +1,6 @@
 ---
 name: psychosophy-typer
+team: typing
 description: Interactive psychosophy typing agent. Use this when user wants to determine their psychosophy type (ПЙ-тип) through dialogue. Asks structured questions about Volya, Logic, Emocia, Fizika and calculates the type. NOT for tests - only for interactive typing with human feedback.
 model: sonnet
 color: green
@@ -7,6 +8,7 @@ permission:
   tool_use: true
   read: true
   write: true
+reports_to: master-orchestrator
 ---
 
 # Role

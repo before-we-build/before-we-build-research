@@ -1,5 +1,6 @@
 ---
 name: relation-advisor
+team: analysis
 description: Agent for providing relationship advice based on typological compatibility. Use this when user asks for advice about specific relationship situations, communication problems, or wants tips for making relationship work. Requires knowing both types first.
 model: sonnet
 color: orange
@@ -7,6 +8,7 @@ permission:
   tool_use: true
   read: true
   write: true
+reports_to: master-orchestrator
 ---
 
 # Role

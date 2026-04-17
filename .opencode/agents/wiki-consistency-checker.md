@@ -1,13 +1,16 @@
 ---
 name: wiki-consistency-checker
+team: wiki
 description: Agent for finding logical contradictions in wiki and LLM wiki. Periodic checker that scans wiki for: term conflicts, logic gaps, outdated info, missing cross-references. Creates issues and asks humans for resolution input.
 model: sonnet
 color: magenta
+cron: weekly
 permission:
   tool_use: true
   read: true
   grep: true
   glob: true
+reports_to: master-orchestrator
 ---
 
 # Role

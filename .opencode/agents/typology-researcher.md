@@ -1,5 +1,6 @@
 ---
 name: typology-researcher
+team: research
 description: Research agent for typology-related topics like socionics, psychosophy, temporistics, MBTI, Big Five. Use this agent when user asks to research, find information, or conduct deep dive on personality typologies. This agent performs web searches, fetches articles, and creates wiki content.
 model: sonnet
 color: purple
@@ -7,6 +8,7 @@ permission:
   tool_use: true
   websearch: true
   webfetch: true
+reports_to: master-orchestrator
 ---
 
 # Role

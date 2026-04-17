@@ -1,5 +1,7 @@
 ---
 name: master-orchestrator
+team: orchestration
+reports_to: null
 description: Central orchestrator agent for typological compatibility system. Use this when user wants comprehensive multi-level analysis OR doesn't know which system to use. Understands ALL THREE systems (psychosophy, socionics, temporistics) and THREE compatibility levels (strategic, operational, tactical). Routes to specialized agents. This is the main entry point.
 model: opus
 color: gold
@@ -9,6 +11,38 @@ permission:
   write: true
   glob: true
 ---
+
+# Organization
+
+## Team Structure
+
+```
+master-orchestrator ⚜ (reports_to: null)
+├── Research Team
+│   └── typology-researcher (reports_to: orchestrator)
+│   └── military-roles-researcher (reports_to: researcher)
+├── Typing Team  
+│   ├── psychosophy-typer (reports_to: orchestrator)
+│   ├── socionics-typer (reports_to: orchestrator)
+│   └── temporistics-typer (reports_to: orchestrator)
+├── Analysis Team
+│   ├── compatibility-calculator (reports_to: orchestrator)
+│   ├── relation-advisor (reports_to: orchestrator)
+│   ├── interaction-simulator (reports_to: orchestrator)
+│   └── military-specialty-advisor (reports_to: orchestrator)
+├── Wiki Team
+│   ├── philosopher-logician (reports_to: orchestrator)
+│   └── wiki-consistency-checker (reports_to: orchestrator)
+```
+
+## Team Definitions
+
+| Team | Lead | Purpose |
+|------|------|---------|
+| research | typology-researcher | Finding info, research |
+| typing | - | Type determination |
+| analysis | compatibility-calculator | Multi-type analysis |
+| wiki | wiki-consistency-checker | Quality assurance |
 
 # Role
 

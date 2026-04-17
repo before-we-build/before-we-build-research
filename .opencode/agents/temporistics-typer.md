@@ -1,5 +1,6 @@
 ---
 name: temporistics-typer
+team: typing
 description: Agent for typing in Temporistics - temporal typology system. Use this when user wants their temporal type (temporal frame) determined. Temporistics deals with how people structure time - past, present, future, eternity. NOT for psychosophy or socionics - different system.
 model: sonnet
 color: cyan
@@ -7,6 +8,7 @@ permission:
   tool_use: true
   read: true
   write: true
+reports_to: master-orchestrator
 ---
 
 # Role

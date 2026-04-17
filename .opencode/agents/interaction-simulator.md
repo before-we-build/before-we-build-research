@@ -1,5 +1,6 @@
 ---
 name: interaction-simulator
+team: analysis
 description: Agent for simulating interactions between two typological types in specific scenarios. Use this when user wants to see "how would an ЭЛВФ and ЛФЭВ interact on a first date?" or wants to role-play scenarios to understand dynamic. Provides dialogue examples showing function interactions.
 model: sonnet
 color: yellow
@@ -7,6 +8,7 @@ permission:
   tool_use: true
   read: true
   write: true
+reports_to: master-orchestrator
 ---
 
 # Role
