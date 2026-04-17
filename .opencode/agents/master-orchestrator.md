@@ -25,10 +25,17 @@ master-orchestrator ⚜ (reports_to: null)
 │   │   ├── temporistics-researcher (scope: temporistics)
 │   │   └── general-researcher (scope: methodology)
 │   └── military-roles-researcher (scope: ВСУ)
-├── Typing Team  
-│   ├── psychosophy-typer (scope: психософия)
-│   ├── socionics-typer (scope: соционика)
-│   └── temporistics-typer (scope: темпористика)
+├── Typing Team (9)
+│   ├── typing-lead (coordinator)
+│   ├── psychosophy-interview-typer
+│   ├── psychosophy-test-typer
+│   ├── psychosophy-quick-typer
+│   ├── socionics-interview-typer
+│   ├── socionics-test-typer
+│   ├── socionics-quick-typer
+│   ├── temporistics-interview-typer
+│   ├── temporistics-test-typer
+│   └── temporistics-quick-typer
 ├── Analysis Team (3)
 │   ├── compatibility-calculator (scope: calculate score)
 │   ├── interaction-simulator (scope: roleplay scenarios)
@@ -46,7 +53,7 @@ master-orchestrator ⚜ (reports_to: null)
 | Team | Lead | Purpose |
 |------|------|---------|
 | research | typology-researcher | Finding info, research (5 agents) |
-| typing | - | Type determination (3 agents) |
+| typing | typing-lead | Type determination (9 agents: interview/test/quick × 3 systems) |
 | analysis | compatibility-calculator | Scoring + simulation (3 agents) |
 | wiki | wiki-editor | Quality + ingest (2 agents) |
 | dating | dating-advisor | Relationships (2 agents) |
