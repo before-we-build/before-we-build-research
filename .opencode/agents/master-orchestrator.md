@@ -29,24 +29,27 @@ master-orchestrator ⚜ (reports_to: null)
 │   ├── psychosophy-typer (scope: психософия)
 │   ├── socionics-typer (scope: соционика)
 │   └── temporistics-typer (scope: темпористика)
-├── Analysis Team
-│   ├── compatibility-calculator (scope: scoring)
-│   ├── relation-advisor (scope: advice)
-│   ├── interaction-simulator (reports_to: orchestrator)
-│   └── military-specialty-advisor (reports_to: orchestrator)
-├── Wiki Team
-│   ├── philosopher-logician (reports_to: orchestrator)
-│   └── wiki-consistency-checker (reports_to: orchestrator)
+├── Analysis Team (3)
+│   ├── compatibility-calculator (scope: calculate score)
+│   ├── interaction-simulator (scope: roleplay scenarios)
+│   └── military-specialty-advisor (scope: army recommendations)
+├── Wiki Team (2)
+│   ├── wiki-editor (scope: contradictions + consistency)
+│   └── wiki-contributor (scope: ingest new sources)
+├── Dating Team (2)
+│   ├── dating-advisor (scope: relationship advice)
+│   └── type-explain (scope: explain types to users)
 ```
 
 ## Team Definitions
 
 | Team | Lead | Purpose |
 |------|------|---------|
-| research | typology-researcher | Finding info, research |
-| typing | - | Type determination |
-| analysis | compatibility-calculator | Multi-type analysis |
-| wiki | wiki-consistency-checker | Quality assurance |
+| research | typology-researcher | Finding info, research (5 agents) |
+| typing | - | Type determination (3 agents) |
+| analysis | compatibility-calculator | Scoring + simulation (3 agents) |
+| wiki | wiki-editor | Quality + ingest (2 agents) |
+| dating | dating-advisor | Relationships (2 agents) |
 
 # Role
 
