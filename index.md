@@ -160,6 +160,8 @@ wiki/          — LLM-generated wiki
 | [[psypilot-ai-psychologist-toolkit]] | AI as copilot for psychologists: risks and governance | Frontiers in Psychology |
 | [[s-researcher-llm-social-scientists]] | 100K agents for social science research, human-in-the-loop | arXiv:2604.01520 |
 | [[ai-experiment-participants]] | Trained AI as experiment participants: behavioral economics | Current Psychology |
+| [[smart-mobilization-typology-wartime]] | AI recruitment, personality typology in wartime | Web research 2026 |
+| [[psychosophy-typing-methods]] | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
 
 ### Reference
 
@@ -254,12 +256,15 @@ wiki/          — LLM-generated wiki
 | automated-research-plan.md | Full autonomous pipeline: Typology Agent, 6 automated research agents | - |
 | optimal-2026-tech-stack.md | Optimal 2026 stack: CrewAI + Claude Sonnet 4.6 + GPT Researcher, complete implementation | - |
 | modern-agentic-systems.md | Production-ready systems: InternAgent, The Agentic Researcher, Anthropic patterns, SciDER | arXiv 2026 |
+| smart-mobilization-typology-wartime.md | Smart mobilization: AI recruitment, personality typology in military | Web research 2026 |
+| psychosophy-typing-methods.md | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
 
 ---
 
 ## Statistics
 
-- **Wiki pages**: ~64
+- **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
+- **Agents created**: 1 (typology-researcher)
 - **Raw sources**: 52 (21 temporistics + 8 psychosophy + 11 socionics + 12 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39

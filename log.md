@@ -6,6 +6,67 @@ Historical note: older entries may contain claims or source framings that were l
 
 ---
 
+## [2026-04-17] ingest | Smart mobilization and typology in wartime
+
+**Action:** Deep web research on technology-enabled military personnel management and personality typology applications during wartime
+
+**Sources researched:**
+- Recruit 360 (US Army, 2024) — AI recruitment tool
+- People Supply Chain Management (US Army, 2025)
+- PLA Air Force AI biometric screening (China, 2025)
+- NGC2 predictive logistics (US Army, 2026)
+- MBTI studies in US military (1986-2012)
+- Dutch special forces personality study (2022)
+- German KSK selection study (2026)
+- Ukrainian combatant value typology (2022)
+
+**Key historical findings:**
+- MBTI created during WWII (1943) by Katharine Cook Briggs and Isabel Briggs Myers
+- First used by Office of Strategic Services (OSS) for assigning intelligence operatives in liberated Europe (1944-1945)
+- 80% success rate in combat positions (Peabody et al., 1946)
+- Selected personnel were 50% more effective in their roles (Army Air Forces, 1949)
+
+**Additional research: Third Will in Psychosophy**
+- Deep dive into 3rd Will as latent process
+- Found: "Мещанин" (Petite Bourgeois) — status-conscious, needs external validation
+- Key fear: being seen as incapable
+- Mechanism: derives self-worth from others' recognition
+- In wartime: performs best with clear feedback and supportive structure
+
+**Created:**
+- `raw/general/smart-mobilization-typology-wartime.md` — Full research compilation
+- `wiki/sources/smart-mobilization-typology-wartime.md` — Wiki source page
+- Updated `index.md` with new entries
+- Updated `wiki/concepts/latent-process.md` with Third Will section
+
+---
+
+## [2026-04-17] research | Psychosophy typing methods
+
+**Action:** Deep research on psychosophy typing methods, best practices, and tests
+
+**Sources researched:**
+- Тест Афанасьева (40 вопросов)
+- Большой опросник Anette (200 вопросов)
+- Типировочные анкеты SOCIOCLUB.ORG
+- TYPTEST.RU тесты and методики
+
+**Findings:**
+- 3 дихотомии для определения типа
+- Матричный метод (6 вопросов)
+- Метод перечисления приоритетов (11/14 точность)
+- Система акцентуаций (8 на каждую позицию)
+
+**Created:**
+- `raw/general/psychosophy-typing-methods.md` — Full research compilation
+- `wiki/sources/psychosophy-typing-methods.md` — Wiki source page
+- `skills/psychosophy-typer.md` — Skill for base type determination (40 Q)
+- `skills/psychosophy-accentuation-typer.md` — Skill for accentuation determination
+- `agents/typology-researcher.md` — Agent for typology research (websearch, webfetch)
+- Updated `index.md`
+
+---
+
 ## [2026-04-15] build | Repository cleanup and wiki migration
 
 **Action:** Cleaned up old GitHub repos and migrated valuable content to wiki

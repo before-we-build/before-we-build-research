@@ -399,6 +399,104 @@ One quickly constructs the volitional frame, the other feels the pressure
 
 ---
 
+## Third Will as Latent Process
+
+### What is Third Will in Psychosophy
+
+In Alexander Afanasyev's Psychosophy, **Will** is one of four functions:
+- **Will** = internal drive, desire, ability to make decisions and enforce them
+- Will determines how a person pursues goals, claims authority, handles responsibility
+
+**Third Will** means Will occupies the 3rd position in the psychotype (after Emotion and Logic). This creates a specific latent process:
+
+### The Latent Process of Third Will
+
+**Core latent process: "I derive my worth from external validation of my will"**
+
+| Aspect | Description |
+|--------|------------|
+| **Main fear** | Being seen as incapable, ineffective, without will |
+| **Self-perception** | "I don't know what I want" / "I want but doubt it's right" |
+| **External dependency** | Self-worth comes from others' recognition |
+| **Defense mechanism** | "Better to seem than to be" — masks through pretension |
+
+**Analysis in Third Will:**
+The person analyzes: "Do others see me as capable? Do they respect my decisions? What do they think of my choices?"
+
+**Synthesis in Third Will:**
+They struggle to assemble a stable volitional course. They constantly recheck: "Is this what I really want, or what I think they want from me?"
+
+### Observable Signs of Third Will
+
+From behavior, choices, reactions you can observe:
+
+- **Hesitation before decisions** — especially visible ones
+- **"What will people think?"** — weighs heavily
+- **Sudden decisive bursts** — but often followed by doubt
+- **Sensitivity to criticism** of competence
+- **Status consciousness** — constantly assessing hierarchies
+- **"Face-saving" behavior** — may lie to preserve image
+- **Need for recognition** — explicitly seeks praise
+
+### In Crisis/ Wartime
+
+**Third Will in wartime creates specific dynamics:**
+
+- Fears appearing weak, incapable
+- May overcompensate with false confidence
+- Needs clear external structure and feedback
+- Performs well with supportive command
+- May break under isolated responsibility
+
+**Best command style for 3rd Will:**
+- Clear objectives with visible progress
+- Regular recognition of contributions
+- Team structure, not isolated positions
+- Supportive leader who acknowledges effort
+
+**Worst for 3rd Will:**
+- No feedback, unknown effectiveness
+- Complete isolation
+- Constant criticism without praise
+
+### Compatibility with Other Will Positions
+
+**Good combos:**
+
+| Pair | Mechanism |
+|------|----------|
+| **2W + 3W** | 2W gives supportive structure, 3W feels safe |
+| **1W + 3W** | 1W provides clear direction, 3W knows their place |
+| **3W + 4W** | Both understand will struggles |
+
+**Challenging combos:**
+
+| Pair | Mechanism |
+|------|----------|
+| **3W + 3W** | Both seek external validation, can manipulate each other |
+| **1W + 3W** | 1W seems overwhelming, 3W feels controlled |
+| **3W + 1W** reversed | 3W may resent 1W's certainty |
+
+### If Very Briefly
+
+**1st Will says:** "I set the course myself."
+
+**2nd Will says:** "I set the course together."
+
+**3rd Will says:** "I agonizingly derive the course from others' reactions, fearing I'm not capable."
+
+**4th Will says:** "I more willingly take the ready course from another."
+
+---
+
+And for Third Will specifically, the latent process is:
+
+> *The fear that "my will is not real, not strong enough" → constantly checking if others recognize my agency → building defensive masks of competence → seeking external anchoring for my own desires*
+
+This is exactly why 3rd Will is called "Мещанин" (Petite Bourgeois) — they care intensely about status and recognition, constructing their will through others' eyes rather than from internal certainty.
+
+---
+
 ### Physics (Material) Through Synthesis/Analysis
 
 Here it's about material organization:
