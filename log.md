@@ -41,6 +41,32 @@ Historical note: older entries may contain claims or source framings that were l
 
 ---
 
+## [2026-04-17] research | Fourth Physics deep research
+
+**Action:** Deep research on Fourth Physics (4Ф) using upgraded typology-researcher
+
+**Sources researched (8):**
+- bestsocionics.com — Accentuation variants
+- psysofia.ru — Full profile, stress behavior
+- 24types.ru — Political examples
+- socionika.lv — Practical characteristics
+- centercep.ru — Physical manifestations
+- psilog.ru — Sex and relationships
+
+**Key findings:**
+- Core: Least important, no motivation for physical aspect
+- Physical: Thin, refined, can work without noticing fatigue
+- Emotional: Constant melancholy, low libido
+- ⚠️ WARNING: High suicidality risk — "normal reaction to problems"
+- Stress: Physical shutdown is FIRST response
+
+**Created:**
+- `raw/general/fourth-physics-deep-research.md` — Full research
+- `wiki/sources/fourth-physics-deep-research.md` — Wiki source page
+- Updated `index.md` and statistics
+
+---
+
 ## [2026-04-17] research | Psychosophy typing methods
 
 **Action:** Deep research on psychosophy typing methods, best practices, and tests
@@ -60,9 +86,6 @@ Historical note: older entries may contain claims or source framings that were l
 **Created:**
 - `raw/general/psychosophy-typing-methods.md` — Full research compilation
 - `wiki/sources/psychosophy-typing-methods.md` — Wiki source page
-- `skills/psychosophy-typer.md` — Skill for base type determination (40 Q)
-- `skills/psychosophy-accentuation-typer.md` — Skill for accentuation determination
-- `agents/typology-researcher.md` — Agent for typology research (websearch, webfetch)
 - Updated `index.md`
 
 ---

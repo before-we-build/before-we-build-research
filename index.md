@@ -258,14 +258,15 @@ wiki/          — LLM-generated wiki
 | modern-agentic-systems.md | Production-ready systems: InternAgent, The Agentic Researcher, Anthropic patterns, SciDER | arXiv 2026 |
 | smart-mobilization-typology-wartime.md | Smart mobilization: AI recruitment, personality typology in military | Web research 2026 |
 | psychosophy-typing-methods.md | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
+| fourth-physics-deep-research.md | Fourth Physics (4Ф) deep research: characteristics, warnings, suicidality risk | Deep research 2026 |
 
 ---
 
 ## Statistics
 
 - **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
-- **Agents created**: 1 (typology-researcher)
-- **Raw sources**: 52 (21 temporistics + 8 psychosophy + 11 socionics + 12 general)
+- **Agents created**: 12 (full team)
+- **Raw sources**: 53 (21 temporistics + 8 psychosophy + 11 socionics + 13 general)
 - **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
 - **Articles ingested**: 39
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
