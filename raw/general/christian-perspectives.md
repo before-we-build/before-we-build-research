@@ -60,7 +60,7 @@
 
 Fascinating reverse application — analyzing Christianity through socionics:
 
-**Jesus Christ typed as LIE (Jack):**
+**Jesus Christ typed as LIE (Jack) — speculative:**
 - Base function: Te (business logic) — "What to do?" — his whole mission
 - Suggestive: Fe (ethics of relations) — easily influenced, democratic
 - Reference: Se (volitional sensing) — no ambitions, son of carpenter

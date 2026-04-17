@@ -2,7 +2,8 @@
 
 **Source:** https://sites.google.com/view/psychosophy/unofficial-additional-sources/accentuations-subtypes  
 **Source:** https://bestsocionics.com/en/psychosophy/accentuations/  
-**Author:** Imperative Socionics (BestSocionics)
+**Author:** Imperative Socionics (BestSocionics)  
+**Note:** This is an unofficial extension from the community; not part of core psychosophy literature.
 
 ---
 

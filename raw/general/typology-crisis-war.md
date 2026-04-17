@@ -26,13 +26,13 @@ Socionics identifies **4 stress resilience groups**:
 - Gives ultimatums: "my way or nothing"
 - When angry, cannot stop
 
-**LSI (Stalin, Nicholas II):**
+**LSI (Stalin, Nicholas II — speculative typings):**
 - "System guardians"
 - Rigid, maintains order
 - Better at managing than leading
 - Resistance to change
 
-**EIE (Hitler, Zelenskyy):**
+**EIE (Hitler, Zelenskyy — speculative typings):**
 - Charismatic leaders
 - Inspire through vision
 - Natural orators
