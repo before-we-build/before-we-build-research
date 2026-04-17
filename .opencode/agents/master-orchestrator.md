@@ -18,16 +18,20 @@ permission:
 
 ```
 master-orchestrator ⚜ (reports_to: null)
-├── Research Team
-│   └── typology-researcher (reports_to: orchestrator)
-│   └── military-roles-researcher (reports_to: researcher)
+├── Research Team (5)
+│   ├── typology-researcher (lead/coordinator)
+│   │   ├── socionics-researcher (scope: socionics)
+│   │   ├── psychosophy-researcher (scope: psychosophy)
+│   │   ├── temporistics-researcher (scope: temporistics)
+│   │   └── general-researcher (scope: methodology)
+│   └── military-roles-researcher (scope: ВСУ)
 ├── Typing Team  
-│   ├── psychosophy-typer (reports_to: orchestrator)
-│   ├── socionics-typer (reports_to: orchestrator)
-│   └── temporistics-typer (reports_to: orchestrator)
+│   ├── psychosophy-typer (scope: психософия)
+│   ├── socionics-typer (scope: соционика)
+│   └── temporistics-typer (scope: темпористика)
 ├── Analysis Team
-│   ├── compatibility-calculator (reports_to: orchestrator)
-│   ├── relation-advisor (reports_to: orchestrator)
+│   ├── compatibility-calculator (scope: scoring)
+│   ├── relation-advisor (scope: advice)
 │   ├── interaction-simulator (reports_to: orchestrator)
 │   └── military-specialty-advisor (reports_to: orchestrator)
 ├── Wiki Team
