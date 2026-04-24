@@ -1,20 +1,37 @@
-# AGENTS.md — LLM Wiki Schema for Cognitive Matchmaker
+# AGENTS.md — LLM Wiki Schema for PsyCalc
 
-This document defines the schema and conventions for maintaining the Cognitive Matchmaker knowledge base.
+This document defines the schema and conventions for maintaining the PsyCalc knowledge base.
 
 ## Project Overview
 
-**Cognitive Matchmaker** is an autonomous AI dating concierge that uses simulation-based evaluative modeling for personality-based compatibility matching.
+**PsyCalc** is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It treats typological structures not as final personality labels, but as compressed hypotheses about hidden processes that can inform compatibility architecture, role fit, team design, and AI-based simulation of interpersonal dynamics.
+
+**Cognitive Matchmaker** is one downstream application of PsyCalc: an autonomous AI dating concierge that uses simulation-based evaluative modeling for compatibility assessment. It is not the whole project.
 
 ### Core Theory
 
-Three typological systems are integrated to model human compatibility at three levels:
+Three typological systems are integrated as proposed latent-process models for human compatibility at three levels:
 
 | Level | Typology | Latent Process | Frame Type |
 |-------|----------|---------------|------------|
 | Strategic | Temporistics | Inductive-deductive structuring of temporal experience | Temporal frame |
 | Operational | Psychosophy | Analysis, synthesis, action organization | Action frame |
 | Tactical | Socionics | Information modeling (information metabolism) | Information frame |
+
+Required formula:
+
+- **Socionics → latent processes of information modeling**
+- **Psychosophy → latent processes of synthesis and analysis in action**
+- **Temporistics → latent processes of induction and deduction in temporal/existential experience**
+
+These mappings are project heuristics and research hypotheses. They should not be written as scientifically proven personality facts or deterministic compatibility rules.
+
+### Scope Boundary
+
+- **PsyCalc** = broader ontology, latent-process model, compatibility architecture, and research wiki.
+- **Cognitive Matchmaker** = dating-oriented application built on top of PsyCalc.
+
+Do not frame the whole repository as only a dating product. Application pages may discuss Cognitive Matchmaker directly, but orientation, theory, glossary, and methodology pages should use PsyCalc as the primary frame.
 
 ## Directory Structure
 
@@ -148,4 +165,4 @@ When maintaining the wiki, investigate:
 
 ## Last Updated
 
-2026-04-15
+2026-04-24
