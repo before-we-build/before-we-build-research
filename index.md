@@ -274,7 +274,7 @@ wiki/          — LLM-generated wiki
 ## Statistics
 
 - **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
-- **Agents created**: 12 (full team)
+- **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
 - **Wiki pages**: 88 (17 concepts + 35 entities + 3 relations + 29 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)

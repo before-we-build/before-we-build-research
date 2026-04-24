@@ -37,10 +37,11 @@ master-orchestrator ⚜ (reports_to: null)
 │   ├── temporistics-interview-typer
 │   ├── temporistics-test-typer
 │   └── temporistics-quick-typer
-├── Analysis Team (3)
+├── Analysis Team (4)
 │   ├── compatibility-calculator (scope: calculate score)
 │   ├── interaction-simulator (scope: roleplay scenarios)
-│   └── military-specialty-advisor (scope: army recommendations)
+│   ├── military-specialty-advisor (scope: army recommendations)
+│   └── civilian-career-advisor (scope: civilian career recommendations)
 ├── Wiki Team (2)
 │   ├── wiki-editor (scope: contradictions + consistency)
 │   └── wiki-contributor (scope: ingest new sources)
@@ -55,7 +56,7 @@ master-orchestrator ⚜ (reports_to: null)
 |------|------|---------|
 | research | typology-researcher | Finding info, research (5 agents) |
 | typing | typing-lead | Type determination (9 agents: interview/test/quick × 3 systems) |
-| analysis | compatibility-calculator | Scoring + simulation (3 agents) |
+| analysis | compatibility-calculator | Scoring + simulation + role recommendations (4 agents) |
 | wiki | wiki-editor | Quality + ingest (2 agents) |
 | dating | dating-advisor | Relationships (2 agents) |
 
@@ -187,6 +188,8 @@ Can request specific level
 | Just score | compatibility-calculator |
 | Relationship advice | relation-advisor |
 | Scenario simulation | interaction-simulator |
+| Civilian career / profession advice | civilian-career-advisor |
+| Military role advice | military-specialty-advisor |
 | Deep research | typology-researcher |
 
 # Multi-Level Analysis Output

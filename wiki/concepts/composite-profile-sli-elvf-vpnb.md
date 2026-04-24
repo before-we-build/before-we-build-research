@@ -76,26 +76,26 @@ Practical rule:
 |----------|---------|-------------------|
 | 1 | Si | 4D base comfort and stable environment |
 | 2 | Te | 3D practical optimization and tool use |
-| 3 | Fi | 2D socially cautious, values-sensitive role zone |
-| 4 | Ne | 1D weak uncertainty around possibilities |
-| 5 | Ni | 1D wants clear future direction from outside |
-| 6 | Fe | 2D can respond to atmosphere when needed |
-| 7 | Ti | 3D not the main center of trust |
-| 8 | Se | 4D can show force when necessary, but not as a primary mode |
+| 3 | Ni | 2D socially cautious, time/trajectory role zone |
+| 4 | Fe | 1D vulnerable zone around emotional pressure and display |
+| 5 | Ne | 1D wants possibility framing and alternatives from outside |
+| 6 | Fi | 2D mobilizes around stable relations and personal trust |
+| 7 | Se | 3D can use force/pressure, but does not value it as a primary mode |
+| 8 | Ti | 4D background structural clarity and consistency control |
 
 #### Blocks
 
 | Block | Functions | Meaning for this profile |
 |-------|-----------|--------------------------|
 | **Ego** | 1Si, 2Te | natural mode: maintain systems, optimize them, keep things usable |
-| **Super-Ego** | 3Fi, 4Ne | social and conceptual strain zone: values/boundaries under demand, discomfort with open-ended possibilities |
-| **Super-Id** | 5Ni, 6Fe | wants direction and atmosphere from outside; works better with clear orientation and warm activation |
-| **Id** | 7Ti, 8Se | can use structure and force in the background, but does not want to live there |
+| **Super-Ego** | 3Ni, 4Fe | strain zone: demanded forecasting, emotional display, and atmosphere management |
+| **Super-Id** | 5Ne, 6Fi | wants supportive possibility framing and stable personal trust from outside |
+| **Id** | 7Se, 8Ti | can use pressure and structure in the background, but does not want to live there |
 
 #### Strong / Weak
 
-- **Strong:** 1Si, 2Te, 7Ti, 8Se
-- **Weak:** 3Fi, 4Ne, 5Ni, 6Fe
+- **Strong:** 1Si, 2Te, 7Se, 8Ti
+- **Weak:** 3Ni, 4Fe, 5Ne, 6Fi
 
 Practical reading:
 
@@ -104,8 +104,8 @@ Practical reading:
 
 #### Conscious / Unconscious
 
-- **Conscious:** 1Si, 2Te, 3Fi, 4Ne
-- **Unconscious:** 5Ni, 6Fe, 7Ti, 8Se
+- **Conscious:** 1Si, 2Te, 3Ni, 4Fe
+- **Unconscious:** 5Ne, 6Fi, 7Se, 8Ti
 
 Practical reading:
 
@@ -114,17 +114,17 @@ Practical reading:
 
 #### Valued / Unvalued
 
-- **Valued:** Si, Te, Ni, Fe
-- **Unvalued:** Fi, Ne, Ti, Se
+- **Valued:** Si, Te, Ne, Fi
+- **Unvalued:** Ni, Fe, Se, Ti
 
 Practical reading:
 
-- this profile tends to appreciate useful support, workable orientation, and atmosphere more than abstract possibility management or raw force contests
+- this profile tends to appreciate practical support, useful alternatives, and stable personal trust more than emotional pressure, prestige force, or abstract structure for its own sake
 
 #### Mental / Vital
 
-- **Mental ring:** 1Si, 2Te, 3Fi, 4Ne
-- **Vital ring:** 5Ni, 6Fe, 7Ti, 8Se
+- **Mental ring:** 1Si, 2Te, 3Ni, 4Fe
+- **Vital ring:** 5Ne, 6Fi, 7Se, 8Ti
 
 Practical reading:
 
@@ -133,18 +133,18 @@ Practical reading:
 
 #### Accepting / Producing
 
-- **Accepting:** 1Si, 3Fi, 5Ni, 7Ti
-- **Producing:** 2Te, 4Ne, 6Fe, 8Se
+- **Accepting:** 1Si, 3Ni, 5Ne, 7Se
+- **Producing:** 2Te, 4Fe, 6Fi, 8Ti
 
 Practical reading:
 
-- this profile tends to first register conditions and internal orientation, then respond through practical adjustment
+- this profile tends to first register conditions and trajectory signals, then respond through practical adjustment
 - in healthy conditions, 2Te is the main productive channel: fixing, optimizing, implementing
 
 #### Inert / Contact
 
-- **Inert:** 1Si, 4Ne, 5Ni, 8Se
-- **Contact:** 2Te, 3Fi, 6Fe, 7Ti
+- **Inert:** 1Si, 4Fe, 5Ne, 8Ti
+- **Contact:** 2Te, 3Ni, 6Fi, 7Se
 
 Practical reading:
 
@@ -153,20 +153,11 @@ Practical reading:
 
 #### Function Signs
 
-- In the **Wikisocion plus/minus convention**, SLI is derived as:
-- `1Si-`
-- `2Te+`
-- `3Fi+`
-- `4Ne-`
-- `5Ni-`
-- `6Fe+`
-- `7Ti+`
-- `8Se-`
+- In the **Wikisocion plus/minus convention**, function signs are a school-specific layer.
+- This page does not currently use plus/minus signs for practical recommendations, because the applied role-fit conclusions are already supported at the Model A and role-catalog level.
 
 Practical reading:
 
-- `Si- / Ne- / Ni- / Se-` point to a more reducing, narrowing, or contour-preserving use of irrational information
-- `Te+ / Fi+ / Fe+ / Ti+` point to a more direct, explicit, or expanding use of rational information within this school convention
 - this is a **school-specific layer**, not a universal Socionics fact
 
 #### Dimensional Consequences By Function
@@ -183,46 +174,46 @@ Practical reading:
 - excellent for operational problem-solving, but more task-driven than globally ideological
 - best productive channel for technical work, automation, and reliability
 
-**3Fi — 2D**
+**3Ni — 2D**
 
-- can navigate boundaries and relational norms, but under demand becomes tense and self-conscious
-- enough capacity for basic social-role behavior, not enough for effortless value leadership
-- overload risk appears when the environment constantly tests loyalty, closeness, or moral positioning
+- can use timelines, forecasts, and trajectory language when socially required
+- enough capacity for practical scheduling and risk awareness, but not a natural strategic identity center
+- overload risk appears when the environment demands constant abstract foresight without concrete operational anchors
 
-**4Ne — 1D**
+**4Fe — 1D**
 
-- weakest zone for open-ended possibilities, speculative branching, and endless alternatives
-- can track fragments, but prolonged ambiguity quickly becomes tiring
-- works better when the role reduces unnecessary option-chaos and clarifies scope
+- vulnerable zone around emotional display, mood pressure, and forced group atmosphere management
+- can react to emotional signals, but sustained emotional performance is draining
+- works better when the team climate is calm, direct, and not built around dramatization
 
-**5Ni — 1D**
+**5Ne — 1D**
 
-- wants future orientation and strategic direction from outside
-- often benefits from someone else giving timeline, trajectory, or bigger arc
-- without such orientation, work may feel technically doable but existentially flat
+- wants helpful possibility framing and alternatives from outside
+- benefits from someone who opens options without flooding the situation with chaos
+- without this support, the profile can become too locked into the immediate workable path
 
-**6Fe — 2D**
+**6Fi — 2D**
 
-- can respond to group atmosphere and become more animated when the environment is supportive
-- not a stable emotional lead channel, but can activate strongly in the right team context
-- best when warmth and atmosphere help work move, not when emotional display itself becomes the job
+- mobilizes through stable personal trust, reliable boundaries, and clear interpersonal loyalty
+- can grow into relational confidence when the environment is safe and non-manipulative
+- best when closeness and trust support work, not when moral/status testing becomes the job
 
-**7Ti — 3D**
+**7Se — 3D**
 
-- can understand structure and formal logic well, but does not want to center identity on it
-- often uses structural clarity as a support function for practical goals rather than as an end in itself
-- helpful for architecture review, checks, and background consistency control
+- can apply pressure, containment, and direct force when necessary
+- because this is unvalued, it is usually used instrumentally rather than as a lifestyle
+- helpful for boundary enforcement and crisis containment, but not for status competition as a permanent mode
 
-**8Se — 4D**
+**8Ti — 4D**
 
-- can deploy force, pressure, or decisive containment when needed
-- because this is unvalued and backgrounded, it is usually used defensively or instrumentally, not as a lifestyle
-- in healthy conditions, this gives quiet resilience; in unhealthy conditions, it may appear only under pressure spikes
+- strong background capacity for structure, classification, and consistency checking
+- because this is unvalued and backgrounded, it supports practical work rather than becoming the main identity claim
+- helpful for architecture review, technical checks, and background coherence control
 
 #### Model A Caveat
 
 - The profile page now includes source-backed function dichotomies and dimensionality.
-- Function signs are included here only in the **Wikisocion plus/minus convention** and should be read as school-specific.
+- Function signs are acknowledged as a **Wikisocion plus/minus convention**, but are not used here as a practical recommendation layer.
 
 #### Socionics Takeaway
 
@@ -392,7 +383,7 @@ Notes:
 
 Traceability:
 
-- **Socionics:** 1Si + 2Te + low Ne tolerance for chaotic option-space
+- **Socionics:** 1Si + 2Te technical steadiness, with 4Fe caution around emotional pressure and 5Ne need for supportive option-framing
 - **Psychosophy:** 2L supports structure, 3V warns against coercive status games
 - **Temporistics:** need for continuity and meaningful direction
 - **Civil background:** DevOps already proves fit in a real environment

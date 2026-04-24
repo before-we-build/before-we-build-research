@@ -1060,3 +1060,5 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Added `socionics-plus-minus-signs.md` to record the source-backed theory of plus/minus function signs before any type-specific assignment.
 2026-04-24 - Added `socionics-reinin-dichotomies.md` and expanded the composite profile with system boundaries, school disagreements, and traceable applied conclusions.
 2026-04-24 - Ran ingest sync pass: verified raw/wiki coverage, added missing `typology-best-architecture.md` catalog entry, and updated index statistics to current file counts.
+2026-04-24 - Corrected the SLI Model A stack in `composite-profile-sli-elvf-vpnb.md` and updated dependent Socionics interpretations.
+2026-04-24 - Added `civilian-career-advisor` and `.opencode/data/civilian-career-roles.md` for civilian profession recommendations analogous to the military specialty advisor.

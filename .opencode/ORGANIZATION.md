@@ -17,7 +17,8 @@ master-orchestrator (gold) ⚜
 │   ├── compatibility-calculator (red)
 │   ├── relation-advisor (orange)
 │   ├── interaction-simulator (yellow)
-│   └── military-specialty-advisor (olive)
+│   ├── military-specialty-advisor (olive)
+│   └── civilian-career-advisor (steelblue)
 ├── Wiki Team
 │   ├── philosopher-logician (white)
 │   └── wiki-consistency-checker (magenta)
@@ -116,4 +117,4 @@ Reserved slots for:
 
 ---
 
-Last updated: 2026-04-17
+Last updated: 2026-04-24
