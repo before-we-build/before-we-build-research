@@ -1051,3 +1051,6 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 
 ---
 2026-04-24 - Added `psychosophy-quadras.md` with six quadra clusters and descriptive themes; synced index and related psychosophy pages.
+2026-04-24 - Ingested `ukraine-military-specialties-current.md` and `.opencode/data/military-roles-current.md`; linked military-specialty-advisor to the current Ukrainian role catalog.
+2026-04-24 - Expanded the Ukrainian military catalog with branch-specific role families and updated military-specialty-advisor matching hints.
+2026-04-24 - Added `smart-mobilization-research-note.md` summarizing existing recruitment practice and the project's typology-based novelty.

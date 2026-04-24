@@ -40,14 +40,14 @@ Each person gets assessed across 3 typologies:
 
 ### Psychosophy (6 Quadras)
 
-| Quadra | Process | Result | Best Military Roles |
+| Quadra | Name | Best Military Roles |
 |-------|---------|--------|--------------------|
-| **1** | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ | - | Technical, Logistics |
-| **2** | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ | - | Engineer, Support |
-| **3** | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ | - | Commander, Strategist |
-| **4** | ЛЭФВ, ЛФЭВ, ВФЭЛ, ВЭФЛ | - | Psychologist, Social |
-| **5** | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ | - | Administrator, HR |
-| **6** | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ | - | Instructor, Reorg |
+| **1** | Очищение | Technical, Logistics |
+| **2** | Хозяйство | Engineer, Support |
+| **3** | Управление | Commander, Strategist |
+| **4** | Культура | Psychologist, Social |
+| **5** | Потребление | Administrator, HR |
+| **6** | Реорганизация | Instructor, Reorg |
 
 ### Temporistics (6 Tetras)
 

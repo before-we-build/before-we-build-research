@@ -17,18 +17,18 @@ The key idea is that a quadra is not defined by a single leading aspect alone, b
 
 ## Quadra Structure
 
-| Quadra | Theme | Type Cluster |
+| Quadra | Name | Type Cluster |
 |-------|-------|--------------|
-| **1** | Survival / Cleaning | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ |
-| **2** | Agriculture / Household | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ |
-| **3** | Centralized Management | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ |
-| **4** | Culture / Development | ЛЭФВ, ЛФЭВ, ВФЭЛ, ВЭФЛ |
-| **5** | Consumption | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ |
-| **6** | Reorganization | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ |
+| **1** | Очищение | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ |
+| **2** | Хозяйство | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ |
+| **3** | Управление | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ |
+| **4** | Культура | ЛЭФВ, ЛФЭВ, ВФЭЛ, ВЭФЛ |
+| **5** | Потребление | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ |
+| **6** | Реорганизация | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ |
 
 ## Quadra Descriptions
 
-### 1. Survival / Cleaning
+### 1. Очищение
 
 **Core orientation:** `В + Л` as process, `Ф + Э` as result.
 
@@ -43,7 +43,7 @@ This quadra centers on inner backbone, self-definition, and direct structuring o
 - weak tolerance for diffuse emotional or material drift
 - impatience with unstructured dependence
 
-### 2. Agriculture / Household
+### 2. Хозяйство
 
 **Core orientation:** `В + Ф` as process, `Л + Э` as result.
 
@@ -57,7 +57,7 @@ This quadra emphasizes stewardship, maintenance, and the practical management of
 **Typical blind spots:**
 - excessive focus on duty or comfort at the expense of abstract system-building
 
-### 3. Centralized Management
+### 3. Управление
 
 **Core orientation:** `Ф + Л` as process, `В + Э` as result.
 
@@ -72,7 +72,7 @@ This quadra is strongly associated with organizing systems, central coordination
 - pressure to control outcomes too rigidly
 - reduced flexibility in emotional or interpersonal matters
 
-### 4. Culture / Development
+### 4. Культура
 
 **Core orientation:** `Э + Ф` as process, `В + Л` as result.
 
@@ -86,7 +86,7 @@ This quadra prioritizes atmosphere, refinement, and the human side of practical 
 **Typical blind spots:**
 - over-investment in atmosphere versus hard structure
 
-### 5. Consumption
+### 5. Потребление
 
 **Core orientation:** `Э + Л` as process, `Ф + В` as result.
 
@@ -101,7 +101,7 @@ This quadra is oriented toward intellectual-emotional exchange, interpretation, 
 - over-analysis or over-selection
 - drifting away from concrete implementation
 
-### 6. Reorganization
+### 6. Реорганизация
 
 **Core orientation:** `В + Э` as process, `Ф + Л` as result.
 

@@ -244,6 +244,8 @@ wiki/          — LLM-generated wiki
 
 | Source | Summary | Source |
 |--------|---------|--------|
+| [[smart-mobilization-research-note]] | Short note on what exists now and our project novelty | Lobby X, RAND, Carnegie, RUSI, NYT |
+| [[ukraine-military-specialties-current]] | Current Ukrainian military role families based on live vacancy feeds | Lobby X current vacancies feed |
 | autoreasearch.md | Karpathy's AutoResearch adaptation | - |
 | christian-perspectives.md | Christian views on typologies (Orthodox, Protestant) | Multiple sources |
 | typology-crisis-war.md | Stress resilience, military leadership, crisis teams | Multiple sources |
