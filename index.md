@@ -262,6 +262,7 @@ wiki/          — LLM-generated wiki
 | agentic-research-pipelines.md | Multi-agent pipelines: Agent Laboratory, CrewAI, STORM, workflow architectures | - |
 | participant-recruitment.md | How to attract participants: Reddit, Telegram, snowball sampling | - |
 | automated-research-plan.md | Full autonomous pipeline: Typology Agent, 6 automated research agents | - |
+| typology-best-architecture.md | Best architecture for cross-typology automation and validation pipeline | project synthesis |
 | optimal-2026-tech-stack.md | Optimal 2026 stack: CrewAI + Claude Sonnet 4.6 + GPT Researcher, complete implementation | - |
 | modern-agentic-systems.md | Production-ready systems: InternAgent, The Agentic Researcher, Anthropic patterns, SciDER | arXiv 2026 |
 | smart-mobilization-typology-wartime.md | Smart mobilization: AI recruitment, personality typology in military | Web research 2026 |
@@ -274,9 +275,10 @@ wiki/          — LLM-generated wiki
 
 - **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
 - **Agents created**: 12 (full team)
-- **Raw sources**: 53 (21 temporistics + 8 psychosophy + 11 socionics + 13 general)
-- **Entity pages created**: 33 (16 temporistics + 1 psychosophy + 1 socionics overview + 15 socionics types)
-- **Articles ingested**: 39
+- **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
+- **Wiki pages**: 88 (17 concepts + 35 entities + 3 relations + 29 sources + 4 reference pages)
+- **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
+- **Articles ingested**: 57 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 14 (including 7 new stubs)
-- **Last updated**: 2026-04-15
+- **Concepts**: 17
+- **Last updated**: 2026-04-24
