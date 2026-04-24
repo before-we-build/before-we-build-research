@@ -161,9 +161,44 @@ Proposed modifiers:
 
 Names such as duality, conflict, supervision, activation, mirror, and quasi-identity should not be imported directly. Socionics relations operate through Model A and tactical information metabolism. Temporistics relations should describe strategic temporal/existential fit.
 
-## 6. Proposed Temporistics Intertype Relation Classes
+## 6. Proposed Temporistics Intertype Relation Signatures
 
-These classes are reconstructed research categories, not official Temporistics relations.
+Because Temporistics has 24 types, the complete pair matrix has 24 × 24 cells. However, those cells reduce structurally to **24 possible relation signatures**, because each pair can be described by one permutation of four positions.
+
+The table below gives provisional names for all 24 structural signatures. These are **not official Temporistics names**. They are research labels for the PsyCalc reconstruction.
+
+### 6.1 The 24 structural signatures
+
+| Signature | Proposed relation name | Position pattern | Strategic interpretation | Broad family |
+|---|---|---|---|---|
+| `1234` | Temporal Identity | same order | identical temporal architecture | identity |
+| `1243` | Shared Frame with Weak-Zone Exchange | 1/2 same, 3/4 swapped | same strong temporal language, but wound/blind handling differs | resonance + weak-zone risk |
+| `1324` | Creative-Wound Exchange | 2 ↔ 3 | one partner's flexible temporal process meets the other's wound | developmental support / pressure |
+| `1342` | Sovereign Frame with Developmental Drift | 1 same, 2→3→4→2 | shared first aspect, but support, wound, and blind zones circulate | mixed resonance |
+| `1423` | Sovereign Frame with Therapeutic Exchange | 1 same, 2↔4 and 3↔2 | shared first aspect with possible 2→3 support and 4-zone drift | mixed support |
+| `1432` | Strong-Axis Identity with Lower Inversion | 1 same, 2↔4, 3 same | same main temporal axis, but creative/blind mismatch and shared wound | resonance + shared wound |
+| `2134` | Leading-Axis Exchange | 1 ↔ 2 | target and creative positions exchange | parallel resonance |
+| `2143` | Paired Axis Exchange | 1↔2 and 3↔4 | upper aspects understand each other, lower aspects risk neglect | resonance + blind/wound risk |
+| `2314` | Guidance Chain | 1→2→3→1, 4 same | strong/creative/painful positions form a developmental chain | asymmetric guidance |
+| `2341` | Forward Rotation | 1→2→3→4→1 | all positions rotate forward | strategic circulation |
+| `2413` | Creative-Anchor Rotation | 1→2, 2→4, 3→1, 4→3 | support and pressure coexist; one wound meets authority | mixed / overpressure risk |
+| `2431` | Supportive Inversion | 1→2, 2→4, 3→3, 4→1 | strong-to-creative support with shared wound and anchor complement | mixed support |
+| `3124` | Wound-Authority Contact | 1→3, 2→1, 3→2, 4 same | one person's target aspect hits the other's painful aspect | temporal overpressure |
+| `3142` | Overpressure with Blind Compensation | 1→3, 2→1, 3→4, 4→2 | strong wound-pressure plus possible blind-zone guidance | overpressure |
+| `3214` | Upper Inversion with Shared Blind | 1↔3, 2 same, 4 same | target/painful inversion with shared blind spot | overpressure + blind collusion |
+| `3241` | Wound-Centered Rotation | 1→3, 2→2, 3→4, 4→1 | painful contact dominates despite some support | overpressure / fragmentation |
+| `3412` | Pressure-Anchor Cycle | 1→3, 2→4, 3→1, 4→2 | mutual wound/authority pressure with some blind guidance | high-pressure complement |
+| `3421` | Overpressure Inversion | 1→3, 2→4, 3→2, 4→1 | strong wound pressure partly softened by 3↔2 support | risky development |
+| `4123` | Anchor-Development Chain | 1→4, 2→1, 3→2, 4→3 | strong aspect anchors blind zone while wound receives 2nd support | anchor complement |
+| `4132` | Anchor with Shared Wound | 1→4, 2→1, 3 same, 4→2 | anchoring is possible, but one wound remains shared | anchor + shared wound |
+| `4213` | Authority-Anchor Exchange | 1→4, 2→2, 3→1, 4→3 | one side anchors while another's wound meets authority | mixed complement / pressure |
+| `4231` | Anchored Development | 1→4, 2→2, 3→3, 4→1 | mutual 1↔4 anchoring with stable 2nd and shared 3rd | anchor + shared wound |
+| `4312` | Near-Full Complement | 1→4, 2→3, 3→1, 4→2 | close to full complement but includes 1↔3 pressure | complement with risk |
+| `4321` | Full Temporal Complement | full inversion | 1↔4 and 2↔3 across the whole structure | full complement |
+
+### 6.2 Interpretive families
+
+The following are broader interpretive families. They are useful for explanation, but they should not be confused with the full set of 24 signatures above.
 
 | Relation name | Structural pattern | Strategic meaning | Strengths | Risks | Example type pair | Confidence |
 |---|---|---|---|---|---|---|
