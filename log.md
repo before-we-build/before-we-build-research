@@ -1074,3 +1074,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Added explicit typological group-membership recommendation layer to composite profiles: Delta quadra, 1st Psychosophy quadra, and Conductors tetra.
 2026-04-24 - Corrected Psychosophy group naming across wiki: replaced source-unsafe “Purification/Очищение” as a group name with “1st sexta / 1st quadra (unofficial grouping)” and added caveats that sextas/quadras are not original Afanasyev terminology.
 2026-04-24 - Added `compatibility-level-boundaries.md` to define project boundaries between Strategic/Temporistics, Operational/Psychosophy, and Tactical/Socionics compatibility and prevent cross-typology construct collapse.
+2026-04-24 - Added `sociology-researcher` agent and `sociological-compatibility-analogues.md` to map Strategic/Operational/Tactical compatibility to life course, role theory, household labor, symbolic interactionism, and conversation analysis as sociological bridges.

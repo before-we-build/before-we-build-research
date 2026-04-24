@@ -8,6 +8,7 @@ Based on best practices from McKinsey, ClawPort, and enterprise deployments (202
 master-orchestrator (gold) ⚜
 ├── Research Team
 │   ├── typology-researcher (purple)
+│   ├── sociology-researcher (brown)
 │   └── military-roles-researcher (darkgreen)
 ├── Typing Team  
 │   ├── psychosophy-typer (green)
@@ -29,7 +30,7 @@ master-orchestrator (gold) ⚜
 
 ### 1. Research Team
 **Lead:** typology-researcher
-**Purpose:** Finding and validating information
+**Purpose:** Finding and validating information, including typological and sociological context
 **Crons:** military-roles-researcher (weekly)
 
 ### 2. Typing Team  
