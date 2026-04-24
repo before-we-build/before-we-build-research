@@ -34,6 +34,9 @@ wiki/          — LLM-generated wiki
 | [[big-five-alternatives]] | Alternatives to Big Five: HEXACO, 16PF, PEN, RST, Dark Tetrad | web research |
 | [[temporistics-eternity-altruism-hypothesis]] | Hypothesis: 1E/4E Eternity → collectivism, 2E/3E → individualism | user observation |
 | [[agentic-skills-hang-the-dj]] | 8 agent skills to implement simulation-based compatibility testing | skills/index.md |
+| [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
+| [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the SLI + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
+| [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the SLI + ЕЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | psycalc/Psyche-Yoga |
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | psycalc/Psyche-Yoga |
 | [[psychosophy-model]] | Psychosophy type structure | psycalc/Psyche-Yoga |
@@ -153,6 +156,7 @@ wiki/          — LLM-generated wiki
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
 | [[hang-the-dj-simulation-compatibility]] | Black Mirror episode used as simulation metaphor, including the fictional 99.8% reveal | - |
 | [[brain-typology-neuroscience]] | Mapping typology systems to brain regions and neural networks | web research |
+| [[civilian-career-role-families]] | Civilian role-family catalog for typology-based career recommendations | .opencode/data/civilian-career-roles.md |
 
 ### Research on AI in Psychology
 
@@ -276,9 +280,9 @@ wiki/          — LLM-generated wiki
 - **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
-- **Wiki pages**: 88 (17 concepts + 35 entities + 3 relations + 29 sources + 4 reference pages)
+- **Wiki pages**: 92 (20 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 57 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 17
+- **Concepts**: 20
 - **Last updated**: 2026-04-24

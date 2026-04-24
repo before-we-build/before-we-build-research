@@ -3,7 +3,7 @@ title: Latent Processes
 type: concept
 tags: [latent-processes, theory]
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-04-24
 sources: []
 ---
 
@@ -718,3 +718,16 @@ In your formulation, tactical level of compatibility in socionics can be describ
 - And how rarely they press where the other has a vulnerable function
 
 This is a direct consequence of standard schemes of intertype reflections in Model A, especially for duality and conflict.
+
+---
+
+## Boundary: Psychosophy Emotion vs Socionics Ethics
+
+Psychosophy and Socionics can both use words that sound emotional, but they describe different latent processes.
+
+- **Psychosophy Emotion** belongs to the operational action frame. It describes how a person analyzes, assembles, prioritizes, and expresses emotional states and atmosphere as part of action.
+- **Socionics Ethics** belongs to the tactical information frame. It describes how a person models information about relations, attitudes, reactions, and emotional atmosphere.
+
+This distinction matters for mixed profiles. For example, a person can have **1E** in Psychosophy and **4Fe** in Socionics: emotionally expressive and tone-setting from their own frame, but vulnerable to imposed group emotional pressure or demanded Fe atmosphere management.
+
+See [[emotion-vs-ethics-boundary]] for the dedicated boundary page.

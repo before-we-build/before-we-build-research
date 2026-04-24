@@ -4,10 +4,12 @@ type: concept
 tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md]
+sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md]
 ---
 
 # Composite Profile SLI + ЭЛВФ + ВПНБ
+
+Languages: **English** | [[composite-profile-sli-elvf-vpnb-ru|Русский]] | [[composite-profile-sli-elvf-vpnb-uk|Українська]]
 
 ## Overview
 
@@ -264,6 +266,7 @@ Notes:
 
 - The current page uses fixed type, quadra, and position logic.
 - Accentuation is **not typed** and therefore remains open.
+- **1E in Psychosophy is not the same as Fe strength in Socionics.** See [[emotion-vs-ethics-boundary]].
 
 ### Temporistics
 
@@ -313,7 +316,7 @@ Notes:
 #### Tetra
 
 - **Проводники**
-- role implication: carry direction, route, or continuity through a system
+- role implication: carry a meaningful route, ideological continuity, or mission-bearing line through a system
 
 #### Aspect Order
 
@@ -326,15 +329,43 @@ Notes:
 
 | Position | Aspect | Practical meaning |
 |----------|--------|-------------------|
-| 1 | В | meaning-first, wants a larger why |
-| 2 | П | uses experience and history as working material |
-| 3 | Н | tension around immediate territorial/current presence |
-| 4 | Б | follows direction/sequence more easily than self-forcing a future plan |
+| 1 | В | self-generates meaning, worldview, principles, and existential justification |
+| 2 | П | uses experience, precedent, history, logs, and institutional memory as working material |
+| 3 | Н | tension around immediate pressure, current place, real-time chaos, and territorial presence |
+| 4 | Б | follows externally framed future objectives more easily than self-inventing long-range direction |
 
 #### Temporistics Takeaway
 
-- fits roles where continuity and direction matter
-- less ideal for random chaos without a stable path or sense of why
+- fits roles where technical work visibly serves a meaningful mission
+- strongest when infrastructure can be understood as preserving a larger order, not merely closing tickets
+- less ideal for random chaos without a stable path, clear mission, or existentially convincing reason
+
+#### Temporistics Role-Fit Consequences
+
+**1В — First Eternity / Guru**
+
+- The central need is not just continuity or clear direction, but **meaning**.
+- Work must answer: "Why does this system matter? What larger order does it protect or serve?"
+- Empty execution, meaningless maintenance, or prestige-only work will drain motivation even if the technical task is suitable.
+- Best framing: infrastructure as service to a product, community, army, state, or mission that actually matters.
+
+**2П — Second Past / Chronicler**
+
+- Strong fit with incident history, logs, postmortems, runbooks, documentation, retrospectives, and accumulated operational knowledge.
+- Learns from precedent and helps prevent repeated failures.
+- In technical organizations, this supports reliability engineering and institutional memory.
+
+**3Н — Third Present / Exile**
+
+- Main caution: chaotic real-time pressure, unclear place in the current situation, constant interruptions, and improvisation without a frame.
+- Incident response can fit only when there are clear roles, escalation paths, runbooks, and a non-humiliating command culture.
+- Frontline or field roles where the present moment constantly overrides system logic are higher risk.
+
+**4Б — Fourth Future / Passenger**
+
+- Future direction is easier when given as an external frame: mission, SLA, roadmap, command priority, incident objective, or product strategy.
+- Avoid roles where the person must independently invent vague long-range strategy from nothing.
+- Good roles convert the future into concrete system requirements and operational priorities.
 
 ## Core Signals
 
@@ -352,19 +383,28 @@ Notes:
 - **3V**: sensitive to coercive pressure, status fights, and forced domination
 - **4F**: avoids making hardship or bodily discomfort the main point of the role
 
+### Emotion / Ethics Boundary
+
+- **Psychosophy 1E** means emotional state and expression are primary operational material: the profile can set tone from its own emotional frame.
+- **Socionics 4Fe** means external emotional atmosphere and demanded group emotional performance are a vulnerable information zone.
+- These are not contradictory: the profile can be emotionally expressive while still disliking noisy social pressure, forced mood management, and performative atmosphere demands.
+
 ### Temporistics signal
 
-- meaning-first orientation
-- continuity and procession matter
-- works better when there is a clear direction or path
-- not ideal for chaotic roles with no stable narrative
+- meaning-first orientation: work must connect to a larger why
+- continuity and procession matter, but only as carriers of meaningful purpose
+- 2П supports learning from incidents, history, logs, runbooks, and precedent
+- 3Н warns against chaotic present-pressure without clear role or frame
+- 4Б works best when future objectives are externally framed as mission, SLA, roadmap, or command priority
+- not ideal for chaotic roles with no stable narrative or convincing reason to endure them
 
 ### Civil Profession: DevOps
 
 - infrastructure, automation, monitoring, reliability
 - incident handling and recovery
+- logs, postmortems, runbooks, and prevention of repeated failures
 - systems thinking under operational pressure
-- strong fit for technical continuity roles
+- strong fit for meaningful technical continuity roles
 
 ## Civilian Fit
 
@@ -385,41 +425,45 @@ Traceability:
 
 - **Socionics:** 1Si + 2Te technical steadiness, with 4Fe caution around emotional pressure and 5Ne need for supportive option-framing
 - **Psychosophy:** 2L supports structure, 3V warns against coercive status games
-- **Temporistics:** need for continuity and meaningful direction
+- **Temporistics:** 1В needs meaningful mission, 2П supports operational memory, 3Н requires structured incident conditions, 4Б benefits from externally framed objectives
 - **Civil background:** DevOps already proves fit in a real environment
 
 ## Military Fit
 
 Using the current Ukrainian catalog, the strongest fits are:
 
-1. **Communications / C4ISR**
-2. **Cyber / infrastructure support**
-3. **UAV technical support / operator support**
+1. **Cyber / infrastructure support**
+2. **Signal network / communications systems / C4ISR technical roles**
+3. **UAV technician / engineer / maintenance / integration support**
 4. **Reconnaissance analyst / technical reconnaissance**
-5. **Staff technical support / operations support**
+5. **Unit technical support / command-support systems administration**
 
-### Best Single Military Role
+### Highest-Fit Military Hypothesis
 
-**Military communications / network infrastructure specialist**
+**Systems / network administrator or infrastructure / DevOps specialist in Cyber Forces, a technical headquarters, or a mission-critical technical unit**
 
 Why:
 - matches DevOps directly
 - uses SLI technical stability
 - uses 2L for structure and diagnostics
 - avoids over-pressuring 3V
-- fits ВПНБ as a role that carries continuity and direction
+- fits 1В when the infrastructure is understood as protecting the digital or communications nervous system of an army, state, or mission
+- uses 2П through logs, incident memory, documentation, postmortems, and prevention of repeated failures
+- can work with 3Н if incident response is structured by clear roles, runbooks, and escalation paths
+- supports 4Б when priorities are framed by mission, SLA, command need, or concrete operational objective
 
 Traceability:
 
 - **Socionics:** technical-operational fit, low appetite for chaos-heavy social pressure
 - **Psychosophy:** strong Logic, vulnerable Will under coercive hierarchy, low desire to make hardship the center
-- **Temporistics:** better when there is a route, continuity, and a larger why
-- **Role catalog:** best overlap with communications, cyber infrastructure, and technical support families
+- **Temporistics:** strongest when technical reliability visibly serves a meaningful mission, preserves institutional memory, and avoids unstructured present-chaos
+- **Role catalog:** best direct overlap with cyber infrastructure, network administration, monitoring, incident response, and technical support families
 
 ### Backup Military Roles
 
-- **UAV technician / operator support**
-- **Reconnaissance analyst**
+- **Signal network / C4ISR technical specialist**
+- **UAV technician / engineer / integration support**
+- **Reconnaissance analyst / ISR technical analysis**
 - **Systems / network administrator in a unit or cyber formation**
 
 ### Avoid
@@ -434,8 +478,11 @@ Traceability:
 If two roles are both possible, prefer the one that:
 
 - is more technical
-- has clearer operational continuity
+- serves a more meaningful mission rather than empty execution
+- has clearer operational continuity and institutional memory
 - uses existing DevOps skills
+- has structured incident response instead of constant improvisational chaos
+- provides externally framed objectives rather than vague future speculation
 - minimizes coercive pressure
 
 ## Life Strategy
@@ -443,28 +490,35 @@ If two roles are both possible, prefer the one that:
 ### What Usually Works
 
 - technical systems with visible usefulness
+- technical systems whose purpose is existentially or socially meaningful
 - roles where reliability matters more than status theater
 - environments with a clear task contour and explicit feedback
+- logs, documentation, runbooks, postmortems, and learning from failures
 - teams where pressure exists, but humiliation is not the management style
 
 ### What Usually Fails
 
 - endless ambiguity with no stabilizing frame
+- meaningless execution where the system's larger purpose is invisible
 - careers built on pure personal dominance
 - high-chaos environments that reward visibility over utility
+- unstructured real-time firefighting without roles, escalation paths, or postmortems
+- roles demanding vague long-range strategy without an external mission frame
 - roles where physical grind becomes the main identity instead of a condition of work
 
 ### Strategic Advice
 
 - choose systems, not theater
-- choose continuity, not random escalation
+- choose meaningful infrastructure, not empty execution
+- choose continuity and institutional memory, not random escalation
 - choose real usefulness over prestige branding
+- choose externally framed objectives over vague future speculation
 - when in doubt, trust environments where your work can be measured by stability, recovery, and operational clarity
 
 ## Summary
 
-- **Civilian path:** DevOps / SRE / infrastructure / reliability
-- **Military path:** communications, cyber infrastructure, UAV technical support
+- **Civilian path:** DevOps / SRE / platform / meaningful infrastructure reliability
+- **Military path:** cyber infrastructure, signal network/C4ISR technical support, UAV technical support
 - **Main constraint:** avoid roles that center on coercive pressure or physical grind as the primary demand
 
 ## See Also

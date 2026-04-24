@@ -1062,3 +1062,8 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Ran ingest sync pass: verified raw/wiki coverage, added missing `typology-best-architecture.md` catalog entry, and updated index statistics to current file counts.
 2026-04-24 - Corrected the SLI Model A stack in `composite-profile-sli-elvf-vpnb.md` and updated dependent Socionics interpretations.
 2026-04-24 - Added `civilian-career-advisor` and `.opencode/data/civilian-career-roles.md` for civilian profession recommendations analogous to the military specialty advisor.
+2026-04-24 - Ingested `.opencode/data/civilian-career-roles.md` into `wiki/sources/civilian-career-role-families.md` and updated index statistics.
+2026-04-24 - Added `emotion-vs-ethics-boundary.md` to separate Psychosophy Emotion from Socionics Ethics and linked it from latent-process and the composite profile.
+2026-04-24 - Expanded `emotion-vs-ethics-boundary.md` with expert web research from Wikisocion, BestSocionics, and Afanasyev sources; clarified that ЧЭ is not inner emotion and 1E is not Fe strength.
+2026-04-24 - Deepened `composite-profile-sli-elvf-vpnb.md` Temporistics section: clarified 1В as self-generated meaning/ideology, 2П as operational memory, 3Н as real-time chaos risk, and 4Б as externally framed future objectives.
+2026-04-24 - Added Russian and Ukrainian versions of the composite profile: `composite-profile-sli-elvf-vpnb-ru.md` and `composite-profile-sli-elvf-vpnb-uk.md`; added language switch links.
