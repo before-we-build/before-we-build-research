@@ -45,6 +45,35 @@ ELVF = 1E, 2L, 3V, 4F
 
 The relation depends on how one person's function positions meet the other person's positions in the same aspect.
 
+### 2.1 How the Signature Is Derived
+
+The matrix below is based on **directional position signatures**.
+
+Given type A and type B:
+
+```text
+1. Read A from 1st to 4th position.
+2. For each aspect in A, find the position of the same aspect in B.
+3. Write those four B-positions in A's order.
+4. The result is Signature(A → B).
+```
+
+Example:
+
+```text
+A = LEVF = 1L, 2E, 3V, 4F
+B = ELVF = 1E, 2L, 3V, 4F
+
+A's 1st aspect L is B's 2nd aspect → 2
+A's 2nd aspect E is B's 1st aspect → 1
+A's 3rd aspect V is B's 3rd aspect → 3
+A's 4th aspect F is B's 4th aspect → 4
+
+Signature(A → B) = 2134
+```
+
+Important: **direction matters**. Signature(A → B) and Signature(B → A) can differ. Some relations are structurally asymmetric, so pair analysis should record both directions when needed.
+
 ## 3. Four Classical Models from Syntax of Love
 
 The current source summary identifies four basic models:
@@ -57,6 +86,8 @@ The current source summary identifies four basic models:
 | Cross of 2nd and 3rd functions | **Agape** | most stable, nurturing | flexible support reaches vulnerable function |
 
 These names are more source-grounded than the reconstructed Temporistics labels, but they should still be used as compatibility hypotheses rather than deterministic judgments.
+
+Source note: some summaries of Afanasyev's Greek models mention **Storge**, while the current PsyCalc compatibility source and matrix use **Pseudophilia**. PsyCalc keeps Pseudophilia as the current working display label, pending primary-source verification.
 
 ## 4. Position-Contact Principles
 
@@ -87,22 +118,22 @@ The full matrix uses compact codes. Some names are more established than others.
 | NT | Neutrality | `1432` | extended/community | low activation, polite distance |
 | AG | Agape | `2134` | classical label, signature mapping from current matrix | flexible support and operational complementarity |
 | ORD | Order | `2143` | extended/community | one leads, one follows |
-| AG2 | Agape Variant | `2314` | working label | second Agape-like structural route |
-| ROT | Role Rotation | `2341` | PsyCalc working label | functions rotate through positions |
+| AG2 | Asymmetric Guidance Chain | `2314` | PsyCalc working label | guidance chain with support and pressure components |
+| ROT | Forward Rotation | `2341` | PsyCalc working label | functions rotate through positions |
 | TG | Operational Guidance with Pressure Risk | `2413` | PsyCalc working label, renamed for PsyCalc display | guidance with pressure risk without implying therapy |
 | SUP | Supportive Inversion | `2431` | PsyCalc working label | partial inversion with support potential |
-| OR | Asymmetric Operational Pressure | `3124` | extended/community mapping, renamed for PsyCalc display | asymmetrical leadership/pressure |
-| RV | Corrective Operational Pressure | `3142` | extended/community, renamed for PsyCalc display | corrective/frictional pressure |
-| RV2 | Strong Corrective Mismatch | `3214` | extended/community mapping, renamed for PsyCalc display | stronger revision-like mismatch |
+| OR | Target-Wound Contact | `3124` | PsyCalc working display for extended/community mapping | strong function touches vulnerable function |
+| RV | Overpressure with Blind Compensation | `3142` | extended/community, renamed for PsyCalc display | corrective pressure partly offset by lower-position compensation |
+| RV2 | Target-Wound Inversion with Shared Lower Zones | `3214` | PsyCalc working display for extended/community mapping | stronger target-wound inversion with shared lower positions |
 | CP | Conflict Pressure | `3241` | PsyCalc working label | pressure around vulnerable zones |
 | ER | Eros | `3412` | classical label, signature mapping provisional | intense attraction and wound activation |
 | EX | Mutual Damping of Operational Expression | `3421` | extended/community, renamed for PsyCalc display | distance, damping, formal respect |
-| AN | Anchor | `4123` | PsyCalc working label | strong-to-weak support with hierarchy |
+| AN | Anchor-Development Chain | `4123` | PsyCalc working label | strong-to-weak support with developmental chain |
 | ANW | Anchor with Wound | `4132` | PsyCalc working label | anchoring plus shared/activated vulnerability |
-| MX | Mixed Complement | `4213` | PsyCalc working label | support and pressure coexist |
-| SW | Shared Wound | `4231` | PsyCalc working label | shared 3rd-position sensitivity |
-| FC | High Complementarity with Pressure Risk | `4312` | PsyCalc working label, renamed for PsyCalc display | near-complete complement with pressure risk |
-| CS | Strong Inversion with Submission Risk | `4321` | extended/community, renamed for PsyCalc display | strong inversion; high dependence/conflict risk |
+| MX | Anchor-Pressure Exchange | `4213` | PsyCalc working label | support and pressure coexist |
+| SW | Shared Wound with Mutual Anchoring | `4231` | PsyCalc working label | shared 3rd-position sensitivity plus 1↔4 anchoring |
+| FC | Near-Full Operational Complement with Pressure Risk | `4312` | PsyCalc working label, renamed for PsyCalc display | near-complete complement with pressure risk |
+| CS | Full Operational Inversion with Dependency Risk | `4321` | extended/community, renamed for PsyCalc display | strong inversion; high dependence/conflict risk |
 
 Important: the code legend is intended to make the full matrix usable. Classical labels such as Agape, Philia, Eros, and Pseudophilia are retained as tradition-aware labels. Community or working labels are displayed with mechanism-first names where the older label is too romantic, moralized, deterministic, or unclear. The legend should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
 
@@ -145,9 +176,52 @@ The table below covers all 24 standard Psychosophy types. Rows are “type A,”
 4. Check the code legend for the relation name and caveat.
 5. Interpret the relation at the operational level only.
 
+If the relation is asymmetric, also check the reverse cell. A row-to-column code describes **A's experience toward B** by signature; the reverse direction may carry a different signature and explanatory emphasis.
+
 Do not use this matrix as a complete compatibility verdict. In PsyCalc, Psychosophy covers operational compatibility; strategic fit is modeled primarily by Temporistics, and tactical communication fit is modeled primarily by Socionics.
 
-## 8. Comparison with Temporistics
+## 8. Worked Examples
+
+### 8.1 LEVF + ELVF
+
+```text
+A = LEVF = 1L, 2E, 3V, 4F
+B = ELVF = 1E, 2L, 3V, 4F
+Signature(A → B) = 2134
+Code = AG / Agape
+```
+
+Operational interpretation: the upper positions exchange Logic and Emotion, while both partners share 3V and 4F. This can create recognizable Agape-like support in reasoning and emotional processing, but shared 3V may limit repair capacity around will, pressure, and self-assertion.
+
+Confidence: medium structural / low empirical.
+
+### 8.2 LEVF + VFLE
+
+```text
+A = LEVF = 1L, 2E, 3V, 4F
+B = VFLE = 1V, 2F, 3L, 4E
+Signature(A → B) = 3412
+Code = ER / Eros
+```
+
+Operational interpretation: A's strongest Logic contacts B's vulnerable Logic, while B's strongest Will contacts A's vulnerable Will. This can create intense attraction-pressure, but also repeated vulnerability activation.
+
+Confidence: medium structural / low empirical.
+
+### 8.3 FVEL + LEVF
+
+```text
+A = FVEL = 1F, 2V, 3E, 4L
+B = LEVF = 1L, 2E, 3V, 4F
+Signature(A → B) = 4321
+Code = CS / Full Operational Inversion with Dependency Risk
+```
+
+Operational interpretation: the relation is structurally inverted across all four aspects. This can create broad complementarity, but also strong dependency, misunderstanding, or submission-risk dynamics if pressure is not regulated.
+
+Confidence: medium structural / low empirical.
+
+## 9. Comparison with Temporistics
 
 Both Psychosophy and Temporistics have 24 types and a 4-aspect × 4-position structure. This is why both can be represented with 24 × 24 matrices.
 
@@ -160,7 +234,7 @@ The difference is the level:
 
 Therefore Psychosophy relation names should not be copied into Temporistics without translation. Agape in Psychosophy is an operational support pattern; a Temporistics complement is a strategic temporal-frame pattern.
 
-## 9. Validation Needs
+## 10. Validation Needs
 
 Psychosophy relations should be validated through:
 
@@ -171,9 +245,17 @@ Psychosophy relations should be validated through:
 - comparison against Big Five, attachment, values, and conflict style;
 - incremental validity testing against Socionics and Temporistics layers.
 
+Specific hypotheses to test:
+
+- whether 2↔3-heavy signatures are experienced as supportive;
+- whether 1↔3-heavy signatures predict reports of pressure, shame, attraction, or defensiveness;
+- whether 1↔4 patterns feel stabilizing, controlling, or dependency-producing;
+- whether shared 3rd functions create empathy but weak repair capacity;
+- whether relation signatures predict outcomes beyond attachment, Big Five, values, and conflict style.
+
 The matrix is useful as a structured hypothesis generator. It is not a deterministic prediction of relationship success.
 
-## 10. See Also
+## 11. See Also
 
 - [[psychosophy-model]] — Psychosophy type model
 - [[afanasyev-model]] — Alexander Afanasyev's model

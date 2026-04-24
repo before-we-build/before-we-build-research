@@ -26,6 +26,14 @@ The sources do **not** provide a validated 24 × 24 relation matrix comparable t
 
 Reliability level: **low-to-medium as a formal reconstruction, low as an empirical compatibility claim**. The structural matrix is mechanically derivable; the interpretation of relation classes remains provisional.
 
+Important distinction:
+
+```text
+structural signature = mechanically derivable from type codes
+relation name = PsyCalc explanatory label
+compatibility claim = empirical hypothesis requiring validation
+```
+
 ## 2. Source Map
 
 ### 2.1 Confirmed or semi-confirmed Temporistics theory
@@ -120,6 +128,20 @@ The signature `4321` means a full structural inversion: A's 1st maps to B's 4th,
 
 The signature is source-derived from type structure. The relation meaning assigned to it is reconstructed.
 
+### 4.1 Formal Signature Algorithm
+
+Given type A = `a1 a2 a3 a4` and type B = `b1 b2 b3 b4`:
+
+```text
+1. Build posB(aspect) = position of each aspect in B.
+2. For each position i in A, find aspect ai.
+3. Signature digit i = posB(ai).
+4. Signature(A → B) = posB(a1) posB(a2) posB(a3) posB(a4).
+5. Signature(B → A) is the inverse permutation and may have a different interpretive emphasis.
+```
+
+For unordered pair summaries, show either both directions or the row-to-column matrix signature with a warning that the inverse direction may differ.
+
 ## 5. Proposed Relation Principles
 
 ### 5.1 Same-aspect position contacts
@@ -131,7 +153,7 @@ The signature is source-derived from type structure. The relation meaning assign
 | 1 ↔ 3 | one person's certainty touches the other's wound; high pressure risk |
 | 1 ↔ 4 | one anchors what the other neglects; stabilizing if non-coercive |
 | 2 ↔ 2 | easy dialogue and flexible temporal co-processing |
-| 2 ↔ 3 | potentially therapeutic support to a vulnerable temporal zone |
+| 2 ↔ 3 | potentially supportive processing for a vulnerable temporal zone |
 | 2 ↔ 4 | light guidance to a blind zone; useful but often low-drama |
 | 3 ↔ 3 | shared wound; empathy is possible, but repair capacity may be weak |
 | 3 ↔ 4 | one's vulnerable zone meets the other's neglect; abandonment risk |
@@ -165,36 +187,36 @@ Names such as duality, conflict, supervision, activation, mirror, and quasi-iden
 
 Because Temporistics has 24 types, the complete pair matrix has 24 × 24 cells. However, those cells reduce structurally to **24 possible relation signatures**, because each pair can be described by one permutation of four positions.
 
-The table below gives provisional names for all 24 structural signatures. These are **not official Temporistics names**. They are research labels for the PsyCalc reconstruction.
+The table below gives provisional descriptors for all 24 structural signatures. These are **not official Temporistics names**. They are research labels for the PsyCalc reconstruction. The signatures are structurally reliable as permutations; the names are lower-confidence explanatory labels.
 
 ### 6.1 The 24 structural signatures
 
 | Signature | Proposed relation name | Position pattern | Strategic interpretation | Broad family |
 |---|---|---|---|---|
-| `1234` | Temporal Identity | same order | identical temporal architecture | identity |
-| `1243` | Shared Upper Frame with Painful-Blind Exchange | 1/2 same, 3/4 swapped | same strong temporal language, but painful/blind handling differs | resonance + weak-zone risk |
-| `1324` | Shared Target with Creative-Wound Exchange | 2 ↔ 3 | one partner's flexible temporal process meets the other's painful zone while target/blind context is shared | developmental support / pressure |
-| `1342` | Shared Target with Lower-Position Rotation | 1 same, 2→3→4→2 | shared first aspect, but support, wound, and blind zones circulate | mixed resonance |
-| `1423` | Shared Target with Support-Drift Chain | 1 same, 2↔4 and 3↔2 | shared first aspect with possible 2→3 support and 4-zone drift | mixed support |
-| `1432` | Target-Wound Identity with Creative-Blind Inversion | 1 same, 2↔4, 3 same | same target and same wound, but creative/blind handling is inverted | resonance + shared wound |
-| `2134` | Target-Creative Exchange with Shared Lower Zones | 1 ↔ 2 | target and creative positions exchange while painful/blind zones match | parallel resonance |
-| `2143` | Paired Axis Exchange | 1↔2 and 3↔4 | upper aspects understand each other, lower aspects risk neglect | resonance + blind/wound risk |
-| `2314` | Target-Creative-Wound Chain | 1→2→3→1, 4 same | strong/creative/painful positions form a chain with both guidance and pressure | asymmetric guidance |
-| `2341` | Forward Rotation | 1→2→3→4→1 | all positions rotate forward | strategic circulation |
-| `2413` | Creative-Anchor Rotation with Wound Pressure | 1→2, 2→4, 3→1, 4→3 | support and pressure coexist; one wound meets temporal-frame authority | mixed / overpressure risk |
-| `2431` | Anchor-Support Cycle with Shared Wound | 1→2, 2→4, 3→3, 4→1 | strong-to-creative support with shared wound and anchor complement | mixed support |
-| `3124` | Target-Wound Contact | 1→3, 2→1, 3→2, 4 same | one person's target aspect hits the other's painful aspect | temporal overpressure |
-| `3142` | Overpressure with Blind Compensation | 1→3, 2→1, 3→4, 4→2 | strong wound-pressure plus possible blind-zone guidance | overpressure |
-| `3214` | Target-Wound Inversion with Shared Blind | 1↔3, 2 same, 4 same | target/painful inversion with shared blind spot | overpressure + blind collusion |
-| `3241` | Wound-Centered Rotation | 1→3, 2→2, 3→4, 4→1 | painful contact dominates despite some support | overpressure / fragmentation |
-| `3412` | Pressure-Anchor Inversion | 1→3, 2→4, 3→1, 4→2 | mutual target-wound pressure with some blind guidance | high-pressure complement |
-| `3421` | Overpressure Inversion | 1→3, 2→4, 3→2, 4→1 | strong wound pressure partly softened by 3↔2 support | risky development |
-| `4123` | Anchor-Development Chain | 1→4, 2→1, 3→2, 4→3 | strong aspect anchors blind zone while wound receives 2nd support | anchor complement |
-| `4132` | Anchor with Shared Wound | 1→4, 2→1, 3 same, 4→2 | anchoring is possible, but one wound remains shared | anchor + shared wound |
-| `4213` | Anchor-Pressure Exchange with Shared Creative | 1→4, 2→2, 3→1, 4→3 | one side anchors while another's wound meets temporal-frame authority | mixed complement / pressure |
-| `4231` | Target-Blind Anchor with Shared Wound | 1→4, 2→2, 3→3, 4→1 | mutual 1↔4 anchoring with stable 2nd and shared 3rd | anchor + shared wound |
-| `4312` | Near-Full Complement with Pressure Risk | 1→4, 2→3, 3→1, 4→2 | close to full complement but includes 1↔3 pressure | complement with risk |
-| `4321` | Full Temporal Complement: Strategic Inversion | full inversion | 1↔4 and 2↔3 across the whole structure; complementarity is structural, not proof of ideal fit | full complement |
+| `1234` | Same-Position Alignment | same order | all temporal aspects occupy the same positions | identity |
+| `1243` | Painful-Blind Swap | 1/2 same, 3/4 swapped | target/creative align; painful and blind positions exchange | resonance + weak-zone risk |
+| `1324` | Creative-Painful Swap | 2 ↔ 3 | target/blind align; creative and painful positions exchange | support / pressure hypothesis |
+| `1342` | Target-Aligned Lower Cycle | 1 same, 2→3→4→2 | target aligns; creative, painful, and blind positions rotate | mixed resonance |
+| `1423` | Target-Aligned Reverse Lower Cycle | 1 same, 2↔4 and 3↔2 | target aligns; lower positions rotate in inverse direction | mixed support |
+| `1432` | Target-Painful Alignment with Creative-Blind Swap | 1 same, 2↔4, 3 same | same target and same wound, but creative/blind handling differs | resonance + shared wound |
+| `2134` | Target-Creative Swap | 1 ↔ 2 | upper positions exchange; painful/blind align | parallel resonance |
+| `2143` | Double Axis Swap | 1↔2 and 3↔4 | target/creative exchange and painful/blind exchange | resonance + blind/wound risk |
+| `2314` | Upper-Triad Cycle | 1→2→3→1, 4 same | target, creative, and painful positions rotate; blind aligns | asymmetric guidance |
+| `2341` | Full Forward Rotation | 1→2→3→4→1 | all four positions rotate in one direction | strategic circulation |
+| `2413` | Target-Creative-Blind-Painful Cycle | 1→2, 2→4, 3→1, 4→3 | full four-position cycle with target moving into creative | mixed / overpressure risk |
+| `2431` | Target-Creative-Blind Cycle with Shared Painful | 1→2, 2→4, 3→3, 4→1 | target/creative/blind rotate; painful aligns | mixed support + shared wound |
+| `3124` | Target-Painful-Creative Cycle | 1→3, 2→1, 3→2, 4 same | target, painful, and creative positions rotate; blind aligns | pressure-risk hypothesis |
+| `3142` | Target-Painful-Blind-Creative Cycle | 1→3, 2→1, 3→4, 4→2 | full four-position cycle with target moving into painful | overpressure |
+| `3214` | Target-Painful Swap | 1↔3, 2 same, 4 same | target and painful exchange; creative/blind align | overpressure + blind collusion |
+| `3241` | Target-Painful-Blind Cycle with Shared Creative | 1→3, 2→2, 3→4, 4→1 | target/painful/blind rotate; creative aligns | overpressure / fragmentation |
+| `3412` | Double Pressure-Anchor Swap | 1→3, 2→4, 3→1, 4→2 | target/painful exchange and creative/blind exchange | high-pressure complement |
+| `3421` | Target-Painful-Creative-Blind Cycle | 1→3, 2→4, 3→2, 4→1 | full four-position cycle with target moving into painful | risky development |
+| `4123` | Full Reverse Rotation | 1→4, 2→1, 3→2, 4→3 | all four positions rotate in inverse direction | anchor complement |
+| `4132` | Target-Blind-Creative Cycle with Shared Painful | 1→4, 2→1, 3 same, 4→2 | target/blind/creative rotate; painful aligns | anchor + shared wound |
+| `4213` | Target-Blind-Painful Cycle with Shared Creative | 1→4, 2→2, 3→1, 4→3 | target/blind/painful rotate; creative aligns | mixed complement / pressure |
+| `4231` | Target-Blind Swap | 1→4, 2→2, 3→3, 4→1 | target and blind exchange; creative/painful align | anchor + shared wound |
+| `4312` | Target-Blind-Creative-Painful Cycle | 1→4, 2→3, 3→1, 4→2 | full four-position cycle with target moving into blind | complement with risk |
+| `4321` | Full Structural Inversion | full inversion | target/blind exchange and creative/painful exchange | full complement hypothesis |
 
 ### 6.2 Interpretive families
 
@@ -255,6 +277,8 @@ The matrix below is a **structural signature matrix**, not a validated compatibi
 
 Read `4321` as: A's 1st aspect is B's 4th, A's 2nd is B's 3rd, A's 3rd is B's 2nd, A's 4th is B's 1st. This is the proposed structural basis for Full Temporal Complement.
 
+Cells intentionally use **signatures only**, not relation names. This keeps the matrix structurally precise and prevents provisional names from looking more validated than they are.
+
 | Type | Alias | NEFP | NFEP | PEFN | PFEN | EFNP | ENFP | PNFE | PFNE | EPFN | EFPN | NFPE | NPFE | EPNF | ENPF | FNPE | FPNE | NPEF | NEPF | FPEN | FEPN | FNEP | FENP | PENF | PNEF |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | NEFP | Politician | 1234 | 1324 | 4231 | 4321 | 3124 | 2134 | 2431 | 3421 | 4132 | 4123 | 1423 | 1432 | 3142 | 2143 | 2413 | 3412 | 1342 | 1243 | 4312 | 4213 | 2314 | 3214 | 3241 | 2341 |
@@ -282,7 +306,48 @@ Read `4321` as: A's 1st aspect is B's 4th, A's 2nd is B's 3rd, A's 3rd is B's 2n
 | PENF | Pathfinder | 4213 | 4312 | 1243 | 1342 | 4132 | 4123 | 1423 | 1432 | 2143 | 3142 | 3412 | 2413 | 2134 | 3124 | 3421 | 2431 | 2314 | 3214 | 2341 | 3241 | 4321 | 4231 | 1234 | 1324 |
 | PNEF | Toastmaster | 4123 | 4132 | 1423 | 1432 | 4312 | 4213 | 1243 | 1342 | 2413 | 3412 | 3142 | 2143 | 2314 | 3214 | 3241 | 2341 | 2134 | 3124 | 2431 | 3421 | 4231 | 4321 | 1324 | 1234 |
 
-## 9. Comparison with Socionics and Psychosophy
+## 9. Worked Examples
+
+### 9.1 EPNF + FNPE
+
+```text
+A = EPNF = 1E, 2P, 3N, 4F
+B = FNPE = 1F, 2N, 3P, 4E
+Signature(A → B) = 4321
+Descriptor = Full Structural Inversion
+```
+
+Strategic interpretation: A's strong Eternity anchors B's blind Eternity, while B's strong Future anchors A's blind Future. A's 2P meets B's 3P, and B's 2N meets A's 3N. This creates a strong complementarity hypothesis, but not an ideal-match claim: support may become dependency or control if the pair lacks operational and tactical repair capacity.
+
+Confidence: medium structural / low empirical.
+
+### 9.2 EPNF + NEFP
+
+```text
+A = EPNF = 1E, 2P, 3N, 4F
+B = NEFP = 1N, 2E, 3F, 4P
+Signature(A → B) = 3142
+Descriptor = Target-Painful-Blind-Creative Cycle
+```
+
+Strategic interpretation: A's target Eternity lands in B's creative Eternity, while A's painful Present is B's target Present. The pair may produce strong strategic pressure around place, belonging, and immediate life-positioning. Growth is possible, but shame, defensiveness, or destabilization are also plausible.
+
+Confidence: low-medium as risk hypothesis / low empirical.
+
+### 9.3 NEFP + NFEP
+
+```text
+A = NEFP = 1N, 2E, 3F, 4P
+B = NFEP = 1N, 2F, 3E, 4P
+Signature(A → B) = 1324
+Descriptor = Creative-Painful Swap
+```
+
+Strategic interpretation: the pair shares target Present and blind Past, but one person's creative Eternity meets the other's painful Eternity, while Future is exchanged in the reverse direction. This can create meaningful support around future/meaning processing, but also pressure if the vulnerable aspect is handled too directly.
+
+Confidence: medium structural / low empirical.
+
+## 10. Comparison with Socionics and Psychosophy
 
 | System | Level in PsyCalc | Relation basis | What can be borrowed | What must not be copied |
 |---|---|---|---|---|
@@ -292,7 +357,7 @@ Read `4321` as: A's 1st aspect is B's 4th, A's 2nd is B's 3rd, A's 3rd is B's 2n
 
 Temporistics relations should be modeled differently from Socionics because the unit of compatibility is not information exchange. It is strategic alignment around memory, place, direction, and meaning.
 
-## 10. Risks of Importing Socionics-Style Relation Names
+## 11. Risks of Importing Socionics-Style Relation Names
 
 Direct import creates several risks:
 
@@ -304,7 +369,7 @@ Direct import creates several risks:
 
 Preferred labels include Temporal Complement, Temporal Overpressure, Strategic Dislocation, Shared Temporal Wound, and Blind-Spot Collusion.
 
-## 11. Validation Strategy
+## 12. Validation Strategy
 
 The reconstruction should be tested before being treated as useful.
 
@@ -338,7 +403,7 @@ Use structured vignettes:
 - loss of meaning or religious/worldview conflict;
 - revision of a failed long-term plan.
 
-Code whether predicted relation patterns appear in dialogue and decisions.
+Code whether predicted signature patterns appear in dialogue and decisions.
 
 ### 11.4 Quantitative validation
 
@@ -365,7 +430,16 @@ Potential outcomes:
 - frequency of 3rd-aspect pressure narratives;
 - practical consequences of 4th-aspect blind spots.
 
-## 12. Final Position
+Specific hypotheses to test:
+
+- `2→3` contacts should correlate with feeling helped to process a vulnerable temporal domain.
+- `1→3` contacts should correlate with pressure, shame, defensiveness, or accelerated growth depending on relational safety.
+- `1→4` contacts should correlate with delegation, anchoring, or dependency around that temporal aspect.
+- Shared 3rd aspects should correlate with empathy plus limited repair capacity.
+- Shared 4th aspects should correlate with low conflict but practical neglect.
+- Tetrad similarity should predict shared strategic vocabulary, not total compatibility.
+
+## 13. Final Position
 
 Temporistics intertype relations can be reconstructed as a coherent research hypothesis because the system has a formal 4 × 4 structure and strategic temporal content. However, this reconstruction should remain explicitly provisional.
 
