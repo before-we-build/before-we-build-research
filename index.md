@@ -25,6 +25,7 @@ wiki/          — LLM-generated wiki
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
+| [[composite-profile-sli-elvf-vpnb]] | User composite profile: SLI + ЭЛВФ + ВПНБ with civilian and military recommendations | project synthesis |
 | [[cross-typology-mapping-framework]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
 | [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
 | [[typology-authors-timeline]] | Who created which typology and when (Jung, Eysenck, Augustinavičiūtė, etc.) | web research |
@@ -244,6 +245,7 @@ wiki/          — LLM-generated wiki
 
 | Source | Summary | Source |
 |--------|---------|--------|
+| [[esco-typology-mapping]] | How to map ESCO occupations to typology-based role fit | ESCO concept, project synthesis |
 | [[smart-mobilization-research-note]] | Short note on what exists now and our project novelty | Lobby X, RAND, Carnegie, RUSI, NYT |
 | [[ukraine-military-specialties-current]] | Current Ukrainian military role families based on live vacancy feeds | Lobby X current vacancies feed |
 | autoreasearch.md | Karpathy's AutoResearch adaptation | - |
