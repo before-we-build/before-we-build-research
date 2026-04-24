@@ -320,6 +320,24 @@ Notes:
 - **Conductors** (RU: Проводники)
 - role implication: carry a meaningful route, ideological continuity, or mission-bearing line through a system
 
+#### Tetra Role: Conductors
+
+The Conductors tetra is defined by the pair **Future + Eternity** (EN: F + E; RU: Б + В; UK: Мб + Вч). In Temporistics terms, this combines:
+
+- **Eternity:** meaning, worldview, principles, and the question of what a system ultimately serves
+- **Future:** route, direction, movement, and the question of where the system is going
+
+Therefore the tetra role is not just "technical continuity". It is **mission-bearing direction**: translating a larger meaning into a path that can be carried forward.
+
+For this profile, this makes the best role one where infrastructure is not only maintained, but kept aligned with a meaningful mission. The person is suited to protecting the route of a system: keeping communications, platforms, reliability, or cyber infrastructure functional so that a larger purpose can continue moving.
+
+This also explains the role-fit emphasis:
+
+- prefer systems with a clear mission, not empty operational churn
+- prefer technical roles that preserve a meaningful route through instability
+- prefer infrastructure, reliability, communications, or cyber support where continuity directly serves direction
+- avoid roles where the work has no visible why, no route, and no connection to a larger order
+
 #### Aspect Order
 
 - **E**: Eternity, meaning, ethos, overarching orientation (RU: В; UK: Вч)

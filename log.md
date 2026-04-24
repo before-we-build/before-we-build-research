@@ -1070,3 +1070,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Added `third-present-exile-latent-process.md` and updated composite profiles to treat 3Н as place/belonging/contact with the real present, not merely real-time chaos.
 2026-04-24 - Added `typology-code-conventions.md` and separated English/Russian/Ukrainian abbreviations: ELVF/EPNF, ЭЛВФ/ВПНБ, ЕЛВФ/Вч-Ми-Тп-Мб.
 2026-04-24 - Extended code conventions to Socionics localization: SLI/СЛИ/СЛІ, with ISTp legacy notation and ISTP as approximate MBTI-like analogue only.
+2026-04-24 - Added explicit Temporistics tetra role explanation to composite profiles: Conductors/Проводники/Провідники as Future+Eternity mission-bearing direction.
