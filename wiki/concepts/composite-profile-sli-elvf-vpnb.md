@@ -47,13 +47,13 @@ This profile belongs to three larger typological groups. These group memberships
 | System | Group | Group logic | Role recommendation from group membership |
 |--------|-------|-------------|-------------------------------------------|
 | Socionics | **Delta quadra** | valued `Si + Te + Fi + Ne`: practical usefulness, stable conditions, personal trust, non-dramatic improvement | choose useful, low-drama technical service roles with stable teams and concrete value |
-| Psychosophy | **1st quadra / Purification** (RU: Очищение) | orientation toward inner backbone, simplification, directness, and structuring | choose roles where emotional drive and logic can simplify chaos into a clear working system |
+| Psychosophy | **1st sexta / 1st quadra** (unofficial grouping) | orientation toward inner backbone, simplification, directness, and structuring | choose roles where emotional drive and logic can simplify chaos into a clear working system |
 | Temporistics | **Conductors tetra** (RU: Проводники; UK: Провідники) | `Future + Eternity`: route plus meaning, direction plus mission | choose mission-bearing infrastructure roles where reliability protects a meaningful route |
 
 Combined recommendation:
 
 - **Delta** says: make the role practical, useful, stable, and low-drama.
-- **1st Psychosophy quadra** says: make the role structurally clarifying, not status-theatrical.
+- **1st Psychosophy sexta/quadra** says: make the role structurally clarifying, not status-theatrical. This is an unofficial grouping, not an original Afanasyev term.
 - **Conductors tetra** says: make the role mission-bearing, not empty maintenance.
 
 Therefore the strongest fit is not generic IT, generic army service, or generic management. It is **meaningful technical reliability**: DevOps/SRE/platform/cyber infrastructure work in a system whose purpose is clear and worth protecting.
@@ -299,7 +299,7 @@ Notes:
 
 #### Quadra
 
-- **1st quadra / Очищение**
+- **1st sexta / 1st quadra** (unofficial grouping)
 - strong orientation toward backbone, simplification, and direct structuring
 
 #### Aspects

@@ -78,4 +78,4 @@ Beyond the 24 standard types, Afanasyev describes a theoretical **"25th type"** 
 - [[socionics-detailed]] — Tactical level typology
 - [[temporistics-overview]] — Strategic level typology
 - [[psychosophy-detailed]] — Detailed psychosophy analysis
-- [[psychosophy-quadras]] — Six quadras and type clusters
+- [[psychosophy-quadras]] — Unofficial sextas/quadras and type clusters

@@ -1072,3 +1072,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Extended code conventions to Socionics localization: SLI/СЛИ/СЛІ, with ISTp legacy notation and ISTP as approximate MBTI-like analogue only.
 2026-04-24 - Added explicit Temporistics tetra role explanation to composite profiles: Conductors/Проводники/Провідники as Future+Eternity mission-bearing direction.
 2026-04-24 - Added explicit typological group-membership recommendation layer to composite profiles: Delta quadra, 1st Psychosophy quadra, and Conductors tetra.
+2026-04-24 - Corrected Psychosophy group naming across wiki: replaced source-unsafe “Purification/Очищение” as a group name with “1st sexta / 1st quadra (unofficial grouping)” and added caveats that sextas/quadras are not original Afanasyev terminology.

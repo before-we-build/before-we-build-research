@@ -1,34 +1,42 @@
 ---
-title: Psychosophy Quadras
+title: Psychosophy Sextas / Quadras
 type: source
-tags: [psychosophy, quadras, typology, operational-level]
+tags: [psychosophy, sextas, quadras, unofficial, typology, operational-level]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/sources/psychosophy-detailed.md, raw/psychosophy/aspects.md, psychosophy-library]
+sources: [wiki/sources/psychosophy-detailed.md, raw/psychosophy/aspects.md, psychosophy-library, bestsocionics, socionika.lv]
 ---
 
-# Psychosophy Quadras
+# Psychosophy Sextas / Quadras
 
 ## Overview
 
-In the project source set, Psychosophy is grouped into **6 quadras**, each containing 4 fixed types. The grouping used here follows the community source tradition summarized in the Psychosophy Library and related Russian materials.
+In the project source set, Psychosophy has an **unofficial** grouping into **6 sextas**, also called **quadras** in some community sources. Each grouping contains 4 fixed types. This grouping follows the community source tradition summarized in the Psychosophy Library and related Russian materials.
 
-The key idea is that a quadra is not defined by a single leading aspect alone, but by a **stable type cluster** and its dominant thematic orientation.
+Important caveat:
 
-## Quadra Structure
+- These sextas/quadras are **not part of Afanasyev's original theory**.
+- They have **no official names** in the source-safe sense.
+- The thematic labels below are treated as **project/community shorthand**, not official terminology.
 
-| Quadra | Name | Type Cluster |
-|-------|-------|--------------|
-| **1** | Очищение | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ |
-| **2** | Хозяйство | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ |
-| **3** | Управление | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ |
-| **4** | Культура | ЛЭФВ, ЛФЭВ, ВФЭЛ, ВЭФЛ |
-| **5** | Потребление | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ |
-| **6** | Реорганизация | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ |
+The key idea is that a sexta/quadra is not defined by a single leading aspect alone, but by a **stable type cluster** and its dominant thematic orientation.
 
-## Quadra Descriptions
+## Sexta / Quadra Structure
 
-### 1. Очищение
+| Sexta / Quadra | Source-safe label | Type Cluster |
+|-----------------|-------------------|--------------|
+| **1** | 1st sexta / 1st quadra | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ |
+| **2** | 2nd sexta / 2nd quadra | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ |
+| **3** | 3rd sexta / 3rd quadra | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ |
+| **4** | 4th sexta / 4th quadra | ЛЭФВ, ЛФЭВ, ВФЭЛ, ВЭФЛ |
+| **5** | 5th sexta / 5th quadra | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ |
+| **6** | 6th sexta / 6th quadra | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ |
+
+## Sexta / Quadra Descriptions
+
+### 1. 1st sexta / 1st quadra
+
+Former project shorthand: `Очищение`. This is **not** treated as an official or standard name.
 
 **Core orientation:** `В + Л` as process, `Ф + Э` as result.
 
@@ -43,7 +51,9 @@ This quadra centers on inner backbone, self-definition, and direct structuring o
 - weak tolerance for diffuse emotional or material drift
 - impatience with unstructured dependence
 
-### 2. Хозяйство
+### 2. 2nd sexta / 2nd quadra
+
+Former project shorthand: `Хозяйство`. This is **not** treated as an official or standard name.
 
 **Core orientation:** `В + Ф` as process, `Л + Э` as result.
 
@@ -57,7 +67,9 @@ This quadra emphasizes stewardship, maintenance, and the practical management of
 **Typical blind spots:**
 - excessive focus on duty or comfort at the expense of abstract system-building
 
-### 3. Управление
+### 3. 3rd sexta / 3rd quadra
+
+Former project shorthand: `Управление`. This is **not** treated as an official or standard name.
 
 **Core orientation:** `Ф + Л` as process, `В + Э` as result.
 
@@ -72,7 +84,9 @@ This quadra is strongly associated with organizing systems, central coordination
 - pressure to control outcomes too rigidly
 - reduced flexibility in emotional or interpersonal matters
 
-### 4. Культура
+### 4. 4th sexta / 4th quadra
+
+Former project shorthand: `Культура`. This is **not** treated as an official or standard name.
 
 **Core orientation:** `Э + Ф` as process, `В + Л` as result.
 
@@ -86,7 +100,9 @@ This quadra prioritizes atmosphere, refinement, and the human side of practical 
 **Typical blind spots:**
 - over-investment in atmosphere versus hard structure
 
-### 5. Потребление
+### 5. 5th sexta / 5th quadra
+
+Former project shorthand: `Потребление`. This is **not** treated as an official or standard name.
 
 **Core orientation:** `Э + Л` as process, `Ф + В` as result.
 
@@ -101,7 +117,9 @@ This quadra is oriented toward intellectual-emotional exchange, interpretation, 
 - over-analysis or over-selection
 - drifting away from concrete implementation
 
-### 6. Реорганизация
+### 6. 6th sexta / 6th quadra
+
+Former project shorthand: `Реорганизация`. This is **not** treated as an official or standard name.
 
 **Core orientation:** `В + Э` as process, `Ф + Л` as result.
 
@@ -117,7 +135,7 @@ This quadra is associated with restructuring, renewal, and mobilizing people thr
 
 ## Practical Use
 
-For applied typing in this project, quadras are most useful as **broad role-fit filters**:
+For applied typing in this project, sextas/quadras are most useful as **broad role-fit filters**:
 
 - they show what kind of environment feels natural
 - they show what kind of work is energizing vs draining

@@ -25,12 +25,12 @@ From bestsocionics.com: *"The structure of psychosophy was first described by th
 
 ---
 
-## Quadra System (6 Quadras)
+## Unofficial Sexta / Quadra System (6 Groups)
 
-Psychosophy has **6 quadras**, each containing 4 fixed types. In the source material, quadras are defined by **exact type clusters**, not by a simple "first aspect = quadra" rule.
+Some community sources group Psychosophy types into **6 sextas**, also called **quadras**, each containing 4 fixed types. This is an **unofficial additional layer**, not a confirmed part of Afanasyev's original theory. In these sources, sextas/quadras are defined by **exact type clusters**, not by a simple "first aspect = quadra" rule.
 
-| Quadra | Types |
-|-------|-------|
+| Sexta / Quadra | Types |
+|----------------|-------|
 | **1** | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ |
 | **2** | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ |
 | **3** | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ |
@@ -38,15 +38,15 @@ Psychosophy has **6 quadras**, each containing 4 fixed types. In the source mate
 | **5** | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ |
 | **6** | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ |
 
-**Source:** Psychosophy Library / Psychosophy theory pages
+**Source status:** Psychosophy Library treats sextas/quadras, clubs, and contact blocks as unofficial additional sources; related community sources use the term "quadra" for the same grouping.
 
-### Determining Your Quadra
+### Determining Your Sexta / Quadra
 
 Your type format: `[1st, 2nd, 3rd, 4th]`
 
-- Determine quadra by the **full 4-letter type**, not by the first aspect alone.
-- Example: **ЭЛВФ** is **Quadra 1**.
-- Example: **ФВЛЭ** is **Quadra 1**.
+- Determine sexta/quadra by the **full 4-letter type**, not by the first aspect alone.
+- Example: **ЭЛВФ** is placed in the **1st sexta / 1st quadra** in these unofficial groupings.
+- Example: **ФВЛЭ** is placed in the **1st sexta / 1st quadra** in these unofficial groupings.
 - Example: **ВПНБ** does not apply here; that is Temporistics.
 
 ---
@@ -479,7 +479,7 @@ Each function can manifest with different accentuations based on which property 
 
 ## See Also
 
-- [[psychosophy-quadras]] — six quadra clusters and themes
+- [[psychosophy-quadras]] — unofficial sextas/quadras and type clusters
 
 ---
 
