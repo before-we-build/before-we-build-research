@@ -1067,3 +1067,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Expanded `emotion-vs-ethics-boundary.md` with expert web research from Wikisocion, BestSocionics, and Afanasyev sources; clarified that ЧЭ is not inner emotion and 1E is not Fe strength.
 2026-04-24 - Deepened `composite-profile-sli-elvf-vpnb.md` Temporistics section: clarified 1В as self-generated meaning/ideology, 2П as operational memory, 3Н as real-time chaos risk, and 4Б as externally framed future objectives.
 2026-04-24 - Added Russian and Ukrainian versions of the composite profile: `composite-profile-sli-elvf-vpnb-ru.md` and `composite-profile-sli-elvf-vpnb-uk.md`; added language switch links.
+2026-04-24 - Added `third-present-exile-latent-process.md` and updated composite profiles to treat 3Н as place/belonging/contact with the real present, not merely real-time chaos.

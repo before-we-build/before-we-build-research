@@ -4,7 +4,7 @@ type: concept
 tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation, ukrainian]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/sources/civilian-career-role-families.md, wiki/sources/ukraine-military-specialties-current.md]
+sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md, wiki/sources/civilian-career-role-families.md, wiki/sources/ukraine-military-specialties-current.md]
 ---
 
 # Композитний профіль SLI + ЕЛВФ + ВПНБ
@@ -83,7 +83,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 |---------|--------|------------------|
 | 1 | Вічність | самостійно створює сенс, світогляд, принципи й екзистенційне обґрунтування |
 | 2 | Минуле | використовує досвід, прецеденти, історію, логи й інституційну пам'ять |
-| 3 | Теперішнє | напруга навколо поточного місця, тиску моменту й real-time хаосу |
+| 3 | Теперішнє | болісний пошук конкретного місця, ролі, належності й контакту з теперішнім |
 | 4 | Майбутнє | легше слідує зовнішньо заданій цілі, ніж сам створює довгострокову стратегію з порожнечі |
 
 ### Головний зміст 1Вічності
@@ -98,7 +98,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 
 - **1В:** безсенсовне виконання й prestige-only робота виснажуватимуть навіть при технічному збігу.
 - **2П:** сильна зона для incident history, logs, postmortems, runbooks, documentation, retrospectives.
-- **3Н:** incident response можливий лише за зрозумілих ролей, escalation paths, runbooks і не принизливої культури.
+- **3Н:** справа не лише в хаосі. Потрібні конкретне місце в поточній ситуації, визнана роль, належність до команди й живий контакт із тим, що відбувається.
 - **4Б:** future-frame краще задавати ззовні: mission, SLA, roadmap, command priority, objective.
 
 ## Цивільна роль
@@ -122,7 +122,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 
 - **Соціоніка:** `1Si + 2Te` дає стійку технічну експлуатацію.
 - **Психософія:** `2Л` дає структуру й діагностику, `3В` попереджає проти токсичних статусних ігор.
-- **Темпористика:** `1В` потребує сенсу, `2П` любить операційну пам'ять, `3Н` потребує структурованого інцидентного процесу, `4Б` працює краще із заданими цілями.
+- **Темпористика:** `1В` потребує сенсу, `2П` любить операційну пам'ять, `3Н` потребує конкретного місця/ролі/належності в поточному полі, `4Б` працює краще із заданими цілями.
 - **Досвід:** DevOps уже є доведеним напрямом.
 
 ## Військова роль
@@ -149,7 +149,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - менше тисне на `3В`, якщо командна культура не принизлива;
 - поважає `1В`, якщо роль пов'язана з місією;
 - використовує `2П` через logs, documentation, postmortems;
-- береже `3Н`, якщо інциденти структуровані;
+- береже `3Н`, якщо інциденти дають зрозумілу роль, видиму відповідальність, runbooks, escalation і підтвердження “моя дія тут потрібна”;
 - підтримує `4Б`, якщо цілі задані через mission/SLA/command priority.
 
 ## Уникати
@@ -158,6 +158,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - ролі, побудовані на статусній конфронтації;
 - безсенсовне виконання без видимого “навіщо”;
 - постійний real-time хаос без ролей, runbooks і escalation;
+- фізична присутність у команді без інтеграції, визнання й конкретної ролі;
 - фізична grind-роль, де тіло й витривалість стають головною ідентичністю;
 - чиста бюрократія без технічного змісту.
 
@@ -186,3 +187,4 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - [[emotion-vs-ethics-boundary]]
 - [[civilian-career-role-families]]
 - [[ukraine-military-specialties-current]]
+- [[third-present-exile-latent-process]]

@@ -4,7 +4,7 @@ type: concept
 tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md]
+sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md]
 ---
 
 # Composite Profile SLI + ЭЛВФ + ВПНБ
@@ -331,7 +331,7 @@ Notes:
 |----------|--------|-------------------|
 | 1 | В | self-generates meaning, worldview, principles, and existential justification |
 | 2 | П | uses experience, precedent, history, logs, and institutional memory as working material |
-| 3 | Н | tension around immediate pressure, current place, real-time chaos, and territorial presence |
+| 3 | Н | painful search for concrete place, role, belonging, and contact with the real present |
 | 4 | Б | follows externally framed future objectives more easily than self-inventing long-range direction |
 
 #### Temporistics Takeaway
@@ -357,9 +357,11 @@ Notes:
 
 **3Н — Third Present / Exile**
 
-- Main caution: chaotic real-time pressure, unclear place in the current situation, constant interruptions, and improvisation without a frame.
-- Incident response can fit only when there are clear roles, escalation paths, runbooks, and a non-humiliating command culture.
-- Frontline or field roles where the present moment constantly overrides system logic are higher risk.
+- The core issue is not just chaos. It is the painful question: "Where is my place here, and am I really included in what is happening?"
+- The Present is perceived through contact and interaction; 3Н needs a concrete role, recognized place, and real participation in the current field.
+- Chaotic real-time pressure is risky because it destroys role clarity and can intensify the feeling of exile inside the situation.
+- Incident response can fit only when there are clear roles, escalation paths, runbooks, and a non-humiliating team culture that confirms "your action matters here."
+- Frontline or field roles where place, authority, and immediate role are constantly unstable are higher risk.
 
 **4Б — Fourth Future / Passenger**
 
@@ -394,7 +396,7 @@ Notes:
 - meaning-first orientation: work must connect to a larger why
 - continuity and procession matter, but only as carriers of meaningful purpose
 - 2П supports learning from incidents, history, logs, runbooks, and precedent
-- 3Н warns against chaotic present-pressure without clear role or frame
+- 3Н warns against exile inside the current situation: unclear place, undefined role, poor belonging, and chaotic present-pressure without concrete contact
 - 4Б works best when future objectives are externally framed as mission, SLA, roadmap, or command priority
 - not ideal for chaotic roles with no stable narrative or convincing reason to endure them
 
@@ -425,7 +427,7 @@ Traceability:
 
 - **Socionics:** 1Si + 2Te technical steadiness, with 4Fe caution around emotional pressure and 5Ne need for supportive option-framing
 - **Psychosophy:** 2L supports structure, 3V warns against coercive status games
-- **Temporistics:** 1В needs meaningful mission, 2П supports operational memory, 3Н requires structured incident conditions, 4Б benefits from externally framed objectives
+- **Temporistics:** 1В needs meaningful mission, 2П supports operational memory, 3Н requires concrete role/place/belonging in the current field, 4Б benefits from externally framed objectives
 - **Civil background:** DevOps already proves fit in a real environment
 
 ## Military Fit
@@ -449,14 +451,14 @@ Why:
 - avoids over-pressuring 3V
 - fits 1В when the infrastructure is understood as protecting the digital or communications nervous system of an army, state, or mission
 - uses 2П through logs, incident memory, documentation, postmortems, and prevention of repeated failures
-- can work with 3Н if incident response is structured by clear roles, runbooks, and escalation paths
+- can work with 3Н if incident response gives a concrete place in the team: clear role, visible responsibility, runbooks, escalation paths, and practical feedback
 - supports 4Б when priorities are framed by mission, SLA, command need, or concrete operational objective
 
 Traceability:
 
 - **Socionics:** technical-operational fit, low appetite for chaos-heavy social pressure
 - **Psychosophy:** strong Logic, vulnerable Will under coercive hierarchy, low desire to make hardship the center
-- **Temporistics:** strongest when technical reliability visibly serves a meaningful mission, preserves institutional memory, and avoids unstructured present-chaos
+- **Temporistics:** strongest when technical reliability visibly serves a meaningful mission, preserves institutional memory, and gives a concrete place in the current mission rather than exile inside unstructured present-chaos
 - **Role catalog:** best direct overlap with cyber infrastructure, network administration, monitoring, incident response, and technical support families
 
 ### Backup Military Roles
@@ -482,6 +484,7 @@ If two roles are both possible, prefer the one that:
 - has clearer operational continuity and institutional memory
 - uses existing DevOps skills
 - has structured incident response instead of constant improvisational chaos
+- gives a concrete role and sense of belonging in the current team/mission
 - provides externally framed objectives rather than vague future speculation
 - minimizes coercive pressure
 
@@ -493,6 +496,7 @@ If two roles are both possible, prefer the one that:
 - technical systems whose purpose is existentially or socially meaningful
 - roles where reliability matters more than status theater
 - environments with a clear task contour and explicit feedback
+- teams where the current role and place are explicit, recognized, and useful
 - logs, documentation, runbooks, postmortems, and learning from failures
 - teams where pressure exists, but humiliation is not the management style
 
@@ -503,6 +507,7 @@ If two roles are both possible, prefer the one that:
 - careers built on pure personal dominance
 - high-chaos environments that reward visibility over utility
 - unstructured real-time firefighting without roles, escalation paths, or postmortems
+- being physically present in a team but not integrated, recognized, or given a concrete role
 - roles demanding vague long-range strategy without an external mission frame
 - roles where physical grind becomes the main identity instead of a condition of work
 
@@ -511,6 +516,7 @@ If two roles are both possible, prefer the one that:
 - choose systems, not theater
 - choose meaningful infrastructure, not empty execution
 - choose continuity and institutional memory, not random escalation
+- choose a concrete place in the current system, not exile inside activity
 - choose real usefulness over prestige branding
 - choose externally framed objectives over vague future speculation
 - when in doubt, trust environments where your work can be measured by stability, recovery, and operational clarity
@@ -527,3 +533,4 @@ If two roles are both possible, prefer the one that:
 - [[ukraine-military-specialties-current]]
 - [[smart-mobilization-research-note]]
 - [[socionics-function-dichotomies]]
+- [[third-present-exile-latent-process]]

@@ -3,8 +3,8 @@ title: Exile (Izgnannik)
 type: entity
 tags: [temporistics, present, third-aspect, painful, temporistics-type]
 created: 2025-01-15
-updated: 2025-01-15
-sources: [raw/temporistics/izgnannik-exile.md]
+updated: 2026-04-24
+sources: [raw/temporistics/izgnannik-exile.md, raw/temporistics/mystery-of-third-aspect.md]
 ---
 
 # Exile (Изгнанник)
@@ -34,6 +34,24 @@ Often feels they have no place at this "party of life," that their home is not h
 - Often fluctuates from detachment to excessive inclusion
 - Such "inclusion" resembles imitation of vigorous activity
 
+## Latent Process
+
+The Present is perceived through contact and interaction with people, environment, nature, and the immediate world. Its fruit is **confidence**: the felt certainty that "I am here, this is real, I have a place, and my action matters now."
+
+In the third position, this process is distorted. The article on the third aspect says the true Present is **real, subject to control, and concrete**, but the third-aspect lie presents it as **unreal, not subject to control, and abstract**.
+
+This creates the Exile's core wound:
+
+- the current place feels not fully real or not truly theirs
+- the person doubts they can influence what is happening now
+- instead of seeing the concrete environment, they may react to vague images and interpretations
+- they search for a "real home" or "real present" elsewhere
+
+Healthy development means consciously entering the imperfect present and learning to feel:
+
+1. What is happening is what should be happening.
+2. I am where I need to be and doing what I need to do.
+
 ## Strengths of the Exile
 
 1. **Unceasing search, aspiration** - Such a person is not threatened by sinking into routine, losing main questions in everyday life, or settling for less
@@ -53,3 +71,4 @@ Often feels they have no place at this "party of life," that their home is not h
 - [[local-mestnyi]]
 - [[guest-gost]]
 - [[latent-process]]
+- [[third-present-exile-latent-process]]

@@ -37,6 +37,7 @@ wiki/          — LLM-generated wiki
 | [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
 | [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the SLI + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the SLI + ЕЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
+| [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | psycalc/Psyche-Yoga |
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | psycalc/Psyche-Yoga |
 | [[psychosophy-model]] | Psychosophy type structure | psycalc/Psyche-Yoga |
@@ -280,9 +281,9 @@ wiki/          — LLM-generated wiki
 - **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
-- **Wiki pages**: 92 (20 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
+- **Wiki pages**: 93 (21 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 57 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 20
+- **Concepts**: 21
 - **Last updated**: 2026-04-24

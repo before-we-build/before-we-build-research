@@ -4,7 +4,7 @@ type: concept
 tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation, russian]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/sources/civilian-career-role-families.md, wiki/sources/ukraine-military-specialties-current.md]
+sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md, wiki/sources/civilian-career-role-families.md, wiki/sources/ukraine-military-specialties-current.md]
 ---
 
 # Композитный профиль SLI + ЭЛВФ + ВПНБ
@@ -83,7 +83,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 |---------|--------|--------------------|
 | 1 | Вечность | самостоятельно создаёт смысл, мировоззрение, принципы и экзистенциальное обоснование |
 | 2 | Прошлое | использует опыт, прецеденты, историю, логи и институциональную память |
-| 3 | Настоящее | напряжение вокруг текущего места, давления момента и real-time хаоса |
+| 3 | Настоящее | болезненный поиск конкретного места, роли, принадлежности и контакта с настоящим |
 | 4 | Будущее | легче следует внешне заданной цели, чем сам создаёт долгосрочную стратегию из пустоты |
 
 ### Главный смысл 1Вечности
@@ -98,7 +98,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 
 - **1В:** бессмысленное исполнение и prestige-only работа будут выжигать даже при техническом совпадении.
 - **2П:** сильная зона для incident history, logs, postmortems, runbooks, documentation, retrospectives.
-- **3Н:** incident response возможен только при понятных ролях, escalation paths, runbooks и неунижающей культуре.
+- **3Н:** дело не только в хаосе. Нужны конкретное место в текущей ситуации, признанная роль, принадлежность к команде и живой контакт с происходящим.
 - **4Б:** future-frame лучше задавать извне: mission, SLA, roadmap, command priority, objective.
 
 ## Гражданская роль
@@ -122,7 +122,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 
 - **Соционика:** `1Si + 2Te` даёт устойчивую техническую эксплуатацию.
 - **Психософия:** `2Л` даёт структуру и диагностику, `3В` предупреждает против токсичных статусных игр.
-- **Темпористика:** `1В` требует смысла, `2П` любит операционную память, `3Н` требует структурированного инцидентного процесса, `4Б` работает лучше с заданными целями.
+- **Темпористика:** `1В` требует смысла, `2П` любит операционную память, `3Н` требует конкретного места/роли/принадлежности в текущем поле, `4Б` работает лучше с заданными целями.
 - **Опыт:** DevOps уже является доказанным направлением.
 
 ## Военная роль
@@ -149,7 +149,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - меньше давит на `3В`, если командная культура не унижающая;
 - уважает `1В`, если роль связана с миссией;
 - использует `2П` через logs, documentation, postmortems;
-- бережёт `3Н`, если инциденты структурированы;
+- бережёт `3Н`, если инциденты дают понятную роль, видимую ответственность, runbooks, escalation и подтверждение “моё действие здесь нужно”;
 - поддерживает `4Б`, если цели заданы через mission/SLA/command priority.
 
 ## Избегать
@@ -158,6 +158,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - роли, построенные на статусной конфронтации;
 - бессмысленное исполнение без видимого “зачем”;
 - постоянный real-time хаос без ролей, runbooks и escalation;
+- физическое присутствие в команде без интеграции, признания и конкретной роли;
 - физическая grind-роль, где тело и выносливость становятся главной идентичностью;
 - чистая бюрократия без технического содержания.
 
@@ -186,3 +187,4 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - [[emotion-vs-ethics-boundary]]
 - [[civilian-career-role-families]]
 - [[ukraine-military-specialties-current]]
+- [[third-present-exile-latent-process]]
