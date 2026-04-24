@@ -5,6 +5,7 @@ Chronological record of wiki activity. Append-only.
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
 2026-04-24 - Added PsyCalc front-door orientation: root `README.md`, clearer `main-idea.md`, `project-positioning.md`, updated index introduction, and glossary framing to distinguish PsyCalc from Cognitive Matchmaker.
+2026-04-24 - Added `psycalc-vs-big-five.md` to position Big Five as the validated descriptive baseline and PsyCalc as a heuristic latent-process architecture for compatibility, role-fit, and AI simulation.
 
 ---
 
