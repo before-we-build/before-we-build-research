@@ -55,20 +55,21 @@ Socionics relation names are traditional and should generally be preserved. Howe
 
 | Current name | Does it reflect the mechanism? | PsyCalc-safe form |
 |---|---|---|
-| Identity | mostly yes | Identity: same tactical information architecture |
-| Duality | partly; traditional but metaphorical | Duality: complementary tactical information exchange |
-| Activation | yes | Activation: mutual information-energy mobilization |
-| Mirror | partly | Mirror: shared values with reversed leading/creative emphasis |
-| Benefactor | partly; too moralized | Benefaction: asymmetric tactical support / benefit relation |
-| Supervision | yes but loaded | Supervision: asymmetric pressure on vulnerable information zone |
-| Business | weak; too generic | Business: pragmatic information coordination with divergent aims |
-| Mediator | weak; unclear mechanism | Mediation: pleasant low-stakes interaction with weak joint execution |
-| Quasi-identity | mostly yes | Quasi-identity: similar surface style, different information priorities |
-| Extinguishment | metaphorical but useful | Extinguishment: mutual damping of information approach |
-| Conflict | outcome-based | Conflict: close-range information-value mismatch |
+| Identity | mostly yes | Identity: same-model information processing symmetry |
+| Duality | partly; traditional but metaphorical | Duality: complementary valued-function coverage |
+| Activation | yes | Activation: mutual valued-function stimulation |
+| Mirror | partly | Mirror: parallel valued-functions with leading/creative inversion |
+| Benefactor / Benefit | partly; too moralized | Benefit: asymmetric suggestive-function attraction |
+| Supervision | yes but loaded | Supervision: asymmetric pressure on vulnerable function |
+| Business | weak; too generic | Business: pragmatic strong-function coordination across values |
+| Look-alike / Comparative | moderate | Look-alike: surface-style similarity with valuation mismatch |
+| Mediator / Mirage | weak; unclear mechanism | Mirage: partial comfort without stable information alignment |
+| Quasi-identity | mostly yes | Quasi-identity: conceptual similarity with valuation mismatch |
+| Extinguishment | metaphorical but useful | Extinguishment: reciprocal damping of information initiative |
+| Conflict | outcome-based | Conflict: reciprocal strong-to-weak valuation clash |
 | Social Order | ambiguous | Social Order: asymmetric informational hierarchy / request dynamic |
-| Kindred | partly | Kindred: similar topics, divergent implementation styles |
-| Semi-duality | traditional but derivative | Semi-duality: partial tactical complementarity |
+| Kindred | partly | Kindred: shared leading-function with value divergence |
+| Semi-duality | traditional but derivative | Semi-duality: partial complementary coverage of valued weaknesses |
 
 Policy: keep canonical Socionics names, but never use them as total compatibility verdicts. In PsyCalc they describe tactical information interaction only.
 
@@ -93,15 +94,16 @@ These labels can remain because they are source-backed in the Psychosophy tradit
 |---|---|---|
 | Order | acceptable but too generic | Order: asymmetrical operational leadership / followership |
 | Mirage | metaphorical, mechanism unclear | Mirage: attractive operational mismatch |
-| Therapy-Misunderstanding | useful but awkward | Partial Support with Misreading |
-| Therapy-Attraction | useful but awkward | Asymmetric Support-Attraction |
+| Therapy-Misunderstanding | useful but awkward; “therapy” overclaims | Partial Support with Misreading |
+| Therapy-Attraction | useful but awkward; “therapy” overclaims | Asymmetric Support-Attraction |
+| Therapeutic Guidance | “therapeutic” overclaims in a working label | Operational Guidance with Pressure Risk |
 | Neutrality | acceptable | Neutrality: low activation / low operational demand |
-| Revision | borrowed-feeling but commonly used | Revision: corrective operational pressure |
-| Conflict Submission | too deterministic and power-loaded | Strong Inversion / Submission-Risk Pattern |
-| Extinguishment | acceptable if explained | Extinguishment: mutual damping of operational expression |
+| Revision | borrowed-feeling but commonly used | Corrective Operational Pressure |
+| Conflict Submission | too deterministic and power-loaded | Strong Inversion with Submission Risk |
+| Extinguishment | acceptable if explained | Mutual Damping of Operational Expression |
 | Anchor | good mechanism name | keep as Anchor, mark PsyCalc working label |
 | Shared Wound | good mechanism name | keep as Shared Wound |
-| Full Complement | acceptable but must avoid “ideal” meaning | Full Complement: high complementarity with dependency risk |
+| Full Complement | acceptable but must avoid “ideal” meaning | High Complementarity with Pressure Risk |
 
 Policy: Psychosophy should use hybrid names: traditional Greek label plus mechanism descriptor for classical relations; mechanism-first names for working or extended relations.
 
@@ -114,29 +116,29 @@ The current PsyCalc names mostly follow this rule. They should remain explicitly
 | Signature | Current proposed name | Assessment | Suggested form |
 |---|---|---|---|
 | `1234` | Temporal Identity | good | Temporal Identity: same strategic temporal frame |
-| `1243` | Shared Frame with Weak-Zone Exchange | good but long | Shared Frame / Weak-Zone Exchange |
-| `1324` | Creative-Wound Exchange | good | Creative-Wound Exchange |
-| `1342` | Sovereign Frame with Developmental Drift | descriptive but long | Sovereign Frame Drift |
-| `1423` | Sovereign Frame with Therapeutic Exchange | “therapeutic” may overclaim | Sovereign Frame with Support Exchange |
-| `1432` | Strong-Axis Identity with Lower Inversion | good | Strong-Axis Identity / Lower Inversion |
-| `2134` | Leading-Axis Exchange | good | Leading-Axis Exchange |
+| `1243` | Shared Frame with Weak-Zone Exchange | good but underspecified | Shared Upper Frame with Painful-Blind Exchange |
+| `1324` | Creative-Wound Exchange | good but omits shared target/blind context | Shared Target with Creative-Wound Exchange |
+| `1342` | Sovereign Frame with Developmental Drift | descriptive but long; “developmental” can overpromise | Shared Target with Lower-Position Rotation |
+| `1423` | Sovereign Frame with Therapeutic Exchange | “therapeutic” overclaims | Shared Target with Support-Drift Chain |
+| `1432` | Strong-Axis Identity with Lower Inversion | “strong-axis” is misleading because 3rd is vulnerable | Target-Wound Identity with Creative-Blind Inversion |
+| `2134` | Leading-Axis Exchange | good but less transparent | Target-Creative Exchange with Shared Lower Zones |
 | `2143` | Paired Axis Exchange | good | Paired Axis Exchange |
-| `2314` | Guidance Chain | acceptable | Developmental Guidance Chain |
+| `2314` | Guidance Chain | too positive; hides wound-authority pressure | Target-Creative-Wound Chain |
 | `2341` | Forward Rotation | good structural name | Forward Rotation |
-| `2413` | Creative-Anchor Rotation | good | Creative-Anchor Rotation |
-| `2431` | Supportive Inversion | good | Supportive Inversion |
-| `3124` | Wound-Authority Contact | excellent mechanism name | Wound-Authority Contact |
+| `2413` | Creative-Anchor Rotation | good but underplays wound pressure | Creative-Anchor Rotation with Wound Pressure |
+| `2431` | Supportive Inversion | too positive because shared 3rd remains central | Anchor-Support Cycle with Shared Wound |
+| `3124` | Wound-Authority Contact | excellent mechanism name, but “authority” can sound social | Target-Wound Contact |
 | `3142` | Overpressure with Blind Compensation | good | Overpressure with Blind Compensation |
-| `3214` | Upper Inversion with Shared Blind | good | Upper Inversion with Shared Blind |
+| `3214` | Upper Inversion with Shared Blind | “upper” is imprecise because 3rd is not upper | Target-Wound Inversion with Shared Blind |
 | `3241` | Wound-Centered Rotation | good | Wound-Centered Rotation |
-| `3412` | Pressure-Anchor Cycle | good | Pressure-Anchor Cycle |
+| `3412` | Pressure-Anchor Cycle | good, but inversion is more precise | Pressure-Anchor Inversion |
 | `3421` | Overpressure Inversion | good | Overpressure Inversion |
 | `4123` | Anchor-Development Chain | good | Anchor-Development Chain |
 | `4132` | Anchor with Shared Wound | good | Anchor with Shared Wound |
-| `4213` | Authority-Anchor Exchange | good | Authority-Anchor Exchange |
-| `4231` | Anchored Development | slightly too positive | Anchored Development with Shared Wound |
-| `4312` | Near-Full Complement | acceptable | Near-Full Complement with Pressure Risk |
-| `4321` | Full Temporal Complement | acceptable but caveat needed | Full Temporal Complement: strategic inversion, not ideal match |
+| `4213` | Authority-Anchor Exchange | underplays pressure and “authority” can sound social | Anchor-Pressure Exchange with Shared Creative |
+| `4231` | Anchored Development | too positive because shared 3rd remains central | Target-Blind Anchor with Shared Wound |
+| `4312` | Near-Full Complement | acceptable only with caveat | Near-Full Complement with Pressure Risk |
+| `4321` | Full Temporal Complement | structurally accurate but sounds idealized | Full Temporal Complement: Strategic Inversion |
 
 Policy: do not use Duality, Agape, Eros, Activation, Supervision, or Conflict as Temporistics relation names unless explicitly marked as analogy. Temporistics needs strategic temporal/existential language.
 

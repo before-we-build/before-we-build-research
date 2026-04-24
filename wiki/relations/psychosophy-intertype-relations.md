@@ -82,29 +82,29 @@ The full matrix uses compact codes. Some names are more established than others.
 | PH | Philia | `1234` | classical / source-backed | same type; recognition and similar problems |
 | PPH | Pseudophilia | `1243` | classical label, signature mapping provisional | surface similarity with lower-position mismatch |
 | MR | Mirage | `1324` | extended/community | attractive but unstable mismatch |
-| TMR | Therapy-Misunderstanding | `1342` | extended/community | partial help mixed with poor translation |
-| TAT | Therapy-Attraction | `1423` | extended/community | asymmetrical support/attraction |
+| TMR | Partial Support with Misreading | `1342` | extended/community, renamed for PsyCalc display | partial help mixed with poor translation |
+| TAT | Asymmetric Support-Attraction | `1423` | extended/community, renamed for PsyCalc display | asymmetrical support/attraction without implying therapy |
 | NT | Neutrality | `1432` | extended/community | low activation, polite distance |
 | AG | Agape | `2134` | classical label, signature mapping from current matrix | flexible support and operational complementarity |
 | ORD | Order | `2143` | extended/community | one leads, one follows |
 | AG2 | Agape Variant | `2314` | working label | second Agape-like structural route |
 | ROT | Role Rotation | `2341` | PsyCalc working label | functions rotate through positions |
-| TG | Therapeutic Guidance | `2413` | PsyCalc working label | guidance with pressure risk |
+| TG | Operational Guidance with Pressure Risk | `2413` | PsyCalc working label, renamed for PsyCalc display | guidance with pressure risk without implying therapy |
 | SUP | Supportive Inversion | `2431` | PsyCalc working label | partial inversion with support potential |
-| OR | Order Variant | `3124` | extended/community mapping | asymmetrical leadership/pressure |
-| RV | Revision | `3142` | extended/community | corrective/frictional pressure |
-| RV2 | Revision Variant | `3214` | extended/community mapping | stronger revision-like mismatch |
+| OR | Asymmetric Operational Pressure | `3124` | extended/community mapping, renamed for PsyCalc display | asymmetrical leadership/pressure |
+| RV | Corrective Operational Pressure | `3142` | extended/community, renamed for PsyCalc display | corrective/frictional pressure |
+| RV2 | Strong Corrective Mismatch | `3214` | extended/community mapping, renamed for PsyCalc display | stronger revision-like mismatch |
 | CP | Conflict Pressure | `3241` | PsyCalc working label | pressure around vulnerable zones |
 | ER | Eros | `3412` | classical label, signature mapping provisional | intense attraction and wound activation |
-| EX | Extinguishment | `3421` | extended/community | distance, damping, formal respect |
+| EX | Mutual Damping of Operational Expression | `3421` | extended/community, renamed for PsyCalc display | distance, damping, formal respect |
 | AN | Anchor | `4123` | PsyCalc working label | strong-to-weak support with hierarchy |
 | ANW | Anchor with Wound | `4132` | PsyCalc working label | anchoring plus shared/activated vulnerability |
 | MX | Mixed Complement | `4213` | PsyCalc working label | support and pressure coexist |
 | SW | Shared Wound | `4231` | PsyCalc working label | shared 3rd-position sensitivity |
-| FC | Full Complement | `4312` | PsyCalc working label | near-complete complement with pressure risk |
-| CS | Conflict Submission | `4321` | extended/community | strong inversion; high dependence/conflict risk |
+| FC | High Complementarity with Pressure Risk | `4312` | PsyCalc working label, renamed for PsyCalc display | near-complete complement with pressure risk |
+| CS | Strong Inversion with Submission Risk | `4321` | extended/community, renamed for PsyCalc display | strong inversion; high dependence/conflict risk |
 
-Important: the code legend is intended to make the full matrix usable. It should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
+Important: the code legend is intended to make the full matrix usable. Classical labels such as Agape, Philia, Eros, and Pseudophilia are retained as tradition-aware labels. Community or working labels are displayed with mechanism-first names where the older label is too romantic, moralized, deterministic, or unclear. The legend should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
 
 ## 6. Full 24 × 24 Psychosophy Relation Matrix
 

@@ -19,10 +19,13 @@ permissions:
 
 ```
 master-orchestrator ⚜ (reports_to: null)
-├── Research Team (7)
+├── Research Team (10)
 │   ├── typology-researcher (lead/coordinator)
 │   │   ├── socionics-researcher (scope: socionics)
+│   │   ├── socionics-intertype-relations-expert (scope: Socionics relation names/processes)
 │   │   ├── psychosophy-researcher (scope: psychosophy)
+│   │   ├── psychosophy-intertype-relations-expert (scope: Psychosophy relation names/processes)
+│   │   ├── temporistics-intertype-relations-expert (scope: Temporistics relation signatures/processes)
 │   │   ├── sociology-researcher (scope: sociology/social context)
 │   │   ├── neuroscience-researcher (scope: neuroscience/brain mechanisms)
 │   │   ├── temporistics-researcher (scope: temporistics)

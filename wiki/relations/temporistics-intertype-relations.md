@@ -172,29 +172,29 @@ The table below gives provisional names for all 24 structural signatures. These 
 | Signature | Proposed relation name | Position pattern | Strategic interpretation | Broad family |
 |---|---|---|---|---|
 | `1234` | Temporal Identity | same order | identical temporal architecture | identity |
-| `1243` | Shared Frame with Weak-Zone Exchange | 1/2 same, 3/4 swapped | same strong temporal language, but wound/blind handling differs | resonance + weak-zone risk |
-| `1324` | Creative-Wound Exchange | 2 ↔ 3 | one partner's flexible temporal process meets the other's wound | developmental support / pressure |
-| `1342` | Sovereign Frame with Developmental Drift | 1 same, 2→3→4→2 | shared first aspect, but support, wound, and blind zones circulate | mixed resonance |
-| `1423` | Sovereign Frame with Therapeutic Exchange | 1 same, 2↔4 and 3↔2 | shared first aspect with possible 2→3 support and 4-zone drift | mixed support |
-| `1432` | Strong-Axis Identity with Lower Inversion | 1 same, 2↔4, 3 same | same main temporal axis, but creative/blind mismatch and shared wound | resonance + shared wound |
-| `2134` | Leading-Axis Exchange | 1 ↔ 2 | target and creative positions exchange | parallel resonance |
+| `1243` | Shared Upper Frame with Painful-Blind Exchange | 1/2 same, 3/4 swapped | same strong temporal language, but painful/blind handling differs | resonance + weak-zone risk |
+| `1324` | Shared Target with Creative-Wound Exchange | 2 ↔ 3 | one partner's flexible temporal process meets the other's painful zone while target/blind context is shared | developmental support / pressure |
+| `1342` | Shared Target with Lower-Position Rotation | 1 same, 2→3→4→2 | shared first aspect, but support, wound, and blind zones circulate | mixed resonance |
+| `1423` | Shared Target with Support-Drift Chain | 1 same, 2↔4 and 3↔2 | shared first aspect with possible 2→3 support and 4-zone drift | mixed support |
+| `1432` | Target-Wound Identity with Creative-Blind Inversion | 1 same, 2↔4, 3 same | same target and same wound, but creative/blind handling is inverted | resonance + shared wound |
+| `2134` | Target-Creative Exchange with Shared Lower Zones | 1 ↔ 2 | target and creative positions exchange while painful/blind zones match | parallel resonance |
 | `2143` | Paired Axis Exchange | 1↔2 and 3↔4 | upper aspects understand each other, lower aspects risk neglect | resonance + blind/wound risk |
-| `2314` | Guidance Chain | 1→2→3→1, 4 same | strong/creative/painful positions form a developmental chain | asymmetric guidance |
+| `2314` | Target-Creative-Wound Chain | 1→2→3→1, 4 same | strong/creative/painful positions form a chain with both guidance and pressure | asymmetric guidance |
 | `2341` | Forward Rotation | 1→2→3→4→1 | all positions rotate forward | strategic circulation |
-| `2413` | Creative-Anchor Rotation | 1→2, 2→4, 3→1, 4→3 | support and pressure coexist; one wound meets authority | mixed / overpressure risk |
-| `2431` | Supportive Inversion | 1→2, 2→4, 3→3, 4→1 | strong-to-creative support with shared wound and anchor complement | mixed support |
-| `3124` | Wound-Authority Contact | 1→3, 2→1, 3→2, 4 same | one person's target aspect hits the other's painful aspect | temporal overpressure |
+| `2413` | Creative-Anchor Rotation with Wound Pressure | 1→2, 2→4, 3→1, 4→3 | support and pressure coexist; one wound meets temporal-frame authority | mixed / overpressure risk |
+| `2431` | Anchor-Support Cycle with Shared Wound | 1→2, 2→4, 3→3, 4→1 | strong-to-creative support with shared wound and anchor complement | mixed support |
+| `3124` | Target-Wound Contact | 1→3, 2→1, 3→2, 4 same | one person's target aspect hits the other's painful aspect | temporal overpressure |
 | `3142` | Overpressure with Blind Compensation | 1→3, 2→1, 3→4, 4→2 | strong wound-pressure plus possible blind-zone guidance | overpressure |
-| `3214` | Upper Inversion with Shared Blind | 1↔3, 2 same, 4 same | target/painful inversion with shared blind spot | overpressure + blind collusion |
+| `3214` | Target-Wound Inversion with Shared Blind | 1↔3, 2 same, 4 same | target/painful inversion with shared blind spot | overpressure + blind collusion |
 | `3241` | Wound-Centered Rotation | 1→3, 2→2, 3→4, 4→1 | painful contact dominates despite some support | overpressure / fragmentation |
-| `3412` | Pressure-Anchor Cycle | 1→3, 2→4, 3→1, 4→2 | mutual wound/authority pressure with some blind guidance | high-pressure complement |
+| `3412` | Pressure-Anchor Inversion | 1→3, 2→4, 3→1, 4→2 | mutual target-wound pressure with some blind guidance | high-pressure complement |
 | `3421` | Overpressure Inversion | 1→3, 2→4, 3→2, 4→1 | strong wound pressure partly softened by 3↔2 support | risky development |
 | `4123` | Anchor-Development Chain | 1→4, 2→1, 3→2, 4→3 | strong aspect anchors blind zone while wound receives 2nd support | anchor complement |
 | `4132` | Anchor with Shared Wound | 1→4, 2→1, 3 same, 4→2 | anchoring is possible, but one wound remains shared | anchor + shared wound |
-| `4213` | Authority-Anchor Exchange | 1→4, 2→2, 3→1, 4→3 | one side anchors while another's wound meets authority | mixed complement / pressure |
-| `4231` | Anchored Development | 1→4, 2→2, 3→3, 4→1 | mutual 1↔4 anchoring with stable 2nd and shared 3rd | anchor + shared wound |
-| `4312` | Near-Full Complement | 1→4, 2→3, 3→1, 4→2 | close to full complement but includes 1↔3 pressure | complement with risk |
-| `4321` | Full Temporal Complement | full inversion | 1↔4 and 2↔3 across the whole structure | full complement |
+| `4213` | Anchor-Pressure Exchange with Shared Creative | 1→4, 2→2, 3→1, 4→3 | one side anchors while another's wound meets temporal-frame authority | mixed complement / pressure |
+| `4231` | Target-Blind Anchor with Shared Wound | 1→4, 2→2, 3→3, 4→1 | mutual 1↔4 anchoring with stable 2nd and shared 3rd | anchor + shared wound |
+| `4312` | Near-Full Complement with Pressure Risk | 1→4, 2→3, 3→1, 4→2 | close to full complement but includes 1↔3 pressure | complement with risk |
+| `4321` | Full Temporal Complement: Strategic Inversion | full inversion | 1↔4 and 2↔3 across the whole structure; complementarity is structural, not proof of ideal fit | full complement |
 
 ### 6.2 Interpretive families
 
@@ -203,13 +203,13 @@ The following are broader interpretive families. They are useful for explanation
 | Relation name | Structural pattern | Strategic meaning | Strengths | Risks | Example type pair | Confidence |
 |---|---|---|---|---|---|---|
 | Temporal Identity | `1234` | Same temporal architecture | immediate recognition, shared priorities | identical blind spots, little compensation | EPNF + EPNF | medium structural / low empirical |
-| Full Temporal Complement | `4321` | Maximum inversion of positions | strong zones cover weak zones; strategic completion | support can become dependency or control | EPNF + FNPE | medium structural / low empirical |
+| Full Temporal Complement: Strategic Inversion | `4321` | Maximum inversion of positions | strong zones cover weak zones; strategic completion hypothesis | support can become dependency or control; not an ideal-match claim | EPNF + FNPE | medium structural / low empirical |
 | Developmental Support | strong `2 ↔ 3` without major `1 ↔ 3` | vulnerable temporal zone receives flexible help | healing, learning, safe development | too much help may feel therapeutic or unequal | ENPF + FENP | low-medium |
 | Anchor Complement | strong `1 ↔ 4` with low wound pressure | one anchors what the other neglects | clarity, stability, delegated orientation | passivity, over-reliance, frame domination | EPFN + NFPE | low-medium |
 | Parallel Resonance | many `1 ↔ 1`, `2 ↔ 2`, `1 ↔ 2` contacts | similar temporal language and direction | easy strategic agreement | redundancy; shared weaknesses remain | NEFP + NFEP | low |
 | Temporal Reflection | same strong aspects but reversed or re-ordered | each recognizes the other's temporal theme from another angle | comparison, dialogue, mutual correction | irritation over different priority order | PNFE + PNEF | low |
 | Asymmetric Guidance | one partner gives more `1/2 → 3/4` support than receives | mentor-guide temporal relation | useful for growth, teaching, spiritual or life-direction guidance | inequality, dependency, hidden resentment | EPNF + PENF | low |
-| Temporal Overpressure | one or more `1 ↔ 3` contacts | certainty presses vulnerability | can provoke growth if gentle | shame, fear, defensiveness, strategic rupture | EPNF + NEFP | low-medium as risk hypothesis |
+| Temporal Overpressure | one or more `1 ↔ 3` contacts | target certainty presses temporal vulnerability | can provoke growth if gentle | shame, fear, defensiveness, strategic rupture | EPNF + NEFP | low-medium as risk hypothesis |
 | Shared Temporal Wound | `3 ↔ 3` on important aspect | both carry similar vulnerability | empathy, recognition | poor repair capacity; co-rumination | NEFP + PEFN | low-medium as risk hypothesis |
 | Blind-Spot Collusion | `4 ↔ 4`, repeated `3 ↔ 4`, or weak-world overlap | important temporal domain is ignored or mishandled | low immediate friction | missed decisions, drift, denial | NFEP + NPFE | low |
 | Strategic Dislocation | low coherence plus wound/blind mismatch | difficult to build shared temporal road | difference may broaden perspective | chronic mismatch in life direction, memory, place, future, or meaning | pair-specific | low |
