@@ -3,7 +3,7 @@ name: psychosophy-interview-typer
 team: typing
 method: interview
 description: Deep interview-based psychosophy typing. Uses structured questions dialog to determine Воля, Логика, Эмоция, Физика positions. 15-20 questions, takes 15-20 minutes.
-model: sonnet
+model: openai/gpt-5.4
 scope: interview-method
 reportsto: typing-lead
 permissions:

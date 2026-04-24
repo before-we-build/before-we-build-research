@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-OpenCode Agent Manifest Linter
-Validates agent markdown files against manifest schema rules.
+OpenCode Agent Manifest Linter.
+
+Validates agent markdown files against manifest schema rules and checks that
+agent model IDs point to реально доступные модели в текущем OpenCode setup.
 """
 
+import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -16,13 +20,64 @@ ERRORS = {
     "invalid_color": "Invalid color. Must be a quoted HEX code (e.g., '#FF0000')",
     "extra_keys": "Extra keys not allowed in frontmatter (cron, time, questions). Move to description.",
     "missing_required": "Required field '{field}' is missing",
-    "invalid_model": "Invalid model. Allowed: sonnet, haiku, opus",
+    "invalid_model_format": "Model must use provider/model format (e.g., openai/gpt-5.4)",
+    "unknown_provider": "Model provider '{provider}' is not available via opencode models",
+    "unavailable_model": "Model '{model}' is not available for provider '{provider}'",
+    "opencode_unavailable": "Could not query available models from opencode CLI",
 }
 
-MODELS = {"sonnet", "haiku", "opus"}
 REQUIRED_FIELDS = {"name", "description", "model"}
 
-def lint_file(filepath: Path) -> list[dict]:
+
+def load_available_models() -> tuple[dict[str, set[str]], str | None]:
+    try:
+        providers_proc = subprocess.run(
+            ["opencode", "providers"],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        provider_output = (providers_proc.stdout or "") + (providers_proc.stderr or "")
+        providers = set(re.findall(r"^\s*([a-zA-Z0-9_-]+)\s", provider_output, re.MULTILINE))
+
+        # Fallback for setups where `opencode providers` is noisy or not parseable.
+        providers.update({"openai"})
+
+        available: dict[str, set[str]] = {}
+        for provider in sorted(providers):
+            proc = subprocess.run(
+                ["opencode", "models", provider],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            if proc.returncode != 0:
+                continue
+
+            models = set()
+            for line in proc.stdout.splitlines():
+                line = line.strip()
+                if not line or "/" not in line:
+                    continue
+                line_provider, model_name = line.split("/", 1)
+                if line_provider == provider:
+                    models.add(model_name)
+
+            if models:
+                available[provider] = models
+
+        if not available:
+            return {}, ERRORS["opencode_unavailable"]
+
+        return available, None
+    except Exception as exc:
+        return {}, f"{ERRORS['opencode_unavailable']}: {exc}"
+
+
+AVAILABLE_MODELS, MODEL_LOAD_ERROR = load_available_models()
+
+
+def lint_file(filepath: Path) -> list[dict[str, str]]:
     errors = []
     content = filepath.read_text()
     
@@ -65,9 +120,27 @@ def lint_file(filepath: Path) -> list[dict]:
     
     if "model" in fields:
         model_val = fields["model"].strip().strip('"').strip("'")
-        if model_val not in MODELS:
-            errors.append({"code": "invalid_model", "msg": f"Invalid model '{model_val}'. Allowed: sonnet, haiku, opus"})
-    
+        if "/" not in model_val:
+            errors.append({
+                "code": "invalid_model_format",
+                "msg": f"{ERRORS['invalid_model_format']}: '{model_val}'",
+            })
+        elif MODEL_LOAD_ERROR:
+            errors.append({"code": "opencode_unavailable", "msg": MODEL_LOAD_ERROR})
+        else:
+            provider, model_name = model_val.split("/", 1)
+            if provider not in AVAILABLE_MODELS:
+                errors.append({
+                    "code": "unknown_provider",
+                    "msg": ERRORS["unknown_provider"].format(provider=provider),
+                })
+            elif model_name not in AVAILABLE_MODELS[provider]:
+                known = ", ".join(sorted(AVAILABLE_MODELS[provider]))
+                errors.append({
+                    "code": "unavailable_model",
+                    "msg": f"{ERRORS['unavailable_model'].format(model=model_name, provider=provider)}. Available: {known}",
+                })
+
     return errors
 
 def main():
@@ -88,7 +161,7 @@ def main():
             for e in errors:
                 print(f"    - {e['msg']}")
             print()
-        print("Run: grep -E \"permission:|reports_to:|color: [^#]\" .opencode/agents/*.md")
+        print("Run: python3 scripts/lint-agents.py")
         sys.exit(1)
     else:
         print("OpenCode Agent Linter: OK")

@@ -2,7 +2,7 @@
 name: wiki-consistency-checker
 team: wiki
 description: Agent for finding logical contradictions in wiki and LLM wiki. Scans for term conflicts, logic gaps, outdated info, and missing cross-references. Creates issues for human resolution. (Scheduled: weekly)
-model: sonnet
+model: openai/gpt-5.4
 color: "#FF00FF"
 scope: contradictions + consistency
 reportsto: master-orchestrator

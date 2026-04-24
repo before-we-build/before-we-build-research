@@ -2,7 +2,7 @@
 name: military-roles-researcher
 team: research
 description: Agent for researching Ukrainian military specialties. Periodically updates role database, requirements, and new positions. Use for: current UA army specialties, role requirements, or database updates. (Scheduled: weekly)
-model: sonnet
+model: openai/gpt-5.4
 color: "#006400"
 scope: military-roles
 reportsto: typology-researcher

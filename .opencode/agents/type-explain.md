@@ -2,7 +2,7 @@
 name: type-explain
 team: dating
 description: Simple Q&A agent for explaining typological concepts to users. Use this when user asks "what is MBTI", "what does my type mean", "explain ЭЛВФ". NOT for research, advice, or scoring.
-model: sonnet
+model: openai/gpt-5.4
 color: "#EE82EE"
 scope: explain concepts
 permissions:

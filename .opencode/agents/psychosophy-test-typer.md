@@ -3,7 +3,7 @@ name: psychosophy-test-typer
 team: typing
 method: test
 description: Psychosophy typing from test results. Accepts JSON/categorical output from existing tests (Anette, Afanasyev). Parses and maps to types. NOT for interview - use psychosophy-interview-typer.
-model: sonnet
+model: openai/gpt-5.4
 scope: test-method
 permissions:
   tool_use: true

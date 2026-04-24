@@ -2,7 +2,7 @@
 name: typology-researcher
 team: research
 description: Research team lead. Routes research requests to specialized researchers (socionics, psychosophy, temporistics, general). DO NOT do research yourself - route to team members based on topic.
-model: sonnet
+model: openai/gpt-5.4
 color: "#808080"
 reportsto: master-orchestrator
 scope: research-coordination
