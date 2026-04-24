@@ -1,203 +1,342 @@
 ---
-title: Temporistics Intertype Relations
+title: Proposed Intertype Relations in Temporistics
 type: relation
-tags: [temporistics, relations, compatibility, tetras, face-world, reverse-world]
+tags: [temporistics, intertype-relations, compatibility, strategic-level, temporal-frame, hypothesis]
 created: 2026-04-15
-updated: 2026-04-16
-sources: [analogy to socionics and psychosophy]
+updated: 2026-04-24
+sources: [raw/temporistics/types.md, raw/temporistics/theory-description.md, raw/temporistics/mystery-of-third-aspect.md, wiki/sources/temporistics-detailed.md, wiki/concepts/compatibility-level-boundaries.md]
 ---
 
-# Temporistics Intertype Relations
+# Proposed Intertype Relations in Temporistics
 
-> **Status:** Experimental framework — No canonical Temporistics intertype-relation table was found in the current source set. This page records project heuristics only.
+This document proposes a provisional reconstruction of intertype relations in Temporistics. It is intended for PsyCalc as a research hypothesis, not as canonical Temporistics doctrine. The core claim is limited: because Temporistics has a structured model of four temporal aspects across four positions, it is possible to derive candidate relation patterns for strategic compatibility. These patterns require validation before being used as reliable predictions.
 
-## Theoretical Basis
+## 1. Executive Summary
 
-This experimental page models relationships through the **combination of aspect priorities** between two types. The key source-backed structural insight is that Temporistics divides aspects into two "worlds":
+No finished, canonical Temporistics intertype-relation system has been confirmed in the current PsyCalc source set. The available sources clearly support:
 
-| World | Aspects | Description |
-|-------|---------|-------------|
-| **Face (Лицо)** | Present (N) + Future (F) | "Here and now" orientation |
-| **Reverse (Изнанка)** | Past (P) + Eternity (E) | Long-term identity orientation |
+- four temporal aspects: Past, Present, Future, Eternity;
+- four positions: 1st target, 2nd creative, 3rd painful, 4th blind;
+- 24 type permutations;
+- six tetrads based on paired temporal emphases;
+- the importance of developing the 3rd aspect;
+- at least one source signal that correct work with the 3rd aspect attracts complementary people.
 
-**Source-backed part:** the face/reverse distinction and six tetrads below come from Temporistics materials.
+The sources do **not** provide a validated 24 × 24 relation matrix comparable to Socionics. Therefore, this page reconstructs a possible system from structure, position logic, tetrads, and PsyCalc's strategic-level interpretation.
 
-**Experimental part:** the relation names on this page are borrowed from Socionics/Psychosophy as temporary labels for modeling.
+Reliability level: **low-to-medium as a formal reconstruction, low as an empirical compatibility claim**. The structural matrix is mechanically derivable; the interpretation of relation classes remains provisional.
 
-**In this model, compatibility depends on:**
-1. Which world both partners prioritize
-2. Whether their strong aspects differ (complementary) or match (similar)
-3. Position of matching aspects (1st = target, 2nd = creative, 3rd = painful, 4th = blind)
+## 2. Source Map
 
----
+### 2.1 Confirmed or semi-confirmed Temporistics theory
 
-## Experimental Heuristics
+Source-backed elements in the current repository:
 
-### By World Combination
+- `raw/temporistics/types.md` — 24 types, function-position names, tetrads.
+- `raw/temporistics/theory-description.md` — general description of Temporistics as a theory of relationships with time.
+- `raw/temporistics/mystery-of-third-aspect.md` — position meanings, importance of the painful 3rd aspect, and one explicit mention that complementarity through intertype relations is a separate topic.
+- `wiki/sources/temporistics-detailed.md` — PsyCalc synthesis of the Temporistics model as strategic temporal/existential framing.
 
-| Your Focus | Partner's Focus | Relation Type | Description |
-|------------|-----------------|---------------|--------------|
-| **Face** (N, F) | **Face** (N, F) | **Activation** | Shared present-future orientation. Stimulating but may conflict at close range. |
-| **Reverse** (P, E) | **Reverse** (P, E) | **Identity** | Similar long-term worldview. Easy understanding but limited growth. |
-| **Face** (N, F) | **Reverse** (P, E) | **Dual complement** | Opposite worlds → complete complementarity |
-| Same aspect in same position | Same aspect in same position | **Philia** | Identical temporal priorities |
+### 2.2 Tetrad descriptions
 
----
+`types.md` gives six tetrads:
 
-## Detailed Relation Types
+| Tetrad | Russian source name | Paired aspects | Strategic emphasis |
+|---|---|---|---|
+| Antipodes | Антиподы | Present + Past | fixed place and personal history |
+| Guardians / Border Guards | Стражи и пограничники | Eternity + Past | fixed personal history and way of existing |
+| Old-Timers / Founders | Старожилы и основатели | Present + Eternity | fixed place and existential mode |
+| Conductors | Проводники | Future + Eternity | fixed direction and existential mode |
+| Scouts | Лазутчики и разведчики | Present + Future | fixed place and direction |
+| Nomads | Кочевники и бродяги | Past + Future | fixed personal history and direction |
 
-### 1. Dual-Like Complementarity
+### 2.3 Type aliases and pseudonyms
 
-**Condition:** Partners have opposite world orientation (Face ↔ Reverse), complementary aspect priorities.
+The source list contains 24 type aliases such as Ideologist, Samurai, Colonist, Pioneer, Politician, Player, Missionary, etc. These aliases may encode narrative expectations, but they should not be treated as validated relation data. They are useful as interpretive clues only.
 
-- Face + Reverse complement each other
-- One person's Past is another's Future
-- Natural division of temporal labor
+### 2.4 Forum and community signals
 
-**Example:**
+The current repository contains community-derived commentary summarized in `temporistics-detailed.md`, especially around practical manifestations and compatibility patterns for individual aspect positions. No stable community consensus on a complete Temporistics relation matrix is treated here as confirmed.
+
+### 2.5 Comparative typology sources
+
+Socionics and Psychosophy provide analogies, but not direct templates:
+
+- Socionics has a mature relation theory at the tactical information-modeling level.
+- Psychosophy has a closer formal structure: four aspects across four positions.
+- Temporistics must be interpreted at the strategic temporal/existential level.
+
+## 3. Core Assumptions
+
+PsyCalc interprets Temporistics as a model of latent induction/deduction processes in temporal and existential experience.
+
+The working position meanings are:
+
+| Position | Temporistics name | Reconstruction used here |
+|---:|---|---|
+| 1st | Target | strong, confident, self-sufficient temporal orientation; autonomous temporal-frame generation |
+| 2nd | Creative | flexible, communicative, supportive temporal processing; cooperative temporal-frame development |
+| 3rd | Painful | vulnerable, unstable, tension-bearing temporal processing; reconstruction under deficit |
+| 4th | Blind | weak, dependent, low-salience, externally guided temporal processing |
+
+The main compatibility question is:
+
+> Does the pair create strategic temporal coherence or strategic temporal fragmentation?
+
+In practical terms, ask:
+
+- Do their temporal priorities support or destabilize each other?
+- Does one person's strong temporal function safely support the other's weak or vulnerable function?
+- Do both people compete in the same temporal aspect?
+- Do they share a strategic direction?
+- Do they differ in ways that create complementarity or chronic misunderstanding?
+
+## 4. Structural Derivation Method
+
+Represent each type as a mapping from aspect to position.
+
+Example:
+
+```text
+EPNF = 1E, 2P, 3N, 4F
+FNPE = 1F, 2N, 3P, 4E
 ```
-Type A: E P N F (1E, 2P, 3N, 4F)
-Type B: F N P E (1F, 2N, 3P, 4E)
-        ↑   ↑   ↑   ↑
-      face reverse reverse face — complementary
+
+For a pair, compare where each of person A's aspects appears in person B:
+
+```text
+A: EPNF
+B: FNPE
+
+A position 1 aspect E appears in B position 4
+A position 2 aspect P appears in B position 3
+A position 3 aspect N appears in B position 2
+A position 4 aspect F appears in B position 1
+
+Signature = 4321
 ```
 
-**Caveat:** This is a working analogy, not an official Temporistics relation.
+The signature `4321` means a full structural inversion: A's 1st maps to B's 4th, A's 2nd maps to B's 3rd, A's 3rd maps to B's 2nd, and A's 4th maps to B's 1st.
 
----
+The signature is source-derived from type structure. The relation meaning assigned to it is reconstructed.
 
-### 2. Activation-Like Resonance
+## 5. Proposed Relation Principles
 
-**Condition:** Both partners prioritize the same world (both Face or both Reverse).
+### 5.1 Same-aspect position contacts
 
-**Characteristics:**
-- High energy, stimulating
-- Can be overwhelming at close range
-- Good for collaboration, not intimate
+| Contact | Proposed strategic meaning |
+|---|---|
+| 1 ↔ 1 | shared sovereignty; strong recognition, possible competition over temporal authority |
+| 1 ↔ 2 | one defines the temporal frame, the other develops or translates it |
+| 1 ↔ 3 | one person's certainty touches the other's wound; high pressure risk |
+| 1 ↔ 4 | one anchors what the other neglects; stabilizing if non-coercive |
+| 2 ↔ 2 | easy dialogue and flexible temporal co-processing |
+| 2 ↔ 3 | potentially therapeutic support to a vulnerable temporal zone |
+| 2 ↔ 4 | light guidance to a blind zone; useful but often low-drama |
+| 3 ↔ 3 | shared wound; empathy is possible, but repair capacity may be weak |
+| 3 ↔ 4 | one's vulnerable zone meets the other's neglect; abandonment risk |
+| 4 ↔ 4 | shared blind spot; low conflict but low awareness |
 
-**Caveat:** Shared-world resonance is plausible, but not source-validated as a formal relation.
+### 5.2 Strategic weighting
 
----
+Because Temporistics is strategic, contacts involving 1st and 3rd positions should carry more interpretive weight than 2nd and 4th contacts. A single severe 1 ↔ 3 pressure point may matter more than several mild positive contacts.
 
-### 3. Identity-Like Similarity
+### 5.3 Tetrad and world modifiers
 
-**Condition:** Both partners share Reverse world focus with similar aspect priorities.
+The Temporistics source divides aspects into two worlds:
 
-**Characteristics:**
-- Easy mutual understanding
-- Similar values and worldview
-- May lack new perspectives
+| World | Aspects | Broad meaning |
+|---|---|---|
+| Face | Present + Future | place, movement, situational trajectory |
+| Reverse | Past + Eternity | memory, identity continuity, existential meaning |
 
----
+Proposed modifiers:
 
-### 4. Philia-Like Identity
+- Same strong world may create shared temporal language, but also redundancy.
+- Opposite strong worlds may create complementarity, but also different priorities.
+- Same weak world may create shared neglect or mutual vulnerability.
+- One person's strong world matching the other's weak world may become either support or pressure, depending on whether the contact is 2 ↔ 3 / 1 ↔ 4 or 1 ↔ 3 / 3 ↔ 4.
 
-**Condition:** Both types have identical aspect priority order.
+### 5.4 Avoid direct Socionics imports
 
-**Example:**
+Names such as duality, conflict, supervision, activation, mirror, and quasi-identity should not be imported directly. Socionics relations operate through Model A and tactical information metabolism. Temporistics relations should describe strategic temporal/existential fit.
+
+## 6. Proposed Temporistics Intertype Relation Classes
+
+These classes are reconstructed research categories, not official Temporistics relations.
+
+| Relation name | Structural pattern | Strategic meaning | Strengths | Risks | Example type pair | Confidence |
+|---|---|---|---|---|---|---|
+| Temporal Identity | `1234` | Same temporal architecture | immediate recognition, shared priorities | identical blind spots, little compensation | EPNF + EPNF | medium structural / low empirical |
+| Full Temporal Complement | `4321` | Maximum inversion of positions | strong zones cover weak zones; strategic completion | support can become dependency or control | EPNF + FNPE | medium structural / low empirical |
+| Developmental Support | strong `2 ↔ 3` without major `1 ↔ 3` | vulnerable temporal zone receives flexible help | healing, learning, safe development | too much help may feel therapeutic or unequal | ENPF + FENP | low-medium |
+| Anchor Complement | strong `1 ↔ 4` with low wound pressure | one anchors what the other neglects | clarity, stability, delegated orientation | passivity, over-reliance, frame domination | EPFN + NFPE | low-medium |
+| Parallel Resonance | many `1 ↔ 1`, `2 ↔ 2`, `1 ↔ 2` contacts | similar temporal language and direction | easy strategic agreement | redundancy; shared weaknesses remain | NEFP + NFEP | low |
+| Temporal Reflection | same strong aspects but reversed or re-ordered | each recognizes the other's temporal theme from another angle | comparison, dialogue, mutual correction | irritation over different priority order | PNFE + PNEF | low |
+| Asymmetric Guidance | one partner gives more `1/2 → 3/4` support than receives | mentor-guide temporal relation | useful for growth, teaching, spiritual or life-direction guidance | inequality, dependency, hidden resentment | EPNF + PENF | low |
+| Temporal Overpressure | one or more `1 ↔ 3` contacts | certainty presses vulnerability | can provoke growth if gentle | shame, fear, defensiveness, strategic rupture | EPNF + NEFP | low-medium as risk hypothesis |
+| Shared Temporal Wound | `3 ↔ 3` on important aspect | both carry similar vulnerability | empathy, recognition | poor repair capacity; co-rumination | NEFP + PEFN | low-medium as risk hypothesis |
+| Blind-Spot Collusion | `4 ↔ 4`, repeated `3 ↔ 4`, or weak-world overlap | important temporal domain is ignored or mishandled | low immediate friction | missed decisions, drift, denial | NFEP + NPFE | low |
+| Strategic Dislocation | low coherence plus wound/blind mismatch | difficult to build shared temporal road | difference may broaden perspective | chronic mismatch in life direction, memory, place, future, or meaning | pair-specific | low |
+
+## 7. Tetrad-Based Compatibility
+
+Tetrads are source-backed classification groups. Their compatibility meaning is reconstructed.
+
+### 7.1 What tetrads may indicate
+
+A tetrad may indicate:
+
+- shared temporal rhythm;
+- shared strategic language;
+- similar assumptions about what is fixed and what is manipulable;
+- existential resonance around memory, place, direction, and meaning.
+
+### 7.2 What tetrads do not prove
+
+A tetrad does not, by itself, prove:
+
+- romantic compatibility;
+- absence of conflict;
+- full strategic complementarity;
+- a Socionics-like quadra relation.
+
+### 7.3 Provisional tetrad interpretation
+
+| Tetrad | Paired aspects | Possible compatibility meaning | Risk |
+|---|---|---|---|
+| Antipodes | Present + Past | shared emphasis on place and personal history | may underweight future direction and existential meaning |
+| Guardians | Eternity + Past | shared continuity, tradition, meaning-history axis | may become conservative or over-fixed |
+| Old-Timers | Present + Eternity | shared place and meaning frame | may underweight concrete future direction or personal history |
+| Conductors | Future + Eternity | shared direction and meaning | may neglect place/belonging or personal history |
+| Scouts | Present + Future | shared movement through current reality | may neglect deep history or existential grounding |
+| Nomads | Past + Future | shared identity-trajectory axis | may neglect present belonging or stable meaning |
+
+Provisional rule: same-tetrad pairs may have strategic resonance; complementary-tetrad pairs may provide broader temporal coverage; but pair-level position contacts are more important than tetrad membership alone.
+
+## 8. Full Type-Pair Matrix
+
+The matrix below is a **structural signature matrix**, not a validated compatibility table. Each cell gives the signature from row type A to column type B.
+
+Read `4321` as: A's 1st aspect is B's 4th, A's 2nd is B's 3rd, A's 3rd is B's 2nd, A's 4th is B's 1st. This is the proposed structural basis for Full Temporal Complement.
+
+| Type | Alias | NEFP | NFEP | PEFN | PFEN | EFNP | ENFP | PNFE | PFNE | EPFN | EFPN | NFPE | NPFE | EPNF | ENPF | FNPE | FPNE | NPEF | NEPF | FPEN | FEPN | FNEP | FENP | PENF | PNEF |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| NEFP | Politician | 1234 | 1324 | 4231 | 4321 | 3124 | 2134 | 2431 | 3421 | 4132 | 4123 | 1423 | 1432 | 3142 | 2143 | 2413 | 3412 | 1342 | 1243 | 4312 | 4213 | 2314 | 3214 | 3241 | 2341 |
+| NFEP | Player | 1324 | 1234 | 4321 | 4231 | 3214 | 2314 | 2341 | 3241 | 4312 | 4213 | 1243 | 1342 | 3412 | 2413 | 2143 | 3142 | 1432 | 1423 | 4132 | 4123 | 2134 | 3124 | 3421 | 2431 |
+| PEFN | Maestro | 4231 | 4321 | 1234 | 1324 | 4123 | 4132 | 1432 | 1423 | 2134 | 3124 | 3421 | 2431 | 2143 | 3142 | 3412 | 2413 | 2341 | 3241 | 2314 | 3214 | 4312 | 4213 | 1243 | 1342 |
+| PFEN | Game Master | 4321 | 4231 | 1324 | 1234 | 4213 | 4312 | 1342 | 1243 | 2314 | 3214 | 3241 | 2341 | 2413 | 3412 | 3142 | 2143 | 2431 | 3421 | 2134 | 3124 | 4132 | 4123 | 1423 | 1432 |
+| EFNP | Missionary | 2314 | 3214 | 2341 | 3241 | 1234 | 1324 | 4321 | 4231 | 1342 | 1243 | 4213 | 4312 | 1432 | 1423 | 4123 | 4132 | 3412 | 2413 | 3142 | 2143 | 3124 | 2134 | 2431 | 3421 |
+| ENFP | Standard-bearer | 2134 | 3124 | 2431 | 3421 | 1324 | 1234 | 4231 | 4321 | 1432 | 1423 | 4123 | 4132 | 1342 | 1243 | 4213 | 4312 | 3142 | 2143 | 3412 | 2413 | 3214 | 2314 | 2341 | 3241 |
+| PNFE | Rescuer | 4132 | 4123 | 1432 | 1423 | 4321 | 4231 | 1234 | 1324 | 2431 | 3421 | 3124 | 2134 | 2341 | 3241 | 3214 | 2314 | 2143 | 3142 | 2413 | 3412 | 4213 | 4312 | 1342 | 1243 |
+| PFNE | Knight | 4312 | 4213 | 1342 | 1243 | 4231 | 4321 | 1324 | 1234 | 2341 | 3241 | 3214 | 2314 | 2431 | 3421 | 3124 | 2134 | 2413 | 3412 | 2143 | 3142 | 4123 | 4132 | 1432 | 1423 |
+| EPFN | Theorist | 2431 | 3421 | 2134 | 3124 | 1423 | 1432 | 4132 | 4123 | 1234 | 1324 | 4321 | 4231 | 1243 | 1342 | 4312 | 4213 | 3241 | 2341 | 3214 | 2314 | 3412 | 2413 | 2143 | 3142 |
+| EFPN | Oracle | 2341 | 3241 | 2314 | 3214 | 1243 | 1342 | 4312 | 4213 | 1324 | 1234 | 4231 | 4321 | 1423 | 1432 | 4132 | 4123 | 3421 | 2431 | 3124 | 2134 | 3142 | 2143 | 2413 | 3412 |
+| NFPE | Conqueror | 1342 | 1243 | 4312 | 4213 | 3241 | 2341 | 2314 | 3214 | 4321 | 4231 | 1234 | 1324 | 3421 | 2431 | 2134 | 3124 | 1423 | 1432 | 4123 | 4132 | 2143 | 3142 | 3412 | 2413 |
+| NPFE | Star | 1432 | 1423 | 4132 | 4123 | 3421 | 2431 | 2134 | 3124 | 4231 | 4321 | 1324 | 1234 | 3241 | 2341 | 2314 | 3214 | 1243 | 1342 | 4213 | 4312 | 2413 | 3412 | 3142 | 2143 |
+| EPNF | Ideologist | 2413 | 3412 | 2143 | 3142 | 1432 | 1423 | 4123 | 4132 | 1243 | 1342 | 4312 | 4213 | 1234 | 1324 | 4321 | 4231 | 3214 | 2314 | 3241 | 2341 | 3421 | 2431 | 2134 | 3124 |
+| ENPF | Samurai | 2143 | 3142 | 2413 | 3412 | 1342 | 1243 | 4213 | 4312 | 1423 | 1432 | 4132 | 4123 | 1324 | 1234 | 4231 | 4321 | 3124 | 2134 | 3421 | 2431 | 3241 | 2341 | 2314 | 3214 |
+| FNPE | Colonist | 3142 | 2143 | 3412 | 2413 | 2341 | 3241 | 3214 | 2314 | 3421 | 2431 | 2134 | 3124 | 4321 | 4231 | 1234 | 1324 | 4123 | 4132 | 1423 | 1432 | 1243 | 1342 | 4312 | 4213 |
+| FPNE | Pioneer | 3412 | 2413 | 3142 | 2143 | 2431 | 3421 | 3124 | 2134 | 3241 | 2341 | 2314 | 3214 | 4231 | 4321 | 1324 | 1234 | 4213 | 4312 | 1243 | 1342 | 1423 | 1432 | 4132 | 4123 |
+| NPEF | Taster | 1423 | 1432 | 4123 | 4132 | 3412 | 2413 | 2143 | 3142 | 4213 | 4312 | 1342 | 1243 | 3214 | 2314 | 2341 | 3241 | 1234 | 1324 | 4231 | 4321 | 2431 | 3421 | 3124 | 2134 |
+| NEPF | Grey Cardinal | 1243 | 1342 | 4213 | 4312 | 3142 | 2143 | 2413 | 3412 | 4123 | 4132 | 1432 | 1423 | 3124 | 2134 | 2431 | 3421 | 1324 | 1234 | 4321 | 4231 | 2341 | 3241 | 3214 | 2314 |
+| FPEN | Hacker | 3421 | 2431 | 3124 | 2134 | 2413 | 3412 | 3142 | 2143 | 3214 | 2314 | 2341 | 3241 | 4213 | 4312 | 1342 | 1243 | 4231 | 4321 | 1234 | 1324 | 1432 | 1423 | 4123 | 4132 |
+| FEPN | Scout | 3241 | 2341 | 3214 | 2314 | 2143 | 3142 | 3412 | 2413 | 3124 | 2134 | 2431 | 3421 | 4123 | 4132 | 1432 | 1423 | 4321 | 4231 | 1324 | 1234 | 1342 | 1243 | 4213 | 4312 |
+| FNEP | Initiator | 3124 | 2134 | 3421 | 2431 | 2314 | 3214 | 3241 | 2341 | 3412 | 2413 | 2143 | 3142 | 4312 | 4213 | 1243 | 1342 | 4132 | 4123 | 1432 | 1423 | 1234 | 1324 | 4321 | 4231 |
+| FENP | Robinson | 3214 | 2314 | 3241 | 2341 | 2134 | 3124 | 3421 | 2431 | 3142 | 2143 | 2413 | 3412 | 4132 | 4123 | 1423 | 1432 | 4312 | 4213 | 1342 | 1243 | 1324 | 1234 | 4231 | 4321 |
+| PENF | Pathfinder | 4213 | 4312 | 1243 | 1342 | 4132 | 4123 | 1423 | 1432 | 2143 | 3142 | 3412 | 2413 | 2134 | 3124 | 3421 | 2431 | 2314 | 3214 | 2341 | 3241 | 4321 | 4231 | 1234 | 1324 |
+| PNEF | Toastmaster | 4123 | 4132 | 1423 | 1432 | 4312 | 4213 | 1243 | 1342 | 2413 | 3412 | 3142 | 2143 | 2314 | 3214 | 3241 | 2341 | 2134 | 3124 | 2431 | 3421 | 4231 | 4321 | 1324 | 1234 |
+
+## 9. Comparison with Socionics and Psychosophy
+
+| System | Level in PsyCalc | Relation basis | What can be borrowed | What must not be copied |
+|---|---|---|---|---|
+| Socionics | Tactical | Model A information metabolism | caution about pair-level dynamics and asymmetric experience | relation names as if they had the same mechanism |
+| Psychosophy | Operational | same-aspect position contacts across action domains | structural idea of comparing positions 1–4 | operational meanings of Will/Logic/Emotion/Physics |
+| Temporistics | Strategic | temporal/existential frame contacts | position-comparison method, validation discipline | deterministic claims, tactical or operational interpretations |
+
+Temporistics relations should be modeled differently from Socionics because the unit of compatibility is not information exchange. It is strategic alignment around memory, place, direction, and meaning.
+
+## 10. Risks of Importing Socionics-Style Relation Names
+
+Direct import creates several risks:
+
+1. **False authority** — a familiar name such as “duality” can make a speculative relation look established.
+2. **Wrong mechanism** — Socionics relations depend on Model A, not on temporal aspect positions.
+3. **Level confusion** — tactical communication comfort is not the same as strategic life-direction coherence.
+4. **Overprediction** — a clean matrix can create the illusion that relationship outcomes are determined by type alone.
+5. **Loss of Temporistics specificity** — Past, Present, Future, and Eternity require temporal/existential language, not borrowed information-metabolism language.
+
+Preferred labels include Temporal Complement, Temporal Overpressure, Strategic Dislocation, Shared Temporal Wound, and Blind-Spot Collusion.
+
+## 11. Validation Strategy
+
+The reconstruction should be tested before being treated as useful.
+
+### 11.1 Interview strategy
+
+Ask paired participants about:
+
+- shared future planning;
+- conflict over past events or family history;
+- sense of belonging in shared space;
+- agreement on life meaning and existential priorities;
+- experiences of being pressured in a vulnerable temporal domain.
+
+### 11.2 Case-study strategy
+
+Collect relationship and team cases where:
+
+- partners repeatedly fail to agree on life direction;
+- one partner stabilizes the other's future, past, place, or meaning;
+- the same 3rd-aspect wound appears in both people;
+- both partners neglect the same 4th-aspect domain.
+
+### 11.3 Scenario testing
+
+Use structured vignettes:
+
+- relocation decision;
+- long-term career change;
+- family tradition conflict;
+- crisis requiring immediate adaptation;
+- loss of meaning or religious/worldview conflict;
+- revision of a failed long-term plan.
+
+Code whether predicted relation patterns appear in dialogue and decisions.
+
+### 11.4 Quantitative validation
+
+Compare models:
+
+```text
+Model A: no Temporistics data
+Model B: individual Temporistics types only
+Model C: position-contact signature
+Model D: signature + tetrad modifiers
+Model E: signature + tetrad + aspect-specific weights
 ```
-Type A: E P N F
-Type B: E P N F → Philia (full identity)
-```
 
-**Characteristics:**
-- Complete understanding
-- May have same blind spots
-- Limited growth potential
+Control for Big Five, attachment style, values, age/life stage, relationship goals, time perspective, ambiguity tolerance, conflict style, and social context.
 
----
+### 11.5 Outcome targets
 
-### 5. Mirage-Like Mismatch
+Potential outcomes:
 
-**Condition:** Different aspect priorities in same world, some matches.
+- stability of long-term decisions;
+- partner-rated shared direction;
+- repeated temporal-frame conflict;
+- ability to repair after strategic disagreement;
+- frequency of 3rd-aspect pressure narratives;
+- practical consequences of 4th-aspect blind spots.
 
-**Characteristics:**
-- Initially attractive
-- Misunderstandings accumulate
-- Can work at distance
+## 12. Final Position
 
----
+Temporistics intertype relations can be reconstructed as a coherent research hypothesis because the system has a formal 4 × 4 structure and strategic temporal content. However, this reconstruction should remain explicitly provisional.
 
-### 6. Conflict-Like Opposition
+The safest current model is two-layered:
 
-**Condition:** Complete world opposition with conflicting priorities.
+1. **Structural layer** — exact position signatures across all 24 × 24 type pairs.
+2. **Interpretive layer** — tentative relation classes such as Full Temporal Complement, Temporal Overpressure, Shared Temporal Wound, and Strategic Dislocation.
 
-**Characteristics:**
-- Constant friction
-- Each triggers other's pain points
-- Can lead to growth with effort
-
----
-
-## Tetra-Based Compatibility
-
-Temporistics has **6 tetras** based on aspect combinations:
-
-| Tetra | Aspects | Name | Best Match With |
-|-------|---------|------|-----------------|
-| **Antipodes** | N + P | Past+Present focused | Old-Timers (opposite F/E) |
-| **Guardians** | E + P | Past+Eternity focused | Conductors (opposite N/F) |
-| **Old-Timers** | N + E | Present+Eternity focused | Antipodes (opposite F/P) |
-| **Conductors** | F + E | Future+Eternity focused | Guardians (opposite N/P) |
-| **Scouts** | N + F | Present+Future focused | Nomads (opposite E/P) |
-| **Nomads** | P + F | Past+Future focused | Scouts (opposite E/P) |
-
-**Caveat:** The tetrads themselves are source-backed. The "Best Match With" column is exploratory project synthesis.
-
----
-
-## Experimental Position Analogies
-
-Using position matching from Psychosophy as a modeling analogy:
-
-| Position Match | Relation Type |
-|----------------|---------------|
-| **1+4** match | Full complement (Dual) |
-| **2+3** match | Balanced support (Agape) |
-| **1+2** match | Order (one leads) |
-| **3+4** match | Mirage |
-| **1+3** match | Challenge (Eros-like) |
-| **All match** | Identity/Philia |
-
----
-
-## What Is Actually Established Here
-
-Source-backed in the current repo:
-- Temporistics has 24 types
-- It distinguishes Face and Reverse worlds
-- It groups types into six tetrads
-
-Not source-backed in the current repo:
-- A canonical intertype relation table
-- Score values
-- Official relation names analogous to Duality, Mirage, or Conflict
-- Claims about best pairings between tetrads
-
-Use this page as an experimental modeling note, not as established Temporistics doctrine.
-
----
-
-## Comparison to Other Systems
-
-| System | Types | Relations |
-|--------|-------|------------|
-| Socionics | 16 | 14 types |
-| Psychosophy | 24 | 11+ types |
-| **Temporistics** | **24** | **~10 proposed** |
-
----
-
-## See Also
-
-- [[temporistics-overview]] — Type system overview
-- [[psychosophy-intertype-relations]] — Psychosophy relations
-- [[socionics-intertype-relations]] — Socionics relations
-
----
-
-## TODO
-
-- [ ] Validate through community research
-- [ ] Build full compatibility matrix
-- [ ] Test with real pairing data
+The structural layer is reliable as a derivation from type codes. The interpretive layer requires interviews, case studies, behavioral scenarios, and longitudinal validation.

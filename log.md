@@ -6,6 +6,7 @@ Historical note: older entries may contain claims or source framings that were l
 
 2026-04-24 - Added PsyCalc front-door orientation: root `README.md`, clearer `main-idea.md`, `project-positioning.md`, updated index introduction, and glossary framing to distinguish PsyCalc from Cognitive Matchmaker.
 2026-04-24 - Added `psycalc-vs-big-five.md` to position Big Five as the validated descriptive baseline and PsyCalc as a heuristic latent-process architecture for compatibility, role-fit, and AI simulation.
+2026-04-24 - Reworked `temporistics-intertype-relations.md` as “Proposed Intertype Relations in Temporistics,” separating source-backed Temporistics structure from reconstructed relation classes, tetrad hypotheses, a 24×24 structural signature matrix, and validation requirements.
 
 ---
 

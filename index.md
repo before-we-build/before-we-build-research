@@ -178,7 +178,7 @@ wiki/          — LLM-generated wiki
 |------|---------|---------|
 | [[socionics-intertype-relations]] | Socionics relation system summary | raw/socionics/intertype-relations.md |
 | [[psychosophy-intertype-relations]] | Psychosophy relation system summary | socionika.info / Syntax of Love |
-| [[temporistics-intertype-relations]] | Experimental Temporistics compatibility heuristics | project synthesis |
+| [[temporistics-intertype-relations]] | Proposed Temporistics intertype-relation reconstruction with structural matrix and validation caveats | raw/temporistics/types.md, mystery-of-third-aspect.md, temporistics-detailed |
 
 ### Sources (Derived)
 
@@ -266,7 +266,7 @@ wiki/          — LLM-generated wiki
 | Page | Summary | Sources |
 |------|---------|---------|
 | [[socionics-intertype-relations]] | Complete descriptions of 16 Socionics relationship types (EN/UK) | psycalc/socionics_matching_algorithm |
-| [[temporistics-intertype-relations]] | Temporal relationship types based on aspect position | psycalc/temporistics_matching_algorithm |
+| [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures and hypotheses | raw/temporistics/types.md, project reconstruction |
 | [[psychosophy-intertype-relations]] | Psychosophy relationship compatibility | psycalc/temporistics_matching_algorithm |
 
 ### socionics/
