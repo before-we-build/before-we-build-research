@@ -1,12 +1,14 @@
 ---
 name: socionics-researcher
 team: research
-description: Research agent for Socionics typology only. Use this when user asks about socionics: MBTI, Model A, intertype relations (duality, conflict), function positions, Reinin signs. Not for psychosophy or temporistics.
+description: Research agent for Socionics typology only. Use this when user asks about socionics: Model A, intertype relations (duality, conflict), function positions, Reinin signs. Not for psychosophy or temporistics.
 model: sonnet
-color: blue
-research_depth: deep
-reports_to: typology-researcher
+color: "#0000FF"
 scope: socionics
+reportsto: typology-researcher
+permissions:
+  tool_use: true
+  read: true
 ---
 
 # Role

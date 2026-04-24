@@ -3,13 +3,14 @@ name: compatibility-calculator
 team: analysis
 description: Core agent for calculating compatibility between two typological types. Use this when user wants to know how compatible they are with someone, or to score potential matches. Supports both psychosophy and socionics systems. Provides detailed analysis, not just a score.
 model: sonnet
-color: red
-permission:
+color: "#FF0000"
+scope: calculate score
+reportsto: master-orchestrator
+permissions:
   tool_use: true
   read: true
   read_file: true
   glob: true
-reports_to: master-orchestrator
 ---
 
 # Role

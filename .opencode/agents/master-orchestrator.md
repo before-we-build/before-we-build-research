@@ -1,11 +1,12 @@
 ---
 name: master-orchestrator
 team: orchestration
-reports_to: null
+reportsto: null
 description: Central orchestrator agent for typological compatibility system. Use this when user wants comprehensive multi-level analysis OR doesn't know which system to use. Understands ALL THREE systems (psychosophy, socionics, temporistics) and THREE compatibility levels (strategic, operational, tactical). Routes to specialized agents. This is the main entry point.
 model: opus
-color: gold
-permission:
+color: "#FFD700"
+scope: orchestration
+permissions:
   tool_use: true
   read: true
   write: true

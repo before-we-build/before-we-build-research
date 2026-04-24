@@ -3,7 +3,7 @@ title: Fourth Physics (4Ф) in Psychosophy — Deep Research
 type: source
 tags: [psychology, psychosophy, fourth-function, physics, deep-research]
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-21
 sources: [fourth-physics-deep-research.md]
 ---
 
@@ -57,6 +57,72 @@ Fourth Physics is the "least significant" function in the psychotype. It represe
 - [[psychosophy-functions]] — Function positions
 - [[fourth-function]] — General 4th position description
 - [[third-will]] — Similar stress patterns
+
+## Accentuations
+
+Each 4Ф has one of three possible accentations that define how the function manifests:
+
+### Accuntation 1: Unconsciousness (Resultativity)
+
+- Most conservative 4Ф
+- Faithful to habits, reluctantly changes lifestyle
+- Stubbornly defends old habits (imposed in childhood)
+- Doesn't question whether they're convenient
+- Similar to 1Ф, but 1Ф orientates on own needs, 4Ф accepts others'
+
+### Accuntation 2: Extroversion (Non-principled)
+
+- Most noticable: attention to others' needs
+- Hard to walk past someone being uncomfortable
+- Interested in others' tastes and habits
+- Simply yields and accepts others' habits
+- Most "comfortable" 4Ф in communication
+
+### Accuntation 3: Objectness (Low)
+
+- Most passive and unpretentious 4Ф
+- Very easily succumbs to circumstances
+- No hot water — uses cold water
+- Without external intervention quickly degrades to asceticism
+- Requirements so low that satisfied with any conditions
+- Main point — just don't disturb her
+
+## Mobilization Recommendations
+
+### Accentuation 1: Unconsciousness (Resultativity)
+
+**Strategy: Fix the routine**
+
+- Establish stable daily routine BEFORE mobilization
+- Write down specific times for: wake up, eat, sleep
+- Don't rely on willpower — make habits automatic
+- If forced to relocate: recreate old environment as much as possible
+- Mentor should supervise but not force changes
+
+**Warning:** Will resist changes hard. Start preparing early.
+
+### Accentuation 2: Extroversion (Non-principled)
+
+**Strategy: Pair with organizer**
+
+- Best 4Ф for military — follows orders, helps comrades
+- Pair with 1Ф or 2Ф who decides practical matters
+- Give social tasks: caring for wounded, logistics
+- Keep busy with helping — don't leave alone
+
+**Warning:** Will forget own needs while helping others. Need reminders to eat/sleep.
+
+### Accentuation 3: Objectness (Low)
+
+**Strategy: External control mandatory**
+
+- Cannot be alone in crisis
+- Assign "patron" who manages physical life
+- Give ONLY small, specific tasks — no initiative
+- Check daily: ate? slept? warm?
+- In stress: intervene BEFORE shutdown
+
+**Warning:** Highest risk. Needs constant supervision.
 
 ## Sources
 

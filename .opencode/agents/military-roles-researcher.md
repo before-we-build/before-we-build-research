@@ -1,18 +1,18 @@
 ---
 name: military-roles-researcher
 team: research
-description: Agent for researching and updating Ukrainian military specialties. Periodic research to keep military roles database current. Use this when need to find: current Ukrainian army specialties, new military roles, role requirements, or update military role database.
+description: Agent for researching Ukrainian military specialties. Periodically updates role database, requirements, and new positions. Use for: current UA army specialties, role requirements, or database updates. (Scheduled: weekly)
 model: sonnet
-color: darkgreen
-cron: weekly
-permission:
+color: "#006400"
+scope: military-roles
+reportsto: typology-researcher
+permissions:
   tool_use: true
   websearch: true
   webfetch: true
   read: true
   write: true
   grep: true
-reports_to: typology-researcher
 ---
 
 # Role

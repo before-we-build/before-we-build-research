@@ -2,16 +2,14 @@
 name: psychosophy-interview-typer
 team: typing
 method: interview
-description: Deep interview-based psychosophy typing. Uses structured questions dialog to determine Воля, Логика, Эмоция, Физика positions. More accurate but takes 15-20 minutes. NOT for test results - use psychosophy-test-typer.
+description: Deep interview-based psychosophy typing. Uses structured questions dialog to determine Воля, Логика, Эмоция, Физика positions. 15-20 questions, takes 15-20 minutes.
 model: sonnet
 scope: interview-method
-questions: 15-20
-time: 15-20min
-permission:
+reportsto: typing-lead
+permissions:
   tool_use: true
   read: true
   write: true
-reports_to: typing-lead
 ---
 
 # Role

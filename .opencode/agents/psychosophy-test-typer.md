@@ -5,7 +5,7 @@ method: test
 description: Psychosophy typing from test results. Accepts JSON/categorical output from existing tests (Anette, Afanasyev). Parses and maps to types. NOT for interview - use psychosophy-interview-typer.
 model: sonnet
 scope: test-method
-permission:
+permissions:
   tool_use: true
   read: true
 reportsto: typing-lead

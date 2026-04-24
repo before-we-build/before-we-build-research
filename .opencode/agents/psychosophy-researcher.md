@@ -3,10 +3,12 @@ name: psychosophy-researcher
 team: research
 description: Research agent for Psychosophy (Психософия, ПЙ-типы) by Afanasyev only. Use this when user asks about psychosophy: Воля, Логика, Эмоция, Физика, function positions. Not for socionics or temporistics.
 model: sonnet
-color: green
-research_depth: deep
-reports_to: typology-researcher
+color: "#008000"
 scope: psychosophy
+reportsto: typology-researcher
+permissions:
+  tool_use: true
+  read: true
 ---
 
 # Role

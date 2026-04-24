@@ -3,13 +3,13 @@ name: wiki-contributor
 team: wiki
 description: Agent for creating new wiki content from research. Creates wiki source pages, updates index.md, adds entries to log. Responsible for ingesting new sources into the project. Focus: formatting and structure.
 model: sonnet
-color: pink
-permission:
+color: "#FFC0CB"
+scope: create wiki pages
+reportsto: wiki-editor
+permissions:
   tool_use: true
   read: true
   write: true
-reports_to: wiki-editor
-scope: create wiki pages
 ---
 
 # Role
