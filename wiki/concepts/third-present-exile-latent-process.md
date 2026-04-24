@@ -4,12 +4,14 @@ type: concept
 tags: [temporistics, present, third-aspect, exile, latent-processes]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [raw/temporistics/izgnannik-exile.md, raw/temporistics/mystery-of-third-aspect.md, wiki/entities/exile-izgnannik.md]
+sources: [raw/temporistics/izgnannik-exile.md, raw/temporistics/mystery-of-third-aspect.md, wiki/entities/exile-izgnannik.md, wiki/concepts/typology-code-conventions.md]
 ---
 
 # Third Present Exile Latent Process
 
 This page deepens the meaning of **3rd Present / Изгнанник / Exile** in Temporistics. It should not be reduced to a generic dislike of chaos or real-time pressure.
+
+Code convention: this English page uses `3N` as the primary code. Russian equivalent: `3Н`. Ukrainian equivalent: `3Тп`. See [[typology-code-conventions]].
 
 ## Core Question
 
@@ -166,7 +168,7 @@ The dangerous pattern is not just hardship. It is **exile inside the unit**: bei
 
 For recommendations:
 
-> Give 3Н not only structure, but belonging, role clarity, and concrete contact with the current field.
+> Give 3N (RU: 3Н; UK: 3Тп) not only structure, but belonging, role clarity, and concrete contact with the current field.
 
 ## See Also
 
@@ -174,3 +176,4 @@ For recommendations:
 - [[latent-process]]
 - [[temporistics-detailed]]
 - [[composite-profile-sli-elvf-vpnb]]
+- [[typology-code-conventions]]

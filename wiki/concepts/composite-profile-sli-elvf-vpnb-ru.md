@@ -1,13 +1,13 @@
 ---
-title: Композитный профиль SLI + ЭЛВФ + ВПНБ
+title: Композитный профиль СЛИ + ЭЛВФ + ВПНБ
 type: concept
 tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation, russian]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md, wiki/sources/civilian-career-role-families.md, wiki/sources/ukraine-military-specialties-current.md]
+sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md, wiki/concepts/typology-code-conventions.md, wiki/sources/civilian-career-role-families.md, wiki/sources/ukraine-military-specialties-current.md]
 ---
 
-# Композитный профиль SLI + ЭЛВФ + ВПНБ
+# Композитный профиль СЛИ + ЭЛВФ + ВПНБ
 
 Языки: [[composite-profile-sli-elvf-vpnb|English]] | **Русский** | [[composite-profile-sli-elvf-vpnb-uk|Українська]]
 
@@ -15,12 +15,14 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 
 Рабочий профиль проекта:
 
-- **Соционика:** SLI / СЛИ, Дельта
-- **Психософия:** ЭЛВФ
-- **Темпористика:** ВПНБ
+- **Соционика:** СЛИ (EN: SLI; UK: СЛІ; старое соционическое: ISTp; MBTI-like: ISTP, приблизительно), Дельта
+- **Психософия:** ЭЛВФ (EN: ELVF; UK: ЕЛВФ)
+- **Темпористика:** ВПНБ (EN: EPNF; UK: Вч-Ми-Тп-Мб)
 - **Гражданская профессия:** DevOps
 
 Это **гипотеза о подходящих ролях**, а не фиксированная судьба. Реальный опыт, здоровье, навыки, рынок, вакансии и личные предпочтения важнее типологии.
+
+Правило кодов: эта русская страница использует русские сокращения как основные. Английские и украинские эквиваленты даются в скобках, когда это важно для надёжности. См. [[typology-code-conventions]].
 
 ## Границы систем
 
@@ -32,7 +34,9 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 | Какая гражданская роль подходит рынку и навыкам? | **ESCO / каталог ролей** | не типология сама по себе |
 | Какая военная роль реально возможна? | **Текущий каталог ролей** | не композитная теория в вакууме |
 
-## 1. Соционика: SLI / СЛИ
+## 1. Соционика: СЛИ
+
+Эквиваленты: EN `SLI`; UK `СЛІ`; старое соционическое `ISTp`; MBTI-like `ISTP`, приблизительно, не тождественно.
 
 ### Ключевая модель A
 
@@ -52,7 +56,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - сильная сторона: спокойная техническая эксплуатация, обслуживание, диагностика, оптимизация;
 - лучший канал продуктивности: `1Si + 2Te`;
 - риск: шумная социальная среда, эмоциональное давление, forced fun, постоянное требование управлять атмосферой;
-- SLI хорошо сочетается с ролями, где ценятся стабильность, практическая польза и восстановление работоспособности систем.
+- СЛИ хорошо сочетается с ролями, где ценятся стабильность, практическая польза и восстановление работоспособности систем.
 
 ## 2. Психософия: ЭЛВФ
 
@@ -66,7 +70,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 ### Важная граница: Эмоция ≠ Этика
 
 - **1Э в психософии** не означает сильную ЧЭ/БЭ в соционике.
-- **4Fe / болевая ЧЭ в SLI** не означает, что человек неэмоциональный.
+- **4Fe / болевая ЧЭ у СЛИ** не означает, что человек неэмоциональный.
 - Здесь нет противоречия: человек может сам задавать эмоциональный тон из своего внутреннего фрейма, но плохо переносить навязанную групповую эмоциональную атмосферу.
 
 См. [[emotion-vs-ethics-boundary]].
@@ -78,6 +82,8 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - `4Ф` не означает автоматическую неспособность к дискомфорту, но физическая выносливость не должна быть главным смыслом роли.
 
 ## 3. Темпористика: ВПНБ
+
+Эквиваленты: EN `EPNF`; UK `Вч-Ми-Тп-Мб`.
 
 | Позиция | Аспект | Практический смысл |
 |---------|--------|--------------------|
@@ -96,10 +102,10 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 
 ### Практические последствия ВПНБ
 
-- **1В:** бессмысленное исполнение и prestige-only работа будут выжигать даже при техническом совпадении.
-- **2П:** сильная зона для incident history, logs, postmortems, runbooks, documentation, retrospectives.
-- **3Н:** дело не только в хаосе. Нужны конкретное место в текущей ситуации, признанная роль, принадлежность к команде и живой контакт с происходящим.
-- **4Б:** future-frame лучше задавать извне: mission, SLA, roadmap, command priority, objective.
+- **1В / Вечность** (EN: 1E; UK: 1Вч): бессмысленное исполнение и prestige-only работа будут выжигать даже при техническом совпадении.
+- **2П / Прошлое** (EN: 2P; UK: 2Ми): сильная зона для incident history, logs, postmortems, runbooks, documentation, retrospectives.
+- **3Н / Настоящее** (EN: 3N; UK: 3Тп): дело не только в хаосе. Нужны конкретное место в текущей ситуации, признанная роль, принадлежность к команде и живой контакт с происходящим.
+- **4Б / Будущее** (EN: 4F; UK: 4Мб): future-frame лучше задавать извне: mission, SLA, roadmap, command priority, objective.
 
 ## Гражданская роль
 
@@ -144,7 +150,7 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 ### Почему
 
 - напрямую переносит DevOps-навыки;
-- использует SLI technical steadiness;
+- использует техническую устойчивость СЛИ;
 - использует `2Л` для структуры и диагностики;
 - меньше давит на `3В`, если командная культура не унижающая;
 - уважает `1В`, если роль связана с миссией;
@@ -188,3 +194,4 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - [[civilian-career-role-families]]
 - [[ukraine-military-specialties-current]]
 - [[third-present-exile-latent-process]]
+- [[typology-code-conventions]]

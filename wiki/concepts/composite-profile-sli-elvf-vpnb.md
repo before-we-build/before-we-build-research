@@ -1,13 +1,13 @@
 ---
-title: Composite Profile SLI + ЭЛВФ + ВПНБ
+title: Composite Profile SLI + ELVF + EPNF
 type: concept
 tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md]
+sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md, wiki/concepts/typology-code-conventions.md]
 ---
 
-# Composite Profile SLI + ЭЛВФ + ВПНБ
+# Composite Profile SLI + ELVF + EPNF
 
 Languages: **English** | [[composite-profile-sli-elvf-vpnb-ru|Русский]] | [[composite-profile-sli-elvf-vpnb-uk|Українська]]
 
@@ -15,9 +15,9 @@ Languages: **English** | [[composite-profile-sli-elvf-vpnb-ru|Русский]] |
 
 This page combines the current working profile used in the project:
 
-- **Socionics:** SLI (Delta)
-- **Psychosophy:** ЭЛВФ (1st quadra / Очищение)
-- **Temporistics:** ВПНБ (Проводники)
+- **Socionics:** SLI (RU: СЛИ; UK: СЛІ; legacy Socionics: ISTp; MBTI-like: ISTP, approximate only; Delta)
+- **Psychosophy:** ELVF (RU: ЭЛВФ; UK: ЕЛВФ)
+- **Temporistics:** EPNF (RU: ВПНБ; UK: Вч-Ми-Тп-Мб)
 - **Civil profession:** DevOps
 
 The profile is treated as a **practical role-fit hypothesis**, not as a fixed destiny.
@@ -33,10 +33,12 @@ This page is a **reference profile**, not only a recommendation page. Its job is
 
 ## Raw Profile
 
-- **Socionics:** SLI
-- **Psychosophy:** ЭЛВФ
-- **Temporistics:** ВПНБ
+- **Socionics:** SLI (RU: СЛИ; UK: СЛІ; legacy Socionics: ISTp; MBTI-like: ISTP, approximate only)
+- **Psychosophy:** ELVF (RU: ЭЛВФ; UK: ЕЛВФ)
+- **Temporistics:** EPNF (RU: ВПНБ; UK: Вч-Ми-Тп-Мб)
 - **Civil profession:** DevOps
+
+Code convention: this English page uses English codes as primary. Russian and Ukrainian equivalents are shown in parentheses where useful. See [[typology-code-conventions]].
 
 ## System Boundaries
 
@@ -58,7 +60,7 @@ Practical rule:
 
 ### 1. Socionics
 
-**Type:** SLI (Delta)
+**Type:** SLI (RU: СЛИ; UK: СЛІ; legacy Socionics: ISTp; MBTI-like: ISTP, approximate only; Delta)
 
 #### Quadra
 
@@ -275,7 +277,7 @@ Notes:
 
 ### 2. Psychosophy
 
-**Type:** ЭЛВФ
+**Type:** ELVF (RU: ЭЛВФ; UK: ЕЛВФ)
 
 #### Quadra
 
@@ -311,28 +313,28 @@ Notes:
 
 ### 3. Temporistics
 
-**Type:** ВПНБ
+**Type:** EPNF (RU: ВПНБ; UK: Вч-Ми-Тп-Мб)
 
 #### Tetra
 
-- **Проводники**
+- **Conductors** (RU: Проводники)
 - role implication: carry a meaningful route, ideological continuity, or mission-bearing line through a system
 
 #### Aspect Order
 
-- **В**: meaning / ethos / overarching orientation
-- **П**: experience / memory / precedent
-- **Н**: present / current field / immediate situation
-- **Б**: future / movement / direction
+- **E**: Eternity, meaning, ethos, overarching orientation (RU: В; UK: Вч)
+- **P**: Past, experience, memory, precedent (RU: П; UK: Ми)
+- **N**: Present/Now, current field, immediate situation (RU: Н; UK: Тп)
+- **F**: Future, movement, direction (RU: Б; UK: Мб)
 
 #### Position Meaning
 
 | Position | Aspect | Practical meaning |
 |----------|--------|-------------------|
-| 1 | В | self-generates meaning, worldview, principles, and existential justification |
-| 2 | П | uses experience, precedent, history, logs, and institutional memory as working material |
-| 3 | Н | painful search for concrete place, role, belonging, and contact with the real present |
-| 4 | Б | follows externally framed future objectives more easily than self-inventing long-range direction |
+| 1 | E | self-generates meaning, worldview, principles, and existential justification |
+| 2 | P | uses experience, precedent, history, logs, and institutional memory as working material |
+| 3 | N | painful search for concrete place, role, belonging, and contact with the real present |
+| 4 | F | follows externally framed future objectives more easily than self-inventing long-range direction |
 
 #### Temporistics Takeaway
 
@@ -342,28 +344,28 @@ Notes:
 
 #### Temporistics Role-Fit Consequences
 
-**1В — First Eternity / Guru**
+**1E — First Eternity / Guru** (RU: 1В; UK: 1Вч)
 
 - The central need is not just continuity or clear direction, but **meaning**.
 - Work must answer: "Why does this system matter? What larger order does it protect or serve?"
 - Empty execution, meaningless maintenance, or prestige-only work will drain motivation even if the technical task is suitable.
 - Best framing: infrastructure as service to a product, community, army, state, or mission that actually matters.
 
-**2П — Second Past / Chronicler**
+**2P — Second Past / Chronicler** (RU: 2П; UK: 2Ми)
 
 - Strong fit with incident history, logs, postmortems, runbooks, documentation, retrospectives, and accumulated operational knowledge.
 - Learns from precedent and helps prevent repeated failures.
 - In technical organizations, this supports reliability engineering and institutional memory.
 
-**3Н — Third Present / Exile**
+**3N — Third Present / Exile** (RU: 3Н; UK: 3Тп)
 
 - The core issue is not just chaos. It is the painful question: "Where is my place here, and am I really included in what is happening?"
-- The Present is perceived through contact and interaction; 3Н needs a concrete role, recognized place, and real participation in the current field.
+- The Present is perceived through contact and interaction; 3N needs a concrete role, recognized place, and real participation in the current field.
 - Chaotic real-time pressure is risky because it destroys role clarity and can intensify the feeling of exile inside the situation.
 - Incident response can fit only when there are clear roles, escalation paths, runbooks, and a non-humiliating team culture that confirms "your action matters here."
 - Frontline or field roles where place, authority, and immediate role are constantly unstable are higher risk.
 
-**4Б — Fourth Future / Passenger**
+**4F — Fourth Future / Passenger** (RU: 4Б; UK: 4Мб)
 
 - Future direction is easier when given as an external frame: mission, SLA, roadmap, command priority, incident objective, or product strategy.
 - Avoid roles where the person must independently invent vague long-range strategy from nothing.
@@ -395,9 +397,9 @@ Notes:
 
 - meaning-first orientation: work must connect to a larger why
 - continuity and procession matter, but only as carriers of meaningful purpose
-- 2П supports learning from incidents, history, logs, runbooks, and precedent
-- 3Н warns against exile inside the current situation: unclear place, undefined role, poor belonging, and chaotic present-pressure without concrete contact
-- 4Б works best when future objectives are externally framed as mission, SLA, roadmap, or command priority
+- 2P supports learning from incidents, history, logs, runbooks, and precedent
+- 3N warns against exile inside the current situation: unclear place, undefined role, poor belonging, and chaotic present-pressure without concrete contact
+- 4F works best when future objectives are externally framed as mission, SLA, roadmap, or command priority
 - not ideal for chaotic roles with no stable narrative or convincing reason to endure them
 
 ### Civil Profession: DevOps
@@ -427,7 +429,7 @@ Traceability:
 
 - **Socionics:** 1Si + 2Te technical steadiness, with 4Fe caution around emotional pressure and 5Ne need for supportive option-framing
 - **Psychosophy:** 2L supports structure, 3V warns against coercive status games
-- **Temporistics:** 1В needs meaningful mission, 2П supports operational memory, 3Н requires concrete role/place/belonging in the current field, 4Б benefits from externally framed objectives
+- **Temporistics:** 1E needs meaningful mission, 2P supports operational memory, 3N requires concrete role/place/belonging in the current field, 4F benefits from externally framed objectives
 - **Civil background:** DevOps already proves fit in a real environment
 
 ## Military Fit
@@ -449,10 +451,10 @@ Why:
 - uses SLI technical stability
 - uses 2L for structure and diagnostics
 - avoids over-pressuring 3V
-- fits 1В when the infrastructure is understood as protecting the digital or communications nervous system of an army, state, or mission
-- uses 2П through logs, incident memory, documentation, postmortems, and prevention of repeated failures
-- can work with 3Н if incident response gives a concrete place in the team: clear role, visible responsibility, runbooks, escalation paths, and practical feedback
-- supports 4Б when priorities are framed by mission, SLA, command need, or concrete operational objective
+- fits 1E in Temporistics when the infrastructure is understood as protecting the digital or communications nervous system of an army, state, or mission
+- uses 2P in Temporistics through logs, incident memory, documentation, postmortems, and prevention of repeated failures
+- can work with 3N in Temporistics if incident response gives a concrete place in the team: clear role, visible responsibility, runbooks, escalation paths, and practical feedback
+- supports 4F in Temporistics when priorities are framed by mission, SLA, command need, or concrete operational objective
 
 Traceability:
 
@@ -534,3 +536,4 @@ If two roles are both possible, prefer the one that:
 - [[smart-mobilization-research-note]]
 - [[socionics-function-dichotomies]]
 - [[third-present-exile-latent-process]]
+- [[typology-code-conventions]]
