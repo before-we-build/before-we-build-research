@@ -1,176 +1,182 @@
 ---
 title: Psychosophy Intertype Relations
 type: relation
-tags: [psychosophy, relations, compatibility, afanasyev, Agape, Philia, Eros]
+tags: [psychosophy, relations, compatibility, afanasyev, syntax-of-love, agape, philia, eros]
 created: 2026-04-15
-updated: 2026-04-16
-sources: [socionika.info, psycoshopy.library]
+updated: 2026-04-24
+sources: [raw/psychosophy/psychosophy-compatibility-research.md, wiki/concepts/afanasyev-syntax-of-love.md, wiki/sources/psychosophy-detailed.md, wiki/concepts/compatibility-level-boundaries.md]
 ---
 
 # Psychosophy Intertype Relations
 
-> **Status:** Updated with full theoretical framework from Afanasyev's "Syntax of Love"
+This page summarizes Psychosophy intertype relations for PsyCalc. Psychosophy has a more developed relation tradition than Temporistics, especially through Afanasyev's *Syntax of Love*, but the full 24 × 24 table below should still be treated as a structured working matrix rather than as empirically validated relationship fate.
 
-## Theoretical Basis
+In PsyCalc, Psychosophy operates at the **operational level**: it models how two people organize action, pressure, confidence, effort, emotion, logic, will, and practical embodiment.
 
-In Psychosophy, relationships are determined by **which function positions match** between two types.
+## 1. Status and Caveat
 
-Given two types:
-- Type A: `[1X, 2Y, 3Z, 4W]` — functions at positions 1-4
-- Type B: `[1X, 2Y, 3Z, 4W]` — functions at positions 1-4
+Source-backed:
 
-The relationship type depends on which **positions have matching aspects**.
+- Psychosophy has 24 standard permutations of Logic, Emotion, Will, and Physics.
+- Afanasyev proposed relationship models in *Syntax of Love* using function-position interactions.
+- The best-known Greek-model labels include **Eros**, **Philia**, **Pseudophilia**, and **Agape**.
 
----
+Less certain:
 
-## Primary Relation Types
+- Some extended relation labels and scores come from later calculators or community summaries.
+- The exact mapping from all 24 structural signatures to named relations may vary by source tradition.
+- The 24 × 24 matrix here is a **PsyCalc working matrix** based on the current repository's relation labels and structural signature method.
 
-### 1. Agape (Агапэ) — Most Harmonious
+## 2. Theoretical Basis
 
-| Condition | Description |
-|-----------|-------------|
-| Functions 2 and 3 match | Partners complement each other's weak points |
-| Full Agape: matching 2+3 AND 1+4 | Complete complementarity |
+Psychosophy compares the positions of the same four aspects in two people:
 
-**Characteristics:**
-- Partners encourage mutual development
-- They complement each other without touching "painful points"
-- Natural division of psychological labor
+- **L** — Logic
+- **E** — Emotion
+- **V** — Will / Volition
+- **F** — Physics
 
-**Example:**
-```
-Type A: L E V F (1L, 2E, 3V, 4F)
-Type B: V L F E (1V, 2L, 3F, 4E)
-              ↑   ↑   ↑
-             2   3   both match → Agape
-```
-
----
-
-### 2. Philia (Филия) — Identity/Similarity
-
-| Condition | Description |
-|-----------|-------------|
-| Same type (all 4 functions identical) | Partners are identical |
-| Pseudo-Philia: Same structure, different values | Similar but with value conflicts |
-
-**Characteristics:**
-- Easy to understand each other
-- Same strengths and same problems
-- May sympathize but cannot help with weaknesses
-
-**Example (Philia):**
-```
-Type A: L E V F
-Type B: L E V F
-        ↑ all match → Philia
-```
-
----
-
-### 3. Eros (Эрос) — Most Challenging
-
-| Condition | Description |
-|-----------|-------------|
-| Functions 1 and 3 match | Opposite values, initial attraction |
-| Eros variant: Functions 2 and 4 match | Conflict of values, misunderstanding |
-| Full Eros: Both variants combined | Severe incompatibility |
-
-**Characteristics:**
-- Partners initially attract each other
-- Deep interaction reveals conflicting values
-- Most unfavorable relationship type
-
-**Example (Eros):**
-```
-Type A: L E V F (1L, 2E, 3V, 4F)
-Type B: L V F E (1L, 2V, 3F, 4E)
-              ↑   ↑
-             1   3 both match → Eros
-```
-
----
-
-## Extended Relation Types
-
-Based on socionika.info research, additional relationships include:
-
-| Relation Type | Condition | Score | Description |
-|--------------|-----------|-------|-------------|
-| **Full Agape** | Match: 1+4 and 2+3 | 10/10 | Complete complementarity |
-| **Agape** | Match: 2+3 | 8-9/10 | Good complementarity |
-| **Philia** | Same type | 9/10 | Identical, easy understanding |
-| **Pseudo-Philia** | Similar structure, different values | 5-6/10 | Surface similarity |
-| **Order** | Asymmetric match (1+2 or 3+4) | 6/10 | One leads, one follows |
-| **Mirage** | Inverted values | 3/10 | Illusion of compatibility |
-| **Therapy-Misunderstanding** | Partial match | 2/10 | Can help with specific issues |
-| **Therapy-Attraction** | One-directional benefit | 4/10 | Asymmetric support |
-| **Neutrality** | No matches | 0/10 | Neutral, polite interaction |
-| **Revision** | Conflict in strong functions | -3/10 | Confrontational but can lead to growth |
-| **Conflict Submission** | Direct conflict | -4/10 | Power struggle |
-| **Extinguishment** | Complete inversion | -5/10 | Distant, formal with respect |
-
----
-
-## How to Determine Relationship Type
-
-### Step 1: Write both types in function position format
-
-```
 Example:
-Type A: L E V F (1L, 2E, 3V, 4F)
-Type B: V L F E (1V, 2L, 3F, 4E)
+
+```text
+LEVF = 1L, 2E, 3V, 4F
+ELVF = 1E, 2L, 3V, 4F
 ```
 
-### Step 2: Compare positions
+The relation depends on how one person's function positions meet the other person's positions in the same aspect.
 
-| Position | Type A | Type B | Match? |
-|----------|-------|--------|-------|
-| 1st | L | V | No |
-| 2nd | E | L | No |
-| 3rd | V | F | No |
-| 4th | F | E | No |
+## 3. Four Classical Models from Syntax of Love
 
-### Step 3: Apply rules
+The current source summary identifies four basic models:
 
-**Match 2 + 3** → Agape  
-**Match 1 + 3** → Eros  
-**Match all 4** → Philia  
+| Model | Greek name | Source-backed idea | Operational meaning |
+|---|---|---|---|
+| Cross of 1st and 3rd functions | **Eros** | intense, high highs and low lows | strong attraction with strong vulnerability activation |
+| Equality of 1st and 3rd functions | **Philia** | balanced, friendship-like | easy recognition, similar strengths and wounds |
+| Cross of 1st-2nd and 3rd-4th | **Pseudophilia** | deceptive similarity | surface fit with deeper mismatch |
+| Cross of 2nd and 3rd functions | **Agape** | most stable, nurturing | flexible support reaches vulnerable function |
 
----
+These names are more source-grounded than the reconstructed Temporistics labels, but they should still be used as compatibility hypotheses rather than deterministic judgments.
 
-## Relationship Compatibility Matrix
+## 4. Position-Contact Principles
 
-| Your Type → | L-E-V-F | L-V-E-F | E-L-V-F | E-V-L-F | V-L-E-F | V-E-L-F | F-L-V-E | F-V-L-E |
-|--------------|---------|---------|---------|---------|---------|---------|---------|---------|
-| **L-E-V-F** | Philia | Mirage | Agape | Order | Agape | Revision | Extinguishment | Conflict |
-| **L-V-E-F** | Mirage | Philia | Order | Agape | Revision | Agape | Conflict | Extinguishment |
-| **E-L-V-F** | Agape | Order | Philia | Mirage | Extinguishment | Conflict | Agape | Revision |
-| **E-V-L-F** | Order | Agape | Mirage | Philia | Conflict | Extinguishment | Revision | Agape |
+| Contact | Operational interpretation |
+|---|---|
+| 1 ↔ 1 | both are self-sufficient in the same aspect; recognition or competition |
+| 1 ↔ 2 | one defines, the other processes; possible leadership/order dynamic |
+| 1 ↔ 3 | strong pressure touches vulnerability; attraction and injury risk |
+| 1 ↔ 4 | one confidently supplies what the other treats lightly or accepts externally |
+| 2 ↔ 2 | active mutual exchange and co-processing |
+| 2 ↔ 3 | flexible support reaches the vulnerable function; Agape-like support |
+| 2 ↔ 4 | guidance to a low-investment function; may be useful but not central |
+| 3 ↔ 3 | shared vulnerability; empathy but limited repair capacity |
+| 3 ↔ 4 | one person's pain meets the other's low attention; misunderstanding risk |
+| 4 ↔ 4 | shared low-investment zone; low drama, low initiative |
 
-*(Full matrix not shown — 24×24 = 576 combinations)*
+## 5. Relation Code Legend
 
----
+The full matrix uses compact codes. Some names are more established than others.
 
-## Notes
+| Code | Relation name | Signature | Status | Short meaning |
+|---|---|---|---|---|
+| PH | Philia | `1234` | classical / source-backed | same type; recognition and similar problems |
+| PPH | Pseudophilia | `1243` | classical label, signature mapping provisional | surface similarity with lower-position mismatch |
+| MR | Mirage | `1324` | extended/community | attractive but unstable mismatch |
+| TMR | Therapy-Misunderstanding | `1342` | extended/community | partial help mixed with poor translation |
+| TAT | Therapy-Attraction | `1423` | extended/community | asymmetrical support/attraction |
+| NT | Neutrality | `1432` | extended/community | low activation, polite distance |
+| AG | Agape | `2134` | classical label, signature mapping from current matrix | flexible support and operational complementarity |
+| ORD | Order | `2143` | extended/community | one leads, one follows |
+| AG2 | Agape Variant | `2314` | working label | second Agape-like structural route |
+| ROT | Role Rotation | `2341` | PsyCalc working label | functions rotate through positions |
+| TG | Therapeutic Guidance | `2413` | PsyCalc working label | guidance with pressure risk |
+| SUP | Supportive Inversion | `2431` | PsyCalc working label | partial inversion with support potential |
+| OR | Order Variant | `3124` | extended/community mapping | asymmetrical leadership/pressure |
+| RV | Revision | `3142` | extended/community | corrective/frictional pressure |
+| RV2 | Revision Variant | `3214` | extended/community mapping | stronger revision-like mismatch |
+| CP | Conflict Pressure | `3241` | PsyCalc working label | pressure around vulnerable zones |
+| ER | Eros | `3412` | classical label, signature mapping provisional | intense attraction and wound activation |
+| EX | Extinguishment | `3421` | extended/community | distance, damping, formal respect |
+| AN | Anchor | `4123` | PsyCalc working label | strong-to-weak support with hierarchy |
+| ANW | Anchor with Wound | `4132` | PsyCalc working label | anchoring plus shared/activated vulnerability |
+| MX | Mixed Complement | `4213` | PsyCalc working label | support and pressure coexist |
+| SW | Shared Wound | `4231` | PsyCalc working label | shared 3rd-position sensitivity |
+| FC | Full Complement | `4312` | PsyCalc working label | near-complete complement with pressure risk |
+| CS | Conflict Submission | `4321` | extended/community | strong inversion; high dependence/conflict risk |
 
-- This system is based on Afanasyev's "Syntax of Love"
-- Similar to Greek love types: Eros (passionate), Philia (friendship), Agape (unconditional)
-- Different from Socionics intertype relations
+Important: the code legend is intended to make the full matrix usable. It should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
 
----
+## 6. Full 24 × 24 Psychosophy Relation Matrix
 
-## See Also
+The table below covers all 24 standard Psychosophy types. Rows are “type A,” columns are “type B.” Cell values use the code legend above.
+
+| Type | LEVF | LEFV | LVEF | LVFE | LFEV | LFVE | ELVF | ELFV | EVLF | EVFL | EFLV | EFVL | VLEF | VLFE | VELF | VEFL | VFLE | VFEL | FLEV | FLVE | FELV | FEVL | FVLE | FVEL |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LEVF | PH | PPH | MR | TAT | TMR | NT | AG | ORD | OR | AN | RV | ANW | AG2 | TG | RV2 | MX | ER | FC | ROT | SUP | CP | SW | EX | CS |
+| LEFV | PPH | PH | TMR | NT | MR | TAT | ORD | AG | RV | ANW | OR | AN | ROT | SUP | CP | SW | EX | CS | AG2 | TG | RV2 | MX | ER | FC |
+| LVEF | MR | TAT | PH | PPH | NT | TMR | AG2 | TG | RV2 | MX | ER | FC | AG | ORD | OR | AN | RV | ANW | SUP | ROT | EX | CS | CP | SW |
+| LVFE | TMR | NT | PPH | PH | TAT | MR | ROT | SUP | CP | SW | EX | CS | ORD | AG | RV | ANW | OR | AN | TG | AG2 | ER | FC | RV2 | MX |
+| LFEV | TAT | MR | NT | TMR | PH | PPH | TG | AG2 | ER | FC | RV2 | MX | SUP | ROT | EX | CS | CP | SW | AG | ORD | OR | AN | RV | ANW |
+| LFVE | NT | TMR | TAT | MR | PPH | PH | SUP | ROT | EX | CS | CP | SW | TG | AG2 | ER | FC | RV2 | MX | ORD | AG | RV | ANW | OR | AN |
+| ELVF | AG | ORD | OR | AN | RV | ANW | PH | PPH | MR | TAT | TMR | NT | RV2 | MX | AG2 | TG | FC | ER | CP | SW | ROT | SUP | CS | EX |
+| ELFV | ORD | AG | RV | ANW | OR | AN | PPH | PH | TMR | NT | MR | TAT | CP | SW | ROT | SUP | CS | EX | RV2 | MX | AG2 | TG | FC | ER |
+| EVLF | AG2 | TG | RV2 | MX | ER | FC | MR | TAT | PH | PPH | NT | TMR | OR | AN | AG | ORD | ANW | RV | EX | CS | SUP | ROT | SW | CP |
+| EVFL | ROT | SUP | CP | SW | EX | CS | TMR | NT | PPH | PH | TAT | MR | RV | ANW | ORD | AG | AN | OR | ER | FC | TG | AG2 | MX | RV2 |
+| EFLV | TG | AG2 | ER | FC | RV2 | MX | TAT | MR | NT | TMR | PH | PPH | EX | CS | SUP | ROT | SW | CP | OR | AN | AG | ORD | ANW | RV |
+| EFVL | SUP | ROT | EX | CS | CP | SW | NT | TMR | TAT | MR | PPH | PH | ER | FC | TG | AG2 | MX | RV2 | RV | ANW | ORD | AG | AN | OR |
+| VLEF | OR | AN | AG | ORD | ANW | RV | RV2 | MX | AG2 | TG | FC | ER | PH | PPH | MR | TAT | TMR | NT | SW | CP | CS | EX | ROT | SUP |
+| VLFE | RV | ANW | ORD | AG | AN | OR | CP | SW | ROT | SUP | CS | EX | PPH | PH | TMR | NT | MR | TAT | MX | RV2 | FC | ER | AG2 | TG |
+| VELF | RV2 | MX | AG2 | TG | FC | ER | OR | AN | AG | ORD | ANW | RV | MR | TAT | PH | PPH | NT | TMR | CS | EX | SW | CP | SUP | ROT |
+| VEFL | CP | SW | ROT | SUP | CS | EX | RV | ANW | ORD | AG | AN | OR | TMR | NT | PPH | PH | TAT | MR | FC | ER | MX | RV2 | TG | AG2 |
+| VFLE | ER | FC | TG | AG2 | MX | RV2 | EX | CS | SUP | ROT | SW | CP | TAT | MR | NT | TMR | PH | PPH | AN | OR | ANW | RV | AG | ORD |
+| VFEL | EX | CS | SUP | ROT | SW | CP | ER | FC | TG | AG2 | MX | RV2 | NT | TMR | TAT | MR | PPH | PH | ANW | RV | AN | OR | ORD | AG |
+| FLEV | AN | OR | ANW | RV | AG | ORD | MX | RV2 | FC | ER | AG2 | TG | SW | CP | CS | EX | ROT | SUP | PH | PPH | MR | TAT | TMR | NT |
+| FLVE | ANW | RV | AN | OR | ORD | AG | SW | CP | CS | EX | ROT | SUP | MX | RV2 | FC | ER | AG2 | TG | PPH | PH | TMR | NT | MR | TAT |
+| FELV | MX | RV2 | FC | ER | AG2 | TG | AN | OR | ANW | RV | AG | ORD | CS | EX | SW | CP | SUP | ROT | MR | TAT | PH | PPH | NT | TMR |
+| FEVL | SW | CP | CS | EX | ROT | SUP | ANW | RV | AN | OR | ORD | AG | FC | ER | MX | RV2 | TG | AG2 | TMR | NT | PPH | PH | TAT | MR |
+| FVLE | FC | ER | MX | RV2 | TG | AG2 | CS | EX | SW | CP | SUP | ROT | AN | OR | ANW | RV | AG | ORD | TAT | MR | NT | TMR | PH | PPH |
+| FVEL | CS | EX | SW | CP | SUP | ROT | FC | ER | MX | RV2 | TG | AG2 | ANW | RV | AN | OR | ORD | AG | NT | TMR | TAT | MR | PPH | PH |
+
+## 7. How to Use the Matrix
+
+1. Find person A's Psychosophy type in the left column.
+2. Find person B's type in the header row.
+3. Read the relation code.
+4. Check the code legend for the relation name and caveat.
+5. Interpret the relation at the operational level only.
+
+Do not use this matrix as a complete compatibility verdict. In PsyCalc, Psychosophy covers operational compatibility; strategic fit is modeled primarily by Temporistics, and tactical communication fit is modeled primarily by Socionics.
+
+## 8. Comparison with Temporistics
+
+Both Psychosophy and Temporistics have 24 types and a 4-aspect × 4-position structure. This is why both can be represented with 24 × 24 matrices.
+
+The difference is the level:
+
+| System | PsyCalc level | Matrix meaning |
+|---|---|---|
+| Psychosophy | Operational | action, pressure, effort, role distribution, emotional/logical/material priorities |
+| Temporistics | Strategic | temporal meaning, continuity, life direction, memory, forecasting, existential frame |
+
+Therefore Psychosophy relation names should not be copied into Temporistics without translation. Agape in Psychosophy is an operational support pattern; a Temporistics complement is a strategic temporal-frame pattern.
+
+## 9. Validation Needs
+
+Psychosophy relations should be validated through:
+
+- couple and team case studies;
+- function-position interviews;
+- conflict narratives around Will, Logic, Emotion, and Physics;
+- longitudinal relationship outcomes;
+- comparison against Big Five, attachment, values, and conflict style;
+- incremental validity testing against Socionics and Temporistics layers.
+
+The matrix is useful as a structured hypothesis generator. It is not a deterministic prediction of relationship success.
+
+## 10. See Also
 
 - [[psychosophy-model]] — Psychosophy type model
-- [[afanasyev-model]] — Alexander Afanasyev's original theory
-- [[socionics-intertype-relations]] — Socionics relations for comparison
-- [[temporistics-intertype-relations]] — Temporistics relations
-
----
-
-## References
-
-- socionika.info — Интертипные отношения в психософии
-- Afanasyev, A. (1993). Syntax of Love.
-- Psychosophy Library (sites.google.com/view/psychosophy)
+- [[afanasyev-model]] — Alexander Afanasyev's model
+- [[afanasyev-syntax-of-love]] — Source-book summary
+- [[temporistics-intertype-relations]] — Strategic-level relation reconstruction
+- [[socionics-intertype-relations]] — Tactical-level relation system
