@@ -42,12 +42,12 @@ Each person gets assessed across 3 typologies:
 
 | Quadra | Process | Result | Best Military Roles |
 |-------|---------|--------|--------------------|
-| **1** | В + Л | Ф + Э | Technical, Logistics |
-| **2** | В + Ф | Л + Э | Engineer, Support |
-| **3** | Ф + Л | В + Э | Commander, Strategist |
-| **4** | Э + Ф | В + Л | Psychologist, Social |
-| **5** | Э + Л | Ф + В | Administrator, HR |
-| **6** | В + Э | Ф + Л | Instructor, Reorg |
+| **1** | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ | - | Technical, Logistics |
+| **2** | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ | - | Engineer, Support |
+| **3** | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ | - | Commander, Strategist |
+| **4** | ЛЭФВ, ЛФЭВ, ВФЭЛ, ВЭФЛ | - | Psychologist, Social |
+| **5** | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ | - | Administrator, HR |
+| **6** | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ | - | Instructor, Reorg |
 
 ### Temporistics (6 Tetras)
 

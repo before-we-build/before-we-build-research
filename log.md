@@ -1050,3 +1050,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 - research-program.md — Validation framework
 
 ---
+2026-04-24 - Added `psychosophy-quadras.md` with six quadra clusters and descriptive themes; synced index and related psychosophy pages.

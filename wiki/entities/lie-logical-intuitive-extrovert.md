@@ -1,16 +1,16 @@
 ---
-title: LIE — Logical Intuitive Extrovert (Napoleon / Jack)
+title: LIE — Logical Intuitive Extrovert (Jack London)
 type: entity
-tags: [socionics, beta-quadra, entj, lie, logical, intuitive, extrovert]
+tags: [socionics, gamma-quadra, entj, lie, logical, intuitive, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-24
 sources: [raw/socionics/]
 ---
 
-# LIE — Logical Intuitive Extrovert (Napoleon / Jack)
+# LIE — Logical Intuitive Extrovert (Jack London)
 
 **Socionics type:** LIE (ENTj)  
-**Quadra:** Beta  
+**Quadra:** Gamma  
 **MBTI equivalent:** ENTJ  
 **Function Stack:** 1Te 2Ni 3Si 4Fe 5Ti 6Ne 7Se 8Fi
 

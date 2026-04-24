@@ -1,18 +1,18 @@
 ---
-title: SLI — Sensory Logical Introvert (Dubrovina / Dumas)
+title: SLI — Sensory Logical Introvert (Gaben / Dumas)
 type: entity
-tags: [socionics, alpha-quadra, istp, sli, sensory, logical, introvert]
+tags: [socionics, delta-quadra, istp, sli, sensory, logical, introvert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-24
 sources: [raw/socionics/]
 ---
 
-# SLI — Sensory Logical Introvert (Dubrovina / Dumas)
+# SLI — Sensory Logical Introvert (Gaben / Dumas)
 
 **Socionics type:** SLI (ISTp)  
-**Quadra:** Alpha  
+**Quadra:** Delta  
 **MBTI equivalent:** ISTP  
-**Function Stack:** 1Si 2Fe 3Ti 4Ne 5Se 6Ni 7Te 8Fi
+**Function Stack:** 1Si 2Te 3Fi 4Ne 5Ni 6Fe 7Ti 8Se
 
 ---
 
@@ -21,13 +21,13 @@ sources: [raw/socionics/]
 | Function | Element | Description |
 |----------|---------|-------------|
 | **1st (Base)** | Si | Comfort, physical sensations, body |
-| **2nd (Creative)** | Fe | Emotional expression, atmosphere |
-| **3rd (Role)** | Ti | Structural logic, consistency |
+| **2nd (Creative)** | Te | Efficiency, pragmatism |
+| **3rd (Role)** | Fi | Relations, values, boundaries |
 | **4th (PoLR)** | Ne | Possibilities, ideas |
-| **5th (Suggestive)** | Se | Power, control, influence |
-| **6th (Activation)** | Ni | Future projections, time |
-| **7th (Ignoring)** | Te | Efficiency, pragmatism |
-| **8th (Demonstrative)** | Fi | Values, warmth |
+| **5th (Suggestive)** | Ni | Future projections, time |
+| **6th (Activation)** | Fe | Emotional expression, atmosphere |
+| **7th (Ignoring)** | Ti | Structural logic, consistency |
+| **8th (Demonstrative)** | Se | Power, control, influence |
 
 ---
 

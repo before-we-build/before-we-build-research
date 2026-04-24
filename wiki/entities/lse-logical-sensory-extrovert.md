@@ -1,16 +1,16 @@
 ---
 title: LSE — Logical Sensory Extrovert (Stierlitz)
 type: entity
-tags: [socionics, gamma-quadra, estj, lse, logical, sensory, extrovert]
+tags: [socionics, delta-quadra, estj, lse, logical, sensory, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-24
 sources: [raw/socionics/]
 ---
 
 # LSE — Logical Sensory Extrovert (Stierlitz)
 
 **Socionics type:** LSE (ESTj)  
-**Quadra:** Gamma  
+**Quadra:** Delta  
 **MBTI equivalent:** ESTJ  
 **Function Stack:** 1Te 2Si 3Fe 4Ni 5Ti 6Ne 7Fi 8Se
 

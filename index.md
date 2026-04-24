@@ -212,6 +212,7 @@ wiki/          — LLM-generated wiki
 | second-function.md | Second function properties | Psychosophy Library |
 | third-function.md | Third function properties | Psychosophy Library |
 | fourth-function.md | Fourth function properties | Psychosophy Library |
+| psychosophy-quadras.md | Six psychosophy quadras and type clusters | Psychosophy Library / community sources |
 | psychosophy-accentuations.md | Subtype system: 8 accentuations per function | BestSocionics |
 | psychosophy-compatibility-research.md | Synthax of Love, 4 Greek models, function compatibility | Multiple sources |
 

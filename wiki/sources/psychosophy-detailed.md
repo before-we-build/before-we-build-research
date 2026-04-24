@@ -3,7 +3,7 @@ title: Psychosophy Detailed
 type: source
 tags: [psychosophy, operational-level, functions]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-24
 sources: []
 ---
 
@@ -27,32 +27,27 @@ From bestsocionics.com: *"The structure of psychosophy was first described by th
 
 ## Quadra System (6 Quadras)
 
-Psychosophy has **6 quadras** (like Socionics), each containing 4 types. The quadras are defined by which aspects are "process" (driving force) vs "result" (outcome).
+Psychosophy has **6 quadras**, each containing 4 fixed types. In the source material, quadras are defined by **exact type clusters**, not by a simple "first aspect = quadra" rule.
 
-| Quadra | Process Aspects | Result Aspects | Mission | Types Reference |
-|-------|--------------|-------------|----------|----------------|
-| **1** | В + Л | Ф + Э | Survival / Очищение | Гете, Андерсен, Аристипп, Газали |
-| **2** | В + Ф | Л + Э | Agriculture / Хозяйство | Лао-Цзы, Пушкин, Платон, Пастернак |
-| **3** | Ф + Л | В + Э | Centralized Management / Управление | Наполеон, Руссо, Бухарин, Ленин |
-| **4** | Э + Ф | В + Л | Cultural Development / Культура | Твардовский, Августин, Бертье, Толстой |
-| **5** | Э + Л | Ф + В | Consumer Society / Потребление | Сократ, Бордж, Эпикур, Ахматова |
-| **6** | В + Э | Ф + Л | Reorganization / Реорганизация | Чехов, Паскаль, Дюма, Эйнштейн |
+| Quadra | Types |
+|-------|-------|
+| **1** | ЭЛВФ, ЭВЛФ, ФВЛЭ, ФЛВЭ |
+| **2** | ЭФВЛ, ЭВФЛ, ЛВФЭ, ЛФВЭ |
+| **3** | ЭЛФВ, ЭФЛВ, ВФЛЭ, ВЛФЭ |
+| **4** | ЛЭФВ, ЛФЭВ, ВФЭЛ, ВЭФЛ |
+| **5** | ВЛЭФ, ВЭЛФ, ФЛЭВ, ФЭЛВ |
+| **6** | ФВЭЛ, ФЭВЛ, ЛЭВФ, ЛВЭФ |
 
-**Source:** socionika.lv
+**Source:** Psychosophy Library / Psychosophy theory pages
 
 ### Determining Your Quadra
 
 Your type format: `[1st, 2nd, 3rd, 4th]`
 
-- If your 1st position is **Ф (Physics)** → Quadra 1 or 2
-- If your 1st is **В (Will)** → Quadra 3 or 6  
-- If your 1st is **Э (Emotion)** → Quadra 4 or 5
-- If your 1st is **Л (Logic)** → depends on 2nd position
-
-**Example:** Your type is **ФВЛЭ**:
-- 1st = Ф (process)
-- 2nd = В (also process or result depending on pair)
-- This makes you **Quadra 1 or 2** (Ф is process aspect)
+- Determine quadra by the **full 4-letter type**, not by the first aspect alone.
+- Example: **ЭЛВФ** is **Quadra 1**.
+- Example: **ФВЛЭ** is **Quadra 1**.
+- Example: **ВПНБ** does not apply here; that is Temporistics.
 
 ---
 
@@ -481,6 +476,10 @@ Each function can manifest with different accentuations based on which property 
 
 **Forum discussions:**
 > "Carriers of the same PY functions can exhibit different qualities of character, depending on which properties of the functions are enhanced in them."
+
+## See Also
+
+- [[psychosophy-quadras]] — six quadra clusters and themes
 
 ---
 

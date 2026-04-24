@@ -1,16 +1,16 @@
 ---
-title: SEE — Sensory Ethical Extrovert (Napoleon / Gabin)
+title: SEE — Sensory Ethical Extrovert (Napoleon)
 type: entity
-tags: [socionics, delta-quadra, esfp, see, sensory, ethical, extrovert]
+tags: [socionics, gamma-quadra, esfp, see, sensory, ethical, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-24
 sources: [raw/socionics/]
 ---
 
-# SEE — Sensory Ethical Extrovert (Napoleon / Gabin)
+# SEE — Sensory Ethical Extrovert (Napoleon)
 
 **Socionics type:** SEE (ESFp)  
-**Quadra:** Delta  
+**Quadra:** Gamma  
 **MBTI equivalent:** ESFP  
 **Function Stack:** 1Se 2Fi 3Ne 4Ti 5Ni 6Si 7Fe 8Te
 
