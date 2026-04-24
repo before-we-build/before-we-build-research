@@ -39,6 +39,8 @@ wiki/          — LLM-generated wiki
 | [[psychosophy-model]] | Psychosophy type structure | psycalc/Psyche-Yoga |
 | [[psychosophy-functions]] | Function block descriptions | psycalc/Psyche-Yoga |
 | [[socionics-model-a]] | Model A: 8 cognitive functions | raw/socionics |
+| [[socionics-function-dichotomies]] | Model A function dichotomies and dimensionality | Wikisocion, BestSocionics |
+| [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
 | [[temporistics-model]] | Temporistics type structure | raw/temporistics |
 | [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
 | [[intertype-relations-matrix]] | Full compatibility matrix | raw/socionics |
