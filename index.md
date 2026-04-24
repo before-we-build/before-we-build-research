@@ -41,6 +41,7 @@ wiki/          — LLM-generated wiki
 | [[socionics-model-a]] | Model A: 8 cognitive functions | raw/socionics |
 | [[socionics-function-dichotomies]] | Model A function dichotomies and dimensionality | Wikisocion, BestSocionics |
 | [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
+| [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
 | [[temporistics-model]] | Temporistics type structure | raw/temporistics |
 | [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
 | [[intertype-relations-matrix]] | Full compatibility matrix | raw/socionics |

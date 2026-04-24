@@ -4,7 +4,7 @@ type: concept
 tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md]
+sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md]
 ---
 
 # Composite Profile SLI + ЭЛВФ + ВПНБ
@@ -19,6 +19,38 @@ This page combines the current working profile used in the project:
 - **Civil profession:** DevOps
 
 The profile is treated as a **practical role-fit hypothesis**, not as a fixed destiny.
+
+## Research Goal
+
+This page is a **reference profile**, not only a recommendation page. Its job is to:
+
+- separate Socionics, Psychosophy, and Temporistics cleanly
+- show which claims are source-backed and which are school-specific
+- record where Socionics schools disagree
+- connect the composite profile to civilian work, military role fit, and life strategy
+
+## Raw Profile
+
+- **Socionics:** SLI
+- **Psychosophy:** ЭЛВФ
+- **Temporistics:** ВПНБ
+- **Civil profession:** DevOps
+
+## System Boundaries
+
+| Question | Primary system | What not to confuse it with |
+|----------|----------------|-----------------------------|
+| How information is perceived and processed? | **Socionics** | not Psychosophy work-style dynamics |
+| How action, pressure, support, and role distribution are handled? | **Psychosophy** | not Socionics IM elements |
+| How meaning, direction, and time horizon are organized? | **Temporistics** | not Socionics intuition or Psychosophy will |
+| What role fits current labor market structure? | **ESCO / role catalog** | not typology alone |
+| What role fits real military demand? | **Current Ukraine role catalog** | not composite theory in isolation |
+
+Practical rule:
+
+- if the claim is about cognition and information exchange, start from Socionics
+- if the claim is about pressure, self-assertion, and work-style pain points, start from Psychosophy
+- if the claim is about meaning, continuity, and trajectory, start from Temporistics
 
 ## Full Typology Breakdown
 
@@ -197,6 +229,56 @@ Practical reading:
 - best in technical, grounded, operational work
 - dislikes noise, forced improvisation, and social pressure as the main work style
 
+#### Reinin Traits for SLI
+
+| Trait Pair | Assignment | Confidence |
+|------------|------------|------------|
+| Extravert / Introvert | **Introvert** | High |
+| Rational / Irrational | **Irrational** | High |
+| Logic / Ethics | **Logic** | High |
+| Sensing / Intuition | **Sensing** | High |
+| Democratic / Aristocratic | **Aristocratic** | High in classical table / contested across schools |
+| Judicious / Decisive | **Judicious** | High |
+| Static / Dynamic | **Dynamic** | High |
+| Tactical / Strategic | **Strategic** | High |
+| Constructivist / Emotivist | **Constructivist** | High in classical table |
+| Positivist / Negativist | **Positivist** | Medium / contested across schools |
+| Asking / Declaring | **Asking** | Medium / contested across schools |
+| Subjectivist / Objectivist | **Objectivist** | Medium |
+| Carefree / Farsighted | **Carefree** | Medium |
+| Yielding / Obstinate | **Obstinate** | Medium |
+| Process / Result | **Result** | Medium / contested across schools |
+
+Notes:
+
+- The first four are the Jungian foundation and are the most stable.
+- The rest follow the Wikisocion Reinin table for `SLI`.
+- Reinin traits beyond the Jungian foundation should be treated more cautiously in applied typing.
+- In the current project source set, some schools explicitly dispute parts of the Reinin layer.
+
+## School Disagreements
+
+### Socionics
+
+| Topic | Classical / Wikisocion | Imperative Socionics / alternate school | Project handling |
+|-------|-------------------------|------------------------------------------|------------------|
+| Reinin dichotomies | accepted as a classical layer, though usefulness is questioned | some pairs treated as false traits | keep with confidence labels |
+| Aristocratic / Democratic | `SLI = aristocratic` | disputed as part of false-trait critique | use as school-dependent |
+| Process / Result | `SLI = result` | disputed as false trait | use as school-dependent |
+| Asking / Declaring | `SLI = asking` | disputed as false trait | use as school-dependent |
+| Positivist / Negativist | `SLI = positivist` | disputed as false trait | use as school-dependent |
+| Plus / minus signs | valid in some traditions | not universal | store only as convention-specific |
+
+### Psychosophy
+
+- The current page uses fixed type, quadra, and position logic.
+- Accentuation is **not typed** and therefore remains open.
+
+### Temporistics
+
+- Tetra and position meanings are used as source-backed where available.
+- Broader applied conclusions remain more exploratory than the core type labels.
+
 ### 2. Psychosophy
 
 **Type:** ЭЛВФ
@@ -308,6 +390,13 @@ Practical reading:
 - uses 2L for automation, diagnostics, and structure
 - avoids roles that reward pure status pressure over system reliability
 
+Traceability:
+
+- **Socionics:** 1Si + 2Te + low Ne tolerance for chaotic option-space
+- **Psychosophy:** 2L supports structure, 3V warns against coercive status games
+- **Temporistics:** need for continuity and meaningful direction
+- **Civil background:** DevOps already proves fit in a real environment
+
 ## Military Fit
 
 Using the current Ukrainian catalog, the strongest fits are:
@@ -328,6 +417,13 @@ Why:
 - uses 2L for structure and diagnostics
 - avoids over-pressuring 3V
 - fits ВПНБ as a role that carries continuity and direction
+
+Traceability:
+
+- **Socionics:** technical-operational fit, low appetite for chaos-heavy social pressure
+- **Psychosophy:** strong Logic, vulnerable Will under coercive hierarchy, low desire to make hardship the center
+- **Temporistics:** better when there is a route, continuity, and a larger why
+- **Role catalog:** best overlap with communications, cyber infrastructure, and technical support families
 
 ### Backup Military Roles
 
@@ -350,6 +446,29 @@ If two roles are both possible, prefer the one that:
 - has clearer operational continuity
 - uses existing DevOps skills
 - minimizes coercive pressure
+
+## Life Strategy
+
+### What Usually Works
+
+- technical systems with visible usefulness
+- roles where reliability matters more than status theater
+- environments with a clear task contour and explicit feedback
+- teams where pressure exists, but humiliation is not the management style
+
+### What Usually Fails
+
+- endless ambiguity with no stabilizing frame
+- careers built on pure personal dominance
+- high-chaos environments that reward visibility over utility
+- roles where physical grind becomes the main identity instead of a condition of work
+
+### Strategic Advice
+
+- choose systems, not theater
+- choose continuity, not random escalation
+- choose real usefulness over prestige branding
+- when in doubt, trust environments where your work can be measured by stability, recovery, and operational clarity
 
 ## Summary
 

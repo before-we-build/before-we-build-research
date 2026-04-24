@@ -1058,3 +1058,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Added `composite-profile-sli-elvf-vpnb.md` with a user-specific composite profile and role recommendations.
 2026-04-24 - Added `socionics-function-dichotomies.md` and linked it into the composite profile to support a deeper Model A breakdown.
 2026-04-24 - Added `socionics-plus-minus-signs.md` to record the source-backed theory of plus/minus function signs before any type-specific assignment.
+2026-04-24 - Added `socionics-reinin-dichotomies.md` and expanded the composite profile with system boundaries, school disagreements, and traceable applied conclusions.
