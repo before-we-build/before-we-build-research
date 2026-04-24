@@ -40,6 +40,24 @@ This page is a **reference profile**, not only a recommendation page. Its job is
 
 Code convention: this English page uses English codes as primary. Russian and Ukrainian equivalents are shown in parentheses where useful. See [[typology-code-conventions]].
 
+## Typological Group Memberships
+
+This profile belongs to three larger typological groups. These group memberships are a separate recommendation layer from individual functions and positions.
+
+| System | Group | Group logic | Role recommendation from group membership |
+|--------|-------|-------------|-------------------------------------------|
+| Socionics | **Delta quadra** | valued `Si + Te + Fi + Ne`: practical usefulness, stable conditions, personal trust, non-dramatic improvement | choose useful, low-drama technical service roles with stable teams and concrete value |
+| Psychosophy | **1st quadra / Purification** (RU: Очищение) | orientation toward inner backbone, simplification, directness, and structuring | choose roles where emotional drive and logic can simplify chaos into a clear working system |
+| Temporistics | **Conductors tetra** (RU: Проводники; UK: Провідники) | `Future + Eternity`: route plus meaning, direction plus mission | choose mission-bearing infrastructure roles where reliability protects a meaningful route |
+
+Combined recommendation:
+
+- **Delta** says: make the role practical, useful, stable, and low-drama.
+- **1st Psychosophy quadra** says: make the role structurally clarifying, not status-theatrical.
+- **Conductors tetra** says: make the role mission-bearing, not empty maintenance.
+
+Therefore the strongest fit is not generic IT, generic army service, or generic management. It is **meaningful technical reliability**: DevOps/SRE/platform/cyber infrastructure work in a system whose purpose is clear and worth protecting.
+
 ## System Boundaries
 
 | Question | Primary system | What not to confuse it with |
