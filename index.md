@@ -37,6 +37,7 @@ wiki/          — LLM-generated wiki
 | [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
 | [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
 | [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
+| [[neuroscience-compatibility-bridges]] | Neuroscience and cognitive-science process bridges for compatibility levels | neuroscience-researcher |
 | [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the СЛИ + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
@@ -284,9 +285,9 @@ wiki/          — LLM-generated wiki
 - **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
-- **Wiki pages**: 96 (24 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
+- **Wiki pages**: 97 (25 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 57 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 24
+- **Concepts**: 25
 - **Last updated**: 2026-04-24

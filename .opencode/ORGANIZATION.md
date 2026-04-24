@@ -9,6 +9,7 @@ master-orchestrator (gold) ⚜
 ├── Research Team
 │   ├── typology-researcher (purple)
 │   ├── sociology-researcher (brown)
+│   ├── neuroscience-researcher (indigo)
 │   └── military-roles-researcher (darkgreen)
 ├── Typing Team  
 │   ├── psychosophy-typer (green)
@@ -30,7 +31,7 @@ master-orchestrator (gold) ⚜
 
 ### 1. Research Team
 **Lead:** typology-researcher
-**Purpose:** Finding and validating information, including typological and sociological context
+**Purpose:** Finding and validating information, including typological, sociological, and neuroscience context
 **Crons:** military-roles-researcher (weekly)
 
 ### 2. Typing Team  

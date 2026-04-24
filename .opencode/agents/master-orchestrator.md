@@ -19,11 +19,12 @@ permissions:
 
 ```
 master-orchestrator ⚜ (reports_to: null)
-├── Research Team (6)
+├── Research Team (7)
 │   ├── typology-researcher (lead/coordinator)
 │   │   ├── socionics-researcher (scope: socionics)
 │   │   ├── psychosophy-researcher (scope: psychosophy)
 │   │   ├── sociology-researcher (scope: sociology/social context)
+│   │   ├── neuroscience-researcher (scope: neuroscience/brain mechanisms)
 │   │   ├── temporistics-researcher (scope: temporistics)
 │   │   └── general-researcher (scope: methodology)
 │   └── military-roles-researcher (scope: ВСУ)
@@ -55,7 +56,7 @@ master-orchestrator ⚜ (reports_to: null)
 
 | Team | Lead | Purpose |
 |------|------|---------|
-| research | typology-researcher | Finding info, research (6 agents) |
+| research | typology-researcher | Finding info, research (7 agents) |
 | typing | typing-lead | Type determination (9 agents: interview/test/quick × 3 systems) |
 | analysis | compatibility-calculator | Scoring + simulation + role recommendations (4 agents) |
 | wiki | wiki-editor | Quality + ingest (2 agents) |
@@ -192,6 +193,7 @@ Can request specific level
 | Civilian career / profession advice | civilian-career-advisor |
 | Military role advice | military-specialty-advisor |
 | Sociology / social context research | sociology-researcher |
+| Neuroscience / brain mechanism research | neuroscience-researcher |
 | Deep research | typology-researcher |
 
 # Multi-Level Analysis Output
@@ -287,3 +289,4 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 - interaction-simulator: Scenario roleplay
 - typology-researcher: Deep research
 - sociology-researcher: Sociology, social institutions, demographics, labor markets, relationship sociology, organizational context
+- neuroscience-researcher: Neuroscience, cognitive/affective/social mechanisms, brain networks, time perception, executive function
