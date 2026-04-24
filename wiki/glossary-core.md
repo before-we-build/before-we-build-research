@@ -3,15 +3,23 @@ title: Glossary Core
 type: reference
 tags: [glossary, terminology]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-24
 sources: []
 ---
 
-# Glossary of Terms: Cognitive Matchmaker
+# Glossary of Terms: PsyCalc and Cognitive Matchmaker
 
 ## Purpose
 
-This glossary provides unambiguous, authoritative definitions for all key terms used across the Cognitive Matchmaker project documentation. Definitions are designed to prevent contradictions between documents and to serve as the single source of truth for project terminology.
+This glossary provides authoritative working definitions for the PsyCalc research framework and its downstream applications, including Cognitive Matchmaker. PsyCalc is the broader ontology and latent-process compatibility framework; Cognitive Matchmaker is one implementation of that framework in AI-assisted dating and relationship matching.
+
+The glossary should preserve the central PsyCalc distinction: type labels are not final explanations. They are structured hypotheses about latent processes inferred from observable traces and revised through evidence.
+
+Core formula:
+
+- **Socionics → latent processes of information modeling**
+- **Psychosophy → latent processes of synthesis and analysis in action**
+- **Temporistics → latent processes of induction and deduction in temporal/existential experience**
 
 ---
 

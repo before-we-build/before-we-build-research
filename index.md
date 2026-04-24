@@ -1,8 +1,38 @@
-# Index — Cognitive Matchmaker Wiki
+# Index — PsyCalc Wiki
+
+PsyCalc is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses about hidden processes that can inform compatibility analysis, role fit, team design, and AI-based simulation.
+
+Core formula:
+
+- **Socionics → latent processes of information modeling**
+- **Psychosophy → latent processes of synthesis and analysis in action**
+- **Temporistics → latent processes of induction and deduction in temporal/existential experience**
+
+PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is one possible downstream application: an AI dating concierge using simulation-based compatibility assessment.
+
+## Start Here
+
+| Page | Purpose |
+|------|---------|
+| [[main-idea]] | 60-second explanation of the PsyCalc thesis and three-level mapping |
+| [[project-positioning]] | Distinguishes PsyCalc from Cognitive Matchmaker and states claims/non-claims |
+| [[latent-process]] | Explains observable traces vs hidden process hypotheses |
+| [[compatibility-level-boundaries]] | Defines strategic, operational, and tactical boundaries |
+| [[weight-calibration]] | Explains why compatibility scoring remains provisional |
+
+---
 
 This is the catalog of all pages in the wiki. The LLM updates this on every ingest.
 
 ## Wiki Structure
+
+The wiki is organized conceptually into five layers:
+
+- **Orientation** — README, main idea, project positioning, glossary, roadmap.
+- **Core theory** — latent processes and the three primary typological interpretations.
+- **Compatibility architecture** — level boundaries, rules, conflicts, complementarity, examples.
+- **Applications** — Cognitive Matchmaker, team design, career/role navigation, service roles, AI agent simulation.
+- **Research program** — hypotheses, measurement strategy, validation strategy, evidence, limitations.
 
 ```
 raw/           — Immutable source documents
@@ -21,7 +51,8 @@ wiki/          — LLM-generated wiki
 
 | Page | Summary | Sources |
 |------|---------|---------|
-| [[main-idea]] | Theoretical foundations: integration of three typologies | - |
+| [[main-idea]] | PsyCalc thesis: typologies as latent-process hypotheses across three levels | - |
+| [[project-positioning]] | PsyCalc vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
