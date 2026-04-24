@@ -8,6 +8,7 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-24 - Added `psycalc-vs-big-five.md` to position Big Five as the validated descriptive baseline and PsyCalc as a heuristic latent-process architecture for compatibility, role-fit, and AI simulation.
 2026-04-24 - Reworked `temporistics-intertype-relations.md` as “Proposed Intertype Relations in Temporistics,” separating source-backed Temporistics structure from reconstructed relation classes, tetrad hypotheses, a 24×24 structural signature matrix, and validation requirements.
 2026-04-24 - Reworked `psychosophy-intertype-relations.md` with a full 24×24 working relation matrix, compact relation-code legend, operational-level framing, and validation caveats.
+2026-04-24 - Added `intertype-relation-naming-audit.md` to compare relation names across Socionics, Psychosophy, and Temporistics and define a naming policy based on mechanism transparency, level specificity, and epistemic status.
 
 ---
 

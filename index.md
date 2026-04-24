@@ -55,6 +55,7 @@ wiki/          — LLM-generated wiki
 | [[project-positioning]] | PsyCalc vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[psycalc-vs-big-five]] | Positions PsyCalc against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
+| [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | English composite profile: SLI + ELVF + EPNF with civilian and military recommendations | project synthesis |
