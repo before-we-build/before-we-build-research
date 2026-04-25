@@ -3,131 +3,214 @@ title: Socionics Intertype Relations
 type: relation
 tags: [socionics, relations, compatibility]
 created: 2026-04-15
-updated: 2026-04-15
-sources: [psycalc/socionics_matching_algorithm]
+updated: 2026-04-25
+sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md]
 ---
 
 # Socionics Intertype Relations
 
-Complete descriptions of all 16 intertype relations in Socionics.
+Mechanism-first glossary of Socionics intertype relation classes.
 
 ## Overview
 
-Socionics describes 16 types of relationships between personality types, each with different characteristics for communication, compatibility, and long-term dynamics.
+Socionics is usually organized around **14 canonical intertype relation classes**. Two of them — **Benefit/Request/Social Order** and **Supervision/Revision/Audit** — are asymmetric and must be interpreted with direction-specific roles.
+
+In PsyCalc, Socionics relations describe the **tactical information-exchange layer** only. They are theory-internal hypotheses about Model A contacts, not deterministic predictions of relationship success, dating compatibility, career fit, or long-term outcomes.
 
 ## Relation Types
 
 ### Identity
 
-**English:** These partners are very similar in their abilities and the way they look at the world as many of the same traits are shared. This relationship is the easiest to form and will succeed when there is a need to transfer accumulated knowledge and experience back and forth. Both will have complete understanding but due to similarities will be largely unable to help the other with identical problems.
+**Aliases:** Identical.
 
-**Українська:** Ці партнери дуже схожі за своїми здібностями та способом бачення світу, оскільки вони діляться багатьма спільними рисами. Ця взаємодія найлегше формується та буде успішною, коли є потреба передавати накопичені знання та досвід туди й сюди. Обидва будуть міцно розуміти один одного, але через подібність не зможуть допомогти один одному з ідентичними проблемами.
+**Model A mechanism:** Same type; functions map to the same positions.
+
+**Tactical interpretation:** Partners may recognize each other's information habits easily and exchange experience in familiar language, but they also share similar blind spots.
+
+**Do not infer:** identical personality, total compatibility, or guaranteed success.
 
 ---
 
 ### Duality
 
-**English:** Interaction is generally rewarding and satisfying for both, providing each other with inspiration and support. This is often considered the most beneficial relation as all interactions are complementary, providing an "other half" effect.
+**Aliases:** Dual relation.
 
-**Українська:** Взаємодія зазвичай є насолодою та задоволенням для обох сторін, надаючи один одному натхнення та підтримку. Це часто вважається найбільш корисним відношенням, оскільки всі взаємодії є доповнюючими, створюючи ефект "іншої половинки".
+**Model A mechanism:** Reciprocal valued-weak complement, especially `1↔5` and `2↔6`, with relatively low direct pressure on PoLR.
+
+**Tactical interpretation:** Each side may naturally supply information the other values but handles weakly.
+
+**Do not infer:** soulmate status, romantic destiny, or calibrated overall compatibility.
 
 ---
 
 ### Activation
 
-**English:** Partners raise the overall energy level, serve to mobilize one another. However, these partners tend to overactivate each other over time and can do with breaks in order to cool down.
+**Aliases:** Activity.
 
-**Українська:** Партнери підвищують загальний рівень енергії, служать для мобілізації один одного. Проте з часом ці партнери мають тенденцію перенапружувати один одного, і їм потрібні перерви, щоб охолодитися.
+**Model A mechanism:** Mutual valued-function stimulation of the super-id/mobilizing zone.
+
+**Tactical interpretation:** Interaction can feel energizing or mobilizing, but stimulation is not the same as stability.
+
+**Do not infer:** always-good chemistry or long-term ease.
 
 ---
 
 ### Mirror
 
-**English:** Partners will feel as though they are looking in the mirror, seeing a reflection of their motives; will have similar actions and motivations, and can reach mutual understanding quite easily. However, levels of energy and discipline will be reversed, resulting in different lifestyles. They are likely to have slightly different takes on the same issue and may mutually correct each other. While mostly affable, sometimes, this can result in minor clashes.
+**Model A mechanism:** Same valued elements with leading/creative inversion (`1↔2`, `2↔1`).
 
-**Українська:** Партнери будуть відчувати, що дивляться в дзеркало, бачачи відбиток своїх мотивів; вони матимуть схожі дії та мотивації і зможуть досить легко досягти взаєморозуміння. Однак рівні енергії та дисципліни будуть перевернуті, що призведе до різних стилів життя. Ймовірно, вони матимуть трохи різний підхід до тієї ж проблеми й можуть коригувати один одного. Хоча в основному це може призводити до незначних зіткнень.
+**Tactical interpretation:** Partners may recognize similar information priorities from different angles and correct or supplement each other's framing.
 
----
-
-### Benefactor
-
-**English:** Both partners greatly admire each other. However, there is an asymmetry: the benefactor is able to help the beneficiary but not the other way around. As a result, these relations are often temporary, with a sense of unfairness being felt over time by the benefactor and a sense of uselessness being felt by the beneficiary.
-
-**Українська:** Обидва партнери дуже захоплюються один одним. Проте є асиметрія: благодійник може допомогти бенефіціару, але не навпаки. У результаті такі відносини часто є тимчасовими, і з часом благодійник відчуває негоду за недопомогу, а бенефіціар відчуває непотрібність.
+**Do not infer:** same personality or friction-free understanding.
 
 ---
 
-### Supervision
+### Benefit / Request / Social Order
 
-**English:** This is an asymmetric relationship, in which one partner is constantly seen as lacking in some required area by the other. As a result, the supervisee feels somewhat wary or careful about their words and actions around the supervisor, feeling that they could be corrected in an area they feel insecure about.
+**Aliases:** Benefit, Request, Social Request, Social Order. Directional roles: benefactor / beneficiary.
 
-**Українська:** Це асиметричні відносини, в яких одного партнера постійно вважають недостатнім у деякій області іншим. В результаті супервізор відчуває деяку обережність або старанність у висловлюваннях і діях навколо супервізора, відчуваючи, що його можуть виправити в області, де він відчуває себе незахищеним.
+**Model A mechanism:** Asymmetric valued weak-zone activation; one side's signals are received as an implicit request or mobilizing prompt by the other.
 
----
+**Tactical interpretation:** Exchange can feel motivating but uneven. Direction must be named when applying the relation.
 
-### Business
-
-**English:** Both partners understand each other very well and are usually happy to interact. But, in general, this is a pair of people with very different goals.
-
-**Українська:** Обидва партнери дуже добре розуміють один одного та зазвичай задовольняються взаємодією. Але загалом це пара людей з дуже різними цілями.
+**Do not infer:** moral superiority of the benefactor or inevitable temporary relationship.
 
 ---
 
-### Mediator
+### Supervision / Revision / Audit
 
-**English:** These relationships are usually pleasant, but only for mutual leisure time. It is difficult to accomplish something serious together because their individual goals continually undo each other.
+**Aliases:** Supervision, Revision, Audit. Directional roles: supervisor / supervisee.
 
-**Українська:** Ці відносини зазвичай приємні, але тільки для взаємного дозвілля. Важко досягти чогось серйозного разом, оскільки їхні індивідуальні цілі постійно скасовують одна одну.
+**Model A mechanism:** Supervisor's leading function tends to land on the supervisee's vulnerable/PoLR area; reverse influence is weaker and structurally uneven.
+
+**Tactical interpretation:** The supervisee may experience correction or exposure in a sensitive information zone, especially at close distance.
+
+**Do not infer:** literal hierarchy, abuse, or unavoidable conflict.
+
+---
+
+### Business / Cooperation
+
+**Aliases:** Business, Cooperation, Look-a-like.
+
+**Model A mechanism:** Strong-function coordination without full valued weak-zone relief.
+
+**Tactical interpretation:** Partners may coordinate around tasks or shared competence while not deeply resolving each other's weak valued needs.
+
+**Do not infer:** guaranteed work efficiency or lack of personal closeness.
+
+---
+
+### Mirage / Illusionary
+
+**Aliases:** Mirage, Illusionary. `Mediator` may appear in some translations but is not used here as the primary label.
+
+**Model A mechanism:** Partial comfort with unstable valued alignment.
+
+**Tactical interpretation:** Interaction can feel easy in some contexts but may not provide stable informational closure under pressure.
+
+**Do not infer:** deception, false intimacy, or impossibility of cooperation.
 
 ---
 
 ### Quasi-identity
 
-**English:** These are relationships built on mutual respect. Each partner sees qualities in the other that are desired. But they must maintain some psychological distance, because one-on-one, they can start to annoy one another. Although having very similar energy levels and lifestyles, they have very different abilities and life values, leading to misunderstanding.
+**Model A mechanism:** Similar informational themes with different valued/unvalued arrangement.
 
-**Українська:** Ці відносини побудовані на взаємному повазі. Кожен партнер бачить в іншому бажані якості. Але вони повинні підтримувати певну психологічну відстань, оскільки один на одного вони можуть почати дратуватися. Хоча вони мають дуже схожі рівні енергії та стилі життя, вони мають дуже різні здібності та життєві цінності, що призводить до непорозумінь.
+**Tactical interpretation:** Partners may appear to speak about similar themes while assigning them different priorities.
+
+**Do not infer:** “almost same type” or predictable annoyance.
 
 ---
 
-### Extinguishment
+### Extinguishment / Contrary
 
-**English:** These partners have many common interests, but are often confused by each other's seemingly counter-intuitive insights. Their thinking styles are very different despite being good at similar things. Each may often feel that the other is deliberately trying to undermine or extinguish their approach, but this is not intentionally the case.
+**Aliases:** Extinguishment, Contrary.
 
-**Українська:** Ці партнери мають багато спільних інтересів, але часто збентежені видимо суперечними ідеями один одного. Їхні стилі мислення дуже різні, незважаючи на те, що вони добрі в схожих речах. Кожен з них часто може відчувати, що інший намагається свідомо підірвати або приглушити його підхід, але це не влаштовується навмисно.
+**Model A mechanism:** Reciprocal damping or interruption of information initiative despite some parallel competence.
+
+**Tactical interpretation:** Each side may feel the other's framing drains momentum or redirects the exchange.
+
+**Do not infer:** deliberate undermining or inevitable hostility.
 
 ---
 
 ### Conflict
 
-**English:** Partners' interests are aligned, but at a closer distance misunderstandings arise. Collaborative work with ample room to move, regarding process and approach, is necessary for success in this pair. Working in close contact will lead to confusion due to the very different values and attitudes these partners have. They will not take each other's advice as they each perceive themselves as doing the same as the other, only better.
+**Model A mechanism:** Reciprocal strong-to-weak valuation clash; each side's confident information often lands in the other's weak/unvalued zones.
 
-**Українська:** Інтереси партнерів узгоджені, але на ближчій відстані виникають непорозуміння. Спільна робота з великим простором для дій, щодо процесу та підходу, необхідна для успіху цієї пари. Робота в тісному контакті призведе до збентеження через дуже різні цінності та відношення цих партнерів. Вони не приймуть поради один одного, оскільки кожен сприймає себе таким, що робить те ж саме, що інший, тільки краще.
+**Tactical interpretation:** Close-range information exchange may produce recurring dissonance and defensive reactions.
 
----
-
-### Social Order (Supervisor/Supervisee variants)
-
-**English:** Misunderstandings arise very easily in this type of relationship. The two partners are exact opposites in abilities, temperament and life values, resulting in there being very little in common. Despite being initially attracted to each other due to them providing in certain amounts what the other partner needs in their life, they soon realise that the value dissonance makes relations mutually painful, with each putting pressure upon the other's points of insecurity rather than protecting and helping those points.
-
-**Українська:** Непорозуміння дуже легко виникають у цьому типі відносин. Обидва партнери є точними протилежностями за здібностями, темпераментом та цінностями життя, що призводить до того, що між ними мало спільного. Незважаючи на те, що на початку вони притягуються один до одного через те, що надають один одному певну кількість того, що потрібно іншому партнерові в їхньому житті, вони вже скоро розуміють, що розбіжність цінностей робить взаємини болючими, оскільки кожен ставить тиск на точки незахищеності іншого замість їх захисту та допомоги.
+**Do not infer:** constant fighting, moral incompatibility, or impossibility of respectful distance.
 
 ---
 
-### Kindred
+### Super-Ego
 
-**English:** Partners like to discuss similar topics and often have many common interests. But when they come to practical implementation of their mutual goals and projects, each finds that the other acts in contrary ways.
+**Aliases:** Super-Ego.
 
-**Українська:** Партнерам подобається обговорювати схожі теми і часто мають багато спільних інтересів. Але коли приходить до практичної реалізації їхніх спільних цілей та проектів, кожен з них виявляє, що інший діє в протилежних способах.
+**Model A mechanism:** Mutual contact around conscious weak/unvalued regulation zones.
+
+**Tactical interpretation:** Interaction may feel formal, strained, or overly corrective because both sides try to handle areas that are not naturally strong and valued.
+
+**Do not infer:** clinical “superego” dynamics or total incompatibility.
+
+---
+
+### Kindred / Comparative
+
+**Aliases:** Kindred, Comparative, Congenerity.
+
+**Model A mechanism:** Shared leading orientation with divergent values/support patterns.
+
+**Tactical interpretation:** Partners may recognize a common leading focus while disagreeing on what should support it.
+
+**Do not infer:** warmth, kinship, or practical compatibility from the name alone.
 
 ---
 
 ### Semi-duality
 
-**English:** Relationships of semi-duality can become very close for moderate periods of time. Often these relations lead to friendship and fruitful cooperation at work. But very close relationships can lead to disappointments.
+**Aliases:** Partial duality.
 
-**Українська:** Відносини напівдуальності можуть стати дуже близькими на помірні періоди часу. Часто ці відносини призводять до дружби та плідної співпраці на роботі. Але дуже тісні стосунки можуть призвести до розчарувань.
+**Model A mechanism:** Some valued weak zones are complemented, but the full duality exchange does not close.
+
+**Tactical interpretation:** Interaction can resemble duality in some channels while leaving important support gaps.
+
+**Do not infer:** “almost as good as duality” or predictable disappointment.
+
+## Canonical Label Policy
+
+Use these primary labels in PsyCalc:
+
+- Identity
+- Duality
+- Activation
+- Mirror
+- Benefit
+- Supervision
+- Business
+- Mirage
+- Quasi-identity
+- Extinguishment
+- Conflict
+- Super-Ego
+- Kindred
+- Semi-duality
+
+Keep these as searchable aliases, not separate relation classes:
+
+- Request / Social Order
+- Revision / Audit
+- Cooperation / Look-a-like
+- Illusionary
+- Contrary
+- Comparative / Congenerity
+- Partial duality
+- Benefactor / Beneficiary
+- Supervisor / Supervisee
 
 ## See Also
 
 - [[socionics-detailed]] — Socionics Model A function structure
-- [[intertype-relations-matrix]] — Full compatibility matrix
+- [[intertype-relations-matrix]] — Tactical relation reference without calibrated scores

@@ -3,26 +3,43 @@ title: Afanasyev's Psychosophy Model
 type: concept
 tags: [psychosophy, afanasyev, theory, model]
 created: 2026-04-15
-updated: 2026-04-15
-sources: [psycalc/Psyche-Yoga]
+updated: 2026-04-25
+sources: [raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md, raw/psychosophy/first-function.md, raw/psychosophy/second-function.md, raw/psychosophy/third-function.md, raw/psychosophy/fourth-function.md]
 ---
 
 # Afanasyev's Psychosophy Model
 
 ## Overview
 
-Alexander Afanasyev's model, also known as **Psychosophy** or **Psychoyoga**, is a theory of personality that describes the relationship between an individual and the categories of time: Present, Past, Future, and Eternity.
+Alexander Afanasyev's model, also known as **Psychosophy** or **Psyche-Yoga**, describes a person's hierarchy of four psychosophic aspects: **Will**, **Logic**, **Emotion**, and **Physics**.
+
+In PsyCalc this system is interpreted as an operational-level heuristic for latent processes of synthesis, analysis, and action organization. This is a project interpretation, not a claim that Psychosophy has been psychometrically validated.
+
+> Boundary note: **Past, Present, Future, and Eternity belong to Temporistics**, not to Afanasyev's Psychosophy.
 
 ## The Four Aspects
 
-The model includes four functions that represent direct ways for a person to influence the world:
+The model includes four aspects. A full type is a permutation of these aspects across four positions.
 
 | Aspect | Russian | Description |
 |--------|--------|-------------|
-| Physics | Физика (Φ) | Practical, concrete, sensory information |
-| Logic | Логика (Л) | Analytical, systematic reasoning |
-| Will | Воля (В) | Determination, willpower, decisiveness |
-| Emotion | Эмоция (Э) | Emotional expression, empathy |
+| Physics | Физика (Ф) | Material, bodily, practical, sensory concerns |
+| Logic | Логика (Л) | Reasoning, argument, explanation, systematization |
+| Will | Воля (В) | Agency, priority, decision, self-assertion |
+| Emotion | Эмоция (Э) | Emotional expression, affective tone, expressiveness |
+
+## Type Formula
+
+Psychosophy type notation records **which aspect occupies each position**.
+
+Example:
+
+| Type | Position structure |
+|------|--------------------|
+| `ELVF` / `ЭЛВФ` | 1E, 2L, 3V, 4F |
+| `LEVF` / `ЛЭВФ` | 1L, 2E, 3V, 4F |
+
+The letters are not independent “digits of strength”; they are an ordered aspect-position stack.
 
 ## Function Expression Levels
 
@@ -55,17 +72,9 @@ A programmer with a dominant first function in Logic may:
 - Struggle with breaking down complex problems into smaller components
 - Have difficulty understanding nuances in each aspect
 
-## Time Categories
-
-The model relates personality to four temporal categories:
-
-- **Present:** Action-oriented, here-and-now focus
-- **Past:** Memory, tradition, experience-based
-- **Future:** Vision, intuition, possibility-oriented
-- **Eternity:** Reflection, philosophical, values-driven
-
 ## See Also
 
 - [[psychosophy-model]] — Detailed Psychosophy type structure
 - [[psychosophy-intertype-relations]] — Relationship compatibility
 - [[afanasyev-syntax-of-love]] — Original source material
+- [[temporistics-model]] — Separate temporal typology using Past, Present, Future, and Eternity

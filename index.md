@@ -63,12 +63,7 @@ wiki/          — LLM-generated wiki
 | [[military-profile-sli-elvf-vpnb]] | Military role-fit profile for SLI + ELVF + EPNF under Ukrainian role-demand constraints | military role catalog |
 | [[cross-typology-mapping-framework]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
 | [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
-| [[typology-authors-timeline]] | Who created which typology and when (Jung, Eysenck, Augustinavičiūtė, etc.) | web research |
-| [[typology-activity-theory-mapping]] | Project heuristic: Socionics=Tactical, Psychosophy=Operational, Temporistics=Strategic | web research |
-| [[typology-researchers]] | Academic validation researchers and studies (Blutner, Pietrak, Kovalenko, Rook, etc.) | web research |
-| [[big-five-alternatives]] | Alternatives to Big Five: HEXACO, 16PF, PEN, RST, Dark Tetrad | web research |
-| [[temporistics-eternity-altruism-hypothesis]] | Hypothesis: 1E/4E Eternity → collectivism, 2E/3E → individualism | user observation |
-| [[agentic-skills-hang-the-dj]] | 8 agent skills to implement simulation-based compatibility testing | skills/index.md |
+| [[agentic-skills-hang-the-dj]] | 12 agent skills for simulation-based compatibility testing | skills/index.md |
 | [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
 | [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
 | [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
@@ -82,13 +77,10 @@ wiki/          — LLM-generated wiki
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | psycalc/Psyche-Yoga |
 | [[psychosophy-model]] | Psychosophy type structure | psycalc/Psyche-Yoga |
 | [[psychosophy-functions]] | Function block descriptions | psycalc/Psyche-Yoga |
-| [[socionics-model-a]] | Model A: 8 cognitive functions | raw/socionics |
-| [[socionics-function-dichotomies]] | Model A function dichotomies and dimensionality | Wikisocion, BestSocionics |
-| [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
-| [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
+| [[socionics-model-a]] | Model A: 8 information elements and function positions | raw/socionics |
 | [[temporistics-model]] | Temporistics type structure | raw/temporistics |
 | [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
-| [[intertype-relations-matrix]] | Full compatibility matrix | raw/socionics |
+| [[intertype-relations-matrix]] | Socionics tactical relation reference; no calibrated compatibility percentages | raw/socionics |
 
 ### Entities — Temporistics Aspect-Position Archetypes (16)
 
@@ -182,7 +174,7 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 
 | Page | Summary | Sources |
 |------|---------|---------|
-| [[socionics-intertype-relations]] | Socionics relation system summary | raw/socionics/intertype-relations.md |
+| [[socionics-intertype-relations]] | Socionics intertype relation glossary and tactical mechanism overview | raw/socionics/intertype-relations.md |
 | [[psychosophy-intertype-relations]] | Psychosophy intertype relations with full 24×24 working matrix and operational-level caveats | Syntax of Love, psychosophy compatibility research |
 | [[temporistics-intertype-relations]] | Proposed Temporistics intertype-relation reconstruction with structural matrix and validation caveats | raw/temporistics/types.md, mystery-of-third-aspect.md, temporistics-detailed |
 
@@ -200,6 +192,16 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | [[hang-the-dj-simulation-compatibility]] | Black Mirror episode used as simulation metaphor, including the fictional 99.8% reveal | - |
 | [[brain-typology-neuroscience]] | Historical exploratory note on neuroscience analogies and caveats | web research |
 | [[civilian-career-role-families]] | Civilian role-family catalog for typology-based career recommendations | .opencode/data/civilian-career-roles.md |
+| [[fourth-physics-deep-research]] | Fourth Physics (4Ф) deep research with clinical-safety caveats | raw/general/fourth-physics-deep-research.md |
+| [[psychosophy-quadras]] | Unofficial psychosophy sextas/quadras and type clusters | raw/psychosophy/aspects.md; community sources |
+| [[typology-authors-timeline]] | Who created which typology and when; secondary historical summary | web research |
+| [[typology-activity-theory-mapping]] | Project heuristic mapping to Activity Theory; hypothesis status | web research |
+| [[typology-researchers]] | Researchers, reviews, and critique literature around typologies | web research |
+| [[big-five-alternatives]] | Alternatives to Big Five: HEXACO, 16PF, PEN, RST, Dark Tetrad | web research |
+| [[temporistics-eternity-altruism-hypothesis]] | Hypothesis: 1E/4E Eternity → collectivism, 2E/3E → individualism | user observation |
+| [[socionics-function-dichotomies]] | Model A function dichotomies and dimensionality | Wikisocion, BestSocionics |
+| [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
+| [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
 
 ### Research on AI in Psychology
 
@@ -211,7 +213,7 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | [[psypilot-ai-psychologist-toolkit]] | AI as copilot for psychologists: risks and governance | Frontiers in Psychology |
 | [[s-researcher-llm-social-scientists]] | 100K agents for social science research, human-in-the-loop | arXiv:2604.01520 |
 | [[ai-experiment-participants]] | Trained AI as experiment participants: behavioral economics | Current Psychology |
-| [[smart-mobilization-typology-wartime]] | AI recruitment, personality typology in wartime | Web research 2026 |
+| [[smart-mobilization-typology-wartime]] | Wartime recruitment and typology research note; not assignment guidance | Web research 2026 |
 | [[psychosophy-typing-methods]] | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
 
 ### Concept Reference Pages
@@ -220,7 +222,7 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 |------|---------|
 | [[glossary-core]] | Core terminology definitions |
 | [[glossary-extended]] | Extended disambiguation (60+ terms) |
-| [[project-requirements]] | Project description |
+| [[project-requirements]] | Cognitive Matchmaker application requirements; not the whole PsyCalc project |
 | [[scientific-contribution-statement]] | Academic contribution statement |
 
 ---
@@ -264,16 +266,16 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | third-function.md | Third function properties | Psychosophy Library |
 | fourth-function.md | Fourth function properties | Psychosophy Library |
 | psychosophy-quadras.md | Unofficial psychosophy sextas/quadras and type clusters | Psychosophy Library / community sources |
-| psychosophy-accentuations.md | Subtype system: 8 accentuations per function | BestSocionics |
+| psychosophy-accentuations.md | Unofficial/community accentuation layer requiring source-status caveats | BestSocionics |
 | psychosophy-compatibility-research.md | Synthax of Love, 4 Greek models, function compatibility | Multiple sources |
 
 ### Intertype Relations
 
 | Page | Summary | Sources |
 |------|---------|---------|
-| [[socionics-intertype-relations]] | Complete descriptions of 16 Socionics relationship types (EN/UK) | psycalc/socionics_matching_algorithm |
+| [[socionics-intertype-relations]] | Overview of Socionics relation classes with asymmetric role notes | raw/socionics/intertype-relations.md |
 | [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures and hypotheses | raw/temporistics/types.md, project reconstruction |
-| [[psychosophy-intertype-relations]] | Psychosophy operational compatibility matrix for all 24 types | Syntax of Love, project matrix |
+| [[psychosophy-intertype-relations]] | Greek-model tradition plus PsyCalc working 24×24 operational matrix | Syntax of Love, project matrix |
 
 ### socionics/
 
@@ -323,9 +325,9 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
-- **Wiki pages**: 98 (26 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
+- **Wiki pages**: 103 (31 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 57 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 26
-- **Last updated**: 2026-04-24
+- **Concepts**: 31
+- **Last updated**: 2026-04-25

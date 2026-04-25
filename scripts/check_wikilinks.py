@@ -32,9 +32,13 @@ def extract_wikilinks(content: str) -> Set[str]:
 
 def wikilink_to_filename(wikilink: str) -> str:
     """Convert wikilink to expected filename."""
+    # Handle aliases like [[page|label]]
+    if "|" in wikilink:
+        wikilink = wikilink.split("|", 1)[0]
+
     # Handle anchors like [[page#section]]
     if "#" in wikilink:
-        wikilink = wikilink.split("#")[0]
+        wikilink = wikilink.split("#", 1)[0]
     
     # Convert to kebab-case (lowercase with hyphens)
     # Example: "Socionics Model A" -> "socionics-model-a.md"
