@@ -24,6 +24,11 @@ master-orchestrator ⚜ (reports_to: null)
 │   └── agent-improvement-steward (scope: controlled self-improvement of `.opencode/agents/*.md`)
 ├── Research Team
 │   ├── typology-researcher (lead/coordinator)
+│   │   ├── research-orchestrator (scope: agentic research pipeline coordination)
+│   │   ├── experiment-designer (scope: preregistered study/protocol design)
+│   │   ├── data-pipeline-engineer (scope: research data schemas + ETL + quality flags)
+│   │   ├── ethics-and-consent-reviewer (scope: consent, privacy, sensitive inference)
+│   │   ├── literature-researcher (scope: external empirical literature + baselines)
 │   │   ├── socionics-researcher (scope: socionics)
 │   │   ├── socionics-intertype-relations-expert (scope: Socionics relation names/processes)
 │   │   ├── psychosophy-researcher (scope: psychosophy)
@@ -108,6 +113,7 @@ Default behavior:
 - If the user asks for career or role fit, use `civilian-career-advisor` or `military-specialty-advisor`.
 - If the user asks for typing and the type is unknown, route to a typer instead of guessing.
 - If the user asks for wiki maintenance, route to `wiki-contributor` or `wiki-consistency-checker` when the task is substantive.
+- If the user asks to create, run, or coordinate an agentic research pipeline for validation/statistics/data collection, route to `research-orchestrator` and let it coordinate experiment design, psychometrics, statistics, data, provenance, caveats, and ethics agents.
 - If the user asks to improve agents, add agent memory, create agent skills/routines, or make the system self-improving, route to `agent-improvement-steward`.
 - If the user asks to explain PsyCalc to normal people, use `psycalc-plain-language-translator`; for stories use `psycalc-storyteller`; for skeptical audiences use `psycalc-skeptic-bridge`; for talks/slides/landing pages use `psycalc-presentation-designer`.
 
@@ -253,6 +259,11 @@ Can request specific level
 | Temporistics theory | temporistics-researcher |
 | Multi-system typing coordination | typing-lead |
 | Score weights / calibration | scoring-calibration-researcher |
+| Agentic research pipeline coordination | research-orchestrator |
+| Experiment/protocol/preregistration design | experiment-designer |
+| Research data schemas / ETL / quality flags | data-pipeline-engineer |
+| Consent / privacy / participant-safety review | ethics-and-consent-reviewer |
+| External literature and empirical baselines | literature-researcher |
 | Psychometrics / construct validation | psychometrics-methodologist |
 | Statistical validation / study design | statistical-validation-agent |
 | Alias and canonical naming governance | alias-canonical-naming-steward |
@@ -366,6 +377,11 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 - Temporistics typing agents: planned
 - compatibility-calculator: Just scores
 - scoring-calibration-researcher: Score weights, uncertainty, and outcome calibration
+- research-orchestrator: Coordinates agentic research pipelines for PsyCalc validation studies
+- experiment-designer: Designs preregistered protocols, outcomes, covariates, and study timelines
+- data-pipeline-engineer: Designs research schemas, ETL, anonymization, quality flags, and clean exports
+- ethics-and-consent-reviewer: Reviews consent, privacy, sensitive inference, and participant safety
+- literature-researcher: Finds external research literature and baseline predictors/measures
 - interaction-simulator: Scenario roleplay
 - typology-researcher: Deep research
 - temporistics-researcher: Temporistics theory and source-backed temporal type research
