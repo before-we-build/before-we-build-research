@@ -82,6 +82,7 @@ wiki/          — LLM-generated wiki
 | [[socionics-function-positions]] | Detailed Model A reference for positions 1–8 and their structural properties | raw/socionics/model-a.md, socionics-function-dichotomies |
 | [[socionics-model-a-blocks]] | Ego, Super-Ego, Super-Id, and Id as paired Model A function zones | raw/socionics/model-a.md, socionics-function-dichotomies |
 | [[socionics-information-elements]] | Eight Socionics information elements/aspects and naming variants | raw/socionics/information-aspects.md |
+| [[kalinauskas-steering-wheel]] | Kalinauskas/Reinin steering-wheel interpretive schema; Model-A-adjacent, not canonical Model A | Kalinauskas mirror, shturval.me, Reinin-linked materials |
 | [[temporistics-model]] | Temporistics type structure | raw/temporistics |
 | [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
 | [[intertype-relations-matrix]] | Socionics tactical relation reference; no calibrated compatibility percentages | raw/socionics |
@@ -206,6 +207,7 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | [[socionics-function-dichotomies]] | Model A function dichotomies and dimensionality | Wikisocion, BestSocionics |
 | [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
 | [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
+| [[kalinauskas-steering-wheel-source-notes]] | Source notes for Kalinauskas/Reinin steering-wheel materials and provenance caveats | Kalinauskas mirror, shturval.me, B17 |
 | [[psychology-of-everything-synthesis]] | Derived synthesis on unified psychology, cognitive-science frameworks, and online totalizing maps | expert synthesis |
 
 ### Research on AI in Psychology
@@ -289,6 +291,7 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | what-is-socionics.md | Official definition and summary | BestSocionics |
 | model-a.md | Model A: 8 functions, properties | BestSocionics |
 | information-aspects.md | 8 information aspects (white/black) | BestSocionics |
+| kalinauskas-steering-wheel.md | Source notes on Kalinauskas steering-wheel schema | Kalinauskas mirror, shturval.me |
 | intertype-relations.md | Types of information exchange | BestSocionics |
 | reinin-traits.md | Additional dichotomies beyond Jung | BestSocionics |
 | subtypes-dcnh.md | DCNH subtype theory | BestSocionics |
@@ -329,10 +332,10 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
-- **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
-- **Wiki pages**: 108 (35 concepts + 35 entities + 3 relations + 31 sources + 4 reference pages)
+- **Raw sources**: 58 (21 temporistics + 8 psychosophy + 12 socionics + 17 general)
+- **Wiki pages**: 110 (36 concepts + 35 entities + 3 relations + 32 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
-- **Articles ingested**: 57 raw sources plus derived web/source pages
+- **Articles ingested**: 58 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 35
+- **Concepts**: 36
 - **Last updated**: 2026-04-25
