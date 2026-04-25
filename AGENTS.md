@@ -50,7 +50,8 @@ Do not frame the whole repository as only a dating product. Application pages ma
 │   ├── glossary-core.md      # Core terminology
 │   └── glossary-extended.md  # Extended disambiguation
 ├── index.md                # Wiki catalog
-└── log.md                  # Chronological activity log
+├── log.md                  # Chronological activity log
+└── .agent-learning/        # Controlled self-improvement logs, proposals, reviews, templates
 ```
 
 ## Wiki Conventions
@@ -90,6 +91,18 @@ Use wikilinks for internal references:
 Example: `See [[latent-processes]] for theoretical foundation.`
 
 ## Operations
+
+### Agent Self-Improvement Workflow
+
+Agent instruction changes are governance changes. They should be handled through the controlled learning loop in `.agent-learning/`, not silent self-modification.
+
+1. Record the observed failure, audit finding, or user feedback in `.agent-learning/logs/`.
+2. Create an improvement proposal in `.agent-learning/proposals/` using the template.
+3. Route high-risk changes to relevant reviewers, such as provenance, caveats, psychometrics, statistics, theology, neuroscience, clinical, sociology, military, or system-specific experts.
+4. Apply patches to `.opencode/agents/*.md` only after explicit user request or approval.
+5. Store review decisions in `.agent-learning/reviews/`.
+
+Self-improvement should make agents more truthful, traceable, humble, and better delegated. It must not weaken caveats or convert hypotheses into facts.
 
 ### Ingest Workflow
 

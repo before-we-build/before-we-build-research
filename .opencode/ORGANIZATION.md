@@ -6,6 +6,8 @@ Based on best practices from McKinsey, ClawPort, and enterprise deployments (202
 
 ```
 master-orchestrator (gold) ⚜
+├── Orchestration Governance
+│   └── agent-improvement-steward (mediumpurple)
 ├── Research Team
 │   ├── typology-researcher (purple)
 │   ├── socionics-intertype-relations-expert (blue)
@@ -40,6 +42,11 @@ master-orchestrator (gold) ⚜
 **Purpose:** Finding and validating information, including typological, sociological, neuroscience, clinical-neurology, and Christian-theological context. Intertype-relation experts provide mechanism-level audits of relation names and processes within their own typology.
 **Crons:** military-roles-researcher (weekly)
 
+### 0. Orchestration Governance
+**Lead:** agent-improvement-steward
+**Purpose:** Controlled self-improvement of `.opencode/agents/*.md`, including learning logs, improvement proposals, review-gated instruction patches, and preservation of delegation-first behavior.
+**Storage:** `.agent-learning/`
+
 ### 2. Typing Team  
 **Lead:** (no dedicated lead yet)
 **Purpose:** Psychosophy type determination
@@ -62,6 +69,7 @@ master-orchestrator (gold) ⚜
 | **Least privilege** | Each agent has minimal tools |
 | **One job** | Each agent specializes |
 | **Team memory** | Shared files in .opencode/data/ |
+| **Controlled self-improvement** | Agent changes go through `.agent-learning/` proposals and reviews |
 
 ## Memory Architecture
 
@@ -100,6 +108,16 @@ master-orchestrator (gold) ⚜
 3. Checker → scan → report issues
 ```
 
+### Agent Improvement Flow: "Improve our agents"
+
+```
+1. User/audit → master-orchestrator
+2. Orchestrator → agent-improvement-steward
+3. Steward → learning log + proposal in .agent-learning/
+4. Relevant specialist reviewers → approve/request changes
+5. Human approval or explicit implementation request → patch agent instructions
+```
+
 ## Naming Conventions
 
 | Pattern | Example |
@@ -107,6 +125,7 @@ master-orchestrator (gold) ⚜
 | Role noun | researcher, typer, advisor |
 | System prefix | military-, wiki-, philosophy- |
 | Color per team | Unique per agent |
+| Governance suffix | steward for meta-governance agents |
 
 ## Tool Allocation
 
