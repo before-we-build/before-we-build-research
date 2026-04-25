@@ -58,7 +58,9 @@ wiki/          — LLM-generated wiki
 | [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
-| [[composite-profile-sli-elvf-vpnb]] | English composite profile: SLI + ELVF + EPNF with civilian and military recommendations | project synthesis |
+| [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
+| [[civilian-profile-sli-elvf-vpnb]] | Civilian career profile for SLI + ELVF + EPNF with DevOps background | civilian role catalog |
+| [[military-profile-sli-elvf-vpnb]] | Military role-fit profile for SLI + ELVF + EPNF under Ukrainian role-demand constraints | military role catalog |
 | [[cross-typology-mapping-framework]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
 | [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
 | [[typology-authors-timeline]] | Who created which typology and when (Jung, Eysenck, Augustinavičiūtė, etc.) | web research |

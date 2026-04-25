@@ -1,26 +1,28 @@
 ---
-title: Composite Profile SLI + ELVF + EPNF
+title: Core Composite Profile SLI + ELVF + EPNF
 type: concept
-tags: [composite-profile, socionics, psychosophy, temporistics, devops, military, recommendation]
+tags: [composite-profile, core-profile, socionics, psychosophy, temporistics]
 created: 2026-04-24
-updated: 2026-04-24
-sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/sources/psychosophy-quadras.md, wiki/sources/ukraine-military-specialties-current.md, wiki/concepts/esco-typology-mapping.md, wiki/sources/socionics-function-dichotomies.md, wiki/sources/socionics-plus-minus-signs.md, wiki/sources/socionics-reinin-dichotomies.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/sources/temporistics-detailed.md, raw/temporistics/guru.md, wiki/concepts/third-present-exile-latent-process.md, wiki/concepts/typology-code-conventions.md]
+updated: 2026-04-25
+sources: [raw/socionics/model-a.md, raw/socionics/information-aspects.md, raw/psychosophy/aspects.md, raw/temporistics/guru.md, raw/temporistics/izgnannik-exile.md, raw/temporistics/theory-description.md]
 ---
 
-# Composite Profile SLI + ELVF + EPNF
+# Core Composite Profile SLI + ELVF + EPNF
 
 Languages: **English** | [[composite-profile-sli-elvf-vpnb-ru|Русский]] | [[composite-profile-sli-elvf-vpnb-uk|Українська]]
 
 ## Overview
 
-This page combines the current working profile used in the project:
+This page defines the **core typological profile** used in the project:
 
 - **Socionics:** SLI (RU: СЛИ; UK: СЛІ; legacy Socionics: ISTp; MBTI-like: ISTP, approximate only; Delta)
 - **Psychosophy:** ELVF (RU: ЭЛВФ; UK: ЕЛВФ)
 - **Temporistics:** EPNF (RU: ВПНБ; UK: Вч-Ми-Тп-Мб)
-- **Civil profession:** DevOps
 
-The profile is treated as a **practical role-fit hypothesis**, not as a fixed destiny.
+The profile is treated as a **latent-process hypothesis**, not as a fixed destiny and not as a job assignment. Applied profiling is separated into dedicated pages:
+
+- [[civilian-profile-sli-elvf-vpnb]] — civilian career profile
+- [[military-profile-sli-elvf-vpnb]] — military role-fit profile
 
 ## Research Goal
 
@@ -29,34 +31,34 @@ This page is a **reference profile**, not only a recommendation page. Its job is
 - separate Socionics, Psychosophy, and Temporistics cleanly
 - show which claims are source-backed and which are school-specific
 - record where Socionics schools disagree
-- connect the composite profile to civilian work, military role fit, and life strategy
+- define a neutral typological core before applying it to civilian or military contexts
 
 ## Raw Profile
 
 - **Socionics:** SLI (RU: СЛИ; UK: СЛІ; legacy Socionics: ISTp; MBTI-like: ISTP, approximate only)
 - **Psychosophy:** ELVF (RU: ЭЛВФ; UK: ЕЛВФ)
 - **Temporistics:** EPNF (RU: ВПНБ; UK: Вч-Ми-Тп-Мб)
-- **Civil profession:** DevOps
+- **Known civilian background:** DevOps, used only in the applied civilian and military profile pages
 
 Code convention: this English page uses English codes as primary. Russian and Ukrainian equivalents are shown in parentheses where useful. See [[typology-code-conventions]].
 
 ## Typological Group Memberships
 
-This profile belongs to three larger typological groups. These group memberships are a separate recommendation layer from individual functions and positions.
+This profile belongs to three larger typological groups. These group memberships summarize orientation only; applied role translation belongs in the civilian and military profile pages.
 
-| System | Group | Group logic | Role recommendation from group membership |
-|--------|-------|-------------|-------------------------------------------|
-| Socionics | **Delta quadra** | valued `Si + Te + Fi + Ne`: practical usefulness, stable conditions, personal trust, non-dramatic improvement | choose useful, low-drama technical service roles with stable teams and concrete value |
-| Psychosophy | **1st sexta / 1st quadra** (unofficial grouping) | orientation toward inner backbone, simplification, directness, and structuring | choose roles where emotional drive and logic can simplify chaos into a clear working system |
-| Temporistics | **Conductors tetra** (RU: Проводники; UK: Провідники) | `Future + Eternity`: route plus meaning, direction plus mission | choose mission-bearing infrastructure roles where reliability protects a meaningful route |
+| System | Group | Group logic | Core orientation |
+|--------|-------|-------------|------------------|
+| Socionics | **Delta quadra** | valued `Si + Te + Fi + Ne`: practical usefulness, stable conditions, personal trust, non-dramatic improvement | utility, trust, stable improvement |
+| Psychosophy | **1st sexta / 1st quadra** (unofficial grouping) | orientation toward inner backbone, simplification, directness, and structuring | clarification, simplification, directness |
+| Temporistics | **Conductors tetra** (RU: Проводники; UK: Провідники) | `Future + Eternity`: route plus meaning, direction plus mission | meaningful continuity and route-orientation |
 
-Combined recommendation:
+Core pattern:
 
-- **Delta** says: make the role practical, useful, stable, and low-drama.
-- **1st Psychosophy sexta/quadra** says: make the role structurally clarifying, not status-theatrical. This is an unofficial grouping, not an original Afanasyev term.
-- **Conductors tetra** says: make the role mission-bearing, not empty maintenance.
+- **Delta** points to practical usefulness, stable conditions, personal trust, and non-dramatic improvement.
+- **1st Psychosophy sexta/quadra** points to structural clarification rather than status theater. This is an unofficial grouping, not an original Afanasyev term.
+- **Conductors tetra** points to meaning-bearing continuity rather than empty motion.
 
-Therefore the strongest fit is not generic IT, generic army service, or generic management. It is **meaningful technical reliability**: DevOps/SRE/platform/cyber infrastructure work in a system whose purpose is clear and worth protecting.
+Therefore the neutral core pattern is **meaningful reliability**: preference for useful systems, clear structure, continuity, and a visible reason why the work matters. Specific civilian or military role translation is handled outside this core page.
 
 ## System Boundaries
 
@@ -336,7 +338,7 @@ Notes:
 #### Tetra
 
 - **Conductors** (RU: Проводники)
-- role implication: carry a meaningful route, ideological continuity, or mission-bearing line through a system
+- core implication: meaning and route are interpreted together
 
 #### Tetra Role: Conductors
 
@@ -345,16 +347,12 @@ The Conductors tetra is defined by the pair **Future + Eternity** (EN: F + E; RU
 - **Eternity:** meaning, worldview, principles, and the question of what a system ultimately serves
 - **Future:** route, direction, movement, and the question of where the system is going
 
-Therefore the tetra role is not just "technical continuity". It is **mission-bearing direction**: translating a larger meaning into a path that can be carried forward.
+Therefore the tetra signal is not just continuity. It is **meaning-bearing direction**: the profile tends to interpret routes, plans, and movement through the question of what larger meaning they carry.
 
-For this profile, this makes the best role one where infrastructure is not only maintained, but kept aligned with a meaningful mission. The person is suited to protecting the route of a system: keeping communications, platforms, reliability, or cyber infrastructure functional so that a larger purpose can continue moving.
+Applied consequences differ by context and are handled in:
 
-This also explains the role-fit emphasis:
-
-- prefer systems with a clear mission, not empty operational churn
-- prefer technical roles that preserve a meaningful route through instability
-- prefer infrastructure, reliability, communications, or cyber support where continuity directly serves direction
-- avoid roles where the work has no visible why, no route, and no connection to a larger order
+- [[civilian-profile-sli-elvf-vpnb]]
+- [[military-profile-sli-elvf-vpnb]]
 
 #### Aspect Order
 
@@ -372,40 +370,36 @@ This also explains the role-fit emphasis:
 | 3 | N | painful search for concrete place, role, belonging, and contact with the real present |
 | 4 | F | follows externally framed future objectives more easily than self-inventing long-range direction |
 
-#### Temporistics Takeaway
+#### Temporistics Core Takeaway
 
-- fits roles where technical work visibly serves a meaningful mission
-- strongest when infrastructure can be understood as preserving a larger order, not merely closing tickets
-- less ideal for random chaos without a stable path, clear mission, or existentially convincing reason
+- meaning, continuity, place, and future direction are not separate concerns for this profile
+- the profile tends to seek a visible why behind a route or plan
+- present-role ambiguity is more sensitive than abstract meaning itself
 
-#### Temporistics Role-Fit Consequences
+#### Temporistics Position Consequences
 
 **1E — First Eternity / Guru** (RU: 1В; UK: 1Вч)
 
 - The central need is not just continuity or clear direction, but **meaning**.
-- Work must answer: "Why does this system matter? What larger order does it protect or serve?"
-- Empty execution, meaningless maintenance, or prestige-only work will drain motivation even if the technical task is suitable.
-- Best framing: infrastructure as service to a product, community, army, state, or mission that actually matters.
+- Work and duty are likely evaluated through the question: "Why does this matter? What larger order does it serve?"
+- Empty execution or prestige-only activity may feel motivationally thin even when the task is technically possible.
 
 **2P — Second Past / Chronicler** (RU: 2П; UK: 2Ми)
 
-- Strong fit with incident history, logs, postmortems, runbooks, documentation, retrospectives, and accumulated operational knowledge.
-- Learns from precedent and helps prevent repeated failures.
-- In technical organizations, this supports reliability engineering and institutional memory.
+- Uses history, precedent, records, accumulated examples, and remembered failures as working material.
+- Learns from precedent and tends to value not repeating known mistakes.
 
 **3N — Third Present / Exile** (RU: 3Н; UK: 3Тп)
 
 - The core issue is not just chaos. It is the painful question: "Where is my place here, and am I really included in what is happening?"
 - The Present is perceived through contact and interaction; 3N needs a concrete role, recognized place, and real participation in the current field.
-- Chaotic real-time pressure is risky because it destroys role clarity and can intensify the feeling of exile inside the situation.
-- Incident response can fit only when there are clear roles, escalation paths, runbooks, and a non-humiliating team culture that confirms "your action matters here."
-- Frontline or field roles where place, authority, and immediate role are constantly unstable are higher risk.
+- Chaotic real-time pressure can be sensitive when it destroys role clarity and contact with the current field.
+- Applied role-risk conclusions belong in the civilian or military profile pages, not in this core typological page.
 
 **4F — Fourth Future / Passenger** (RU: 4Б; UK: 4Мб)
 
-- Future direction is easier when given as an external frame: mission, SLA, roadmap, command priority, incident objective, or product strategy.
-- Avoid roles where the person must independently invent vague long-range strategy from nothing.
-- Good roles convert the future into concrete system requirements and operational priorities.
+- Future direction is easier when given as an external frame: mission, roadmap, command priority, incident objective, or product strategy.
+- The core issue is not inability to think about the future, but lower motivation to invent abstract long-range direction without an external frame.
 
 ## Core Signals
 
@@ -438,136 +432,57 @@ This also explains the role-fit emphasis:
 - 4F works best when future objectives are externally framed as mission, SLA, roadmap, or command priority
 - not ideal for chaotic roles with no stable narrative or convincing reason to endure them
 
-### Civil Profession: DevOps
+### Known Skill History: DevOps
 
-- infrastructure, automation, monitoring, reliability
-- incident handling and recovery
-- logs, postmortems, runbooks, and prevention of repeated failures
-- systems thinking under operational pressure
-- strong fit for meaningful technical continuity roles
+DevOps is recorded as known skill history, not as part of the type itself.
 
-## Civilian Fit
+Use it only as an external evidence input in applied profiles:
 
-1. **DevOps / SRE**
-2. **Systems administration**
-3. **Network / infrastructure engineering**
-4. **Platform engineering**
-5. **NOC / incident operations**
+- [[civilian-profile-sli-elvf-vpnb]] asks how this background translates into civilian labor-market roles.
+- [[military-profile-sli-elvf-vpnb]] asks how this background translates under military demand, unit structure, and field constraints.
 
-### Why Civilian Fit
+## Applied Profile Separation
 
-- matches your existing DevOps background
-- uses SLI technical stability and practical systems sense
-- uses 2L for automation, diagnostics, and structure
-- avoids roles that reward pure status pressure over system reliability
+This core profile should not mix civilian and military recommendations. They use different evidence layers:
 
-Traceability:
+| Applied profile | Primary non-typological filter | Why separate |
+|-----------------|--------------------------------|--------------|
+| [[civilian-profile-sli-elvf-vpnb]] | labor market, ESCO-style role families, DevOps background, company culture | civilian careers reward skills, market demand, team culture, compensation, and growth path |
+| [[military-profile-sli-elvf-vpnb]] | current Ukrainian role demand, unit structure, training pipeline, command climate, physical/field constraints | military placement depends on wartime need, chain of command, availability, clearance, and unit culture |
 
-- **Socionics:** 1Si + 2Te technical steadiness, with 4Fe caution around emotional pressure and 5Ne need for supportive option-framing
-- **Psychosophy:** 2L supports structure, 3V warns against coercive status games
-- **Temporistics:** 1E needs meaningful mission, 2P supports operational memory, 3N requires concrete role/place/belonging in the current field, 4F benefits from externally framed objectives
-- **Civil background:** DevOps already proves fit in a real environment
+Shared typological signal:
 
-## Military Fit
+- meaningful technical reliability
+- practical systems sense
+- strong working logic
+- sensitivity to coercive pressure and unclear present-role placement
 
-Using the current Ukrainian catalog, the strongest fits are:
+Different application logic:
 
-1. **Cyber / infrastructure support**
-2. **Signal network / communications systems / C4ISR technical roles**
-3. **UAV technician / engineer / maintenance / integration support**
-4. **Reconnaissance analyst / technical reconnaissance**
-5. **Unit technical support / command-support systems administration**
+- civilian profiling asks: **which market role lets this profile build sustainable technical value?**
+- military profiling asks: **which service role uses the same strengths while respecting operational reality and risk?**
 
-### Highest-Fit Military Hypothesis
+## Application Boundary
 
-**Systems / network administrator or infrastructure / DevOps specialist in Cyber Forces, a technical headquarters, or a mission-critical technical unit**
+The core page stops at typological pattern description. It should not decide where the person should work or serve.
 
-Why:
-- matches DevOps directly
-- uses SLI technical stability
-- uses 2L for structure and diagnostics
-- avoids over-pressuring 3V
-- fits 1E in Temporistics when the infrastructure is understood as protecting the digital or communications nervous system of an army, state, or mission
-- uses 2P in Temporistics through logs, incident memory, documentation, postmortems, and prevention of repeated failures
-- can work with 3N in Temporistics if incident response gives a concrete place in the team: clear role, visible responsibility, runbooks, escalation paths, and practical feedback
-- supports 4F in Temporistics when priorities are framed by mission, SLA, command need, or concrete operational objective
+Use applied pages for placement questions:
 
-Traceability:
-
-- **Socionics:** technical-operational fit, low appetite for chaos-heavy social pressure
-- **Psychosophy:** strong Logic, vulnerable Will under coercive hierarchy, low desire to make hardship the center
-- **Temporistics:** strongest when technical reliability visibly serves a meaningful mission, preserves institutional memory, and gives a concrete place in the current mission rather than exile inside unstructured present-chaos
-- **Role catalog:** best direct overlap with cyber infrastructure, network administration, monitoring, incident response, and technical support families
-
-### Backup Military Roles
-
-- **Signal network / C4ISR technical specialist**
-- **UAV technician / engineer / integration support**
-- **Reconnaissance analyst / ISR technical analysis**
-- **Systems / network administrator in a unit or cyber formation**
-
-### Avoid
-
-- shock infantry / assault-heavy roles
-- roles built on constant status confrontation
-- purely monotonous guard duty without technical content
-- roles where the main demand is physical endurance rather than systems skill
-
-## Practical Rule
-
-If two roles are both possible, prefer the one that:
-
-- is more technical
-- serves a more meaningful mission rather than empty execution
-- has clearer operational continuity and institutional memory
-- uses existing DevOps skills
-- has structured incident response instead of constant improvisational chaos
-- gives a concrete role and sense of belonging in the current team/mission
-- provides externally framed objectives rather than vague future speculation
-- minimizes coercive pressure
-
-## Life Strategy
-
-### What Usually Works
-
-- technical systems with visible usefulness
-- technical systems whose purpose is existentially or socially meaningful
-- roles where reliability matters more than status theater
-- environments with a clear task contour and explicit feedback
-- teams where the current role and place are explicit, recognized, and useful
-- logs, documentation, runbooks, postmortems, and learning from failures
-- teams where pressure exists, but humiliation is not the management style
-
-### What Usually Fails
-
-- endless ambiguity with no stabilizing frame
-- meaningless execution where the system's larger purpose is invisible
-- careers built on pure personal dominance
-- high-chaos environments that reward visibility over utility
-- unstructured real-time firefighting without roles, escalation paths, or postmortems
-- being physically present in a team but not integrated, recognized, or given a concrete role
-- roles demanding vague long-range strategy without an external mission frame
-- roles where physical grind becomes the main identity instead of a condition of work
-
-### Strategic Advice
-
-- choose systems, not theater
-- choose meaningful infrastructure, not empty execution
-- choose continuity and institutional memory, not random escalation
-- choose a concrete place in the current system, not exile inside activity
-- choose real usefulness over prestige branding
-- choose externally framed objectives over vague future speculation
-- when in doubt, trust environments where your work can be measured by stability, recovery, and operational clarity
+- [[civilian-profile-sli-elvf-vpnb]] for civilian career strategy, job titles, team-culture fit, and labor-market positioning
+- [[military-profile-sli-elvf-vpnb]] for Ukrainian military specialty fit, role-demand constraints, unit culture, field constraints, and risk filters
 
 ## Summary
 
-- **Civilian path:** DevOps / SRE / platform / meaningful infrastructure reliability
-- **Military path:** cyber infrastructure, signal network/C4ISR technical support, UAV technical support
-- **Main constraint:** avoid roles that center on coercive pressure or physical grind as the primary demand
+- **Core profile:** SLI + ELVF + EPNF = meaningful technical reliability
+- **Civilian application:** see [[civilian-profile-sli-elvf-vpnb]]
+- **Military application:** see [[military-profile-sli-elvf-vpnb]]
+- **Main constraint:** do not collapse type, civilian career, and military placement into one undifferentiated recommendation
 
 ## See Also
 
 - [[esco-typology-mapping]]
+- [[civilian-profile-sli-elvf-vpnb]]
+- [[military-profile-sli-elvf-vpnb]]
 - [[ukraine-military-specialties-current]]
 - [[smart-mobilization-research-note]]
 - [[socionics-function-dichotomies]]
