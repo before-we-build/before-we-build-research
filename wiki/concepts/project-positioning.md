@@ -3,8 +3,8 @@ title: Project Positioning
 type: concept
 tags: [orientation, methodology, psycalc, cognitive-matchmaker, research-positioning]
 created: 2026-04-24
-updated: 2026-04-24
-sources: [wiki/concepts/main-idea.md, wiki/concepts/latent-process.md, wiki/concepts/compatibility-level-boundaries.md]
+updated: 2026-04-25
+sources: []
 ---
 
 # Project Positioning

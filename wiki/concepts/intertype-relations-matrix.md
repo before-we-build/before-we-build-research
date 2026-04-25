@@ -4,7 +4,7 @@ type: concept
 tags: [socionics, relations, matrix]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics]
+sources: [raw/socionics/intertype-relations.md]
 ---
 
 # Intertype Relations Matrix

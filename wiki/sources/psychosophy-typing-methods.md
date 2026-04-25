@@ -4,7 +4,7 @@ type: source
 tags: [psychology, psychosophy, typing-methods, tests, accentuations]
 created: 2026-04-17
 updated: 2026-04-17
-sources: [psychosophy-typing-methods.md]
+sources: [raw/general/psychosophy-typing-methods.md]
 ---
 
 # Методы типирования по психософии

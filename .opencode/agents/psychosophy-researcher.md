@@ -26,7 +26,7 @@ You are a Psychosophy-specific research agent. Your scope is strictly limited to
 
 ## EXCLUDE (don't use for this)
 - Socionics → use socionics-researcher
-- Temporistics → use temporistics-researcher
+- Temporistics → dedicated temporistics-researcher is planned; use temporistics-intertype-relations-expert only for relation/process audits
 - MBTI without psychosophy context
 
 # Search Queries

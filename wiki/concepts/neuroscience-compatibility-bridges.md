@@ -3,8 +3,8 @@ title: Neuroscience Compatibility Bridges
 type: concept
 tags: [neuroscience, cognitive-science, compatibility, methodology, brain-networks, caveats]
 created: 2026-04-24
-updated: 2026-04-24
-sources: [wiki/concepts/compatibility-level-boundaries.md, wiki/concepts/sociological-compatibility-analogues.md, wiki/sources/brain-typology-neuroscience.md, neuroscience-researcher]
+updated: 2026-04-25
+sources: [neuroscience-researcher]
 ---
 
 # Neuroscience Compatibility Bridges

@@ -1,13 +1,13 @@
 ---
-title: ESI — Emotional Sensory Introvert (Dreiser)
+title: ESI — Ethical Sensory Introvert (Dreiser)
 type: entity
-tags: [socionics, gamma-quadra, isfj, esi, emotional, sensory, introvert]
+tags: [socionics, gamma-quadra, isfj, esi, ethical, sensory, introvert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
-# ESI — Emotional Sensory Introvert (Dreiser)
+# ESI — Ethical Sensory Introvert (Dreiser)
 
 **Socionics type:** ESI (ISFj)  
 **Quadra:** Gamma  
@@ -64,6 +64,6 @@ ESI (Dreiser) is the sentinel and protector. Known for loyalty, ethical principl
 ## See Also
 
 - [[socionics-overview]]
-- [[sie-sensory-ethical-extrovert]]
+- [[see-sensory-ethical-extrovert]]
 - [[ili-intuitive-logical-introvert]]
 - [[lse-logical-sensory-extrovert]]

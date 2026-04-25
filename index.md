@@ -143,36 +143,36 @@ wiki/          — LLM-generated wiki
 | Page | Summary | Code |
 |------|---------|------|
 | [[ile-intuitive-logical-extrovert]] | Inventive, enthusiastic, creative | ILE (ENTp) |
-| [[lii-intuitive-logical-introvert]] | Logical analyst, systems thinker | LII (INTj) |
-| [[ese-emotional-sensory-extrovert]] | Caring host, warm, hospitable | ESE (ESFj) |
-| [[sli-sensory-logical-introvert]] | Craftsman, practical, skilled | SLI (ISTp) |
+| [[lii-logical-intuitive-introvert]] | Logical analyst, systems thinker | LII (INTj) |
+| [[ese-ethical-sensory-extrovert]] | Caring host, warm, hospitable | ESE (ESFj) |
+| [[sei-sensory-ethical-introvert]] | Harmonizer, comfort-oriented, emotionally warm | SEI (ISFp) |
 
 #### Beta Quadra (Normative)
 
 | Page | Summary | Code |
 |------|---------|------|
 | [[sle-sensory-logical-extrovert]] | Commander, bold leader, decisive | SLE (ESTp) |
-| [[lie-logical-intuitive-extrovert]] | Entrepreneur, strategic organizer | LIE (ENTj) |
-| [[eie-emotional-intuitive-extrovert]] | Inspirer, charismatic dramatist | EIE (ENFj) |
-| [[lsi-sensory-logical-introvert]] | Inspector, principled guardian | LSI (ISTj) |
+| [[iei-intuitive-ethical-introvert]] | Romantic, symbolic, emotionally attuned | IEI (INFp) |
+| [[eie-ethical-intuitive-extrovert]] | Inspirer, charismatic dramatist | EIE (ENFj) |
+| [[lsi-logical-sensory-introvert]] | Inspector, principled guardian | LSI (ISTj) |
 
 #### Gamma Quadra (Pragmatic)
 
 | Page | Summary | Code |
 |------|---------|------|
-| [[sie-sensory-ethical-extrovert]] | Motivator, business-like actor | SIE (ESFp) |
+| [[see-sensory-ethical-extrovert]] | Politician, forceful social actor | SEE (ESFp) |
 | [[ili-intuitive-logical-introvert]] | Analyst, strategic critic | ILI (INTp) |
-| [[esi-emotional-sensory-introvert]] | Protector, loyal sentinel | ESI (ISFj) |
-| [[lse-logical-sensory-extrovert]] | Administrator, practical organizer | LSE (ESTj) |
+| [[lie-logical-intuitive-extrovert]] | Entrepreneur, strategic organizer | LIE (ENTj) |
+| [[esi-ethical-sensory-introvert]] | Protector, loyal sentinel | ESI (ISFj) |
 
 #### Delta Quadra (Humanitarian)
 
 | Page | Summary | Code |
 |------|---------|------|
 | [[iee-intuitive-ethical-extrovert]] | Visionary, humanitarian | IEE (ENFp) |
-| [[eii-emotional-intuitive-introvert]] | Humanist, moralist | EII (INFj) |
-| [[see-sensory-ethical-extrovert]] | Politician, social climber | SEE (ESFp) |
-| [[lii-logical-intuitive-introvert]] | Analyst, scientific researcher | LII (INTj) |
+| [[eii-ethical-intuitive-introvert]] | Humanist, moralist | EII (INFj) |
+| [[sli-sensory-logical-introvert]] | Craftsman, practical, skilled | SLI (ISTp) |
+| [[lse-logical-sensory-extrovert]] | Administrator, practical organizer | LSE (ESTj) |
 
 ### Relations
 
@@ -194,7 +194,7 @@ wiki/          — LLM-generated wiki
 | [[deep-research-report]] | Agent frameworks, orchestration, memory comparison | - |
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
 | [[hang-the-dj-simulation-compatibility]] | Black Mirror episode used as simulation metaphor, including the fictional 99.8% reveal | - |
-| [[brain-typology-neuroscience]] | Mapping typology systems to brain regions and neural networks | web research |
+| [[brain-typology-neuroscience]] | Historical exploratory note on neuroscience analogies and caveats | web research |
 | [[civilian-career-role-families]] | Civilian role-family catalog for typology-based career recommendations | .opencode/data/civilian-career-roles.md |
 
 ### Research on AI in Psychology
@@ -210,7 +210,7 @@ wiki/          — LLM-generated wiki
 | [[smart-mobilization-typology-wartime]] | AI recruitment, personality typology in wartime | Web research 2026 |
 | [[psychosophy-typing-methods]] | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
 
-### Reference
+### Concept Reference Pages
 
 | Page | Summary |
 |------|---------|
@@ -310,13 +310,13 @@ wiki/          — LLM-generated wiki
 | modern-agentic-systems.md | Production-ready systems: InternAgent, The Agentic Researcher, Anthropic patterns, SciDER | arXiv 2026 |
 | smart-mobilization-typology-wartime.md | Smart mobilization: AI recruitment, personality typology in military | Web research 2026 |
 | psychosophy-typing-methods.md | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
-| fourth-physics-deep-research.md | Fourth Physics (4Ф) deep research: characteristics, warnings, suicidality risk | Deep research 2026 |
+| fourth-physics-deep-research.md | Fourth Physics (4Ф) deep research with clinical-safety caveats | Deep research 2026 |
 
 ---
 
 ## Statistics
 
-- **Skills created**: 2 (psychosophy-typer, psychosophy-accentuation-typer)
+- **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
 - **Wiki pages**: 98 (26 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)

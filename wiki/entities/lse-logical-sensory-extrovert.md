@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, delta-quadra, estj, lse, logical, sensory, extrovert]
 created: 2026-04-15
 updated: 2026-04-24
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # LSE — Logical Sensory Extrovert (Stierlitz)
@@ -56,7 +56,7 @@ LSE (Stierlitz) is the administrator and organizer. Known for practical efficien
 ## Relationships with Other Types
 
 **Best duality:** EII (INFj) — complementary functions  
-**Conflict:** SIE (ESFp) — different values  
+**Conflict:** SEE (ESFp) — different values  
 **Supervision:** SLE (ESTp) — feels demanding
 
 ---
@@ -64,6 +64,6 @@ LSE (Stierlitz) is the administrator and organizer. Known for practical efficien
 ## See Also
 
 - [[socionics-overview]]
-- [[sie-sensory-ethical-extrovert]]
+- [[see-sensory-ethical-extrovert]]
 - [[ili-intuitive-logical-introvert]]
-- [[esi-emotional-sensory-introvert]]
+- [[esi-ethical-sensory-introvert]]

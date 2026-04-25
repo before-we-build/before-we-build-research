@@ -5,7 +5,7 @@ description: Agent for creating new wiki content from research. Creates wiki sou
 model: openai/gpt-5.4
 color: "#FFC0CB"
 scope: create wiki pages
-reportsto: wiki-editor
+reportsto: wiki-consistency-checker
 permissions:
   tool_use: true
   read: true
@@ -57,5 +57,5 @@ Add entry in format:
 # Scope Boundaries
 
 - DO NOT do research → use researchers for that
-- DO NOT fix contradictions → use wiki-editor for that
+- DO NOT fix contradictions → use wiki-consistency-checker for that
 - ONLY create clean wiki content

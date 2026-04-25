@@ -3,8 +3,8 @@ title: Fourth Physics (4Ф) in Psychosophy — Deep Research
 type: source
 tags: [psychology, psychosophy, fourth-function, physics, deep-research]
 created: 2026-04-17
-updated: 2026-04-21
-sources: [fourth-physics-deep-research.md]
+updated: 2026-04-25
+sources: [raw/general/fourth-physics-deep-research.md, raw/psychosophy/fourth-function.md]
 ---
 
 # Fourth Physics (4Ф) in Psychosophy
@@ -13,11 +13,11 @@ Comprehensive research on the 4th position of Physics function in A.Yu. Afanasye
 
 ## Overview
 
-Fourth Physics is the "least significant" function in the psychotype. It represents:
-- Physical manifestations: Weak body, low energy, ascetic lifestyle
-- Emotional patterns: Constant melancholy, passivity
+Fourth Physics is described in Psychosophy sources as the "least significant" function in the psychotype. In PsyCalc, these claims are treated as typological heuristics, not medical or psychiatric descriptions. It represents:
+- Physical-priority patterns: low attention to bodily comfort, easy yielding on material preferences
+- Emotional-tone reports in sources: melancholy or passivity language, which must not be treated as diagnosis
 - Relationship style: Accepts others' preferences easily
-- Warning signs: High suicidality risk, stress shutdown
+- Warning signs: stress shutdown and possible neglect of physical needs; any self-harm language requires immediate clinical safety assessment
 
 ## Key Findings
 
@@ -27,36 +27,36 @@ Fourth Physics is the "least significant" function in the psychotype. It represe
 - Easily endures deprivation without pride
 - May eat once a day without noticing hunger
 
-### Emotional Patterns
-- Constant melancholy, sense of tragedy
-- Low libido, sex is last priority
+### Emotional / Motivational Patterns
+- Source descriptions may use melancholy or tragedy language; this should be read as typological tone, not a clinical claim
+- Source descriptions often frame sexuality and bodily pleasure as low-priority; avoid treating this as a libido or health claim
 - Accepts others' habits easily
 - Easily delegates decisions to others
 
 ### Stress Response
-- Physical shutdown is FIRST response to crisis
-- Can become ill or immobile
-- Fast physical exhaustion
-- Risk of depression
+- May deprioritize bodily needs first under crisis
+- May become passive or stop initiating practical self-care
+- May report fast physical exhaustion
+- If symptoms resemble illness, immobility, depression, or self-harm risk, treat them as clinical concerns rather than typological content
 
-## ⚠️ Critical Warnings
+## Critical Safety Caveats
 
-1. **Suicidality**: Normal reaction to problems — can think of suicide easily
-2. **No self-preservation**: Doesn't care about own health
-3. **Early old age feeling**: Despite healthy appearance
-4. **Manipulable**: Easily influenced by external suggestions
+1. **Self-harm language is not a typological trait**: treat any suicidal thoughts, intent, or planning as a clinical safety issue requiring urgent support.
+2. **Low attention to bodily needs is a typological description, not a medical explanation**: rule out sleep, illness, depression, medication, substance, and stress factors when symptoms are significant.
+3. **Early old age feeling**: may be reported in source descriptions, but should not be treated as evidence of neurological or psychiatric disease.
+4. **Suggestibility**: can describe interpersonal yielding, but should not be framed as incapacity or pathology.
 
 ## Practical Applications
 
-- Needs external help with physical needs
-- Someone must organize practical life
-- In crisis, must intervene BEFORE shutdown
+- Benefits from practical reminders and concrete routines
+- Practical support should preserve autonomy and avoid pathologizing the type
+- In crisis, check for real safety or medical concerns before interpreting behavior typologically
 
 ## Related Concepts
 
 - [[psychosophy-functions]] — Function positions
-- [[fourth-function]] — General 4th position description
-- [[third-will]] — Similar stress patterns
+- [[psychosophy-overview]] — General Psychosophy overview
+- [[psychosophy-functions]] — Function positions
 
 ## Accentuations
 
@@ -114,15 +114,15 @@ Each 4Ф has one of three possible accentations that define how the function man
 
 ### Accentuation 3: Objectness (Low)
 
-**Strategy: External control mandatory**
+**Strategy: External structure and check-ins**
 
-- Cannot be alone in crisis
-- Assign "patron" who manages physical life
-- Give ONLY small, specific tasks — no initiative
+- Avoid leaving practical needs entirely unstructured during crisis
+- Assign a practical buddy or mentor for reminders, without removing autonomy
+- Give small, specific tasks when stress is high
 - Check daily: ate? slept? warm?
-- In stress: intervene BEFORE shutdown
+- In stress: offer support before passivity deepens
 
-**Warning:** Highest risk. Needs constant supervision.
+**Warning:** If safety, self-neglect, or medical symptoms are present, use clinical support channels rather than typological interpretation.
 
 ## Sources
 

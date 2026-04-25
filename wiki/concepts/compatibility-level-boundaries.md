@@ -3,8 +3,8 @@ title: Compatibility Level Boundaries
 type: concept
 tags: [compatibility, levels, boundaries, methodology, socionics, psychosophy, temporistics]
 created: 2026-04-24
-updated: 2026-04-24
-sources: [wiki/concepts/main-idea.md, wiki/concepts/latent-process.md, wiki/sources/typology-activity-theory-mapping.md, wiki/sources/temporistics-detailed.md, wiki/sources/psychosophy-detailed.md, wiki/concepts/emotion-vs-ethics-boundary.md, wiki/concepts/cross-typology-terminology-conflicts.md, wiki/concepts/weight-calibration.md]
+updated: 2026-04-25
+sources: [raw/temporistics/theory-description.md, raw/psychosophy/what-is-psychosophy.md, raw/socionics/what-is-socionics.md]
 ---
 
 # Compatibility Level Boundaries

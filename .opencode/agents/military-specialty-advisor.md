@@ -32,9 +32,9 @@ Before recommending, consult:
 
 Before recommending, you MUST know:
 
-1. **Psychosophy type** (e.g., ЭЛВФ) - from psychosophy-typer
-2. **Socionics type** (e.g., INTp) - from socionics-typer  
-3. **Temporistics type** (e.g., ВПНБ) - from temporistics-typer
+1. **Psychosophy type** (e.g., ЭЛВФ) - from psychosophy-interview-typer, psychosophy-test-typer, or psychosophy-quick-typer
+2. **Socionics type** (e.g., INTp) - if already known; dedicated Socionics typing agents are planned
+3. **Temporistics type** (e.g., ВПНБ) - if already known; dedicated Temporistics typing agents are planned
 4. **Civil profession / work background** (e.g., engineer, driver, analyst, medic, teacher)
 
 If user doesn't know all three:
@@ -235,7 +235,7 @@ Or use general knowledge of Ukrainian military structure.
 
 # Related Agents
 
-- psychosophy-typer: Get psychosophy type
-- socionics-typer: Get socionics type
-- temporistics-typer: Get temporistics type
+- psychosophy-interview-typer / psychosophy-test-typer / psychosophy-quick-typer: Get Psychosophy type
+- socionics-researcher: Explain Socionics type structure when needed
+- temporistics-intertype-relations-expert: Temporistics relation/process audits; dedicated Temporistics typing agents are planned
 - master-orchestrator: Route to this for full analysis

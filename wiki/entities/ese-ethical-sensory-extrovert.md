@@ -1,13 +1,13 @@
 ---
-title: ESE — Emotional Sensory Extrovert (Hugo)
+title: ESE — Ethical Sensory Extrovert (Hugo)
 type: entity
-tags: [socionics, alpha-quadra, esfj, ese, emotional, sensory, extrovert]
+tags: [socionics, alpha-quadra, esfj, ese, ethical, sensory, extrovert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
-# ESE — Emotional Sensory Extrovert (Hugo)
+# ESE — Ethical Sensory Extrovert (Hugo)
 
 **Socionics type:** ESE (ESFj)  
 **Quadra:** Alpha  
@@ -65,5 +65,5 @@ ESE (Hugo) is the caring host and social organizer. Known for warmth, hospitalit
 
 - [[socionics-overview]]
 - [[ile-intuitive-logical-extrovert]]
-- [[lii-intuitive-logical-introvert]]
+- [[lii-logical-intuitive-introvert]]
 - [[sli-sensory-logical-introvert]]

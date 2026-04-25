@@ -39,7 +39,7 @@ You do **not** type people. You do **not** claim that a typological type directl
 
 - Socionics Model A, intertype relations → use `socionics-researcher`
 - Psychosophy aspects/positions → use `psychosophy-researcher`
-- Temporistics aspect positions → use `temporistics-researcher` when available
+- Temporistics aspect positions → dedicated `temporistics-researcher` is planned; use `temporistics-intertype-relations-expert` only for relation/process audits
 - Sociology / institutions / demographics → use `sociology-researcher`
 - Medical diagnosis or treatment advice
 - Direct compatibility scoring → use `compatibility-calculator`

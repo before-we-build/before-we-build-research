@@ -1,13 +1,13 @@
 ---
-title: EII — Emotional Intuitive Introvert (Dostoevsky)
+title: EII — Ethical Intuitive Introvert (Dostoevsky)
 type: entity
-tags: [socionics, delta-quadra, infj, eii, emotional, intuitive, introvert]
+tags: [socionics, delta-quadra, infj, eii, ethical, intuitive, introvert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
-# EII — Emotional Intuitive Introvert (Dostoevsky)
+# EII — Ethical Intuitive Introvert (Dostoevsky)
 
 **Socionics type:** EII (INFj)  
 **Quadra:** Delta  
@@ -57,7 +57,7 @@ EII (Dostoevsky) is the humanist and moralist. Known for deep empathy, ethical c
 
 **Best duality:** LSE (ESTj) — complementary functions  
 **Conflict:** SLE (ESTp) — ethics vs. power  
-**Supervision:** SIE (ESFp) — feels demanding
+**Supervision:** SEE (ESFp) — feels demanding
 
 ---
 

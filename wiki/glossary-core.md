@@ -1,6 +1,6 @@
 ---
 title: Glossary Core
-type: reference
+type: concept
 tags: [glossary, terminology]
 created: 2026-04-15
 updated: 2026-04-24
@@ -278,11 +278,11 @@ These are **schema languages** used to generate features for simulation and scor
 | 1 | Leading (A) | Strongest, most developed |
 | 2 | Creative (B) | Strong, used for output |
 | 3 | Role (C) | Weak, used situationally |
-| 4 | Vulnerable (D) | Weakest, creates anxiety |
-| 5 | Suggestive (PoLR) | Desired but undeveloped |
-| 6 | Mobilizing | Activated under stress |
-| 7 | Ignoring | Overlooked or suppressed |
-| 8 | Demonstrative | Shown without awareness |
+| 4 | Vulnerable (PoLR) | Weak, conscious, unvalued |
+| 5 | Suggestive | Weak, unconscious, valued |
+| 6 | Mobilizing (Activation) | Weak, unconscious, valued |
+| 7 | Ignoring | Strong, unconscious, unvalued |
+| 8 | Demonstrative | Strong, unconscious, unvalued |
 
 **NOT:** A computational model in our sense. Model A is a structural diagram of personality, not a formal predictive representation.
 

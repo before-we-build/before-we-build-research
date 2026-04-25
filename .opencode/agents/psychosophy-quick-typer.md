@@ -5,7 +5,7 @@ method: quick
 description: Fast psychosophy typing via ranking 4 aspects. Ask user to rank Воля, Логика, Эмоция, Физика by importance. 2-3 minutes. NOT for deep interview - use psychosophy-interview-typer.
 model: openai/gpt-5.4-mini
 scope: quick-method
-reportsto: typing-lead
+reportsto: master-orchestrator
 permissions:
   tool_use: true
 ---

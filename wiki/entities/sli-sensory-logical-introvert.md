@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, delta-quadra, istp, sli, sensory, logical, introvert]
 created: 2026-04-15
 updated: 2026-04-24
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # SLI — Sensory Logical Introvert (Gaben / Dumas)
@@ -65,5 +65,5 @@ SLI (Dubrovina) is the artisan craftsman who values practical skills and physica
 
 - [[socionics-overview]]
 - [[ile-intuitive-logical-extrovert]]
-- [[lii-intuitive-logical-introvert]]
-- [[ese-emotional-sensory-extrovert]]
+- [[lii-logical-intuitive-introvert]]
+- [[ese-ethical-sensory-extrovert]]

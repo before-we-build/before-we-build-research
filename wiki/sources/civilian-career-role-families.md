@@ -4,7 +4,7 @@ type: source
 tags: [career, civilian, roles, esco, typology, advisor]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [.opencode/data/civilian-career-roles.md, wiki/concepts/esco-typology-mapping.md]
+sources: [.opencode/data/civilian-career-roles.md]
 ---
 
 # Civilian Career Role Families

@@ -1,6 +1,6 @@
 ---
 title: Glossary Extended
-type: reference
+type: concept
 tags: [glossary, terminology, disambiguation]
 created: 2026-04-16
 updated: 2026-04-16

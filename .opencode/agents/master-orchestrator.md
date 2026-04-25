@@ -19,7 +19,7 @@ permissions:
 
 ```
 master-orchestrator ⚜ (reports_to: null)
-├── Research Team (10)
+├── Research Team (11)
 │   ├── typology-researcher (lead/coordinator)
 │   │   ├── socionics-researcher (scope: socionics)
 │   │   ├── socionics-intertype-relations-expert (scope: Socionics relation names/processes)
@@ -28,31 +28,31 @@ master-orchestrator ⚜ (reports_to: null)
 │   │   ├── temporistics-intertype-relations-expert (scope: Temporistics relation signatures/processes)
 │   │   ├── sociology-researcher (scope: sociology/social context)
 │   │   ├── neuroscience-researcher (scope: neuroscience/brain mechanisms)
+│   │   ├── clinical-neurologist-expert (scope: clinical neurology/medical safety)
 │   │   ├── christian-theology-researcher (scope: Christian theology/pastoral caveats)
-│   │   ├── temporistics-researcher (scope: temporistics)
-│   │   └── general-researcher (scope: methodology)
+│   │   ├── temporistics-researcher (planned; scope: temporistics)
+│   │   └── general-researcher (planned; scope: methodology)
 │   └── military-roles-researcher (scope: ВСУ)
-├── Typing Team (9)
-│   ├── typing-lead (coordinator)
+├── Typing Team (3 active, more planned)
+│   ├── typing-lead (planned coordinator)
 │   ├── psychosophy-interview-typer
 │   ├── psychosophy-test-typer
 │   ├── psychosophy-quick-typer
-│   ├── socionics-interview-typer
-│   ├── socionics-test-typer
-│   ├── socionics-quick-typer
-│   ├── temporistics-interview-typer
-│   ├── temporistics-test-typer
-│   └── temporistics-quick-typer
+│   ├── socionics-interview-typer (planned)
+│   ├── socionics-test-typer (planned)
+│   ├── socionics-quick-typer (planned)
+│   ├── temporistics-interview-typer (planned)
+│   ├── temporistics-test-typer (planned)
+│   └── temporistics-quick-typer (planned)
 ├── Analysis Team (4)
 │   ├── compatibility-calculator (scope: calculate score)
 │   ├── interaction-simulator (scope: roleplay scenarios)
 │   ├── military-specialty-advisor (scope: army recommendations)
 │   └── civilian-career-advisor (scope: civilian career recommendations)
 ├── Wiki Team (2)
-│   ├── wiki-editor (scope: contradictions + consistency)
+│   ├── wiki-consistency-checker (scope: contradictions + consistency)
 │   └── wiki-contributor (scope: ingest new sources)
-├── Dating Team (2)
-│   ├── dating-advisor (scope: relationship advice)
+├── Explanation Team (1)
 │   └── type-explain (scope: explain types to users)
 ```
 
@@ -60,11 +60,11 @@ master-orchestrator ⚜ (reports_to: null)
 
 | Team | Lead | Purpose |
 |------|------|---------|
-| research | typology-researcher | Finding info, research (7 agents) |
-| typing | typing-lead | Type determination (9 agents: interview/test/quick × 3 systems) |
+| research | typology-researcher | Finding info, research (8 agents) |
+| typing | none yet | Type determination (3 active Psychosophy agents; Socionics/Temporistics typers planned) |
 | analysis | compatibility-calculator | Scoring + simulation + role recommendations (4 agents) |
-| wiki | wiki-editor | Quality + ingest (2 agents) |
-| dating | dating-advisor | Relationships (2 agents) |
+| wiki | wiki-consistency-checker | Quality + ingest (2 agents) |
+| explanation | type-explain | Simple type explanations (1 agent) |
 
 # Role
 
@@ -190,14 +190,14 @@ Can request specific level
 
 | Need | Agent |
 |------|-------|
-| Type unknown | psychosophy-typer / socionics-typer / temporistics-typer |
+| Type unknown | psychosophy-interview-typer / psychosophy-test-typer / psychosophy-quick-typer; Socionics and Temporistics typers are planned |
 | Just score | compatibility-calculator |
-| Relationship advice | relation-advisor |
 | Scenario simulation | interaction-simulator |
 | Civilian career / profession advice | civilian-career-advisor |
 | Military role advice | military-specialty-advisor |
 | Sociology / social context research | sociology-researcher |
 | Neuroscience / brain mechanism research | neuroscience-researcher |
+| Clinical neurology / medical red flags | clinical-neurologist-expert |
 | Christian theology / prophecy / pastoral caveats | christian-theology-researcher |
 | Deep research | typology-researcher |
 
@@ -286,13 +286,15 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 
 # Related Agents (auto-route as needed)
 
-- psychosophy-typer: Type in psychosophy
-- socionics-typer: Type in socionics
-- temporistics-typer: Type in temporistics
+- psychosophy-interview-typer: Deep Psychosophy typing
+- psychosophy-test-typer: Psychosophy typing from test results
+- psychosophy-quick-typer: Fast Psychosophy typing
+- Socionics typing agents: planned
+- Temporistics typing agents: planned
 - compatibility-calculator: Just scores
-- relation-advisor: Specific advice
 - interaction-simulator: Scenario roleplay
 - typology-researcher: Deep research
 - sociology-researcher: Sociology, social institutions, demographics, labor markets, relationship sociology, organizational context
 - neuroscience-researcher: Neuroscience, cognitive/affective/social mechanisms, brain networks, time perception, executive function
+- clinical-neurologist-expert: Clinical neurology, neurological symptoms, medical red flags, differential-boundary caveats
 - christian-theology-researcher: Christian theology, prophecy/revelation boundaries, discernment, and pastoral caveats for typology/neuroscience claims

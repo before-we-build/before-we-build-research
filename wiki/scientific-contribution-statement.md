@@ -1,17 +1,17 @@
 ---
 title: Scientific Contribution Statement
-type: reference
+type: concept
 tags: [contribution, epistemology]
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-04-25
 sources: []
 ---
 
-# Cognitive Matchmaker: A Contribution to the Formalization of Induction, Deduction, Synthesis, Analysis, and Modeling in Human Compatibility Assessment
+# PsyCalc: A Contribution to the Formalization of Induction, Deduction, Synthesis, Analysis, and Modeling in Human Compatibility Assessment
 
 ## Abstract
 
-This document articulates the theoretical contribution of the Cognitive Matchmaker project to the formalization of classical epistemological operations—induction, deduction, synthesis, and analysis—through computational modeling of human compatibility. We propose that the project's architecture constitutes a novel paradigm: **simulation-based evaluative modeling** that operationalizes abstract psychological constructs into traceable, testable, and iteratively improvable computational representations.
+This document articulates the theoretical contribution of PsyCalc to the formalization of classical epistemological operations—induction, deduction, synthesis, and analysis—through computational modeling of human compatibility. Cognitive Matchmaker is one downstream dating application of this broader framework. We propose that the project's architecture constitutes a novel paradigm: **simulation-based evaluative modeling** that operationalizes abstract psychological constructs into traceable, testable, and iteratively improvable computational representations.
 
 ---
 
@@ -19,7 +19,7 @@ This document articulates the theoretical contribution of the Cognitive Matchmak
 
 Classical epistemological operations—induction, deduction, analysis, and synthesis—have long served as foundational categories in scientific methodology. However, their application to complex human phenomena such as romantic compatibility has remained predominantly qualitative. Existing computational dating systems rely on surface-level attribute matching or engagement-based ranking (often opaque to users), without providing interpretable causal chains linking observed traits to predicted relational outcomes.
 
-The Cognitive Matchmaker addresses this gap by constructing a **closed-loop evaluative system** that:
+PsyCalc addresses this gap by constructing a **closed-loop evaluative system** that:
 
 1. Induces structured person models from interview data (induction)
 2. Deduces behavioral predictions in scenario-based simulations (deduction)
@@ -33,7 +33,7 @@ The Cognitive Matchmaker addresses this gap by constructing a **closed-loop eval
 
 ### 2.1 Theoretical Basis
 
-Induction, in the epistemological sense, is the process of deriving general principles from particular observations. In Cognitive Matchmaker, induction operates at the **persona construction phase**.
+Induction, in the epistemological sense, is the process of deriving general principles from particular observations. In PsyCalc, induction operates at the **persona construction phase**; Cognitive Matchmaker applies this to dating-oriented onboarding.
 
 The system conducts a guided onboarding interview designed to elicit non-obvious behavioral patterns: hidden values, stress responses, boundary conditions, and long-horizon life goals. Unlike conventional dating apps that capture explicitly stated preferences, our induction process focuses on **latent behavioral regularities** that emerge under questioning about critical incidents, recurring conflicts, and high-stakes decision points.
 
@@ -52,7 +52,7 @@ This three-layer structure is derived from **Activity Theory** (Leontiev's hiera
 
 ### 2.3 Scientific Contribution
 
-The inductive process in Cognitive Matchmaker differs from traditional psychometric inference in that it:
+The inductive process in PsyCalc differs from traditional psychometric inference in that it:
 
 - Operates on **narrative descriptions of critical incidents** rather than Likert-scale responses
 - Infers **layer-specific patterns** rather than global trait scores
@@ -65,7 +65,7 @@ The inductive process in Cognitive Matchmaker differs from traditional psychomet
 
 ### 3.1 Theoretical Basis
 
-Deduction, the process of deriving specific predictions from general principles, operates in Cognitive Matchmaker through the **simulation engine**. Given a persona model $P$ (constructed via induction), the system generates scenario-specific behavioral predictions.
+Deduction, the process of deriving specific predictions from general principles, operates in PsyCalc through the **simulation engine**. Given a persona model $P$ (constructed via induction), the system generates scenario-specific behavioral predictions.
 
 ### 3.2 The Text-World Simulation Paradigm
 
@@ -93,7 +93,7 @@ This generates an **interaction transcript** showing how the two digital twins n
 
 ### 3.4 Scientific Contribution
 
-The deductive simulation paradigm in Cognitive Matchmaker represents an application of the **sparse reward principle** from reinforcement learning to human compatibility:
+The deductive simulation paradigm in PsyCalc represents an application of the **sparse reward principle** from reinforcement learning to human compatibility:
 
 - Instead of simulating thousands of routine interactions (high-frequency, low-information)
 - The system simulates **critical incidents** (low-frequency, high-information)
@@ -106,7 +106,7 @@ This mirrors how RL agents benefit more from episodic environments with meaningf
 
 ### 4.1 Theoretical Basis
 
-Analysis is the operation of decomposing a complex phenomenon into its constituent elements for examination. In Cognitive Matchmaker, compatibility assessment is decomposed along two axes:
+Analysis is the operation of decomposing a complex phenomenon into its constituent elements for examination. In PsyCalc, compatibility assessment is decomposed along two axes:
 
 1. **Layer-wise decomposition**: Strategic, Operational, Tactical
 2. **Signal-wise decomposition**: Dialog quality, Complementarity, Conflict markers
@@ -138,7 +138,7 @@ The analytical framework contributes to compatibility science by:
 
 ### 5.1 Theoretical Basis
 
-Synthesis is the operation of combining elements into a unified whole. Cognitive Matchmaker synthesizes:
+Synthesis is the operation of combining elements into a unified whole. PsyCalc synthesizes:
 
 1. **Typological frameworks**: Temporistics, Psychosophy (Attitudinal Psyche), and Socionics
 2. **Theoretical traditions**: Western analytical psychology (Jung), Soviet/Russian psychology (Leontiev, Kępiński), and contemporary typological systems
@@ -158,7 +158,7 @@ The result is a **unified compatibility model** $M$ that:
 
 ### 5.3 Scientific Contribution
 
-The synthesis approach in Cognitive Matchmaker is methodologically novel because it:
+The synthesis approach in PsyCalc is methodologically novel because it:
 
 - Treats typological frameworks as **schema languages** rather than competing theories
 - Does not require resolving ontological disputes between frameworks
@@ -173,7 +173,7 @@ This reflects a philosophical position: given the pseudoscientific status of som
 
 ### 6.1 Theoretical Basis
 
-Modeling is the construction of simplified representations that capture essential features of a phenomenon for prediction, explanation, or control. The **digital twin** is the central modeling construct in Cognitive Matchmaker.
+Modeling is the construction of simplified representations that capture essential features of a phenomenon for prediction, explanation, or control. The **digital twin** is one implementation-facing modeling construct used by Cognitive Matchmaker on top of PsyCalc.
 
 ### 6.2 Formal Definition
 
@@ -209,7 +209,7 @@ The digital twin model contributes to the science of human modeling by:
 
 ## 7. The Closed Loop: From Model to Evidence to Refined Model
 
-The Cognitive Matchmaker architecture creates a **closed evaluative loop**:
+The PsyCalc architecture creates a **closed evaluative loop**:
 
 ```
 Induction (Persona) → Deduction (Simulation) → Analysis (Scores) →
@@ -230,7 +230,7 @@ This loop operationalizes the **hypothetico-deductive method** at the individual
 
 ## 8. Epistemological Contribution Summary
 
-| Operation | Cognitive Matchmaker Implementation | Scientific Contribution |
+| Operation | PsyCalc Implementation | Scientific Contribution |
 |-----------|-------------------------------------|-------------------------|
 | **Induction** | Guided interview → structured three-layer persona | Inference from critical incidents; layer-specific patterns |
 | **Deduction** | Persona + scenario → simulation transcript | Sparse-reward simulation; counterfactual behavioral prediction |
@@ -256,7 +256,7 @@ The contributions outlined above should be understood within the following const
 
 ## 10. Conclusion
 
-The Cognitive Matchmaker project proposes a novel paradigm for human compatibility assessment: **simulation-based evaluative modeling** that formalizes classical epistemological operations within a computational architecture. By inducing structured personas, deductively simulating critical scenarios, analytically decomposing compatibility signals, synthetically integrating heterogeneous frameworks, and maintaining updatable digital twin models, the system provides a traceable, interpretable, and iteratively improvable approach to a domain traditionally dominated by opaque algorithms and subjective judgment.
+PsyCalc proposes a novel paradigm for human compatibility assessment: **simulation-based evaluative modeling** that formalizes classical epistemological operations within a computational architecture. By inducing structured personas, deductively simulating critical scenarios, analytically decomposing compatibility signals, synthetically integrating heterogeneous frameworks, and maintaining updatable models, the system provides a traceable, interpretable, and iteratively improvable approach to domains traditionally dominated by opaque algorithms and subjective judgment. Cognitive Matchmaker is one dating-oriented application of this broader framework.
 
 The ultimate test of this paradigm is empirical: do the simulation-derived predictions correlate with real-world relationship satisfaction and stability? The architecture is designed to answer this question through continuous feedback loops between model and reality.
 

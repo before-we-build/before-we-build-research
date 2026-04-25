@@ -8,7 +8,7 @@ scope: test-method
 permissions:
   tool_use: true
   read: true
-reportsto: typing-lead
+reportsto: master-orchestrator
 ---
 
 # Role

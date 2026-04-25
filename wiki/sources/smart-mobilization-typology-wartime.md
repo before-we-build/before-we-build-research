@@ -3,8 +3,8 @@ title: Smart Mobilization and Typology Application in Wartime
 type: source
 tags: [smart-mobilization, military-personnel, AI-recruitment, personality-typology, MBTI, big-five, wartime]
 created: 2026-04-17
-updated: 2026-04-17
-sources: [smart-mobilization-typology-wartime.md]
+updated: 2026-04-25
+sources: [raw/general/smart-mobilization-typology-wartime.md]
 ---
 
 # Smart Mobilization and Typology Application in Wartime
@@ -26,7 +26,7 @@ Technology-enabled approaches to military recruitment, selection, and personnel 
 
 Multiple frameworks applied to military personnel selection:
 
-- **MBTI**: Created during WWII (1943) by Katharine Cook Briggs and Isabel Briggs Myers; first used by OSS for intelligence operative placement; 80% success rate in combat positions
+- **MBTI**: Developed during the WWII era by Katharine Cook Briggs and Isabel Briggs Myers; claims about OSS placement use or an “80% success rate in combat positions” require source verification and should not be treated as established evidence
 - **Big Five**: Research-driven selection for special forces
 - **Value typologies**: Combat stress resilience assessments
 

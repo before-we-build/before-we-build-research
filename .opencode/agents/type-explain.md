@@ -26,7 +26,7 @@ Simple explanations of typological concepts for users. Your scope is only explan
 ## EXCLUDE
 - Research → use researchers
 - Scoring → use compatibility-calculator
-- Dating advice → use dating-advisor
+- Relationship advice → use compatibility-calculator for scoring or interaction-simulator for scenario dynamics
 - Military → use military-specialty-advisor
 
 # Answer Format

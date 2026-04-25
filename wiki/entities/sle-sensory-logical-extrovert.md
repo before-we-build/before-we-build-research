@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, beta-quadra, estp, sle, sensory, logical, extrovert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # SLE — Sensory Logical Extrovert (Zhukov / Jack London)
@@ -66,5 +66,5 @@ SLE (Zhukov) is the commander and leader. Known for bold action, taking initiati
 
 - [[socionics-overview]]
 - [[lie-logical-intuitive-extrovert]]
-- [[eie-emotional-intuitive-extrovert]]
-- [[lsi-sensory-logical-introvert]]
+- [[eie-ethical-intuitive-extrovert]]
+- [[lsi-logical-sensory-introvert]]

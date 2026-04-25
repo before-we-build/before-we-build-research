@@ -3,28 +3,28 @@ title: Socionics Model A
 type: concept
 tags: [socionics, model-a, theory]
 created: 2026-04-15
-updated: 2026-04-15
-sources: [raw/socionics]
+updated: 2026-04-25
+sources: [raw/socionics/model-a.md]
 ---
 
 # Socionics Model A
 
 ## Overview
 
-Model A (Augsburg Model) is the standard Socionics model describing the structure and properties of 8 cognitive functions.
+Model A is the standard Socionics model describing the structure and properties of eight information-metabolism function positions.
 
 ## Function Positions
 
 | Position | Name | Properties |
 |----------|------|------------|
-| 1 | Leading/Dominant | Strongest, conscious |
-| 2 | Creative/Auxiliary | Flexible, supports leading |
-| 3 | Role | Activated under stress |
-| 4 | Vulnerable/Inferior | Weakest, often criticized |
-| 5 | Suggestive | Needs support |
-| 6 | Activation | Engaged in comfort |
-| 7 | Mobile | Background awareness |
-| 8 | Ignored | Often rejected |
+| 1 | Leading (Base) | Strong, conscious, valued |
+| 2 | Creative | Strong, conscious, valued |
+| 3 | Role | Weak, conscious, unvalued |
+| 4 | Vulnerable (PoLR) | Weak, conscious, unvalued |
+| 5 | Suggestive | Weak, unconscious, valued |
+| 6 | Mobilizing (Activation) | Weak, unconscious, valued |
+| 7 | Ignoring | Strong, unconscious, unvalued |
+| 8 | Demonstrative | Strong, unconscious, unvalued |
 
 ## See Also
 

@@ -25,8 +25,8 @@ You are a compatibility calculation agent. Your task is to calculate and analyze
 
 # When NOT to Use
 
-- User doesn't know their type → Use psychosophy-typer or socionics-typer first
-- User asks for relationship advice → Use relation-advisor agent
+- User doesn't know their type → Use psychosophy-interview-typer, psychosophy-test-typer, or psychosophy-quick-typer first when Psychosophy is needed
+- User asks for scenario dynamics → Use interaction-simulator agent
 - User wants simulation → Use interaction-simulator agent
 
 # Supported Systems
@@ -173,9 +173,8 @@ Result:
 
 # Related Agents
 
-- psychosophy-typer: Get psychosophy type
-- socionics-typer: Get socionics type  
-- relation-advisor: Get advice for specific relationship
+- psychosophy-interview-typer / psychosophy-test-typer / psychosophy-quick-typer: Get Psychosophy type
+- socionics-researcher: Explain Socionics type structure when needed
 - interaction-simulator: See how interaction would go
 
 # Constraints

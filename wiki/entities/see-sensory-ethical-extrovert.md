@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, gamma-quadra, esfp, see, sensory, ethical, extrovert]
 created: 2026-04-15
 updated: 2026-04-24
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # SEE — Sensory Ethical Extrovert (Napoleon)
@@ -65,5 +65,5 @@ SEE (Napoleon) is the politician and social climber. Known for social ambition, 
 
 - [[socionics-overview]]
 - [[iee-intuitive-ethical-extrovert]]
-- [[eii-emotional-intuitive-introvert]]
+- [[eii-ethical-intuitive-introvert]]
 - [[lii-logical-intuitive-introvert]]

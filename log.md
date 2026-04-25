@@ -16,6 +16,7 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-25 - Added `prophetic-visionary-cognition.md` to model the prophetic/visionary archetype as a 1st Eternity heuristic while separating it from direct neuroscience validation or pathological reduction.
 2026-04-25 - Added `christian-theology-researcher` agent for Christian theological review of typology, neuroscience, prophecy/revelation language, discernment boundaries, and pastoral caveats.
 2026-04-25 - Updated `prophetic-visionary-cognition.md` with a Christian Theology Note distinguishing prophetic archetype from the gift of prophecy, 1st Eternity from spiritual authority, and neural correlates from revelation.
+2026-04-25 - Added `clinical-neurologist-expert` agent for clinical neurology review, neurological red flags, differential-boundary caveats, and medical-safety separation from typology/neuroscience claims.
 
 ---
 
@@ -33,11 +34,11 @@ Historical note: older entries may contain claims or source framings that were l
 - German KSK selection study (2026)
 - Ukrainian combatant value typology (2022)
 
-**Key historical findings:**
+**Key historical findings later flagged for verification:**
 - MBTI created during WWII (1943) by Katharine Cook Briggs and Isabel Briggs Myers
-- First used by Office of Strategic Services (OSS) for assigning intelligence operatives in liberated Europe (1944-1945)
-- 80% success rate in combat positions (Peabody et al., 1946)
-- Selected personnel were 50% more effective in their roles (Army Air Forces, 1949)
+- First used by Office of Strategic Services (OSS) for assigning intelligence operatives in liberated Europe (1944-1945) — requires source verification before reuse
+- 80% success rate in combat positions (Peabody et al., 1946) — unsupported in current wiki and should not be treated as established evidence
+- Selected personnel were 50% more effective in their roles (Army Air Forces, 1949) — requires source verification before reuse
 
 **Additional research: Third Will in Psychosophy**
 - Deep dive into 3rd Will as latent process
@@ -69,9 +70,7 @@ Historical note: older entries may contain claims or source framings that were l
 **Key findings:**
 - Core: Least important, no motivation for physical aspect
 - Physical: Thin, refined, can work without noticing fatigue
-- Emotional: Constant melancholy, low libido
-- ⚠️ WARNING: High suicidality risk — "normal reaction to problems"
-- Stress: Physical shutdown is FIRST response
+- Later safety correction: melancholy, libido, self-harm, shutdown, or illness language must not be treated as typological proof; use clinical safety channels when relevant
 
 **Created:**
 - `raw/general/fourth-physics-deep-research.md` — Full research
@@ -816,25 +815,25 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 
 **Alpha Quadra (Idealistic):**
 - wiki/entities/ile-intuitive-logical-extrovert.md — ILE (ENTp)
-- wiki/entities/lii-intuitive-logical-introvert.md — LII (INTj)
-- wiki/entities/ese-emotional-sensory-extrovert.md — ESE (ESFj)
+- wiki/entities/lii-logical-intuitive-introvert.md — LII (INTj)
+- wiki/entities/ese-ethical-sensory-extrovert.md — ESE (ESFj)
 - wiki/entities/sli-sensory-logical-introvert.md — SLI (ISTp)
 
 **Beta Quadra (Normative):**
 - wiki/entities/sle-sensory-logical-extrovert.md — SLE (ESTp)
 - wiki/entities/lie-logical-intuitive-extrovert.md — LIE (ENTj)
-- wiki/entities/eie-emotional-intuitive-extrovert.md — EIE (ENFj)
-- wiki/entities/lsi-sensory-logical-introvert.md — LSI (ISTj)
+- wiki/entities/eie-ethical-intuitive-extrovert.md — EIE (ENFj)
+- wiki/entities/lsi-logical-sensory-introvert.md — LSI (ISTj)
 
 **Gamma Quadra (Pragmatic):**
-- wiki/entities/sie-sensory-ethical-extrovert.md — SIE (ESFp)
+- wiki/entities/see-sensory-ethical-extrovert.md — SEE (ESFp)
 - wiki/entities/ili-intuitive-logical-introvert.md — ILI (INTp)
-- wiki/entities/esi-emotional-sensory-introvert.md — ESI (ISFj)
+- wiki/entities/esi-ethical-sensory-introvert.md — ESI (ISFj)
 - wiki/entities/lse-logical-sensory-extrovert.md — LSE (ESTj)
 
 **Delta Quadra (Humanitarian):**
 - wiki/entities/iee-intuitive-ethical-extrovert.md — IEE (ENFp)
-- wiki/entities/eii-emotional-intuitive-introvert.md — EII (INFj)
+- wiki/entities/eii-ethical-intuitive-introvert.md — EII (INFj)
 - wiki/entities/see-sensory-ethical-extrovert.md — SEE (ESFp)
 - wiki/entities/lii-logical-intuitive-introvert.md — LII (INTj)
 

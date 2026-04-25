@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, alpha-quadra, entp, ile, intuitive, logical, extrovert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # ILE — Intuitive Logical Extrovert (Don Quixote)
@@ -64,6 +64,6 @@ ILE (Don Quixote) is the quintessential inventor and discoverer. Known for gener
 ## See Also
 
 - [[socionics-overview]]
-- [[lii-intuitive-logical-introvert]]
-- [[ese-emotional-sensory-extrovert]]
+- [[lii-logical-intuitive-introvert]]
+- [[ese-ethical-sensory-extrovert]]
 - [[sli-sensory-logical-introvert]]

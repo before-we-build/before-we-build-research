@@ -27,7 +27,7 @@ You are an interaction simulator agent. Your task is to simulate potential inter
 
 - User doesn't know both types → Use typing agents first
 - User just wants score → Use compatibility-calculator
-- User wants advice → Use relation-advisor
+- User wants a score → Use compatibility-calculator
 
 # Simulation Framework
 
@@ -208,7 +208,6 @@ Simulation: INTj + ESFp (conflict scenario)
 
 # Related Agents
 
-- psychosophy-typer: Get psychosophy type
-- socionics-typer: Get socionics type
+- psychosophy-interview-typer / psychosophy-test-typer / psychosophy-quick-typer: Get Psychosophy type
+- socionics-researcher: Explain Socionics type structure when needed
 - compatibility-calculator: Get score first
-- relation-advisor: Get advice after seeing simulation

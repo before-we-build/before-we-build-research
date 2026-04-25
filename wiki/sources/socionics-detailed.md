@@ -14,7 +14,7 @@ sources: []
 > **Frame Type:** Information frame  
 > **Core Question:** "How do we perceive and communicate about situations?"
 
-Socionics is a typology founded by Aušra Augustinavičiūtė, based on the work of Carl Jung and extended with the Model A theory. Unlike MBTI, Socionics describes 16 types using 8 cognitive functions (IM elements) arranged in a specific structure.
+Socionics is a typology founded by Aušra Augustinavičiūtė, based on the work of Carl Jung and extended with the Model A theory. Unlike MBTI, Socionics describes 16 types using eight information elements arranged across eight Model A function positions.
 
 From socionics.us: *"Information metabolism is the process of assimilating, processing and transferring information by the human psyche. That is why socionics has the second name of the information metabolism theory."*
 
@@ -283,9 +283,9 @@ Person tries to look structural: "Yes, yes, let's fix the rules, formalize the s
 | Type | Code | Functions |
 |------|------|-----------|
 | ILE (ENTp) | Ne Ti | 1Ne 2Ti 3Fe 4Si 5Te 6Fi 7Ni 8Se |
-| LII (INTj) | Ti Ne | 1Ti 2Ne 3Se 4Fe 5Te 6Fi 7Ni 8Se |
+| LII (INTj) | Ti Ne | 1Ti 2Ne 3Fi 4Se 5Fe 6Si 7Te 8Ni |
 | ESE (ESFj) | Fe Si | 1Fe 2Si 3Ne 4Ti 5Fi 6Te 7Se 8Ni |
-| SLI (ISTp) | Si Fe | 1Si 2Fe 3Ti 4Ne 5Se 6Ni 7Te 8Fi |
+| SEI (ISFp) | Si Fe | 1Si 2Fe 3Ti 4Te 5Ne 6Fi 7Se 8Ni |
 
 ### Beta Quadra (NORMATIVE)
 
@@ -294,9 +294,9 @@ Person tries to look structural: "Yes, yes, let's fix the rules, formalize the s
 | Type | Code | Functions |
 |------|------|-----------|
 | SLE (ESTp) | Se Ti | 1Se 2Ti 3Fe 4Ni 5Si 6Ne 7Fi 8Te |
-| LIE (ENTj) | Te Ni | 1Te 2Ni 3Si 4Fe 5Ti 6Ne 7Se 8Fi |
 | EIE (ENFj) | Fe Ni | 1Fe 2Ni 3Ti 4Se 5Fi 6Te 7Si 8Ne |
-| LSI (ISTj) | Si Te | 1Si 2Te 3Ni 4Fe 5Se 6Fi 7Ti 8Ne |
+| LSI (ISTj) | Ti Se | 1Ti 2Se 3Fi 4Ne 5Fe 6Ni 7Te 8Si |
+| IEI (INFp) | Ni Fe | 1Ni 2Fe 3Si 4Te 5Se 6Ti 7Ne 8Fi |
 
 ### Gamma Quadra (PRAGMATIC)
 
@@ -304,10 +304,10 @@ Person tries to look structural: "Yes, yes, let's fix the rules, formalize the s
 
 | Type | Code | Functions |
 |------|------|-----------|
-| SIE (ESFp) | Se Ne | 1Se 2Ne 3Ti 4Fi 5Ni 6Si 7Te 8Fe |
+| SEE (ESFp) | Se Fi | 1Se 2Fi 3Ne 4Ti 5Ni 6Si 7Fe 8Te |
 | ILI (INTp) | Ni Te | 1Ni 2Te 3Fi 4Se 5Ne 6Fe 7Si 8Ti |
+| LIE (ENTj) | Te Ni | 1Te 2Ni 3Si 4Fe 5Ti 6Ne 7Se 8Fi |
 | ESI (ISFj) | Fi Si | 1Fi 2Si 3Ne 4Te 5Fe 6Ni 7Se 8Ti |
-| LSE (ESTj) | Te Si | 1Te 2Si 3Fe 4Ni 5Ti 6Ne 7Fi 8Se |
 
 ### Delta Quadra (HUMANITARIAN)
 
@@ -317,8 +317,8 @@ Person tries to look structural: "Yes, yes, let's fix the rules, formalize the s
 |------|------|-----------|
 | IEE (ENFp) | Ne Fi | 1Ne 2Fi 3Te 4Si 5Ni 6Se 7Ti 8Fe |
 | EII (INFj) | Fi Ne | 1Fi 2Ne 3Se 4Ti 5Fe 6Ni 7Si 8Te |
-| SEE (ESFp) | Se Fi | 1Se 2Fi 3Ne 4Ti 5Ni 6Si 7Fe 8Ni |
-| LII (INTj) | Ti Ne | 1Ti 2Ne 3Se 4Fe 5Te 6Fi 7Ni 8Se |
+| SLI (ISTp) | Si Te | 1Si 2Te 3Fi 4Ne 5Ni 6Fe 7Ti 8Se |
+| LSE (ESTj) | Te Si | 1Te 2Si 3Fe 4Ni 5Ti 6Ne 7Fi 8Se |
 
 ---
 
@@ -506,10 +506,10 @@ From socionbyexample:
 | INTJ, INFJ | Se |
 | ENTJ, ENFJ | Si |
 | ESTJ, ESFJ | Ne |
-| ISTJ, ISFJ | Ni |
+| ISTJ, ISFJ | Ne |
 | ENTP, INTP | Fi |
 | INFP, ENFP | Ti |
 
 ---
 
-*This document provides comprehensive coverage of Socionics as the Tactical level of the Cognitive Matchmaker framework. For the strategic level, see temporistics-detailed.md. For the operational level, see psychosophy-detailed.md.*
+*This document provides comprehensive coverage of Socionics as the Tactical level of the PsyCalc framework. For the strategic level, see temporistics-detailed.md. For the operational level, see psychosophy-detailed.md.*

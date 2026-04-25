@@ -4,12 +4,12 @@ type: source
 tags: [typology, reference]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [temporistics-detailed.md, psychosophy-detailed.md, socionics-detailed.md]
+sources: [raw/temporistics/theory-description.md, raw/psychosophy/what-is-psychosophy.md, raw/socionics/what-is-socionics.md]
 ---
 
 # Complete Typology Reference: Three Levels of Personality Analysis
 
-This document provides comprehensive descriptions of the three typological systems used in the Cognitive Matchmaker project: Temporistics (strategic level), Psychosophy (operational level), and Socionics (tactical level). Each typology is described through the lens of latent processes—the hidden internal mechanisms that manifest through observable behavior.
+This document provides comprehensive descriptions of the three typological systems used in PsyCalc: Temporistics (strategic level), Psychosophy (operational level), and Socionics (tactical level). Cognitive Matchmaker is one downstream dating application of this framework. Each typology is described through the lens of latent processes—the hidden internal mechanisms that manifest through observable behavior.
 
 ---
 
@@ -994,4 +994,4 @@ In the current project model, stronger compatibility may require:
 
 ---
 
-*This document provides the complete typological reference for the Cognitive Matchmaker project. For questions of specific compatibility patterns, see latent-process.md for detailed examples.*
+*This document provides the complete typological reference for PsyCalc. For questions of specific compatibility patterns, see latent-process.md for detailed examples.*

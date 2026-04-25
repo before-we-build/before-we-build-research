@@ -1,13 +1,13 @@
 ---
-title: EIE — Emotional Intuitive Extrovert (Hamlet)
+title: EIE — Ethical Intuitive Extrovert (Hamlet)
 type: entity
-tags: [socionics, beta-quadra, enfj, eie, emotional, intuitive, extrovert]
+tags: [socionics, beta-quadra, enfj, eie, ethical, intuitive, extrovert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
-# EIE — Emotional Intuitive Extrovert (Hamlet)
+# EIE — Ethical Intuitive Extrovert (Hamlet)
 
 **Socionics type:** EIE (ENFj)  
 **Quadra:** Beta  
@@ -66,4 +66,4 @@ EIE (Hamlet) is the inspirer and dramatist. Known for charisma, emotional depth,
 - [[socionics-overview]]
 - [[sle-sensory-logical-extrovert]]
 - [[lie-logical-intuitive-extrovert]]
-- [[lsi-sensory-logical-introvert]]
+- [[lsi-logical-sensory-introvert]]

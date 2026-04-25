@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, gamma-quadra, intp, ili, intuitive, logical, introvert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # ILI — Intuitive Logical Introvert (Balzac)
@@ -55,7 +55,7 @@ ILI (Balzac) is the analyst and critic. Known for strategic thinking, deep analy
 
 ## Relationships with Other Types
 
-**Best duality:** SIE (ESFp) — complementary functions  
+**Best duality:** SEE (ESFp) — complementary functions  
 **Conflict:** LSE (ESTj) — analysis vs. action  
 **Supervision:** SLE (ESTp) — feels demanding
 
@@ -64,6 +64,6 @@ ILI (Balzac) is the analyst and critic. Known for strategic thinking, deep analy
 ## See Also
 
 - [[socionics-overview]]
-- [[sie-sensory-ethical-extrovert]]
-- [[esi-emotional-sensory-introvert]]
+- [[see-sensory-ethical-extrovert]]
+- [[esi-ethical-sensory-introvert]]
 - [[lse-logical-sensory-extrovert]]

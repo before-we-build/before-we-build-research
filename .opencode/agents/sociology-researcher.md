@@ -38,10 +38,10 @@ You do **not** type people. You do **not** convert sociological variables into t
 
 - Socionics Model A, intertype relations → use `socionics-researcher`
 - Psychosophy aspects/positions → use `psychosophy-researcher`
-- Temporistics aspect positions → use `temporistics-researcher` when available
+- Temporistics aspect positions → dedicated `temporistics-researcher` is planned; use `temporistics-intertype-relations-expert` only for relation/process audits
 - Ukrainian military specialty catalog updates → use `military-roles-researcher`
 - Direct compatibility scoring → use `compatibility-calculator`
-- Relationship advice → use `dating-advisor` / advisor layer
+- Relationship scoring or scenarios → use `compatibility-calculator` or `interaction-simulator`
 
 # Boundary Rule
 

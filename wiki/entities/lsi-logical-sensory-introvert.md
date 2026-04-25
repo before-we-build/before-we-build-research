@@ -1,18 +1,18 @@
 ---
-title: LSI — Sensory Logical Introvert (Maxim Gorky / the Inspector)
+title: LSI — Logical Sensory Introvert (Maxim Gorky / the Inspector)
 type: entity
-tags: [socionics, beta-quadra, istj, lsi, sensory, logical, introvert]
+tags: [socionics, beta-quadra, istj, lsi, logical, sensory, introvert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
-# LSI — Sensory Logical Introvert (Maxim Gorky / the Inspector)
+# LSI — Logical Sensory Introvert (Maxim Gorky / the Inspector)
 
 **Socionics type:** LSI (ISTj)  
 **Quadra:** Beta  
 **MBTI equivalent:** ISTJ  
-**Function Stack:** 1Si 2Te 3Ni 4Fe 5Se 6Fi 7Ti 8Ne
+**Function Stack:** 1Ti 2Se 3Fi 4Ne 5Fe 6Ni 7Te 8Si
 
 ---
 
@@ -20,14 +20,14 @@ sources: [raw/socionics/]
 
 | Function | Element | Description |
 |----------|---------|-------------|
-| **1st (Base)** | Si | Comfort, tradition, order |
-| **2nd (Creative)** | Te | Efficiency, pragmatism, organization |
-| **3rd (Role)** | Ni | Future projections, meaning |
-| **4th (PoLR)** | Fe | Emotional expression, atmosphere |
-| **5th (Suggestive)** | Se | Power, control, influence |
-| **6th (Activation)** | Fi | Values, warmth |
-| **7th (Ignoring)** | Ti | Structural logic |
-| **8th (Demonstrative)** | Ne | Possibilities, ideas |
+| **1st (Base)** | Ti | Structural logic, rules, consistency |
+| **2nd (Creative)** | Se | Force, boundaries, implementation |
+| **3rd (Role)** | Fi | Personal relations, values |
+| **4th (PoLR)** | Ne | Possibilities, uncertainty |
+| **5th (Suggestive)** | Fe | Emotional atmosphere, expression |
+| **6th (Activation)** | Ni | Timing, trajectory, meaning |
+| **7th (Ignoring)** | Te | Efficiency, pragmatism |
+| **8th (Demonstrative)** | Si | Comfort, physical sensations |
 
 ---
 
@@ -43,7 +43,7 @@ LSI (Maxim Gorky) is the inspector and guardian of order. Known for principled s
 
 ### Challenges
 - May be rigid or inflexible in views
-- Weak ethics (Fe PoLR) means difficulty with emotional expression
+- Weak intuition of possibilities (Ne PoLR) means discomfort with ambiguous alternatives
 - Can be seen as overly critical or judgmental
 - May struggle to adapt to rapid changes
 
@@ -56,7 +56,7 @@ LSI (Maxim Gorky) is the inspector and guardian of order. Known for principled s
 ## Relationships with Other Types
 
 **Best duality:** EIE (ENFj) — complementary functions  
-**Conflict:** ILE (ENTp) — order vs. innovation  
+**Conflict:** IEE (ENFp) — force/structure vs. open-ended relational possibilities  
 **Supervision:** LIE (ENTj) — feels demanding
 
 ---
@@ -66,4 +66,4 @@ LSI (Maxim Gorky) is the inspector and guardian of order. Known for principled s
 - [[socionics-overview]]
 - [[sle-sensory-logical-extrovert]]
 - [[lie-logical-intuitive-extrovert]]
-- [[eie-emotional-intuitive-extrovert]]
+- [[eie-ethical-intuitive-extrovert]]

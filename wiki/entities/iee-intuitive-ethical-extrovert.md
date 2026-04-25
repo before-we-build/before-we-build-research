@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, delta-quadra, enfp, iee, intuitive, ethical, extrovert]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # IEE — Intuitive Ethical Extrovert (Huxley / the Journalist)
@@ -55,7 +55,7 @@ IEE (Huxley) is the humanitarian and visionary. Known for seeing potential in pe
 
 ## Relationships with Other Types
 
-**Best duality:** LSI (ISTj) — complementary functions  
+**Best duality:** SLI (ISTp) — complementary functions  
 **Conflict:** LSE (ESTj) — different visions  
 **Supervision:** SLE (ESTp) — feels demanding
 
@@ -64,6 +64,6 @@ IEE (Huxley) is the humanitarian and visionary. Known for seeing potential in pe
 ## See Also
 
 - [[socionics-overview]]
-- [[eii-emotional-intuitive-introvert]]
+- [[eii-ethical-intuitive-introvert]]
 - [[see-sensory-ethical-extrovert]]
 - [[lii-logical-intuitive-introvert]]

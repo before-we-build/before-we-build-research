@@ -4,7 +4,7 @@ type: source
 tags: [psychosophy, sextas, quadras, unofficial, typology, operational-level]
 created: 2026-04-24
 updated: 2026-04-24
-sources: [wiki/sources/psychosophy-detailed.md, raw/psychosophy/aspects.md, psychosophy-library, bestsocionics, socionika.lv]
+sources: [raw/psychosophy/aspects.md, raw/psychosophy/psychosophy-compatibility-research.md, psychosophy-library, bestsocionics, socionika.lv]
 ---
 
 # Psychosophy Sextas / Quadras

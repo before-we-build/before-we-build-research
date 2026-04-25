@@ -1,38 +1,41 @@
 ---
-title: Brain Regions and Typology Systems
+title: Historical Exploratory Note on Brain Regions and Typology Systems
 type: source
 tags: [brain, neuroscience, typology, psychology]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-04-25
 sources: [dario-nardi-neuroscience-of-personality, katherine-benziger-physiology-jung, nature-time-perception-2025, neuroscience-emotion-pfc]
 ---
 
-# Brain Regions and Typology Systems
+# Historical Exploratory Note on Brain Regions and Typology Systems
 
-This page maps the three typological systems (Socionics, Psychosophy, Temporistics) to known brain regions and neural systems. **Note**: These mappings are exploratory hypotheses, not established neuroscience.
+This page is a **historical exploratory note**. It records early candidate analogies between typological constructs and neuroscience topics, but it should not be read as a validated brain-type map.
 
-## Jung's Cognitive Functions → Brain Regions
+Current PsyCalc policy: neuroscience is an external context layer for mechanism hypotheses, measurement design, and safety caveats. Do not infer typological type from brain regions, and do not infer brain pathology from typological type.
 
-Research by Katherine Benziger and Dario Nardi has correlated Jung's four functions with specific brain areas:
+## Jung's Cognitive Functions and Brain-Region Claims
 
-| Function | Brain Region | Hemisphere | Role |
-|----------|-------------|------------|------|
-| **Thinking** | Left Frontal Lobe | Left | Logical analysis, decision-making, measurement |
-| **Feeling** | Right Posterior Convexity | Right | Harmony recognition, value assignment |
-| **Sensing** | Left Posterior Convexity | Left | Concrete details, literal recall |
-| **Intuition** | Right Frontal Lobe | Right | Pattern recognition, imaginative thinking |
+Some authors, including Katherine Benziger and Dario Nardi, have proposed correlations between Jungian function language and broad brain areas. Treat these as speculative source claims rather than established neuroscience.
+
+| Source claim | Proposed broad area | Status |
+|--------------|---------------------|--------|
+| Thinking-language claims | Left frontal areas | Historical/speculative source claim |
+| Feeling-language claims | Right posterior areas | Historical/speculative source claim |
+| Sensing-language claims | Left posterior areas | Historical/speculative source claim |
+| Intuition-language claims | Right frontal areas | Historical/speculative source claim |
 
 Sources: Benziger (2013), Nardi (2020)
 
 ### Extraversion vs Introversion
 
-Extraversion correlates with **arousal levels** via the Reticular Activating System (RAS):
-- High arousal = more stimulus intake = extraverted processing
-- Low arousal = filtered stimulus intake = introverted processing
+Eysenck's arousal theory has been used historically to discuss extraversion/introversion and the Reticular Activating System (RAS). This is a broad trait-theory claim, not a Socionics or PsyCalc type marker:
+- arousal-level hypotheses may inform general personality research;
+- they should not be used to infer Socionics extraversion/introversion;
+- they should not be used as clinical evidence.
 
-This aligns with Eysenck's arousal theory.
+This section is retained only as source-history context.
 
-## Time Processing → Brain Networks
+## Time Processing and Brain Networks
 
 The brain has distinct systems for processing past, present, and future:
 
@@ -51,16 +54,16 @@ The brain has distinct systems for processing past, present, and future:
 - **Default Mode Network (DMN)** — internally-generated simulation
 - **Lateral prefrontal cortex** — prospective planning
 
-### Eternity (Abstract Meaning)
+### Meaning-Making and Abstract Orientation
 - **Default Mode Network** — self-projection across time
 - **Medial prefrontal cortex** — meaning-making, values
 - **Dorsolateral PFC** — abstract reasoning
 
 Sources: Frontiers in Temporal Cognition (2025), Nature Scientific Reports (2025)
 
-## Emotion Processing → Brain Regions
+## Emotion Processing and Brain Regions
 
-Psychosophy's Feeling function maps to emotional valuation circuits:
+Emotion-related typology language may be compared cautiously with general affective-neuroscience constructs. This does not mean Psychosophy's Emotion aspect, or any type position, is identical to these circuits.
 
 | Process | Brain Regions | Role |
 |---------|---------------|------|
@@ -71,20 +74,9 @@ Psychosophy's Feeling function maps to emotional valuation circuits:
 
 Sources: Nature Reviews Neuroscience (2015), Cortex (2017)
 
-## Summary Brain-Typology Mapping
+## Removed Mapping Table
 
-| Typology Level | Processing Type | Key Brain Regions |
-|----------------|-----------------|-------------------|
-| **Temporistics: Past** | Episodic memory retrieval | Hippocampus, PCC, MTL |
-| **Temporistics: Present** | Current state monitoring | ACC, Somatosensory, Precuneus |
-| **Temporistics: Future** | Prospective simulation | vmPFC, DMN, LPFC |
-| **Temporistics: Eternity** | Meaning-making | mPFC, DMN, DLPFC |
-| **Psychosophy: Logic** | Logical analysis | Left Frontal Lobe, DLPFC |
-| **Psychosophy: Feeling** | Emotional valuation | OFC, Amygdala, ACC |
-| **Psychosophy: Will** | Action initiation | Motor cortex, Striatum |
-| **Psychosophy: Physics** | Sensory processing | Somatosensory, Parietal |
-| **Socionics: Intuition** | Pattern recognition | Right Frontal, Temporal |
-| **Socionics: Sensing** | Concrete detail | Left Posterior, Parietal |
+An earlier version of this page contained a typology-to-brain-domain table. That table has been removed because it invited overinterpretation. Future neuroscience work should start from independently measurable cognitive or affective constructs, then ask whether PsyCalc scenarios generate testable behavioral hypotheses.
 
 ## Big Five → Brain Networks
 
@@ -106,7 +98,8 @@ Source: "Three Individual Difference Constructs, One Converging Concept" (2019)
 1. **fMRI limitations**: Most findings are correlational, not causal
 2. **Individual variation**: Brain region functions vary significantly between individuals
 3. **Network dynamics**: Single regions participate in multiple networks
-4. **These are hypotheses**: Not confirmed mappings
+4. **These are analogies**: Not confirmed typology mappings
+5. **Clinical boundary**: Neurological symptoms require clinical evaluation and should not be interpreted through typology alone
 
 ## References
 

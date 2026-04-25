@@ -13,21 +13,23 @@ master-orchestrator (gold) ⚜
 │   ├── temporistics-intertype-relations-expert (cyan)
 │   ├── sociology-researcher (brown)
 │   ├── neuroscience-researcher (indigo)
+│   ├── clinical-neurologist-expert (darkslategray)
 │   ├── christian-theology-researcher (sienna)
 │   └── military-roles-researcher (darkgreen)
 ├── Typing Team  
-│   ├── psychosophy-typer (green)
-│   ├── socionics-typer (blue)
-│   └── temporistics-typer (cyan)
+│   ├── psychosophy-interview-typer (green)
+│   ├── psychosophy-test-typer (green)
+│   └── psychosophy-quick-typer (green)
 ├── Analysis Team
 │   ├── compatibility-calculator (red)
-│   ├── relation-advisor (orange)
 │   ├── interaction-simulator (yellow)
 │   ├── military-specialty-advisor (olive)
 │   └── civilian-career-advisor (steelblue)
 ├── Wiki Team
-│   ├── philosopher-logician (white)
+│   ├── wiki-contributor (white)
 │   └── wiki-consistency-checker (magenta)
+├── Explanation Team
+│   └── type-explain (gray)
 └── [Reserved for future]
 ```
 
@@ -35,13 +37,13 @@ master-orchestrator (gold) ⚜
 
 ### 1. Research Team
 **Lead:** typology-researcher
-**Purpose:** Finding and validating information, including typological, sociological, neuroscience, and Christian-theological context. Intertype-relation experts provide mechanism-level audits of relation names and processes within their own typology.
+**Purpose:** Finding and validating information, including typological, sociological, neuroscience, clinical-neurology, and Christian-theological context. Intertype-relation experts provide mechanism-level audits of relation names and processes within their own typology.
 **Crons:** military-roles-researcher (weekly)
 
 ### 2. Typing Team  
-**Lead:** (any - user chooses)
-**Purpose:** Typological type determination
-**Agents:** 3 typing specialists
+**Lead:** (no dedicated lead yet)
+**Purpose:** Psychosophy type determination
+**Agents:** 3 Psychosophy typing specialists
 
 ### 3. Analysis Team
 **Lead:** compatibility-calculator
@@ -123,4 +125,4 @@ Reserved slots for:
 
 ---
 
-Last updated: 2026-04-24
+Last updated: 2026-04-25

@@ -4,7 +4,7 @@ type: entity
 tags: [socionics, gamma-quadra, entj, lie, logical, intuitive, extrovert]
 created: 2026-04-15
 updated: 2026-04-24
-sources: [raw/socionics/]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
 # LIE — Logical Intuitive Extrovert (Jack London)
@@ -65,5 +65,5 @@ LIE (Napoleon) is the entrepreneur and organizer. Known for strategic thinking, 
 
 - [[socionics-overview]]
 - [[sle-sensory-logical-extrovert]]
-- [[eie-emotional-intuitive-extrovert]]
-- [[lsi-sensory-logical-introvert]]
+- [[eie-ethical-intuitive-extrovert]]
+- [[lsi-logical-sensory-introvert]]
