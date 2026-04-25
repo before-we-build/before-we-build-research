@@ -19,6 +19,7 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-25 - Added `clinical-neurologist-expert` agent for clinical neurology review, neurological red flags, differential-boundary caveats, and medical-safety separation from typology/neuroscience claims.
 2026-04-25 - Split the SLI + ELVF + EPNF profile into a neutral core composite page plus separate civilian and military applied profile pages to avoid mixing labor-market and wartime placement logic.
 2026-04-25 - Ingested “psychology of everything” context as `wiki/concepts/psychology-of-everything.md` and `wiki/sources/psychology-of-everything-synthesis.md`, positioning unified psychology/metatheory as context for PsyCalc rather than a claim to a completed universal psychology.
+2026-04-25 - Expanded Socionics Model A coverage: rewrote `wiki/concepts/socionics-model-a.md` as a hub and added `socionics-function-positions.md`, `socionics-model-a-blocks.md`, and `socionics-information-elements.md` with PsyCalc tactical-layer caveats.
 
 ---
 

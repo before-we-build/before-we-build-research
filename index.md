@@ -79,6 +79,9 @@ wiki/          — LLM-generated wiki
 | [[psychosophy-model]] | Psychosophy type structure | psycalc/Psyche-Yoga |
 | [[psychosophy-functions]] | Function block descriptions | psycalc/Psyche-Yoga |
 | [[socionics-model-a]] | Model A: 8 information elements and function positions | raw/socionics |
+| [[socionics-function-positions]] | Detailed Model A reference for positions 1–8 and their structural properties | raw/socionics/model-a.md, socionics-function-dichotomies |
+| [[socionics-model-a-blocks]] | Ego, Super-Ego, Super-Id, and Id as paired Model A function zones | raw/socionics/model-a.md, socionics-function-dichotomies |
+| [[socionics-information-elements]] | Eight Socionics information elements/aspects and naming variants | raw/socionics/information-aspects.md |
 | [[temporistics-model]] | Temporistics type structure | raw/temporistics |
 | [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
 | [[intertype-relations-matrix]] | Socionics tactical relation reference; no calibrated compatibility percentages | raw/socionics |
@@ -327,9 +330,9 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
-- **Wiki pages**: 105 (32 concepts + 35 entities + 3 relations + 31 sources + 4 reference pages)
+- **Wiki pages**: 108 (35 concepts + 35 entities + 3 relations + 31 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 57 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 32
+- **Concepts**: 35
 - **Last updated**: 2026-04-25
