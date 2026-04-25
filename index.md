@@ -90,7 +90,9 @@ wiki/          — LLM-generated wiki
 | [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
 | [[intertype-relations-matrix]] | Full compatibility matrix | raw/socionics |
 
-### Entities — Temporistics Types (24)
+### Entities — Temporistics Aspect-Position Archetypes (16)
+
+These pages cover the 16 aspect-position archetypes. The 24 full four-letter Temporistics type permutations are listed in `raw/temporistics/types.md` and summarized in [[temporistics-overview]].
 
 #### Past Aspect (Прошлое)
 

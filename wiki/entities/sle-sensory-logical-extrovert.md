@@ -1,13 +1,13 @@
 ---
-title: SLE — Sensory Logical Extrovert (Zhukov / Jack London)
+title: SLE — Sensory Logical Extrovert (Zhukov)
 type: entity
 tags: [socionics, beta-quadra, estp, sle, sensory, logical, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-25
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
-# SLE — Sensory Logical Extrovert (Zhukov / Jack London)
+# SLE — Sensory Logical Extrovert (Zhukov)
 
 **Socionics type:** SLE (ESTp)  
 **Quadra:** Beta  
@@ -49,7 +49,6 @@ SLE (Zhukov) is the commander and leader. Known for bold action, taking initiati
 
 ### Famous Examples
 - Zhukov (Soviet Marshal)
-- Jack London (writer)
 - Bold leaders and commanders
 
 ---

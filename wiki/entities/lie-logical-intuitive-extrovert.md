@@ -3,7 +3,7 @@ title: LIE — Logical Intuitive Extrovert (Jack London)
 type: entity
 tags: [socionics, gamma-quadra, entj, lie, logical, intuitive, extrovert]
 created: 2026-04-15
-updated: 2026-04-24
+updated: 2026-04-25
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -33,7 +33,7 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 
 ## Characteristics
 
-LIE (Napoleon) is the entrepreneur and organizer. Known for strategic thinking, ambition, and driving projects to completion.
+LIE (Jack London) is the entrepreneur and organizer. Known for strategic thinking, ambition, and driving projects to completion.
 
 ### Strengths
 - Strong organizational and management abilities
@@ -48,7 +48,7 @@ LIE (Napoleon) is the entrepreneur and organizer. Known for strategic thinking, 
 - May struggle with work-life balance
 
 ### Famous Examples
-- Napoleon Bonaparte
+- Jack London (writer)
 - Entrepreneurs and business leaders
 
 ---

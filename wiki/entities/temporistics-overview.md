@@ -3,7 +3,7 @@ title: Temporistics Overview
 type: entity
 tags: [temporistics, strategic-level, overview]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-25
 sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 ---
 
@@ -46,7 +46,9 @@ A person's type is written as 4 letters, e.g., **EPNF** = Eternity(1st) > Past(2
 - **F** = Future (Будущее)
 - **E** = Eternity (Вечность)
 
-## All 24 Types
+## Aspect-Position Archetypes (16)
+
+The pages below describe the 16 aspect-position archetypes such as Author, Host, Captain, and Guru. They are not the same as the 24 full four-letter Temporistics type permutations listed in `raw/temporistics/types.md` and summarized under tetra classification below.
 
 ### Past Types
 - [[avtor-author]] (1P) — Author
@@ -55,24 +57,24 @@ A person's type is written as 4 letters, e.g., **EPNF** = Eternity(1st) > Past(2
 - [[reader-chitatel]] (4P) — Reader
 
 ### Present Types
-- [[host-khozyain]] (1N) — Master
+- [[host-khozyain]] (1N) — Host
 - [[local-mestnyi]] (2N) — Local
 - [[exile-izgnannik]] (3N) — Exile
 - [[guest-gost]] (4N) — Guest
 
 ### Future Types
-- [[captain-kapitan]] (1B) — Captain
-- [[stewersman-rulevoi]] (2B) — Helmsman
-- [[stowaway-bezbiletnik]] (3B) — Free Rider
-- [[passenger-passazhir]] (4B) — Passenger
+- [[captain-kapitan]] (1F) — Captain
+- [[stewersman-rulevoi]] (2F) — Steersman
+- [[stowaway-bezbiletnik]] (3F) — Stowaway
+- [[passenger-passazhir]] (4F) — Passenger
 
 ### Eternity Types
 - [[guru]] (1E) — Guru
 - [[philosopher-filosof]] (2E) — Philosopher
-- [[philistine-obyvatel]] (3E) — Common Man
+- [[philistine-obyvatel]] (3E) — Philistine
 - [[student-uchenik]] (4E) — Student
 
-## Tetra Classification
+## Full Type Tetra Classification (24)
 
 Types are grouped into 6 tetras based on relationships between "face" (Present + Future) and "reverse" (Eternity + Past) worlds:
 

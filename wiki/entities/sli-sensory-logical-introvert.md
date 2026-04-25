@@ -1,13 +1,13 @@
 ---
-title: SLI — Sensory Logical Introvert (Gaben / Dumas)
+title: SLI — Sensory Logical Introvert (Gabin / Gaben)
 type: entity
 tags: [socionics, delta-quadra, istp, sli, sensory, logical, introvert]
 created: 2026-04-15
-updated: 2026-04-24
+updated: 2026-04-25
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
-# SLI — Sensory Logical Introvert (Gaben / Dumas)
+# SLI — Sensory Logical Introvert (Gabin / Gaben)
 
 **Socionics type:** SLI (ISTp)  
 **Quadra:** Delta  
@@ -33,7 +33,7 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 
 ## Characteristics
 
-SLI (Dubrovina) is the artisan craftsman who values practical skills and physical comfort.
+SLI (Gabin/Gaben) is the artisan craftsman who values practical skills and physical comfort.
 
 ### Strengths
 - Excellent practical skills and craftsmanship
@@ -48,7 +48,7 @@ SLI (Dubrovina) is the artisan craftsman who values practical skills and physica
 - May struggle to articulate feelings
 
 ### Famous Examples
-- Dubrovina (literary character)
+- Gabin/Gaben (traditional socionics alias)
 - Skilled craftspeople and engineers
 
 ---
