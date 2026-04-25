@@ -55,6 +55,7 @@ wiki/          — LLM-generated wiki
 | [[project-positioning]] | PsyCalc vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[psycalc-vs-big-five]] | Positions PsyCalc against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
+| [[psychology-of-everything]] | Context page on unified psychology, metatheory, integrative psychology, and “maps of everything” | psychology-of-everything-synthesis |
 | [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
@@ -202,6 +203,7 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | [[socionics-function-dichotomies]] | Model A function dichotomies and dimensionality | Wikisocion, BestSocionics |
 | [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
 | [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
+| [[psychology-of-everything-synthesis]] | Derived synthesis on unified psychology, cognitive-science frameworks, and online totalizing maps | expert synthesis |
 
 ### Research on AI in Psychology
 
@@ -325,9 +327,9 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 13 (full team, including civilian-career-advisor)
 - **Raw sources**: 57 (21 temporistics + 8 psychosophy + 11 socionics + 17 general)
-- **Wiki pages**: 103 (31 concepts + 35 entities + 3 relations + 30 sources + 4 reference pages)
+- **Wiki pages**: 105 (32 concepts + 35 entities + 3 relations + 31 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 57 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 31
+- **Concepts**: 32
 - **Last updated**: 2026-04-25

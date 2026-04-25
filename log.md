@@ -18,6 +18,7 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-25 - Updated `prophetic-visionary-cognition.md` with a Christian Theology Note distinguishing prophetic archetype from the gift of prophecy, 1st Eternity from spiritual authority, and neural correlates from revelation.
 2026-04-25 - Added `clinical-neurologist-expert` agent for clinical neurology review, neurological red flags, differential-boundary caveats, and medical-safety separation from typology/neuroscience claims.
 2026-04-25 - Split the SLI + ELVF + EPNF profile into a neutral core composite page plus separate civilian and military applied profile pages to avoid mixing labor-market and wartime placement logic.
+2026-04-25 - Ingested “psychology of everything” context as `wiki/concepts/psychology-of-everything.md` and `wiki/sources/psychology-of-everything-synthesis.md`, positioning unified psychology/metatheory as context for PsyCalc rather than a claim to a completed universal psychology.
 
 ---
 
