@@ -12,6 +12,10 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-24 - Applied relation-name audit findings to Psychosophy and Temporistics relation pages: replaced overclaiming labels such as “Therapy,” “Conflict Submission,” “Full Complement,” and “Therapeutic Exchange” with mechanism-first display names and clarified pressure-risk caveats.
 2026-04-24 - Added three intertype-relation expert agents (`socionics-intertype-relations-expert`, `psychosophy-intertype-relations-expert`, `temporistics-intertype-relations-expert`) to audit why relation names are used, explain the underlying process, and propose mechanism-accurate PsyCalc display names.
 2026-04-24 - Finalized Psychosophy and Temporistics relation pages with expert-review changes: directional signature derivation algorithms, worked pair examples, stronger source-status caveats, safer Psychosophy relation display names, structural Temporistics signature descriptors, and validation hypotheses.
+2026-04-25 - Added Eternity-oriented supportive wishes and example phrasings to Temporistics pages, with caveats against caste-like or rank-based interpretations of Eternity position.
+2026-04-25 - Added `prophetic-visionary-cognition.md` to model the prophetic/visionary archetype as a 1st Eternity heuristic while separating it from direct neuroscience validation or pathological reduction.
+2026-04-25 - Added `christian-theology-researcher` agent for Christian theological review of typology, neuroscience, prophecy/revelation language, discernment boundaries, and pastoral caveats.
+2026-04-25 - Updated `prophetic-visionary-cognition.md` with a Christian Theology Note distinguishing prophetic archetype from the gift of prophecy, 1st Eternity from spiritual authority, and neural correlates from revelation.
 
 ---
 

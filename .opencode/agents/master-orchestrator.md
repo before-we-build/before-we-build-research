@@ -28,6 +28,7 @@ master-orchestrator ⚜ (reports_to: null)
 │   │   ├── temporistics-intertype-relations-expert (scope: Temporistics relation signatures/processes)
 │   │   ├── sociology-researcher (scope: sociology/social context)
 │   │   ├── neuroscience-researcher (scope: neuroscience/brain mechanisms)
+│   │   ├── christian-theology-researcher (scope: Christian theology/pastoral caveats)
 │   │   ├── temporistics-researcher (scope: temporistics)
 │   │   └── general-researcher (scope: methodology)
 │   └── military-roles-researcher (scope: ВСУ)
@@ -197,6 +198,7 @@ Can request specific level
 | Military role advice | military-specialty-advisor |
 | Sociology / social context research | sociology-researcher |
 | Neuroscience / brain mechanism research | neuroscience-researcher |
+| Christian theology / prophecy / pastoral caveats | christian-theology-researcher |
 | Deep research | typology-researcher |
 
 # Multi-Level Analysis Output
@@ -293,3 +295,4 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 - typology-researcher: Deep research
 - sociology-researcher: Sociology, social institutions, demographics, labor markets, relationship sociology, organizational context
 - neuroscience-researcher: Neuroscience, cognitive/affective/social mechanisms, brain networks, time perception, executive function
+- christian-theology-researcher: Christian theology, prophecy/revelation boundaries, discernment, and pastoral caveats for typology/neuroscience claims

@@ -13,6 +13,7 @@ master-orchestrator (gold) ⚜
 │   ├── temporistics-intertype-relations-expert (cyan)
 │   ├── sociology-researcher (brown)
 │   ├── neuroscience-researcher (indigo)
+│   ├── christian-theology-researcher (sienna)
 │   └── military-roles-researcher (darkgreen)
 ├── Typing Team  
 │   ├── psychosophy-typer (green)
@@ -34,7 +35,7 @@ master-orchestrator (gold) ⚜
 
 ### 1. Research Team
 **Lead:** typology-researcher
-**Purpose:** Finding and validating information, including typological, sociological, and neuroscience context. Intertype-relation experts provide mechanism-level audits of relation names and processes within their own typology.
+**Purpose:** Finding and validating information, including typological, sociological, neuroscience, and Christian-theological context. Intertype-relation experts provide mechanism-level audits of relation names and processes within their own typology.
 **Crons:** military-roles-researcher (weekly)
 
 ### 2. Typing Team  

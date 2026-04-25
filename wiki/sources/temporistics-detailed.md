@@ -3,7 +3,7 @@ title: Temporistics Detailed
 type: source
 tags: [temporistics, strategic-level, temporal-aspects]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-25
 sources: [mystery-of-third-aspect.md]
 ---
 
@@ -379,6 +379,13 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 - Can help partner find meaning in difficulties
 - May impose meaning framework on resistant partner
 
+**Supportive wishes:**
+- May your meaning remain generous rather than coercive.
+- May your principles guide people without turning into a hierarchy of human worth.
+- May your worldview give courage in hard periods and humility in moments of certainty.
+
+**Example wording:** "May your path serve something real, and may your sense of purpose leave room for other people's meanings too."
+
 ### 2nd Eternity — The Philosopher (Философ)
 
 **Latent process:** Person develops existential framework through dialogue, comparison of worldviews, joint philosophizing.
@@ -399,6 +406,13 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 - Values shared existential exploration
 - Can hold space for partner's meaning questions
 - May seem abstract or detached from practical concerns
+
+**Supportive wishes:**
+- May your questions open doors rather than dissolve all ground.
+- May you find companions who can think with you without demanding final answers too early.
+- May your ability to compare worldviews become a bridge between people.
+
+**Example wording:** "May your search for meaning stay alive, dialogical, and connected to real human life."
 
 ### 3rd Eternity — The Philistine/Common Man (Обыватель)
 
@@ -429,6 +443,13 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 - May appear existential or melancholic
 - Can help partner confront difficult life questions honestly
 
+**Supportive wishes:**
+- May your questions be treated with tenderness, not shame.
+- May you find meaning that does not deny suffering but also does not trap you inside it.
+- May people near you avoid forced optimism and give you enough safety to build your own answer.
+
+**Example wording:** "May the painful question of 'why' become a doorway to your own meaning, not proof that meaning is absent."
+
 ### 4th Eternity — The Student (Ученик)
 
 **Latent process:** Person more easily accepts existing meaning systems, traditions, or teachers rather than creating metaphysics independently.
@@ -449,6 +470,17 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 - Comfortable when relational meaning is provided by tradition or shared faith
 - Not interested in debating existential questions endlessly
 - Values practical meaning (what gives joy/purpose in daily life)
+
+**Supportive wishes:**
+- May the meanings you inherit nourish you rather than control you.
+- May you meet teachers, traditions, and communities worthy of your trust.
+- May you feel free to live meaning practically, without needing to justify everything philosophically.
+
+**Example wording:** "May the systems of meaning you rely on protect your life, deepen your kindness, and leave space for your own voice."
+
+### General Caveat on Eternity Wishes
+
+Eternity-oriented language should support meaning-making, not rank people by metaphysical importance. Avoid framing 1E as a higher caste, 4E as a lower caste, or any Eternity position as proof of a person's human value. In PsyCalc, Eternity describes a latent temporal/existential process: how meaning is created, explored, questioned, or received.
 
 ---
 
