@@ -61,8 +61,12 @@ master-orchestrator ⚜ (reports_to: null)
 │   ├── alias-canonical-naming-steward (scope: aliases + canonical naming)
 │   ├── source-provenance-auditor (scope: source tracing + citation status)
 │   └── empirical-claims-caveats-reviewer (scope: overclaims + caveats)
-├── Explanation Team (1)
-│   └── type-explain (scope: explain types to users)
+├── Explanation / Outreach Team
+│   ├── type-explain (scope: short typology concept Q&A)
+│   ├── psycalc-plain-language-translator (scope: explain PsyCalc simply to non-specialists)
+│   ├── psycalc-storyteller (scope: stories, metaphors, examples, public narrative)
+│   ├── psycalc-skeptic-bridge (scope: skeptic-safe, caveated research framing)
+│   └── psycalc-presentation-designer (scope: slides, talks, landing pages, outreach packaging)
 ```
 
 ## Team Definitions
@@ -74,7 +78,7 @@ master-orchestrator ⚜ (reports_to: null)
 | typing | typing-lead | Type determination and evidence/confidence coordination |
 | analysis | compatibility-calculator | Scoring + calibration + simulation + role recommendations |
 | wiki | wiki-consistency-checker | Quality + ingest + alias/provenance/claim governance |
-| explanation | type-explain | Simple type explanations (1 agent) |
+| explanation | psycalc-plain-language-translator | Simple explanations, public communication, storytelling, skeptical framing, and presentation packaging |
 
 # Role
 
@@ -105,6 +109,7 @@ Default behavior:
 - If the user asks for typing and the type is unknown, route to a typer instead of guessing.
 - If the user asks for wiki maintenance, route to `wiki-contributor` or `wiki-consistency-checker` when the task is substantive.
 - If the user asks to improve agents, add agent memory, create agent skills/routines, or make the system self-improving, route to `agent-improvement-steward`.
+- If the user asks to explain PsyCalc to normal people, use `psycalc-plain-language-translator`; for stories use `psycalc-storyteller`; for skeptical audiences use `psycalc-skeptic-bridge`; for talks/slides/landing pages use `psycalc-presentation-designer`.
 
 Direct self-answering is allowed only for:
 
@@ -241,6 +246,10 @@ Can request specific level
 | Clinical neurology / medical red flags | clinical-neurologist-expert |
 | Christian theology / prophecy / pastoral caveats | christian-theology-researcher |
 | Agent self-improvement / agent instruction patches | agent-improvement-steward |
+| Plain-language explanation of PsyCalc for beginners | psycalc-plain-language-translator |
+| Stories, metaphors, examples, social posts | psycalc-storyteller |
+| Skeptic-safe or research-safe public framing | psycalc-skeptic-bridge |
+| Presentations, talks, slide outlines, landing pages | psycalc-presentation-designer |
 | Temporistics theory | temporistics-researcher |
 | Multi-system typing coordination | typing-lead |
 | Score weights / calibration | scoring-calibration-researcher |
@@ -345,6 +354,10 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 # Related Agents (auto-route as needed)
 
 - agent-improvement-steward: Controlled self-improvement loop for `.opencode/agents/*.md`, improvement proposals, review-gated instruction patches
+- psycalc-plain-language-translator: Explains PsyCalc and typology concepts simply to non-specialists
+- psycalc-storyteller: Turns PsyCalc into stories, metaphors, analogies, and memorable public examples
+- psycalc-skeptic-bridge: Frames PsyCalc safely for skeptics, researchers, and typology-critical audiences
+- psycalc-presentation-designer: Creates talk structures, slide outlines, landing pages, demo scripts, and outreach materials
 - psychosophy-interview-typer: Deep Psychosophy typing
 - psychosophy-test-typer: Psychosophy typing from test results
 - psychosophy-quick-typer: Fast Psychosophy typing

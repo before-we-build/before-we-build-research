@@ -31,7 +31,11 @@ master-orchestrator (gold) ⚜
 │   ├── wiki-contributor (white)
 │   └── wiki-consistency-checker (magenta)
 ├── Explanation Team
-│   └── type-explain (gray)
+│   ├── type-explain (gray)
+│   ├── psycalc-plain-language-translator (skyblue)
+│   ├── psycalc-storyteller (orange)
+│   ├── psycalc-skeptic-bridge (teal)
+│   └── psycalc-presentation-designer (orchid)
 └── [Reserved for future]
 ```
 
@@ -59,6 +63,11 @@ master-orchestrator (gold) ⚜
 ### 4. Wiki Team
 **Lead:** wiki-consistency-checker
 **Purpose:** Quality assurance
+
+### 5. Explanation / Outreach Team
+**Lead:** psycalc-plain-language-translator
+**Purpose:** Present PsyCalc to ordinary users, skeptical audiences, collaborators, and communities using simple language, stories, caveats, and presentation formats.
+**Agents:** type-explain, psycalc-plain-language-translator, psycalc-storyteller, psycalc-skeptic-bridge, psycalc-presentation-designer
 
 ## Principles Applied
 
@@ -116,6 +125,15 @@ master-orchestrator (gold) ⚜
 3. Steward → learning log + proposal in .agent-learning/
 4. Relevant specialist reviewers → approve/request changes
 5. Human approval or explicit implementation request → patch agent instructions
+```
+
+### Public Explanation Flow: "Explain PsyCalc simply"
+
+```
+1. User → master-orchestrator
+2. Orchestrator → explanation/outreach specialist based on audience and format
+3. Specialist → plain explanation / story / skeptic-safe framing / presentation package
+4. If factual depth is needed → route to relevant research or caveat reviewer first
 ```
 
 ## Naming Conventions
