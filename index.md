@@ -57,6 +57,7 @@ wiki/          — LLM-generated wiki
 | [[psycalc-vs-big-five]] | Positions PsyCalc against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
 | [[psychology-of-everything]] | Context page on unified psychology, metatheory, integrative psychology, and “maps of everything” | psychology-of-everything-synthesis |
 | [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
+| [[typology-test-design-protocol]] | Shared psychometric protocol for Socionics, Psychosophy, and Temporistics test design and validation | research-program.md, weight-calibration.md, 2026-04-25-typology-test-evaluation-protocol.md |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
@@ -72,6 +73,7 @@ wiki/          — LLM-generated wiki
 | [[prophetic-visionary-cognition]] | Heuristic link between prophetic/visionary cognition, 1st Eternity, and neuroscience-adjacent mechanisms | guru, neuroscience-compatibility-bridges, expert synthesis |
 | [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the СЛИ + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
+| [[smart-mobilization]] | Voluntary, non-coercive military role-fit recommendation concept with ethics boundaries | smart-mobilization-research-note, smart-mobilization-typology-wartime |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
 | [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | psycalc/Psyche-Yoga |
@@ -331,11 +333,11 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 ## Statistics
 
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
-- **Agents created**: 13 (full team, including civilian-career-advisor)
+- **Agents created**: 48 (including typology-test-evaluation-expert)
 - **Raw sources**: 58 (21 temporistics + 8 psychosophy + 12 socionics + 17 general)
-- **Wiki pages**: 110 (36 concepts + 35 entities + 3 relations + 32 sources + 4 reference pages)
+- **Wiki pages**: 112 (38 concepts + 35 entities + 3 relations + 32 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 58 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 36
+- **Concepts**: 38
 - **Last updated**: 2026-04-25

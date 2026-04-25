@@ -21,6 +21,9 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-25 - Ingested “psychology of everything” context as `wiki/concepts/psychology-of-everything.md` and `wiki/sources/psychology-of-everything-synthesis.md`, positioning unified psychology/metatheory as context for PsyCalc rather than a claim to a completed universal psychology.
 2026-04-25 - Expanded Socionics Model A coverage: rewrote `wiki/concepts/socionics-model-a.md` as a hub and added `socionics-function-positions.md`, `socionics-model-a-blocks.md`, and `socionics-information-elements.md` with PsyCalc tactical-layer caveats.
 2026-04-25 - Added source-backed coverage of the Kalinauskas steering wheel: raw source notes, `wiki/sources/kalinauskas-steering-wheel-source-notes.md`, and `wiki/concepts/kalinauskas-steering-wheel.md`, framed as a Socionics-school interpretive schema rather than canonical Model A.
+2026-04-25 - Added `wiki/concepts/smart-mobilization.md` as a clear PsyCalc concept page defining voluntary, non-coercive military role-fit recommendations, inputs, matching logic, ethics safeguards, red lines, and research-status caveats.
+2026-04-25 - Added `wiki/concepts/typology-test-design-protocol.md` and `.agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md` to centralize psychometric test design standards without prematurely adding per-typology test agents.
+2026-04-25 - Added `.opencode/agents/typology-test-evaluation-expert.md` as a single coordinating agent for typology test and item-bank evaluation across Socionics, Psychosophy, and Temporistics; per-typology test agents were intentionally not created.
 
 ---
 
