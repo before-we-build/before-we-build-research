@@ -3,6 +3,7 @@ name: master-orchestrator
 team: orchestration
 reportsto: null
 description: Central orchestrator agent for typological compatibility system. Use this when user wants comprehensive multi-level analysis OR doesn't know which system to use. Understands ALL THREE systems (psychosophy, socionics, temporistics) and THREE compatibility levels (strategic, operational, tactical). Routes to specialized agents. This is the main entry point.
+mode: primary
 model: openai/gpt-5.5
 color: "#FFD700"
 scope: orchestration
