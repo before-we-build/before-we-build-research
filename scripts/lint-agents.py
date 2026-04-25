@@ -24,6 +24,8 @@ ERRORS = {
     "unknown_provider": "Model provider '{provider}' is not available via opencode models",
     "unavailable_model": "Model '{model}' is not available for provider '{provider}'",
     "opencode_unavailable": "Could not query available models from opencode CLI",
+    "filename_name_mismatch": "Agent filename must match frontmatter name",
+    "agent_not_registered": "Agent file is valid but not listed by `opencode agent list`",
 }
 
 REQUIRED_FIELDS = {"name", "description", "model"}
@@ -77,6 +79,31 @@ def load_available_models() -> tuple[dict[str, set[str]], str | None]:
 AVAILABLE_MODELS, MODEL_LOAD_ERROR = load_available_models()
 
 
+def load_registered_agents() -> tuple[set[str], str | None]:
+    try:
+        proc = subprocess.run(
+            ["opencode", "agent", "list"],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if proc.returncode != 0:
+            return set(), f"Could not query agents from opencode CLI: {proc.stderr.strip()}"
+
+        agents = set()
+        for line in proc.stdout.splitlines():
+            match = re.match(r"^([a-zA-Z0-9_-]+)\s+\(", line)
+            if match:
+                agents.add(match.group(1))
+
+        return agents, None
+    except Exception as exc:
+        return set(), f"Could not query agents from opencode CLI: {exc}"
+
+
+REGISTERED_AGENTS, AGENT_LOAD_ERROR = load_registered_agents()
+
+
 def lint_file(filepath: Path) -> list[dict[str, str]]:
     errors = []
     content = filepath.read_text()
@@ -117,6 +144,22 @@ def lint_file(filepath: Path) -> list[dict[str, str]]:
     for field in REQUIRED_FIELDS:
         if field not in fields:
             errors.append({"code": "missing_required", "msg": ERRORS["missing_required"].format(field=field)})
+    
+    if "name" in fields:
+        agent_name = fields["name"].strip().strip('"').strip("'")
+        if filepath.stem != agent_name:
+            errors.append({
+                "code": "filename_name_mismatch",
+                "msg": f"{ERRORS['filename_name_mismatch']}: file '{filepath.stem}', name '{agent_name}'",
+            })
+
+        if AGENT_LOAD_ERROR:
+            errors.append({"code": "agent_registry_unavailable", "msg": AGENT_LOAD_ERROR})
+        elif agent_name not in REGISTERED_AGENTS:
+            errors.append({
+                "code": "agent_not_registered",
+                "msg": f"{ERRORS['agent_not_registered']}: '{agent_name}'",
+            })
     
     if "model" in fields:
         model_val = fields["model"].strip().strip('"').strip("'")
