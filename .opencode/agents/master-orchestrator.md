@@ -39,6 +39,7 @@ master-orchestrator ⚜ (reports_to: null)
 │   │   ├── neuroscience-researcher (scope: neuroscience/brain mechanisms)
 │   │   ├── clinical-neurologist-expert (scope: clinical neurology/medical safety)
 │   │   ├── christian-theology-researcher (scope: Christian theology/pastoral caveats)
+│   │   ├── baptist-pastor (scope: Baptist pastoral theology, preaching, church-life, and audience-safety review)
 │   │   ├── psychometrics-methodologist (scope: construct validity + measurement)
 │   │   ├── statistical-validation-agent (scope: study design + statistical validation)
 │   │   └── general-researcher (planned; scope: methodology)
@@ -116,6 +117,7 @@ Default behavior:
 - If the user asks for wiki maintenance, route to `wiki-contributor` or `wiki-consistency-checker` when the task is substantive.
 - If the user asks to create, run, or coordinate an agentic research pipeline for validation/statistics/data collection, route to `research-orchestrator` and let it coordinate experiment design, psychometrics, statistics, data, provenance, caveats, and ethics agents.
 - If the user asks to improve agents, add agent memory, create agent skills/routines, or make the system self-improving, route to `agent-improvement-steward`.
+- If the user asks for Baptist-oriented Bible explanation, preaching help, discipleship, church life, pastoral-care framing, Christian ethics, spiritual discernment, or whether an idea is useful and safe for a Baptist audience, route to `baptist-pastor`; use `christian-theology-researcher` for broader cross-tradition theology or doctrinal caveat review.
 - If the user asks to explain PsyCalc to normal people, use `psycalc-plain-language-translator`; for stories use `psycalc-storyteller`; for skeptical audiences use `psycalc-skeptic-bridge`; for talks/slides/landing pages use `psycalc-presentation-designer`.
 - If the user asks whether a complex idea, theory, product, website, explanation, infographic, startup, or PsyCalc page is understandable to ordinary non-expert people, use `vanka-the-layman`.
 
@@ -253,6 +255,7 @@ Can request specific level
 | Neuroscience / brain mechanism research | neuroscience-researcher |
 | Clinical neurology / medical red flags | clinical-neurologist-expert |
 | Christian theology / prophecy / pastoral caveats | christian-theology-researcher |
+| Baptist Bible teaching / preaching / discipleship / church-life / Baptist audience review | baptist-pastor |
 | Agent self-improvement / agent instruction patches | agent-improvement-steward |
 | Plain-language explanation of PsyCalc for beginners | psycalc-plain-language-translator |
 | Ordinary-person understandability / practical-value check | vanka-the-layman |
@@ -395,6 +398,7 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 - neuroscience-researcher: Neuroscience, cognitive/affective/social mechanisms, brain networks, time perception, executive function
 - clinical-neurologist-expert: Clinical neurology, neurological symptoms, medical red flags, differential-boundary caveats
 - christian-theology-researcher: Christian theology, prophecy/revelation boundaries, discernment, and pastoral caveats for typology/neuroscience claims
+- baptist-pastor: Baptist-oriented Bible explanation, preaching help, discipleship, church-life, pastoral-care framing, Christian ethics, spiritual discernment, and safety/usefulness review for Baptist audiences
 - alias-canonical-naming-steward: Canonical codes, aliases, transliteration, disputed names
 - source-provenance-auditor: Raw-source tracing, citation status, evidence labels
 - empirical-claims-caveats-reviewer: Overclaim detection and safer caveat wording

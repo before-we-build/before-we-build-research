@@ -17,6 +17,7 @@ master-orchestrator (gold) ⚜
 │   ├── neuroscience-researcher (indigo)
 │   ├── clinical-neurologist-expert (darkslategray)
 │   ├── christian-theology-researcher (sienna)
+│   ├── baptist-pastor (saddlebrown)
 │   └── military-roles-researcher (darkgreen)
 ├── Typing Team  
 │   ├── psychosophy-interview-typer (green)
@@ -43,7 +44,7 @@ master-orchestrator (gold) ⚜
 
 ### 1. Research Team
 **Lead:** typology-researcher
-**Purpose:** Finding and validating information, including typological, sociological, neuroscience, clinical-neurology, and Christian-theological context. Intertype-relation experts provide mechanism-level audits of relation names and processes within their own typology.
+**Purpose:** Finding and validating information, including typological, sociological, neuroscience, clinical-neurology, Christian-theological context, and Baptist pastoral-theology / audience-usefulness support. Intertype-relation experts provide mechanism-level audits of relation names and processes within their own typology.
 **Crons:** military-roles-researcher (weekly)
 
 ### 0. Orchestration Governance
