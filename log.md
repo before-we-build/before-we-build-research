@@ -27,6 +27,10 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-25 - Added first draft PsyCalc test specifications for Socionics, Psychosophy, and Temporistics, each with construct frame, scales, seed item bank, scoring sketch, and validation caveats.
 2026-04-26 - Added `wiki/concepts/mbti-socionics-terminology-mapping.md` to clarify MBTI vs Socionics naming, J/P vs rationality/irrationality, function-name caveats, and alias policy.
 
+## [2026-04-26] ingest | Multilingual rollout policy and first RU/UK orientation pages
+
+Added `wiki/concepts/multilingual-translation-policy.md` to define canonical English slugs, `-ru` / `-uk` suffixes, frontmatter language fields, and RU/UK wikilink fallback rules. Added Russian and Ukrainian translations for `main-idea.md` and `compatibility-level-boundaries.md`, and updated `index.md` with the new multilingual entries.
+ 
 ---
 
 ## [2026-04-17] ingest | Smart mobilization and typology in wartime

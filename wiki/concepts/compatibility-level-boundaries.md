@@ -3,7 +3,9 @@ title: Compatibility Level Boundaries
 type: concept
 tags: [compatibility, levels, boundaries, methodology, socionics, psychosophy, temporistics]
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-04-26
+lang: en
+canonical: compatibility-level-boundaries.md
 sources: [raw/temporistics/theory-description.md, raw/psychosophy/what-is-psychosophy.md, raw/socionics/what-is-socionics.md]
 ---
 

@@ -3,7 +3,9 @@ title: Main Idea
 type: concept
 tags: [theory, foundations, integration, psycalc, latent-processes]
 created: 2026-04-14
-updated: 2026-04-24
+updated: 2026-04-26
+lang: en
+canonical: main-idea.md
 sources: []
 ---
 

@@ -18,6 +18,7 @@ PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is 
 | [[project-positioning]] | Distinguishes PsyCalc from Cognitive Matchmaker and states claims/non-claims |
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
 | [[compatibility-level-boundaries]] | Defines strategic, operational, and tactical boundaries |
+| [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
 | [[weight-calibration]] | Explains why compatibility scoring remains provisional |
 
 ---
@@ -72,6 +73,11 @@ wiki/          — LLM-generated wiki
 | [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
 | [[mbti-socionics-terminology-mapping]] | Explains MBTI vs Socionics terminology, J/P vs rationality, function-name caveats, and alias policy | socionics-model-a.md, socionics-information-elements.md, cross-typology-terminology-conflicts.md, Wikisocion |
 | [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
+| [[multilingual-translation-policy]] | Multilingual naming, frontmatter, and wikilink rules for English, Russian, and Ukrainian pages | project convention, 2026-04-26 |
+| [[main-idea-ru]] | Russian translation of the core PsyCalc orientation page | main-idea.md |
+| [[main-idea-uk]] | Ukrainian translation of the core PsyCalc orientation page | main-idea.md |
+| [[compatibility-level-boundaries-ru]] | Russian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
+| [[compatibility-level-boundaries-uk]] | Ukrainian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
 | [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
 | [[neuroscience-compatibility-bridges]] | Neuroscience and cognitive-science process bridges for compatibility levels | neuroscience-researcher |
 | [[prophetic-visionary-cognition]] | Heuristic link between prophetic/visionary cognition, 1st Eternity, and neuroscience-adjacent mechanisms | guru, neuroscience-compatibility-bridges, expert synthesis |
