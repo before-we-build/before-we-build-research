@@ -1,8 +1,26 @@
 # PsyCalc Wiki
 
-PsyCalc is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological labels as final explanations of a person. Instead, a type is used as a compressed working hypothesis about how hidden processes may be organized and expressed through observable behavior.
+PsyCalc is being reframed around a Christian family-formation thesis:
+
+> A strong family is built not only on feelings, but on shared values, fidelity, responsibility, forgiveness, and a supportive community. Christian faith gives this a deep foundation. Typologies may help people discuss differences, but they remain secondary tools, not spiritual verdicts or guarantees.
+
+Biblical grounding for this front-door thesis includes **1 Corinthians 13:4–7** on love as patient and enduring, **Colossians 3:12–14** on forgiveness and love, **Matthew 7:24–25** on building on a firm foundation, and **Ecclesiastes 4:9–12** on the strength of mutual support.
+
+PsyCalc still remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological labels as final explanations of a person. Instead, a type is used as a compressed working hypothesis about how hidden processes may be organized and expressed through observable behavior.
+
+## Start Here — Christian Family Foundation
+
+- [[christian-foundation-of-family]] — the primary worldview frame for family, faith, values, fidelity, forgiveness, and community.
+- [[family-formation-principles]] — primary and secondary criteria for serious relationship discernment.
+- [[typologies-as-supporting-tools]] — how typologies may help without replacing character, wisdom, or faith.
+- [[limits-of-typological-inference]] — what must not be inferred from type or compatibility scores.
+- [[research-layer-vs-practical-guidance]] — how to keep Christian guidance, product matching, and research hypotheses separate.
+- [[hypothesis-status-of-psycalc]] — why PsyCalc models remain heuristic and testable.
+- `docs/homepage-christian-family-reframe.md` — public website copy blueprint.
 
 ## The Core Thesis
+
+The Christian family-formation layer is primary for the current product direction. PsyCalc’s typological layer is secondary and should serve conversation, self-observation, and research rather than making final decisions about people.
 
 PsyCalc asks whether three typological systems can be used as structured hypothesis languages for three levels of human interaction:
 
@@ -38,6 +56,9 @@ PsyCalc does **not** claim that:
 - compatibility is fate;
 - Socionics, Psychosophy, and Temporistics can be directly translated into each other;
 - Psychosophy Emotion equals Socionics Fe/Fi, Will equals Se, or Temporistics Future equals Ni.
+- a compatibility result can identify God’s will for a relationship;
+- typology can measure holiness, faithfulness, repentance, or readiness for marriage;
+- Christian faith or church participation mechanically guarantees marriage or family success.
 
 The framework is a research program and heuristic ontology. Its claims should be treated as hypotheses requiring measurement, validation, and revision.
 

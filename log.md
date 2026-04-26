@@ -4,6 +4,14 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-04-26] ingest | Reframing around Christian family foundation
+
+Added a Christian family-formation front door for PsyCalc / Cognitive Matchmaker: `wiki/concepts/christian-foundation-of-family.md`, `family-formation-principles.md`, `typologies-as-supporting-tools.md`, `limits-of-typological-inference.md`, `research-layer-vs-practical-guidance.md`, and `hypothesis-status-of-psycalc.md`. Added `docs/homepage-christian-family-reframe.md` as a public website copy blueprint. Updated `README.md` and `index.md` so the primary practical frame is faith, shared values, fidelity, responsibility, forgiveness, and supportive community, while typologies remain secondary heuristic tools.
+
+Added `wiki/concepts/biblical-grounding-policy.md` and strengthened summary-level biblical grounding across the new Christian family foundation pages so Christian normative claims have nearby Bible references.
+
+Added Russian and Ukrainian versions of the new Christian family foundation pages and homepage blueprint, with localized Bible references per language: English pages use English Bible book names, Russian pages use Russian names, and Ukrainian pages use Ukrainian names.
+
 2026-04-24 - Added PsyCalc front-door orientation: root `README.md`, clearer `main-idea.md`, `project-positioning.md`, updated index introduction, and glossary framing to distinguish PsyCalc from Cognitive Matchmaker.
 2026-04-24 - Added `psycalc-vs-big-five.md` to position Big Five as the validated descriptive baseline and PsyCalc as a heuristic latent-process architecture for compatibility, role-fit, and AI simulation.
 2026-04-24 - Reworked `temporistics-intertype-relations.md` as “Proposed Intertype Relations in Temporistics,” separating source-backed Temporistics structure from reconstructed relation classes, tetrad hypotheses, a 24×24 structural signature matrix, and validation requirements.

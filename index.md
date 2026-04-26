@@ -1,6 +1,10 @@
 # Index — PsyCalc Wiki
 
-PsyCalc is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses about hidden processes that can inform compatibility analysis, role fit, team design, and AI-based simulation.
+PsyCalc is being reframed around a Christian family-formation foundation: a strong family is built not only on feelings, but on shared values, fidelity, responsibility, forgiveness, and a supportive community. Christian faith gives this a deep foundation; typologies can support conversation and self-understanding, but they do not replace character, wisdom, pastoral discernment, or real relationships.
+
+Biblical grounding for this front-door claim includes **1 Corinthians 13:4–7** on love as patient and enduring, **Colossians 3:12–14** on forgiveness and love, **Matthew 7:24–25** on building on a firm foundation, **Ecclesiastes 4:9–12** on mutual support, and **1 Thessalonians 5:21** on testing claims rather than treating human models as final authority.
+
+PsyCalc remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses about hidden processes that can inform compatibility analysis, role fit, team design, and AI-based simulation.
 
 Core formula:
 
@@ -14,6 +18,17 @@ PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is 
 
 | Page | Purpose |
 |------|---------|
+| [[christian-foundation-of-family]] | Primary Christian family foundation: faith, values, fidelity, responsibility, forgiveness, and community |
+| [[family-formation-principles]] | Primary and secondary criteria for relationship discernment and family formation |
+| [[typologies-as-supporting-tools]] | Reframes typologies as secondary tools rather than spiritual verdicts or guarantees |
+| [[limits-of-typological-inference]] | States what must not be inferred from type labels or compatibility scores |
+| [[research-layer-vs-practical-guidance]] | Separates Christian guidance, product matching, and PsyCalc research hypotheses |
+| [[hypothesis-status-of-psycalc]] | Clarifies that PsyCalc remains a heuristic and testable research framework |
+| [[biblical-grounding-policy]] | Editorial rule: Christian normative claims need nearby biblical grounding |
+| [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи |
+| [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї |
+| [[biblical-grounding-policy-ru]] | Русская политика библейской опоры и локализации ссылок |
+| [[biblical-grounding-policy-uk]] | Українська політика біблійної опори та локалізації посилань |
 | [[main-idea]] | 60-second explanation of the PsyCalc thesis and three-level mapping |
 | [[project-positioning]] | Distinguishes PsyCalc from Cognitive Matchmaker and states claims/non-claims |
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
@@ -28,8 +43,9 @@ This is the catalog of all pages in the wiki. The LLM updates this on every inge
 
 ## Wiki Structure
 
-The wiki is organized conceptually into five layers:
+The wiki is organized conceptually into six layers:
 
+- **Christian family foundation** — faith, values, fidelity, responsibility, forgiveness, community, and pastoral caveats.
 - **Orientation** — README, main idea, project positioning, glossary, roadmap.
 - **Core theory** — latent processes and the three primary typological interpretations.
 - **Compatibility architecture** — level boundaries, rules, conflicts, complementarity, examples.
@@ -53,6 +69,27 @@ wiki/          — LLM-generated wiki
 
 | Page | Summary | Sources |
 |------|---------|---------|
+| [[christian-foundation-of-family]] | Christian family foundation: shared values, fidelity, responsibility, forgiveness, community, and typology as secondary | theological synthesis, Bible references |
+| [[family-formation-principles]] | Primary vs secondary criteria for serious relationship discernment and matching | theological synthesis, Bible references |
+| [[typologies-as-supporting-tools]] | Typologies as limited aids for conversation, not moral/spiritual verdicts | theological synthesis, methodology caveats |
+| [[limits-of-typological-inference]] | Non-claims and prohibited inferences from type labels and compatibility scores | ethics review, theological caveats |
+| [[research-layer-vs-practical-guidance]] | Editorial boundary between Christian practical guidance, product matching, and research hypotheses | project convention |
+| [[hypothesis-status-of-psycalc]] | PsyCalc mappings and scores as hypotheses requiring testing and revision | project convention |
+| [[biblical-grounding-policy]] | Requires nearby Bible references for Christian normative claims and defines exceptions for technical/research statements | project convention, Bible references |
+| [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи с русскими библейскими ссылками | christian-foundation-of-family.md |
+| [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї з українськими біблійними посиланнями | christian-foundation-of-family.md |
+| [[family-formation-principles-ru]] | Русская версия принципов формирования семьи | family-formation-principles.md |
+| [[family-formation-principles-uk]] | Українська версія принципів формування сімʼї | family-formation-principles.md |
+| [[typologies-as-supporting-tools-ru]] | Русская версия страницы о типологиях как вспомогательных инструментах | typologies-as-supporting-tools.md |
+| [[typologies-as-supporting-tools-uk]] | Українська версія сторінки про типології як допоміжні інструменти | typologies-as-supporting-tools.md |
+| [[limits-of-typological-inference-ru]] | Русская версия границ типологического вывода | limits-of-typological-inference.md |
+| [[limits-of-typological-inference-uk]] | Українська версія меж типологічного висновку | limits-of-typological-inference.md |
+| [[research-layer-vs-practical-guidance-ru]] | Русская версия разделения исследовательского и практического слоёв | research-layer-vs-practical-guidance.md |
+| [[research-layer-vs-practical-guidance-uk]] | Українська версія розділення дослідницького і практичного шарів | research-layer-vs-practical-guidance.md |
+| [[hypothesis-status-of-psycalc-ru]] | Русская версия статуса гипотез PsyCalc | hypothesis-status-of-psycalc.md |
+| [[hypothesis-status-of-psycalc-uk]] | Українська версія статусу гіпотез PsyCalc | hypothesis-status-of-psycalc.md |
+| [[biblical-grounding-policy-ru]] | Русская версия политики библейской опоры | biblical-grounding-policy.md |
+| [[biblical-grounding-policy-uk]] | Українська версія політики біблійної опори | biblical-grounding-policy.md |
 | [[main-idea]] | PsyCalc thesis: typologies as latent-process hypotheses across three levels | - |
 | [[project-positioning]] | PsyCalc vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
