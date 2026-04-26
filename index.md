@@ -107,6 +107,8 @@ wiki/          — LLM-generated wiki
 
 These pages cover the 16 aspect-position archetypes. The 24 full four-letter Temporistics type permutations are listed in `raw/temporistics/types.md` and summarized in [[temporistics-overview]].
 
+Type-family note (2026-04-26): canonical English result-link targets now exist for all 24 full four-letter Temporistics hypotheses under `wiki/entities/temporistics-type-<code>.md` (for example, [[temporistics-type-pnfe]] and [[temporistics-type-epnf]]). RU/UK can fall back to EN per [[multilingual-translation-policy]].
+
 | Page | Summary | Sources |
 |------|---------|---------|
 | [[temporistics-overview]] | Overview of temporistics: Past/Present/Future/Eternity and type structure | raw/temporistics/ |
@@ -156,6 +158,8 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | [[psychosophy-overview]] | Overview of psychosophy: Will/Emotion/Logic/Physics | raw/psychosophy/ |
 | [[psychosophy-overview-ru]] | Russian translation of the Psychosophy system overview | psychosophy-overview.md |
 | [[psychosophy-overview-uk]] | Ukrainian translation of the Psychosophy system overview | psychosophy-overview.md |
+
+Type-family note (2026-04-26): canonical English result-link targets now exist for all 24 full four-letter Psychosophy hypotheses under `wiki/entities/psychosophy-type-<code>.md` (for example, [[psychosophy-type-levf]] and [[psychosophy-type-elvf]]). RU/UK can fall back to EN per [[multilingual-translation-policy]].
 
 ### Entities — Socionics
 

@@ -39,6 +39,10 @@ Added concise English, Russian, and Ukrainian concept pages for reading typology
 
 Added Russian and Ukrainian translations for `socionics-overview.md`, `psychosophy-overview.md`, and `temporistics-overview.md`, including multilingual frontmatter, explicit level-boundary caveats, and translated orientation links where available. Updated `index.md` with the new multilingual entity entries.
 
+## [2026-04-26] ingest | Psychosophy and Temporistics result-link type pages
+
+Added 24 canonical English `psychosophy-type-<code>.md` entity pages and 24 canonical English `temporistics-type-<code>.md` entity pages as result-link targets for specific top type hypotheses, with explicit level-boundary caveats, code decomposition, and reading-guide links. Updated `index.md` with compact family notes; RU/UK were intentionally deferred to English fallback.
+
 ---
 
 ## [2026-04-17] ingest | Smart mobilization and typology in wartime
