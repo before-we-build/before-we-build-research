@@ -19,6 +19,7 @@ PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is 
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
 | [[compatibility-level-boundaries]] | Defines strategic, operational, and tactical boundaries |
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
+| [[test-result-reading-guide]] | Explains how to read test outputs as provisional, level-separated hypotheses |
 | [[weight-calibration]] | Explains why compatibility scoring remains provisional |
 
 ---
@@ -74,10 +75,13 @@ wiki/          — LLM-generated wiki
 | [[mbti-socionics-terminology-mapping]] | Explains MBTI vs Socionics terminology, J/P vs rationality, function-name caveats, and alias policy | socionics-model-a.md, socionics-information-elements.md, cross-typology-terminology-conflicts.md, Wikisocion |
 | [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
 | [[multilingual-translation-policy]] | Multilingual naming, frontmatter, and wikilink rules for English, Russian, and Ukrainian pages | project convention, 2026-04-26 |
+| [[test-result-reading-guide]] | Concise guide for reading Top-3 test outputs, clarity labels, and language fallback without collapsing levels | main-idea.md, compatibility-level-boundaries.md, typology-test-design-protocol.md |
 | [[main-idea-ru]] | Russian translation of the core PsyCalc orientation page | main-idea.md |
 | [[main-idea-uk]] | Ukrainian translation of the core PsyCalc orientation page | main-idea.md |
 | [[compatibility-level-boundaries-ru]] | Russian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
 | [[compatibility-level-boundaries-uk]] | Ukrainian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
+| [[test-result-reading-guide-ru]] | Russian translation of the test result reading guide | test-result-reading-guide.md |
+| [[test-result-reading-guide-uk]] | Ukrainian translation of the test result reading guide | test-result-reading-guide.md |
 | [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
 | [[neuroscience-compatibility-bridges]] | Neuroscience and cognitive-science process bridges for compatibility levels | neuroscience-researcher |
 | [[prophetic-visionary-cognition]] | Heuristic link between prophetic/visionary cognition, 1st Eternity, and neuroscience-adjacent mechanisms | guru, neuroscience-compatibility-bridges, expert synthesis |
@@ -102,6 +106,12 @@ wiki/          — LLM-generated wiki
 ### Entities — Temporistics Aspect-Position Archetypes (16)
 
 These pages cover the 16 aspect-position archetypes. The 24 full four-letter Temporistics type permutations are listed in `raw/temporistics/types.md` and summarized in [[temporistics-overview]].
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [[temporistics-overview]] | Overview of temporistics: Past/Present/Future/Eternity and type structure | raw/temporistics/ |
+| [[temporistics-overview-ru]] | Russian translation of the Temporistics system overview | temporistics-overview.md |
+| [[temporistics-overview-uk]] | Ukrainian translation of the Temporistics system overview | temporistics-overview.md |
 
 #### Past Aspect (Прошлое)
 
@@ -144,12 +154,16 @@ These pages cover the 16 aspect-position archetypes. The 24 full four-letter Tem
 | Page | Summary | Sources |
 |------|---------|---------|
 | [[psychosophy-overview]] | Overview of psychosophy: Will/Emotion/Logic/Physics | raw/psychosophy/ |
+| [[psychosophy-overview-ru]] | Russian translation of the Psychosophy system overview | psychosophy-overview.md |
+| [[psychosophy-overview-uk]] | Ukrainian translation of the Psychosophy system overview | psychosophy-overview.md |
 
 ### Entities — Socionics
 
 | Page | Summary | Sources |
 |------|---------|---------|
 | [[socionics-overview]] | Overview of socionics: 8 IM elements, Model A, 16 types | raw/socionics/ |
+| [[socionics-overview-ru]] | Russian translation of the Socionics system overview | socionics-overview.md |
+| [[socionics-overview-uk]] | Ukrainian translation of the Socionics system overview | socionics-overview.md |
 
 #### Alpha Quadra (Idealistic)
 

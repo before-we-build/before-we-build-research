@@ -3,7 +3,9 @@ title: ESI — Ethical Sensory Introvert (Dreiser)
 type: entity
 tags: [socionics, gamma-quadra, isfj, esi, ethical, sensory, introvert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-26
+lang: en
+canonical: esi-ethical-sensory-introvert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Gamma  
 **MBTI equivalent:** ISFJ  
 **Function Stack:** 1Fi 2Si 3Ne 4Te 5Fe 6Ni 7Se 8Ti
+
+## PsyCalc Level Boundary
+
+This page describes ESI only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ---
 

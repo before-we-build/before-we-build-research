@@ -3,7 +3,9 @@ title: SEI — Sensory Ethical Introvert (Dumas)
 type: entity
 tags: [socionics, alpha-quadra, isfp, sei, sensory, ethical, introvert]
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-26
+lang: en
+canonical: sei-sensory-ethical-introvert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Alpha  
 **MBTI equivalent:** ISFP  
 **Function Stack:** 1Si 2Fe 3Ti 4Te 5Ne 6Fi 7Se 8Ni
+
+## PsyCalc Level Boundary
+
+This page describes SEI only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ## Function Profile
 

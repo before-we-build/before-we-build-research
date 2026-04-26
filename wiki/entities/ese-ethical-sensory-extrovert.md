@@ -3,7 +3,9 @@ title: ESE — Ethical Sensory Extrovert (Hugo)
 type: entity
 tags: [socionics, alpha-quadra, esfj, ese, ethical, sensory, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-26
+lang: en
+canonical: ese-ethical-sensory-extrovert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Alpha  
 **MBTI equivalent:** ESFJ  
 **Function Stack:** 1Fe 2Si 3Ne 4Ti 5Fi 6Te 7Se 8Ni
+
+## PsyCalc Level Boundary
+
+This page describes ESE only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ---
 

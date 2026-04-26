@@ -3,7 +3,9 @@ title: IEI — Intuitive Ethical Introvert (Yesenin)
 type: entity
 tags: [socionics, beta-quadra, infp, iei, intuitive, ethical, introvert]
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-26
+lang: en
+canonical: iei-intuitive-ethical-introvert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Beta  
 **MBTI equivalent:** INFP  
 **Function Stack:** 1Ni 2Fe 3Si 4Te 5Se 6Ti 7Ne 8Fi
+
+## PsyCalc Level Boundary
+
+This page describes IEI only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ## Function Profile
 

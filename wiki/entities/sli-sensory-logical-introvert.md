@@ -3,7 +3,9 @@ title: SLI — Sensory Logical Introvert (Gabin / Gaben)
 type: entity
 tags: [socionics, delta-quadra, istp, sli, sensory, logical, introvert]
 created: 2026-04-15
-updated: 2026-04-25
+updated: 2026-04-26
+lang: en
+canonical: sli-sensory-logical-introvert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Delta  
 **MBTI equivalent:** ISTP  
 **Function Stack:** 1Si 2Te 3Fi 4Ne 5Ni 6Fe 7Ti 8Se
+
+## PsyCalc Level Boundary
+
+This page describes SLI only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ---
 

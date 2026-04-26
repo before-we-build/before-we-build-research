@@ -3,7 +3,9 @@ title: LSI — Logical Sensory Introvert (Maxim Gorky / the Inspector)
 type: entity
 tags: [socionics, beta-quadra, istj, lsi, logical, sensory, introvert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-26
+lang: en
+canonical: lsi-logical-sensory-introvert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Beta  
 **MBTI equivalent:** ISTJ  
 **Function Stack:** 1Ti 2Se 3Fi 4Ne 5Fe 6Ni 7Te 8Si
+
+## PsyCalc Level Boundary
+
+This page describes LSI only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ---
 

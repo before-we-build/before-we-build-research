@@ -3,7 +3,9 @@ title: ILE — Intuitive Logical Extrovert (Don Quixote)
 type: entity
 tags: [socionics, alpha-quadra, entp, ile, intuitive, logical, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-26
+lang: en
+canonical: ile-intuitive-logical-extrovert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Alpha  
 **MBTI equivalent:** ENTP  
 **Function Stack:** 1Ne 2Ti 3Fe 4Si 5Te 6Fi 7Ni 8Se
+
+## PsyCalc Level Boundary
+
+This page describes ILE only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ---
 

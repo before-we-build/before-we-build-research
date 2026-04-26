@@ -3,7 +3,9 @@ title: IEE — Intuitive Ethical Extrovert (Huxley / the Journalist)
 type: entity
 tags: [socionics, delta-quadra, enfp, iee, intuitive, ethical, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-26
+lang: en
+canonical: iee-intuitive-ethical-extrovert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Delta  
 **MBTI equivalent:** ENFP  
 **Function Stack:** 1Ne 2Fi 3Te 4Si 5Ni 6Fe 7Ti 8Se
+
+## PsyCalc Level Boundary
+
+This page describes IEE only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ---
 

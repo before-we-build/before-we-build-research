@@ -3,7 +3,9 @@ title: EIE — Ethical Intuitive Extrovert (Hamlet)
 type: entity
 tags: [socionics, beta-quadra, enfj, eie, ethical, intuitive, extrovert]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-26
+lang: en
+canonical: eie-ethical-intuitive-extrovert.md
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 ---
 
@@ -13,6 +15,10 @@ sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md]
 **Quadra:** Beta  
 **MBTI equivalent:** ENFJ  
 **Function Stack:** 1Fe 2Ni 3Ti 4Se 5Fi 6Te 7Si 8Ne
+
+## PsyCalc Level Boundary
+
+This page describes EIE only at the **tactical Socionics level**. It is a **hypothesis about information modeling / information metabolism**, not a full personality description. It does **not** describe Psychosophy operational priorities or Temporistics strategic time/meaning orientation, and it should not be read as a deterministic compatibility verdict. See [[compatibility-level-boundaries]] and [[test-result-reading-guide]].
 
 ---
 
