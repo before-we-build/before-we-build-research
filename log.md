@@ -24,6 +24,8 @@ Historical note: older entries may contain claims or source framings that were l
 2026-04-25 - Added `wiki/concepts/smart-mobilization.md` as a clear PsyCalc concept page defining voluntary, non-coercive military role-fit recommendations, inputs, matching logic, ethics safeguards, red lines, and research-status caveats.
 2026-04-25 - Added `wiki/concepts/typology-test-design-protocol.md` and `.agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md` to centralize psychometric test design standards without prematurely adding per-typology test agents.
 2026-04-25 - Added `.opencode/agents/typology-test-evaluation-expert.md` as a single coordinating agent for typology test and item-bank evaluation across Socionics, Psychosophy, and Temporistics; per-typology test agents were intentionally not created.
+2026-04-25 - Added first draft PsyCalc test specifications for Socionics, Psychosophy, and Temporistics, each with construct frame, scales, seed item bank, scoring sketch, and validation caveats.
+2026-04-26 - Added `wiki/concepts/mbti-socionics-terminology-mapping.md` to clarify MBTI vs Socionics naming, J/P vs rationality/irrationality, function-name caveats, and alias policy.
 
 ---
 

@@ -58,6 +58,9 @@ wiki/          — LLM-generated wiki
 | [[psychology-of-everything]] | Context page on unified psychology, metatheory, integrative psychology, and “maps of everything” | psychology-of-everything-synthesis |
 | [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
 | [[typology-test-design-protocol]] | Shared psychometric protocol for Socionics, Psychosophy, and Temporistics test design and validation | research-program.md, weight-calibration.md, 2026-04-25-typology-test-evaluation-protocol.md |
+| [[socionics-test-specification]] | Draft PsyCalc Socionics test architecture, scales, seed items, and scoring caveats | typology-test-design-protocol.md, socionics-model-a.md, socionics-information-elements.md |
+| [[psychosophy-test-specification]] | Draft PsyCalc Psychosophy test architecture, position axes, seed items, and scoring caveats | typology-test-design-protocol.md, psychosophy-typing-methods.md, psychosophy-model.md |
+| [[temporistics-test-specification]] | Draft PsyCalc Temporistics test architecture, temporal-frame scales, seed items, and scoring caveats | typology-test-design-protocol.md, temporistics-model.md, temporal-aspects.md |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
@@ -67,6 +70,7 @@ wiki/          — LLM-generated wiki
 | [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
 | [[agentic-skills-hang-the-dj]] | 12 agent skills for simulation-based compatibility testing | skills/index.md |
 | [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
+| [[mbti-socionics-terminology-mapping]] | Explains MBTI vs Socionics terminology, J/P vs rationality, function-name caveats, and alias policy | socionics-model-a.md, socionics-information-elements.md, cross-typology-terminology-conflicts.md, Wikisocion |
 | [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
 | [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
 | [[neuroscience-compatibility-bridges]] | Neuroscience and cognitive-science process bridges for compatibility levels | neuroscience-researcher |
