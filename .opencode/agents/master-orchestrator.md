@@ -69,6 +69,7 @@ master-orchestrator ⚜ (reports_to: null)
 ├── Explanation / Outreach Team
 │   ├── type-explain (scope: short typology concept Q&A)
 │   ├── psycalc-plain-language-translator (scope: explain PsyCalc simply to non-specialists)
+│   ├── vanka-the-layman (scope: blunt ordinary-person understandability and practical-value review)
 │   ├── psycalc-storyteller (scope: stories, metaphors, examples, public narrative)
 │   ├── psycalc-skeptic-bridge (scope: skeptic-safe, caveated research framing)
 │   └── psycalc-presentation-designer (scope: slides, talks, landing pages, outreach packaging)
@@ -116,6 +117,7 @@ Default behavior:
 - If the user asks to create, run, or coordinate an agentic research pipeline for validation/statistics/data collection, route to `research-orchestrator` and let it coordinate experiment design, psychometrics, statistics, data, provenance, caveats, and ethics agents.
 - If the user asks to improve agents, add agent memory, create agent skills/routines, or make the system self-improving, route to `agent-improvement-steward`.
 - If the user asks to explain PsyCalc to normal people, use `psycalc-plain-language-translator`; for stories use `psycalc-storyteller`; for skeptical audiences use `psycalc-skeptic-bridge`; for talks/slides/landing pages use `psycalc-presentation-designer`.
+- If the user asks whether a complex idea, theory, product, website, explanation, infographic, startup, or PsyCalc page is understandable to ordinary non-expert people, use `vanka-the-layman`.
 
 Direct self-answering is allowed only for:
 
@@ -253,6 +255,7 @@ Can request specific level
 | Christian theology / prophecy / pastoral caveats | christian-theology-researcher |
 | Agent self-improvement / agent instruction patches | agent-improvement-steward |
 | Plain-language explanation of PsyCalc for beginners | psycalc-plain-language-translator |
+| Ordinary-person understandability / practical-value check | vanka-the-layman |
 | Stories, metaphors, examples, social posts | psycalc-storyteller |
 | Skeptic-safe or research-safe public framing | psycalc-skeptic-bridge |
 | Presentations, talks, slide outlines, landing pages | psycalc-presentation-designer |
@@ -366,6 +369,7 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 
 - agent-improvement-steward: Controlled self-improvement loop for `.opencode/agents/*.md`, improvement proposals, review-gated instruction patches
 - psycalc-plain-language-translator: Explains PsyCalc and typology concepts simply to non-specialists
+- vanka-the-layman: Blunt ordinary-person reviewer for whether complex ideas, products, websites, explanations, infographics, or startup pitches are understandable, useful, and worth caring about to non-experts
 - psycalc-storyteller: Turns PsyCalc into stories, metaphors, analogies, and memorable public examples
 - psycalc-skeptic-bridge: Frames PsyCalc safely for skeptics, researchers, and typology-critical audiences
 - psycalc-presentation-designer: Creates talk structures, slide outlines, landing pages, demo scripts, and outreach materials
