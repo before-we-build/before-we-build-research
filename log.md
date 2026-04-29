@@ -4,6 +4,10 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-04-29] ingest | Multilingual internet resource map
+
+Added `wiki/sources/resource-map.md` plus Russian and Ukrainian translations (`resource-map-ru.md`, `resource-map-uk.md`) as a provenance-aware map for internet resources. The pages define source-type, reliability, availability, and claim-use rules so future web links can be tracked without treating every listed URL as an endorsed authority. Updated `index.md` with the new multilingual entries.
+
 ## [2026-04-26] ingest | Reframing around Christian family foundation
 
 Added a Christian family-formation front door for PsyCalc / Cognitive Matchmaker: `wiki/concepts/christian-foundation-of-family.md`, `family-formation-principles.md`, `typologies-as-supporting-tools.md`, `limits-of-typological-inference.md`, `research-layer-vs-practical-guidance.md`, and `hypothesis-status-of-psycalc.md`. Added `docs/homepage-christian-family-reframe.md` as a public website copy blueprint. Updated `README.md` and `index.md` so the primary practical frame is faith, shared values, fidelity, responsibility, forgiveness, and supportive community, while typologies remain secondary heuristic tools.

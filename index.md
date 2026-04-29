@@ -29,6 +29,9 @@ PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is 
 | [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї |
 | [[biblical-grounding-policy-ru]] | Русская политика библейской опоры и локализации ссылок |
 | [[biblical-grounding-policy-uk]] | Українська політика біблійної опори та локалізації посилань |
+| [[resource-map]] | Internet resource map for source discovery, provenance labels, and web-source intake |
+| [[resource-map-ru]] | Русская версия карты интернет-ресурсов |
+| [[resource-map-uk]] | Українська версія карти інтернет-ресурсів |
 | [[main-idea]] | 60-second explanation of the PsyCalc thesis and three-level mapping |
 | [[project-positioning]] | Distinguishes PsyCalc from Cognitive Matchmaker and states claims/non-claims |
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
@@ -276,6 +279,9 @@ Type-family note (2026-04-26): canonical English result-link targets now exist f
 | [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
 | [[kalinauskas-steering-wheel-source-notes]] | Source notes for Kalinauskas/Reinin steering-wheel materials and provenance caveats | Kalinauskas mirror, shturval.me, B17 |
 | [[psychology-of-everything-synthesis]] | Derived synthesis on unified psychology, cognitive-science frameworks, and online totalizing maps | expert synthesis |
+| [[resource-map]] | Curated internet resource map with source-type, reliability, availability, and claim-use rules | project convention |
+| [[resource-map-ru]] | Russian translation of the internet resource map | resource-map.md |
+| [[resource-map-uk]] | Ukrainian translation of the internet resource map | resource-map.md |
 
 ### Research on AI in Psychology
 
