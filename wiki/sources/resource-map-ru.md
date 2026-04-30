@@ -3,7 +3,7 @@ title: Карта интернет-ресурсов
 type: source
 tags: [resources, provenance, sources, internet, governance]
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-04-30
 lang: ru
 canonical: resource-map.md
 translation_of: resource-map.md
@@ -99,6 +99,19 @@ sources: []
 3. вторичные объяснения;
 4. сообщества и инструменты.
 
+| Ресурс | URL | Тип | Язык | Чем полезен для PsyCalc | Caveat |
+|---|---|---|---|---|---|
+| Wikisocion Archive | https://wikisocion.github.io/ | archive / secondary-summary | EN | Удобный вход в Model A, информационные аспекты, интертипные отношения, дихотомии и страницы типов | Архив сообщества, не официальная школа; качество статей неровное |
+| Classic Socionics | https://classicsocionics.wordpress.com/ | primary-source / archive | EN | Переводы и подборки классических текстов ранней соционики, включая материалы вокруг Аушры | Переводческий/редакторский проект; для key claims сверять исходную публикацию |
+| International Institute of Socionics | https://socionic.info/en/esocjur.html#top | primary-source / school | EN/RU/UA | Журналы, конференции и институциональный слой Букалова/ИИС | Заявления о научном статусе требуют независимой оценки |
+| Гуманитарная соционика / Гуленко | https://socioniks.net/ | primary-source / school | RU/UA/EN | Материалы школы Гуленко: Model G, подтипы, отношения, признаки | Школьная трактовка, не нейтральный канон Model A; Model G помечать отдельно |
+| Socionika.info | https://socionika.info/ | secondary-summary / tool | RU | Популярный хаб: Model A, аспекты, признаки Рейнина, таблицы отношений, тесты | Популяризаторский/компилятивный ресурс; глубина источников разная |
+| Socionavigator | https://socionavigator.com/ | tool / secondary-summary | RU/EN | Диагностические материалы, схемы, FAQ и авторские инструменты | Авторская методология требует отдельной проверки |
+| World Socionics Society | https://worldsocionics.org/ | secondary-summary | EN | Современный англоязычный вход и учебные материалы | Авторский/коммерческий слой; может упрощать спорные пункты |
+| The16types forum | https://www.the16types.info/ | community | EN | Исторические обсуждения, споры школ, переводы, типирования | Шумный форумный evidence; не использовать для базовых claims |
+| Reddit r/Socionics | https://www.reddit.com/r/Socionics/ | community | EN | Текущие вопросы аудитории и путаница терминов, особенно с MBTI | Низкая надёжность; только как сигнал reception history |
+| Wikipedia — Socionics | https://en.wikipedia.org/wiki/Socionics | critique / overview | EN | Внешний критический framing и быстрая библиографическая ориентация | Не первоисточник; framing статьи может быть спорным |
+
 ### Психософия
 
 Сюда заносятся ресурсы по модели Афанасьева, четырём аспектам, позициям функций, описаниям типов, отношениям и методам типирования.
@@ -109,6 +122,19 @@ sources: []
 2. материалы прямых школ;
 3. вторичные описания и переводы;
 4. тесты и материалы сообществ.
+
+| Ресурс | URL | Тип | Язык | Чем полезен для PsyCalc | Caveat |
+|---|---|---|---|---|---|
+| Psychosophy.ru | https://psychosophy.ru/ | community / secondary-summary | RU | Крупный современный хаб по типам, функциям, тестам, книгам и экосистеме | Не первичный текст Афанасьева; возможен редакторский и коммерческий слой |
+| Психософия А. Ю. Афанасьева | https://psychosophy.ru/psychosophy | secondary-summary | RU | Вводная сводка по четырём аспектам, позициям и базовым понятиям | Интерпретирующий обзор, не канонический исходный текст |
+| Тесты Psychosophy.ru | https://psychosophy.ru/tests | tool | RU | Карта актуальных онлайн-инструментов типирования | Тесты не являются валидированной психометрикой без отдельной документации |
+| Синтаксис любви — страница книги | https://psychosophy.ru/books/sintaksislubvi | primary-source / bibliography | RU | Библиографическая привязка к ключевому тексту Афанасьева | Это страница о книге; редакцию и полный текст проверять отдельно |
+| Типология Афанасьева — Google Books | https://books.google.com/books/about/Типология_Афанасьева.html?id=IEptDwAAQBAJ | archive / bibliography | RU | Библиографические метаданные и поиск по книжной традиции | Доступ фрагментарный; не заменяет полный первичный текст |
+| xsp.ru Psychosophy | https://www.xsp.ru/psychosophy/ | archive | RU | Старый архивный слой описаний типов и исторического контекста | Возможны устаревшие и слабо атрибутированные формулировки |
+| Единый Типологический Проект — Психософия | http://typologies.ru/psycheyoga/ | archive / secondary-summary | RU | Ранние сводки типологического рунета и межсистемный контекст | Старый ресурс; возможны битые ссылки и смешение школ |
+| Большой тест по психософии | http://typtest.ru/psychosofy.htm | tool | RU | Практический тестовый ресурс для слоя tools | Методология и валидность неочевидны |
+| Тест Афанасьева | https://typtest.ru/aleafan.htm | tool | RU | Альтернативный тестовый вход | Название не гарантирует авторскую аутентичность методики |
+| Психософия Афанасьева — Психологи.рф | https://психологи.рф/психософия-афанасьева/ | secondary-summary | RU | Внешний популярный обзор вне основного сообщества | Нужна сверка с первичными и архивными материалами |
 
 ### Темпористика
 
@@ -121,9 +147,34 @@ sources: []
 3. вторичные обзоры;
 4. гипотезы PsyCalc, строго помеченные как `project-hypothesis`.
 
+| Ресурс | URL | Тип | Язык | Чем полезен для PsyCalc | Caveat |
+|---|---|---|---|---|---|
+| Описание теории — Темпористика | http://temporistics.ru/?q=theory_description | primary-source | RU | Базовая теория: аспекты, позиции и общая рамка | Сайт может быть нестабилен; авторская типология, не эмпирически валидированная модель |
+| Типы — Темпористика | http://temporistics.ru/?q=types | primary-source | RU | Индекс 24 полных типов, 16 архетипов, тетрад и алиасов | Краткий справочник; не заменяет полные описания |
+| Комета в мозгу, или рождение Темпористики | http://temporistics.ru/?q=node/66 | primary-source | RU | История происхождения, авторский контекст, связи с Бердяевым и Афанасьевым | Авторское свидетельство, не нейтральная история |
+| Как отличить Автора от Критика | http://temporistics.ru/?q=node/70 | primary-source | RU | Различение близких архетипов Прошлого, особенно 1П и 3П | Узкая статья, не общий обзор |
+| Тайна третьего аспекта | URL уточнить | primary-source | RU | Важный текст для понимания динамики третьей позиции | Точный URL требует ручной проверки и архивной привязки |
+| Wayback для temporistics.ru | https://web.archive.org/web/*/http://temporistics.ru/* | archive | multi | Восстановление нестабильных/мёртвых страниц и фиксация версий | Снапшоты могут быть неполными; проверять даты и целостность |
+| Personality Database / Temporistics pages | URL уточнить | community | EN | Англоязычные алиасы и неканоничная reception history | Фанатский/комьюнити-синтез; не канон |
+| Форумные обсуждения Темпористики | URL уточнить | community | RU/EN | История восприятия, примеры, спорные интерпретации | Низкая доказательная сила; только с жёсткими оговорками |
+
 ### Методология и психометрика
 
 Сюда заносятся ресурсы по валидации, надёжности, construct validity, measurement invariance, оценке личности, исходам совместимости и базовым моделям вроде Big Five или HEXACO.
+
+| Ресурс | URL | Тип | Язык | Чем полезен для PsyCalc | Caveat |
+|---|---|---|---|---|---|
+| Standards for Educational and Psychological Testing | https://www.testingstandards.net/ | methodology / tool | EN | Стандарты валидности, надёжности, fairness и интерпретации скорингов | Не про типологии специально; часть материалов может быть не полностью open-access |
+| COSMIN checklists | https://www.cosmin.nl/tools/checklists-assessing-methodological-study-qualities/ | methodology / tool | EN | Практические критерии качества измерительных инструментов | Исходно health/PROM-контекст; перенос на personality требует осторожности |
+| Cronbach & Meehl — Construct Validity in Psychological Tests | https://doi.org/10.1037/h0040957 | primary-source / methodology | EN | Классическая рамка construct validity | Старый источник; не покрывает современные CFA/IRT/invariance-практики |
+| Messick — Validity of Psychological Assessment | https://doi.org/10.1037/0003-066X.50.9.741 | primary-source / methodology | EN | Валидность как обоснованность выводов из score data | Сильная теория, но не простой чеклист внедрения |
+| Flake, Pek & Hehman — Construct Validation | https://doi.org/10.1177/1948550617693063 | critique / methodology | EN | Современная критика слабой валидации в social/personality research | Не про типологии напрямую |
+| Soto & John — BFI-2 | https://doi.org/10.1037/pspp0000096 | primary-source / baseline | EN | Big Five baseline для сравнения personality assessment | Trait baseline, не окончательная истина о личности |
+| International Personality Item Pool | https://ipip.ori.org/ | tool / baseline | EN | Открытый item pool для baseline-шкал | Качество зависит от выбранной шкалы и процедуры |
+| HEXACO Personality Inventory-Revised | https://hexaco.org/ | tool / baseline | EN | Альтернативный trait baseline, включая Honesty-Humility | Self-report trait model; не прямой тест типологических категорий |
+| McCrae & Costa — MBTI from the Five-Factor Model perspective | https://doi.org/10.1111/j.1467-6494.1989.tb00759.x | critique | EN | Мост между типологическими ярлыками и continuous traits | MBTI-specific; нельзя автоматически переносить на все типологии |
+| Pittenger — Measuring the MBTI... And Coming Up Short | URL уточнить | critique | EN | Классическая критика reliability/validity и forced dichotomies | Старый и MBTI-specific источник; URL проверить перед формальной citation |
+| Boyle — MBTI: Some Psychometric Limitations | URL уточнить | critique | EN | Часто цитируемая критика психометрических ограничений типологических дихотомий | MBTI-specific; по возможности обновлять современной evidence |
 
 ### Богословие, этика и пастырские границы
 

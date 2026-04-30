@@ -4,6 +4,10 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-04-30] ingest | Initial resource-map source lists
+
+Expanded the multilingual internet resource map with initial curated source lists for Socionics, Psychosophy, Temporistics, and methodology/psychometrics. Entries include URL where known, source type, language, PsyCalc use, and caveats; uncertain resources remain marked as URL уточнить / URL уточнити rather than fabricated.
+
 ## [2026-04-29] ingest | Multilingual internet resource map
 
 Added `wiki/sources/resource-map.md` plus Russian and Ukrainian translations (`resource-map-ru.md`, `resource-map-uk.md`) as a provenance-aware map for internet resources. The pages define source-type, reliability, availability, and claim-use rules so future web links can be tracked without treating every listed URL as an endorsed authority. Updated `index.md` with the new multilingual entries.
