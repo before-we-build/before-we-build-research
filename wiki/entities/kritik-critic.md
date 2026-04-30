@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, past, 3rd-position, critic]
 created: 2026-04-15
 updated: 2026-04-15
+lang: en
+canonical: kritik-critic.md
 sources: [raw/temporistics/critic.md]
 ---
 

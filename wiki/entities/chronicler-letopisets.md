@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, past, second-aspect, temporistics-type]
 created: 2025-01-15
 updated: 2025-01-15
+lang: en
+canonical: chronicler-letopisets.md
 sources: [raw/temporistics/letopisets-chronicler.md]
 ---
 

@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, present, third-aspect, painful, temporistics-type]
 created: 2025-01-15
 updated: 2026-04-24
+lang: en
+canonical: exile-izgnannik.md
 sources: [raw/temporistics/izgnannik-exile.md, raw/temporistics/mystery-of-third-aspect.md]
 ---
 

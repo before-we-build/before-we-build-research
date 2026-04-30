@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, past, 1st-position, author]
 created: 2026-04-15
 updated: 2026-04-15
+lang: en
+canonical: avtor-author.md
 sources: [raw/temporistics/author.md]
 ---
 

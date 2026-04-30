@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, eternity, 1st-position, guru]
 created: 2026-04-15
 updated: 2026-04-15
+lang: en
+canonical: guru.md
 sources: [raw/temporistics/guru.md]
 ---
 

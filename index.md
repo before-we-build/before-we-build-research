@@ -147,6 +147,8 @@ wiki/          — LLM-generated wiki
 
 These pages cover the 16 aspect-position archetypes. The 24 full four-letter Temporistics type permutations are listed in `raw/temporistics/types.md` and summarized in [[temporistics-overview]].
 
+Localization note (updated 2026-04-30): the 16 Temporistics aspect-position archetypes now have Russian and Ukrainian pages using the canonical slug plus `-ru` / `-uk` suffixes. Ukrainian display names use project-working forms such as **Безквитник** for 3F and **Міщанин** for 3E.
+
 Type-family note (updated 2026-04-30): result-link targets now exist in English, Russian, and Ukrainian for all 24 full four-letter Temporistics hypotheses under `wiki/entities/temporistics-type-<code>.md`, `wiki/entities/temporistics-type-<code>-ru.md`, and `wiki/entities/temporistics-type-<code>-uk.md`.
 
 | Page | Summary | Sources |

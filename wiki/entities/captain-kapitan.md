@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, future, first-aspect, temporistics-type]
 created: 2025-01-15
 updated: 2025-01-15
+lang: en
+canonical: captain-kapitan.md
 sources: [raw/temporistics/kapitan-captain.md]
 ---
 

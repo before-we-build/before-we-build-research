@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, future, second-aspect, temporistics-type]
 created: 2025-02-14
 updated: 2025-02-14
+lang: en
+canonical: stewersman-rulevoi.md
 sources: [raw/temporistics/rulevoi-steversman.md]
 ---
 

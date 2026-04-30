@@ -27,12 +27,12 @@ sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 
 ## Чотири аспекти
 
-| Аспект | Російська | Головне питання | Негативні емоції | Позитивні емоції |
+| Аспект | Українська | Головне питання | Негативні емоції | Позитивні емоції |
 |--------|-----------|-----------------|------------------|------------------|
-| **Past** | Прошлое | «Хто я?» | Смуток, біль | Задоволення, відчуття сили |
-| **Present** | Настоящее | «Де моє місце?» | Нудьга, порожнеча | Залученість, щастя |
-| **Future** | Будущее | «Куди я йду?» | Страх, відчай | Надія, спокій, натхнення |
-| **Eternity** | Вечность | «Навіщо я?» | Меланхолія, жах | Належність, радість |
+| **Past** | Минуле | «Хто я?» | Смуток, біль | Задоволення, відчуття сили |
+| **Present** | Теперішнє | «Де моє місце?» | Нудьга, порожнеча | Залученість, щастя |
+| **Future** | Майбутнє | «Куди я йду?» | Страх, відчай | Надія, спокій, натхнення |
+| **Eternity** | Вічність | «Навіщо я?» | Меланхолія, жах | Належність, радість |
 
 ## Чотири позиції
 
@@ -58,28 +58,28 @@ sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 Нижче наведено 16 архетипів на кшталт Автора, Хазяїна, Капітана та Гуру. Вони не тотожні 24 повним чотирилітерним типам темпористики.
 
 ### Типи Минулого
-- [[avtor-author]] (1P) — Автор
-- [[chronicler-letopisets]] (2P) — Літописець
-- [[kritik-critic]] (3P) — Критик
-- [[reader-chitatel]] (4P) — Читач
+- [[avtor-author-uk]] (1P) — Автор
+- [[chronicler-letopisets-uk]] (2P) — Літописець
+- [[kritik-critic-uk]] (3P) — Критик
+- [[reader-chitatel-uk]] (4P) — Читач
 
 ### Типи Теперішнього
-- [[host-khozyain]] (1N) — Хазяїн
-- [[local-mestnyi]] (2N) — Місцевий
-- [[exile-izgnannik]] (3N) — Вигнанець
-- [[guest-gost]] (4N) — Гість
+- [[host-khozyain-uk]] (1N) — Хазяїн
+- [[local-mestnyi-uk]] (2N) — Місцевий
+- [[exile-izgnannik-uk]] (3N) — Вигнанець
+- [[guest-gost-uk]] (4N) — Гість
 
 ### Типи Майбутнього
-- [[captain-kapitan]] (1F) — Капітан
-- [[stewersman-rulevoi]] (2F) — Керманич
-- [[stowaway-bezbiletnik]] (3F) — Безквитковий
-- [[passenger-passazhir]] (4F) — Пасажир
+- [[captain-kapitan-uk]] (1F) — Капітан
+- [[stewersman-rulevoi-uk]] (2F) — Керманич
+- [[stowaway-bezbiletnik-uk]] (3F) — Безквитник
+- [[passenger-passazhir-uk]] (4F) — Пасажир
 
 ### Типи Вічності
-- [[guru]] (1E) — Гуру
-- [[philosopher-filosof]] (2E) — Філософ
-- [[philistine-obyvatel]] (3E) — Обиватель
-- [[student-uchenik]] (4E) — Учень
+- [[guru-uk]] (1E) — Гуру
+- [[philosopher-filosof-uk]] (2E) — Філософ
+- [[philistine-obyvatel-uk]] (3E) — Міщанин
+- [[student-uchenik-uk]] (4E) — Учень
 
 ## Повна тетра-класифікація типів (24)
 

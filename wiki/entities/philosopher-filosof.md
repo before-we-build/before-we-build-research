@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, eternity, second-aspect, temporistics-type]
 created: 2025-01-15
 updated: 2025-01-15
+lang: en
+canonical: philosopher-filosof.md
 sources: [raw/temporistics/filosof-philosopher.md]
 ---
 

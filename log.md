@@ -4,6 +4,10 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-04-30] ingest | Localized Temporistics archetypes
+
+Added Russian and Ukrainian pages for the 16 Temporistics aspect-position archetypes, including a dedicated Ukrainian explanation of 3F / 3-е Майбутнє as `stowaway-bezbiletnik-uk.md`. Updated Temporistics overview links to localized archetype pages and corrected Ukrainian display names: `Безквитковий` → `Безквитник`, `Обиватель` → `Міщанин`, plus mixed-language aspect labels in the Ukrainian overview.
+
 ## [2026-04-30] ingest | Localized test-result type pages
 
 Added Russian and Ukrainian wiki entity pages for all test-result type targets across Socionics, Psychosophy, and Temporistics: 16 Socionics TIM pages, 24 Psychosophy type pages, and 24 Temporistics type pages per localized suffix. Updated the site test-result links so type-description links use the active language (`.md`, `-ru.md`, or `-uk.md`) instead of sending RU/UK users to English fallback pages.

@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, past, fourth-aspect, blind, temporistics-type]
 created: 2024-12-04
 updated: 2024-12-04
+lang: en
+canonical: reader-chitatel.md
 sources: [raw/temporistics/chitatel-reader.md]
 ---
 

@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, present, first-aspect, temporistics-type]
 created: 2025-01-15
 updated: 2025-01-15
+lang: en
+canonical: host-khozyain.md
 sources: [raw/temporistics/khozyain-host.md]
 ---
 

@@ -58,28 +58,28 @@ sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 Ниже перечислены 16 архетипов вроде Автора, Хозяина, Капитана и Гуру. Они не тождественны 24 полным четырёхбуквенным типам темпористики.
 
 ### Типы Прошлого
-- [[avtor-author]] (1P) — Автор
-- [[chronicler-letopisets]] (2P) — Летописец
-- [[kritik-critic]] (3P) — Критик
-- [[reader-chitatel]] (4P) — Читатель
+- [[avtor-author-ru]] (1P) — Автор
+- [[chronicler-letopisets-ru]] (2P) — Летописец
+- [[kritik-critic-ru]] (3P) — Критик
+- [[reader-chitatel-ru]] (4P) — Читатель
 
 ### Типы Настоящего
-- [[host-khozyain]] (1N) — Хозяин
-- [[local-mestnyi]] (2N) — Местный
-- [[exile-izgnannik]] (3N) — Изгнанник
-- [[guest-gost]] (4N) — Гость
+- [[host-khozyain-ru]] (1N) — Хозяин
+- [[local-mestnyi-ru]] (2N) — Местный
+- [[exile-izgnannik-ru]] (3N) — Изгнанник
+- [[guest-gost-ru]] (4N) — Гость
 
 ### Типы Будущего
-- [[captain-kapitan]] (1F) — Капитан
-- [[stewersman-rulevoi]] (2F) — Рулевой
-- [[stowaway-bezbiletnik]] (3F) — Безбилетник
-- [[passenger-passazhir]] (4F) — Пассажир
+- [[captain-kapitan-ru]] (1F) — Капитан
+- [[stewersman-rulevoi-ru]] (2F) — Рулевой
+- [[stowaway-bezbiletnik-ru]] (3F) — Безбилетник
+- [[passenger-passazhir-ru]] (4F) — Пассажир
 
 ### Типы Вечности
-- [[guru]] (1E) — Гуру
-- [[philosopher-filosof]] (2E) — Философ
-- [[philistine-obyvatel]] (3E) — Обыватель
-- [[student-uchenik]] (4E) — Ученик
+- [[guru-ru]] (1E) — Гуру
+- [[philosopher-filosof-ru]] (2E) — Философ
+- [[philistine-obyvatel-ru]] (3E) — Обыватель
+- [[student-uchenik-ru]] (4E) — Ученик
 
 ## Полная тетра-классификация типов (24)
 

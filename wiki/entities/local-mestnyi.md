@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, present, second-aspect, temporistics-type]
 created: 2025-01-15
 updated: 2025-01-15
+lang: en
+canonical: local-mestnyi.md
 sources: [raw/temporistics/mestnyi-local.md]
 ---
 

@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, eternity, third-aspect, painful, temporistics-type]
 created: 2024-12-04
 updated: 2024-12-04
+lang: en
+canonical: philistine-obyvatel.md
 sources: [raw/temporistics/obyvatel-philistine.md]
 ---
 

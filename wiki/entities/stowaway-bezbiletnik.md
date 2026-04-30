@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, future, third-aspect, painful, temporistics-type]
 created: 2024-12-04
 updated: 2024-12-04
+lang: en
+canonical: stowaway-bezbiletnik.md
 sources: [raw/temporistics/bezbiletnik-stowaway.md]
 ---
 

@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, present, fourth-aspect, blind, temporistics-type]
 created: 2025-01-15
 updated: 2025-01-15
+lang: en
+canonical: guest-gost.md
 sources: [raw/temporistics/gost-guest.md]
 ---
 

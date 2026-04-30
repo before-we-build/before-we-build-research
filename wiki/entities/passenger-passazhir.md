@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, future, fourth-aspect, blind, temporistics-type]
 created: 2025-02-14
 updated: 2025-02-14
+lang: en
+canonical: passenger-passazhir.md
 sources: [raw/temporistics/passazhir-passenger.md]
 ---
 

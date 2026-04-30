@@ -4,6 +4,8 @@ type: entity
 tags: [temporistics, eternity, fourth-aspect, blind, temporistics-type]
 created: 2025-03-17
 updated: 2025-03-17
+lang: en
+canonical: student-uchenik.md
 sources: [raw/temporistics/uchenik-student.md]
 ---
 
