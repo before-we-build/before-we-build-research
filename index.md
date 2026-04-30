@@ -147,7 +147,7 @@ wiki/          — LLM-generated wiki
 
 These pages cover the 16 aspect-position archetypes. The 24 full four-letter Temporistics type permutations are listed in `raw/temporistics/types.md` and summarized in [[temporistics-overview]].
 
-Type-family note (2026-04-26): canonical English result-link targets now exist for all 24 full four-letter Temporistics hypotheses under `wiki/entities/temporistics-type-<code>.md` (for example, [[temporistics-type-pnfe]] and [[temporistics-type-epnf]]). RU/UK can fall back to EN per [[multilingual-translation-policy]].
+Type-family note (updated 2026-04-30): result-link targets now exist in English, Russian, and Ukrainian for all 24 full four-letter Temporistics hypotheses under `wiki/entities/temporistics-type-<code>.md`, `wiki/entities/temporistics-type-<code>-ru.md`, and `wiki/entities/temporistics-type-<code>-uk.md`.
 
 | Page | Summary | Sources |
 |------|---------|---------|
@@ -199,7 +199,7 @@ Type-family note (2026-04-26): canonical English result-link targets now exist f
 | [[psychosophy-overview-ru]] | Russian translation of the Psychosophy system overview | psychosophy-overview.md |
 | [[psychosophy-overview-uk]] | Ukrainian translation of the Psychosophy system overview | psychosophy-overview.md |
 
-Type-family note (2026-04-26): canonical English result-link targets now exist for all 24 full four-letter Psychosophy hypotheses under `wiki/entities/psychosophy-type-<code>.md` (for example, [[psychosophy-type-levf]] and [[psychosophy-type-elvf]]). RU/UK can fall back to EN per [[multilingual-translation-policy]].
+Type-family note (updated 2026-04-30): result-link targets now exist in English, Russian, and Ukrainian for all 24 full four-letter Psychosophy hypotheses under `wiki/entities/psychosophy-type-<code>.md`, `wiki/entities/psychosophy-type-<code>-ru.md`, and `wiki/entities/psychosophy-type-<code>-uk.md`.
 
 ### Entities — Socionics
 
@@ -208,6 +208,8 @@ Type-family note (2026-04-26): canonical English result-link targets now exist f
 | [[socionics-overview]] | Overview of socionics: 8 IM elements, Model A, 16 types | raw/socionics/ |
 | [[socionics-overview-ru]] | Russian translation of the Socionics system overview | socionics-overview.md |
 | [[socionics-overview-uk]] | Ukrainian translation of the Socionics system overview | socionics-overview.md |
+
+Type-family note (updated 2026-04-30): result-link targets now exist in English, Russian, and Ukrainian for all 16 Socionics TIM hypotheses, using the canonical slug plus `-ru` / `-uk` suffixes for localized pages.
 
 #### Alpha Quadra (Idealistic)
 

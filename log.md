@@ -4,6 +4,10 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-04-30] ingest | Localized test-result type pages
+
+Added Russian and Ukrainian wiki entity pages for all test-result type targets across Socionics, Psychosophy, and Temporistics: 16 Socionics TIM pages, 24 Psychosophy type pages, and 24 Temporistics type pages per localized suffix. Updated the site test-result links so type-description links use the active language (`.md`, `-ru.md`, or `-uk.md`) instead of sending RU/UK users to English fallback pages.
+
 ## [2026-04-30] ingest | Selected 41st IIS conference topics
 
 Added `raw/socionics/iis-41-conference-program-metadata.md` and `wiki/sources/iis-41-conference-program-topics.md` as a rights-conscious metadata-only note for three selected 41st IIS conference topics: Socionics/MBTI/Big Five, improving typing accuracy, and AI hallucinations from a Socionics-model perspective. The source note stores only factual metadata, short PsyCalc-authored summaries, links, and caveats; it does not mirror the full program, screenshots, or extended descriptions.
