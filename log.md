@@ -4,6 +4,10 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-04-30] ingest | Bukalov neural structures source note
+
+Added `raw/socionics/bukalov-neural-structures-correlates.md` and `wiki/sources/bukalov-neural-structures-correlates.md` for A. V. Bukalov's short IIS article “Нейронные структуры как физические корреляты функций информационного метаболизма.” The wiki source page marks the article as a primary school publication and its neural-correlate claims as speculative neuroscience hypotheses, not independent validation of Socionics or Model A.
+
 ## [2026-04-30] ingest | Initial resource-map source lists
 
 Expanded the multilingual internet resource map with initial curated source lists for Socionics, Psychosophy, Temporistics, and methodology/psychometrics. Entries include URL where known, source type, language, PsyCalc use, and caveats; uncertain resources remain marked as URL уточнить / URL уточнити rather than fabricated.

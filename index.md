@@ -278,6 +278,7 @@ Type-family note (2026-04-26): canonical English result-link targets now exist f
 | [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
 | [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
 | [[kalinauskas-steering-wheel-source-notes]] | Source notes for Kalinauskas/Reinin steering-wheel materials and provenance caveats | Kalinauskas mirror, shturval.me, B17 |
+| [[bukalov-neural-structures-correlates]] | Source summary of Bukalov's speculative hypothesis on neural structures as physical correlates of information metabolism functions | raw/socionics/bukalov-neural-structures-correlates.md |
 | [[psychology-of-everything-synthesis]] | Derived synthesis on unified psychology, cognitive-science frameworks, and online totalizing maps | expert synthesis |
 | [[resource-map]] | Curated internet resource map with source-type, reliability, availability, and claim-use rules | project convention |
 | [[resource-map-ru]] | Russian translation of the internet resource map | resource-map.md |
@@ -364,6 +365,7 @@ Type-family note (2026-04-26): canonical English result-link targets now exist f
 | what-is-socionics.md | Official definition and summary | BestSocionics |
 | model-a.md | Model A: 8 functions, properties | BestSocionics |
 | information-aspects.md | 8 information aspects (white/black) | BestSocionics |
+| bukalov-neural-structures-correlates.md | Metadata and abstract for Bukalov's hypothesis on neural structures as physical correlates of functions of information metabolism | IIS OJS article page |
 | kalinauskas-steering-wheel.md | Source notes on Kalinauskas steering-wheel schema | Kalinauskas mirror, shturval.me |
 | intertype-relations.md | Types of information exchange | BestSocionics |
 | reinin-traits.md | Additional dichotomies beyond Jung | BestSocionics |

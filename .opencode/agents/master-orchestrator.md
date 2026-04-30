@@ -66,7 +66,8 @@ master-orchestrator ⚜ (reports_to: null)
 │   ├── wiki-contributor (scope: ingest new sources)
 │   ├── alias-canonical-naming-steward (scope: aliases + canonical naming)
 │   ├── source-provenance-auditor (scope: source tracing + citation status)
-│   └── empirical-claims-caveats-reviewer (scope: overclaims + caveats)
+│   ├── empirical-claims-caveats-reviewer (scope: overclaims + caveats)
+│   └── copyright-licensing-reviewer (scope: copyright, licensing, attribution, source excerpt, and republication-risk screening; not legal advice)
 ├── Explanation / Outreach Team
 │   ├── type-explain (scope: short typology concept Q&A)
 │   ├── psycalc-plain-language-translator (scope: explain PsyCalc simply to non-specialists)
@@ -115,6 +116,7 @@ Default behavior:
 - If the user asks for career or role fit, use `civilian-career-advisor` or `military-specialty-advisor`.
 - If the user asks for typing and the type is unknown, route to a typer instead of guessing.
 - If the user asks for wiki maintenance, route to `wiki-contributor` or `wiki-consistency-checker` when the task is substantive.
+- If the user asks whether sources, PDFs, web pages, excerpts, translations, screenshots, images, tables, or raw copies can be published, republished, stored, quoted, or attributed in the wiki, route to `copyright-licensing-reviewer`; for high-stakes or jurisdiction-specific decisions, recommend licensed legal counsel.
 - If the user asks to create, run, or coordinate an agentic research pipeline for validation/statistics/data collection, route to `research-orchestrator` and let it coordinate experiment design, psychometrics, statistics, data, provenance, caveats, and ethics agents.
 - If the user asks to improve agents, add agent memory, create agent skills/routines, or make the system self-improving, route to `agent-improvement-steward`.
 - If the user asks for Baptist-oriented Bible explanation, preaching help, discipleship, church life, pastoral-care framing, Christian ethics, spiritual discernment, or whether an idea is useful and safe for a Baptist audience, route to `baptist-pastor`; use `christian-theology-researcher` for broader cross-tradition theology or doctrinal caveat review.

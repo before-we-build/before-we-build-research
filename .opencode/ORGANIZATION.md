@@ -30,7 +30,8 @@ master-orchestrator (gold) ⚜
 │   └── civilian-career-advisor (steelblue)
 ├── Wiki Team
 │   ├── wiki-contributor (white)
-│   └── wiki-consistency-checker (magenta)
+│   ├── wiki-consistency-checker (magenta)
+│   └── copyright-licensing-reviewer (slategray)
 ├── Explanation Team
 │   ├── type-explain (gray)
 │   ├── psycalc-plain-language-translator (skyblue)
@@ -63,7 +64,7 @@ master-orchestrator (gold) ⚜
 
 ### 4. Wiki Team
 **Lead:** wiki-consistency-checker
-**Purpose:** Quality assurance
+**Purpose:** Quality assurance, source ingestion support, provenance checks, and narrow publication-rights risk screening for copyright/licensing/attribution. Publication-rights screening is not legal advice and high-stakes cases require licensed counsel.
 
 ### 5. Explanation / Outreach Team
 **Lead:** psycalc-plain-language-translator
