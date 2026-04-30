@@ -4,6 +4,10 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-04-30] ingest | Selected 41st IIS conference topics
+
+Added `raw/socionics/iis-41-conference-program-metadata.md` and `wiki/sources/iis-41-conference-program-topics.md` as a rights-conscious metadata-only note for three selected 41st IIS conference topics: Socionics/MBTI/Big Five, improving typing accuracy, and AI hallucinations from a Socionics-model perspective. The source note stores only factual metadata, short PsyCalc-authored summaries, links, and caveats; it does not mirror the full program, screenshots, or extended descriptions.
+
 ## [2026-04-30] ingest | Bukalov neural structures source note
 
 Added `raw/socionics/bukalov-neural-structures-correlates.md` and `wiki/sources/bukalov-neural-structures-correlates.md` for A. V. Bukalov's short IIS article “Нейронные структуры как физические корреляты функций информационного метаболизма.” The wiki source page marks the article as a primary school publication and its neural-correlate claims as speculative neuroscience hypotheses, not independent validation of Socionics or Model A.
