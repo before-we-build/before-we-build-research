@@ -11,11 +11,11 @@ sources: []
 
 # Internet Resource Map
 
-This page is a curated map of internet resources that may be useful for PsyCalc research, source ingestion, and claim tracing.
+This page is a curated map of internet resources that may be useful for Before We Build research, source ingestion, and claim tracing.
 
 It is **not** a list of endorsed authorities. A listed resource only means: “this resource may be useful to inspect.” Any theoretical claim still needs source-specific verification before it is used in the wiki.
 
-See also [[multilingual-translation-policy]], [[hypothesis-status-of-psycalc]], and [[limits-of-typological-inference]].
+See also [[multilingual-translation-policy]], [[hypothesis-status-of-before-we-build]], and [[limits-of-typological-inference]].
 
 ## Purpose
 
@@ -25,7 +25,7 @@ The resource map helps maintainers:
 - avoid losing unstable web materials;
 - document language, school context, and reliability caveats;
 - route future source ingestion into `raw/`, `wiki/sources/`, and derived concept pages;
-- keep PsyCalc’s own interpretations separate from what an external source actually says.
+- keep Before We Build’s own interpretations separate from what an external source actually says.
 
 ## Source Type Labels
 
@@ -39,7 +39,7 @@ Use these labels consistently:
 | `archive` | Mirror, web archive, document repository | Preservation and source recovery |
 | `community` | Forum, social media group, discussion thread, informal typing practice | Weak evidence, terminology variants |
 | `tool` | Test, calculator, search index, dataset, software utility | Practical experiments, not proof |
-| `project-hypothesis` | Internal PsyCalc synthesis or extension | Must not be attributed to external sources |
+| `project-hypothesis` | Internal Before We Build synthesis or extension | Must not be attributed to external sources |
 | `unverified` | Found but not manually reviewed yet | Intake queue only |
 
 ## Reliability Labels
@@ -81,7 +81,7 @@ Use this template for each web resource:
 - **Type:** primary-source / secondary-summary / critique / archive / community / tool / unverified
 - **Reliability:** high / medium / low / unknown
 - **Availability:** active / stale / archived / dead / restricted / offline-copy
-- **Useful for PsyCalc:**
+- **Useful for Before We Build:**
 - **Claims to verify before reuse:**
 - **Risks / caveats:**
 - **Linked wiki pages:**
@@ -102,7 +102,7 @@ Preferred order:
 3. secondary explanations;
 4. community discussions and tools.
 
-| Resource | URL | Type | Language | Useful for PsyCalc | Caveat |
+| Resource | URL | Type | Language | Useful for Before We Build | Caveat |
 |---|---|---|---|---|---|
 | Wikisocion Archive | https://wikisocion.github.io/ | archive / secondary-summary | EN | Convenient entry point for Model A, information elements, intertype relations, dichotomies, and type pages | Community archive, not an official school; article quality is uneven |
 | Classic Socionics | https://classicsocionics.wordpress.com/ | primary-source / archive | EN | Translations and collections of classical Socionics texts, including early Aushra-related materials | Translation/editorial project; verify original publication context before key claims |
@@ -126,7 +126,7 @@ Preferred order:
 3. secondary descriptions and translations;
 4. community typing materials and tests.
 
-| Resource | URL | Type | Language | Useful for PsyCalc | Caveat |
+| Resource | URL | Type | Language | Useful for Before We Build | Caveat |
 |---|---|---|---|---|---|
 | Psychosophy.ru | https://psychosophy.ru/ | community / secondary-summary | RU | Major modern hub for types, functions, tests, books, and ecosystem navigation | Not Afanasyev primary text; may include editorial and commercial layers |
 | Psychosophy of A. Yu. Afanasyev | https://psychosophy.ru/psychosophy | secondary-summary | RU | Introductory overview of four aspects, positions, and basic terms | Interpretive overview, not canonical source text |
@@ -148,9 +148,9 @@ Preferred order:
 1. original temporistics texts and author-linked sources;
 2. archived source pages already represented in `raw/temporistics/`;
 3. secondary summaries;
-4. PsyCalc-only hypotheses, clearly marked as `project-hypothesis`.
+4. Before We Build-only hypotheses, clearly marked as `project-hypothesis`.
 
-| Resource | URL | Type | Language | Useful for PsyCalc | Caveat |
+| Resource | URL | Type | Language | Useful for Before We Build | Caveat |
 |---|---|---|---|---|---|
 | Theory Description — Temporistics | http://temporistics.ru/?q=theory_description | primary-source | RU | Core theory entry point: aspects, positions, and general frame | Site may be unstable; authorial typology, not empirically validated model |
 | Types — Temporistics | http://temporistics.ru/?q=types | primary-source | RU | Key index for 24 full types, 16 archetypes, tetrads, and aliases | Compact reference; does not replace full descriptions |
@@ -165,7 +165,7 @@ Preferred order:
 
 Use this section for resources on validation, reliability, construct validity, measurement invariance, personality assessment, compatibility outcomes, and baseline models such as Big Five or HEXACO.
 
-| Resource | URL | Type | Language | Useful for PsyCalc | Caveat |
+| Resource | URL | Type | Language | Useful for Before We Build | Caveat |
 |---|---|---|---|---|---|
 | Standards for Educational and Psychological Testing | https://www.testingstandards.net/ | methodology / tool | EN | High-level standards for validity, reliability, fairness, and score interpretation | Not typology-specific; some materials may not be fully open access |
 | COSMIN checklists | https://www.cosmin.nl/tools/checklists-assessing-methodological-study-qualities/ | methodology / tool | EN | Practical criteria for measurement instrument quality | Developed for health/PROM contexts; transfer to personality requires care |
@@ -187,7 +187,7 @@ Use this section for resources that help separate typological heuristics from Ch
 
 1. A URL is not enough. Important claims need a specific source page, quoted passage or close paraphrase, and access date.
 2. Do not cite community resources for core theory claims unless a primary or stronger secondary source supports the same point.
-3. If PsyCalc extends a source, label the extension as `project-hypothesis`.
+3. If Before We Build extends a source, label the extension as `project-hypothesis`.
 4. If sources disagree, document the disagreement instead of merging them into a false consensus.
 5. AI-generated summaries are not evidence. They can only help find sources that humans verify.
 6. Broken links should be replaced with archive links where possible, not silently deleted.

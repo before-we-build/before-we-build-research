@@ -11,7 +11,7 @@ sources: [research-program.md, weight-calibration.md, psychosophy-typing-methods
 
 ## Purpose
 
-This protocol defines how PsyCalc should design, review, validate, and interpret typology-based instruments for Socionics, Psychosophy, and Temporistics.
+This protocol defines how Before We Build should design, review, validate, and interpret typology-based instruments for Socionics, Psychosophy, and Temporistics.
 
 It exists because typology tests can easily become overconfident: a questionnaire may look precise while measuring social desirability, community stereotypes, verbal style, mood, or prior self-typing rather than the intended construct.
 
@@ -30,7 +30,7 @@ This protocol applies to:
 
 It does not assume that traditional type categories are already valid. Validation must occur at the level of constructs, scales, profiles, and decision rules.
 
-## PsyCalc Construct Frame
+## Before We Build Construct Frame
 
 All test design should preserve the project's three-system framing:
 
@@ -42,7 +42,7 @@ These mappings are working hypotheses, not established psychological facts.
 
 ## Recommended Expert Routing
 
-PsyCalc should use one shared psychometric pipeline rather than separate psychometric experts for each typology.
+Before We Build should use one shared psychometric pipeline rather than separate psychometric experts for each typology.
 
 | Role | Responsibility |
 |------|----------------|
@@ -76,7 +76,7 @@ The better structure is:
 - **centralized psychometric standards**;
 - **distributed domain review** for Socionics, Psychosophy, and Temporistics.
 
-For recurring test and item-bank review, PsyCalc uses `typology-test-evaluation-expert` as a coordinating safety layer. It does not replace the psychometrics, statistics, caveats, ethics, or domain-specific experts. A future `psychometric-item-bank-steward` may still be proposed if item-bank maintenance becomes a large recurring workload.
+For recurring test and item-bank review, Before We Build uses `typology-test-evaluation-expert` as a coordinating safety layer. It does not replace the psychometrics, statistics, caveats, ethics, or domain-specific experts. A future `psychometric-item-bank-steward` may still be proposed if item-bank maintenance becomes a large recurring workload.
 
 ## Core Design Principles
 
@@ -99,7 +99,7 @@ Each proposed scale or subscale should document:
    - plausible opposites or neighboring constructs.
 
 2. **Why it matters**
-   - theoretical role in PsyCalc;
+   - theoretical role in Before We Build;
    - expected relation to profiles, behavior, compatibility, or role-fit hypotheses.
 
 3. **Observable indicators**

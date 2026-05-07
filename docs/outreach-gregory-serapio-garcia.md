@@ -14,7 +14,7 @@ I read your Nature Machine Intelligence paper on the psychometric framework for 
 
 **My approach:** Scenario-first evaluation — build structured personas from three typologies (Temporistics, Psychosophy, Socionics), run dyadic simulation scenarios, extract signals from behavioral transcripts.
 
-**One proof-of-work artifact:** I drafted a cautious neuroscience-analogy note for where PsyCalc constructs might suggest future validation tasks, while explicitly avoiding direct brain-type mapping. Evidence packet: [link to brain-typology-neuroscience.md](wiki/sources/brain-typology-neuroscience.md)
+**One proof-of-work artifact:** I drafted a cautious neuroscience-analogy note for where Before We Build constructs might suggest future validation tasks, while explicitly avoiding direct brain-type mapping. Evidence packet: [link to brain-typology-neuroscience.md](wiki/sources/brain-typology-neuroscience.md)
 
 Would you have 15 minutes for a quick call to tell me where my validation design is likely overclaiming?
 
@@ -26,4 +26,4 @@ designofhumanity@gmail.com
 
 ---
 
-**Evidence packet:** https://raw.githubusercontent.com/psycalc/psycalc-wiki/main/docs/researcher-evidence-packet.md
+**Evidence packet:** https://raw.githubusercontent.com/before-we-build/before-we-build-research/main/docs/researcher-evidence-packet.md

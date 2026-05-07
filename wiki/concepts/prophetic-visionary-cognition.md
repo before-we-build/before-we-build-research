@@ -11,7 +11,7 @@ sources: [wiki/entities/guru.md, wiki/concepts/neuroscience-compatibility-bridge
 
 ## Status
 
-This page records a **PsyCalc heuristic** about the image of the prophet, seer, or visionary.
+This page records a **Before We Build heuristic** about the image of the prophet, seer, or visionary.
 
 It does **not** claim that historical prophets had a specific Temporistics type, brain structure, disorder, or neural signature.
 
@@ -26,7 +26,7 @@ Unsafe claims:
 - “Religious revelation is just epilepsy, psychosis, or one brain network.”
 - “A type can be diagnosed from religious or mystical experience alone.”
 
-## Core PsyCalc Hypothesis
+## Core Before We Build Hypothesis
 
 The prophetic image is most naturally linked to **1st Eternity** when the figure is understood not merely as someone who predicts events, but as someone who speaks from a **super-temporal meaning frame**.
 
@@ -61,7 +61,7 @@ The prophetic archetype is therefore not just “high spirituality.” It is a p
 
 ## Difference from Strong Future
 
-Prophecy is often confused with prediction. In PsyCalc terms this distinction matters.
+Prophecy is often confused with prediction. In Before We Build terms this distinction matters.
 
 | Emphasis | More likely aspect |
 |----------|-------------------|
@@ -149,7 +149,7 @@ Use neuroscience as an **external mechanism bridge**, not as type validation.
 
 Correct formulation:
 
-> Some mechanisms involved in visionary experience — meaning-making, salience, self-projection, agency attribution, altered states — are adjacent to the kinds of processes PsyCalc groups under strategic meaning and Eternity.
+> Some mechanisms involved in visionary experience — meaning-making, salience, self-projection, agency attribution, altered states — are adjacent to the kinds of processes Before We Build groups under strategic meaning and Eternity.
 
 Incorrect formulation:
 
@@ -157,9 +157,9 @@ Incorrect formulation:
 
 ## Christian Theology Note
 
-From a Christian theological perspective, the prophetic / visionary archetype used in PsyCalc should not be identified with the biblical or ecclesial gift of prophecy.
+From a Christian theological perspective, the prophetic / visionary archetype used in Before We Build should not be identified with the biblical or ecclesial gift of prophecy.
 
-PsyCalc may describe the human, cognitive, symbolic, and typological shape of visionary meaning-making, but it does not adjudicate whether any concrete revelation is true, false, divine, demonic, psychological, or pathological.
+Before We Build may describe the human, cognitive, symbolic, and typological shape of visionary meaning-making, but it does not adjudicate whether any concrete revelation is true, false, divine, demonic, psychological, or pathological.
 
 Safe distinctions:
 
@@ -176,7 +176,7 @@ Therefore, this page treats prophecy as an archetype of meaning-oriented cogniti
 
 | Safe formulation | Unsafe formulation |
 |------------------|--------------------|
-| PsyCalc models the prophetic / visionary archetype as a meaning-oriented pattern adjacent to 1st Eternity. | Prophets are 1st Eternity. |
+| Before We Build models the prophetic / visionary archetype as a meaning-oriented pattern adjacent to 1st Eternity. | Prophets are 1st Eternity. |
 | 1st Eternity may resemble the archetypal posture of speaking from a super-temporal frame. | 1st Eternity is the psychological basis of prophecy. |
 | The archetype is not identical with the Christian gift of prophecy. | The gift of prophecy is a typological function. |
 | Neuroscience can describe human correlates of visionary experience. | Neuroscience explains revelation. |
@@ -185,7 +185,7 @@ Therefore, this page treats prophecy as an archetype of meaning-oriented cogniti
 
 ## Latent Process Chain
 
-A possible PsyCalc chain for prophetic / visionary cognition:
+A possible Before We Build chain for prophetic / visionary cognition:
 
 ```text
 latent process:
@@ -214,5 +214,5 @@ Neuroscience can help describe adjacent mechanisms of visionary experience, but 
 - [[guru]] — 1st Eternity / meaning-creating type
 - [[temporal-aspects]] — Past, Present, Future, and Eternity
 - [[latent-process]] — hidden process vs observable traces
-- [[neuroscience-compatibility-bridges]] — safe neuroscience analogies for PsyCalc levels
+- [[neuroscience-compatibility-bridges]] — safe neuroscience analogies for Before We Build levels
 - [[brain-typology-neuroscience]] — exploratory brain-typology mapping with caveats

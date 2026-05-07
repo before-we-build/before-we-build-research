@@ -11,7 +11,7 @@ sources: [AGENTS.md, user-request]
 
 ## Observation
 
-The user requested a specialized team of agents that can organize and operate an agentic research pipeline for collecting real validation statistics for PsyCalc.
+The user requested a specialized team of agents that can organize and operate an agentic research pipeline for collecting real validation statistics for Before We Build.
 
 ## Action
 
@@ -39,4 +39,4 @@ Existing agents remain part of the pipeline:
 
 - New agents use review-gated workflows.
 - Human approval is required for participant-facing studies, sensitive data, publication, scoring changes, and agent instruction changes.
-- The team is designed to test PsyCalc hypotheses rather than convert them into deterministic claims.
+- The team is designed to test Before We Build hypotheses rather than convert them into deterministic claims.

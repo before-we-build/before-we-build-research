@@ -77,11 +77,11 @@ From a social-science perspective, the demand for a “psychology of everything�
 - **Social-level collapse:** institutional, class, cultural, or historical causes get reduced to “type” or “mindset.”
 - **Clinical/theological overreach:** spiritual, medical, or pathological claims are inferred from personality frameworks.
 
-## Relevance to PsyCalc
+## Relevance to Before We Build
 
-PsyCalc is adjacent to this space because it also tries to translate many descriptive systems into a smaller number of latent-process hypotheses. However, PsyCalc should not claim to be a finished “psychology of everything.” A safer positioning is:
+Before We Build is adjacent to this space because it also tries to translate many descriptive systems into a smaller number of latent-process hypotheses. However, Before We Build should not claim to be a finished “psychology of everything.” A safer positioning is:
 
-> PsyCalc is a research-oriented framework for translating typological systems into testable hypotheses about latent processes relevant to compatibility, role fit, team design, and simulation.
+> Before We Build is a research-oriented framework for translating typological systems into testable hypotheses about latent processes relevant to compatibility, role fit, team design, and simulation.
 
 The key distinction is between:
 
@@ -95,7 +95,7 @@ The key distinction is between:
 - [[main-idea]]
 - [[project-positioning]]
 - [[latent-process]]
-- [[psycalc-vs-big-five]]
+- [[before-we-build-vs-big-five]]
 - [[neuroscience-compatibility-bridges]]
 - [[sociological-compatibility-analogues]]
 - [[weight-calibration]]

@@ -9,11 +9,11 @@ sources: [raw/temporistics/types.md, raw/temporistics/theory-description.md, raw
 
 # Proposed Intertype Relations in Temporistics
 
-This document proposes a provisional reconstruction of intertype relations in Temporistics. It is intended for PsyCalc as a research hypothesis, not as canonical Temporistics doctrine. The core claim is limited: because Temporistics has a structured model of four temporal aspects across four positions, it is possible to derive candidate relation patterns for strategic compatibility. These patterns require validation before being used as reliable predictions.
+This document proposes a provisional reconstruction of intertype relations in Temporistics. It is intended for Before We Build as a research hypothesis, not as canonical Temporistics doctrine. The core claim is limited: because Temporistics has a structured model of four temporal aspects across four positions, it is possible to derive candidate relation patterns for strategic compatibility. These patterns require validation before being used as reliable predictions.
 
 ## 1. Executive Summary
 
-No finished, canonical Temporistics intertype-relation system has been confirmed in the current PsyCalc source set. The available sources clearly support:
+No finished, canonical Temporistics intertype-relation system has been confirmed in the current Before We Build source set. The available sources clearly support:
 
 - four temporal aspects: Past, Present, Future, Eternity;
 - four positions: 1st target, 2nd creative, 3rd painful, 4th blind;
@@ -22,7 +22,7 @@ No finished, canonical Temporistics intertype-relation system has been confirmed
 - the importance of developing the 3rd aspect;
 - at least one source signal that correct work with the 3rd aspect attracts complementary people.
 
-The sources do **not** provide a validated 24 × 24 relation matrix comparable to Socionics. Therefore, this page reconstructs a possible system from structure, position logic, tetrads, and PsyCalc's strategic-level interpretation.
+The sources do **not** provide a validated 24 × 24 relation matrix comparable to Socionics. Therefore, this page reconstructs a possible system from structure, position logic, tetrads, and Before We Build's strategic-level interpretation.
 
 Reliability level: **low-to-medium as a formal reconstruction, low as an empirical compatibility claim**. The structural matrix is mechanically derivable; the interpretation of relation classes remains provisional.
 
@@ -30,7 +30,7 @@ Important distinction:
 
 ```text
 structural signature = mechanically derivable from type codes
-relation name = PsyCalc explanatory label
+relation name = Before We Build explanatory label
 compatibility claim = empirical hypothesis requiring validation
 ```
 
@@ -43,7 +43,7 @@ Source-backed elements in the current repository:
 - `raw/temporistics/types.md` — 24 types, function-position names, tetrads.
 - `raw/temporistics/theory-description.md` — general description of Temporistics as a theory of relationships with time.
 - `raw/temporistics/mystery-of-third-aspect.md` — position meanings, importance of the painful 3rd aspect, and one explicit mention that complementarity through intertype relations is a separate topic.
-- `wiki/sources/temporistics-detailed.md` — PsyCalc synthesis of the Temporistics model as strategic temporal/existential framing.
+- `wiki/sources/temporistics-detailed.md` — Before We Build synthesis of the Temporistics model as strategic temporal/existential framing.
 
 ### 2.2 Tetrad descriptions
 
@@ -76,7 +76,7 @@ Socionics and Psychosophy provide analogies, but not direct templates:
 
 ## 3. Core Assumptions
 
-PsyCalc interprets Temporistics as a model of latent induction/deduction processes in temporal and existential experience.
+Before We Build interprets Temporistics as a model of latent induction/deduction processes in temporal and existential experience.
 
 The working position meanings are:
 
@@ -187,7 +187,7 @@ Names such as duality, conflict, supervision, activation, mirror, and quasi-iden
 
 Because Temporistics has 24 types, the complete pair matrix has 24 × 24 cells. However, those cells reduce structurally to **24 possible relation signatures**, because each pair can be described by one permutation of four positions.
 
-The table below gives provisional descriptors for all 24 structural signatures. These are **not official Temporistics names**. They are research labels for the PsyCalc reconstruction. The signatures are structurally reliable as permutations; the names are lower-confidence explanatory labels.
+The table below gives provisional descriptors for all 24 structural signatures. These are **not official Temporistics names**. They are research labels for the Before We Build reconstruction. The signatures are structurally reliable as permutations; the names are lower-confidence explanatory labels.
 
 ### 6.1 The 24 structural signatures
 
@@ -349,7 +349,7 @@ Confidence: medium structural / low empirical.
 
 ## 10. Comparison with Socionics and Psychosophy
 
-| System | Level in PsyCalc | Relation basis | What can be borrowed | What must not be copied |
+| System | Level in Before We Build | Relation basis | What can be borrowed | What must not be copied |
 |---|---|---|---|---|
 | Socionics | Tactical | Model A information metabolism | caution about pair-level dynamics and asymmetric experience | relation names as if they had the same mechanism |
 | Psychosophy | Operational | same-aspect position contacts across action domains | structural idea of comparing positions 1–4 | operational meanings of Will/Logic/Emotion/Physics |

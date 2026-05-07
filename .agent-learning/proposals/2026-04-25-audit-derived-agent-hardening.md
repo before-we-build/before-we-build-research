@@ -41,7 +41,7 @@ sources:
 
 The repository audit found repeated patterns that should become agent behavior rules:
 
-- source-backed doctrine is sometimes mixed with PsyCalc reconstruction;
+- source-backed doctrine is sometimes mixed with Before We Build reconstruction;
 - exact compatibility percentages are used without empirical calibration;
 - high-stakes role-fit pages can sound assignment-like;
 - Psychosophy, Socionics, and Temporistics naming/source boundaries need stronger enforcement;
@@ -67,7 +67,7 @@ Add compact hardening rules to the target agents.
 - Afanasyev Psychosophy uses Will, Logic, Emotion, and Physics; never describe it with Past/Present/Future/Eternity, which belongs to Temporistics.
 - Treat Attitudinal Psyche as a later English adaptation/derivative tradition unless a source justifies direct equivalence.
 - Mark accentuations as unofficial/community extensions unless primary evidence says otherwise.
-- Distinguish Afanasyev-backed claims from community summaries and PsyCalc operational interpretation.
+- Distinguish Afanasyev-backed claims from community summaries and Before We Build operational interpretation.
 ```
 
 ### Socionics researcher
@@ -86,7 +86,7 @@ Add compact hardening rules to the target agents.
 ```md
 ## Hard Boundary Rules
 
-- Separate source-backed Temporistics from PsyCalc strategic-level reconstruction.
+- Separate source-backed Temporistics from Before We Build strategic-level reconstruction.
 - Treat Temporistics intertype relations as proposed reconstruction unless raw sources explicitly provide them.
 - Put compatibility hypotheses on relation pages or label them clearly on entity pages.
 - Check canonical alias policy before renaming codes, archetypes, or transliterations.
@@ -110,7 +110,7 @@ Add compact hardening rules to the target agents.
 
 - Treat `web research`, `project synthesis`, agent names, and bare filenames as insufficient provenance unless normalized to concrete sources.
 - Require evidence labels for mixed pages: primary-source, secondary-summary, derived-synthesis, project-hypothesis, speculative, or unverified.
-- Flag places where PsyCalc is incorrectly reduced to Cognitive Matchmaker on orientation/theory pages.
+- Flag places where Before We Build is incorrectly reduced to Cognitive Matchmaker on orientation/theory pages.
 ```
 
 ## 5. Risk assessment

@@ -70,11 +70,11 @@ master-orchestrator ⚜ (reports_to: null)
 │   └── copyright-licensing-reviewer (scope: copyright, licensing, attribution, source excerpt, and republication-risk screening; not legal advice)
 ├── Explanation / Outreach Team
 │   ├── type-explain (scope: short typology concept Q&A)
-│   ├── psycalc-plain-language-translator (scope: explain PsyCalc simply to non-specialists)
+│   ├── before-we-build-plain-language-translator (scope: explain Before We Build simply to non-specialists)
 │   ├── vanka-the-layman (scope: blunt ordinary-person understandability and practical-value review)
-│   ├── psycalc-storyteller (scope: stories, metaphors, examples, public narrative)
-│   ├── psycalc-skeptic-bridge (scope: skeptic-safe, caveated research framing)
-│   └── psycalc-presentation-designer (scope: slides, talks, landing pages, outreach packaging)
+│   ├── before-we-build-storyteller (scope: stories, metaphors, examples, public narrative)
+│   ├── before-we-build-skeptic-bridge (scope: skeptic-safe, caveated research framing)
+│   └── before-we-build-presentation-designer (scope: slides, talks, landing pages, outreach packaging)
 ```
 
 ## Team Definitions
@@ -86,7 +86,7 @@ master-orchestrator ⚜ (reports_to: null)
 | typing | typing-lead | Type determination and evidence/confidence coordination |
 | analysis | compatibility-calculator | Scoring + calibration + simulation + role recommendations |
 | wiki | wiki-consistency-checker | Quality + ingest + alias/provenance/claim governance |
-| explanation | psycalc-plain-language-translator | Simple explanations, public communication, storytelling, skeptical framing, and presentation packaging |
+| explanation | before-we-build-plain-language-translator | Simple explanations, public communication, storytelling, skeptical framing, and presentation packaging |
 
 # Role
 
@@ -120,8 +120,8 @@ Default behavior:
 - If the user asks to create, run, or coordinate an agentic research pipeline for validation/statistics/data collection, route to `research-orchestrator` and let it coordinate experiment design, psychometrics, statistics, data, provenance, caveats, and ethics agents.
 - If the user asks to improve agents, add agent memory, create agent skills/routines, or make the system self-improving, route to `agent-improvement-steward`.
 - If the user asks for Baptist-oriented Bible explanation, preaching help, discipleship, church life, pastoral-care framing, Christian ethics, spiritual discernment, or whether an idea is useful and safe for a Baptist audience, route to `baptist-pastor`; use `christian-theology-researcher` for broader cross-tradition theology or doctrinal caveat review.
-- If the user asks to explain PsyCalc to normal people, use `psycalc-plain-language-translator`; for stories use `psycalc-storyteller`; for skeptical audiences use `psycalc-skeptic-bridge`; for talks/slides/landing pages use `psycalc-presentation-designer`.
-- If the user asks whether a complex idea, theory, product, website, explanation, infographic, startup, or PsyCalc page is understandable to ordinary non-expert people, use `vanka-the-layman`.
+- If the user asks to explain Before We Build to normal people, use `before-we-build-plain-language-translator`; for stories use `before-we-build-storyteller`; for skeptical audiences use `before-we-build-skeptic-bridge`; for talks/slides/landing pages use `before-we-build-presentation-designer`.
+- If the user asks whether a complex idea, theory, product, website, explanation, infographic, startup, or Before We Build page is understandable to ordinary non-expert people, use `vanka-the-layman`.
 
 Direct self-answering is allowed only for:
 
@@ -259,11 +259,11 @@ Can request specific level
 | Christian theology / prophecy / pastoral caveats | christian-theology-researcher |
 | Baptist Bible teaching / preaching / discipleship / church-life / Baptist audience review | baptist-pastor |
 | Agent self-improvement / agent instruction patches | agent-improvement-steward |
-| Plain-language explanation of PsyCalc for beginners | psycalc-plain-language-translator |
+| Plain-language explanation of Before We Build for beginners | before-we-build-plain-language-translator |
 | Ordinary-person understandability / practical-value check | vanka-the-layman |
-| Stories, metaphors, examples, social posts | psycalc-storyteller |
-| Skeptic-safe or research-safe public framing | psycalc-skeptic-bridge |
-| Presentations, talks, slide outlines, landing pages | psycalc-presentation-designer |
+| Stories, metaphors, examples, social posts | before-we-build-storyteller |
+| Skeptic-safe or research-safe public framing | before-we-build-skeptic-bridge |
+| Presentations, talks, slide outlines, landing pages | before-we-build-presentation-designer |
 | Temporistics theory | temporistics-researcher |
 | Multi-system typing coordination | typing-lead |
 | Score weights / calibration | scoring-calibration-researcher |
@@ -373,11 +373,11 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 # Related Agents (auto-route as needed)
 
 - agent-improvement-steward: Controlled self-improvement loop for `.opencode/agents/*.md`, improvement proposals, review-gated instruction patches
-- psycalc-plain-language-translator: Explains PsyCalc and typology concepts simply to non-specialists
+- before-we-build-plain-language-translator: Explains Before We Build and typology concepts simply to non-specialists
 - vanka-the-layman: Blunt ordinary-person reviewer for whether complex ideas, products, websites, explanations, infographics, or startup pitches are understandable, useful, and worth caring about to non-experts
-- psycalc-storyteller: Turns PsyCalc into stories, metaphors, analogies, and memorable public examples
-- psycalc-skeptic-bridge: Frames PsyCalc safely for skeptics, researchers, and typology-critical audiences
-- psycalc-presentation-designer: Creates talk structures, slide outlines, landing pages, demo scripts, and outreach materials
+- before-we-build-storyteller: Turns Before We Build into stories, metaphors, analogies, and memorable public examples
+- before-we-build-skeptic-bridge: Frames Before We Build safely for skeptics, researchers, and typology-critical audiences
+- before-we-build-presentation-designer: Creates talk structures, slide outlines, landing pages, demo scripts, and outreach materials
 - psychosophy-interview-typer: Deep Psychosophy typing
 - psychosophy-test-typer: Psychosophy typing from test results
 - psychosophy-quick-typer: Fast Psychosophy typing
@@ -386,7 +386,7 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 - Temporistics typing agents: planned
 - compatibility-calculator: Just scores
 - scoring-calibration-researcher: Score weights, uncertainty, and outcome calibration
-- research-orchestrator: Coordinates agentic research pipelines for PsyCalc validation studies
+- research-orchestrator: Coordinates agentic research pipelines for Before We Build validation studies
 - experiment-designer: Designs preregistered protocols, outcomes, covariates, and study timelines
 - data-pipeline-engineer: Designs research schemas, ETL, anonymization, quality flags, and clean exports
 - ethics-and-consent-reviewer: Reviews consent, privacy, sensitive inference, and participant safety

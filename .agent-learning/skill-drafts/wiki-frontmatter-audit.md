@@ -9,7 +9,7 @@ Related proposal: `.agent-learning/proposals/2026-04-28-create-skill-generation-
 
 ## Purpose
 
-Provide a repeatable low-risk workflow for checking whether wiki pages follow PsyCalc wiki schema conventions.
+Provide a repeatable low-risk workflow for checking whether wiki pages follow Before We Build wiki schema conventions.
 
 This skill is for structure and metadata audit only. It does not validate typological, empirical, clinical, theological, military, or compatibility claims.
 
@@ -51,7 +51,7 @@ This skill is for structure and metadata audit only. It does not validate typolo
 5. Check that filename is kebab-case.
 6. Check that internal references use wikilinks where appropriate.
 7. Check that source-backed claims have a `sources` entry or explicit caveat.
-8. Check that PsyCalc is not reduced to Cognitive Matchmaker except on application-specific pages.
+8. Check that Before We Build is not reduced to Cognitive Matchmaker except on application-specific pages.
 9. Report findings as pass / warning / fail.
 10. If edits are requested, make only minimal structural corrections unless the user asks for content rewriting.
 
@@ -61,12 +61,12 @@ This skill is for structure and metadata audit only. It does not validate typolo
 - `updated` date is current when edits are made.
 - Source references are present when the page makes source-backed claims.
 - The page preserves the project framing:
-  - PsyCalc is the broader ontology/framework.
+  - Before We Build is the broader ontology/framework.
   - Cognitive Matchmaker is a downstream dating-oriented application.
 
 ## Caveats to preserve
 
-- Typological mappings in PsyCalc are project heuristics and research hypotheses.
+- Typological mappings in Before We Build are project heuristics and research hypotheses.
 - Structural compliance does not mean empirical validity.
 - A clean wiki page can still need specialist review for domain claims.
 
@@ -105,7 +105,7 @@ Specialist review is required if the skill is expanded to evaluate domain claims
 - The skill identifies missing or malformed frontmatter.
 - The skill distinguishes structural audit from domain validation.
 - The skill does not invent citations or rewrite claims without request.
-- The skill preserves PsyCalc vs Cognitive Matchmaker scope boundaries.
+- The skill preserves Before We Build vs Cognitive Matchmaker scope boundaries.
 
 ## Rollback / deactivation
 

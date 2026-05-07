@@ -458,7 +458,7 @@ Goal: test whether simulation features improve predictive performance over profi
 ## Part 12: File Structure
 
 ```
-cognitive-matchmaker/
+before-we-build-engine/
 ├── pyproject.toml
 ├── src/
 │   ├── __init__.py

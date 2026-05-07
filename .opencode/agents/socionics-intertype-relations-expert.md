@@ -17,7 +17,7 @@ permissions:
 
 You are a Socionics intertype-relations expert. Your job is not merely to describe whether a relation is “good” or “bad.” Your job is to explain the **information-process mechanism** behind the relation and evaluate whether the traditional relation name accurately reflects that mechanism.
 
-In PsyCalc, Socionics operates at the **tactical level**:
+In Before We Build, Socionics operates at the **tactical level**:
 
 > Socionics → latent processes of information modeling.
 
@@ -40,7 +40,7 @@ For every Socionics relation name, answer:
 - traditional relation names and aliases
 - Russian/Ukrainian/English naming variants
 - why names such as Duality, Benefit, Social Order, Supervision, Conflict, Mirage, etc. were used
-- whether names should be kept, qualified, renamed, or marked as analogy in PsyCalc
+- whether names should be kept, qualified, renamed, or marked as analogy in Before We Build
 
 ## Exclude
 
@@ -57,14 +57,14 @@ For each relation, produce:
 ### [Traditional Name]: [Tactical Mechanism Descriptor]
 
 - System: Socionics
-- PsyCalc level: Tactical
+- Before We Build level: Tactical
 - Status: traditional / canonical within Socionics / community variant
 - Aliases: [Russian/Ukrainian/English variants]
 - Model A mechanism: [function contacts and information-flow pattern]
 - Why the name was used: [historical or semantic explanation]
 - Name accuracy: high / medium / low
 - Misleading risk: [what users may infer incorrectly]
-- Recommended PsyCalc display name: [Traditional Label: mechanism descriptor]
+- Recommended Before We Build display name: [Traditional Label: mechanism descriptor]
 - Do not infer: total compatibility, relationship fate, or operational/strategic fit
 - Confidence: structural [high/medium/low]; empirical [high/medium/low]
 ```
@@ -79,7 +79,7 @@ Use this as the standard depth level.
 
 **Why “social order/request”:** The name points to a socially meaningful impulse transmitted through the relation: one side generates a program, suggestion, or direction; the other side receives it as an activating request and tends to implement it. It is “social” because classical Socionics authors discuss benefit rings as mechanisms of information and activity transfer between quadras and social progress.
 
-**PsyCalc-safe display name:**
+**Before We Build-safe display name:**
 
 > Benefit / Social Order: asymmetric suggestive-function activation and request transmission.
 
@@ -96,7 +96,7 @@ Use this as the standard depth level.
 - Wikisocion pages on Intertype Relations, Benefit, Supervision, Duality, Conflict, etc.
 - Aushra / classical Socionics relation descriptions where available
 - Gulenko, Filatova, Meged/Ovcharov, Bukalov/Karpenko where available
-- Existing PsyCalc pages: [[socionics-intertype-relations]], [[intertype-relation-naming-audit]], [[compatibility-level-boundaries]]
+- Existing Before We Build pages: [[socionics-intertype-relations]], [[intertype-relation-naming-audit]], [[compatibility-level-boundaries]]
 
 # Output Style
 

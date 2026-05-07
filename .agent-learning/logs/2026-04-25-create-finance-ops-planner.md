@@ -11,7 +11,7 @@ sources: [AGENTS.md, user-request]
 
 ## Observation
 
-The user needs a finance/operations expert to estimate costs and unit economics for automated content generation, autoposting, and early growth of PsyCalc / Cognitive Matchmaker.
+The user needs a finance/operations expert to estimate costs and unit economics for automated content generation, autoposting, and early growth of Before We Build / Cognitive Matchmaker.
 
 ## Action
 

@@ -13,7 +13,7 @@ sources: [raw/socionics/kalinauskas-steering-wheel.md, kalinauskas-steering-whee
 
 The **Kalinauskas steering wheel** (`штурвал Калинаускаса`) is a Socionics interpretive schema associated with Igor Kalinauskas and later Reinin-linked teaching materials. It is used to visualize a type of information metabolism, its motivating and problematic zones, and some intertype-relation dynamics.
 
-In PsyCalc, the steering wheel should be treated as a **school-specific / authorial Socionics model**, not as the canonical Model A and not as a replacement for Model A.
+In Before We Build, the steering wheel should be treated as a **school-specific / authorial Socionics model**, not as the canonical Model A and not as a replacement for Model A.
 
 ## Attribution and Source Base
 
@@ -37,7 +37,7 @@ Model A usually presents eight function positions such as leading, creative, rol
 - IV / -IV;
 - “good,” “bad,” “must,” “should not,” “problems,” “solutions,” “want,” and “fear.”
 
-The dedicated steering-wheel site explicitly contrasts its focus with Model A, so PsyCalc should keep these pages separate.
+The dedicated steering-wheel site explicitly contrasts its focus with Model A, so Before We Build should keep these pages separate.
 
 ## Core Schema
 
@@ -98,18 +98,18 @@ The steering wheel is used to visualize standard Socionics relation classes, inc
 
 One distinctive feature in the Kalinauskas excerpt is the strong emphasis on **opposite types**. In the ILE / ILI example, opposite types are described as informationally complementary in the sense that they reveal ignored or denied parts of the type's informational world.
 
-This is not the same as the mainstream Socionics habit of treating duality as the canonical complementary relation. Therefore, PsyCalc should mark “opposite type as true complement” as an authorial/school-specific claim.
+This is not the same as the mainstream Socionics habit of treating duality as the canonical complementary relation. Therefore, Before We Build should mark “opposite type as true complement” as an authorial/school-specific claim.
 
-## PsyCalc Interpretation
+## Before We Build Interpretation
 
-Within PsyCalc, the steering wheel may be useful as a secondary tactical-language map:
+Within Before We Build, the steering wheel may be useful as a secondary tactical-language map:
 
 - **Good / Bad** can highlight existential identification and rejected information;
 - **Need / Should not** can highlight functioning and normative constraints;
 - **Problems / Solutions** can highlight self-evaluation and compensatory strategies;
 - **Want / Fear** can highlight motivation, suggestibility, and avoidance.
 
-This can enrich qualitative interaction analysis, especially when a user asks about Kalinauskas/Reinin-style Socionics. However, the core Socionics page for PsyCalc remains [[socionics-model-a]].
+This can enrich qualitative interaction analysis, especially when a user asks about Kalinauskas/Reinin-style Socionics. However, the core Socionics page for Before We Build remains [[socionics-model-a]].
 
 ## Boundaries and Non-Claims
 

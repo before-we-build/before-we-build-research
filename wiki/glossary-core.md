@@ -7,13 +7,13 @@ updated: 2026-04-24
 sources: []
 ---
 
-# Glossary of Terms: PsyCalc and Cognitive Matchmaker
+# Glossary of Terms: Before We Build and Cognitive Matchmaker
 
 ## Purpose
 
-This glossary provides authoritative working definitions for the PsyCalc research framework and its downstream applications, including Cognitive Matchmaker. PsyCalc is the broader ontology and latent-process compatibility framework; Cognitive Matchmaker is one implementation of that framework in AI-assisted dating and relationship matching.
+This glossary provides authoritative working definitions for the Before We Build research framework and its downstream applications, including Cognitive Matchmaker. Before We Build is the broader ontology and latent-process compatibility framework; Cognitive Matchmaker is one implementation of that framework in AI-assisted dating and relationship matching.
 
-The glossary should preserve the central PsyCalc distinction: type labels are not final explanations. They are structured hypotheses about latent processes inferred from observable traces and revised through evidence.
+The glossary should preserve the central Before We Build distinction: type labels are not final explanations. They are structured hypotheses about latent processes inferred from observable traces and revised through evidence.
 
 Core formula:
 

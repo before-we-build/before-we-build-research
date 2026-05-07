@@ -9,7 +9,7 @@ sources: [typology-test-design-protocol.md, socionics-model-a.md, socionics-info
 
 # Socionics Test Specification
 
-This page defines the first PsyCalc draft test for Socionics. It is an original research instrument, not a copied version of existing online tests.
+This page defines the first Before We Build draft test for Socionics. It is an original research instrument, not a copied version of existing online tests.
 
 ## Status
 
@@ -19,7 +19,7 @@ The test should produce ranked hypotheses, not a definitive TIM. Result wording 
 
 ## Construct Frame
 
-In PsyCalc, [[socionics-model-a]] is treated as a heuristic model of **latent processes of information modeling**.
+In Before We Build, [[socionics-model-a]] is treated as a heuristic model of **latent processes of information modeling**.
 
 The test should measure:
 

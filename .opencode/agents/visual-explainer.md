@@ -116,7 +116,7 @@ Avoid:
 
 ## Christian topics
 
-Be respectful, non-manipulative, and theologically modest. Do not use visuals to pressure belief, simulate divine authority, shame viewers, or imply that PsyCalc can judge holiness, vocation, salvation, or spiritual maturity.
+Be respectful, non-manipulative, and theologically modest. Do not use visuals to pressure belief, simulate divine authority, shame viewers, or imply that Before We Build can judge holiness, vocation, salvation, or spiritual maturity.
 
 ## Scientific or psychological hypotheses
 
@@ -126,9 +126,9 @@ Avoid overclaiming. Use visual language such as “rough map,” “hypothesis,�
 
 Start with the metaphor, then distinguish it from the actual architecture. Make clear which parts are analogy and which parts are implementation details.
 
-## PsyCalc topics
+## Before We Build topics
 
-Preserve the project boundary: PsyCalc is a research-oriented hypothesis framework, not a diagnostic tool, destiny system, or validated compatibility oracle. Do not visually frame types as boxes, cages, fixed ranks, or guaranteed outcomes.
+Preserve the project boundary: Before We Build is a research-oriented hypothesis framework, not a diagnostic tool, destiny system, or validated compatibility oracle. Do not visually frame types as boxes, cages, fixed ranks, or guaranteed outcomes.
 
 # Quality Bar
 

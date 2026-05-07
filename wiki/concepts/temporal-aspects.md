@@ -36,7 +36,7 @@ Good wishes for the Eternity aspect name the person's right to meaning without f
 | Openness | "May you meet ideas, teachers, and traditions that expand rather than imprison you." |
 | Humility | "May your worldview stay strong enough to guide you and flexible enough to learn." |
 
-Avoid caste-like or rank-like wishes such as "become higher," "rise above ordinary people," or "find your superior mission." PsyCalc treats Eternity as a temporal/existential process, not as a model of human value.
+Avoid caste-like or rank-like wishes such as "become higher," "rise above ordinary people," or "find your superior mission." Before We Build treats Eternity as a temporal/existential process, not as a model of human value.
 
 ## See Also
 

@@ -1,6 +1,6 @@
 # Skill Generation Policy
 
-This policy defines how PsyCalc agents may create reusable skill drafts from repeated work.
+This policy defines how Before We Build agents may create reusable skill drafts from repeated work.
 
 ## Goal
 

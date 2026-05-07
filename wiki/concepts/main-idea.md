@@ -1,7 +1,7 @@
 ---
 title: Main Idea
 type: concept
-tags: [theory, foundations, integration, psycalc, latent-processes]
+tags: [theory, foundations, integration, before-we-build, latent-processes]
 created: 2026-04-14
 updated: 2026-04-26
 lang: en
@@ -11,7 +11,7 @@ sources: []
 
 # Main Idea
 
-PsyCalc is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological types as final explanations of a person. A type is treated as an observable trace and working hypothesis about how hidden processes may be organized.
+Before We Build is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological types as final explanations of a person. A type is treated as an observable trace and working hypothesis about how hidden processes may be organized.
 
 ## 1. Central Mapping
 
@@ -29,7 +29,7 @@ Required formula:
 
 ## 2. Why Typologies Matter Here
 
-The value of typologies in PsyCalc is not primarily that they classify people into labels. Their value is that type structures may serve as compact hypotheses about deeper latent processes.
+The value of typologies in Before We Build is not primarily that they classify people into labels. Their value is that type structures may serve as compact hypotheses about deeper latent processes.
 
 In this interpretation:
 
@@ -47,7 +47,7 @@ The practical question is not only “What type is this person?” but also:
 
 ## 3. Observable Traces vs Latent Processes
 
-PsyCalc distinguishes behavior from mechanism.
+Before We Build distinguishes behavior from mechanism.
 
 Observable traces include speech patterns, choices, conflict behavior, planning habits, stress responses, and explanations people give for their actions. Latent processes are proposed hidden mechanisms reconstructed from those traces.
 
@@ -65,7 +65,7 @@ See [[latent-process]] for the detailed framework.
 
 ## 4. The Three Compatibility Levels
 
-PsyCalc uses the three typologies as primary lenses for three different levels of interaction:
+Before We Build uses the three typologies as primary lenses for three different levels of interaction:
 
 1. **Strategic compatibility** asks whether two people can share a compatible long-range temporal and existential direction. The primary typology is **Temporistics**.
 2. **Operational compatibility** asks whether two people can organize decisions, effort, pressure, priorities, and embodiment together. The primary typology is **Psychosophy**.
@@ -75,7 +75,7 @@ These levels should not be collapsed into each other. Similar words across syste
 
 ## 5. Positional Modes
 
-Across position-based systems, PsyCalc uses the concept of a positional mode: a relatively stable way of working with a frame.
+Across position-based systems, Before We Build uses the concept of a positional mode: a relatively stable way of working with a frame.
 
 | Position | Heuristic interpretation |
 |---:|---|
@@ -86,9 +86,9 @@ Across position-based systems, PsyCalc uses the concept of a positional mode: a 
 
 This is a project interpretation and should not be confused with canonical doctrine in every source tradition.
 
-## 6. What PsyCalc Is Not Claiming
+## 6. What Before We Build Is Not Claiming
 
-PsyCalc is a research framework, not a deterministic personality doctrine. It does not claim that:
+Before We Build is a research framework, not a deterministic personality doctrine. It does not claim that:
 
 - typological systems are scientifically proven as complete models of personality;
 - a type fully explains a person;
@@ -100,8 +100,8 @@ The framework should use careful language: hypothesis, interpretation, heuristic
 
 ## 7. Framework vs Application
 
-**PsyCalc** is the broader ontology and research architecture.
+**Before We Build** is the broader ontology and research architecture.
 
-**Cognitive Matchmaker** is one possible application: an AI dating concierge that uses PsyCalc-compatible models for simulation-based compatibility assessment. It is not the whole project.
+**Cognitive Matchmaker** is one possible application: an AI dating concierge that uses Before We Build-compatible models for simulation-based compatibility assessment. It is not the whole project.
 
 See [[project-positioning]] for the full distinction.

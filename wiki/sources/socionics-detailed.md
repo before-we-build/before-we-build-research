@@ -512,4 +512,4 @@ From socionbyexample:
 
 ---
 
-*This document provides comprehensive coverage of Socionics as the Tactical level of the PsyCalc framework. For the strategic level, see temporistics-detailed.md. For the operational level, see psychosophy-detailed.md.*
+*This document provides comprehensive coverage of Socionics as the Tactical level of the Before We Build framework. For the strategic level, see temporistics-detailed.md. For the operational level, see psychosophy-detailed.md.*

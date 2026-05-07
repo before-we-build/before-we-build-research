@@ -1,7 +1,7 @@
 ---
 title: Research Layer vs Practical Guidance
 type: concept
-tags: [methodology, research, practical-guidance, christianity, psycalc]
+tags: [methodology, research, practical-guidance, christianity, before-we-build]
 created: 2026-04-26
 updated: 2026-04-26
 sources: []
@@ -11,7 +11,7 @@ sources: []
 
 ## Summary
 
-The project must separate Christian practical guidance from PsyCalc research hypotheses. Christian family pages state the normative and pastoral frame for family formation. PsyCalc research pages explore typological models as heuristic hypotheses that require validation.
+The project must separate Christian practical guidance from Before We Build research hypotheses. Christian family pages state the normative and pastoral frame for family formation. Before We Build research pages explore typological models as heuristic hypotheses that require validation.
 
 **Biblical grounding for the summary:**
 
@@ -50,7 +50,7 @@ This layer includes pages such as:
 - [[main-idea]]
 - [[latent-process]]
 - [[weight-calibration]]
-- [[hypothesis-status-of-psycalc]]
+- [[hypothesis-status-of-before-we-build]]
 
 ## Product layer
 

@@ -15,11 +15,11 @@ Model A is the standard Socionics model for arranging eight information elements
 
 The model is named after Aušra Augustinavičiūtė, the founder of Socionics. In source Socionics, Model A is used to describe how a person receives, processes, produces, avoids, values, and background-processes different kinds of information.
 
-In PsyCalc, Model A belongs to the **tactical compatibility layer**: it is used as a heuristic map of latent processes of information modeling in moment-to-moment interaction.
+In Before We Build, Model A belongs to the **tactical compatibility layer**: it is used as a heuristic map of latent processes of information modeling in moment-to-moment interaction.
 
-## PsyCalc Interpretation
+## Before We Build Interpretation
 
-PsyCalc reads Model A as a structured hypothesis about how information is internally modeled, not as a proven psychological mechanism.
+Before We Build reads Model A as a structured hypothesis about how information is internally modeled, not as a proven psychological mechanism.
 
 The core interpretation is:
 
@@ -114,9 +114,9 @@ The element by itself is not a complete type description. Its Model A position d
 
 See [[socionics-information-elements]] for the dedicated element page.
 
-## Why Model A Matters in PsyCalc
+## Why Model A Matters in Before We Build
 
-Within PsyCalc's three-level compatibility architecture, Socionics is assigned to the tactical layer:
+Within Before We Build's three-level compatibility architecture, Socionics is assigned to the tactical layer:
 
 - **Temporistics** models strategic temporal/existential framing;
 - **Psychosophy** models operational synthesis and analysis in action;
@@ -129,7 +129,7 @@ Model A is therefore most useful when asking:
 - Which partner supplies valued but weak information?
 - Which partner's confident expression may accidentally pressure the other's vulnerable zone?
 
-For example, classical Socionics relation theory often interprets duality through complementary Ego-to-Super-Id contacts, while conflict relations are often described through strong functions landing on weak and unvalued zones. In PsyCalc, these are tactical interaction hypotheses, not whole-relationship verdicts.
+For example, classical Socionics relation theory often interprets duality through complementary Ego-to-Super-Id contacts, while conflict relations are often described through strong functions landing on weak and unvalued zones. In Before We Build, these are tactical interaction hypotheses, not whole-relationship verdicts.
 
 ## Boundaries and Non-Claims
 
@@ -141,7 +141,7 @@ Model A should not be used as:
 - a replacement for direct observation, consent, feedback, and context;
 - an MBTI function stack under another name.
 
-PsyCalc treats Socionics and Model A as a structured research heuristic. It may help organize observations about communication, but it does not by itself validate a person's type or determine compatibility.
+Before We Build treats Socionics and Model A as a structured research heuristic. It may help organize observations about communication, but it does not by itself validate a person's type or determine compatibility.
 
 ## See Also
 

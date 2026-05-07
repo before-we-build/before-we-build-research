@@ -11,7 +11,7 @@ status: applied
 
 ## Trigger
 
-The user requested an agent “lawyer” to automatically handle legal checking for publication/republication of sources in the PsyCalc wiki.
+The user requested an agent “lawyer” to automatically handle legal checking for publication/republication of sources in the Before We Build wiki.
 
 ## Observation
 

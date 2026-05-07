@@ -11,7 +11,7 @@ sources: [AGENTS.md, user-request]
 
 ## Observation
 
-The user wants automatic social-media execution for PsyCalc / Cognitive Matchmaker instead of manually handling content production. The immediate pain point was that the assistant produced only a TikTok script, not a video package or publication workflow.
+The user wants automatic social-media execution for Before We Build / Cognitive Matchmaker instead of manually handling content production. The immediate pain point was that the assistant produced only a TikTok script, not a video package or publication workflow.
 
 ## Action
 

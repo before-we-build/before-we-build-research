@@ -13,7 +13,7 @@ Comprehensive research on the 4th position of Physics function in A.Yu. Afanasye
 
 ## Overview
 
-Fourth Physics is described in Psychosophy sources as the "least significant" function in the psychotype. In PsyCalc, these claims are treated as typological heuristics, not medical or psychiatric descriptions. It represents:
+Fourth Physics is described in Psychosophy sources as the "least significant" function in the psychotype. In Before We Build, these claims are treated as typological heuristics, not medical or psychiatric descriptions. It represents:
 - Physical-priority patterns: low attention to bodily comfort, easy yielding on material preferences
 - Emotional-tone reports in sources: melancholy or passivity language, which must not be treated as diagnosis
 - Relationship style: Accepts others' preferences easily

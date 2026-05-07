@@ -18,7 +18,7 @@ In Model A, a **function position** is the structural role occupied by an inform
 
 The same element can be leading for one type, vulnerable for another, and suggestive for a third. Therefore, Socionics interpretation depends on the combination of element and position.
 
-In PsyCalc, these positions are treated as heuristic markers of relative confidence, strain, support-seeking, and automaticity in tactical information modeling.
+In Before We Build, these positions are treated as heuristic markers of relative confidence, strain, support-seeking, and automaticity in tactical information modeling.
 
 ## Position-by-Position Summary
 
@@ -171,9 +171,9 @@ The current wiki source summary lists the common dimensionality mapping as:
 
 Dimensionality should be treated as a Socionics-internal construct, not as a measured cognitive capacity.
 
-## PsyCalc Reading
+## Before We Build Reading
 
-For PsyCalc, function positions help describe tactical interaction patterns:
+For Before We Build, function positions help describe tactical interaction patterns:
 
 - where a person confidently initiates information;
 - where they adapt and create;

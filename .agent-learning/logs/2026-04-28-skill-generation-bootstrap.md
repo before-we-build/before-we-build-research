@@ -6,7 +6,7 @@ Type: controlled self-improvement scaffold
 
 ## Observation
 
-The user asked whether PsyCalc agents can support skill autocreation / skill generation / automaticity: reusable procedural knowledge generated from repeated tasks and interaction history.
+The user asked whether Before We Build agents can support skill autocreation / skill generation / automaticity: reusable procedural knowledge generated from repeated tasks and interaction history.
 
 ## Decision
 

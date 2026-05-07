@@ -9,7 +9,7 @@ sources: [typology-test-design-protocol.md, temporistics-model.md, temporal-aspe
 
 # Temporistics Test Specification
 
-This page defines the first PsyCalc draft test for Temporistics. It separates source-backed Temporistics structure from PsyCalc's interpretive overlay.
+This page defines the first Before We Build draft test for Temporistics. It separates source-backed Temporistics structure from Before We Build's interpretive overlay.
 
 ## Status
 
@@ -33,7 +33,7 @@ And four positions:
 - **3 Painful** — criterion;
 - **4 Blind** — resource.
 
-PsyCalc interprets Temporistics as a heuristic model of **latent processes of induction and deduction in temporal/existential experience**.
+Before We Build interprets Temporistics as a heuristic model of **latent processes of induction and deduction in temporal/existential experience**.
 
 ## Primary Scales
 

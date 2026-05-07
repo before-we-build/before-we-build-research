@@ -34,7 +34,7 @@ Reference page for Socionics intertype relation classes. This page is **not** an
 
 ## Scoring Status
 
-No percentages are currently assigned here because PsyCalc has not calibrated Socionics relation classes against observed dyadic outcomes. Any future score must specify:
+No percentages are currently assigned here because Before We Build has not calibrated Socionics relation classes against observed dyadic outcomes. Any future score must specify:
 
 - outcome being predicted;
 - sample and typing reliability;

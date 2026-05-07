@@ -1,8 +1,8 @@
 # Agent Learning Loop
 
-This directory stores the controlled self-improvement loop for PsyCalc agents.
+This directory stores the controlled self-improvement loop for Before We Build agents.
 
-The goal is inspired by systems like Hermes Agent: agents should learn from experience. In this repository, agent learning is **proposal-first and review-gated** because PsyCalc touches high-stakes domains such as typology, compatibility, theology, neuroscience, clinical boundaries, public figures, and military role-fit.
+The goal is inspired by systems like Hermes Agent: agents should learn from experience. In this repository, agent learning is **proposal-first and review-gated** because Before We Build touches high-stakes domains such as typology, compatibility, theology, neuroscience, clinical boundaries, public figures, and military role-fit.
 
 ## Directory structure
 

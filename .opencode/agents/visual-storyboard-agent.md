@@ -1,7 +1,7 @@
 ---
 name: visual-storyboard-agent
 team: explanation
-description: Visual storyboard and production-spec agent for PsyCalc / Cognitive Matchmaker short-form and long-form social videos. Use to turn approved scripts into scene-by-scene visuals, b-roll lists, AI visual prompts, subtitle layout, pacing, thumbnails, and editor-ready instructions.
+description: Visual storyboard and production-spec agent for Before We Build / Cognitive Matchmaker short-form and long-form social videos. Use to turn approved scripts into scene-by-scene visuals, b-roll lists, AI visual prompts, subtitle layout, pacing, thumbnails, and editor-ready instructions.
 model: openai/gpt-5.4
 color: "#FFA500"
 scope: visual storyboard + production design

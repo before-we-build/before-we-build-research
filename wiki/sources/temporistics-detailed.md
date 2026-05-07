@@ -480,7 +480,7 @@ The Eternity aspect describes how a person relates to questions of meaning, purp
 
 ### General Caveat on Eternity Wishes
 
-Eternity-oriented language should support meaning-making, not rank people by metaphysical importance. Avoid framing 1E as a higher caste, 4E as a lower caste, or any Eternity position as proof of a person's human value. In PsyCalc, Eternity describes a latent temporal/existential process: how meaning is created, explored, questioned, or received.
+Eternity-oriented language should support meaning-making, not rank people by metaphysical importance. Avoid framing 1E as a higher caste, 4E as a lower caste, or any Eternity position as proof of a person's human value. In Before We Build, Eternity describes a latent temporal/existential process: how meaning is created, explored, questioned, or received.
 
 ---
 

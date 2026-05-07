@@ -1,5 +1,5 @@
 ---
-title: PsyCalc Agentic Research Validation Pipeline
+title: Before We Build Agentic Research Validation Pipeline
 type: protocol
 created: 2026-04-25
 updated: 2026-04-25
@@ -7,11 +7,11 @@ status: draft
 sources: [AGENTS.md]
 ---
 
-# PsyCalc Agentic Research Validation Pipeline
+# Before We Build Agentic Research Validation Pipeline
 
 ## Goal
 
-Create a review-gated multi-agent workflow for collecting, cleaning, analyzing, and reporting empirical evidence related to PsyCalc hypotheses.
+Create a review-gated multi-agent workflow for collecting, cleaning, analyzing, and reporting empirical evidence related to Before We Build hypotheses.
 
 ## Core Rule
 

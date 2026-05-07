@@ -14,7 +14,7 @@ sources: [wiki/concepts/main-idea.md, wiki/concepts/compatibility-level-boundari
 
 Мови: [[test-result-reading-guide|English]] | [[test-result-reading-guide-ru|Русский]] | **Українська**
 
-Використовуйте цю сторінку як **посібник із читання**, а не як доказ остаточного типування. У PsyCalc результат тесту — це **пілотна гіпотеза**, яку ще потрібно зіставити зі спостереженнями, самоописом і альтернативами. Див. [[main-idea-uk]] і [[compatibility-level-boundaries-uk]].
+Використовуйте цю сторінку як **посібник із читання**, а не як доказ остаточного типування. У Before We Build результат тесту — це **пілотна гіпотеза**, яку ще потрібно зіставити зі спостереженнями, самоописом і альтернативами. Див. [[main-idea-uk]] і [[compatibility-level-boundaries-uk]].
 
 ## Розділення рівнів
 

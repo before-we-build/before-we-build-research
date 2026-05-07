@@ -11,7 +11,7 @@ sources: [wiki/concepts/main-idea.md, wiki/concepts/compatibility-level-boundari
 
 # Test Result Reading Guide
 
-Use this page as a **reading guide**, not as proof of final typing. In PsyCalc, a test result is a **pilot hypothesis** that still needs comparison with observation, self-description, and possible alternatives. See [[main-idea]] and [[compatibility-level-boundaries]].
+Use this page as a **reading guide**, not as proof of final typing. In Before We Build, a test result is a **pilot hypothesis** that still needs comparison with observation, self-description, and possible alternatives. See [[main-idea]] and [[compatibility-level-boundaries]].
 
 ## Level Separation
 
