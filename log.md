@@ -4,6 +4,10 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-05-07] ingest | Psychosophy relation naming source update
+
+Added `raw/psychosophy/psychosophy-relation-naming-sources.md` to record source-status distinctions between classical Psychosophy Greek labels, the Typologies.ru / 4X_Pro 24-signature technical extension, Before We Build working labels, and Attitudinal Psyche branch relation names. Updated `wiki/relations/psychosophy-intertype-relations.md` with the Russian technical signature labels and Attitudinal Psyche comparison list, and updated `wiki/concepts/intertype-relation-naming-audit.md` so product-facing labels remain mechanism-first and source-labeled rather than romanticized or canonically overclaimed.
+
 ## [2026-04-30] ingest | Localized Temporistics archetypes
 
 Added Russian and Ukrainian pages for the 16 Temporistics aspect-position archetypes, including a dedicated Ukrainian explanation of 3F / 3-е Майбутнє as `stowaway-bezbiletnik-uk.md`. Updated Temporistics overview links to localized archetype pages and corrected Ukrainian display names: `Безквитковий` → `Безквитник`, `Обиватель` → `Міщанин`, plus mixed-language aspect labels in the Ukrainian overview.

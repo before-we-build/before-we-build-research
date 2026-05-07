@@ -3,8 +3,8 @@ title: Psychosophy Intertype Relations
 type: relation
 tags: [psychosophy, relations, compatibility, afanasyev, syntax-of-love, agape, philia, eros]
 created: 2026-04-15
-updated: 2026-04-24
-sources: [raw/psychosophy/psychosophy-compatibility-research.md, wiki/concepts/afanasyev-syntax-of-love.md, wiki/sources/psychosophy-detailed.md, wiki/concepts/compatibility-level-boundaries.md]
+updated: 2026-05-07
+sources: [raw/psychosophy/psychosophy-compatibility-research.md, raw/psychosophy/psychosophy-relation-naming-sources.md, wiki/concepts/afanasyev-syntax-of-love.md, wiki/sources/psychosophy-detailed.md, wiki/concepts/compatibility-level-boundaries.md]
 ---
 
 # Psychosophy Intertype Relations
@@ -88,6 +88,61 @@ The current source summary identifies four basic models:
 These names are more source-grounded than the reconstructed Temporistics labels, but they should still be used as compatibility hypotheses rather than deterministic judgments.
 
 Source note: some summaries of Afanasyev's Greek models mention **Storge**, while the current Before We Build compatibility source and matrix use **Pseudophilia**. Before We Build keeps Pseudophilia as the current working display label, pending primary-source verification.
+
+
+## 3.1 Naming Traditions Beyond the Four Classical Models
+
+Additional web-source reconnaissance found two major attempts to extend or rename Psychosophy/Psyche-Yoga relations beyond the four Greek-model labels. These are useful, but they should be kept separate by source tradition.
+
+### Russian technical 24-signature extension
+
+The Typologies.ru / 4X_Pro article “Интертипные отношения с точки зрения межфункционных взаимодействий” gives a systematic 24-signature account of Psychosophy relations. It uses an analogous four-digit signature notation plus a technical composition notation. Do **not** assume its signature-to-name mapping is identical to the current Before We Build code legend; differences should be recorded as source-tradition conflicts pending deeper audit.
+
+- `F` — **филия / Philia** contact;
+- `Q` — **квазиэрос / Quasi-eros** contact;
+- `E` — **эрос / Eros** contact;
+- `A` — **агапэ / Agape** contact.
+
+In that taxonomy, only some of the 24 signatures receive informal names. The rest remain technical compositions.
+
+| Signature | Typologies.ru composition / informal Russian label | Before We Build treatment |
+|---|---|---|
+| `1234` | `F-F-F-F` — полная филия | source-aware synonym for PH / Philia |
+| `1243` | `F-F-Q-Q` — верхняя филия | technical-extension synonym; compare PPH cautiously |
+| `1423` | `F-E-A-Q` | technical composition only |
+| `1432` | `F-E-F-E` — нижний эрос | technical-extension synonym; not product-facing by default |
+| `1342` | `F-A-Q-E` | technical composition only |
+| `1324` | `F-A-A-F` — процессионное агапэ | technical-extension synonym |
+| `3124` | `E-Q-A-F` | technical composition only |
+| `3142` | `E-Q-Q-E` — асимметричный результативный эрос | technical-extension synonym |
+| `3412` | `E-E-E-E` — полный эрос | source-aware synonym for ER / Eros |
+| `3421` | `E-E-A-A` — асимметричное нижнее агапэ | technical-extension synonym |
+| `3241` | `E-F-Q-A` | technical composition only |
+| `3214` | `E-F-E-F` — верхний эрос | technical-extension synonym |
+| `2314` | `Q-A-E-F` | technical composition only |
+| `2341` | `Q-A-Q-A` — асимметричное согласующее агапэ | technical-extension synonym |
+| `2431` | `Q-E-F-A` | technical composition only |
+| `2413` | `Q-E-E-Q` — асимметричный процессионный эрос | technical-extension synonym |
+| `2134` | `Q-Q-F-F` — нижняя филия | technical-extension synonym; note current matrix maps `2134` to AG |
+| `2143` | `Q-Q-Q-Q` — полный квазиэрос | technical-extension synonym; note current matrix maps `2143` to ORD |
+| `4213` | `A-F-E-Q` | technical composition only |
+| `4231` | `A-F-F-A` — результативное агапэ | technical-extension synonym |
+| `4321` | `A-A-A-A` — полное агапэ | technical-extension synonym; compare CS cautiously |
+| `4312` | `A-A-E-E` — асимметричное верхнее агапэ | technical-extension synonym |
+| `4132` | `A-Q-F-E` | technical composition only |
+| `4123` | `A-Q-A-Q` — асимметричное верхнее агапэ | technical-extension synonym |
+
+Caveat: these names are not treated here as canonical Afanasyev labels. They are a useful Russian technical extension for describing **interfunctional composition**, not a calibrated relationship-success taxonomy. Some signature-to-display-name choices differ from the current Before We Build matrix; those conflicts should be handled as source-status differences, not silently merged.
+
+### Attitudinal Psyche branch terminology
+
+Attitudinal Psyche has a more complete English named-relation system, including **Dual**, **Identical**, **Solution**, **Sister**, **Square**, **Radiance**, **Instruction**, **Triangular**, **Invention**, **Assistance**, **Enhancement**, **Regulation**, **Linear**, **Near-Identical**, **Cousin**, **Customary**, **Specificity**, **Faux-Identical**, **Suffocation**, and **Conflict**.
+
+Before We Build should cite these only as **Attitudinal Psyche relation labels**, not as classical Russian Psychosophy names and not as Socionics equivalents. A safe phrasing is:
+
+```text
+Attitudinal Psyche calls this relation X; classical Psychosophy / Before We Build may describe the same or similar structural contact differently.
+```
 
 ## 4. Position-Contact Principles
 

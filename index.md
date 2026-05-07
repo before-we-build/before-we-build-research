@@ -354,6 +354,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | psychosophy-quadras.md | Unofficial psychosophy sextas/quadras and type clusters | Psychosophy Library / community sources |
 | psychosophy-accentuations.md | Unofficial/community accentuation layer requiring source-status caveats | BestSocionics |
 | psychosophy-compatibility-research.md | Synthax of Love, 4 Greek models, function compatibility | Multiple sources |
+| psychosophy-relation-naming-sources.md | Source note for classical Greek labels, Typologies.ru 24-signature technical labels, and Attitudinal Psyche branch relation names | Sociomodel, Typologies.ru, Attitudinal Psyche |
 
 ### Intertype Relations
 
@@ -361,7 +362,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 |------|---------|---------|
 | [[socionics-intertype-relations]] | Overview of Socionics relation classes with asymmetric role notes | raw/socionics/intertype-relations.md |
 | [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures and hypotheses | raw/temporistics/types.md, project reconstruction |
-| [[psychosophy-intertype-relations]] | Greek-model tradition plus Before We Build working 24×24 operational matrix | Syntax of Love, project matrix |
+| [[psychosophy-intertype-relations]] | Greek-model tradition, Russian 24-signature technical labels, Attitudinal Psyche branch labels, and Before We Build working 24×24 operational matrix | Syntax of Love, Typologies.ru, Attitudinal Psyche, project matrix |
 
 ### socionics/
 
@@ -413,10 +414,10 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 48 (including typology-test-evaluation-expert)
-- **Raw sources**: 58 (21 temporistics + 8 psychosophy + 12 socionics + 17 general)
+- **Raw sources**: 59 (21 temporistics + 9 psychosophy + 12 socionics + 17 general)
 - **Wiki pages**: 112 (38 concepts + 35 entities + 3 relations + 32 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
-- **Articles ingested**: 58 raw sources plus derived web/source pages
+- **Articles ingested**: 59 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
 - **Concepts**: 38
-- **Last updated**: 2026-04-25
+- **Last updated**: 2026-05-07

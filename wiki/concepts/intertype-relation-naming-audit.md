@@ -3,8 +3,8 @@ title: Intertype Relation Naming Audit
 type: concept
 tags: [intertype-relations, naming, methodology, socionics, psychosophy, temporistics, before-we-build]
 created: 2026-04-24
-updated: 2026-04-24
-sources: [wiki/relations/socionics-intertype-relations.md, wiki/relations/psychosophy-intertype-relations.md, wiki/relations/temporistics-intertype-relations.md, wiki/concepts/compatibility-level-boundaries.md]
+updated: 2026-05-07
+sources: [wiki/relations/socionics-intertype-relations.md, wiki/relations/psychosophy-intertype-relations.md, wiki/relations/temporistics-intertype-relations.md, raw/psychosophy/psychosophy-relation-naming-sources.md, wiki/concepts/compatibility-level-boundaries.md]
 ---
 
 # Intertype Relation Naming Audit
@@ -88,7 +88,38 @@ Psychosophy names should be split into two groups: classical labels and extended
 
 These labels can remain because they are source-backed in the Psychosophy tradition, but each should be paired with an operational descriptor.
 
-### 5.2 Extended and Before We Build working labels
+### 5.2 Russian technical 24-signature labels
+
+A later Russian technical extension, represented by the Typologies.ru / 4X_Pro article on interfunctional interactions, gives a full 24-signature notation and labels some signatures with informal names. These should be stored as **technical-extension synonyms**, not silently promoted to canonical Afanasyev labels.
+
+| Signature | Russian technical label / composition | Audit note |
+|---|---|---|
+| `1234` | полная филия (`F-F-F-F`) | source-aware synonym for full same-position recognition |
+| `1243` | верхняя филия (`F-F-Q-Q`) | technical label; requires mechanism subtitle |
+| `1432` | нижний эрос (`F-E-F-E`) | technical label; may sound romantic if unqualified |
+| `1324` | процессионное агапэ (`F-A-A-F`) | useful structural label, but do not imply ideal fit |
+| `3142` | асимметричный результативный эрос (`E-Q-Q-E`) | technical asymmetry label |
+| `3412` | полный эрос (`E-E-E-E`) | source-aware synonym for full Eros-like pressure/attraction |
+| `3421` | асимметричное нижнее агапэ (`E-E-A-A`) | technical asymmetry label |
+| `3214` | верхний эрос (`E-F-E-F`) | technical label; may sound romantic if unqualified |
+| `2341` | асимметричное согласующее агапэ (`Q-A-Q-A`) | technical asymmetry label |
+| `2413` | асимметричный процессионный эрос (`Q-E-E-Q`) | technical asymmetry label |
+| `2134` | нижняя филия (`Q-Q-F-F`) | technical label; compare current matrix cautiously |
+| `2143` | полный квазиэрос (`Q-Q-Q-Q`) | source-aware synonym for full Quasi-eros/Pseudophilia composition |
+| `4231` | результативное агапэ (`A-F-F-A`) | technical label |
+| `4321` | полное агапэ (`A-A-A-A`) | technical label; avoid “perfect match” implication |
+| `4312` | асимметричное верхнее агапэ (`A-A-E-E`) | technical asymmetry label |
+| `4123` | асимметричное верхнее агапэ (`A-Q-A-Q`) | technical asymmetry label |
+
+The remaining signatures in the same source are named primarily by technical composition (`F-E-A-Q`, `F-A-Q-E`, `E-Q-A-F`, etc.) rather than by compact folk-style names.
+
+### 5.3 Attitudinal Psyche branch labels
+
+Attitudinal Psyche has a separate English relation vocabulary: **Dual**, **Identical**, **Solution**, **Sister**, **Square**, **Radiance**, **Instruction**, **Triangular**, **Invention**, **Assistance**, **Enhancement**, **Regulation**, **Linear**, **Near-Identical**, **Cousin**, **Customary**, **Specificity**, **Faux-Identical**, **Suffocation**, and **Conflict**.
+
+These names are useful comparative data, but they are not automatically equivalent to classical Russian Psychosophy, Typologies.ru signatures, or Socionics names. Use source-labeled phrasing: “Attitudinal Psyche calls this relation X.”
+
+### 5.4 Extended and Before We Build working labels
 
 | Current / code label | Assessment | Recommendation |
 |---|---|---|
@@ -105,7 +136,7 @@ These labels can remain because they are source-backed in the Psychosophy tradit
 | Shared Wound | good mechanism name | keep as Shared Wound |
 | Full Complement | acceptable but must avoid “ideal” meaning | High Complementarity with Pressure Risk |
 
-Policy: Psychosophy should use hybrid names: traditional Greek label plus mechanism descriptor for classical relations; mechanism-first names for working or extended relations.
+Policy: Psychosophy should use hybrid names: traditional Greek label plus mechanism descriptor for classical relations; Russian technical labels and Attitudinal Psyche names may be recorded as source-specific synonyms; mechanism-first names remain preferred for user-facing Before We Build output.
 
 ## 6. Temporistics Naming Audit
 
