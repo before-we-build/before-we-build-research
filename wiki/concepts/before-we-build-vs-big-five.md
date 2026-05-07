@@ -1,34 +1,34 @@
 ---
-title: PsyCalc vs Big Five
+title: Before We Build vs Big Five
 type: concept
-tags: [psycalc, big-five, methodology, validation, latent-processes, compatibility]
+tags: [before-we-build, big-five, methodology, validation, latent-processes, compatibility]
 created: 2026-04-24
 updated: 2026-04-24
 sources: [wiki/concepts/main-idea.md, wiki/concepts/project-positioning.md, wiki/concepts/compatibility-level-boundaries.md, wiki/concepts/weight-calibration.md, wiki/concepts/big-five-alternatives.md]
 ---
 
-# PsyCalc vs Big Five
+# Before We Build vs Big Five
 
-This page explains why PsyCalc may add value beyond Big Five for compatibility architecture, role-fit, and AI simulation, while preserving the crucial caveat that Big Five has much stronger empirical and psychometric support. PsyCalc should not be positioned as a scientifically proven replacement for Big Five. It should be positioned as a heuristic latent-process framework that explores questions broad trait models do not fully answer.
+This page explains why Before We Build may add value beyond Big Five for compatibility architecture, role-fit, and AI simulation, while preserving the crucial caveat that Big Five has much stronger empirical and psychometric support. Before We Build should not be positioned as a scientifically proven replacement for Big Five. It should be positioned as a heuristic latent-process framework that explores questions broad trait models do not fully answer.
 
 ## 1. Short Positioning Statement
 
-PsyCalc does not compete with Big Five as a more validated personality taxonomy. Big Five remains the empirical baseline for broad trait description. PsyCalc explores whether Socionics, Psychosophy, and Temporistics, reinterpreted as latent-process hypotheses, can generate finer-grained predictions about dyadic coordination, compatibility, role-fit, and simulation dynamics.
+Before We Build does not compete with Big Five as a more validated personality taxonomy. Big Five remains the empirical baseline for broad trait description. Before We Build explores whether Socionics, Psychosophy, and Temporistics, reinterpreted as latent-process hypotheses, can generate finer-grained predictions about dyadic coordination, compatibility, role-fit, and simulation dynamics.
 
-The scientific value of PsyCalc depends on whether these hypotheses show reliability, discriminant validity, and incremental predictive validity beyond established measures such as Big Five, attachment, values, time perspective, decision style, and conflict style.
+The scientific value of Before We Build depends on whether these hypotheses show reliability, discriminant validity, and incremental predictive validity beyond established measures such as Big Five, attachment, values, time perspective, decision style, and conflict style.
 
 ## 2. Different Questions
 
-Big Five and PsyCalc answer different methodological questions.
+Big Five and Before We Build answer different methodological questions.
 
 | Framework | Primary question | Best use |
 |---|---|---|
 | **Big Five** | What broad trait tendencies does this person show? | Descriptive personality measurement, population research, baseline prediction |
-| **PsyCalc** | What latent process hypotheses can explain how this person models information, organizes action, and constructs temporal meaning? | Compatibility architecture, interaction explanation, role-fit, AI simulation |
+| **Before We Build** | What latent process hypotheses can explain how this person models information, organizes action, and constructs temporal meaning? | Compatibility architecture, interaction explanation, role-fit, AI simulation |
 
-Big Five is strongest as a descriptive trait taxonomy. PsyCalc is designed as a process-oriented modeling architecture.
+Big Five is strongest as a descriptive trait taxonomy. Before We Build is designed as a process-oriented modeling architecture.
 
-## 3. Required PsyCalc Formula
+## 3. Required Before We Build Formula
 
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
@@ -51,23 +51,23 @@ It is stronger for:
 
 For relationship research, Big Five can provide important signals. For example, Neuroticism often relates to relationship distress, while Agreeableness and Conscientiousness often support cooperation, reliability, and conflict regulation.
 
-## 5. Where PsyCalc May Add Value
+## 5. Where Before We Build May Add Value
 
-PsyCalc may be more useful when the task is not only to describe an individual, but to model interaction architecture.
+Before We Build may be more useful when the task is not only to describe an individual, but to model interaction architecture.
 
 ### 5.1 Compatibility architecture
 
-Big Five describes broad tendencies. PsyCalc tries to model where friction and complementarity may arise across three levels:
+Big Five describes broad tendencies. Before We Build tries to model where friction and complementarity may arise across three levels:
 
 - tactical information exchange;
 - operational action coordination;
 - strategic temporal and existential direction.
 
-This makes PsyCalc more naturally suited to pairwise compatibility hypotheses, conflict-pattern mapping, complementarity analysis, and multi-level scoring. See [[compatibility-level-boundaries]].
+This makes Before We Build more naturally suited to pairwise compatibility hypotheses, conflict-pattern mapping, complementarity analysis, and multi-level scoring. See [[compatibility-level-boundaries]].
 
 ### 5.2 Process-level explanation
 
-Big Five may say that one person is high in Conscientiousness or low in Agreeableness. PsyCalc tries to ask a more process-oriented question: what kind of latent mechanism might generate the observed pattern?
+Big Five may say that one person is high in Conscientiousness or low in Agreeableness. Before We Build tries to ask a more process-oriented question: what kind of latent mechanism might generate the observed pattern?
 
 For example:
 
@@ -75,11 +75,11 @@ For example:
 - Is it about decision pressure and role ownership?
 - Is it about different temporal horizons and meaning structures?
 
-This does not make PsyCalc more validated. It makes it potentially more explanatory for interpersonal design.
+This does not make Before We Build more validated. It makes it potentially more explanatory for interpersonal design.
 
 ### 5.3 Role-fit and division of labor
 
-PsyCalc may help generate hypotheses about who naturally stabilizes which domain:
+Before We Build may help generate hypotheses about who naturally stabilizes which domain:
 
 - information interpretation and communication repair;
 - decision ownership and pressure handling;
@@ -91,7 +91,7 @@ This is useful for couples, teams, cofounders, service roles, military-role advi
 
 ### 5.4 AI simulation
 
-Trait vectors can parameterize agents, but they often under-specify interaction procedures. PsyCalc offers a more explicit vocabulary for simulation:
+Trait vectors can parameterize agents, but they often under-specify interaction procedures. Before We Build offers a more explicit vocabulary for simulation:
 
 - what a person notices;
 - what information format feels clarifying or irritating;
@@ -99,7 +99,7 @@ Trait vectors can parameterize agents, but they often under-specify interaction 
 - what role distribution feels stabilizing;
 - how a person frames past, present, future, and meaning.
 
-Therefore, Big Five may be better for validated trait measurement, while PsyCalc may be better for interpretable simulation architecture.
+Therefore, Big Five may be better for validated trait measurement, while Before We Build may be better for interpretable simulation architecture.
 
 ## 6. Level-Specific Added Value
 
@@ -143,11 +143,11 @@ Useful questions include:
 
 This is useful for strategic compatibility and life-direction hypotheses, but it should not be reduced to Socionics Ni or treated as mystical destiny.
 
-## 7. What PsyCalc Must Not Claim
+## 7. What Before We Build Must Not Claim
 
-PsyCalc should avoid claims such as:
+Before We Build should avoid claims such as:
 
-- “PsyCalc is scientifically proven to be better than Big Five.”
+- “Before We Build is scientifically proven to be better than Big Five.”
 - “Types explain the whole person.”
 - “Compatibility can be calculated deterministically.”
 - “Socionics, Psychosophy, or Temporistics are validated because they are theoretically elegant.”
@@ -156,20 +156,20 @@ PsyCalc should avoid claims such as:
 
 Better language:
 
-- “PsyCalc may add process-level hypotheses.”
-- “PsyCalc is useful as an interpretive and simulation architecture.”
+- “Before We Build may add process-level hypotheses.”
+- “Before We Build is useful as an interpretive and simulation architecture.”
 - “Big Five remains the validated baseline.”
-- “The added value of PsyCalc must be tested empirically.”
+- “The added value of Before We Build must be tested empirically.”
 - “Compatibility outputs are decision aids, not fate statements.”
 
 ## 8. Validation Requirement
 
 The central research test is incremental validity.
 
-PsyCalc must eventually answer:
+Before We Build must eventually answer:
 
 ```text
-Do PsyCalc-derived process hypotheses predict interaction outcomes
+Do Before We Build-derived process hypotheses predict interaction outcomes
 better than, or in addition to, Big Five and other established baselines?
 ```
 
@@ -188,11 +188,11 @@ See [[weight-calibration]] for scoring and validation implications.
 
 ## 9. Bottom Line
 
-Big Five is better for validated broad trait description. PsyCalc may be better for process-rich compatibility hypotheses, role architecture, and interpretable AI simulation. The correct relationship is not replacement, but layering:
+Big Five is better for validated broad trait description. Before We Build may be better for process-rich compatibility hypotheses, role architecture, and interpretable AI simulation. The correct relationship is not replacement, but layering:
 
 ```text
 Big Five = validated descriptive baseline
-PsyCalc = heuristic latent-process and compatibility architecture
+Before We Build = heuristic latent-process and compatibility architecture
 ```
 
-PsyCalc earns scientific credibility only if its hypotheses become measurable, reliable, and predictive beyond existing baselines.
+Before We Build earns scientific credibility only if its hypotheses become measurable, reliable, and predictive beyond existing baselines.

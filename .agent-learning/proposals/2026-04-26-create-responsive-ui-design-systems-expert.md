@@ -23,7 +23,7 @@ The user explicitly requested a new specialized expert agent for responsive fron
 ## 3. Evidence
 
 - Audit/task result: direct user request in the current task.
-- File/page references: `.opencode/agents/psycalc-presentation-designer.md` and `.opencode/agents/visual-explainer.md` are adjacent visual/outreach roles but do not cover frontend implementation and responsive UI systems.
+- File/page references: `.opencode/agents/before-we-build-presentation-designer.md` and `.opencode/agents/visual-explainer.md` are adjacent visual/outreach roles but do not cover frontend implementation and responsive UI systems.
 - Source or policy references: `AGENTS.md` controlled agent self-improvement workflow.
 
 ## 4. Proposed instruction change

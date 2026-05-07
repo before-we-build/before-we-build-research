@@ -11,7 +11,7 @@ sources: []
 
 ## Summary
 
-PsyCalc / Cognitive Matchmaker is being reframed around the conviction that a strong family is built not only on feelings, attraction, or compatibility signals, but on shared values, fidelity, responsibility, forgiveness, mature love, and a supportive community. Christian faith gives this a deep foundation, while typologies remain only secondary tools for self-understanding and conversation.
+Before We Build / Cognitive Matchmaker is being reframed around the conviction that a strong family is built not only on feelings, attraction, or compatibility signals, but on shared values, fidelity, responsibility, forgiveness, mature love, and a supportive community. Christian faith gives this a deep foundation, while typologies remain only secondary tools for self-understanding and conversation.
 
 **Biblical grounding for the summary:**
 

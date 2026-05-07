@@ -18,7 +18,7 @@ The Russian page lists the conference as 20–22 September 2025. The Ukrainian p
 
 ## Relevant items only
 
-This note preserves only the three items requested for PsyCalc tracking, not the full conference program.
+This note preserves only the three items requested for Before We Build tracking, not the full conference program.
 
 1. **A. V. Bukalov** — “Психофизиологические корреляты: у соционики, типологии Юнга, MBTI – есть, у BIG5 – отсутствуют” / Ukrainian schedule equivalent.
 2. **Yu. P. Minaev** — “О повышении точности типирования по мере овладения новыми биполярными признаками типов” / Ukrainian schedule equivalent.

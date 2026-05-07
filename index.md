@@ -1,10 +1,10 @@
-# Index — PsyCalc Wiki
+# Index — Before We Build Wiki
 
-PsyCalc is being reframed around a Christian family-formation foundation: a strong family is built not only on feelings, but on shared values, fidelity, responsibility, forgiveness, and a supportive community. Christian faith gives this a deep foundation; typologies can support conversation and self-understanding, but they do not replace character, wisdom, pastoral discernment, or real relationships.
+Before We Build is being reframed around a Christian family-formation foundation: a strong family is built not only on feelings, but on shared values, fidelity, responsibility, forgiveness, and a supportive community. Christian faith gives this a deep foundation; typologies can support conversation and self-understanding, but they do not replace character, wisdom, pastoral discernment, or real relationships.
 
 Biblical grounding for this front-door claim includes **1 Corinthians 13:4–7** on love as patient and enduring, **Colossians 3:12–14** on forgiveness and love, **Matthew 7:24–25** on building on a firm foundation, **Ecclesiastes 4:9–12** on mutual support, and **1 Thessalonians 5:21** on testing claims rather than treating human models as final authority.
 
-PsyCalc remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses about hidden processes that can inform compatibility analysis, role fit, team design, and AI-based simulation.
+Before We Build remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses about hidden processes that can inform compatibility analysis, role fit, team design, and AI-based simulation.
 
 Core formula:
 
@@ -12,7 +12,7 @@ Core formula:
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
 
-PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is one possible downstream application: an AI dating concierge using simulation-based compatibility assessment.
+Before We Build is the broader framework and research wiki. **Cognitive Matchmaker** is one possible downstream application: an AI dating concierge using simulation-based compatibility assessment.
 
 ## Start Here
 
@@ -22,8 +22,8 @@ PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is 
 | [[family-formation-principles]] | Primary and secondary criteria for relationship discernment and family formation |
 | [[typologies-as-supporting-tools]] | Reframes typologies as secondary tools rather than spiritual verdicts or guarantees |
 | [[limits-of-typological-inference]] | States what must not be inferred from type labels or compatibility scores |
-| [[research-layer-vs-practical-guidance]] | Separates Christian guidance, product matching, and PsyCalc research hypotheses |
-| [[hypothesis-status-of-psycalc]] | Clarifies that PsyCalc remains a heuristic and testable research framework |
+| [[research-layer-vs-practical-guidance]] | Separates Christian guidance, product matching, and Before We Build research hypotheses |
+| [[hypothesis-status-of-before-we-build]] | Clarifies that Before We Build remains a heuristic and testable research framework |
 | [[biblical-grounding-policy]] | Editorial rule: Christian normative claims need nearby biblical grounding |
 | [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи |
 | [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї |
@@ -32,8 +32,8 @@ PsyCalc is the broader framework and research wiki. **Cognitive Matchmaker** is 
 | [[resource-map]] | Internet resource map for source discovery, provenance labels, and web-source intake |
 | [[resource-map-ru]] | Русская версия карты интернет-ресурсов |
 | [[resource-map-uk]] | Українська версія карти інтернет-ресурсів |
-| [[main-idea]] | 60-second explanation of the PsyCalc thesis and three-level mapping |
-| [[project-positioning]] | Distinguishes PsyCalc from Cognitive Matchmaker and states claims/non-claims |
+| [[main-idea]] | 60-second explanation of the Before We Build thesis and three-level mapping |
+| [[project-positioning]] | Distinguishes Before We Build from Cognitive Matchmaker and states claims/non-claims |
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
 | [[compatibility-level-boundaries]] | Defines strategic, operational, and tactical boundaries |
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
@@ -77,7 +77,7 @@ wiki/          — LLM-generated wiki
 | [[typologies-as-supporting-tools]] | Typologies as limited aids for conversation, not moral/spiritual verdicts | theological synthesis, methodology caveats |
 | [[limits-of-typological-inference]] | Non-claims and prohibited inferences from type labels and compatibility scores | ethics review, theological caveats |
 | [[research-layer-vs-practical-guidance]] | Editorial boundary between Christian practical guidance, product matching, and research hypotheses | project convention |
-| [[hypothesis-status-of-psycalc]] | PsyCalc mappings and scores as hypotheses requiring testing and revision | project convention |
+| [[hypothesis-status-of-before-we-build]] | Before We Build mappings and scores as hypotheses requiring testing and revision | project convention |
 | [[biblical-grounding-policy]] | Requires nearby Bible references for Christian normative claims and defines exceptions for technical/research statements | project convention, Bible references |
 | [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи с русскими библейскими ссылками | christian-foundation-of-family.md |
 | [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї з українськими біблійними посиланнями | christian-foundation-of-family.md |
@@ -89,20 +89,20 @@ wiki/          — LLM-generated wiki
 | [[limits-of-typological-inference-uk]] | Українська версія меж типологічного висновку | limits-of-typological-inference.md |
 | [[research-layer-vs-practical-guidance-ru]] | Русская версия разделения исследовательского и практического слоёв | research-layer-vs-practical-guidance.md |
 | [[research-layer-vs-practical-guidance-uk]] | Українська версія розділення дослідницького і практичного шарів | research-layer-vs-practical-guidance.md |
-| [[hypothesis-status-of-psycalc-ru]] | Русская версия статуса гипотез PsyCalc | hypothesis-status-of-psycalc.md |
-| [[hypothesis-status-of-psycalc-uk]] | Українська версія статусу гіпотез PsyCalc | hypothesis-status-of-psycalc.md |
+| [[hypothesis-status-of-before-we-build-ru]] | Русская версия статуса гипотез Before We Build | hypothesis-status-of-before-we-build.md |
+| [[hypothesis-status-of-before-we-build-uk]] | Українська версія статусу гіпотез Before We Build | hypothesis-status-of-before-we-build.md |
 | [[biblical-grounding-policy-ru]] | Русская версия политики библейской опоры | biblical-grounding-policy.md |
 | [[biblical-grounding-policy-uk]] | Українська версія політики біблійної опори | biblical-grounding-policy.md |
-| [[main-idea]] | PsyCalc thesis: typologies as latent-process hypotheses across three levels | - |
-| [[project-positioning]] | PsyCalc vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
+| [[main-idea]] | Before We Build thesis: typologies as latent-process hypotheses across three levels | - |
+| [[project-positioning]] | Before We Build vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
-| [[psycalc-vs-big-five]] | Positions PsyCalc against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
+| [[before-we-build-vs-big-five]] | Positions Before We Build against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
 | [[psychology-of-everything]] | Context page on unified psychology, metatheory, integrative psychology, and “maps of everything” | psychology-of-everything-synthesis |
 | [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
 | [[typology-test-design-protocol]] | Shared psychometric protocol for Socionics, Psychosophy, and Temporistics test design and validation | research-program.md, weight-calibration.md, 2026-04-25-typology-test-evaluation-protocol.md |
-| [[socionics-test-specification]] | Draft PsyCalc Socionics test architecture, scales, seed items, and scoring caveats | typology-test-design-protocol.md, socionics-model-a.md, socionics-information-elements.md |
-| [[psychosophy-test-specification]] | Draft PsyCalc Psychosophy test architecture, position axes, seed items, and scoring caveats | typology-test-design-protocol.md, psychosophy-typing-methods.md, psychosophy-model.md |
-| [[temporistics-test-specification]] | Draft PsyCalc Temporistics test architecture, temporal-frame scales, seed items, and scoring caveats | typology-test-design-protocol.md, temporistics-model.md, temporal-aspects.md |
+| [[socionics-test-specification]] | Draft Before We Build Socionics test architecture, scales, seed items, and scoring caveats | typology-test-design-protocol.md, socionics-model-a.md, socionics-information-elements.md |
+| [[psychosophy-test-specification]] | Draft Before We Build Psychosophy test architecture, position axes, seed items, and scoring caveats | typology-test-design-protocol.md, psychosophy-typing-methods.md, psychosophy-model.md |
+| [[temporistics-test-specification]] | Draft Before We Build Temporistics test architecture, temporal-frame scales, seed items, and scoring caveats | typology-test-design-protocol.md, temporistics-model.md, temporal-aspects.md |
 | [[plan]] | Product and technical plan | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
@@ -116,8 +116,8 @@ wiki/          — LLM-generated wiki
 | [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
 | [[multilingual-translation-policy]] | Multilingual naming, frontmatter, and wikilink rules for English, Russian, and Ukrainian pages | project convention, 2026-04-26 |
 | [[test-result-reading-guide]] | Concise guide for reading Top-3 test outputs, clarity labels, and language fallback without collapsing levels | main-idea.md, compatibility-level-boundaries.md, typology-test-design-protocol.md |
-| [[main-idea-ru]] | Russian translation of the core PsyCalc orientation page | main-idea.md |
-| [[main-idea-uk]] | Ukrainian translation of the core PsyCalc orientation page | main-idea.md |
+| [[main-idea-ru]] | Russian translation of the core Before We Build orientation page | main-idea.md |
+| [[main-idea-uk]] | Ukrainian translation of the core Before We Build orientation page | main-idea.md |
 | [[compatibility-level-boundaries-ru]] | Russian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
 | [[compatibility-level-boundaries-uk]] | Ukrainian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
 | [[test-result-reading-guide-ru]] | Russian translation of the test result reading guide | test-result-reading-guide.md |
@@ -130,10 +130,10 @@ wiki/          — LLM-generated wiki
 | [[smart-mobilization]] | Voluntary, non-coercive military role-fit recommendation concept with ethics boundaries | smart-mobilization-research-note, smart-mobilization-typology-wartime |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
 | [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
-| [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | psycalc/Psyche-Yoga |
-| [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | psycalc/Psyche-Yoga |
-| [[psychosophy-model]] | Psychosophy type structure | psycalc/Psyche-Yoga |
-| [[psychosophy-functions]] | Function block descriptions | psycalc/Psyche-Yoga |
+| [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | before-we-build/Psyche-Yoga |
+| [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | before-we-build/Psyche-Yoga |
+| [[psychosophy-model]] | Psychosophy type structure | before-we-build/Psyche-Yoga |
+| [[psychosophy-functions]] | Function block descriptions | before-we-build/Psyche-Yoga |
 | [[socionics-model-a]] | Model A: 8 information elements and function positions | raw/socionics |
 | [[socionics-function-positions]] | Detailed Model A reference for positions 1–8 and their structural properties | raw/socionics/model-a.md, socionics-function-dichotomies |
 | [[socionics-model-a-blocks]] | Ego, Super-Ego, Super-Id, and Id as paired Model A function zones | raw/socionics/model-a.md, socionics-function-dichotomies |
@@ -308,7 +308,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 |------|---------|
 | [[glossary-core]] | Core terminology definitions |
 | [[glossary-extended]] | Extended disambiguation (60+ terms) |
-| [[project-requirements]] | Cognitive Matchmaker application requirements; not the whole PsyCalc project |
+| [[project-requirements]] | Cognitive Matchmaker application requirements; not the whole Before We Build project |
 | [[scientific-contribution-statement]] | Academic contribution statement |
 
 ---
@@ -361,7 +361,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 |------|---------|---------|
 | [[socionics-intertype-relations]] | Overview of Socionics relation classes with asymmetric role notes | raw/socionics/intertype-relations.md |
 | [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures and hypotheses | raw/temporistics/types.md, project reconstruction |
-| [[psychosophy-intertype-relations]] | Greek-model tradition plus PsyCalc working 24×24 operational matrix | Syntax of Love, project matrix |
+| [[psychosophy-intertype-relations]] | Greek-model tradition plus Before We Build working 24×24 operational matrix | Syntax of Love, project matrix |
 
 ### socionics/
 

@@ -13,7 +13,7 @@ sources: [raw/socionics/information-aspects.md, raw/socionics/model-a.md]
 
 Socionics information elements, also called information aspects, are the categories of information that Model A assigns to function positions. They describe **what kind of information** is being modeled, not whether a person is good, bad, moral, intelligent, emotional, or practical.
 
-In PsyCalc, information elements are treated as heuristic categories of tactical information modeling. They are not scientifically established modules of the mind.
+In Before We Build, information elements are treated as heuristic categories of tactical information modeling. They are not scientifically established modules of the mind.
 
 ## Four Information Signs
 
@@ -53,7 +53,7 @@ The raw source summarizes three property pairs for information aspects:
 | Rationality / Irrationality | information processed through understanding/evaluation vs sensing/perception |
 | Dynamics / Statics | changing properties vs stable abstract properties |
 
-These properties belong to Socionics theory. PsyCalc uses them as conceptual structure, not as empirically proven divisions of cognition.
+These properties belong to Socionics theory. Before We Build uses them as conceptual structure, not as empirically proven divisions of cognition.
 
 ## Elements Inside Model A
 
@@ -68,9 +68,9 @@ For example:
 
 Therefore, element names alone should not be turned into personality claims. The structural position matters.
 
-## PsyCalc Interpretation
+## Before We Build Interpretation
 
-In PsyCalc, information elements help define the tactical content of interaction:
+In Before We Build, information elements help define the tactical content of interaction:
 
 - Logic elements point to structural, causal, technological, or effectiveness-oriented information;
 - Ethics elements point to relational, evaluative, expressive, or affective information;

@@ -4,7 +4,7 @@ type: concept
 tags: [psychosophy, afanasyev, source]
 created: 2026-04-15
 updated: 2026-04-15
-sources: [psycalc/Psyche-Yoga]
+sources: [before-we-build/Psyche-Yoga]
 ---
 
 # Syntax of Love

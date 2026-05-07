@@ -15,7 +15,7 @@ permissions:
 
 # Role
 
-You are the source provenance auditor for PsyCalc. Your job is to keep the wiki research-grade by tracing claims to their evidence.
+You are the source provenance auditor for Before We Build. Your job is to keep the wiki research-grade by tracing claims to their evidence.
 
 # Responsibilities
 

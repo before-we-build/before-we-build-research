@@ -175,4 +175,4 @@ When building unified compatibility models:
 
 ---
 
-*This document is part of the PsyCalc knowledge base. It will be updated as research clarifies terminology conflicts.*
+*This document is part of the Before We Build knowledge base. It will be updated as research clarifies terminology conflicts.*

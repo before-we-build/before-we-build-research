@@ -11,7 +11,7 @@ sources: [dario-nardi-neuroscience-of-personality, katherine-benziger-physiology
 
 This page is a **historical exploratory note**. It records early candidate analogies between typological constructs and neuroscience topics, but it should not be read as a validated brain-type map.
 
-Current PsyCalc policy: neuroscience is an external context layer for mechanism hypotheses, measurement design, and safety caveats. Do not infer typological type from brain regions, and do not infer brain pathology from typological type.
+Current Before We Build policy: neuroscience is an external context layer for mechanism hypotheses, measurement design, and safety caveats. Do not infer typological type from brain regions, and do not infer brain pathology from typological type.
 
 ## Jung's Cognitive Functions and Brain-Region Claims
 
@@ -28,7 +28,7 @@ Sources: Benziger (2013), Nardi (2020)
 
 ### Extraversion vs Introversion
 
-Eysenck's arousal theory has been used historically to discuss extraversion/introversion and the Reticular Activating System (RAS). This is a broad trait-theory claim, not a Socionics or PsyCalc type marker:
+Eysenck's arousal theory has been used historically to discuss extraversion/introversion and the Reticular Activating System (RAS). This is a broad trait-theory claim, not a Socionics or Before We Build type marker:
 - arousal-level hypotheses may inform general personality research;
 - they should not be used to infer Socionics extraversion/introversion;
 - they should not be used as clinical evidence.
@@ -76,7 +76,7 @@ Sources: Nature Reviews Neuroscience (2015), Cortex (2017)
 
 ## Removed Mapping Table
 
-An earlier version of this page contained a typology-to-brain-domain table. That table has been removed because it invited overinterpretation. Future neuroscience work should start from independently measurable cognitive or affective constructs, then ask whether PsyCalc scenarios generate testable behavioral hypotheses.
+An earlier version of this page contained a typology-to-brain-domain table. That table has been removed because it invited overinterpretation. Future neuroscience work should start from independently measurable cognitive or affective constructs, then ask whether Before We Build scenarios generate testable behavioral hypotheses.
 
 ## Big Five → Brain Networks
 

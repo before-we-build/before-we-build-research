@@ -9,9 +9,9 @@ sources: [raw/psychosophy/psychosophy-compatibility-research.md, wiki/concepts/a
 
 # Psychosophy Intertype Relations
 
-This page summarizes Psychosophy intertype relations for PsyCalc. Psychosophy has a more developed relation tradition than Temporistics, especially through Afanasyev's *Syntax of Love*, but the full 24 × 24 table below should still be treated as a structured working matrix rather than as empirically validated relationship fate.
+This page summarizes Psychosophy intertype relations for Before We Build. Psychosophy has a more developed relation tradition than Temporistics, especially through Afanasyev's *Syntax of Love*, but the full 24 × 24 table below should still be treated as a structured working matrix rather than as empirically validated relationship fate.
 
-In PsyCalc, Psychosophy operates at the **operational level**: it models how two people organize action, pressure, confidence, effort, emotion, logic, will, and practical embodiment.
+In Before We Build, Psychosophy operates at the **operational level**: it models how two people organize action, pressure, confidence, effort, emotion, logic, will, and practical embodiment.
 
 ## 1. Status and Caveat
 
@@ -25,7 +25,7 @@ Less certain:
 
 - Some extended relation labels and scores come from later calculators or community summaries.
 - The exact mapping from all 24 structural signatures to named relations may vary by source tradition.
-- The 24 × 24 matrix here is a **PsyCalc working matrix** based on the current repository's relation labels and structural signature method.
+- The 24 × 24 matrix here is a **Before We Build working matrix** based on the current repository's relation labels and structural signature method.
 
 ## 2. Theoretical Basis
 
@@ -87,7 +87,7 @@ The current source summary identifies four basic models:
 
 These names are more source-grounded than the reconstructed Temporistics labels, but they should still be used as compatibility hypotheses rather than deterministic judgments.
 
-Source note: some summaries of Afanasyev's Greek models mention **Storge**, while the current PsyCalc compatibility source and matrix use **Pseudophilia**. PsyCalc keeps Pseudophilia as the current working display label, pending primary-source verification.
+Source note: some summaries of Afanasyev's Greek models mention **Storge**, while the current Before We Build compatibility source and matrix use **Pseudophilia**. Before We Build keeps Pseudophilia as the current working display label, pending primary-source verification.
 
 ## 4. Position-Contact Principles
 
@@ -113,27 +113,27 @@ The full matrix uses compact codes. Some names are more established than others.
 | PH | Philia | `1234` | classical / source-backed | same type; recognition and similar problems |
 | PPH | Pseudophilia | `1243` | classical label, signature mapping provisional | surface similarity with lower-position mismatch |
 | MR | Mirage | `1324` | extended/community | attractive but unstable mismatch |
-| TMR | Partial Support with Misreading | `1342` | extended/community, renamed for PsyCalc display | partial help mixed with poor translation |
-| TAT | Asymmetric Support-Attraction | `1423` | extended/community, renamed for PsyCalc display | asymmetrical support/attraction without implying therapy |
+| TMR | Partial Support with Misreading | `1342` | extended/community, renamed for Before We Build display | partial help mixed with poor translation |
+| TAT | Asymmetric Support-Attraction | `1423` | extended/community, renamed for Before We Build display | asymmetrical support/attraction without implying therapy |
 | NT | Neutrality | `1432` | extended/community | low activation, polite distance |
 | AG | Agape | `2134` | classical label, signature mapping from current matrix | flexible support and operational complementarity |
 | ORD | Order | `2143` | extended/community | one leads, one follows |
-| AG2 | Asymmetric Guidance Chain | `2314` | PsyCalc working label | guidance chain with support and pressure components |
-| ROT | Forward Rotation | `2341` | PsyCalc working label | functions rotate through positions |
-| TG | Operational Guidance with Pressure Risk | `2413` | PsyCalc working label, renamed for PsyCalc display | guidance with pressure risk without implying therapy |
-| SUP | Supportive Inversion | `2431` | PsyCalc working label | partial inversion with support potential |
-| OR | Target-Wound Contact | `3124` | PsyCalc working display for extended/community mapping | strong function touches vulnerable function |
-| RV | Overpressure with Blind Compensation | `3142` | extended/community, renamed for PsyCalc display | corrective pressure partly offset by lower-position compensation |
-| RV2 | Target-Wound Inversion with Shared Lower Zones | `3214` | PsyCalc working display for extended/community mapping | stronger target-wound inversion with shared lower positions |
-| CP | Conflict Pressure | `3241` | PsyCalc working label | pressure around vulnerable zones |
+| AG2 | Asymmetric Guidance Chain | `2314` | Before We Build working label | guidance chain with support and pressure components |
+| ROT | Forward Rotation | `2341` | Before We Build working label | functions rotate through positions |
+| TG | Operational Guidance with Pressure Risk | `2413` | Before We Build working label, renamed for Before We Build display | guidance with pressure risk without implying therapy |
+| SUP | Supportive Inversion | `2431` | Before We Build working label | partial inversion with support potential |
+| OR | Target-Wound Contact | `3124` | Before We Build working display for extended/community mapping | strong function touches vulnerable function |
+| RV | Overpressure with Blind Compensation | `3142` | extended/community, renamed for Before We Build display | corrective pressure partly offset by lower-position compensation |
+| RV2 | Target-Wound Inversion with Shared Lower Zones | `3214` | Before We Build working display for extended/community mapping | stronger target-wound inversion with shared lower positions |
+| CP | Conflict Pressure | `3241` | Before We Build working label | pressure around vulnerable zones |
 | ER | Eros | `3412` | classical label, signature mapping provisional | intense attraction and wound activation |
-| EX | Mutual Damping of Operational Expression | `3421` | extended/community, renamed for PsyCalc display | distance, damping, formal respect |
-| AN | Anchor-Development Chain | `4123` | PsyCalc working label | strong-to-weak support with developmental chain |
-| ANW | Anchor with Wound | `4132` | PsyCalc working label | anchoring plus shared/activated vulnerability |
-| MX | Anchor-Pressure Exchange | `4213` | PsyCalc working label | support and pressure coexist |
-| SW | Shared Wound with Mutual Anchoring | `4231` | PsyCalc working label | shared 3rd-position sensitivity plus 1↔4 anchoring |
-| FC | Near-Full Operational Complement with Pressure Risk | `4312` | PsyCalc working label, renamed for PsyCalc display | near-complete complement with pressure risk |
-| CS | Full Operational Inversion with Dependency Risk | `4321` | extended/community, renamed for PsyCalc display | strong inversion; high dependence/conflict risk |
+| EX | Mutual Damping of Operational Expression | `3421` | extended/community, renamed for Before We Build display | distance, damping, formal respect |
+| AN | Anchor-Development Chain | `4123` | Before We Build working label | strong-to-weak support with developmental chain |
+| ANW | Anchor with Wound | `4132` | Before We Build working label | anchoring plus shared/activated vulnerability |
+| MX | Anchor-Pressure Exchange | `4213` | Before We Build working label | support and pressure coexist |
+| SW | Shared Wound with Mutual Anchoring | `4231` | Before We Build working label | shared 3rd-position sensitivity plus 1↔4 anchoring |
+| FC | Near-Full Operational Complement with Pressure Risk | `4312` | Before We Build working label, renamed for Before We Build display | near-complete complement with pressure risk |
+| CS | Full Operational Inversion with Dependency Risk | `4321` | extended/community, renamed for Before We Build display | strong inversion; high dependence/conflict risk |
 
 Important: the code legend is intended to make the full matrix usable. Classical labels such as Agape, Philia, Eros, and Pseudophilia are retained as tradition-aware labels. Community or working labels are displayed with mechanism-first names where the older label is too romantic, moralized, deterministic, or unclear. The legend should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
 
@@ -178,7 +178,7 @@ The table below covers all 24 standard Psychosophy types. Rows are “type A,”
 
 If the relation is asymmetric, also check the reverse cell. A row-to-column code describes **A's experience toward B** by signature; the reverse direction may carry a different signature and explanatory emphasis.
 
-Do not use this matrix as a complete compatibility verdict. In PsyCalc, Psychosophy covers operational compatibility; strategic fit is modeled primarily by Temporistics, and tactical communication fit is modeled primarily by Socionics.
+Do not use this matrix as a complete compatibility verdict. In Before We Build, Psychosophy covers operational compatibility; strategic fit is modeled primarily by Temporistics, and tactical communication fit is modeled primarily by Socionics.
 
 ## 8. Worked Examples
 
@@ -227,7 +227,7 @@ Both Psychosophy and Temporistics have 24 types and a 4-aspect × 4-position str
 
 The difference is the level:
 
-| System | PsyCalc level | Matrix meaning |
+| System | Before We Build level | Matrix meaning |
 |---|---|---|
 | Psychosophy | Operational | action, pressure, effort, role distribution, emotional/logical/material priorities |
 | Temporistics | Strategic | temporal meaning, continuity, life direction, memory, forecasting, existential frame |

@@ -1,7 +1,7 @@
 ---
 title: Project Positioning
 type: concept
-tags: [orientation, methodology, psycalc, cognitive-matchmaker, research-positioning]
+tags: [orientation, methodology, before-we-build, before-we-build-engine, research-positioning]
 created: 2026-04-24
 updated: 2026-04-25
 sources: []
@@ -9,11 +9,11 @@ sources: []
 
 # Project Positioning
 
-This page distinguishes PsyCalc as a research framework from its possible applications, especially Cognitive Matchmaker. It also states the epistemic status of the project: PsyCalc is a heuristic latent-process framework, not a proven personality science or deterministic compatibility oracle.
+This page distinguishes Before We Build as a research framework from its possible applications, especially Cognitive Matchmaker. It also states the epistemic status of the project: Before We Build is a heuristic latent-process framework, not a proven personality science or deterministic compatibility oracle.
 
-## 1. PsyCalc in One Paragraph
+## 1. Before We Build in One Paragraph
 
-PsyCalc is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as proposed models of latent psychological processes. The framework treats type structures as compressed hypotheses about how people organize information, action, and temporal meaning. It uses those hypotheses to build a multi-level compatibility architecture for human interaction, role fit, team design, and AI-assisted simulation.
+Before We Build is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as proposed models of latent psychological processes. The framework treats type structures as compressed hypotheses about how people organize information, action, and temporal meaning. It uses those hypotheses to build a multi-level compatibility architecture for human interaction, role fit, team design, and AI-assisted simulation.
 
 ## 2. The Required Mapping
 
@@ -29,9 +29,9 @@ Compact formula:
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
 
-## 3. What a Type Means in PsyCalc
+## 3. What a Type Means in Before We Build
 
-A type is not the final explanation of a person. In PsyCalc, a type is a structured interpretive hypothesis.
+A type is not the final explanation of a person. In Before We Build, a type is a structured interpretive hypothesis.
 
 The intended chain is:
 
@@ -45,9 +45,9 @@ observable behavior
 
 This means that type labels should remain revisable. They are useful only insofar as they help generate explanations and predictions that can be checked.
 
-## 4. PsyCalc vs Cognitive Matchmaker
+## 4. Before We Build vs Cognitive Matchmaker
 
-**PsyCalc** is the broader research framework:
+**Before We Build** is the broader research framework:
 
 - ontology of levels and latent processes;
 - interpretation of typologies as heuristic process models;
@@ -59,13 +59,13 @@ This means that type labels should remain revisable. They are useful only insofa
 - AI dating concierge;
 - simulation-based compatibility product;
 - candidate triage and explanation interface;
-- implementation of PsyCalc ideas in a relationship-matching context.
+- implementation of Before We Build ideas in a relationship-matching context.
 
-Cognitive Matchmaker should not be treated as synonymous with PsyCalc. Other applications may include team design, career/role navigation, church or service roles, military specialty advising, and AI agent simulation.
+Cognitive Matchmaker should not be treated as synonymous with Before We Build. Other applications may include team design, career/role navigation, church or service roles, military specialty advising, and AI agent simulation.
 
-## 5. What PsyCalc Does Not Claim
+## 5. What Before We Build Does Not Claim
 
-PsyCalc does not claim that:
+Before We Build does not claim that:
 
 - Socionics, Psychosophy, or Temporistics are scientifically proven as complete personality theories;
 - a type fully explains a person;
@@ -78,7 +78,7 @@ The project uses careful language: hypothesis, interpretation, heuristic model, 
 
 ## 6. Level Separation Rules
 
-PsyCalc preserves the separation between the three systems:
+Before We Build preserves the separation between the three systems:
 
 - Temporistics is the primary strategic-level model.
 - Psychosophy is the primary operational-level model.

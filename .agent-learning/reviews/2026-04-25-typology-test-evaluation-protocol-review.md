@@ -87,7 +87,7 @@ Not approved / not applied in this patch:
 
 - per-typology test agents;
 - master-orchestrator routing changes;
-- any claim that PsyCalc tests are validated.
+- any claim that Before We Build tests are validated.
 
 ## Follow-Up Tasks
 

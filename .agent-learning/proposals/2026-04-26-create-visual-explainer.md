@@ -23,7 +23,7 @@ The user explicitly requested a new specialized expert agent called **Visual Exp
 ## 3. Evidence
 
 - Audit/task result: direct user request in the current task.
-- File/page references: `.opencode/agents/psycalc-plain-language-translator.md`, `.opencode/agents/psycalc-presentation-designer.md`, `.opencode/agents/visual-storyboard-agent.md` show adjacent but non-identical explanation roles.
+- File/page references: `.opencode/agents/before-we-build-plain-language-translator.md`, `.opencode/agents/before-we-build-presentation-designer.md`, `.opencode/agents/visual-storyboard-agent.md` show adjacent but non-identical explanation roles.
 - Source or policy references: `AGENTS.md` controlled agent self-improvement workflow.
 
 ## 4. Proposed instruction change

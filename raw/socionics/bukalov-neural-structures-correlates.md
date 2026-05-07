@@ -24,7 +24,7 @@
 
 соционика, психология личности, сознание, нейронные структуры, модель психики, психические функции, функции информационного метаболизма, нейрофизиология
 
-## PsyCalc-authored abstract summary
+## Before We Build-authored abstract summary
 
 The article proposes that findings about neural structures involved in self-awareness raise the question of whether Socionics functions of information metabolism might have physical/neurophysiological correlates. Bukalov frames this as a hypothesis about possible 8 or 16 special neural structures corresponding to Jungian psychic functions or Aushra Augustinavichute's functions of information metabolism.
 
@@ -36,4 +36,4 @@ The OJS article page lists references, but this raw note does not reproduce the 
 
 ## Provenance note
 
-This raw note preserves bibliographic metadata and a PsyCalc-authored summary of the public OJS article page. It does not reproduce the full PDF text, full abstract, or full reference list. No open license was identified on the reviewed OJS page; treat the article as a copyrighted school publication. For claim use in the wiki, cite the source page and mark neural-correlate claims as speculative school hypotheses unless supported by independent neuroscience evidence.
+This raw note preserves bibliographic metadata and a Before We Build-authored summary of the public OJS article page. It does not reproduce the full PDF text, full abstract, or full reference list. No open license was identified on the reviewed OJS page; treat the article as a copyrighted school publication. For claim use in the wiki, cite the source page and mark neural-correlate claims as speculative school hypotheses unless supported by independent neuroscience evidence.

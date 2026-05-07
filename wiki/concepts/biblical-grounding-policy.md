@@ -11,7 +11,7 @@ sources: []
 
 ## Summary
 
-Any PsyCalc / Cognitive Matchmaker page that makes a Christian normative claim about family, marriage, faith, forgiveness, community, moral discernment, or the spiritual limits of typology should include a nearby biblical grounding block.
+Any Before We Build / Cognitive Matchmaker page that makes a Christian normative claim about family, marriage, faith, forgiveness, community, moral discernment, or the spiritual limits of typology should include a nearby biblical grounding block.
 
 **Biblical grounding for the policy:**
 
@@ -46,7 +46,7 @@ Examples:
 
 - where a wiki page is stored;
 - how frontmatter is formatted;
-- that PsyCalc treats a mapping as a hypothesis;
+- that Before We Build treats a mapping as a hypothesis;
 - that a model requires empirical validation;
 - that a page links to another page.
 

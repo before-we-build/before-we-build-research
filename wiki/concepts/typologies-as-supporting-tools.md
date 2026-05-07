@@ -57,9 +57,9 @@ Examples:
 - **Philippians 2:3** — do nothing from rivalry or conceit.
 - **Galatians 6:4–5** — each person must examine their own work and carry responsibility.
 
-## Relation to PsyCalc systems
+## Relation to Before We Build systems
 
-PsyCalc currently interprets three typological systems as heuristic latent-process models:
+Before We Build currently interprets three typological systems as heuristic latent-process models:
 
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
@@ -77,4 +77,4 @@ These mappings are project hypotheses and should remain in the research layer un
 - [[christian-foundation-of-family]]
 - [[family-formation-principles]]
 - [[limits-of-typological-inference]]
-- [[hypothesis-status-of-psycalc]]
+- [[hypothesis-status-of-before-we-build]]

@@ -11,7 +11,7 @@ sources: []
 
 ## Summary
 
-Typological inference in PsyCalc is limited. It can generate hypotheses about interaction style, communication, motivation, and possible friction points. It cannot directly infer moral character, spiritual maturity, family readiness, personal worth, or relational destiny.
+Typological inference in Before We Build is limited. It can generate hypotheses about interaction style, communication, motivation, and possible friction points. It cannot directly infer moral character, spiritual maturity, family readiness, personal worth, or relational destiny.
 
 **Biblical grounding for the summary:**
 

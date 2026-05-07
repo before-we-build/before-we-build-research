@@ -9,7 +9,7 @@ sources: [typology-test-design-protocol.md, psychosophy-typing-methods.md, psych
 
 # Psychosophy Test Specification
 
-This page defines the first PsyCalc draft test for Psychosophy. It can learn structurally from known Psychosophy questionnaires and methods, but its items should remain original.
+This page defines the first Before We Build draft test for Psychosophy. It can learn structurally from known Psychosophy questionnaires and methods, but its items should remain original.
 
 ## Status
 
@@ -19,7 +19,7 @@ The output is a working hypothesis about a Psychosophy profile, not a final type
 
 ## Construct Frame
 
-In PsyCalc, Psychosophy is treated as a heuristic model of **latent processes of synthesis and analysis in action**.
+In Before We Build, Psychosophy is treated as a heuristic model of **latent processes of synthesis and analysis in action**.
 
 The test measures how a person organizes action across four domains:
 

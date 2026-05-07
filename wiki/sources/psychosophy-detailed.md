@@ -411,7 +411,7 @@ From bestsocionics.com:
 - Doesn't want to be primary material architect
 
 **Source-language caveat:**
-Some source descriptions use strong language about neglecting bodily needs under stress. In PsyCalc this should be treated as a typological description of low material self-prioritization, not as a clinical claim. If actual eating, sleeping, hygiene, illness, or self-harm concerns are present, use clinical support channels rather than typological interpretation.
+Some source descriptions use strong language about neglecting bodily needs under stress. In Before We Build this should be treated as a typological description of low material self-prioritization, not as a clinical claim. If actual eating, sleeping, hygiene, illness, or self-harm concerns are present, use clinical support channels rather than typological interpretation.
 
 **In relationships:**
 - May need partner with clear material vision
@@ -584,4 +584,4 @@ Each function can manifest with different accentuations based on which property 
 
 ---
 
-*This document provides comprehensive coverage of Psychosophy as the Operational level of the PsyCalc framework. For the strategic level, see temporistics-detailed.md. For the tactical level, see socionics-detailed.md.*
+*This document provides comprehensive coverage of Psychosophy as the Operational level of the Before We Build framework. For the strategic level, see temporistics-detailed.md. For the tactical level, see socionics-detailed.md.*

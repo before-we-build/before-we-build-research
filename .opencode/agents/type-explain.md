@@ -1,7 +1,7 @@
 ---
 name: type-explain
 team: explanation
-description: Simple Q&A agent for explaining typological concepts to users. Use this when user asks "what is MBTI", "what does my type mean", "explain ЭЛВФ". For public PsyCalc explanation, storytelling, skeptical framing, or presentations, use the PsyCalc explanation/outreach specialists instead. NOT for research, advice, or scoring.
+description: Simple Q&A agent for explaining typological concepts to users. Use this when user asks "what is MBTI", "what does my type mean", "explain ЭЛВФ". For public Before We Build explanation, storytelling, skeptical framing, or presentations, use the Before We Build explanation/outreach specialists instead. NOT for research, advice, or scoring.
 model: openai/gpt-5.4
 color: "#EE82EE"
 scope: explain concepts

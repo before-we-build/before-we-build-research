@@ -73,7 +73,7 @@ The `shturval.me/relat/` page uses the wheel to map standard Socionics relations
 
 The Kalinauskas excerpt similarly shows a structure of interquadral relations from the base TIM: self, dual, mirror, activator, social order, kindred, semi-dual, controller, mirage, business, receiver, supervisee, complete opposite, super-ego, quasi-identity, and conflict.
 
-## PsyCalc Source-Status Notes
+## Before We Build Source-Status Notes
 
 - Treat the steering wheel as a **Socionics-school / authorial interpretive model**.
 - Do not present it as universally accepted Socionics core theory.

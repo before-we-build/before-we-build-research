@@ -10,7 +10,7 @@ sources: [Hermes Agent README, repository audit results, AGENTS.md]
 
 ## Trigger
 
-User asked whether the PsyCalc agent system can adopt a Hermes-style self-improvement loop for local `.opencode/agents/*.md` agents.
+User asked whether the Before We Build agent system can adopt a Hermes-style self-improvement loop for local `.opencode/agents/*.md` agents.
 
 ## Decision
 

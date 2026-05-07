@@ -1,17 +1,17 @@
 ---
-title: Hypothesis Status of PsyCalc
+title: Hypothesis Status of Before We Build
 type: concept
-tags: [psycalc, methodology, epistemic-status, validation, caveats]
+tags: [before-we-build, methodology, epistemic-status, validation, caveats]
 created: 2026-04-26
 updated: 2026-04-26
 sources: []
 ---
 
-# Hypothesis Status of PsyCalc
+# Hypothesis Status of Before We Build
 
 ## Summary
 
-PsyCalc is a heuristic and research-oriented framework. Its typological mappings and compatibility interpretations are not Christian doctrine, not proven personality science, and not deterministic laws. They are structured hypotheses that should be tested, corrected, and limited by evidence, ethics, and practical wisdom.
+Before We Build is a heuristic and research-oriented framework. Its typological mappings and compatibility interpretations are not Christian doctrine, not proven personality science, and not deterministic laws. They are structured hypotheses that should be tested, corrected, and limited by evidence, ethics, and practical wisdom.
 
 **Biblical grounding for the summary:**
 
@@ -22,7 +22,7 @@ PsyCalc is a heuristic and research-oriented framework. Its typological mappings
 
 ## Core hypothesis status
 
-**Claim:** PsyCalc treats Socionics, Psychosophy, and Temporistics as possible hypothesis languages for latent psychological processes, not as final truths about the person.
+**Claim:** Before We Build treats Socionics, Psychosophy, and Temporistics as possible hypothesis languages for latent psychological processes, not as final truths about the person.
 
 **Biblical grounding:**
 
@@ -42,7 +42,7 @@ PsyCalc is a heuristic and research-oriented framework. Its typological mappings
 
 ## Relationship to Christian guidance
 
-**Claim:** Christian moral and pastoral categories are primary for family formation; PsyCalc models are secondary and instrumental.
+**Claim:** Christian moral and pastoral categories are primary for family formation; Before We Build models are secondary and instrumental.
 
 **Biblical grounding:**
 

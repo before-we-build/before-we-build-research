@@ -11,7 +11,7 @@ sources: []
 
 # Multilingual Translation Policy
 
-This page defines the first practical multilingual convention for the PsyCalc wiki.
+This page defines the first practical multilingual convention for the Before We Build wiki.
 
 ## Status
 

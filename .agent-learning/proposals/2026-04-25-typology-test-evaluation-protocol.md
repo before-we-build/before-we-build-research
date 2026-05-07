@@ -25,7 +25,7 @@ Potentially affected:
 
 ## Observed Failure or Opportunity
 
-The user noted that PsyCalc currently lacks its own typology tests and asked whether there is an expert for tests or whether each typology needs a separate test expert.
+The user noted that Before We Build currently lacks its own typology tests and asked whether there is an expert for tests or whether each typology needs a separate test expert.
 
 Current risk:
 
@@ -38,7 +38,7 @@ Current risk:
 
 Conversation context on 2026-04-25:
 
-- User asked whether PsyCalc has typology tests and whether separate experts are needed per typology.
+- User asked whether Before We Build has typology tests and whether separate experts are needed per typology.
 - Expert review recommended one shared psychometric pipeline plus domain experts for Socionics, Psychosophy, and Temporistics.
 
 Governance source:

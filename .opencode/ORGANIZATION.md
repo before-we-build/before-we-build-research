@@ -34,10 +34,10 @@ master-orchestrator (gold) ⚜
 │   └── copyright-licensing-reviewer (slategray)
 ├── Explanation Team
 │   ├── type-explain (gray)
-│   ├── psycalc-plain-language-translator (skyblue)
-│   ├── psycalc-storyteller (orange)
-│   ├── psycalc-skeptic-bridge (teal)
-│   └── psycalc-presentation-designer (orchid)
+│   ├── before-we-build-plain-language-translator (skyblue)
+│   ├── before-we-build-storyteller (orange)
+│   ├── before-we-build-skeptic-bridge (teal)
+│   └── before-we-build-presentation-designer (orchid)
 └── [Reserved for future]
 ```
 
@@ -67,9 +67,9 @@ master-orchestrator (gold) ⚜
 **Purpose:** Quality assurance, source ingestion support, provenance checks, and narrow publication-rights risk screening for copyright/licensing/attribution. Publication-rights screening is not legal advice and high-stakes cases require licensed counsel.
 
 ### 5. Explanation / Outreach Team
-**Lead:** psycalc-plain-language-translator
-**Purpose:** Present PsyCalc to ordinary users, skeptical audiences, collaborators, and communities using simple language, stories, caveats, and presentation formats.
-**Agents:** type-explain, psycalc-plain-language-translator, psycalc-storyteller, psycalc-skeptic-bridge, psycalc-presentation-designer
+**Lead:** before-we-build-plain-language-translator
+**Purpose:** Present Before We Build to ordinary users, skeptical audiences, collaborators, and communities using simple language, stories, caveats, and presentation formats.
+**Agents:** type-explain, before-we-build-plain-language-translator, before-we-build-storyteller, before-we-build-skeptic-bridge, before-we-build-presentation-designer
 
 ## Principles Applied
 
@@ -129,7 +129,7 @@ master-orchestrator (gold) ⚜
 5. Human approval or explicit implementation request → patch agent instructions
 ```
 
-### Public Explanation Flow: "Explain PsyCalc simply"
+### Public Explanation Flow: "Explain Before We Build simply"
 
 ```
 1. User → master-orchestrator

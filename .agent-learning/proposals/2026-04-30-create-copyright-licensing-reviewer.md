@@ -20,7 +20,7 @@ sources: ["user request", "AGENTS.md", ".opencode/agents/source-provenance-audit
 
 ## 2. Observed failure or opportunity
 
-The user explicitly requested a legal-checking agent for publication/republication of sources in PsyCalc wiki. Existing agents cover source provenance and ethics/consent, but not focused copyright/licensing/publication-rights triage for wiki/source ingestion.
+The user explicitly requested a legal-checking agent for publication/republication of sources in Before We Build wiki. Existing agents cover source provenance and ethics/consent, but not focused copyright/licensing/publication-rights triage for wiki/source ingestion.
 
 ## 3. Evidence
 

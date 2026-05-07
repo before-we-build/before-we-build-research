@@ -1,7 +1,7 @@
 ---
 title: Intertype Relation Naming Audit
 type: concept
-tags: [intertype-relations, naming, methodology, socionics, psychosophy, temporistics, psycalc]
+tags: [intertype-relations, naming, methodology, socionics, psychosophy, temporistics, before-we-build]
 created: 2026-04-24
 updated: 2026-04-24
 sources: [wiki/relations/socionics-intertype-relations.md, wiki/relations/psychosophy-intertype-relations.md, wiki/relations/temporistics-intertype-relations.md, wiki/concepts/compatibility-level-boundaries.md]
@@ -9,7 +9,7 @@ sources: [wiki/relations/socionics-intertype-relations.md, wiki/relations/psycho
 
 # Intertype Relation Naming Audit
 
-This page audits relation names across Socionics, Psychosophy, and Temporistics. The goal is to check whether relation names actually communicate the mechanism of the relation at the correct PsyCalc level: tactical information modeling, operational action organization, or strategic temporal/existential framing.
+This page audits relation names across Socionics, Psychosophy, and Temporistics. The goal is to check whether relation names actually communicate the mechanism of the relation at the correct Before We Build level: tactical information modeling, operational action organization, or strategic temporal/existential framing.
 
 ## 1. Executive Summary
 
@@ -17,9 +17,9 @@ Relation names should not be treated as neutral labels. They shape interpretatio
 
 The main finding is:
 
-- **Socionics** can keep its traditional relation names because they are canonical within that system, but PsyCalc should always add tactical mechanism descriptors.
+- **Socionics** can keep its traditional relation names because they are canonical within that system, but Before We Build should always add tactical mechanism descriptors.
 - **Psychosophy** should use a hybrid style: classical labels such as Agape, Philia, Eros, and Pseudophilia where source-backed, plus operational mechanism descriptors.
-- **Temporistics** should not borrow Socionics or Psychosophy names. Because its relation system is currently a PsyCalc reconstruction, it should use transparent strategic mechanism names.
+- **Temporistics** should not borrow Socionics or Psychosophy names. Because its relation system is currently a Before We Build reconstruction, it should use transparent strategic mechanism names.
 
 Recommended rule:
 
@@ -37,23 +37,23 @@ A good relation name should satisfy five criteria.
 |---|---|
 | Mechanism transparency | Does the name tell us what is happening structurally or psychologically? |
 | Level specificity | Does the name fit tactical, operational, or strategic compatibility? |
-| Source status clarity | Is the name traditional, source-backed, community-derived, or PsyCalc reconstruction? |
+| Source status clarity | Is the name traditional, source-backed, community-derived, or Before We Build reconstruction? |
 | Non-determinism | Does the name avoid implying fate, ideal match, or doomed conflict? |
 | Cross-system hygiene | Does the name avoid importing another typology's mechanism? |
 
 ## 3. System-Level Comparison
 
-| System | PsyCalc level | Relation mechanism | Naming status | Main risk |
+| System | Before We Build level | Relation mechanism | Naming status | Main risk |
 |---|---|---|---|---|
 | Socionics | Tactical | information modeling / Model A interaction | traditional labels are canonical within Socionics | names sound like whole-relationship outcomes rather than tactical information dynamics |
 | Psychosophy | Operational | function-position contact in action, pressure, role distribution | Greek labels partly source-backed; extended labels mixed | names such as Eros or Agape may sound romantic rather than operational |
-| Temporistics | Strategic | temporal/existential frame contact | PsyCalc reconstruction | borrowed names would create false authority |
+| Temporistics | Strategic | temporal/existential frame contact | Before We Build reconstruction | borrowed names would create false authority |
 
 ## 4. Socionics Naming Audit
 
-Socionics relation names are traditional and should generally be preserved. However, PsyCalc should attach a mechanism subtitle so the reader does not confuse tactical information fit with full compatibility.
+Socionics relation names are traditional and should generally be preserved. However, Before We Build should attach a mechanism subtitle so the reader does not confuse tactical information fit with full compatibility.
 
-| Current name | Does it reflect the mechanism? | PsyCalc-safe form |
+| Current name | Does it reflect the mechanism? | Before We Build-safe form |
 |---|---|---|
 | Identity | mostly yes | Identity: same-model information processing symmetry |
 | Duality | partly; traditional but metaphorical | Duality: complementary valued-function coverage |
@@ -71,7 +71,7 @@ Socionics relation names are traditional and should generally be preserved. Howe
 | Kindred | partly | Kindred: shared leading-function with value divergence |
 | Semi-duality | traditional but derivative | Semi-duality: partial complementary coverage of valued weaknesses |
 
-Policy: keep canonical Socionics names, but never use them as total compatibility verdicts. In PsyCalc they describe tactical information interaction only.
+Policy: keep canonical Socionics names, but never use them as total compatibility verdicts. In Before We Build they describe tactical information interaction only.
 
 ## 5. Psychosophy Naming Audit
 
@@ -79,7 +79,7 @@ Psychosophy names should be split into two groups: classical labels and extended
 
 ### 5.1 Classical labels
 
-| Current name | Problem | PsyCalc-safe form |
+| Current name | Problem | Before We Build-safe form |
 |---|---|---|
 | Agape | sounds morally/romantically ideal | Agape: flexible operational support to vulnerable function |
 | Philia | may imply simple friendship rather than structure | Philia: same-position operational recognition |
@@ -88,7 +88,7 @@ Psychosophy names should be split into two groups: classical labels and extended
 
 These labels can remain because they are source-backed in the Psychosophy tradition, but each should be paired with an operational descriptor.
 
-### 5.2 Extended and PsyCalc working labels
+### 5.2 Extended and Before We Build working labels
 
 | Current / code label | Assessment | Recommendation |
 |---|---|---|
@@ -101,7 +101,7 @@ These labels can remain because they are source-backed in the Psychosophy tradit
 | Revision | borrowed-feeling but commonly used | Corrective Operational Pressure |
 | Conflict Submission | too deterministic and power-loaded | Strong Inversion with Submission Risk |
 | Extinguishment | acceptable if explained | Mutual Damping of Operational Expression |
-| Anchor | good mechanism name | keep as Anchor, mark PsyCalc working label |
+| Anchor | good mechanism name | keep as Anchor, mark Before We Build working label |
 | Shared Wound | good mechanism name | keep as Shared Wound |
 | Full Complement | acceptable but must avoid “ideal” meaning | High Complementarity with Pressure Risk |
 
@@ -111,7 +111,7 @@ Policy: Psychosophy should use hybrid names: traditional Greek label plus mechan
 
 Temporistics relation names should be mechanism-transparent because the relation system is reconstructed, not canonical.
 
-The current PsyCalc names mostly follow this rule. They should remain explicitly marked as working labels.
+The current Before We Build names mostly follow this rule. They should remain explicitly marked as working labels.
 
 | Signature | Current proposed name | Assessment | Suggested form |
 |---|---|---|---|
@@ -160,8 +160,8 @@ Every relation entry should include:
 ### Relation Name: Mechanism Descriptor
 
 - Typology: Socionics / Psychosophy / Temporistics
-- PsyCalc level: Tactical / Operational / Strategic
-- Status: traditional / source-backed / community / PsyCalc reconstruction / analogy
+- Before We Build level: Tactical / Operational / Strategic
+- Status: traditional / source-backed / community / Before We Build reconstruction / analogy
 - Structural basis: Model A / function-position contact / temporal signature
 - Mechanism hypothesis: what process is proposed to happen
 - Strengths: likely supportive dynamics
@@ -172,10 +172,10 @@ Every relation entry should include:
 
 ## 9. Bottom Line
 
-The current names are usable only if PsyCalc separates **label**, **mechanism**, **level**, and **epistemic status**.
+The current names are usable only if Before We Build separates **label**, **mechanism**, **level**, and **epistemic status**.
 
 - Socionics names are mostly traditional labels; keep them, but add tactical mechanism subtitles.
 - Psychosophy names are partly traditional and partly extended; keep classical Greek names with operational descriptors, and rename working labels toward mechanism clarity.
-- Temporistics names should remain explicit PsyCalc reconstructions and should use strategic temporal/existential mechanism language.
+- Temporistics names should remain explicit Before We Build reconstructions and should use strategic temporal/existential mechanism language.
 
 The safest rule is: relation names should explain what kind of latent-process interaction is hypothesized, not declare whether two people are destined to fit or fail.

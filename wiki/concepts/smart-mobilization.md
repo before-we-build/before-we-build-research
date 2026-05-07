@@ -11,7 +11,7 @@ sources: [smart-mobilization-research-note, smart-mobilization-typology-wartime,
 
 ## Definition
 
-**Smart Mobilization** is a PsyCalc concept for **voluntary, non-coercive role-fit recommendations** in a military recruitment context.
+**Smart Mobilization** is a Before We Build concept for **voluntary, non-coercive role-fit recommendations** in a military recruitment context.
 
 The idea is to combine:
 
@@ -47,7 +47,7 @@ The most defensible use case is **better voluntary placement**, not forced assig
 
 The system should answer:
 
-> “Given your skills, preferences, current role needs, and tentative PsyCalc hypotheses, which role families might be worth discussing with a human recruiter?”
+> “Given your skills, preferences, current role needs, and tentative Before We Build hypotheses, which role families might be worth discussing with a human recruiter?”
 
 It should not answer:
 
@@ -96,7 +96,7 @@ These should not be inferred secretly.
 
 ### 4. Typology-Based Hypotheses
 
-PsyCalc may add a tentative typology layer:
+Before We Build may add a tentative typology layer:
 
 - **Socionics** → heuristic model of information modeling;
 - **Psychosophy** → heuristic model of synthesis and analysis in action;
@@ -181,11 +181,11 @@ Existing sources support the broader context:
 
 Existing sources do **not** establish Socionics, Psychosophy, or Temporistics as validated standard frameworks for military assignment.
 
-Therefore, PsyCalc's role-fit claims must remain provisional, testable, and caveated.
+Therefore, Before We Build's role-fit claims must remain provisional, testable, and caveated.
 
-## Relationship to PsyCalc
+## Relationship to Before We Build
 
-Smart Mobilization is an applied use case of PsyCalc's broader role-fit architecture.
+Smart Mobilization is an applied use case of Before We Build's broader role-fit architecture.
 
 It uses the three typological systems at different levels:
 

@@ -68,7 +68,7 @@ See [[christian-foundation-of-family]] for the worldview frame and [[typologies-
 
 ## Practical use in matching
 
-PsyCalc-compatible matching should optimize for:
+Before We Build-compatible matching should optimize for:
 
 1. shared Christian seriousness and values;
 2. readiness for honest conversation;

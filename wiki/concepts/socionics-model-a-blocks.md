@@ -36,7 +36,7 @@ Common interpretation:
 - where competence is most visible;
 - the strongest valued channel for communication.
 
-In PsyCalc, the Ego block is important for tactical compatibility because it shows what kind of information a person naturally emits. This output may support another person's valued weak functions, or it may accidentally pressure unvalued weak zones.
+In Before We Build, the Ego block is important for tactical compatibility because it shows what kind of information a person naturally emits. This output may support another person's valued weak functions, or it may accidentally pressure unvalued weak zones.
 
 ## Super-Ego Block
 
@@ -54,7 +54,7 @@ Common interpretation:
 
 The role function usually handles normative performance. The vulnerable function is more fragile and less stable under demand.
 
-In PsyCalc, the Super-Ego block helps identify tactical pressure points. It should not be moralized or pathologized.
+In Before We Build, the Super-Ego block helps identify tactical pressure points. It should not be moralized or pathologized.
 
 ## Super-Id Block
 
@@ -103,9 +103,9 @@ Each block contains one accepting and one producing function:
 
 This means each block can be read as a small information-processing pair: one function registers or accepts a kind of information, while the other shapes, produces, or responds from within that block's orientation.
 
-## PsyCalc Interpretation
+## Before We Build Interpretation
 
-For PsyCalc, blocks help translate Model A into tactical interaction hypotheses:
+For Before We Build, blocks help translate Model A into tactical interaction hypotheses:
 
 - **Ego:** where a person naturally sends information;
 - **Super-Ego:** where pressure and awkward adaptation may appear;

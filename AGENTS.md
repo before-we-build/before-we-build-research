@@ -1,12 +1,12 @@
-# AGENTS.md — LLM Wiki Schema for PsyCalc
+# AGENTS.md — LLM Wiki Schema for Before We Build
 
-This document defines the schema and conventions for maintaining the PsyCalc knowledge base.
+This document defines the schema and conventions for maintaining the Before We Build knowledge base.
 
 ## Project Overview
 
-**PsyCalc** is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It treats typological structures not as final personality labels, but as compressed hypotheses about hidden processes that can inform compatibility architecture, role fit, team design, and AI-based simulation of interpersonal dynamics.
+**Before We Build** is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It treats typological structures not as final personality labels, but as compressed hypotheses about hidden processes that can inform compatibility architecture, role fit, team design, and AI-based simulation of interpersonal dynamics.
 
-**Cognitive Matchmaker** is one downstream application of PsyCalc: an autonomous AI dating concierge that uses simulation-based evaluative modeling for compatibility assessment. It is not the whole project.
+**Cognitive Matchmaker** is one downstream application of Before We Build: an autonomous AI dating concierge that uses simulation-based evaluative modeling for compatibility assessment. It is not the whole project.
 
 ### Core Theory
 
@@ -28,10 +28,10 @@ These mappings are project heuristics and research hypotheses. They should not b
 
 ### Scope Boundary
 
-- **PsyCalc** = broader ontology, latent-process model, compatibility architecture, and research wiki.
-- **Cognitive Matchmaker** = dating-oriented application built on top of PsyCalc.
+- **Before We Build** = broader ontology, latent-process model, compatibility architecture, and research wiki.
+- **Cognitive Matchmaker** = dating-oriented application built on top of Before We Build.
 
-Do not frame the whole repository as only a dating product. Application pages may discuss Cognitive Matchmaker directly, but orientation, theory, glossary, and methodology pages should use PsyCalc as the primary frame.
+Do not frame the whole repository as only a dating product. Application pages may discuss Cognitive Matchmaker directly, but orientation, theory, glossary, and methodology pages should use Before We Build as the primary frame.
 
 ## Directory Structure
 

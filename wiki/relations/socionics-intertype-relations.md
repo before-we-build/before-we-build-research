@@ -15,7 +15,7 @@ Mechanism-first glossary of Socionics intertype relation classes.
 
 Socionics is usually organized around **14 canonical intertype relation classes**. Two of them — **Benefit/Request/Social Order** and **Supervision/Revision/Audit** — are asymmetric and must be interpreted with direction-specific roles.
 
-In PsyCalc, Socionics relations describe the **tactical information-exchange layer** only. They are theory-internal hypotheses about Model A contacts, not deterministic predictions of relationship success, dating compatibility, career fit, or long-term outcomes.
+In Before We Build, Socionics relations describe the **tactical information-exchange layer** only. They are theory-internal hypotheses about Model A contacts, not deterministic predictions of relationship success, dating compatibility, career fit, or long-term outcomes.
 
 ## Relation Types
 
@@ -181,7 +181,7 @@ In PsyCalc, Socionics relations describe the **tactical information-exchange lay
 
 ## Canonical Label Policy
 
-Use these primary labels in PsyCalc:
+Use these primary labels in Before We Build:
 
 - Identity
 - Duality

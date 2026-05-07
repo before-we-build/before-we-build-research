@@ -11,7 +11,7 @@ sources: [AGENTS.md, user-request]
 
 ## Observation
 
-The user wants to delegate promotion of PsyCalc / Cognitive Matchmaker across TikTok, YouTube, Instagram, Facebook, X, and Threads to agents rather than manually managing social media strategy.
+The user wants to delegate promotion of Before We Build / Cognitive Matchmaker across TikTok, YouTube, Instagram, Facebook, X, and Threads to agents rather than manually managing social media strategy.
 
 ## Action
 
@@ -21,7 +21,7 @@ Created a dedicated agent specification:
 
 ## Safeguards
 
-- The agent distinguishes PsyCalc as a research framework from Cognitive Matchmaker as a downstream dating application.
+- The agent distinguishes Before We Build as a research framework from Cognitive Matchmaker as a downstream dating application.
 - The agent is instructed not to promise ideal partners, soulmate prediction, deterministic type-based matching, or scientifically proven compatibility.
 - The agent routes risky empirical, ethical, sociological, and sensitive-attribute claims to appropriate reviewers.
 

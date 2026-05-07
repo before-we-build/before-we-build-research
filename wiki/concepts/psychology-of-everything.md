@@ -11,7 +11,7 @@ sources: [wiki/sources/psychology-of-everything-synthesis.md]
 
 ## Definition
 
-“Psychology of everything” is not a standard academic field. In PsyCalc it is used as a loose umbrella for attempts to build a broad map of mind, behavior, personality, cognition, meaning, relationships, and social context.
+“Psychology of everything” is not a standard academic field. In Before We Build it is used as a loose umbrella for attempts to build a broad map of mind, behavior, personality, cognition, meaning, relationships, and social context.
 
 The closest established search terms are:
 
@@ -45,24 +45,24 @@ Global Workspace Theory explains conscious access as information becoming global
 
 Online communities often create and circulate totalizing maps because they compress complexity, create shared language, and help people orient identity, relationships, work, and meaning. This explains why typologies, integral theories, and personality maps spread quickly online.
 
-## Similarity to PsyCalc
+## Similarity to Before We Build
 
-PsyCalc shares several motivations with unified psychology:
+Before We Build shares several motivations with unified psychology:
 
 - it tries to explain surface behavior through hidden processes;
 - it uses multiple levels of analysis;
 - it treats isolated typological labels as insufficient;
 - it tries to build bridges between personality, compatibility, roles, and simulation.
 
-In PsyCalc’s current formula:
+In Before We Build’s current formula:
 
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
 
-## Difference from PsyCalc
+## Difference from Before We Build
 
-PsyCalc should not be framed as a completed universal psychology. It is narrower and more provisional:
+Before We Build should not be framed as a completed universal psychology. It is narrower and more provisional:
 
 - it starts from typological systems rather than from a consensus empirical ontology;
 - it focuses on compatibility architecture, role fit, team design, and simulation;
@@ -82,13 +82,13 @@ Common failure modes:
 - becoming unfalsifiable;
 - making clinical, theological, career, military, or relationship claims without the required evidence.
 
-## PsyCalc positioning
+## Before We Build positioning
 
 Safe positioning:
 
-> PsyCalc is not a final psychology of everything. It is a research framework that uses typologies as heuristic compressed hypotheses about latent processes, then asks whether those hypotheses can be operationalized, caveated, and validated.
+> Before We Build is not a final psychology of everything. It is a research framework that uses typologies as heuristic compressed hypotheses about latent processes, then asks whether those hypotheses can be operationalized, caveated, and validated.
 
-This keeps PsyCalc closer to a testable research program than to a closed totalizing system.
+This keeps Before We Build closer to a testable research program than to a closed totalizing system.
 
 ## Related pages
 
@@ -96,7 +96,7 @@ This keeps PsyCalc closer to a testable research program than to a closed totali
 - [[main-idea]]
 - [[project-positioning]]
 - [[latent-process]]
-- [[psycalc-vs-big-five]]
+- [[before-we-build-vs-big-five]]
 - [[neuroscience-compatibility-bridges]]
 - [[sociological-compatibility-analogues]]
 - [[weight-calibration]]

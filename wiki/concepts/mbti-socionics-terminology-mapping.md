@@ -9,13 +9,13 @@ sources: [socionics-model-a.md, socionics-information-elements.md, cross-typolog
 
 # MBTI ↔ Socionics Terminology Mapping
 
-This page explains how PsyCalc compares MBTI and [[socionics-model-a]] terminology without treating the systems as identical.
+This page explains how Before We Build compares MBTI and [[socionics-model-a]] terminology without treating the systems as identical.
 
 ## Core Rule
 
 **MBTI codes are comparative aliases, not canonical Socionics identifiers.**
 
-In PsyCalc, Socionics types should be written first with canonical three-letter codes such as `ILE`, `LII`, `ESE`, or `SLI`. MBTI labels such as `ENTP` or `INTJ` may be shown only as approximate, school-dependent navigation aids.
+In Before We Build, Socionics types should be written first with canonical three-letter codes such as `ILE`, `LII`, `ESE`, or `SLI`. MBTI labels such as `ENTP` or `INTJ` may be shown only as approximate, school-dependent navigation aids.
 
 ## Caveats: Not a Type Converter
 
@@ -63,14 +63,14 @@ So:
 |---|---|---|
 | `J/P` letter | Which function attitude is extraverted | Legacy shorthand for rational/irrational type in old Socionics notation |
 | Rational/Irrational | Not the same as Socionics R/I | Whether the leading function is rational or irrational |
-| `INTJ` / `INTP` | MBTI labels | Not canonical PsyCalc Socionics identifiers |
+| `INTJ` / `INTP` | MBTI labels | Not canonical Before We Build Socionics identifiers |
 | `INTj` / `INTp` | Not standard MBTI | Traditional Socionics aliases |
 
 ## Function Names: Similar, Not Identical
 
 The same symbols are used in both traditions, but they should be treated as related terms rather than perfect equivalents.
 
-| Symbol | MBTI-like emphasis | Socionics emphasis | PsyCalc wording |
+| Symbol | MBTI-like emphasis | Socionics emphasis | Before We Build wording |
 |---|---|---|---|
 | `Ti` | internal logical consistency | structural relations, classification, internal logical form | related but not identical |
 | `Te` | external efficiency, execution, results | methods, technology, factual usefulness | partial overlap |
@@ -81,7 +81,7 @@ The same symbols are used in both traditions, but they should be treated as rela
 | `Ni` | insight, foresight, patterns | time, tendencies, event trajectory | partial overlap |
 | `Ne` | possibilities, novelty, associations | potentiality, alternatives, possible scenarios | related but not identical |
 
-## Canonical Naming Policy in PsyCalc
+## Canonical Naming Policy in Before We Build
 
 Use this order when writing Socionics types:
 
@@ -108,7 +108,7 @@ MBTI INTP converts to LII
 
 These examples are for navigation only. They are not deterministic conversions.
 
-| PsyCalc canonical Socionics code | Traditional Socionics alias | Common MBTI-like comparison | Note |
+| Before We Build canonical Socionics code | Traditional Socionics alias | Common MBTI-like comparison | Note |
 |---|---|---|---|
 | `ILE` | `ENTp` | `≈ ENTP` | common comparison, not identity |
 | `SEI` | `ISFp` | `≈ ISFP` | approximate |

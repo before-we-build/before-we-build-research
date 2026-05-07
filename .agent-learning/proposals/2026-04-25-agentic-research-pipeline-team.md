@@ -34,7 +34,7 @@ sources:
 
 ## 2. Observed failure or opportunity
 
-PsyCalc needs a repeatable agentic research pipeline for real-world validation data. Existing agents cover many specialist roles, but there was no dedicated research orchestration, experiment design, data pipeline, ethics/consent, or literature search agent for end-to-end studies.
+Before We Build needs a repeatable agentic research pipeline for real-world validation data. Existing agents cover many specialist roles, but there was no dedicated research orchestration, experiment design, data pipeline, ethics/consent, or literature search agent for end-to-end studies.
 
 ## 3. Evidence
 

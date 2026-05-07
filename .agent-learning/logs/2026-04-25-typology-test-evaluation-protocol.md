@@ -11,7 +11,7 @@ sources: [AGENTS.md, user-request, typology-test-design-protocol]
 
 ## Observation
 
-The user noted that PsyCalc does not yet have its own tests for the typologies and asked whether the system has an expert for tests or whether separate experts are needed for each typology.
+The user noted that Before We Build does not yet have its own tests for the typologies and asked whether the system has an expert for tests or whether separate experts are needed for each typology.
 
 ## Assessment
 

@@ -18,7 +18,7 @@ sources: [AGENTS.md, user-request]
 
 ## 2. Observed failure or opportunity
 
-The user identified the need for financial expertise after discussing the cost of automated video generation and autoposting for PsyCalc / Cognitive Matchmaker.
+The user identified the need for financial expertise after discussing the cost of automated video generation and autoposting for Before We Build / Cognitive Matchmaker.
 
 ## 3. Evidence
 

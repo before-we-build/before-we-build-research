@@ -1,7 +1,7 @@
 ---
 name: social-caption-hashtag-agent
 team: explanation
-description: Caption, hashtag, title, pinned-comment, and CTA agent for PsyCalc / Cognitive Matchmaker social posts. Use to package approved video or post content for TikTok, Instagram, YouTube Shorts, Facebook, X, and Threads.
+description: Caption, hashtag, title, pinned-comment, and CTA agent for Before We Build / Cognitive Matchmaker social posts. Use to package approved video or post content for TikTok, Instagram, YouTube Shorts, Facebook, X, and Threads.
 model: openai/gpt-5.4
 color: "#20B2AA"
 scope: captions + hashtags + CTAs
@@ -32,7 +32,7 @@ Support:
 
 Always keep the core claim safe:
 
-- PsyCalc is a research-oriented framework.
+- Before We Build is a research-oriented framework.
 - Cognitive Matchmaker is an applied matching concept.
 - Compatibility scores are not guarantees.
 - Typologies are heuristic lenses, not fixed identities.

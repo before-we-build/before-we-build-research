@@ -13,7 +13,7 @@ sources: [raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md, ra
 
 Alexander Afanasyev's model, also known as **Psychosophy** or **Psyche-Yoga**, describes a person's hierarchy of four psychosophic aspects: **Will**, **Logic**, **Emotion**, and **Physics**.
 
-In PsyCalc this system is interpreted as an operational-level heuristic for latent processes of synthesis, analysis, and action organization. This is a project interpretation, not a claim that Psychosophy has been psychometrically validated.
+In Before We Build this system is interpreted as an operational-level heuristic for latent processes of synthesis, analysis, and action organization. This is a project interpretation, not a claim that Psychosophy has been psychometrically validated.
 
 > Boundary note: **Past, Present, Future, and Eternity belong to Temporistics**, not to Afanasyev's Psychosophy.
 

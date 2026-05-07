@@ -1,4 +1,4 @@
-# Log — PsyCalc Wiki
+# Log — Before We Build Wiki
 
 Chronological record of wiki activity. Append-only.
 
@@ -14,7 +14,7 @@ Added Russian and Ukrainian wiki entity pages for all test-result type targets a
 
 ## [2026-04-30] ingest | Selected 41st IIS conference topics
 
-Added `raw/socionics/iis-41-conference-program-metadata.md` and `wiki/sources/iis-41-conference-program-topics.md` as a rights-conscious metadata-only note for three selected 41st IIS conference topics: Socionics/MBTI/Big Five, improving typing accuracy, and AI hallucinations from a Socionics-model perspective. The source note stores only factual metadata, short PsyCalc-authored summaries, links, and caveats; it does not mirror the full program, screenshots, or extended descriptions.
+Added `raw/socionics/iis-41-conference-program-metadata.md` and `wiki/sources/iis-41-conference-program-topics.md` as a rights-conscious metadata-only note for three selected 41st IIS conference topics: Socionics/MBTI/Big Five, improving typing accuracy, and AI hallucinations from a Socionics-model perspective. The source note stores only factual metadata, short Before We Build-authored summaries, links, and caveats; it does not mirror the full program, screenshots, or extended descriptions.
 
 ## [2026-04-30] ingest | Bukalov neural structures source note
 
@@ -22,7 +22,7 @@ Added `raw/socionics/bukalov-neural-structures-correlates.md` and `wiki/sources/
 
 ## [2026-04-30] ingest | Initial resource-map source lists
 
-Expanded the multilingual internet resource map with initial curated source lists for Socionics, Psychosophy, Temporistics, and methodology/psychometrics. Entries include URL where known, source type, language, PsyCalc use, and caveats; uncertain resources remain marked as URL уточнить / URL уточнити rather than fabricated.
+Expanded the multilingual internet resource map with initial curated source lists for Socionics, Psychosophy, Temporistics, and methodology/psychometrics. Entries include URL where known, source type, language, Before We Build use, and caveats; uncertain resources remain marked as URL уточнить / URL уточнити rather than fabricated.
 
 ## [2026-04-29] ingest | Multilingual internet resource map
 
@@ -30,19 +30,19 @@ Added `wiki/sources/resource-map.md` plus Russian and Ukrainian translations (`r
 
 ## [2026-04-26] ingest | Reframing around Christian family foundation
 
-Added a Christian family-formation front door for PsyCalc / Cognitive Matchmaker: `wiki/concepts/christian-foundation-of-family.md`, `family-formation-principles.md`, `typologies-as-supporting-tools.md`, `limits-of-typological-inference.md`, `research-layer-vs-practical-guidance.md`, and `hypothesis-status-of-psycalc.md`. Added `docs/homepage-christian-family-reframe.md` as a public website copy blueprint. Updated `README.md` and `index.md` so the primary practical frame is faith, shared values, fidelity, responsibility, forgiveness, and supportive community, while typologies remain secondary heuristic tools.
+Added a Christian family-formation front door for Before We Build / Cognitive Matchmaker: `wiki/concepts/christian-foundation-of-family.md`, `family-formation-principles.md`, `typologies-as-supporting-tools.md`, `limits-of-typological-inference.md`, `research-layer-vs-practical-guidance.md`, and `hypothesis-status-of-before-we-build.md`. Added `docs/homepage-christian-family-reframe.md` as a public website copy blueprint. Updated `README.md` and `index.md` so the primary practical frame is faith, shared values, fidelity, responsibility, forgiveness, and supportive community, while typologies remain secondary heuristic tools.
 
 Added `wiki/concepts/biblical-grounding-policy.md` and strengthened summary-level biblical grounding across the new Christian family foundation pages so Christian normative claims have nearby Bible references.
 
 Added Russian and Ukrainian versions of the new Christian family foundation pages and homepage blueprint, with localized Bible references per language: English pages use English Bible book names, Russian pages use Russian names, and Ukrainian pages use Ukrainian names.
 
-2026-04-24 - Added PsyCalc front-door orientation: root `README.md`, clearer `main-idea.md`, `project-positioning.md`, updated index introduction, and glossary framing to distinguish PsyCalc from Cognitive Matchmaker.
-2026-04-24 - Added `psycalc-vs-big-five.md` to position Big Five as the validated descriptive baseline and PsyCalc as a heuristic latent-process architecture for compatibility, role-fit, and AI simulation.
+2026-04-24 - Added Before We Build front-door orientation: root `README.md`, clearer `main-idea.md`, `project-positioning.md`, updated index introduction, and glossary framing to distinguish Before We Build from Cognitive Matchmaker.
+2026-04-24 - Added `before-we-build-vs-big-five.md` to position Big Five as the validated descriptive baseline and Before We Build as a heuristic latent-process architecture for compatibility, role-fit, and AI simulation.
 2026-04-24 - Reworked `temporistics-intertype-relations.md` as “Proposed Intertype Relations in Temporistics,” separating source-backed Temporistics structure from reconstructed relation classes, tetrad hypotheses, a 24×24 structural signature matrix, and validation requirements.
 2026-04-24 - Reworked `psychosophy-intertype-relations.md` with a full 24×24 working relation matrix, compact relation-code legend, operational-level framing, and validation caveats.
 2026-04-24 - Added `intertype-relation-naming-audit.md` to compare relation names across Socionics, Psychosophy, and Temporistics and define a naming policy based on mechanism transparency, level specificity, and epistemic status.
 2026-04-24 - Applied relation-name audit findings to Psychosophy and Temporistics relation pages: replaced overclaiming labels such as “Therapy,” “Conflict Submission,” “Full Complement,” and “Therapeutic Exchange” with mechanism-first display names and clarified pressure-risk caveats.
-2026-04-24 - Added three intertype-relation expert agents (`socionics-intertype-relations-expert`, `psychosophy-intertype-relations-expert`, `temporistics-intertype-relations-expert`) to audit why relation names are used, explain the underlying process, and propose mechanism-accurate PsyCalc display names.
+2026-04-24 - Added three intertype-relation expert agents (`socionics-intertype-relations-expert`, `psychosophy-intertype-relations-expert`, `temporistics-intertype-relations-expert`) to audit why relation names are used, explain the underlying process, and propose mechanism-accurate Before We Build display names.
 2026-04-24 - Finalized Psychosophy and Temporistics relation pages with expert-review changes: directional signature derivation algorithms, worked pair examples, stronger source-status caveats, safer Psychosophy relation display names, structural Temporistics signature descriptors, and validation hypotheses.
 2026-04-25 - Added Eternity-oriented supportive wishes and example phrasings to Temporistics pages, with caveats against caste-like or rank-based interpretations of Eternity position.
 2026-04-25 - Added `prophetic-visionary-cognition.md` to model the prophetic/visionary archetype as a 1st Eternity heuristic while separating it from direct neuroscience validation or pathological reduction.
@@ -50,13 +50,13 @@ Added Russian and Ukrainian versions of the new Christian family foundation page
 2026-04-25 - Updated `prophetic-visionary-cognition.md` with a Christian Theology Note distinguishing prophetic archetype from the gift of prophecy, 1st Eternity from spiritual authority, and neural correlates from revelation.
 2026-04-25 - Added `clinical-neurologist-expert` agent for clinical neurology review, neurological red flags, differential-boundary caveats, and medical-safety separation from typology/neuroscience claims.
 2026-04-25 - Split the SLI + ELVF + EPNF profile into a neutral core composite page plus separate civilian and military applied profile pages to avoid mixing labor-market and wartime placement logic.
-2026-04-25 - Ingested “psychology of everything” context as `wiki/concepts/psychology-of-everything.md` and `wiki/sources/psychology-of-everything-synthesis.md`, positioning unified psychology/metatheory as context for PsyCalc rather than a claim to a completed universal psychology.
-2026-04-25 - Expanded Socionics Model A coverage: rewrote `wiki/concepts/socionics-model-a.md` as a hub and added `socionics-function-positions.md`, `socionics-model-a-blocks.md`, and `socionics-information-elements.md` with PsyCalc tactical-layer caveats.
+2026-04-25 - Ingested “psychology of everything” context as `wiki/concepts/psychology-of-everything.md` and `wiki/sources/psychology-of-everything-synthesis.md`, positioning unified psychology/metatheory as context for Before We Build rather than a claim to a completed universal psychology.
+2026-04-25 - Expanded Socionics Model A coverage: rewrote `wiki/concepts/socionics-model-a.md` as a hub and added `socionics-function-positions.md`, `socionics-model-a-blocks.md`, and `socionics-information-elements.md` with Before We Build tactical-layer caveats.
 2026-04-25 - Added source-backed coverage of the Kalinauskas steering wheel: raw source notes, `wiki/sources/kalinauskas-steering-wheel-source-notes.md`, and `wiki/concepts/kalinauskas-steering-wheel.md`, framed as a Socionics-school interpretive schema rather than canonical Model A.
-2026-04-25 - Added `wiki/concepts/smart-mobilization.md` as a clear PsyCalc concept page defining voluntary, non-coercive military role-fit recommendations, inputs, matching logic, ethics safeguards, red lines, and research-status caveats.
+2026-04-25 - Added `wiki/concepts/smart-mobilization.md` as a clear Before We Build concept page defining voluntary, non-coercive military role-fit recommendations, inputs, matching logic, ethics safeguards, red lines, and research-status caveats.
 2026-04-25 - Added `wiki/concepts/typology-test-design-protocol.md` and `.agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md` to centralize psychometric test design standards without prematurely adding per-typology test agents.
 2026-04-25 - Added `.opencode/agents/typology-test-evaluation-expert.md` as a single coordinating agent for typology test and item-bank evaluation across Socionics, Psychosophy, and Temporistics; per-typology test agents were intentionally not created.
-2026-04-25 - Added first draft PsyCalc test specifications for Socionics, Psychosophy, and Temporistics, each with construct frame, scales, seed item bank, scoring sketch, and validation caveats.
+2026-04-25 - Added first draft Before We Build test specifications for Socionics, Psychosophy, and Temporistics, each with construct frame, scales, seed item bank, scoring sketch, and validation caveats.
 2026-04-26 - Added `wiki/concepts/mbti-socionics-terminology-mapping.md` to clarify MBTI vs Socionics naming, J/P vs rationality/irrationality, function-name caveats, and alias policy.
 
 ## [2026-04-26] ingest | Multilingual rollout policy and first RU/UK orientation pages
@@ -178,10 +178,10 @@ Added 24 canonical English `psychosophy-type-<code>.md` entity pages and 24 cano
 - levels-of-communications
 
 **Active repos created:**
-- https://github.com/psycalc/temporistics-core
-- https://github.com/psycalc/socionics-core
-- https://github.com/psycalc/psychosophy-core
-- https://github.com/psycalc/cognitive-matchmaker
+- https://github.com/before-we-build/temporistics-core
+- https://github.com/before-we-build/socionics-core
+- https://github.com/before-we-build/psychosophy-core
+- https://github.com/before-we-build/before-we-build-engine
 
 ---
 
@@ -192,7 +192,7 @@ Added 24 canonical English `psychosophy-type-<code>.md` entity pages and 24 cano
 **Vendor repo analysis completed:**
 | Repo | Use | Migrated To |
 |------|-----|-------------|
-| personanexus | Framework mapping | `cognitive-matchmaker/cross_mapping.py` |
+| personanexus | Framework mapping | `before-we-build-engine/cross_mapping.py` |
 | jpaf | Cognitive function weights | `temporistics-core/`, `socionics-core/` |
 | oasis-sim | Social simulation | Archived (Phase 2) |
 | oasis-platform | Interviews | Archived (Phase 3) |
@@ -220,7 +220,7 @@ psychosophy-core/     # 81 types, 4-aspect model
 ├── tests/
 └── setup.py
 
-cognitive-matchmaker/ # Main orchestrator
+before-we-build-engine/ # Main orchestrator
 ├── cognitive_matchmaker/
 │   ├── profile.py    # PersonProfile, MatchResult
 │   ├── matcher.py    # Matchmaker class
