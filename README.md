@@ -64,9 +64,9 @@ The framework is a research program and heuristic ontology. Its claims should be
 
 ## Before We Build vs Cognitive Matchmaker
 
-**Before We Build** is the broader framework: ontology, latent-process model, compatibility architecture, and research wiki.
+**Before We Build** is the broader framework: Christian discernment doorway, ontology, latent-process model, compatibility architecture, and research wiki.
 
-**Cognitive Matchmaker** is one possible application: an AI dating concierge that uses simulation-based compatibility assessment. It is a downstream implementation, not the whole project.
+The earlier **Cognitive Matchmaker** idea is now treated as a future research track, not the near MVP. The current product should start as a weak-AI conversation map: Scripture-first questions, answer summaries, visible differences, open questions, and wise next steps. Autonomous matchmaking, digital twins, simulation-based scoring, and weekly AI shortlists are deferred until usefulness, safety, consent, and validation are proven.
 
 ## Start Here
 

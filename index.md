@@ -4,7 +4,7 @@ Before We Build is being reframed around a Christian family-formation foundation
 
 Biblical grounding for this front-door claim includes **1 Corinthians 13:4–7** on love as patient and enduring, **Colossians 3:12–14** on forgiveness and love, **Matthew 7:24–25** on building on a firm foundation, **Ecclesiastes 4:9–12** on mutual support, and **1 Thessalonians 5:21** on testing claims rather than treating human models as final authority.
 
-Before We Build remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses about hidden processes that can inform compatibility analysis, role fit, team design, and AI-based simulation.
+Before We Build remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses that may support conversation maps, role fit, team design, and later research into AI-assisted simulation.
 
 Core formula:
 
@@ -12,7 +12,7 @@ Core formula:
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
 
-Before We Build is the broader framework and research wiki. **Cognitive Matchmaker** is one possible downstream application: an AI dating concierge using simulation-based compatibility assessment.
+Before We Build remains the broader framework and research wiki. The earlier **Cognitive Matchmaker** concept is now a future research track, not the near MVP. The current product direction starts with a weak-AI conversation map: Scripture-first questions, answer summaries, visible differences, open questions, and wise next steps before serious shared decisions.
 
 ## Start Here
 
@@ -52,7 +52,7 @@ The wiki is organized conceptually into six layers:
 - **Orientation** — README, main idea, project positioning, glossary, roadmap.
 - **Core theory** — latent processes and the three primary typological interpretations.
 - **Compatibility architecture** — level boundaries, rules, conflicts, complementarity, examples.
-- **Applications** — Cognitive Matchmaker, team design, career/role navigation, service roles, AI agent simulation.
+- **Applications** — conversation maps before serious decisions, later church-mediated introduction support, team design, career/role navigation, service roles, and deferred AI simulation research.
 - **Research program** — hypotheses, measurement strategy, validation strategy, evidence, limitations.
 
 ```
@@ -103,7 +103,7 @@ wiki/          — LLM-generated wiki
 | [[socionics-test-specification]] | Draft Before We Build Socionics test architecture, scales, seed items, and scoring caveats | typology-test-design-protocol.md, socionics-model-a.md, socionics-information-elements.md |
 | [[psychosophy-test-specification]] | Draft Before We Build Psychosophy test architecture, position axes, seed items, and scoring caveats | typology-test-design-protocol.md, psychosophy-typing-methods.md, psychosophy-model.md |
 | [[temporistics-test-specification]] | Draft Before We Build Temporistics test architecture, temporal-frame scales, seed items, and scoring caveats | typology-test-design-protocol.md, temporistics-model.md, temporal-aspects.md |
-| [[plan]] | Product and technical plan | plan.md |
+| [[plan]] | Current realistic weak-AI product plan: personal preparation, shared conversation maps, and later church-mediated support | plan.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
 | [[civilian-profile-sli-elvf-vpnb]] | Civilian career profile for SLI + ELVF + EPNF with DevOps background | civilian role catalog |
@@ -112,6 +112,9 @@ wiki/          — LLM-generated wiki
 | [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
 | [[agentic-skills-hang-the-dj]] | 12 agent skills for simulation-based compatibility testing | skills/index.md |
 | [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
+| [[music-styles-and-psychosophy-emotion]] | English draft heuristic: musical styles and the functions of music as soft traces of Psychosophy Emotion position | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
+| [[music-styles-and-psychosophy-emotion-ru]] | Русская черновая эвристика: музыкальные стили и функции музыки как мягкие признаки позиции психософской Эмоции | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
+| [[music-styles-and-psychosophy-emotion-uk]] | Українська чернеткова евристика: музичні стилі й функції музики як м’які ознаки позиції психософської Емоції | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
 | [[mbti-socionics-terminology-mapping]] | Explains MBTI vs Socionics terminology, J/P vs rationality, function-name caveats, and alias policy | socionics-model-a.md, socionics-information-elements.md, cross-typology-terminology-conflicts.md, Wikisocion |
 | [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
 | [[multilingual-translation-policy]] | Multilingual naming, frontmatter, and wikilink rules for English, Russian, and Ukrainian pages | project convention, 2026-04-26 |
@@ -129,6 +132,7 @@ wiki/          — LLM-generated wiki
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[smart-mobilization]] | Voluntary, non-coercive military role-fit recommendation concept with ethics boundaries | smart-mobilization-research-note, smart-mobilization-typology-wartime |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
+| [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени: Прошлое, Настоящее, Будущее, Вечность | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
 | [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | before-we-build/Psyche-Yoga |
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | before-we-build/Psyche-Yoga |
@@ -308,7 +312,9 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 |------|---------|
 | [[glossary-core]] | Core terminology definitions |
 | [[glossary-extended]] | Extended disambiguation (60+ terms) |
-| [[project-requirements]] | Cognitive Matchmaker application requirements; not the whole Before We Build project |
+| [[glossary-audience-translation]] | Public-language bridge for translating research entities for Christian and general audiences |
+| [[christian-entity-renaming-audit]] | Editorial audit of research entities that should be kept, renamed, demoted, or hidden in Christian-facing copy |
+| [[project-requirements]] | Current weak-AI conversation-map requirements; deferred Cognitive Matchmaker research is not the MVP |
 | [[scientific-contribution-statement]] | Academic contribution statement |
 
 ---

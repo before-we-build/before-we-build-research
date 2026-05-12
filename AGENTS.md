@@ -4,9 +4,9 @@ This document defines the schema and conventions for maintaining the Before We B
 
 ## Project Overview
 
-**Before We Build** is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It treats typological structures not as final personality labels, but as compressed hypotheses about hidden processes that can inform compatibility architecture, role fit, team design, and AI-based simulation of interpersonal dynamics.
+**Before We Build** is a Christian conversation/discernment project supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It treats typological structures not as final personality labels, but as compressed hypotheses that may support conversation maps, role fit, team design, and later research into AI-assisted simulation.
 
-**Cognitive Matchmaker** is one downstream application of Before We Build: an autonomous AI dating concierge that uses simulation-based evaluative modeling for compatibility assessment. It is not the whole project.
+**Cognitive Matchmaker** is an earlier downstream application concept for Before We Build. It is now treated as a future research track, not the near MVP. The current implementation direction is humbler: a weak-AI Christian conversation map that helps individuals, pairs, and later churches surface questions, differences, uncertainty, and wise next steps before serious shared decisions.
 
 ### Core Theory
 
