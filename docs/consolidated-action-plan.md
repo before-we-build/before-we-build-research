@@ -1,510 +1,329 @@
-# Consolidated Action Plan: Cognitive Matchmaker
+# Consolidated Action Plan: Before We Build
 
-**Last Updated:** 2026-04-15
-**Status:** Research scan complete — several claims still need ongoing source tightening during implementation
+**Last Updated:** 2026-05-12
+**Status:** Revised to a realistic weak-AI starting point. Earlier simulation-concierge ideas are preserved only as a future research track.
 
 ---
 
 ## Executive Summary
 
-Build a simulation-based dating concierge that:
-1. Creates digital twins from personality assessments (BFI-2 validated)
-2. Runs adversarial scenarios (Hang the DJ style)
-3. Scores compatibility via repeated choice metric
-4. Validates against real-world outcomes
+Build a Christian conversation and discernment tool that helps people pause before serious shared decisions.
 
-**Core Principle:** AI as Copilot, not Oracle — human validates, AI suggests
+The first product does **not** try to be an autonomous AI dating concierge. It does **not** create digital twins, run large-scale simulations, score compatibility, or generate weekly candidate shortlists.
 
-**MVP Cost:** See `mvp-cost-estimation.md` for illustrative ballpark only; recompute before build
-**Research Foundation:** CogniPair + Love First + Psychology Research
+Instead, it starts from what current AI can do with reasonable reliability:
+
+1. ask structured questions;
+2. summarize answers;
+3. identify missing or unclear topics;
+4. map agreement and difference;
+5. suggest wise conversation questions;
+6. keep humans, Scripture, prayer, church, and counsel in the decision loop.
+
+**Core Principle:** AI as a weak helper for conversation, not an oracle, matchmaker, pastor, or decision-maker.
 
 ---
 
-## Part 1: What We Have
+## Part 1: Strategic Reset
 
-### AI/Dating Research
+### Old direction
 
-| Paper | Key Finding | Confidence |
-|-------|-------------|------------|
-| CogniPair (arXiv preprint, 2025) | GNWT-style agent architecture with reported attraction correlation | Medium |
-| Love First, Know Later (arXiv preprint / NeurIPS 2025 workshop) | Simulation-first compatibility evaluation as a promising design direction | Medium |
-| Bradley-Terry style ranking | Pairwise comparison as a useful scoring approach | Medium |
+Earlier drafts explored a Cognitive Matchmaker with:
 
-### Psychology Research (NEW)
+- BFI-2-style persona generation;
+- digital twins;
+- adversarial scenarios;
+- repeated-choice scoring;
+- judge ensembles;
+- automatic shortlists;
+- validation against real dating outcomes.
 
-| Paper | Key Finding | Application |
-|-------|-------------|-------------|
-| Scientific Reports (2025) | GPT-4 emulates constrained Big Five questionnaire responses with high consistency | Persona quality |
-| LLM psych simulation methodology | Richer personas may help, but no fixed minimum length is validated | Persona depth |
-| Psychometric Approach (preprint) | BFI-2-style prompts outperform simple adjectives on some measures | Persona method |
-| Frontiers: Psypilot (2026) | Decision-support / copilot framing with human oversight | Positioning |
-| S-Researcher (preprint, 2026) | Large-scale agent orchestration with human oversight is technically plausible | Architecture |
-| Current Psychology (2025) | AI benchmarking can help generate hypotheses before human validation | Validation method |
+That remains a possible research horizon, but it is too heavy and unreliable for the first build.
 
-### Key Insights from Psychology Research
+### New direction
 
-1. **BFI-2 > Simple Prompts** — Use validated personality scales, not just adjectives
-2. **Persona detail matters** — richer prompts may improve simulation, but length should be tuned empirically
-3. **AI Inflates Moral Ratings** — Need calibration against human baseline
-4. **Consistency Test Recommended** — verify stability rather than assuming the persona holds
-5. **Copilot > Oracle** — Position as suggestion system, not decision-maker
-6. **AI for Hypothesis → Humans for Validation** — Pilot with AI, verify with real pairs
+The first practical product is:
+
+```text
+Scripture-first questions
+→ answer capture
+→ map of agreement / difference / uncertainty
+→ questions for conversation
+→ wise next step
+```
+
+The question to validate first is not "Can AI predict compatibility?"
+
+The first question is:
+
+> Does this help people have wiser, clearer, more honest conversations before serious decisions?
 
 ---
 
 ## Part 2: MVP Scope
 
-### What to Build (MVP-1)
+### MVP-1: Personal Preparation Map
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     MVP-1: Hang the DJ Test                  │
-│                                                              │
-│  Core Principle: AI as Copilot, not Oracle                   │
-│                                                              │
-│  Pipeline:                                                   │
-│  1. BFI-2 Assessment → Detailed Persona Prompt               │
-│  2. Pre-simulation Consistency Test                          │
-│  3. 100 Adversarial Scenarios                               │
-│  4. Post-simulation Consistency Test                         │
-│  5. Repeated Choice Scoring (simulation-derived)            │
-│  6. Human Validation of Output                               │
-│                                                              │
-│  Output: "Compatibility hypothesis — verify in real"         │
-└─────────────────────────────────────────────────────────────┘
-```
+**Audience:** a Christian single or any person preparing for a serious relationship before God.
 
-### What NOT to Build (Yet)
+**Goal:** let a person begin alone, even without a current pair.
 
-- Fully autonomous matching
-- AI making decisions without human review
-- Mass dating pool integration
-- Automatic messaging
-- Calendar booking
+**Pipeline:**
 
----
+1. Choose path: preparing for serious relationship.
+2. Answer 20–40 Scripture-first and life-practical questions.
+3. AI summarizes with uncertainty labels.
+4. System identifies missing topics and possible tensions.
+5. Report gives conversation questions and wise next steps.
 
-## Part 3: Skills (12 Total)
+**Output:** `PersonalPreparationMap`
 
-```
-skills/
-├── persona-generator.md        # BFI-2 based persona prompts
-├── persona-cloner.md          # GNWT weights from Big Five
-├── persona-validator.md      # Pre/post consistency test ⭐ NEW
-├── global-workspace.md         # GNWT broadcast mechanism
-├── simulation-runner.md        # 3-phase pipeline
-├── observer-agent.md          # External LLM analysis
-├── adversarial-designer.md     # Pressure scenarios
-├── reward-model.md            # Bradley-Terry + IRL
-├── choice-tracker.md           # Repeated choices
-├── memory-persister.md         # 4-layer memory
-├── compatibility-scorer.md      # Simulation-derived score
-└── explanation-generator.md     # "Hypothesis" output
-```
+Includes:
+
+- hopes and expectations;
+- non-negotiables;
+- unclear areas;
+- topics for prayer and counsel;
+- questions for a future serious conversation.
+
+Does not include:
+
+- candidate search;
+- compatibility score;
+- digital twin;
+- simulated relationship;
+- promise of marriage;
+- AI recommendation to pursue a person.
 
 ---
 
-## Part 4: Persona Generation — Research-Backed Method
+### MVP-2: Shared Conversation Map
 
-### The Problem
+**Audience:** two people considering a serious relationship, marriage, family decision, service, team, or common work.
 
-Simple prompts like "You are an introverted person" produce inconsistent, shallow personas.
+**Pipeline:**
 
-### The Solution: BFI-2 Based Approach
+1. Person A answers separately.
+2. Person B answers separately.
+3. Answers are grouped by themes.
+4. System shows agreement, difference, unknowns, and avoided topics.
+5. System suggests conversation questions.
+6. Sensitive flags recommend wise counsel or pastoral review.
 
-Based on Huang et al. (2025) — Psychometric Approach:
+**Output:** `SharedConversationMap`
 
-```python
-# Input: BFI-2 scores
-persona_input = {
-    "openness": {"score": 0.7, "items": [...]},
-    "conscientiousness": {"score": 0.8, "items": [...]},
-    "extraversion": {"score": 0.3, "items": [...]},
-    "agreeableness": {"score": 0.6, "items": [...]},
-    "neuroticism": {"score": 0.2, "items": [...]},
-    "demographics": {"age": 28, "gender": "female", "occupation": "engineer"}
-}
-
-# Output: structured persona narrative / prompt packet
-persona_narrative = generate_persona(persona_input)
-```
-
-### Validation Chain
-
-```
-BFI-2 Assessment → Prompt Engineering → LLM Persona → Validation
-
-Step 1: BFI-2 gives validated personality dimensions
-Step 2: Prompt includes all 5 dimensions + demographics
-Step 3: Generate standardized persona narrative
-Step 4: Validate with user: "Does this describe you?" (use pilot data to set thresholds)
-```
-
-### Critical Rules
-
-1. **Use sufficient detail** — treat persona depth as an empirical tuning variable, not a fixed rule
-2. **Test demographics carefully** — added context may help some tasks but can also distort outputs
-3. **Use all 5 dimensions** — Don't skip neuroticism or agreeableness
-4. **Validate output** — User rates persona accuracy
+No percentage score. No yes/no verdict. No simulated future.
 
 ---
 
-## Part 5: Persona Consistency Testing
+### MVP-3: Church-Mediated Pilot
 
-### The Problem
+**Audience:** trusted churches helping single brothers and sisters consider introductions responsibly.
 
-LLM personas can drift — starting as one type, ending as another.
+**Pipeline:**
 
-Source posture: recent persona-modeling work suggests drift is a real concern, but exact reduction figures should not be treated as settled benchmarks here
+1. Voluntary closed profile.
+2. Anonymous matching/answer data separated from identity.
+3. Church-confirmed participation.
+4. Limited possible-conversation signal.
+5. Human church review.
+6. Staged consent before disclosure.
+7. Introduction questions, not AI decision.
 
-### The Solution: Pre/Post Assessment
+**Output:** `AnonymousConversationSignal` + `ChurchReviewNote` + `ConsentState`
 
-```python
-def consistency_test(persona_narrative):
-    # Pre-simulation: Test persona stability
-    pre_assessment = assess_personality(persona_narrative)
-    
-    # Run 10 interactions
-    interactions = run_test_conversations(persona_narrative, n=10)
-    
-    # Post-simulation: Did persona drift?
-    post_assessment = assess_personality(persona_narrative)
-    
-    # Calculate drift
-    drift = calculate_personality_distance(pre_assessment, post_assessment)
-    
-    # If drift > threshold, regenerate persona
-    if drift > 0.2:
-        return regenerate_persona(persona_narrative)
-    
-    return persona_narrative, drift
+No open browsing of singles. No photo-first marketplace. No automatic contact sharing.
+
+---
+
+## Part 3: Technical Architecture
+
+```text
+Question Library
+→ Answer Capture
+→ Answer Normalizer
+→ Theme Mapper
+→ Difference Mapper
+→ Question Generator
+→ Report Composer
+→ Optional Human / Church Review
+→ Feedback Notes
 ```
 
-### Validation Criteria
+### Components
 
-| Drift Score | Action |
-|-------------|--------|
-| < 0.1 | Excellent — persona stable |
-| 0.1 - 0.2 | Acceptable — note in output |
-| > 0.2 | Regenerate persona |
-
----
-
-## Part 6: Validation Methodology
-
-### The Problem
-
-AI simulation ≠ real-world outcomes. Need systematic validation.
-
-### The Solution: AI for Hypothesis → Humans for Validation
-
-Based on recent methodology papers and case studies on AI benchmarking and simulation:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Validation Pipeline                                          │
-│                                                              │
-│  Phase 1: AI Simulation (cheap, fast)                       │
-│  ├── Run 100 scenarios per pair                             │
-│  ├── Calculate repeated-choice score                         │
-│  └── Output: "Hypothesis: 87% compatible"                   │
-│                                                              │
-│  Phase 2: Human Pilot (expensive, slow)                      │
-│  ├── Recruit 10-20 real pairs                              │
-│  ├── Collect actual dates                                    │
-│  ├── Compare simulation to reality                           │
-│  └── Calibrate prediction model                             │
-│                                                              │
-│  Phase 3: Ongoing (continuous improvement)                  │
-│  ├── Collect feedback after each real date                   │
-│  ├── Retrain/adjust scoring weights                         │
-│  └── Improve future predictions                              │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### Ablation Tests
-
-| Test | What It Measures |
-|------|----------------|
-| Profile matching only | Baseline (current dating apps) |
-| + Typology features | Socionics contribution |
-| + Simulation | Simulation contribution |
-| Full pipeline | Total accuracy |
-
-Goal: test whether simulation features improve predictive performance over profile-only baselines
+- **Question Library:** Scripture-first and life-practical questions by audience path.
+- **Answer Capture:** forms or chat flow with save/resume.
+- **Answer Normalizer:** separates facts, self-descriptions, uncertainty, and possible concerns.
+- **Theme Mapper:** groups answers into conversation themes.
+- **Difference Mapper:** compares two people only in pair mode.
+- **Question Generator:** creates follow-up questions without verdict language.
+- **Report Composer:** produces warm plain-language reports.
+- **Review Layer:** human/pastor/church-worker review for sensitive issues.
 
 ---
 
-## Part 7: Implementation Roadmap
+## Part 4: Data Entities
 
-### Phase 0: Foundation (Week 1)
+Near-term entities:
 
-**Goal:** Technical stack ready
+- `UserSession`
+- `AudiencePath`
+- `QuestionSet`
+- `QuestionResponse`
+- `NormalizedAnswer`
+- `ConversationTheme`
+- `DifferenceItem`
+- `OpenQuestion`
+- `ConversationMap`
+- `ReviewFlag`
+- `WiseNextStep`
+- `ConsentRecord`
+- `FeedbackNote`
 
-| Task | Deliverable |
-|------|-------------|
-| Setup Python project | `poetry init`, dependencies |
-| LLM abstraction | `llm.py` with model switching |
-| BFI-2 schema | `schemas/persona.py` with Big Five |
-| Assessment form | BFI-2 questionnaire integration |
-| Unit tests | Basic test suite |
+Deferred research entities:
 
-**Cost:** $0
-**Time:** 4-8h
-
-### Phase 1: Persona Pipeline (Week 2)
-
-**Goal:** BFI-2 → Validated persona
-
-| Task | Deliverable | Research Source |
-|------|-------------|----------------|
-| BFI-2 to prompt | Structured → prompt | Huang et al. |
-| Persona generator | Structured persona narrative | LLM simulation methodology |
-| Consistency test | Pre/post assessment | Project validation choice |
-| User validation | "Rate 1-7" interface | CogniPair |
-| Socionics mapping | MBTI → Socionics | Type Mapper |
-
-**Cost:** ~$0.10
-**Time:** 8-16h
-
-### Phase 2: Simulation (Week 3)
-
-**Goal:** Run multi-turn conversations
-
-| Task | Deliverable |
-|------|-------------|
-| Turn loop | 10-turn conversation |
-| Memory injection | Cross-turn context |
-| Parallel execution | Batch processing |
-| Transcript logging | JSONL storage |
-
-**Cost:** ~$2.00 (100 conversations)
-**Time:** 16-24h
-
-### Phase 3: Adversarial Scenarios (Week 4)
-
-**Goal:** Test under pressure
-
-| Task | Deliverable |
-|------|-------------|
-| Scenario designer | Forced separation, better option, distance |
-| Stress injection | Escalating pressure |
-| Choice tracking | accept/reject, seek_reunion, stay_loyal |
-| Rebellion score | Did they resist system? |
-
-**Cost:** ~$0.50
-**Time:** 8-16h
-
-### Phase 4: Scoring & Output (Week 5)
-
-**Goal:** Hypothesis, not oracle
-
-| Task | Deliverable |
-|------|-------------|
-| Repeated choice metric | Simulation-derived reunion / selection rate |
-| Observer analysis | External compatibility assessment |
-| Calibration | Adjust for AI inflation |
-| Explanation | "Hypothesis: likely compatible — verify in real" |
-
-**Key:** Output as hypothesis, not verdict
-
-**Cost:** ~$0.10
-**Time:** 8-16h
-
-### Phase 5: Human Validation (Week 6-8)
-
-**Goal:** Verify simulation predicts reality
-
-| Task | Method | Deliverable |
-|------|--------|-------------|
-| Recruit pairs | Partner pool | 10-20 real pairs |
-| Run simulation | Full pipeline | Hypotheses |
-| Collect dates | Real-world | Ground truth |
-| Compare | Correlation | Score calibration |
-
-**Cost:** ~$5.00 + recruitment effort
-**Time:** 40-60h
+- `DigitalTwin`
+- `SimulationBatch`
+- `SimulationRun`
+- `CompatibilityScore`
+- `AutomatedShortlist`
+- `AutonomousConciergeAction`
 
 ---
 
-## Part 8: Technical Architecture
+## Part 5: Implementation Roadmap
 
-### Stack
+### Phase 0: Foundation Specs — Week 1
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      Frontend (Streamlit MVP)                │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                      API Layer (FastAPI)                     │
-│                                                              │
-│  POST /assessments/bfi2     → BFI-2 questionnaire          │
-│  POST /personas             → Generate validated persona  │
-│  POST /simulate             → Run 100 scenarios          │
-│  GET  /compatibility        → Hypothesis + explanation     │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    Simulation Engine                          │
-│                                                              │
-│  bfi2_to_persona()      (BFI-2 → standardized persona prompt)│
-│  consistency_test()       (Pre/post personality stability)   │
-│  simulation_runner()       (100 adversarial scenarios)       │
-│  choice_tracker()         (Repeated choice metric)           │
-│  observer_agent()        (External analysis)                │
-│  compatibility_scorer()   (Calibrated score)               │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                       Storage (SQLite MVP)                   │
-│                                                              │
-│  assessments/          BFI-2 responses                     │
-│  personas/              Generated + validated personas      │
-│  transcripts/            Full simulation logs               │
-│  outcomes/               Real-world validation data         │
-└─────────────────────────────────────────────────────────────┘
-```
+Deliverables:
 
-### LLM Parameters (Research-Backed)
+- Scripture-first promise and boundaries;
+- public language rules;
+- audience map;
+- first relationship-preparation question library;
+- report caveats.
 
-| Task | Model | Temperature | Source |
-|------|-------|-------------|--------|
-| Persona Generation | Gemini 2.5 Flash Lite | 0.8 | Love First |
-| Consistency Test | gpt-4o-mini | 0.3 | Cheap + reliable |
-| Conversation | Mistral-Nemo | 0.6 | Love First |
-| Observer | gpt-4o | 0.3 | Low variance |
-| Calibration | gpt-4o | 0.2 | Precise |
+### Phase 1: Personal Preparation MVP — Weeks 2–4
 
----
+Deliverables:
 
-## Part 9: Success Metrics
+- single-person answer flow;
+- save/resume session;
+- answer normalization;
+- personal preparation report;
+- follow-up question generation;
+- export/share option for mentor or pastor review.
 
-### Simulation Quality
+### Phase 2: Pair Conversation MVP — Weeks 5–8
 
-| Metric | Target | How to Measure |
-|--------|--------|----------------|
-| Persona accuracy | Working pilot threshold | User rating |
-| Consistency drift | <0.2 | Pre/post assessment |
-| Token cost per pair | <$0.10 | API logs |
+Deliverables:
 
-### Prediction Accuracy
+- two-person invitation flow;
+- separate answer capture;
+- shared map generation;
+- agreement/difference/unknown sections;
+- review flags;
+- plain-language report.
 
-| Metric | Target | Source |
-|--------|--------|--------|
-| Simulation vs real | Working pilot target | Pilot data |
-| vs Profile matching | Test for uplift | Ablation |
-| vs Random | Must beat simple baseline | Baseline |
+### Phase 3: Human Review and Feedback — Weeks 9–12
 
-### User Understanding
+Deliverables:
 
-| Metric | Target | How to Measure |
-|--------|--------|----------------|
-| Comprehension | Working pilot target | Survey |
-| Trust in "hypothesis" framing | Working pilot target | Survey |
-| Actionable insight | Working pilot target | Survey |
+- feedback forms;
+- pastor/mentor/church-worker review notes;
+- quality rubric for reports;
+- improved question sets based on real use.
+
+### Phase 4: Church-Mediated Pilot — Later
+
+Deliverables:
+
+- voluntary closed profiles;
+- anonymous IDs;
+- consent tracking;
+- limited church review workflow;
+- audit log;
+- no-browsing privacy rules.
+
+### Phase 5: Research Track — Only After Usefulness Is Proven
+
+Possible experiments:
+
+- typology-assisted question routing;
+- scenario-based reflection prompts;
+- limited supervised simulations;
+- judge ensembles for internal review;
+- outcome calibration.
+
+These are research experiments, not MVP requirements.
 
 ---
 
-## Part 10: Key Principles (Research-Backed)
+## Part 6: Success Metrics
 
-### 1. Copilot, Not Oracle
-> "AI as workflow-embedded decision support rather than autonomous care" — Frontiers: Psypilot
+### MVP-1
 
-**Implementation:** Every output includes "Verify in real life"
+- User understands the tool in under 10 seconds.
+- User can complete the path without typology knowledge.
+- Report gives concrete next conversation topics.
+- Report avoids verdict, score, and overpromise language.
+- Scripture-first reviewers do not see the tool as replacing God, Scripture, church, or counsel.
 
-### 2. BFI-2 for Persona
-> "BFI-2 prompts produce more human-like responses than simple adjectives" — Huang et al.
+### MVP-2
 
-**Implementation:** Use validated personality scales, not just type labels
+- Pair reports that the map helped them discuss important topics.
+- Report fairly presents differences without pressure.
+- Sensitive areas are visible but not sensationalized.
+- Users understand that the output is a conversation aid, not a decision.
 
-### 3. Rich Persona Prompts
-> More detailed persona profiles may improve simulation quality, but the exact threshold should be established empirically.
+### MVP-3
 
-**Implementation:** Standardize persona structure and test prompt depth experimentally
-
-### 4. Consistency Testing
-> Persona drift is a real risk in simulation and should be measured directly in the pipeline.
-
-**Implementation:** Pre/post personality assessment required
-
-### 5. Calibrate for Inflation
-> "AI tends to inflate moral ratings" — Huang et al.
-
-**Implementation:** Compare AI scores to human baseline, adjust
-
-### 6. AI for Hypothesis → Humans for Validation
-> Use AI to generate and prioritize hypotheses, then validate against human data.
-
-**Implementation:** Pilot with AI, verify with real pairs
+- No open browsing of single people.
+- No identity disclosure without staged consent.
+- Church contacts understand the tool as care support, not a dating marketplace.
+- Participants can pause, hide, delete, and revoke consent.
 
 ---
 
-## Part 11: Risk Mitigation
+## Part 7: Risk Mitigation
 
 | Risk | Mitigation |
 |------|------------|
-| LLM persona drift | Pre/post consistency test |
-| Inflated compatibility scores | Calibration against human baseline |
-| User over-trusts AI | "Hypothesis" framing, not "Verdict" |
-| Simulation ≠ Reality | Mandatory human validation phase |
-| Bias in scoring | Ablation tests, diverse pilot pairs |
+| User treats AI as verdict | No scores, no yes/no recommendation, repeated caveats |
+| Tool sounds psychological or typological | Public language uses Scripture, wisdom, conversation, counsel |
+| AI invents motives | Separate facts, self-description, uncertainty, and hypotheses |
+| Sensitive differences are mishandled | Review flags and human/pastor review path |
+| Church tool becomes a singles database | Anonymous profiles, staged consent, no browsing, audit logs |
+| Product drifts back into expensive concierge | Keep simulation/shortlist/digital twin entities deferred until validated |
 
 ---
 
-## Part 12: File Structure
+## Part 8: What Not to Build Yet
 
-```
-before-we-build-engine/
-├── pyproject.toml
-├── src/
-│   ├── __init__.py
-│   ├── llm/
-│   │   ├── client.py           # Model abstraction
-│   │   └── prompts.py          # BFI-2 based prompts
-│   ├── skills/
-│   │   ├── persona_generator.py # BFI-2 → narrative
-│   │   ├── persona_validator.py  # Consistency test ⭐
-│   │   ├── simulation_runner.py # Multi-turn
-│   │   ├── observer_agent.py   # External analysis
-│   │   ├── choice_tracker.py    # Repeated choice
-│   │   └── compatibility_scorer.py # Calibrated score
-│   ├── schemas/
-│   │   ├── bfi2.py             # BFI-2 assessment
-│   │   ├── persona.py          # Persona + consistency
-│   │   └── assessment.py       # Final output
-│   └── api/
-│       └── routes.py
-├── data/
-│   ├── personas/               # Generated personas
-│   ├── transcripts/            # Simulation logs
-│   └── outcomes/               # Validation data
-└── tests/
+Do not build yet:
+
+- autonomous AI dating concierge;
+- candidate pool scraping;
+- weekly AI shortlists;
+- digital twin simulation;
+- 100 adversarial scenarios;
+- compatibility score;
+- automatic messages;
+- scheduling or venue suggestions;
+- marketplace dynamics;
+- fully automated church introductions.
+
+---
+
+## Part 9: Most Correct Current Formula
+
+```text
+Before We Build starts as a Christian conversation map before serious shared decisions.
 ```
 
----
+Long-term research may explore stronger agentic systems, but the first useful product is:
 
-## Appendix: Research Sources
-
-| Source | Key Contribution |
-|--------|------------------|
-| CogniPair (arXiv preprint, 2025) | GNWT-style agent architecture, reported attraction correlation |
-| Love First (workshop/preprint) | 3-phase simulation pipeline, observer/reward ideas |
-| Scientific Reports | GPT-4 personality-response emulation |
-| LLM simulation methodology | validation-first simulator guidance |
-| arXiv: Psychometric Approach | BFI-2 for AI agents |
-| Frontiers: Psypilot | Copilot, not oracle |
-| arXiv: S-Researcher | Human-in-the-loop |
-| Current Psychology | AI for hypothesis → validate with humans |
-
----
-
-## Next Steps
-
-1. [ ] Review this plan
-2. [ ] Decide: Build solo or find team?
-3. [ ] Clone/start repo
-4. [ ] Week 1: Setup technical stack
+```text
+good questions, clear differences, honest uncertainty, wise next step
+```

@@ -13,7 +13,7 @@ This page distinguishes Before We Build as a research framework from its possibl
 
 ## 1. Before We Build in One Paragraph
 
-Before We Build is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as proposed models of latent psychological processes. The framework treats type structures as compressed hypotheses about how people organize information, action, and temporal meaning. It uses those hypotheses to build a multi-level compatibility architecture for human interaction, role fit, team design, and AI-assisted simulation.
+Before We Build is a Christian conversation and discernment project supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as proposed models of latent psychological processes. The near product should not begin as an autonomous matchmaker. It should begin as a weak-AI conversation map: Scripture-first questions, answer summaries, visible differences, open questions, and wise next steps before serious shared decisions. The research framework remains useful as hidden support and long-term study, but public outputs should stay humble, plain, and non-oracular.
 
 ## 2. The Required Mapping
 
@@ -47,19 +47,26 @@ This means that type labels should remain revisable. They are useful only insofa
 
 ## 4. Before We Build vs Cognitive Matchmaker
 
-**Before We Build** is the broader research framework:
+**Before We Build** is the broader project:
 
+- Christian conversation and discernment before serious shared decisions;
+- Scripture-first public doorway;
 - ontology of levels and latent processes;
 - interpretation of typologies as heuristic process models;
 - compatibility architecture;
 - research wiki and validation program.
 
-**Cognitive Matchmaker** is one downstream application:
+The earlier **Cognitive Matchmaker** proposal is now a future research track, not the near MVP:
 
-- AI dating concierge;
-- simulation-based compatibility product;
-- candidate triage and explanation interface;
-- implementation of Before We Build ideas in a relationship-matching context.
+- possible later exploration of simulation-based compatibility;
+- possible later candidate triage and explanation interface;
+- only after the simpler conversation-map product proves useful, safe, consent-respecting, and reviewable.
+
+Near-term implementation should instead be:
+
+- personal preparation map;
+- shared conversation map;
+- later church-mediated introduction support.
 
 Cognitive Matchmaker should not be treated as synonymous with Before We Build. Other applications may include team design, career/role navigation, church or service roles, military specialty advising, and AI agent simulation.
 

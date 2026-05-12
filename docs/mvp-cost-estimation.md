@@ -1,313 +1,122 @@
 # MVP Cost Estimation (Illustrative)
 
-**Audit note:** These numbers are scenario estimates under one example model mix. Vendor pricing and model lineups change quickly, so recompute before implementation.
+**Last Updated:** 2026-05-12
+
+This file replaces the older simulation-heavy MVP estimate. The near-term MVP no longer assumes digital twins, 100 scenarios, or multi-agent relationship simulation.
+
+The first product is a weak-AI conversation tool:
+
+```text
+question flow + answer summary + conversation map + follow-up questions
+```
+
+---
 
 ## MVP Scope
 
-```
-persona-generator + persona-cloner + simulation-runner + choice-tracker
-```
+### MVP-1: Personal Preparation Map
 
-**Test case:** 2 personas, 100 scenarios (for proof-of-concept)
+Included:
 
----
+- 20–40 question flow;
+- save/resume answers;
+- AI-assisted answer summary;
+- missing-topic detection;
+- follow-up question generation;
+- plain-language report;
+- optional export for mentor/pastor review.
 
-## Example Model Mix And Price Snapshot
+Not included:
 
-| Model | Input | Output | Notes |
-|-------|-------|--------|-------|
-| **Example primary model** | variable | variable | Main simulation model |
-| **Example mini model** | variable | variable | Observer, lighter tasks |
-| **Example low-cost generator** | variable | variable | Persona generation |
-| **Example open-weight / budget model** | variable | variable | Conversation simulation |
-| **Example premium option** | variable | variable | Higher-quality fallback |
-
-Use current official pricing pages for the exact model set you deploy.
-
----
-
-## Cost Breakdown by Skill
-
-### 1. persona-generator
-
-```
-Input: 2 users × structured assessment
-Output: 2 × 400-word narratives
-
-Per persona:
-  - Prompt: ~500 tokens (structured data)
-  - Response: ~500 tokens (narrative)
-
-Cost per persona:
-  Gemini 2.5 Flash Lite
-  Input: 500/1M × $0.075 = $0.0000375
-  Output: 500/1M × $0.30 = $0.00015
-  Total: $0.00019 per persona
-
-Total: 2 × $0.00019 = $0.00038
-```
-
-### 2. persona-cloner (GNWT weight calculation)
-
-```
-Input: 2 narratives × ~500 tokens
-Processing: Extract traits, calculate module weights
-Output: GNWT agent config
-
-No LLM call needed - deterministic transformation
-(Or optional: $0.00001 if using small model)
-
-Total: $0.00
-```
-
-### 3. simulation-runner
-
-```
-Per conversation:
-  - 2 agents × 10 turns × conversation
-  - Each turn: ~50 input tokens (context) + ~100 output tokens (response)
-
-Turn calculation:
-  Input per agent per turn: ~150 tokens (query + history)
-  Output per agent per turn: ~80 tokens
-
-Per turn (both agents):
-  Input: 2 × 150 = 300 tokens
-  Output: 2 × 80 = 160 tokens
-
-Per conversation (10 turns):
-  Input: 10 × 300 = 3,000 tokens
-  Output: 10 × 160 = 1,600 tokens
-
-Using gpt-4o (temp=0.9):
-  Input: 3,000/1M × $2.50 = $0.0075
-  Output: 1,600/1M × $10 = $0.016
-  Per conversation: $0.0235
-
-Total for 100 scenarios: 100 × $0.0235 = $2.35
-```
-
-### 4. observer-agent (per scenario)
-
-```
-Input: Full transcript (~10 turns × ~80 tokens = 800 tokens)
-Output: Analysis (~200 tokens)
-
-Using gpt-4o-mini (temp=0.3):
-  Input: 800/1M × $0.15 = $0.00012
-  Output: 200/1M × $0.60 = $0.00012
-  Per scenario: $0.00024
-
-Total for 100 scenarios: 100 × $0.00024 = $0.024
-```
-
-### 5. participant self-rating (per scenario)
-
-```
-Each agent rates themselves after conversation:
-  Input: Transcript + self-rating prompt (~300 tokens)
-  Output: Rating score (~50 tokens)
-
-Using gpt-4o (temp=0.7):
-  2 agents × (Input: 300/1M × $2.50 + Output: 50/1M × $10)
-  = 2 × ($0.00075 + $0.0005) = $0.0025
-
-Per scenario: $0.0025
-
-Total for 100 scenarios: 100 × $0.0025 = $0.25
-```
+- digital twins;
+- candidate search;
+- scenario simulation;
+- compatibility scoring;
+- weekly shortlist;
+- autonomous concierge actions.
 
 ---
 
-## Total MVP Cost (100 scenarios)
+## Cost Model
 
-| Component | Cost |
-|-----------|------|
-| persona-generator | $0.00038 |
-| persona-cloner | $0.00 |
-| simulation-runner | $2.35 |
-| observer-agent | $0.024 |
-| participant self-rating | $0.25 |
-| **Total** | **~$2.6** |
+The main cost is ordinary summarization and report generation, not repeated simulation.
 
----
+### Per single-person session
 
-## Scale-Up Cost Table
+Approximate token shape:
 
-| Scenarios | Total Cost | Cost per Scenario |
-|-----------|------------|-------------------|
-| 10 | $0.38 | $0.038 |
-| 100 | ~$2.6 | ~$0.026 |
-| 500 | $11.52 | $0.023 |
-| 1,000 | $22.62 | $0.023 |
+- User answers: 3,000–8,000 input tokens.
+- System instructions and question metadata: 1,000–3,000 input tokens.
+- Summary/report output: 1,000–2,500 output tokens.
+- Follow-up questions: 500–1,000 output tokens.
 
----
+Expected LLM calls:
 
-## Full "Hang the DJ" Cost (1,000 scenarios)
+1. normalize answers;
+2. identify missing topics;
+3. compose report;
+4. generate follow-up questions.
 
-```
-Per scenario (optimized):
-  - simulation-runner: $0.0235
-  - observer-agent: $0.00024
-  - participant: $0.0025
-  - Total: $0.026 per scenario
-
-For 1,000 scenarios: $26.00
-
-+ persona generation: $0.002
-+ GNWT processing: $0.00
-
-TOTAL: illustrative only; recompute from current pricing before use
-```
+This is small enough to run on a low-cost model with optional stronger-model review for sensitive cases.
 
 ---
 
-## Cost Optimization Strategies
+## Pair Mode Cost Model
 
-### 1. Use Cheaper Models Where Possible
+### MVP-2: Shared Conversation Map
 
-| Task | Current | Optimized | Savings |
-|------|---------|-----------|---------|
-| Conversation | gpt-4o | mistral-nemo | -80% |
-| Observer | gpt-4o | gpt-4o-mini | -70% |
-| Participant | gpt-4o | gpt-4o-mini | -70% |
+Approximate token shape:
 
-**Optimized per scenario:** ballpark only
-**1000 scenarios:** recompute from current pricing
+- Person A answers: 3,000–8,000 tokens.
+- Person B answers: 3,000–8,000 tokens.
+- Theme comparison: 2,000–4,000 tokens.
+- Report output: 1,500–3,000 tokens.
 
-### 2. Batch Processing
+Expected LLM calls:
 
-```
-Process 10 conversations in parallel
-Shared context reduces per-conversation cost by ~15%
-```
+1. normalize A;
+2. normalize B;
+3. compare by themes;
+4. compose shared conversation map;
+5. generate questions and review flags.
 
-### 3. Caching
-
-```
-Persona generation: Cache 16 MBTI types
-No regeneration needed per pair
-Setup: 16 × $0.00019 = $0.003
-Savings per pair: ~$0.001
-```
+Still far cheaper than simulation because the model is not running dozens of multi-turn conversations.
 
 ---
 
-## Optimized MVP Cost (100 scenarios)
+## Optional Human Review Cost
 
-| Component | Original | Optimized |
-|-----------|----------|-----------|
-| persona-generator | $0.00038 | $0.00038 |
-| simulation-runner | $2.35 | $0.47 (mistral-nemo) |
-| observer-agent | $0.024 | $0.007 (mini) |
-| participant | $0.25 | $0.08 (mini) |
-| **Total** | **~$2.6** | **~$0.6** |
+The serious cost for a Christian product is not only tokens. It is review:
 
-**Per scenario:** illustrative range only
+- copy review for Scripture-first framing;
+- pastor/mentor review for sensitive claims;
+- privacy and consent review;
+- support for confused or distressed users.
 
----
-
-## Full Scale Cost (100 pairs, 1000 scenarios each)
-
-```
-Per pair: depends on current model mix and transcript length
-100 pairs: recompute from updated assumptions
-```
+The MVP should budget time for human review before adding automation.
 
 ---
 
-## Cost vs Value
+## Deferred Research Cost
 
-| Metric | Value |
-|--------|-------|
-| MVP (100 scenarios, 2 pairs) | ballpark, model-dependent |
-| Research (100 pairs, 1000 scenarios) | highly model-dependent |
-| Commercial (10K pairs) | requires fresh pricing and sensitivity analysis |
+The following old cost categories are explicitly deferred:
 
----
+- persona-generator for digital twins;
+- persona-cloner / GNWT-style weights;
+- simulation-runner;
+- choice-tracker;
+- observer-agent scoring;
+- repeated scenario batches.
 
-## Comparison: Commercial Dating Apps
-
-| App | Monthly Revenue | Users | Cost per Match |
-|-----|----------------|-------|----------------|
-| Tinder Gold | $15/mo | 10M subscribers | ~$0.50 |
-| Hinge | $13/mo | 1M subscribers | ~$0.80 |
-| **Our MVP** | — | — | illustrative only |
-
-**Insight:** A simulation-based approach could be cost-competitive if quality uplift survives pilot validation.
+If the project later reopens supervised simulations, create a new estimate based on current model pricing and measured usefulness of the simpler product.
 
 ---
 
-## Recommendations
+## Cost-Control Rules
 
-1. **Start with gpt-4o-mini** for MVP validation
-2. **Upgrade to gpt-4o** only if quality suffers
-3. **Cache MBTI/Socionics personas** to reduce generation cost
-4. **Set a target cost range only after** measuring real transcript lengths and chosen model prices
-
----
-
-## Detailed Token Count
-
-### Per Conversation (10 turns)
-
-```
-SYSTEM PROMPT (per agent):
-  - Role definition: 200 tokens
-  - GNWT instructions: 300 tokens
-  - Persona narrative: 400 tokens
-  - Total: 900 tokens (can be cached)
-
-USER MESSAGE (per turn, 10 turns):
-  - Query: 50 tokens
-  - History summary: 100 tokens
-  - Total: 150 tokens × 10 = 1,500 tokens
-
-ASSISTANT (per turn, 10 turns):
-  - Response: 80 tokens × 10 = 800 tokens
-
-Per agent per conversation:
-  Input: 900 (cached) + 1,500 = 2,400 tokens
-  Output: 800 tokens
-
-Per pair per conversation:
-  Input: 2 × 2,400 = 4,800 tokens
-  Output: 2 × 800 = 1,600 tokens
-```
-
-### Observer Analysis
-
-```
-Input:
-  - System: 100 tokens
-  - Full transcript: 10 turns × 160 tokens = 1,600 tokens
-  - Total: 1,700 tokens
-
-Output: 200 tokens
-```
-
-### Participant Self-Rating
-
-```
-Input:
-  - System: 100 tokens
-  - Transcript: 1,600 tokens
-  - Prompt: 100 tokens
-  - Total: 1,800 tokens
-
-Output: 50 tokens
-
-Per agent: 1,850 input, 50 output
-```
-
----
-
-## Summary
-
-| MVP Variant | Cost | Scenarios | Per Scenario |
-|------------|------|-----------|--------------|
-| Basic (example premium mix) | ballpark only | 100 | estimate only |
-| Optimized (example mixed stack) | ballpark only | 100 | estimate only |
-| Minimal (example low-cost stack) | ballpark only | 100 | estimate only |
-
-**Recommended:** Build a tiny pilot, measure real token usage, then recompute costs from current official pricing.
+1. Do not run simulations in MVP-1 or MVP-2.
+2. Use small models for drafting summaries.
+3. Use stronger models only for review of sensitive reports.
+4. Cache normalized answers and generated reports.
+5. Prefer deterministic rules for obvious flags before calling an LLM.
+6. Keep output humble: no expensive model can justify an unsupported verdict.

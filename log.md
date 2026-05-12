@@ -4,6 +4,30 @@ Chronological record of wiki activity. Append-only.
 
 Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
 
+## [2026-05-12] ingest | Music styles heuristic EN/UK translations
+
+Added English and Ukrainian translations, `wiki/concepts/music-styles-and-psychosophy-emotion.md` and `wiki/concepts/music-styles-and-psychosophy-emotion-uk.md`, alongside `wiki/concepts/music-styles-and-psychosophy-emotion-ru.md`. These pages present the music-style heuristic for Psychosophy Emotion in three languages, including the expressive-genre 1E/4E axis and the 2E/3E check for overplayed, process-heavy, vulnerable, or self-reflective emotional music. Updated `index.md` with the new English and Ukrainian concept references.
+
+## [2026-05-12] ingest | Music styles and Psychosophy Emotion draft
+
+Added `wiki/concepts/music-styles-and-psychosophy-emotion-ru.md`, a Russian draft heuristic that maps musical styles/functions to possible traces of 1Э, 2Э, 3Э, and 4Э. The page keeps the mapping weak and non-diagnostic: genre alone does not type a person; the key question is what music does for the person's emotional state, expression, shared atmosphere, or background regulation. It also records that expressive genres are first read through the resultative 1Э/4Э axis as ready emotional forms, while excessive, overplayed, self-reflective, or process-heavy expressive music should additionally be checked through the 2Э/3Э axis. It notes that 1Э and 4Э may overlap in taste for ready/resultative emotional forms, while 2Э and 3Э may overlap in taste for processive, vulnerable, or finely tuned emotional music; the distinction is the person's role in the music rather than the genre itself. Updated `index.md` with the new concept reference.
+
+## [2026-05-12] revision | Realistic weak-AI product plan
+
+Revised the development plan away from an autonomous AI dating concierge as the near MVP. Updated `wiki/concepts/plan.md`, `docs/consolidated-action-plan.md`, `docs/mvp-cost-estimation.md`, `wiki/project-requirements.md`, `README.md`, `index.md`, `AGENTS.md`, `wiki/concepts/project-positioning.md`, `wiki/concepts/main-idea.md`, `wiki/glossary-core.md`, and `wiki/scientific-contribution-statement.md` so the current product starts as a weak-AI Christian conversation map: personal preparation, shared conversation maps, and later church-mediated introduction support. Digital twins, simulations, compatibility scores, weekly shortlists, and autonomous concierge actions are now explicitly deferred research-track ideas, not MVP requirements.
+
+## [2026-05-12] ingest | Temporistics third-aspect sin-pattern map
+
+Added `wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md`, a Russian Christian-facing research note derived from Dr. Radut's “Тайна третьего аспекта” and the 3rd-aspect Temporistics source pages. The page maps 3rd Past, 3rd Present, 3rd Future, and 3rd Eternity to possible spiritual temptations such as false guilt, flight from the present, fear/control, and earthly/cynical closure, with biblical grounding and explicit caveats that typology is not a verdict, excuse, diagnosis, or substitute for Scripture and pastoral discernment. Updated `index.md` with the new concept reference.
+
+## [2026-05-12] ingest | Christian entity renaming audit
+
+Added `wiki/christian-entity-renaming-audit.md` after scanning the wiki for high-risk public terms such as compatibility, score, test, profile, type, typology, model, persona, digital twin, simulation, prediction, validation, Socionics, Psychosophy, Temporistics, Eternity, diagnosis, and verdict. The audit assigns keep/rename/demote/hide/pastor-check decisions for Christian-facing copy, gives page-level recommendations for core research pages, and defines stable Christian-facing names such as “questions before a serious step,” “conversation map,” “one body, many members,” and “faithful service.” Updated `index.md` with the audit reference.
+
+## [2026-05-12] ingest | Audience terminology map
+
+Added `wiki/glossary-audience-translation.md` as a bridge between research entities and public language for Christian and general audiences. The page inventories the main entity families in the wiki, recommends Scripture-nearer replacements for Christian-facing copy, separates research-layer terms from public terms, and flags entities such as compatibility, test, profile, score, model, simulation, Digital Twin, and Eternity for renaming or demotion in Christian public pages. Updated `index.md` with the new glossary reference.
+
 ## [2026-05-07] ingest | Psychosophy relation naming source update
 
 Added `raw/psychosophy/psychosophy-relation-naming-sources.md` to record source-status distinctions between classical Psychosophy Greek labels, the Typologies.ru / 4X_Pro 24-signature technical extension, Before We Build working labels, and Attitudinal Psyche branch relation names. Updated `wiki/relations/psychosophy-intertype-relations.md` with the Russian technical signature labels and Attitudinal Psyche comparison list, and updated `wiki/concepts/intertype-relation-naming-audit.md` so product-facing labels remain mechanism-first and source-labeled rather than romanticized or canonically overclaimed.

@@ -11,15 +11,15 @@ sources: []
 
 ## Abstract
 
-This document articulates the theoretical contribution of Before We Build to the formalization of classical epistemological operations—induction, deduction, synthesis, and analysis—through computational modeling of human compatibility. Cognitive Matchmaker is one downstream dating application of this broader framework. We propose that the project's architecture constitutes a novel paradigm: **simulation-based evaluative modeling** that operationalizes abstract psychological constructs into traceable, testable, and iteratively improvable computational representations.
+This document articulates a **future research contribution** of Before We Build to the formalization of classical epistemological operations—induction, deduction, synthesis, and analysis—through computational modeling of human compatibility. As of 2026-05-12, this is not the near product plan. The near product starts as a weak-AI Christian conversation map. Cognitive Matchmaker and simulation-based evaluative modeling remain deferred research directions that must not be presented as MVP functionality.
 
 ---
 
 ## 1. Introduction: The Gap Between Theory and Computation
 
-Classical epistemological operations—induction, deduction, analysis, and synthesis—have long served as foundational categories in scientific methodology. However, their application to complex human phenomena such as romantic compatibility has remained predominantly qualitative. Existing computational dating systems rely on surface-level attribute matching or engagement-based ranking (often opaque to users), without providing interpretable causal chains linking observed traits to predicted relational outcomes.
+Classical epistemological operations—induction, deduction, analysis, and synthesis—have long served as foundational categories in scientific methodology. Their application to complex human phenomena such as romantic compatibility remains speculative and must be validated carefully before becoming product claims.
 
-Before We Build addresses this gap by constructing a **closed-loop evaluative system** that:
+As a research horizon, Before We Build may later explore a **closed-loop evaluative system** that:
 
 1. Induces structured person models from interview data (induction)
 2. Deduces behavioral predictions in scenario-based simulations (deduction)

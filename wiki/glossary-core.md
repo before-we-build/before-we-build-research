@@ -11,7 +11,9 @@ sources: []
 
 ## Purpose
 
-This glossary provides authoritative working definitions for the Before We Build research framework and its downstream applications, including Cognitive Matchmaker. Before We Build is the broader ontology and latent-process compatibility framework; Cognitive Matchmaker is one implementation of that framework in AI-assisted dating and relationship matching.
+This glossary provides authoritative working definitions for the Before We Build research framework and its possible downstream applications. As of 2026-05-12, the near product is **not** Cognitive Matchmaker. The near product is a weak-AI Christian conversation map: Scripture-first questions, answer summaries, visible differences, open questions, and wise next steps.
+
+Cognitive Matchmaker, digital twins, simulation transcripts, compatibility scoring, and weekly shortlists are retained here as **deferred research-track terminology**. They should not be read as MVP requirements.
 
 The glossary should preserve the central Before We Build distinction: type labels are not final explanations. They are structured hypotheses about latent processes inferred from observable traces and revised through evidence.
 

@@ -1,155 +1,182 @@
 ---
 title: Project Requirements
 type: concept
-tags: [project, requirements]
+tags: [project, requirements, realistic-ai, conversation-map]
 created: 2026-04-14
-updated: 2026-04-15
-sources: []
+updated: 2026-05-12
+sources: [wiki/concepts/plan.md, docs/consolidated-action-plan.md]
 ---
 
-# Cognitive Matchmaker project description
+# Before We Build Project Requirements
 
-## What the project is
+## 1. Current Product Definition
 
-The “Cognitive Matchmaker” is a concept for an autonomous AI dating concierge that shifts matchmaking from “browse-and-swipe” to “delegated search + evidence-based shortlisting.” In the prompt, the agent’s mission is to reduce “swipe fatigue” by taking over the labor of searching, reading, and triaging large candidate pools, while surfacing only a small number of high-fit introductions per week (1–5). The agent is explicitly positioned as “Love First, Know Later”: it aims to predict deep compatibility *before* the user invests time in extended texting, and then encourages meeting in real life sooner with less planning.
+Before We Build is currently defined as a Christian conversation and discernment tool before serious shared decisions.
 
-The differentiator versus conventional matching is not “more filters” or “more traits in a profile.” It is a **simulation-first evaluation loop**: the system constructs a structured persona for the user, simulates relationship-relevant interactions between the user’s “digital twin” and candidate “twins” under stressful or high-stakes scenarios, and then produces a recommendation accompanied by an explanation grounded in those simulated transcripts.
+The first implementation is **not** an autonomous AI dating concierge. It is not a simulation engine and not a compatibility oracle. It starts from the level of AI that is available now: weak but useful for structuring answers, noticing missing topics, and generating better conversation questions.
 
-This project premise is motivated by known problems in modern online dating: large choice sets can promote rejection-oriented decision patterns rather than commitment, and repeated exposure to swiping dynamics can produce emotional fatigue and disengagement cycles. 
+Current product formula:
 
-## Why the project exists
+```text
+Scripture-first questions
+→ answer capture
+→ map of agreement / difference / uncertainty
+→ questions for conversation
+→ wise next step
+```
 
-A key claim behind the prompt is that **static-profile matching can be shallow** (profiles/interests ≠ relationship function under pressure) and that the *interaction design* of many swiping systems can amplify cognitive load and negative affect over time. Research on online dating has highlighted both the novelty and the downsides of browsing large numbers of profiles, including concerns about commoditization and reduced willingness to commit. 
+## 2. Primary Users
 
-A concrete example referenced in the prompt is the idea of a hidden desirability score like Elo in swipe-based ranking. Tinder has publicly stated that “Elo is old news” and that its current system is dynamic and engagement-based rather than relying on a single Elo-style score, while still being relatively non-specific about full matching logic. 
+### MVP-1
 
+A Christian single or any person preparing for a serious relationship before God.
 
-The project frames its solution as a **cognitive offload** product: instead of asking the user to evaluate hundreds of profiles and run repeated small-talk loops, the agent runs the evaluation pipeline and only escalates the most promising matches to the human. This design goal is consistent with empirical concerns that large “partner markets” can shift users toward more rejecting, pessimistic evaluation modes (“rejection mindset” under choice overload). 
+The user may begin alone, without a current pair.
 
-## Compatibility model used by the agent
+### MVP-2
 
-The prompt’s scoring philosophy is a three-layer hierarchy derived from activity theory’s distinction between **activity–action–operation**, typically mapped to **motive–goal–conditions** (i.e., what drives you, what you aim to do, and how you automatically execute under constraints). This hierarchy is attributed to Aleksei N. Leontiev and later activity-theory work and summaries. 
+Two people considering a serious relationship, marriage, family decision, church service, team, or shared work.
 
-The prompt then *binds* each layer to a typology framework:
+### MVP-3
 
-- **Strategic level (activity/motive)**: values, worldview, relationship to long-term future; implemented through “Temporistics” (Темпористика), a niche typology describing how a person relates to Past/Present/Future/Eternity as value-orienting categories.   
-- **Operational level (action/goal)**: functional compatibility, role distribution, goal-setting; implemented through “Psychosophy / Attitudinal Psyche” (Психософия), a typology centered on attitudes toward domains like Logic, Emotion, Volition/Will, and Physics/body.   
-- **Tactical level (operation/conditions)**: automatic reactions, information-processing habits; implemented through Socionics (Соционика), a Jung-inspired typology created by Aušra Augustinavičiūtė and influenced by Carl Jung and Antoni Kępiński. 
+Trusted churches that want a privacy-preserving way to help single brothers and sisters consider possible introductions responsibly.
 
-Important framing detail for a “clear project description”: in the prompt these frameworks are **not used as casual labels**; they are used as a *schema* to generate features for simulation and scoring. At the same time, at least Socionics is widely characterized as pseudoscientific in mainstream contexts, and therefore (as a product decision) the system should treat these typologies as optional heuristics and validate them empirically against real outcomes rather than treating them as ground truth. 
+## 3. Product Non-Goals
 
-## End-to-end workflow and user-facing outputs
+The product must not:
 
-The prompt specifies a four-stage workflow. A “clear description” of the project is therefore best expressed as a **weekly operating loop** with concrete artifacts.
+- promise to find a spouse;
+- output an ideal match claim;
+- give a compatibility percentage as a decision basis;
+- present AI simulation as truth about a person;
+- replace Scripture, prayer, church, pastoral counsel, character, repentance, or responsibility;
+- automate introductions, messages, or identity disclosure without consent;
+- become a browsable database of single people.
 
-**Deep onboarding interview → persona generation**  
-The agent runs a guided interview aimed at eliciting non-obvious patterns: hidden hopes, recurring conflicts, stress behavior, boundaries, and long-horizon life plans. The output is a structured “Persona” across the three layers:
+## 4. Core Requirements for MVP-1: Personal Preparation Map
 
-- strategic motives (values/time horizon),
-- operational goal/role patterns,
-- tactical automatic reactions and communication style.
+### Functional requirements
 
-The implementation implication is that the onboarding is not merely data collection; it is the model-building phase that defines the “digital twin” used later.
+- Provide a relationship-preparation path that one person can start alone.
+- Ask 20–40 Scripture-first and life-practical questions.
+- Save raw answers.
+- Summarize answers in plain language.
+- Mark uncertainty and missing information.
+- Identify topics for prayer, counsel, and future conversation.
+- Generate 5–10 follow-up questions.
+- Produce a report that can be read by the user and optionally shared with a mentor/pastor.
 
-**Autonomous relationship simulation → text world engine**  
-Once candidate profiles exist, the agent does *not* show the user a stack of profiles. Instead it simulates interactions between (a) the user-twin and (b) candidate-twins inside a text-based scenario system (“Text World Engine”).
+### Output requirements
 
-A useful real-world analogy for this component is the role of text-based simulation environments in AI research. For example, Microsoft Research’s TextWorld is designed to **generate and simulate text games** for training/evaluating agents, and academic work describes it as a sandbox with state tracking and reward assignment. 
+The output should include:
 
-The prompt’s specific twist is “sparse rewards”: don’t simulate routine chat; focus on **critical events** (stressors, decisions, conflicts) where differences become diagnostic. In reinforcement learning, sparse rewards are a standard challenge—if meaningful feedback is rare, naïve exploration struggles, and methodology tends to focus on better exploration/credit assignment.   
-In this project, that RL idea is repurposed (by analogy) into relationship evaluation: instead of sampling thousands of small talk turns, the system samples fewer but higher-information scenarios.
+- summary of hopes and expectations;
+- important convictions and non-negotiables;
+- unclear or undeveloped areas;
+- topics that require future conversation;
+- wise next step;
+- explicit caveat: this is not a verdict, promise, prophecy, or pastoral authority.
 
-The prompt’s example scenario library includes:
-- relocating for career,
-- family budget allocation,
-- reaction to a partner’s sudden failure.
+## 5. Core Requirements for MVP-2: Shared Conversation Map
 
-This is directionally consistent with relationship research that treats interaction contexts (conflict vs positive interaction) and day-to-day events as meaningful predictors of relationship evaluations and stability. 
+### Functional requirements
 
-**Transcript analysis → “Love Observer” scoring**  
-A separate evaluator (“Observer”) analyzes simulation transcripts and produces compatibility judgments. The prompt defines three core criteria:
+- Let two people answer separately.
+- Keep each person’s answers private until both agree to generate the shared map.
+- Group answers by themes.
+- Show agreement, difference, unknowns, and avoided topics.
+- Generate conversation questions.
+- Mark sensitive areas where wise counsel or pastoral review may be appropriate.
 
-- dialog quality (mutual engagement, responsiveness),
-- complementarity at the operational level (role fit, goal alignment),
-- absence of irreconcilable conflicts at the strategic level (values/time horizon).
+### Output requirements
 
-As a product artifact, this becomes an *evidence packet*: not “you both like hiking,” but “in a budget-crisis scenario, X seeks structure while Y seeks experimentation; the pair converged without contempt/withdrawal and produced a joint plan.”
+The output should include:
 
-**Weekly shortlist + coaching + real-world logistics**  
-The user receives **1–5 candidates per week**, each with a plain-language explanation referencing simulation outcomes, and suggested questions for the first date to validate the most important assumptions quickly.
+- shared themes;
+- agreement areas;
+- difference areas;
+- topics needing direct conversation;
+- suggested questions;
+- review flags;
+- no compatibility score or yes/no recommendation.
 
-If both parties consent, the system acts as an organizer: proposes a venue and schedules the meeting, minimizing prolonged digital chatting (“meet faster, plan less”).
+## 6. Core Requirements for MVP-3: Church-Mediated Pilot
 
-## Technical architecture implied by the prompt
+### Functional requirements
 
-Even though the text is a “system prompt,” it implicitly defines a modular architecture. A clear project description can name the modules and their interfaces:
+- Support voluntary participation only.
+- Use anonymous IDs by default.
+- Separate identity data from answer/conversation-map data.
+- Allow church-confirmed participation.
+- Prevent open browsing of profiles.
+- Require staged consent before identity disclosure.
+- Log access and review actions.
+- Allow participants to pause, hide, delete, and revoke consent.
 
-**Candidate ingestion layer**  
-A data pipeline that accepts “a base of candidate profiles.” The prompt does not specify provenance (dating apps, curated pool, introductions), but it assumes a standardized candidate schema suitable for model building and simulation prompts.
+### Output requirements
 
-**Persona & typing layer**  
-A structured representation containing:
-- narrative biography + constraints (non-negotiables),
-- the three-layer compatibility vectors,
-- scenario-specific preferences and red lines (e.g., relocation tolerance, spending norms).
+The output should be a limited possible-conversation signal, not a match verdict.
 
-Activity theory provides the conceptual skeleton (motive/goal/conditions).   
-Temporistics/Psychosophy/Socionics provide the feature language the prompt wants to use for that skeleton, but these are not mainstream psychometrics, so the system should treat them as internally consistent schemas rather than validated measures. 
+It may include:
 
-**Digital twin builder**  
-A component that turns each persona into a controllable agent: stable preferences, stress reactions, conversational style constraints, and decision policies. In practice, this is the “agent prompt + memory + policy constraints” layer.
+- anonymous summary;
+- church review note;
+- consent state;
+- suggested first conversation questions.
 
-**Scenario compiler**  
-A library of “critical events,” parameterized by:
-- stakes (money, career, family),
-- time pressure,
-- ambiguity,
-- value conflict axis,
-- required joint decision.
+## 7. AI Use Boundaries
 
-**Simulation runner**  
-Runs multiple scenarios per candidate pair, logs transcripts, computes intermediate signals (e.g., escalation, repair, alignment).
+AI may be used for:
 
-Text-based simulation is a known paradigm in AI evaluation; TextWorld is an example of an engine designed for controllable text environments, even though the domain here is relationship behavior rather than game quests. 
+- summarizing answers;
+- simplifying language;
+- grouping themes;
+- detecting missing topics;
+- generating follow-up questions;
+- preparing review notes.
 
-**Love Observer / scoring service**  
-Consumes transcripts and outputs:
-- compatibility scores per layer,
-- risk flags (e.g., strategic incompatibility),
-- explanation graph (which scenario moments drove the conclusion).
+AI must not be used as:
 
-**Concierge action layer**  
-User-facing delivery:
-- weekly digest,
-- pre-date coaching,
-- scheduling/booking integrations.
+- an autonomous matchmaker;
+- a spiritual authority;
+- a hidden ranking system;
+- a final judge of compatibility;
+- an unsupervised introduction agent.
 
-## Validation, risks, and compliance requirements
+## 8. Deferred Research Requirements
 
-A crisp project description should include what must be proven and what must be constrained.
+The following are explicitly deferred and should not be built into MVP-1 or MVP-2:
 
-**Validation: does simulation predict reality?**  
-The central technical risk is that LLM-based “digital twins” might be *plausible* but not *predictive*. The system must be evaluated against real outcomes (date satisfaction, continued contact, relationship formation) and should continuously recalibrate based on user feedback.
+- digital twins;
+- autonomous relationship simulation;
+- adversarial scenario batches;
+- judge ensembles for final scoring;
+- repeated-choice compatibility metric;
+- automatic weekly shortlist;
+- AI-driven messaging or scheduling.
 
-Because swipe-based environments can generate emotional fatigue and disengagement cycles, measuring whether the concierge reduces exhaustion (and not merely changes it) is an important success metric. 
+These may remain as research-track ideas only after the simpler conversation product proves useful.
 
-**Typology risk: scientific status and user harm**  
-Socionics is frequently described as pseudoscientific, and type-labeling can create overconfidence, self-fulfilling interpretations, or unjustified exclusion of candidates. A responsible implementation treats typology outputs as hypotheses to test (especially via the “deep questions” on dates), not as definitive diagnoses. 
+## 9. Acceptance Criteria
 
-**Privacy and automated decision-making**  
-A system that profiles romantic preferences and produces match recommendations touches sensitive personal data. If deployed in jurisdictions influenced by the European Union’s GDPR, profiling and automated decision-making constraints become relevant—especially if decisions “similarly significantly affect” users. GDPR Article 22 is the canonical reference point for rights concerning solely automated decision-making, and regulators like the Information Commissioner's Office provide guidance on interpretation and safeguards. 
+MVP-1 is acceptable when:
 
-At a minimum, the project needs:
-- explicit, informed consent for simulation-based profiling,
-- transparency about what the AI is doing and what it is *not* doing,
-- human-in-the-loop override (especially for exclusions),
-- data minimization, retention limits, and audit logging.
+- a user understands the tool within 10 seconds;
+- the user can complete it without typology knowledge;
+- the report gives concrete conversation topics;
+- public language is Christian, plain, and not psychology-first;
+- output does not sound like a verdict.
 
-**Avoiding deceptive interaction**  
-Because the system simulates and summarizes people, the product must avoid implying it has “read minds” or validated facts about candidates. Explanations should be framed as: “In simulated scenario X, the modeled interaction showed Y; here are questions to validate this in real life,” rather than as psychological certainties.
+MVP-2 is acceptable when:
 
-**Positioning against existing dating algorithms**  
-Existing major platforms already emphasize engagement signals and opaque ranking; Tinder’s public description explicitly speaks in terms of dynamic engagement factors and not a single Elo score.   
-The Cognitive Matchmaker’s differentiator is therefore not “a better ranking formula,” but an **agentic pipeline** that (1) reduces user cognitive load, (2) tests candidate fit in structured high-stakes scenarios, and (3) produces interpretable, scenario-grounded explanations before asking the user to invest attention.
+- both people understand the map as a conversation aid;
+- differences are shown respectfully;
+- sensitive issues are marked without pressure or manipulation;
+- no output implies that AI has decided the relationship.
 
-In one sentence: *this project is a simulation-driven AI concierge that replaces high-volume swiping with low-volume, evidence-backed introductions, using a three-level compatibility model (motive–goal–conditions) and a “critical event” scenario engine to predict relationship fit before the first date.*
+MVP-3 is acceptable when:
+
+- privacy boundaries are enforced;
+- no one can browse all single people;
+- identity is not disclosed without staged consent;
+- churches understand the tool as care support, not a dating marketplace.

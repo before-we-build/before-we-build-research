@@ -11,7 +11,7 @@ sources: []
 
 # Main Idea
 
-Before We Build is a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological types as final explanations of a person. A type is treated as an observable trace and working hypothesis about how hidden processes may be organized.
+Before We Build is a Christian conversation and discernment project supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological types as final explanations of a person. A type is treated as an observable trace and working hypothesis about how hidden processes may be organized. In the near product, these ideas should serve plain conversation maps and wise questions, not autonomous matchmaking or compatibility verdicts.
 
 ## 1. Central Mapping
 
@@ -100,8 +100,8 @@ The framework should use careful language: hypothesis, interpretation, heuristic
 
 ## 7. Framework vs Application
 
-**Before We Build** is the broader ontology and research architecture.
+**Before We Build** is the broader Christian conversation/discernment project and research architecture.
 
-**Cognitive Matchmaker** is one possible application: an AI dating concierge that uses Before We Build-compatible models for simulation-based compatibility assessment. It is not the whole project.
+The earlier **Cognitive Matchmaker** idea is now a future research track, not the near MVP. The current application should begin as a weak-AI conversation map: personal preparation, shared questions, visible differences, open uncertainty, and wise next steps.
 
-See [[project-positioning]] for the full distinction.
+See [[project-positioning]] and [[plan]] for the full distinction.
