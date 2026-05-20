@@ -3,7 +3,7 @@ title: Plan
 type: concept
 tags: [product, technical, roadmap, realistic-ai, conversation-map]
 created: 2026-04-14
-updated: 2026-05-12
+updated: 2026-05-13
 sources: [autoreasearch.md, wiki/concepts/compatibility-level-boundaries.md, wiki/concepts/typology-code-conventions.md, wiki/concepts/weight-calibration.md]
 ---
 
@@ -491,7 +491,26 @@ These may be research directions, but they are not the product foundation.
 
 ---
 
-## 15. Most Correct Product Formula
+## 15. Final Product Promise and Most Correct Product Formula
+
+### Final internal promise
+
+```text
+Before We Build is a Scripture-first preparation tool that uses good questions, clear differences, and honest uncertainty to help people prepare for wise conversation and name a wise next step before serious shared decisions.
+```
+
+### Final public-facing promise
+
+```text
+Before We Build допомагає перед серйозним спільним кроком зупинитися перед Богом: пройти добрі запитання, побачити важливі відмінності й чесно назвати, що ще не ясно, щоб підготуватися до мудрої розмови та наступного кроку.
+```
+
+Promise boundaries:
+
+- no promise of a spouse, family, or guaranteed outcome;
+- no score, verdict, or compatibility percentage;
+- no replacement for Scripture, prayer, church, wise counsel, or personal responsibility;
+- the tool prepares people for honest conversation; it does not decide for them.
 
 If compressed completely:
 

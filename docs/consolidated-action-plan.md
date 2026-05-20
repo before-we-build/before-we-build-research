@@ -202,7 +202,7 @@ Deliverables:
 - public language rules;
 - audience map;
 - first relationship-preparation question library;
-- report caveats.
+- report caveats, using the reusable standard in `wiki/concepts/report-caveat-standard.md`.
 
 ### Phase 1: Personal Preparation MVP — Weeks 2–4
 
@@ -316,7 +316,28 @@ Do not build yet:
 
 ---
 
-## Part 9: Most Correct Current Formula
+## Part 9: Final Product Promise and Current Formula
+
+### Final internal promise
+
+```text
+Before We Build is a Scripture-first preparation tool that uses good questions, clear differences, and honest uncertainty to help people prepare for wise conversation and name a wise next step before serious shared decisions.
+```
+
+### Final public-facing promise
+
+```text
+Before We Build допомагає перед серйозним спільним кроком зупинитися перед Богом: пройти добрі запитання, побачити важливі відмінності й чесно назвати, що ще не ясно, щоб підготуватися до мудрої розмови та наступного кроку.
+```
+
+Promise boundaries:
+
+- no promise of a spouse, family, or guaranteed outcome;
+- no score, verdict, or compatibility percentage;
+- no replacement for Scripture, prayer, church, wise counsel, or personal responsibility;
+- the tool prepares people for honest conversation; it does not decide for them.
+
+### Most correct current formula
 
 ```text
 Before We Build starts as a Christian conversation map before serious shared decisions.

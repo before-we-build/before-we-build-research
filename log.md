@@ -2,7 +2,57 @@
 
 Chronological record of wiki activity. Append-only.
 
-Historical note: older entries may contain claims or source framings that were later corrected during audit passes. Prefer current wiki pages over the log for authoritative summaries.
+## [2026-05-20] revision | Correct mapping order for music styles and Psychosophy Emotion
+
+Updated `wiki/concepts/music-styles-and-psychosophy-emotion-ru.md`, `wiki/concepts/music-styles-and-psychosophy-emotion.md`, and `wiki/concepts/music-styles-and-psychosophy-emotion-uk.md` with the correct method for using musical styles as weak Emotion-position clues. The revision states that mapping should start from the function of music for the person, then check the result/process and subjective/objective axes, and only afterward treat genre as a weak hint. It explicitly rejects deterministic “style = Emotion position” typing and keeps the heuristic in the form “style may be a weak marker if its function for the person is known.”
+
+## [2026-05-13] positioning | Main project goal and launch audience
+
+Added `wiki/concepts/project-main-goal.md` to state the main goal of Before We Build: help Christians examine the foundation before serious shared decisions, with the first practical doorway narrowed to lonely brothers and sisters discerning relationships and marriage while preserving broader future paths for family, church service, teams, common work, business partnership, and role/responsibility fit. The page translates the hidden three-level compatibility map into public Christian questions: Temporistics/strategic as “where are we going before God?”, Psychosophy/operational as “how do we decide and carry responsibility?”, and Socionics/tactical as “how do we talk, hear, and repair?” Updated `main-idea.md`, `project-positioning.md`, and `index.md` with the new goal reference.
+
+## [2026-05-13] planning | Trusted-user test plan
+
+Added `docs/trusted-user-test-plan.md`, a private first-round plan for 5–10 trusted users to evaluate the Start Alone experience. The plan measures clarity, spiritual safety, usefulness for wise conversation, caveat understanding, trust without over-trust, emotional tone, privacy confidence, and missing topics; it explicitly excludes compatibility prediction, readiness scoring, spouse/match promises, and discernment of God’s will. It includes consent/privacy language, session flow, feedback questions, observer notes, stop criteria, and cautious feedback-synthesis rules so results are summarized as early design feedback rather than proof that the tool works. Updated `docs/hermes-kanban-action-plan.md` with the completed artifact reference.
+
+## [2026-05-13] review | Generated report review rubric
+
+Added `docs/generated-report-review-rubric.md`, an internal rubric for reviewing generated Before We Build reports. The rubric defines pass, rewrite, pastor-check, and block decisions across clarity, spiritual safety, usefulness for concrete conversation topics, over-trust risk, language/localization, privacy/consent, and safety escalation; it hard-blocks verdicts, scores, promises, replacement of Scripture/prayer/church/counsel, hidden motive-reading, automatic disclosure, and unsafe handling of abuse, coercion, self-harm, or serious danger. Updated `docs/hermes-kanban-action-plan.md` with the completed artifact reference.
+
+## [2026-05-13] planning | Technical MVP implementation path
+
+Added `docs/technical-mvp-implementation-path.md`, an implementation-path inspection for the Start Alone MVP. The note identifies `before-we-build.github.io` as the target static GitHub Pages app, explains why `church-intro-bot` remains a separate church-mediated introduction repo, maps question flow, local persistence, normalization, `PersonalPreparationMap` report generation, UI copy, controlled export, exact implementation commands, and tests to add. Updated `docs/hermes-kanban-action-plan.md` with the completed artifact reference.
+
+## [2026-05-13] planning | Personal preparation map template
+
+Added `docs/personal-preparation-map-template.md`, the first `PersonalPreparationMap` report template for the Start Alone path. The template defines the report title options, required caveat placement, sections for what is clear, hopes and expectations, unclear areas, topics for prayer/Scripture/church/wise counsel, future conversation questions, optional safety caution, one wise next step, footer reminder, a JSON-like composer contract, Ukrainian/Russian wording directions, and reviewer/theological-safety flags. Updated `docs/hermes-kanban-action-plan.md` with the completed artifact reference.
+
+## [2026-05-13] review | Start Alone question library spiritual safety
+
+Added `docs/start-alone-question-library-spiritual-safety-review.md`, a conservative Scripture-first review of the 39-question Start Alone library and optional 8-question first set. The review gives approved/rewrite/rejected statuses, safer replacement wording for pressure-sensitive questions, pastor-check flags for doctrine-sensitive role/calling language, and implementation guardrails for privacy, counsel, abuse/self-harm escalation, and non-oracular AI summaries. Updated `docs/hermes-kanban-action-plan.md` with the completed artifact reference.
+
+## [2026-05-13] planning | Answer normalization rules
+
+Added `docs/answer-normalization-rules.md`, the internal implementation and review spec for converting raw Start Alone answers into cautious normalized answers, conversation themes, open questions, review flags, and wise next-step categories. The spec separates user-stated facts, self-descriptions, clear summaries, partial summaries, unclear areas, possible concerns, human-review flags, AI-proposed questions, and next steps; requires attribution and uncertainty labels for generated objects; defines sensitive tags and report visibility rules; and gives concrete safe/forbidden examples. Updated `docs/hermes-kanban-action-plan.md` with the completed artifact reference.
+
+## [2026-05-13] planning | Start Alone question library v0
+
+Added `docs/start-alone-question-library-v0.md`, a 39-question draft library for the Start Alone path. The library groups questions around faith, hopes, loneliness, character, repentance, church and counsel, marriage expectations, conflict, money, work, service, children, family patterns, boundaries, safety, and one wise next step; it also includes an optional 8-question first set, localization notes, coverage checklist, and reviewer/theological-safety flags. Updated `docs/hermes-kanban-action-plan.md` with the completed artifact reference.
+
+## [2026-05-13] planning | MVP data entities
+
+Added `docs/mvp-data-entities.md`, the internal entity spec for the Start Alone / weak-AI conversation-map MVP. The spec defines `UserSession`, `AudiencePath`, `QuestionSet`, `QuestionResponse`, `NormalizedAnswer`, `ConversationTheme`, `OpenQuestion`, `ConversationMap`, `ReviewFlag`, `WiseNextStep`, and `FeedbackNote`; separates raw answers from normalized summaries; requires uncertainty labels; names where each entity appears in the MVP flow; and explicitly excludes `DigitalTwin`, `CompatibilityScore`, and `AutomatedShortlist`. Updated `docs/hermes-kanban-action-plan.md` with the new artifact reference.
+
+## [2026-05-13] ingest | Public language boundaries
+
+Added `wiki/concepts/public-language-boundaries.md`, a public Russian/Ukrainian vocabulary boundary for Before We Build. The page gives preferred Scripture-first wording, rejected psychology/typology/product terms, localized Ukrainian and Russian phrase replacements, button wording, report caveats, Scripture-near anchors, and a reviewer checklist. Updated `index.md` and `docs/hermes-kanban-action-plan.md` with the new artifact reference.
+
+## [2026-05-13] planning | Start Alone audience path spec
+
+Added `docs/start-alone-audience-path-spec.md`, the internal spec for the first Before We Build audience path: a Christian single preparing before God for serious relationship decisions. The spec defines the audience clarity test, public-facing Ukrainian entry copy, one clear next action, Scripture-first posture, church/counsel boundaries, AI constraints, and the required `PersonalPreparationMap` output. Updated `docs/hermes-kanban-action-plan.md` so card 4 points to the spec artifact.
+
+## [2026-05-13] ingest | Report caveat standard
+
+Added `wiki/concepts/report-caveat-standard.md`, a reusable caveat block for generated Before We Build reports. The standard says reports are not verdicts, pastoral authority, or promises; redirects readers to Scripture, prayer, church, wise counsel, and personal responsibility; includes compact and footer variants; and provides Russian/Ukrainian localization direction for later public-facing versions. Updated `index.md` and `docs/consolidated-action-plan.md` with the new standard reference.
 
 ## [2026-05-12] ingest | Music styles heuristic EN/UK translations
 
@@ -81,7 +131,6 @@ Added Russian and Ukrainian versions of the new Christian family foundation page
 2026-04-25 - Ingested “psychology of everything” context as `wiki/concepts/psychology-of-everything.md` and `wiki/sources/psychology-of-everything-synthesis.md`, positioning unified psychology/metatheory as context for Before We Build rather than a claim to a completed universal psychology.
 2026-04-25 - Expanded Socionics Model A coverage: rewrote `wiki/concepts/socionics-model-a.md` as a hub and added `socionics-function-positions.md`, `socionics-model-a-blocks.md`, and `socionics-information-elements.md` with Before We Build tactical-layer caveats.
 2026-04-25 - Added source-backed coverage of the Kalinauskas steering wheel: raw source notes, `wiki/sources/kalinauskas-steering-wheel-source-notes.md`, and `wiki/concepts/kalinauskas-steering-wheel.md`, framed as a Socionics-school interpretive schema rather than canonical Model A.
-2026-04-25 - Added `wiki/concepts/smart-mobilization.md` as a clear Before We Build concept page defining voluntary, non-coercive military role-fit recommendations, inputs, matching logic, ethics safeguards, red lines, and research-status caveats.
 2026-04-25 - Added `wiki/concepts/typology-test-design-protocol.md` and `.agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md` to centralize psychometric test design standards without prematurely adding per-typology test agents.
 2026-04-25 - Added `.opencode/agents/typology-test-evaluation-expert.md` as a single coordinating agent for typology test and item-bank evaluation across Socionics, Psychosophy, and Temporistics; per-typology test agents were intentionally not created.
 2026-04-25 - Added first draft Before We Build test specifications for Socionics, Psychosophy, and Temporistics, each with construct frame, scales, seed item bank, scoring sketch, and validation caveats.
@@ -102,41 +151,6 @@ Added Russian and Ukrainian translations for `socionics-overview.md`, `psychosop
 ## [2026-04-26] ingest | Psychosophy and Temporistics result-link type pages
 
 Added 24 canonical English `psychosophy-type-<code>.md` entity pages and 24 canonical English `temporistics-type-<code>.md` entity pages as result-link targets for specific top type hypotheses, with explicit level-boundary caveats, code decomposition, and reading-guide links. Updated `index.md` with compact family notes; RU/UK were intentionally deferred to English fallback.
-
----
-
-## [2026-04-17] ingest | Smart mobilization and typology in wartime
-
-**Action:** Deep web research on technology-enabled military personnel management and personality typology applications during wartime
-
-**Sources researched:**
-- Recruit 360 (US Army, 2024) — AI recruitment tool
-- People Supply Chain Management (US Army, 2025)
-- PLA Air Force AI biometric screening (China, 2025)
-- NGC2 predictive logistics (US Army, 2026)
-- MBTI studies in US military (1986-2012)
-- Dutch special forces personality study (2022)
-- German KSK selection study (2026)
-- Ukrainian combatant value typology (2022)
-
-**Key historical findings later flagged for verification:**
-- MBTI created during WWII (1943) by Katharine Cook Briggs and Isabel Briggs Myers
-- First used by Office of Strategic Services (OSS) for assigning intelligence operatives in liberated Europe (1944-1945) — requires source verification before reuse
-- 80% success rate in combat positions (Peabody et al., 1946) — unsupported in current wiki and should not be treated as established evidence
-- Selected personnel were 50% more effective in their roles (Army Air Forces, 1949) — requires source verification before reuse
-
-**Additional research: Third Will in Psychosophy**
-- Deep dive into 3rd Will as latent process
-- Found: "Мещанин" (Petite Bourgeois) — status-conscious, needs external validation
-- Key fear: being seen as incapable
-- Mechanism: derives self-worth from others' recognition
-- In wartime: performs best with clear feedback and supportive structure
-
-**Created:**
-- `raw/general/smart-mobilization-typology-wartime.md` — Full research compilation
-- `wiki/sources/smart-mobilization-typology-wartime.md` — Wiki source page
-- Updated `index.md` with new entries
-- Updated `wiki/concepts/latent-process.md` with Third Will section
 
 ---
 
@@ -1150,7 +1164,6 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Added `psychosophy-quadras.md` with six quadra clusters and descriptive themes; synced index and related psychosophy pages.
 2026-04-24 - Ingested `ukraine-military-specialties-current.md` and `.opencode/data/military-roles-current.md`; linked military-specialty-advisor to the current Ukrainian role catalog.
 2026-04-24 - Expanded the Ukrainian military catalog with branch-specific role families and updated military-specialty-advisor matching hints.
-2026-04-24 - Added `smart-mobilization-research-note.md` summarizing existing recruitment practice and the project's typology-based novelty.
 2026-04-24 - Added `esco-typology-mapping.md` describing the ESCO → work features → typology fit pipeline.
 2026-04-24 - Added `composite-profile-sli-elvf-vpnb.md` with a user-specific composite profile and role recommendations.
 2026-04-24 - Added `socionics-function-dichotomies.md` and linked it into the composite profile to support a deeper Model A breakdown.

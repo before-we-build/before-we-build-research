@@ -22,7 +22,6 @@ This page defines the **core typological profile** used in the project:
 The profile is treated as a **latent-process hypothesis**, not as a fixed destiny and not as a job assignment. Applied profiling is separated into dedicated pages:
 
 - [[civilian-profile-sli-elvf-vpnb]] — civilian career profile
-- [[military-profile-sli-elvf-vpnb]] — military role-fit profile
 
 ## Research Goal
 
@@ -352,7 +351,6 @@ Therefore the tetra signal is not just continuity. It is **meaning-bearing direc
 Applied consequences differ by context and are handled in:
 
 - [[civilian-profile-sli-elvf-vpnb]]
-- [[military-profile-sli-elvf-vpnb]]
 
 #### Aspect Order
 
@@ -439,7 +437,6 @@ DevOps is recorded as known skill history, not as part of the type itself.
 Use it only as an external evidence input in applied profiles:
 
 - [[civilian-profile-sli-elvf-vpnb]] asks how this background translates into civilian labor-market roles.
-- [[military-profile-sli-elvf-vpnb]] asks how this background translates under military demand, unit structure, and field constraints.
 
 ## Applied Profile Separation
 
@@ -448,7 +445,6 @@ This core profile should not mix civilian and military recommendations. They use
 | Applied profile | Primary non-typological filter | Why separate |
 |-----------------|--------------------------------|--------------|
 | [[civilian-profile-sli-elvf-vpnb]] | labor market, ESCO-style role families, DevOps background, company culture | civilian careers reward skills, market demand, team culture, compensation, and growth path |
-| [[military-profile-sli-elvf-vpnb]] | current Ukrainian role demand, unit structure, training pipeline, command climate, physical/field constraints | military placement depends on wartime need, chain of command, availability, clearance, and unit culture |
 
 Shared typological signal:
 
@@ -469,22 +465,17 @@ The core page stops at typological pattern description. It should not decide whe
 Use applied pages for placement questions:
 
 - [[civilian-profile-sli-elvf-vpnb]] for civilian career strategy, job titles, team-culture fit, and labor-market positioning
-- [[military-profile-sli-elvf-vpnb]] for Ukrainian military specialty fit, role-demand constraints, unit culture, field constraints, and risk filters
 
 ## Summary
 
 - **Core profile:** SLI + ELVF + EPNF = meaningful technical reliability
 - **Civilian application:** see [[civilian-profile-sli-elvf-vpnb]]
-- **Military application:** see [[military-profile-sli-elvf-vpnb]]
 - **Main constraint:** do not collapse type, civilian career, and military placement into one undifferentiated recommendation
 
 ## See Also
 
 - [[esco-typology-mapping]]
 - [[civilian-profile-sli-elvf-vpnb]]
-- [[military-profile-sli-elvf-vpnb]]
-- [[ukraine-military-specialties-current]]
-- [[smart-mobilization-research-note]]
 - [[socionics-function-dichotomies]]
 - [[third-present-exile-latent-process]]
 - [[typology-code-conventions]]
