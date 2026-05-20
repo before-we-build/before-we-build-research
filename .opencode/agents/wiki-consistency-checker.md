@@ -197,21 +197,6 @@ Should we standardize to:
 What do you think?
 </example>
 
-<example>
-## Issue: Claim about MBTI validated without sources
-
-### Location: wiki/sources/smart-mobilization-typology-wartime.md
-Line: ~65
-
-### Claim: "80% success rate in combat positions (Peabody et al., 1946)"
-
-### Question: Is this source real? Can we verify?
-
-Options: 
-[A] Keep with note "unverified"
-[B] Remove claim
-[C] Research source
-</example>
 
 # Output Format for Tracking
 

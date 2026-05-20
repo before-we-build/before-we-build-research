@@ -25,6 +25,7 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[research-layer-vs-practical-guidance]] | Separates Christian guidance, product matching, and Before We Build research hypotheses |
 | [[hypothesis-status-of-before-we-build]] | Clarifies that Before We Build remains a heuristic and testable research framework |
 | [[biblical-grounding-policy]] | Editorial rule: Christian normative claims need nearby biblical grounding |
+| [[report-caveat-standard]] | Reusable caveat block for generated reports: not a verdict, pastoral authority, or promise |
 | [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи |
 | [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї |
 | [[biblical-grounding-policy-ru]] | Русская политика библейской опоры и локализации ссылок |
@@ -33,10 +34,12 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[resource-map-ru]] | Русская версия карты интернет-ресурсов |
 | [[resource-map-uk]] | Українська версія карти інтернет-ресурсів |
 | [[main-idea]] | 60-second explanation of the Before We Build thesis and three-level mapping |
+| [[project-main-goal]] | Current main project goal: first doorway for lonely Christian singles, with broader future paths for family, service, teams, business, and role fit |
 | [[project-positioning]] | Distinguishes Before We Build from Cognitive Matchmaker and states claims/non-claims |
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
 | [[compatibility-level-boundaries]] | Defines strategic, operational, and tactical boundaries |
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
+| [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary rules: Scripture-first wording, no psychology/typology front door, no mixed English product terms |
 | [[test-result-reading-guide]] | Explains how to read test outputs as provisional, level-separated hypotheses |
 | [[weight-calibration]] | Explains why compatibility scoring remains provisional |
 
@@ -79,6 +82,7 @@ wiki/          — LLM-generated wiki
 | [[research-layer-vs-practical-guidance]] | Editorial boundary between Christian practical guidance, product matching, and research hypotheses | project convention |
 | [[hypothesis-status-of-before-we-build]] | Before We Build mappings and scores as hypotheses requiring testing and revision | project convention |
 | [[biblical-grounding-policy]] | Requires nearby Bible references for Christian normative claims and defines exceptions for technical/research statements | project convention, Bible references |
+| [[report-caveat-standard]] | Reusable report caveat: report is not a verdict, pastoral authority, or promise, and points back to Scripture, prayer, church, wise counsel, and responsibility | project convention |
 | [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи с русскими библейскими ссылками | christian-foundation-of-family.md |
 | [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї з українськими біблійними посиланнями | christian-foundation-of-family.md |
 | [[family-formation-principles-ru]] | Русская версия принципов формирования семьи | family-formation-principles.md |
@@ -94,6 +98,7 @@ wiki/          — LLM-generated wiki
 | [[biblical-grounding-policy-ru]] | Русская версия политики библейской опоры | biblical-grounding-policy.md |
 | [[biblical-grounding-policy-uk]] | Українська версія політики біблійної опори | biblical-grounding-policy.md |
 | [[main-idea]] | Before We Build thesis: typologies as latent-process hypotheses across three levels | - |
+| [[project-main-goal]] | Main goal and public Christian framing: first doorway for lonely brothers/sisters before relationships and marriage, while preserving broad future paths for family, service, teams, business, and role fit | main-idea.md, project-positioning.md, plan.md, compatibility-level-boundaries.md |
 | [[project-positioning]] | Before We Build vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[before-we-build-vs-big-five]] | Positions Before We Build against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
@@ -104,10 +109,10 @@ wiki/          — LLM-generated wiki
 | [[psychosophy-test-specification]] | Draft Before We Build Psychosophy test architecture, position axes, seed items, and scoring caveats | typology-test-design-protocol.md, psychosophy-typing-methods.md, psychosophy-model.md |
 | [[temporistics-test-specification]] | Draft Before We Build Temporistics test architecture, temporal-frame scales, seed items, and scoring caveats | typology-test-design-protocol.md, temporistics-model.md, temporal-aspects.md |
 | [[plan]] | Current realistic weak-AI product plan: personal preparation, shared conversation maps, and later church-mediated support | plan.md |
+| [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary boundaries for Before We Build: preferred Scripture-first language, rejected psychology/typology front-door terms, and localized good/bad phrase examples | plan.md, consolidated-action-plan.md, glossary-audience-translation.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
 | [[civilian-profile-sli-elvf-vpnb]] | Civilian career profile for SLI + ELVF + EPNF with DevOps background | civilian role catalog |
-| [[military-profile-sli-elvf-vpnb]] | Military role-fit profile for SLI + ELVF + EPNF under Ukrainian role-demand constraints | military role catalog |
 | [[cross-typology-mapping-framework]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
 | [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
 | [[agentic-skills-hang-the-dj]] | 12 agent skills for simulation-based compatibility testing | skills/index.md |
@@ -130,7 +135,6 @@ wiki/          — LLM-generated wiki
 | [[prophetic-visionary-cognition]] | Heuristic link between prophetic/visionary cognition, 1st Eternity, and neuroscience-adjacent mechanisms | guru, neuroscience-compatibility-bridges, expert synthesis |
 | [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the СЛИ + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
-| [[smart-mobilization]] | Voluntary, non-coercive military role-fit recommendation concept with ethics boundaries | smart-mobilization-research-note, smart-mobilization-typology-wartime |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
 | [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени: Прошлое, Настоящее, Будущее, Вечность | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
 | [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
@@ -303,7 +307,6 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | [[psypilot-ai-psychologist-toolkit]] | AI as copilot for psychologists: risks and governance | Frontiers in Psychology |
 | [[s-researcher-llm-social-scientists]] | 100K agents for social science research, human-in-the-loop | arXiv:2604.01520 |
 | [[ai-experiment-participants]] | Trained AI as experiment participants: behavioral economics | Current Psychology |
-| [[smart-mobilization-typology-wartime]] | Wartime recruitment and typology research note; not assignment guidance | Web research 2026 |
 | [[psychosophy-typing-methods]] | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
 
 ### Concept Reference Pages
@@ -394,8 +397,6 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | Source | Summary | Source |
 |--------|---------|--------|
 | [[esco-typology-mapping]] | How to map ESCO occupations to typology-based role fit | ESCO concept, project synthesis |
-| [[smart-mobilization-research-note]] | Short note on what exists now and our project novelty | Lobby X, RAND, Carnegie, RUSI, NYT |
-| [[ukraine-military-specialties-current]] | Current Ukrainian military role families based on live vacancy feeds | Lobby X current vacancies feed |
 | autoreasearch.md | Karpathy's AutoResearch adaptation | - |
 | christian-perspectives.md | Christian views on typologies (Orthodox, Protestant) | Multiple sources |
 | typology-crisis-war.md | Stress resilience, military leadership, crisis teams | Multiple sources |
@@ -410,7 +411,6 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | typology-best-architecture.md | Best architecture for cross-typology automation and validation pipeline | project synthesis |
 | optimal-2026-tech-stack.md | Optimal 2026 stack: CrewAI + Claude Sonnet 4.6 + GPT Researcher, complete implementation | - |
 | modern-agentic-systems.md | Production-ready systems: InternAgent, The Agentic Researcher, Anthropic patterns, SciDER | arXiv 2026 |
-| smart-mobilization-typology-wartime.md | Smart mobilization: AI recruitment, personality typology in military | Web research 2026 |
 | psychosophy-typing-methods.md | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
 | fourth-physics-deep-research.md | Fourth Physics (4Ф) deep research with clinical-safety caveats | Deep research 2026 |
 

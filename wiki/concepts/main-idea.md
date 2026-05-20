@@ -3,7 +3,7 @@ title: Main Idea
 type: concept
 tags: [theory, foundations, integration, before-we-build, latent-processes]
 created: 2026-04-14
-updated: 2026-04-26
+updated: 2026-05-13
 lang: en
 canonical: main-idea.md
 sources: []
@@ -11,7 +11,9 @@ sources: []
 
 # Main Idea
 
-Before We Build is a Christian conversation and discernment project supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological types as final explanations of a person. A type is treated as an observable trace and working hypothesis about how hidden processes may be organized. In the near product, these ideas should serve plain conversation maps and wise questions, not autonomous matchmaking or compatibility verdicts.
+Before We Build is a Christian conversation and discernment project that helps people examine the foundation before serious shared decisions. Its first practical doorway is for lonely Christian brothers and sisters discerning relationships and marriage, while the broader umbrella remains family, church service, teams, business partnership, role/responsibility fit, and other forms of building together. The project is supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological types as final explanations of a person. A type is treated as an observable trace and working hypothesis about how hidden processes may be organized. In the near product, these ideas should serve plain conversation maps and wise questions, not autonomous matchmaking or compatibility verdicts.
+
+See [[project-main-goal]] for the current product goal and public Christian framing.
 
 ## 1. Central Mapping
 
@@ -104,4 +106,4 @@ The framework should use careful language: hypothesis, interpretation, heuristic
 
 The earlier **Cognitive Matchmaker** idea is now a future research track, not the near MVP. The current application should begin as a weak-AI conversation map: personal preparation, shared questions, visible differences, open uncertainty, and wise next steps.
 
-See [[project-positioning]] and [[plan]] for the full distinction.
+See [[project-main-goal]], [[project-positioning]] and [[plan]] for the full distinction.

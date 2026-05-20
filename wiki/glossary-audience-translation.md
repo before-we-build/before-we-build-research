@@ -37,7 +37,7 @@ The current research wiki contains these major entity families:
   - Socionics: information metabolism, Model A, information elements, function positions, quadras, intertype relations.
   - Psychosophy: Will / Volition, Emotion, Logic, Physics, positions, relation signatures.
   - Temporistics: Past, Present, Future, Eternity, aspect-position archetypes, full type permutations.
-- **Application entities**: compatibility, relationship discernment, family, church service, team, business partnership, role fit, smart mobilization.
+- **Application entities**: compatibility, relationship discernment, family, church service, team, business partnership, role fit.
 
 ## Audience translation table
 
@@ -126,7 +126,6 @@ The current research wiki contains these major entity families:
 | Team design | building common work with clear responsibility | team design | For Christian teams, use service and responsibility language. |
 | Business partnership | shared responsibility, word, risk, money, and exit rules | partnership fit | Must include integrity and explicit agreements. |
 | Role fit | where a person can carry responsibility faithfully | role fit | Never imply human worth equals role efficiency. |
-| Smart mobilization | voluntary role-discernment under strict ethical limits | voluntary role-fit recommendation | High-risk domain; keep non-coercion and consent explicit. |
 
 ## Christian-side renaming recommendations
 

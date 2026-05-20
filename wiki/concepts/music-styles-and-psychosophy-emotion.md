@@ -3,7 +3,7 @@ title: Music Styles as Rough Markers of Psychosophy Emotion Position
 type: concept
 tags: [psychosophy, emotion, music, aesthetics, heuristic, english]
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-20
 sources: [wiki/sources/psychosophy-detailed.md, wiki/concepts/emotion-vs-ethics-boundary.md]
 language: en
 status: draft
@@ -36,6 +36,26 @@ It is better to look not at the genre by itself, but at the function of music fo
 - Do they want an emotional peak, dialogue, catharsis, control, peace, bodily drive, meaning, or aesthetic form?
 
 The same genre can serve different Emotion positions.
+
+## Correct Mapping Order
+
+The mapping should be made **not from genre to type**, but from the observable function of music to a possible Emotion position. Genre is only the external material. The same style can be used by different positions in different ways.
+
+Working order:
+
+1. **First identify the role of music for the person.** Does the music lead the state, co-tune it, provide a safe container for a difficult feeling, or simply create a ready environment?
+2. **Then check the result/process axis.** 1E and 4E more often take music as a whole ready-made form; 2E and 3E more often enter the process of living through, tuning, playing out, or cautiously expressing a feeling.
+3. **Then check the subjective/objective axis.** 1E and 2E more often actively bring their own state outward; 3E and 4E more often respond cautiously to an already given field or seek a safe form.
+4. **Only then look at genres.** Genres provide weak clues, not proof of position.
+
+Practical matrix:
+
+- **1E:** result + one’s own emotional frame. Question: “Does this music help me set the tone myself?”
+- **2E:** process + shared emotional tuning. Question: “Does this music help us live through and tune the state together?”
+- **3E:** process + cautious/vulnerable emotional form. Question: “Does this music help me safely touch what is hard to express?”
+- **4E:** result + received ready-made atmosphere. Question: “Does this music give me a ready background/mood without extra emotional work?”
+
+Therefore the correct wiki wording is: **“a style may be a weak marker if we know the function of that style for the person”**, not “this style = this Emotion position.”
 
 ## Rough Mapping
 

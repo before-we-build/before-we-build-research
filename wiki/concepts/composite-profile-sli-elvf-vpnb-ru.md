@@ -29,7 +29,6 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - чисто разделять соционику, психософию и темпористику;
 - показывать, какие утверждения опираются на источники, а какие зависят от школы;
 - фиксировать места, где школы соционики расходятся;
-- связывать композитный профиль с гражданской работой, военной ролью и жизненной стратегией.
 
 ## Сырой профиль
 
@@ -66,7 +65,6 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 | Как человек действует, выдерживает давление, строит поддержку и роли? | **Психософия** | не соционические информационные аспекты |
 | Как человек организует смысл, направление и временную рамку? | **Темпористика** | не соционическую интуицию и не психософскую волю |
 | Какая гражданская роль подходит рынку и навыкам? | **ESCO / каталог ролей** | не типология сама по себе |
-| Какая военная роль реально возможна? | **Текущий каталог ролей** | не композитная теория в вакууме |
 
 ## Полная типологическая разбивка
 
@@ -427,56 +425,6 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - **Темпористика:** `1В` требует смысла, `2П` любит операционную память, `3Н` требует конкретного места/роли/принадлежности в текущем поле, `4Б` работает лучше с заданными целями.
 - **Опыт:** DevOps уже является доказанным направлением.
 
-## Военный fit
-
-Используя текущий украинский каталог, самые сильные совпадения:
-
-1. **Cyber / infrastructure support**
-2. **Signal network / communications systems / C4ISR technical roles**
-3. **UAV technician / engineer / maintenance / integration support**
-4. **Reconnaissance analyst / ISR technical analysis**
-5. **Unit technical support / command-support systems administration**
-
-### Highest-Fit Military Hypothesis
-
-**Infrastructure / DevOps / Network Administrator в Cyber Forces, техническом штабе или mission-critical technical unit.**
-
-Это должно восприниматься как защита цифровой или коммуникационной нервной системы армии, государства или подразделения.
-
-Почему:
-
-- напрямую переносит DevOps-навыки;
-- использует техническую устойчивость СЛИ;
-- использует `2Л` для структуры и диагностики;
-- меньше давит на `3В`, если командная культура не унижающая;
-- уважает `1В`, если роль связана с миссией;
-- использует `2П` через logs, documentation, postmortems;
-- бережёт `3Н`, если инциденты дают понятную роль, видимую ответственность, runbooks, escalation и подтверждение “моё действие здесь нужно”;
-- поддерживает `4Б`, если цели заданы через mission/SLA/command priority.
-
-Traceability:
-
-- **Соционика:** техническо-операционный fit, низкая тяга к chaos-heavy social pressure.
-- **Психософия:** сильная Логика, уязвимая Воля под coercive hierarchy, низкое желание делать hardship центром.
-- **Темпористика:** надёжность должна служить значимой миссии и давать конкретное место в текущем поле.
-- **Каталог ролей:** лучший overlap с cyber infrastructure, network administration, monitoring, incident response, technical support.
-
-### Backup Military Roles
-
-- **Signal network / C4ISR technical specialist**
-- **UAV technician / engineer / integration support**
-- **Reconnaissance analyst / ISR technical analysis**
-- **Systems / network administrator in a unit or cyber formation**
-
-### Избегать
-
-- штурмовые / assault-heavy роли;
-- роли, построенные на статусной конфронтации;
-- бессмысленное исполнение без видимого “зачем”;
-- постоянный real-time хаос без ролей, runbooks и escalation;
-- физическое присутствие в команде без интеграции, признания и конкретной роли;
-- физическая grind-роль, где тело и выносливость становятся главной идентичностью;
-- чистая бюрократия без технического содержания.
 
 ## Практическое правило
 
@@ -526,7 +474,6 @@ Traceability:
 ## Краткая формула
 
 **Мирное время:** meaningful DevOps / SRE / platform reliability.  
-**Военное время:** mission-critical cyber / infrastructure support.  
 **Главное:** смысловая инфраструктура, не пустое исполнение; системы, служащие делу, не театр; структурированная надёжность, не хаотичный штурм.
 
 ## См. также
@@ -535,6 +482,5 @@ Traceability:
 - [[composite-profile-sli-elvf-vpnb-uk]]
 - [[emotion-vs-ethics-boundary]]
 - [[civilian-career-role-families]]
-- [[ukraine-military-specialties-current]]
 - [[third-present-exile-latent-process]]
 - [[typology-code-conventions]]

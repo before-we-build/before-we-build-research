@@ -126,5 +126,3 @@ Typical typology implications:
 ## See Also
 
 - [[cross-typology-mapping-framework]]
-- [[smart-mobilization-research-note]]
-- [[ukraine-military-specialties-current]]

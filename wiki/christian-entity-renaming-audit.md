@@ -235,19 +235,6 @@ These entities should become more central in Christian-facing public copy.
 
 **Avoid:** fit/unfit, useful/useless, high-value/low-value person.
 
-### Smart mobilization / military role-fit
-
-**Decision:** **HIDE from ordinary Christian public relationship/family doorway.**
-
-If used in a specialized context, require:
-
-- voluntary participation;
-- non-coercion;
-- no automated assignment;
-- human command responsibility;
-- pastoral/ethical separation from typological claims;
-- no claim that type determines courage, obedience, sacrifice, or moral worth.
-
 ## Page-level recommendations
 
 ### `wiki/glossary-core.md`

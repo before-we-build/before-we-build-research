@@ -29,7 +29,6 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - чисто розділяти соціоніку, психософію й темпористику;
 - показувати, які твердження спираються на джерела, а які залежать від школи;
 - фіксувати місця, де школи соціоніки розходяться;
-- пов'язувати композитний профіль із цивільною роботою, військовою роллю та життєвою стратегією.
 
 ## Сирий профіль
 
@@ -66,7 +65,6 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 | Як людина діє, витримує тиск, будує підтримку й ролі? | **Психософія** | не соціонічні інформаційні аспекти |
 | Як людина організовує сенс, напрям і часову рамку? | **Темпористика** | не соціонічну інтуїцію і не психософську волю |
 | Яка цивільна роль відповідає ринку й навичкам? | **ESCO / каталог ролей** | не типологія сама по собі |
-| Яка військова роль реально можлива? | **Поточний каталог ролей** | не композитна теорія у вакуумі |
 
 ## Повна типологічна розбивка
 
@@ -427,56 +425,6 @@ sources: [wiki/concepts/composite-profile-sli-elvf-vpnb.md, wiki/concepts/emotio
 - **Темпористика:** `1Вч` потребує сенсу, `2Ми` любить операційну пам'ять, `3Тп` потребує конкретного місця/ролі/належності в поточному полі, `4Мб` працює краще із заданими цілями.
 - **Досвід:** DevOps уже є доведеним напрямом.
 
-## Військовий fit
-
-Використовуючи поточний український каталог, найсильніші збіги:
-
-1. **Cyber / infrastructure support**
-2. **Signal network / communications systems / C4ISR technical roles**
-3. **UAV technician / engineer / maintenance / integration support**
-4. **Reconnaissance analyst / ISR technical analysis**
-5. **Unit technical support / command-support systems administration**
-
-### Highest-Fit Military Hypothesis
-
-**Infrastructure / DevOps / Network Administrator у Cyber Forces, технічному штабі або mission-critical technical unit.**
-
-Це має відчуватися як захист цифрової або комунікаційної нервової системи армії, держави чи підрозділу.
-
-Чому:
-
-- прямо переносить DevOps-навички;
-- використовує технічну стійкість СЛІ;
-- використовує `2Л` для структури й діагностики;
-- менше тисне на `3В`, якщо командна культура не принизлива;
-- поважає `1Вч`, якщо роль пов'язана з місією;
-- використовує `2Ми` через logs, documentation, postmortems;
-- береже `3Тп`, якщо інциденти дають зрозумілу роль, видиму відповідальність, runbooks, escalation і підтвердження “моя дія тут потрібна”;
-- підтримує `4Мб`, якщо цілі задані через mission/SLA/command priority.
-
-Traceability:
-
-- **Соціоніка:** технічно-операційний fit, низька тяга до chaos-heavy social pressure.
-- **Психософія:** сильна Логіка, вразлива Воля під coercive hierarchy, низьке бажання робити hardship центром.
-- **Темпористика:** надійність має служити значущій місії й давати конкретне місце в поточному полі.
-- **Каталог ролей:** найкращий overlap із cyber infrastructure, network administration, monitoring, incident response, technical support.
-
-### Backup Military Roles
-
-- **Signal network / C4ISR technical specialist**
-- **UAV technician / engineer / integration support**
-- **Reconnaissance analyst / ISR technical analysis**
-- **Systems / network administrator in a unit or cyber formation**
-
-### Уникати
-
-- штурмові / assault-heavy ролі;
-- ролі, побудовані на статусній конфронтації;
-- безсенсовне виконання без видимого “навіщо”;
-- постійний real-time хаос без ролей, runbooks і escalation;
-- фізична присутність у команді без інтеграції, визнання й конкретної ролі;
-- фізична grind-роль, де тіло й витривалість стають головною ідентичністю;
-- чиста бюрократія без технічного змісту.
 
 ## Практичне правило
 
@@ -526,7 +474,6 @@ Traceability:
 ## Коротка формула
 
 **Мирний час:** meaningful DevOps / SRE / platform reliability.  
-**Воєнний час:** mission-critical cyber / infrastructure support.  
 **Головне:** сенсова інфраструктура, не порожнє виконання; системи, що служать справі, не театр; структурована надійність, не хаотичний штурм.
 
 ## Див. також
@@ -535,6 +482,5 @@ Traceability:
 - [[composite-profile-sli-elvf-vpnb-ru]]
 - [[emotion-vs-ethics-boundary]]
 - [[civilian-career-role-families]]
-- [[ukraine-military-specialties-current]]
 - [[third-present-exile-latent-process]]
 - [[typology-code-conventions]]

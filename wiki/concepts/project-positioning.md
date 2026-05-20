@@ -3,7 +3,7 @@ title: Project Positioning
 type: concept
 tags: [orientation, methodology, before-we-build, before-we-build-engine, research-positioning]
 created: 2026-04-24
-updated: 2026-04-25
+updated: 2026-05-13
 sources: []
 ---
 
@@ -13,7 +13,7 @@ This page distinguishes Before We Build as a research framework from its possibl
 
 ## 1. Before We Build in One Paragraph
 
-Before We Build is a Christian conversation and discernment project supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as proposed models of latent psychological processes. The near product should not begin as an autonomous matchmaker. It should begin as a weak-AI conversation map: Scripture-first questions, answer summaries, visible differences, open questions, and wise next steps before serious shared decisions. The research framework remains useful as hidden support and long-term study, but public outputs should stay humble, plain, and non-oracular.
+Before We Build is a Christian conversation and discernment project that helps people examine the foundation before serious shared decisions. The first practical doorway should speak to lonely Christian brothers and sisters discerning relationships and marriage: a person can begin alone, name hopes and fears, examine expectations, and prepare for honest conversation before God. The broader project must still remain larger than dating or marriage: the same foundation-and-differences map may later serve family, church service, teams, common work, business partnership, and role/responsibility fit. The research framework remains useful as hidden support and long-term study, but public outputs should stay Scripture-first, plain, and non-oracular.
 
 ## 2. The Required Mapping
 
@@ -50,6 +50,8 @@ This means that type labels should remain revisable. They are useful only insofa
 **Before We Build** is the broader project:
 
 - Christian conversation and discernment before serious shared decisions;
+- first practical doorway for lonely Christian brothers and sisters preparing for relationships and marriage;
+- broader future paths for family, church service, teams, common work, business partnership, and role/responsibility fit;
 - Scripture-first public doorway;
 - ontology of levels and latent processes;
 - interpretation of typologies as heuristic process models;

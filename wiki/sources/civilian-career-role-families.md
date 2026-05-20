@@ -73,4 +73,3 @@ Typology should not override observed performance. Proven skills, work history, 
 
 - [[esco-typology-mapping]]
 - [[composite-profile-sli-elvf-vpnb]]
-- [[smart-mobilization-research-note]]

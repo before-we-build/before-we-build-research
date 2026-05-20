@@ -9,7 +9,7 @@ sources: [.opencode/data/civilian-career-roles.md, raw/general/typology-crisis-w
 
 # Civilian Profile SLI + ELVF + EPNF
 
-This page applies [[composite-profile-sli-elvf-vpnb]] to civilian career profiling. It should not be used for military placement; see [[military-profile-sli-elvf-vpnb]] for that layer.
+This page applies [[composite-profile-sli-elvf-vpnb]] to civilian career profiling.
 
 ## Input Profile
 
