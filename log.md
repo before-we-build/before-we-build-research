@@ -2,6 +2,18 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-05-29] concept | Typed society simulator
+
+Added `wiki/concepts/typed-society-simulator.md`, a research-track concept page for an agent-based society simulator where each simulated person has a Temporistics strategic layer, Psychosophy operational layer, Socionics tactical layer, non-typological context, state, memory, and safety flags. The page defines the simulation loop, scenario families for relationships, church service, teams, and wider society, exploratory metrics, architecture components, Christian/pastoral boundaries, validation questions, and phased implementation. It explicitly keeps the simulator downstream from the current weak-AI conversation-map MVP and rejects oracle, diagnosis, marriage-prediction, and spiritual-authority claims. Updated `index.md` with the new concept reference.
+
+## [2026-05-22] ingest | Adequate compromise concept
+
+Added `raw/general/adekvatnyy-kompromiss-tipologii.md` as the received Russian source note and created `wiki/concepts/adequate-compromise-ru.md`, a Russian project reconstruction of adequate compromise as structurally bearable agreement across Socionics, Psychosophy, and Temporistics. The page keeps the concept non-canonical, ties it to the three compatibility levels, and frames compromise as a form where a person may yield in expression without sacrificing core structure. Updated `index.md` with the new concept reference.
+
+## [2026-05-22] ingest | Adequate intertype relation formats
+
+Added `wiki/concepts/adequate-intertype-formats-ru.md`, a Russian Socionics-level project hypothesis that intertype relations should be evaluated by viable format rather than a simple good/bad scale. The page frames relation adequacy as the right combination of distance, load, role, frequency, and closeness; classifies common Socionics relation families by possible formats; and keeps strong caveats against using Socionics as a deterministic verdict for marriage, friendship, projects, or spiritual status. Updated `index.md` with the new concept reference.
+
 ## [2026-05-20] revision | Correct mapping order for music styles and Psychosophy Emotion
 
 Updated `wiki/concepts/music-styles-and-psychosophy-emotion-ru.md`, `wiki/concepts/music-styles-and-psychosophy-emotion.md`, and `wiki/concepts/music-styles-and-psychosophy-emotion-uk.md` with the correct method for using musical styles as weak Emotion-position clues. The revision states that mapping should start from the function of music for the person, then check the result/process and subjective/objective axes, and only afterward treat genre as a weak hint. It explicitly rejects deterministic “style = Emotion position” typing and keeps the heuristic in the form “style may be a weak marker if its function for the person is known.”

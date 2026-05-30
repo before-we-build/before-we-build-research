@@ -3,7 +3,7 @@ title: Карта інтернет-ресурсів
 type: source
 tags: [resources, provenance, sources, internet, governance]
 created: 2026-04-29
-updated: 2026-04-30
+updated: 2026-05-30
 lang: uk
 canonical: resource-map.md
 translation_of: resource-map.md
@@ -104,7 +104,7 @@ sources: []
 | Wikisocion Archive | https://wikisocion.github.io/ | archive / secondary-summary | EN | Зручний вхід у Model A, інформаційні аспекти, інтертипні відносини, дихотомії і сторінки типів | Архів спільноти, не офіційна школа; якість статей нерівна |
 | Classic Socionics | https://classicsocionics.wordpress.com/ | primary-source / archive | EN | Переклади й добірки класичних текстів ранньої соціоніки, включно з матеріалами навколо Аушри | Перекладацький/редакторський проєкт; для key claims звіряти первинну публікацію |
 | International Institute of Socionics | https://socionic.info/en/esocjur.html#top | primary-source / school | EN/RU/UA | Журнали, конференції та інституційний шар Букалова/ІІС | Заяви про науковий статус потребують незалежної оцінки |
-| Гуманітарна соціоніка / Гуленко | https://socioniks.net/ | primary-source / school | RU/UA/EN | Матеріали школи Гуленка: Model G, підтипи, відносини, ознаки | Шкільна трактовка, не нейтральний канон Model A; Model G позначати окремо |
+| Гуманітарна соціоніка / Гуленко | https://socioniks.net/ | primary-source / school | RU/UA/EN | Матеріали школи Гуленка: Model G, підтипи, відносини, ознаки | Шкільне трактування, не нейтральний канон Model A; Model G позначати окремо |
 | Socionika.info | https://socionika.info/ | secondary-summary / tool | RU | Популярний хаб: Model A, аспекти, ознаки Рейніна, таблиці відносин, тести | Популяризаторський/компілятивний ресурс; глибина джерел різна |
 | Socionavigator | https://socionavigator.com/ | tool / secondary-summary | RU/EN | Діагностичні матеріали, схеми, FAQ та авторські інструменти | Авторська методологія потребує окремої перевірки |
 | World Socionics Society | https://worldsocionics.org/ | secondary-summary | EN | Сучасний англомовний вхід і навчальні матеріали | Авторський/комерційний шар; може спрощувати спірні пункти |
@@ -153,10 +153,20 @@ sources: []
 | Типи — Темпористика | http://temporistics.ru/?q=types | primary-source | RU | Індекс 24 повних типів, 16 архетипів, тетрад і аліасів | Короткий довідник; не замінює повні описи |
 | Комета в мозку, або народження Темпористики | http://temporistics.ru/?q=node/66 | primary-source | RU | Історія походження, авторський контекст, звʼязки з Бердяєвим і Афанасьєвим | Авторське свідчення, не нейтральна історія |
 | Як відрізнити Автора від Критика | http://temporistics.ru/?q=node/70 | primary-source | RU | Розрізнення близьких архетипів Минулого, особливо 1П і 3П | Вузька стаття, не загальний огляд |
-| Таємниця третього аспекту | URL уточнити | primary-source | RU | Важливий текст для розуміння динаміки третьої позиції | Точний URL потребує ручної перевірки й архівної привʼязки |
+| Таємниця третього аспекту | http://temporistics.ru/?q=node/90 | primary-source | RU | Важливий текст для розуміння динаміки третьої позиції | Ключова авторська стаття про третій (больовий) аспект |
 | Wayback для temporistics.ru | https://web.archive.org/web/*/http://temporistics.ru/* | archive | multi | Відновлення нестабільних/мертвих сторінок і фіксація версій | Снапшоти можуть бути неповними; перевіряти дати й цілісність |
-| Personality Database / Temporistics pages | URL уточнити | community | EN | Англомовні аліаси і неканонічна reception history | Фанатський/спільнотний синтез; не канон |
-| Форумні обговорення Темпористики | URL уточнити | community | RU/EN | Історія сприйняття, приклади, спірні інтерпретації | Низька доказова сила; тільки з жорсткими застереженнями |
+| Personality Database / Temporistics pages | https://www.personality-database.com/subcategory/22184/temporistics-personality-type | community | EN | Англомовні аліаси і неканонічна reception history | URL потребує перевірки (доступ може бути заблокований Cloudflare, повертає 403 для ботів); фанатський/спільнотний синтез, не канон |
+| Форумні обговорення Темпористики | https://socioforum.su/viewforum.php?f=959 | community | RU | Історія сприйняття, приклади, спірні інтерпретації | URL потребує перевірки; низька доказова сила, тільки з жорсткими застереженнями |
+
+### Міжсистемні типологічні ресурси
+
+Використовуйте цей розділ для баз даних, форумів та теоретичних концепцій, що намагаються порівнювати, синтезувати або розміщувати кілька типологічних систем (наприклад, соціоніку, психософію, темпористику та MBTI) на одній платформі.
+
+| Ресурс | URL | Тип | Мова | Чим корисний для Before We Build | Caveat |
+|---|---|---|---|---|---|
+| Єдиний типологічний проєкт | http://typologies.ru/ | archive / secondary-summary | RU | Картографування та зіставлення різних типологій з використанням логічних рівнів на базі піраміди Ділтса | Високотеоретичний ресурс; містить застарілі посилання та змішує припущення різних шкіл |
+| Personality Database | https://www.personality-database.com/ | community / tool | EN | Велика база краудсорсингових типологічних профілів у кількох системах | Низька надійність; профілі створюються голосуванням користувачів без суворої методології. Примітка: бот-доступ може бути заблокований Cloudflare (повертає 403), потребує ручної перевірки. |
+| Соціофорум | https://socioforum.su/ | community | RU | Найбільший російськомовний форум для крос-системних дискусій, щоденників типування та суперечок про кореляції | Неструктуровані обговорення; низька цінність для канонічних claims, але багата історія сприйняття |
 
 ### Методологія і психометрика
 
@@ -165,7 +175,7 @@ sources: []
 | Ресурс | URL | Тип | Мова | Чим корисний для Before We Build | Caveat |
 |---|---|---|---|---|---|
 | Standards for Educational and Psychological Testing | https://www.testingstandards.net/ | methodology / tool | EN | Стандарти валідності, надійності, fairness та інтерпретації скорингів | Не про типології спеціально; частина матеріалів може бути не повністю open-access |
-| COSMIN checklists | https://www.cosmin.nl/tools/checklists-assessing-methodological-study-qualities/ | methodology / tool | EN | Практичні критерії якості вимірювальних інструментів | Початково health/PROM-контекст; перенос на personality потребує обережності |
+| COSMIN checklists | https://www.cosmin.nl/tools/checklists-assessing-methodological-study-qualities/ | methodology / tool | EN | Практичні критерії якості вимірювальних інструментів | Початково health/PROM-контекст; перенесення на personality потребує обережності |
 | Cronbach & Meehl — Construct Validity in Psychological Tests | https://doi.org/10.1037/h0040957 | primary-source / methodology | EN | Класична рамка construct validity | Старе джерело; не покриває сучасні CFA/IRT/invariance-практики |
 | Messick — Validity of Psychological Assessment | https://doi.org/10.1037/0003-066X.50.9.741 | primary-source / methodology | EN | Валідність як обґрунтованість висновків із score data | Сильна теорія, але не простий чеклист впровадження |
 | Flake, Pek & Hehman — Construct Validation | https://doi.org/10.1177/1948550617693063 | critique / methodology | EN | Сучасна критика слабкої валідації в social/personality research | Не про типології напряму |
@@ -173,12 +183,19 @@ sources: []
 | International Personality Item Pool | https://ipip.ori.org/ | tool / baseline | EN | Відкритий item pool для baseline-шкал | Якість залежить від обраної шкали і процедури |
 | HEXACO Personality Inventory-Revised | https://hexaco.org/ | tool / baseline | EN | Альтернативний trait baseline, включно з Honesty-Humility | Self-report trait model; не прямий тест типологічних категорій |
 | McCrae & Costa — MBTI from the Five-Factor Model perspective | https://doi.org/10.1111/j.1467-6494.1989.tb00759.x | critique | EN | Міст між типологічними ярликами і continuous traits | MBTI-specific; не можна автоматично переносити на всі типології |
-| Pittenger — Measuring the MBTI... And Coming Up Short | URL уточнити | critique | EN | Класична критика reliability/validity і forced dichotomies | Старе і MBTI-specific джерело; URL перевірити перед formal citation |
-| Boyle — MBTI: Some Psychometric Limitations | URL уточнити | critique | EN | Часто цитована критика психометричних обмежень типологічних дихотомій | MBTI-specific; за можливості оновлювати сучасною evidence |
+| Pittenger — Measuring the MBTI... And Coming Up Short | https://web.archive.org/web/*/https://www.indiana.edu/~jobtalk/HRMWebsite/hrm/articles/develop/mbti.pdf | critique / archive | EN | Класична критика надійності, валідності та примусових дихотомій | Старе джерело, присвячене MBTI; для формального цитування потрібно вибрати й перевірити конкретний архівний знімок |
+| Boyle — MBTI: Some Psychometric Limitations | https://doi.org/10.1111/j.1742-9544.1995.tb01750.x | critique | EN | Часто цитована критика психометричних обмежень типологічних дихотомій | Джерело присвячене MBTI; DOI може вимагати доступу через видавця й ручної перевірки перед цитуванням |
 
 ### Богословʼя, етика і пастирські межі
 
 Сюди заносяться ресурси, які допомагають відокремлювати типологічні евристики від християнської антропології, пастирського розсуду, моральної відповідальності та принципів формування сімʼї.
+
+| Ресурс | URL | Тип | Мова | Чим корисний для Before We Build | Caveat |
+|---|---|---|---|---|---|
+| Ресурси 9Marks про церковне служіння та учнівство | https://www.9marks.org/ | critique / pastoral-methodology | EN | Пастирська рамка: тримати ідентичність, святість, членство та учнівство в біблійних категоріях, а не в типологічних ярликах | Головна сторінка перевірена; перед цитуванням потрібно знайти конкретну статтю через пошук по сайту |
+| Ресурси CCEF про біблійне консультування | https://www.ccef.org/ | critique / methodology | EN | Рамка біблійного консультування для розрізнення спостережень про «серце», християнської антропології, покаяння та освячення | Головна сторінка перевірена; перед цитуванням потрібно знайти конкретну статтю через пошук по сайту |
+| The State of Theology | https://thestateoftheology.com/ | primary-source / tool | EN | Базове дослідження богословських переконань та етичних конструктів, що показує відхилення від класичного християнства | Зосереджено на доктринальних позиціях, а не на рисах характеру, але є еталоном оцінки світогляду |
+| The Enneagram: Gnostic or Just Silly? | https://www.thegospelcoalition.org/article/enneagram-gnostic-silly/ | critique | EN | Критика сучасних типологічних трендів, виявлення редукціоністських пасток та гностичних коренів | URL потребує перевірки (доступ може бути заблокований Cloudflare, повертає 403 для ботів); стосується Еннеаграми, але висновки застосовні до всього захоплення типологіями |
 
 ## Правила використання тверджень
 

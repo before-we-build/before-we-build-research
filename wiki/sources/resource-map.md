@@ -3,7 +3,7 @@ title: Internet Resource Map
 type: source
 tags: [resources, provenance, sources, internet, governance]
 created: 2026-04-29
-updated: 2026-04-30
+updated: 2026-05-30
 lang: en
 canonical: resource-map.md
 sources: []
@@ -156,10 +156,20 @@ Preferred order:
 | Types — Temporistics | http://temporistics.ru/?q=types | primary-source | RU | Key index for 24 full types, 16 archetypes, tetrads, and aliases | Compact reference; does not replace full descriptions |
 | Comet in the Brain, or the Birth of Temporistics | http://temporistics.ru/?q=node/66 | primary-source | RU | Origin story, authorship context, links to Berdyaev and Afanasyev | Historical authorial testimony, not a neutral history |
 | How to Distinguish Author from Critic | http://temporistics.ru/?q=node/70 | primary-source | RU | Useful for distinguishing close Past archetypes, especially 1P vs 3P | Narrow article, not a general overview |
-| Mystery of the Third Aspect | URL уточнить | primary-source | RU | Important text for understanding third-position dynamics | Exact source URL still needs manual verification/archive link |
+| Mystery of the Third Aspect | http://temporistics.ru/?q=node/90 | primary-source | RU | Important text for understanding third-position dynamics | Key authorial article on the third/painful aspect |
 | Wayback snapshots for temporistics.ru | https://web.archive.org/web/*/http://temporistics.ru/* | archive | multi | Recovery of unstable/dead pages and version tracking | Snapshots may be incomplete; verify dates and page integrity |
-| Personality Database / Temporistics pages | URL уточнить | community | EN | English aliases and non-canonical reception | Fan/community synthesis; not source-backed canon |
-| Forum discussions of Temporistics | URL уточнить | community | RU/EN | Reception history, examples, disputed interpretations | Low evidential value; use only with strict caveats |
+| Personality Database / Temporistics pages | https://www.personality-database.com/subcategory/22184/temporistics-personality-type | community | EN | English aliases and non-canonical reception | URL needs verification (access may be blocked by Cloudflare, returns 403 for bots); fan/community synthesis, not source-backed canon |
+| Forum discussions of Temporistics | https://socioforum.su/viewforum.php?f=959 | community | RU | Reception history, examples, and disputed interpretations | URL needs verification; low evidential value, use only with strict caveats |
+
+### Cross-System Typology Resources
+
+Use this section for databases, forums, and theoretical frameworks that attempt to compare, synthesize, or house multiple typological systems (e.g., Socionics, Psychosophy, Temporistics, and MBTI) in a single platform.
+
+| Resource | URL | Type | Language | Useful for Before We Build | Caveat |
+|---|---|---|---|---|---|
+| Unified Typological Project | http://typologies.ru/ | archive / secondary-summary | RU | Mapping and nesting different typologies using logical levels based on the Dilts pyramid | Highly theoretical; contains outdated links and mixes diverse school assumptions |
+| Personality Database | https://www.personality-database.com/ | community / tool | EN | Large dataset of crowd-sourced typological profiles across multiple systems | Low reliability; profiles are crowd-voted and often lack formal methodology. Note: bot access may be blocked by Cloudflare (returns 403), requires manual verification. |
+| Socioforum | https://socioforum.su/ | community | RU | Largest Slavic discussion forum for cross-system typing and correlation debates | Unstructured forum discussions; low canonical evidence value, but rich reception history |
 
 ### Methodology and Psychometrics
 
@@ -176,12 +186,19 @@ Use this section for resources on validation, reliability, construct validity, m
 | International Personality Item Pool | https://ipip.ori.org/ | tool / baseline | EN | Open item pool for baseline scales | Quality depends on selected scale and procedure |
 | HEXACO Personality Inventory-Revised | https://hexaco.org/ | tool / baseline | EN | Alternative trait baseline, including Honesty-Humility | Self-report trait model; not a direct test of typological categories |
 | McCrae & Costa — MBTI from the Five-Factor Model perspective | https://doi.org/10.1111/j.1467-6494.1989.tb00759.x | critique | EN | Bridge for comparing type labels with continuous trait dimensions | MBTI-specific; do not automatically transfer conclusions to all typologies |
-| Pittenger — Measuring the MBTI... And Coming Up Short | URL уточнить | critique | EN | Classic critique of reliability/validity and forced dichotomies | Older and MBTI-specific; verify publication URL before formal citation |
-| Boyle — MBTI: Some Psychometric Limitations | URL уточнить | critique | EN | Often-cited critique of psychometric limits of typological dichotomies | MBTI-specific; update with modern evidence where possible |
+| Pittenger — Measuring the MBTI... And Coming Up Short | https://web.archive.org/web/*/https://www.indiana.edu/~jobtalk/HRMWebsite/hrm/articles/develop/mbti.pdf | critique / archive | EN | Classic critique of reliability/validity and forced dichotomies | Older and MBTI-specific; use archived copies and verify the exact snapshot before formal citation |
+| Boyle — MBTI: Some Psychometric Limitations | https://doi.org/10.1111/j.1742-9544.1995.tb01750.x | critique | EN | Often-cited critique of psychometric limits of typological dichotomies | MBTI-specific; DOI may require publisher access and should be checked manually before citation |
 
 ### Theology, Ethics, and Pastoral Boundaries
 
 Use this section for resources that help separate typological heuristics from Christian anthropology, pastoral discernment, moral responsibility, and family formation guidance.
+
+| Resource | URL | Type | Language | Useful for Before We Build | Caveat |
+|---|---|---|---|---|---|
+| 9Marks resources on church ministry and discipleship | https://www.9marks.org/ | critique / pastoral-methodology | EN | Pastoral frame for keeping identity, holiness, membership, and discipleship in biblical categories rather than typological labels | Homepage verified; use site search to locate specific articles before citing |
+| CCEF resources on biblical counseling | https://www.ccef.org/ | critique / methodology | EN | Biblical-counseling frame for distinguishing observations about the heart from Christian anthropology, repentance, and sanctification | Homepage verified; use site search to locate specific articles before citing |
+| The State of Theology | https://thestateoftheology.com/ | primary-source / tool | EN | Baseline survey of theological beliefs and moral constructs, showing deviation from classical orthodoxy | Focused on doctrinal stance rather than personality traits, but serves as a benchmark for worldview |
+| The Enneagram: Gnostic or Just Silly? | https://www.thegospelcoalition.org/article/enneagram-gnostic-silly/ | critique | EN | Sharp critique of modern typology trends, highlighting gnostic roots and reductionist traps | URL needs verification (access may be blocked by Cloudflare, returns 403 for bots); specific to Enneagram but generalizable to other typologies |
 
 ## Claim-Use Rules
 
