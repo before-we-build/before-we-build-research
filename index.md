@@ -44,6 +44,7 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[typed-society-simulator]] | Research-track concept for simulating typed agents in families, church service, teams, and wider society |
 | [[adequate-compromise-ru]] | Russian project reconstruction of adequate compromise as structurally bearable agreement across Socionics, Psychosophy, and Temporistics |
 | [[adequate-intertype-formats-ru]] | Russian Socionics-level hypothesis: intertype relations become adequate when the relationship type receives the right distance, load, and format |
+| [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская страница о психософии Афанасьева как модели распределения операционного ресурса: избыток, гибкая помощь, уязвимость и делегируемая рамка |
 | [[weight-calibration]] | Explains why compatibility scoring remains provisional |
 
 ---
@@ -143,6 +144,7 @@ wiki/          — LLM-generated wiki
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
 | [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени: Прошлое, Настоящее, Будущее, Вечность | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
+| [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская реконструкция модели Афанасьева как распределения операционного ресурса: 1-я функция как избыток/стандарт, 2-я как гибкая помощь, 3-я как уязвимая проверка, 4-я как делегируемая рамка | afanasyev-model.md, psychosophy-detailed.md, raw/psychosophy function pages |
 | [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | before-we-build/Psyche-Yoga |
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | before-we-build/Psyche-Yoga |
