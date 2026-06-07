@@ -3,7 +3,7 @@ title: Internet Resource Map
 type: source
 tags: [resources, provenance, sources, internet, governance]
 created: 2026-04-29
-updated: 2026-05-30
+updated: 2026-06-07
 lang: en
 canonical: resource-map.md
 sources: []
@@ -170,6 +170,15 @@ Use this section for databases, forums, and theoretical frameworks that attempt 
 | Unified Typological Project | http://typologies.ru/ | archive / secondary-summary | RU | Mapping and nesting different typologies using logical levels based on the Dilts pyramid | Highly theoretical; contains outdated links and mixes diverse school assumptions |
 | Personality Database | https://www.personality-database.com/ | community / tool | EN | Large dataset of crowd-sourced typological profiles across multiple systems | Low reliability; profiles are crowd-voted and often lack formal methodology. Note: bot access may be blocked by Cloudflare (returns 403), requires manual verification. |
 | Socioforum | https://socioforum.su/ | community | RU | Largest Slavic discussion forum for cross-system typing and correlation debates | Unstructured forum discussions; low canonical evidence value, but rich reception history |
+
+#### Internal synthesis note: Psychosophy vs Socionics in the Before We Build research layer
+
+- **Type:** `project-hypothesis`
+- **System:** cross-system / psychosophy / socionics
+- **Useful for Before We Build:** keeps Psychosophy and Socionics from being collapsed merely because both can speak about “logic,” “process,” “structure,” or “action.”
+- **Working distinction:** Socionics is treated as a map of information modeling: how a person models a situation and interaction through information channels. For example, structural logic models through relations, correspondence, order, contradiction, classification, hierarchy, and rule-like structure; pragmatic/business logic models through processes, results, sequence of actions, resource conversion, efficiency, and applicability.
+- **Psychosophy distinction:** Psychosophy is treated as a map of inner action organization: what a person tries to synthesize, what they must analyze, and how much energy, confidence, tension, proof-demand, avoidance, or support-seeking appears around that process.
+- **Research caveat:** this is a Before We Build interpretive hypothesis, not an externally verified claim and not a deterministic description of a person. Use it as a translation layer for “typical character patterns, not fixed human types.”
 
 ### Methodology and Psychometrics
 
