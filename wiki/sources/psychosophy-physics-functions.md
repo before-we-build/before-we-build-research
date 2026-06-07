@@ -6,7 +6,7 @@ created: 2026-06-07
 updated: 2026-06-07
 lang: en
 canonical: psychosophy-physics-functions.md
-sources: [psychosophy-detailed.md, fourth-physics-deep-research.md, raw/general/fourth-physics-deep-research.md, raw/psychosophy/what-is-psychosophy.md]
+sources: [psychosophy-detailed.md, fourth-physics-deep-research.md, raw/general/fourth-physics-deep-research.md, raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/psychosophy-accentuations.md]
 ---
 
 # Psychosophy Physics Functions — 1F, 2F, 3F, 4F
@@ -337,6 +337,125 @@ Libido belongs to a larger human context: health, hormones, sleep, stress, attac
 - Am I truly fine, or only adapted to discomfort?
 - Whose material frame am I living inside, and is it good?
 - Do I need a reminder system, budget system, medical appointment, or trusted practical helper?
+
+## Physics accentuations
+
+### Source status
+
+Psychosophy accentuations are an **unofficial/community extension**, not the core Afanasyev doctrine. In Before We Build they should be treated as a weak second-layer hypothesis: first identify the aspect and position carefully, then ask which property of that function is most visible.
+
+The accentuation layer says that every function has three properties, and one of them may be expressed more sharply than the others. For Physics, this means that two people with the same 1F, 2F, 3F, or 4F can still look different in bodily-material life.
+
+### Position properties used for Physics
+
+| Position | Properties |
+|---|---|
+| **1F** | Strong / result-oriented / introverted |
+| **2F** | Strong / process-oriented / extraverted |
+| **3F** | Weak / process-oriented / introverted |
+| **4F** | Weak / result-oriented / extraverted |
+
+### 1F accentuations
+
+**1F with strong-subjective accent**
+
+- The person is especially confident that their material standard is valid.
+- Can be very firm about money, food, sex, clothes, tools, repairs, household, or health routines.
+- Gift: reliable provision and clear standards.
+- Risk: bodily-material dominance; others may feel their needs are overridden.
+- Example: “This is the proper way to run a household; if we do it differently, it is irresponsible.”
+
+**1F with result accent**
+
+- The person mainly wants a stable material result and may dislike ongoing discussion about comfort.
+- Gift: finishes practical tasks and creates durable systems.
+- Risk: may skip process questions: “Why are we still discussing this? It already works.”
+- Example: chooses the bed, budget category, meal plan, or repair method and expects the topic to close.
+
+**1F with introverted/principled accent**
+
+- The person is especially focused on their own bodily-material state and standard.
+- Gift: strong self-maintenance, endurance, and clear embodied preference.
+- Risk: may be less receptive to another person's different comfort rhythm.
+- Example: “I know exactly what my body/home/money standard needs; I do not want outside interference.”
+
+### 2F accentuations
+
+**2F with strong-subjective accent**
+
+- The person actively supports others materially and feels competent in practical care.
+- Gift: hospitality, bodily attentiveness, practical help.
+- Risk: may become the default caregiver and quietly carry too much.
+- Example: notices who has not eaten, who is cold, what needs repair, and what would make everyone more comfortable.
+
+**2F with process accent**
+
+- The person especially values discussing and adjusting material life together.
+- Gift: excellent negotiation around household, money, food, rest, sex, and comfort.
+- Risk: may over-process practical decisions and struggle to settle a final standard.
+- Example: “Let's keep checking whether this routine still works for both of us.”
+
+**2F with extraverted/unprincipled accent**
+
+- The person is especially oriented toward others' bodily-material states and adapts easily.
+- Gift: practical empathy and flexible care.
+- Risk: can over-adapt to others' preferences and lose their own material needs.
+- Example: changes plans, meals, temperature, spending, or pace around the other person without noticing self-erasure.
+
+### 3F accentuations
+
+**3F with weak/objective accent**
+
+- The person feels the weakness/vulnerability of the bodily-material sphere most sharply.
+- Gift: can become honest about need, poverty, health, shame, and embodied limits.
+- Risk: deep insecurity around body, attractiveness, money, sex, or physical adequacy.
+- Example: “I am not enough physically/materially; others will see it and judge me.”
+
+**3F with process accent**
+
+- The person processes material questions continuously and needs time to clarify them.
+- Gift: careful attention to what is actually needed.
+- Risk: repeated loops around health, appearance, budget, comfort, or intimacy.
+- Example: revisits the same money/body/comfort concern many times before feeling settled.
+
+**3F with introverted/principled accent**
+
+- The person is especially sensitive about their own bodily-material state and boundaries.
+- Gift: can develop serious stewardship of body, money, home, and sexuality.
+- Risk: sharp defensiveness if another person comments on appearance, spending, food, sexuality, or health.
+- Example: even a practical suggestion may sound like judgment: “You think I am ugly, weak, poor, dirty, or irresponsible.”
+
+### 4F accentuations
+
+The older 4F deep research page already names three accentuation variants: unconsciousness/resultativity, extraversion/non-principledness, and objectness/low. In this fuller page they should be read with safer language.
+
+**4F with weak/objective accent**
+
+- The person most clearly shows low material self-prioritization and can resemble 3F in visible vulnerability, but with less process around it.
+- Gift: simplicity and low demands.
+- Risk: self-neglect, passivity, dependence on external conditions, or accepting harmful discomfort.
+- Example: “If there is no hot water, no food plan, no normal bed, it is fine; I will manage.”
+
+**4F with result/unconscious accent**
+
+- The person wants a simple stable material frame and may not question old habits.
+- Gift: loyalty to routine and low drama around practical life.
+- Risk: may keep inherited or imposed routines even if they no longer serve health or family life.
+- Example: eats, sleeps, dresses, spends, or rests in a habitual way without asking whether it is good.
+
+**4F with extraverted/adaptive accent**
+
+- The person is especially responsive to others' material needs and preferences.
+- Gift: easy coexistence, service, willingness to adapt.
+- Risk: takes others' habits as the frame and forgets own body, comfort, money, or sexuality.
+- Example: “Whatever you like is fine,” while personal needs remain unnamed.
+
+### How to use accentuations safely
+
+- Treat accentuation as a **fine-tuning question**, not a separate type verdict.
+- Do not type accentuation from one domain only: money, sex, food, body image, or health can each be distorted by life history.
+- Look for repeated patterns across several material domains: body, household, money, comfort, routine, rest, and shared practical responsibility.
+- If health, trauma, abuse, coercion, addiction, self-harm, or severe self-neglect appears, stop typological interpretation and use appropriate human support.
 
 ## Pair dynamics around Physics
 
