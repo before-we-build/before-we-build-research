@@ -277,6 +277,9 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 |------|---------|------------|
 | [[temporistics-detailed]] | Strategic level: Past/Present/Future/Eternity aspects, 24 types | raw/temporistics/ |
 | [[psychosophy-detailed]] | Operational level: Logic/Emotion/Will/Physics functions | raw/psychosophy/ |
+| [[psychosophy-physics-functions]] | Detailed research-layer synthesis of all four Psychosophy Physics positions: 1F, 2F, 3F, and 4F, with examples and libido/health caveats | psychosophy-detailed.md, fourth-physics-deep-research.md |
+| [[psychosophy-physics-functions-ru]] | Русская версия полного разбора Физики в психософии: 1Ф, 2Ф, 3Ф и 4Ф, с примерами и оговорками по либидо/здоровью | psychosophy-physics-functions.md |
+| [[psychosophy-physics-functions-uk]] | Українська версія повного розбору Фізики в психософії: 1Ф, 2Ф, 3Ф і 4Ф, з прикладами та застереженнями щодо лібідо/здоров'я | psychosophy-physics-functions.md |
 | [[socionics-detailed]] | Tactical level: Model A, 8 functions, 16 types | raw/socionics/ |
 | [[typology-full-description]] | Complete reference for all three typologies | - |
 | [[common-projects]] | Related projects and research | - |

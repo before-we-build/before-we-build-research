@@ -54,6 +54,7 @@ Fourth Physics is described in Psychosophy sources as the "least significant" fu
 
 ## Related Concepts
 
+- [[psychosophy-physics-functions]] — Full 1F/2F/3F/4F synthesis with safer libido and health caveats
 - [[psychosophy-functions]] — Function positions
 - [[psychosophy-overview]] — General Psychosophy overview
 - [[psychosophy-functions]] — Function positions

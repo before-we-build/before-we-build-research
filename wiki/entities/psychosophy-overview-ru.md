@@ -89,4 +89,5 @@ sources: [raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md]
 - [[socionics-overview-ru]] — тактический уровень
 - [[temporistics-overview-ru]] — стратегический уровень
 - [[psychosophy-detailed]] — подробный разбор психософии
+- [[psychosophy-physics-functions-ru]] — полный разбор 1Ф, 2Ф, 3Ф и 4Ф с примерами и безопасностными оговорками
 - [[psychosophy-quadras]] — неофициальные сексты/квадры и кластеры типов

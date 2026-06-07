@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-07] source | Psychosophy Physics 1F–4F synthesis
+
+Added `wiki/sources/psychosophy-physics-functions.md` plus Russian and Ukrainian translations (`psychosophy-physics-functions-ru.md`, `psychosophy-physics-functions-uk.md`) as a full research-layer synthesis of all four Psychosophy Physics positions: 1F, 2F, 3F, and 4F. The pages define Physics as the bodily-material operational aspect, describe each position with strengths, risks, examples, pair dynamics, public-language translation questions, and explicit non-claims. The update corrects the previous imbalance where only 4F had a deep page, and it adds strong caveats that libido, sexual health, medical symptoms, self-neglect, abuse, trauma, and moral/spiritual responsibility must not be reduced to Physics position. Updated `index.md`, Psychosophy overview pages, and the 4F deep research page with links.
+
 ## [2026-05-29] concept | Typed society simulator
 
 Added `wiki/concepts/typed-society-simulator.md`, a research-track concept page for an agent-based society simulator where each simulated person has a Temporistics strategic layer, Psychosophy operational layer, Socionics tactical layer, non-typological context, state, memory, and safety flags. The page defines the simulation loop, scenario families for relationships, church service, teams, and wider society, exploratory metrics, architecture components, Christian/pastoral boundaries, validation questions, and phased implementation. It explicitly keeps the simulator downstream from the current weak-AI conversation-map MVP and rejects oracle, diagnosis, marriage-prediction, and spiritual-authority claims. Updated `index.md` with the new concept reference.
