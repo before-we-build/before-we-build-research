@@ -78,5 +78,8 @@ Beyond the 24 standard types, Afanasyev describes a theoretical **"25th type"** 
 - [[socionics-detailed]] — Tactical level typology
 - [[temporistics-overview]] — Strategic level typology
 - [[psychosophy-detailed]] — Detailed psychosophy analysis
+- [[psychosophy-volition-functions]] — detailed synthesis of 1V, 2V, 3V, and 4V with accentuations and responsibility caveats
+- [[psychosophy-logic-functions]] — detailed synthesis of 1L, 2L, 3L, and 4L with accentuations and knowledge caveats
+- [[psychosophy-emotion-functions]] — detailed synthesis of 1E, 2E, 3E, and 4E with accentuations and emotional-safety caveats
 - [[psychosophy-physics-functions]] — detailed synthesis of 1F, 2F, 3F, and 4F with examples and safety caveats
 - [[psychosophy-quadras]] — Unofficial sextas/quadras and type clusters

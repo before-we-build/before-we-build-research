@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-07] source | Psychosophy Volition, Logic, and Emotion 1–4 synthesis
+
+Added full research-layer synthesis pages for the remaining Psychosophy aspects beyond Physics: `wiki/sources/psychosophy-volition-functions.md`, `psychosophy-logic-functions.md`, and `psychosophy-emotion-functions.md`, each with Russian and Ukrainian translations. The pages cover all four positions for each aspect (1V–4V, 1L–4L, 1E–4E), including core patterns, strengths, risks, examples, pair dynamics, Before We Build public-language translation questions, non-claims, and aspect-specific accentuation sections. The accentuation layer is explicitly marked as unofficial/community research, not core Afanasyev doctrine or validated psychometrics. Updated `index.md` and Psychosophy overview pages with links so all four Psychosophy aspects now have class-level synthesis pages parallel to the existing Physics page.
+
 ## [2026-06-07] source | Psychosophy Physics 1F–4F synthesis
 
 Added `wiki/sources/psychosophy-physics-functions.md` plus Russian and Ukrainian translations (`psychosophy-physics-functions-ru.md`, `psychosophy-physics-functions-uk.md`) as a full research-layer synthesis of all four Psychosophy Physics positions: 1F, 2F, 3F, and 4F. The pages define Physics as the bodily-material operational aspect, describe each position with strengths, risks, examples, Physics-specific accentuations, pair dynamics, public-language translation questions, and explicit non-claims. The update corrects the previous imbalance where only 4F had a deep page, and it adds strong caveats that libido, sexual health, medical symptoms, self-neglect, abuse, trauma, and moral/spiritual responsibility must not be reduced to Physics position. Updated `index.md`, Psychosophy overview pages, and the 4F deep research page with links.

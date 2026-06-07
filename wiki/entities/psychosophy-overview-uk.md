@@ -89,5 +89,8 @@ sources: [raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md]
 - [[socionics-overview-uk]] — тактичний рівень
 - [[temporistics-overview-uk]] — стратегічний рівень
 - [[psychosophy-detailed]] — докладний розбір психософії
+- [[psychosophy-volition-functions-uk]] — повний розбір 1В, 2В, 3В і 4В з акцентуаціями та застереженнями щодо відповідальності
+- [[psychosophy-logic-functions-uk]] — повний розбір 1Л, 2Л, 3Л і 4Л з акцентуаціями та застереженнями щодо знання
+- [[psychosophy-emotion-functions-uk]] — повний розбір 1Е, 2Е, 3Е і 4Е з акцентуаціями та застереженнями щодо емоційної безпеки
 - [[psychosophy-physics-functions-uk]] — повний розбір 1Ф, 2Ф, 3Ф і 4Ф з прикладами та безпековими застереженнями
 - [[psychosophy-quadras]] — неофіційні сексти/квадри та кластери типів

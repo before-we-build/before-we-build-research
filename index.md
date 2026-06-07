@@ -277,6 +277,15 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 |------|---------|------------|
 | [[temporistics-detailed]] | Strategic level: Past/Present/Future/Eternity aspects, 24 types | raw/temporistics/ |
 | [[psychosophy-detailed]] | Operational level: Logic/Emotion/Will/Physics functions | raw/psychosophy/ |
+| [[psychosophy-volition-functions]] | Detailed research-layer synthesis of all four Psychosophy Volition positions: 1V, 2V, 3V, and 4V, with accentuations and responsibility caveats | psychosophy-detailed.md, psychosophy-accentuations.md |
+| [[psychosophy-volition-functions-ru]] | Русская версия полного разбора Воли в психософии: 1В, 2В, 3В и 4В, с акцентуациями и оговорками об ответственности | psychosophy-volition-functions.md |
+| [[psychosophy-volition-functions-uk]] | Українська версія повного розбору Волі в психософії: 1В, 2В, 3В і 4В, з акцентуаціями та застереженнями щодо відповідальності | psychosophy-volition-functions.md |
+| [[psychosophy-logic-functions]] | Detailed research-layer synthesis of all four Psychosophy Logic positions: 1L, 2L, 3L, and 4L, with accentuations and knowledge caveats | psychosophy-detailed.md, psychosophy-accentuations.md |
+| [[psychosophy-logic-functions-ru]] | Русская версия полного разбора Логики в психософии: 1Л, 2Л, 3Л и 4Л, с акцентуациями и оговорками о знании | psychosophy-logic-functions.md |
+| [[psychosophy-logic-functions-uk]] | Українська версія повного розбору Логіки в психософії: 1Л, 2Л, 3Л і 4Л, з акцентуаціями та застереженнями щодо знання | psychosophy-logic-functions.md |
+| [[psychosophy-emotion-functions]] | Detailed research-layer synthesis of all four Psychosophy Emotion positions: 1E, 2E, 3E, and 4E, with accentuations and emotional-safety caveats | psychosophy-detailed.md, psychosophy-accentuations.md |
+| [[psychosophy-emotion-functions-ru]] | Русская версия полного разбора Эмоции в психософии: 1Э, 2Э, 3Э и 4Э, с акцентуациями и оговорками об эмоциональной безопасности | psychosophy-emotion-functions.md |
+| [[psychosophy-emotion-functions-uk]] | Українська версія повного розбору Емоції в психософії: 1Е, 2Е, 3Е і 4Е, з акцентуаціями та застереженнями щодо емоційної безпеки | psychosophy-emotion-functions.md |
 | [[psychosophy-physics-functions]] | Detailed research-layer synthesis of all four Psychosophy Physics positions: 1F, 2F, 3F, and 4F, with examples and libido/health caveats | psychosophy-detailed.md, fourth-physics-deep-research.md |
 | [[psychosophy-physics-functions-ru]] | Русская версия полного разбора Физики в психософии: 1Ф, 2Ф, 3Ф и 4Ф, с примерами и оговорками по либидо/здоровью | psychosophy-physics-functions.md |
 | [[psychosophy-physics-functions-uk]] | Українська версія повного розбору Фізики в психософії: 1Ф, 2Ф, 3Ф і 4Ф, з прикладами та застереженнями щодо лібідо/здоров'я | psychosophy-physics-functions.md |
