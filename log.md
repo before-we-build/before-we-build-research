@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-19] concept | Composite quadra/tetrad names
+
+Added `wiki/concepts/composite-quadra-tetrad-names-ru.md`, a Russian research-layer naming page that combines 4 Socionics quadras, 6 Psychosophy quadras/sextas, and 6 Temporistics tetrads into 144 composite quadra/tetrad working names. The page records web/source provenance for the base groups, keeps the names as project navigation rather than validated psychology, and repeats caveats against treating composite names as compatibility verdicts, marriage forecasts, spiritual diagnoses, or full human types. Updated `index.md` with the new concept reference.
+
 ## [2026-06-07] concept | Afanasyev resource-distribution model
 
 Added `wiki/concepts/afanasyev-resource-distribution-model-ru.md`, a Russian research-layer concept page that reconstructs Afanasyev's Psychosophy as a model of operational resource distribution across four aspects and four positions. The page frames 1st function as surplus/standard/result, 2nd as flexible cooperative help, 3rd as vulnerable over-attention and painful testing, and 4th as a low-priority delegated frame. It connects the model to Before We Build's operational level, pair dynamics, public-language translation, non-claims, and further research questions, while preserving caveats against psychometric, diagnostic, spiritual, moral, or marriage-verdict use. Updated `index.md` with the new reference.
@@ -1211,3 +1215,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Added `sociology-researcher` agent and `sociological-compatibility-analogues.md` to map Strategic/Operational/Tactical compatibility to life course, role theory, household labor, symbolic interactionism, and conversation analysis as sociological bridges.
 2026-04-24 - Added `neuroscience-researcher` agent and `neuroscience-compatibility-bridges.md` to map Strategic/Operational/Tactical compatibility to DMN/prospection, executive control/salience/regulation, and social cognition/conversation synchrony as neuroscience bridges.
 2026-04-24 - Updated `plan.md` to align with current methodology: level-specific primary typologies, provisional scoring, sociology/neuroscience as secondary layers, typology code policy, and downstream advisor boundaries.
+

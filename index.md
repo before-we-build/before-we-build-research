@@ -45,6 +45,7 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[adequate-compromise-ru]] | Russian project reconstruction of adequate compromise as structurally bearable agreement across Socionics, Psychosophy, and Temporistics |
 | [[adequate-intertype-formats-ru]] | Russian Socionics-level hypothesis: intertype relations become adequate when the relationship type receives the right distance, load, and format |
 | [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская страница о психософии Афанасьева как модели распределения операционного ресурса: избыток, гибкая помощь, уязвимость и делегируемая рамка |
+| [[composite-quadra-tetrad-names-ru]] | Русская исследовательская номенклатура составных квадр/тетрад: 4 соционические квадры × 6 психософских квадр/секст × 6 темпористических тетрад = 144 рабочих названия |
 | [[weight-calibration]] | Explains why compatibility scoring remains provisional |
 
 ---
@@ -145,6 +146,7 @@ wiki/          — LLM-generated wiki
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
 | [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени: Прошлое, Настоящее, Будущее, Вечность | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
 | [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская реконструкция модели Афанасьева как распределения операционного ресурса: 1-я функция как избыток/стандарт, 2-я как гибкая помощь, 3-я как уязвимая проверка, 4-я как делегируемая рамка | afanasyev-model.md, psychosophy-detailed.md, raw/psychosophy function pages |
+| [[composite-quadra-tetrad-names-ru]] | Русская исследовательская номенклатура составных квадр/тетрад трёх слоёв: соционическая квадра + психософская квадра/секста + темпористическая тетрада, 144 рабочих названия с границами применения | socionics-detailed.md, psychosophy-quadras.md, temporistics-detailed.md, raw/temporistics/types.md, web sources |
 | [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | before-we-build/Psyche-Yoga |
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | before-we-build/Psyche-Yoga |
@@ -441,9 +443,10 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 48 (including typology-test-evaluation-expert)
 - **Raw sources**: 59 (21 temporistics + 9 psychosophy + 12 socionics + 17 general)
-- **Wiki pages**: 112 (38 concepts + 35 entities + 3 relations + 32 sources + 4 reference pages)
+- **Wiki pages**: 113 (39 concepts + 35 entities + 3 relations + 32 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
 - **Articles ingested**: 59 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 38
-- **Last updated**: 2026-05-07
+- **Concepts**: 39
+- **Last updated**: 2026-06-19
+
