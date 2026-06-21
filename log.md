@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-21] methodology | Public figure evidence protocol and batch 1 dossiers
+
+Added `wiki/concepts/public-figure-typing-evidence-protocol-ru.md`, a Russian evidence protocol for the next accuracy level in public-figure typing: source weights, quote/evidence rows, blind coding, inter-rater agreement, confidence model, differentiator checklists, and final report format. Added `wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md` as the first starter dossier batch for Serhiy Sannikov, Mykola Romaniuk, and Ihor Bandura, with source sets, initial evidence rows, differentiator plans, current confidence scoring, and missing materials needed before confidence can be raised. Linked both pages from `baptist-audience-public-figure-typing-ru.md` and updated `index.md`.
+
 ## [2026-06-21] application | Public figure typing method-v2 pass
 
 Applied the updated methodology audit to the full current list of popular Baptist / broader evangelical figures in `wiki/concepts/baptist-audience-public-figure-typing-ru.md`. Added `wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md` with method scout, source-quality gates, scale-before-type reasoning, role-overfit critique, arbitration, and JSON summary for Valeriy Antoniuk, Ihor Bandura, Serhiy Sannikov, Hennadii Mokhnenko, Volodymyr Kondor, Roman Vecherkivskyi, Vasyl Furta, Mykola Romaniuk, Volodymyr Omelchuk, Serhiy Syzonenko, and Volodymyr Shemchyshyn. Updated the main table: Furta's Psychosophy primary changed from VFLE to VLFE; Omelchuk changed from FVEL/NFPE to VFEL/FNPE; Antoniuk now lists LSI before ESI as a stronger Socionics alternative; Mokhnenko and Shemchyshyn confidence were downgraded to low under the stricter method gates. Updated `index.md`.

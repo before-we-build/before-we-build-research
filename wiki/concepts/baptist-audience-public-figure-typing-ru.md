@@ -12,6 +12,8 @@ sources:
   - wiki/concepts/typology-code-conventions.md
   - wiki/concepts/public-figure-typing-methodology-audit-ru.md
   - wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md
+  - wiki/concepts/public-figure-typing-evidence-protocol-ru.md
+  - wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md
   - "web: https://www.baptyst.com/kerivnytstvo/"
   - "web: https://vrciro.org.ua/ua/council/member/valerii-antoniuk"
   - "web: https://www.baptyst.com/duhovne-batkivstvo-igor-bandura/"
@@ -31,6 +33,8 @@ sources:
 Первый применённый проход по этому пайплайну см. [[public-figure-typing-pipeline-run-2026-06-21-ru]]; он уточняет первые четыре записи и добавляет явную критику role-overfit.
 
 Методологическое v2-перетипирование всего текущего списка см. [[public-figure-typing-pipeline-run-2026-06-21-method-v2-ru]]. Оно применяет [[public-figure-typing-methodology-audit-ru]]: method scout, шкалы/оси до типа, source-quality gates, role-overfit downgrade и более строгую осторожность по темпористике.
+
+Следующий уровень точности описан в [[public-figure-typing-evidence-protocol-ru]]: цитатная база, blind coding, confidence model и differentiator checklists. Стартовые dossiers для Сергея Санникова, Николая Романюка и Игоря Бандуры вынесены в [[public-figure-typing-evidence-dossiers-batch-1-ru]].
 
 ## Метод и ограничения
 
@@ -127,6 +131,19 @@ sources:
 - **Владимир Омельчук:** психософия изменена с `ФВЭЛ` на `ВФЭЛ`, темпористика — с `НБПВ` на `БНПВ`; ремесленное прошлое и место не должны автоматически давать 1Ф/1Настоящее.
 - **Владимир Шемчишин:** уверенность понижена до низкой, потому что богатая биография всё ещё почти полностью должностная.
 - **Сергей Санников, Николай Романюк, Игорь Бандура:** primary сохранены, но с более явными методическими ограничениями.
+
+## Следующий уровень доказательности
+
+Чтобы повысить точность выше общего биографического уровня, текущие гипотезы нужно проверять не новыми пересказами биографий, а evidence dossiers:
+
+- цитаты/фрагменты из полных проповедей, лекций, интервью, Q&A и статей;
+- source weights по жанрам;
+- blind coding без имени и должности;
+- независимое кодирование признаков;
+- confidence model;
+- differentiator checklists для спорных пар.
+
+См. [[public-figure-typing-evidence-protocol-ru]] и первый batch [[public-figure-typing-evidence-dossiers-batch-1-ru]].
 
 ## Уточнение по первым четырём фигурам после агентного пайплайна
 
