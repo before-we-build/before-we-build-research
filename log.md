@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-21] revision | Current Ukrainian Baptist leadership typing pass
+
+Expanded `wiki/concepts/baptist-audience-public-figure-typing-ru.md` with a second research pass focused on current recognizable figures in the Ukrainian Baptist context through the official ВСЦ ЕХБ leadership page: Volodymyr Kondor, Roman Vecherkivskyi, Vasyl Furta, Mykola Romaniuk, Volodymyr Omelchuk, Serhiy Syzonenko, and Volodymyr Shemchyshyn. Each entry keeps the same cautious format: public biographical traces, Socionics/Psychosophy/Temporistics working hypotheses, alternatives, low confidence labels, and follow-up questions. Updated `index.md` to reflect the expanded page scope.
+
 ## [2026-06-21] concept | Baptist-audience public figure typing hypotheses
 
 Added `wiki/concepts/baptist-audience-public-figure-typing-ru.md`, a Russian research-layer page with cautious working typology hypotheses for public figures significant to the Ukrainian Baptist / broader evangelical audience: Valeriy Antoniuk, Ihor Bandura, Serhiy Sannikov, and Hennadii Mokhnenko. The page explicitly frames all typings as low-to-medium confidence hypotheses from public biography rather than tests or verdicts, records source URLs and alternatives, separates Socionics, Psychosophy, and Temporistics, marks Mokhnenko as non-Baptist but broadly evangelical, and repeats limitations against using the material for spiritual authority, public labeling, marriage/church decisions, or moral evaluation. Updated `index.md` with the new concept reference.
