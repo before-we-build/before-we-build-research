@@ -46,6 +46,7 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[adequate-intertype-formats-ru]] | Russian Socionics-level hypothesis: intertype relations become adequate when the relationship type receives the right distance, load, and format |
 | [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская страница о психософии Афанасьева как модели распределения операционного ресурса: избыток, гибкая помощь, уязвимость и делегируемая рамка |
 | [[composite-quadra-tetrad-names-ru]] | Русская исследовательская номенклатура составных квадр/тетрад: 4 соционические квадры × 6 психософских квадр/секст × 6 темпористических тетрад = 144 рабочих названия |
+| [[baptist-audience-public-figure-typing-ru]] | Русские исследовательские гипотезы типирования публичных фигур, значимых для баптистской/евангельской аудитории Украины, с источниками, альтернативами и строгими ограничениями применения |
 | [[weight-calibration]] | Explains why compatibility scoring remains provisional |
 
 ---
@@ -147,6 +148,7 @@ wiki/          — LLM-generated wiki
 | [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени: Прошлое, Настоящее, Будущее, Вечность | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
 | [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская реконструкция модели Афанасьева как распределения операционного ресурса: 1-я функция как избыток/стандарт, 2-я как гибкая помощь, 3-я как уязвимая проверка, 4-я как делегируемая рамка | afanasyev-model.md, psychosophy-detailed.md, raw/psychosophy function pages |
 | [[composite-quadra-tetrad-names-ru]] | Русская исследовательская номенклатура составных квадр/тетрад трёх слоёв: соционическая квадра + психософская квадра/секста + темпористическая тетрада, 144 рабочих названия с границами применения | socionics-detailed.md, psychosophy-quadras.md, temporistics-detailed.md, raw/temporistics/types.md, web sources |
+| [[baptist-audience-public-figure-typing-ru]] | Русские исследовательские гипотезы типирования публичных фигур, значимых для баптистской/евангельской аудитории Украины: Валерий Антонюк, Игорь Бандура, Сергей Санников, Геннадий Мохненко; с источниками, альтернативами, уровнями уверенности и не-утверждениями | socionics-detailed.md, psychosophy-typing-methods.md, temporistics-detailed.md, web sources |
 | [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
 | [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | before-we-build/Psyche-Yoga |
 | [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | before-we-build/Psyche-Yoga |

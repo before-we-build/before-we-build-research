@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-21] concept | Baptist-audience public figure typing hypotheses
+
+Added `wiki/concepts/baptist-audience-public-figure-typing-ru.md`, a Russian research-layer page with cautious working typology hypotheses for public figures significant to the Ukrainian Baptist / broader evangelical audience: Valeriy Antoniuk, Ihor Bandura, Serhiy Sannikov, and Hennadii Mokhnenko. The page explicitly frames all typings as low-to-medium confidence hypotheses from public biography rather than tests or verdicts, records source URLs and alternatives, separates Socionics, Psychosophy, and Temporistics, marks Mokhnenko as non-Baptist but broadly evangelical, and repeats limitations against using the material for spiritual authority, public labeling, marriage/church decisions, or moral evaluation. Updated `index.md` with the new concept reference.
+
 ## [2026-06-19] revision | Psychosophy first-quadra label
 
 Rechecked web/community sources for the first Psychosophy quadra: Socionika.lv, 24types.ru, and Socioniks.org. Revised the P1 working label in `wiki/concepts/composite-quadra-tetrad-names-ru.md` from `Стража выживания` to `Выживание и очищение`, because the sources pair the survival task with exposing hidden/dark/socially suppressed problems and leading them toward cleansing or recovery. Updated all 24 composite rows that use P1 and expanded their description accordingly.
