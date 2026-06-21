@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-21] methodology | Public figure typing methods audit
+
+Added `wiki/concepts/public-figure-typing-methodology-audit-ru.md`, a Russian methodology audit checking whether the public-figure typing pipeline uses current and promising online typing methods. The audit reviews Wikisocion diagnosis guidance, Sociotype tests, AIM/Talanov-style inventory, Psychosophy/Afanasyev/Anette/AP-like axes, Temporistics aspect-position heatmap, and recent LLM/text-based automatic personality prediction research. Updated `wiki/concepts/public-figure-typing-agent-pipeline-ru.md` with method scout role, source/method strength matrix, scale-before-type requirements, text-analysis limits, system-specific warning rules, and stricter confidence gates. Updated `index.md` with the audit page.
+
 ## [2026-06-21] application | Public figure typing pipeline batch 1
 
 Applied `wiki/concepts/public-figure-typing-agent-pipeline-ru.md` to the first high-priority batch of popular Ukrainian Baptist figures: Serhiy Sannikov, Mykola Romaniuk, Valeriy Antoniuk, and Ihor Bandura. Added `wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-ru.md` with source dossier, observable traces, independent typology reasoning, role-overfit critique, safety review, arbitration, and JSON summary. Updated `wiki/concepts/baptist-audience-public-figure-typing-ru.md` so the summary table reflects the stricter confidence adjustments: Antoniuk downgraded to low due to chairman-role overfit, Bandura raised only to low-medium, Sannikov kept as low-medium exact code / medium direction, and Romaniuk kept with a strengthened LII alternative. Updated `index.md` with the new run page.
