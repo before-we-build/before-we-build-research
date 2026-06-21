@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-21] application | Public figure typing pipeline batch 1
+
+Applied `wiki/concepts/public-figure-typing-agent-pipeline-ru.md` to the first high-priority batch of popular Ukrainian Baptist figures: Serhiy Sannikov, Mykola Romaniuk, Valeriy Antoniuk, and Ihor Bandura. Added `wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-ru.md` with source dossier, observable traces, independent typology reasoning, role-overfit critique, safety review, arbitration, and JSON summary. Updated `wiki/concepts/baptist-audience-public-figure-typing-ru.md` so the summary table reflects the stricter confidence adjustments: Antoniuk downgraded to low due to chairman-role overfit, Bandura raised only to low-medium, Sannikov kept as low-medium exact code / medium direction, and Romaniuk kept with a strengthened LII alternative. Updated `index.md` with the new run page.
+
 ## [2026-06-21] concept | Public figure typing agent pipeline
 
 Added `wiki/concepts/public-figure-typing-agent-pipeline-ru.md`, a Russian research-layer agent pipeline for improving public-figure typology hypotheses. The pipeline separates source collection, observable trace extraction, independent Socionics/Psychosophy/Temporistics hypotheses, role-overfit critique, theological-pastoral safety review, and final arbitration. It defines input YAML, output JSON, confidence levels, role prompts, and how to apply the process back to `baptist-audience-public-figure-typing-ru.md`. Linked the pipeline from the public-figure typing page and updated `index.md`.
