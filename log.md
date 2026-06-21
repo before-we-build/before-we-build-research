@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-21] application | Public figure typing method-v2 pass
+
+Applied the updated methodology audit to the full current list of popular Baptist / broader evangelical figures in `wiki/concepts/baptist-audience-public-figure-typing-ru.md`. Added `wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md` with method scout, source-quality gates, scale-before-type reasoning, role-overfit critique, arbitration, and JSON summary for Valeriy Antoniuk, Ihor Bandura, Serhiy Sannikov, Hennadii Mokhnenko, Volodymyr Kondor, Roman Vecherkivskyi, Vasyl Furta, Mykola Romaniuk, Volodymyr Omelchuk, Serhiy Syzonenko, and Volodymyr Shemchyshyn. Updated the main table: Furta's Psychosophy primary changed from VFLE to VLFE; Omelchuk changed from FVEL/NFPE to VFEL/FNPE; Antoniuk now lists LSI before ESI as a stronger Socionics alternative; Mokhnenko and Shemchyshyn confidence were downgraded to low under the stricter method gates. Updated `index.md`.
+
 ## [2026-06-21] methodology | Public figure typing methods audit
 
 Added `wiki/concepts/public-figure-typing-methodology-audit-ru.md`, a Russian methodology audit checking whether the public-figure typing pipeline uses current and promising online typing methods. The audit reviews Wikisocion diagnosis guidance, Sociotype tests, AIM/Talanov-style inventory, Psychosophy/Afanasyev/Anette/AP-like axes, Temporistics aspect-position heatmap, and recent LLM/text-based automatic personality prediction research. Updated `wiki/concepts/public-figure-typing-agent-pipeline-ru.md` with method scout role, source/method strength matrix, scale-before-type requirements, text-analysis limits, system-specific warning rules, and stricter confidence gates. Updated `index.md` with the audit page.
