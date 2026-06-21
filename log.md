@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-21] concept | Public figure typing agent pipeline
+
+Added `wiki/concepts/public-figure-typing-agent-pipeline-ru.md`, a Russian research-layer agent pipeline for improving public-figure typology hypotheses. The pipeline separates source collection, observable trace extraction, independent Socionics/Psychosophy/Temporistics hypotheses, role-overfit critique, theological-pastoral safety review, and final arbitration. It defines input YAML, output JSON, confidence levels, role prompts, and how to apply the process back to `baptist-audience-public-figure-typing-ru.md`. Linked the pipeline from the public-figure typing page and updated `index.md`.
+
 ## [2026-06-21] revision | Current Ukrainian Baptist leadership typing pass
 
 Expanded `wiki/concepts/baptist-audience-public-figure-typing-ru.md` with a second research pass focused on current recognizable figures in the Ukrainian Baptist context through the official ВСЦ ЕХБ leadership page: Volodymyr Kondor, Roman Vecherkivskyi, Vasyl Furta, Mykola Romaniuk, Volodymyr Omelchuk, Serhiy Syzonenko, and Volodymyr Shemchyshyn. Each entry keeps the same cautious format: public biographical traces, Socionics/Psychosophy/Temporistics working hypotheses, alternatives, low confidence labels, and follow-up questions. Updated `index.md` to reflect the expanded page scope.
