@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-27] concept | Temporistics cognitive-resource routing creation model
+
+Added `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md`, a Ukrainian research-layer hypothesis that frames Temporistics as a creationist interpretation of distributed cognitive-resource routing across Present, Past, Future, and Eternity. The page keeps strict caveats against brain-type mapping and spiritual ranking, defines deductive, dialogical-integrative, painful inductive/abductive, and delegated temporal processing modes, adds a heuristic energy-budget formula, describes society/community as a distributed temporal system, and provides JSON-shaped simulation configuration examples for `typed-society-simulator`. Updated `index.md` and statistics.
+
 ## [2026-06-27] revision | Third temporistics aspect as painful induction
 
 Expanded `wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md` with new research hypotheses about the third temporistics aspect as a painful inductive mechanism: the attempt to build a complete inductive proof from limited wounded observations, false universalization, the impossibility of a closed proof across Past/Present/Future/Eternity, and a healthier movement from fact-gathering to limited faithful action. Updated `index.md` to reflect the new layer.
