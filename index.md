@@ -151,7 +151,7 @@ wiki/          — LLM-generated wiki
 | [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the СЛИ + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
-| [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени: Прошлое, Настоящее, Будущее, Вечность | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
+| [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени; добавлен исследовательский слой о третьем аспекте как болевой индукции и попытке полного индуктивного доказательства | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
 | [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская реконструкция модели Афанасьева как распределения операционного ресурса: 1-я функция как избыток/стандарт, 2-я как гибкая помощь, 3-я как уязвимая проверка, 4-я как делегируемая рамка | afanasyev-model.md, psychosophy-detailed.md, raw/psychosophy function pages |
 | [[composite-quadra-tetrad-names-ru]] | Русская исследовательская номенклатура составных квадр/тетрад трёх слоёв: соционическая квадра + психософская квадра/секста + темпористическая тетрада, 144 рабочих названия с границами применения | socionics-detailed.md, psychosophy-quadras.md, temporistics-detailed.md, raw/temporistics/types.md, web sources |
 | [[baptist-audience-public-figure-typing-ru]] | Русские исследовательские гипотезы типирования публичных фигур, значимых для баптистской/евангельской аудитории Украины: Валерий Антонюк, Игорь Бандура, Сергей Санников, Геннадий Мохненко, Владимир Кондор, Роман Вечерковский, Василий Фурта, Николай Романюк, Владимир Омельчук, Сергей Сизоненко, Владимир Шемчишин; с источниками, альтернативами, уровнями уверенности и не-утверждениями | socionics-detailed.md, psychosophy-typing-methods.md, temporistics-detailed.md, web sources |
@@ -462,5 +462,5 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 - **Articles ingested**: 59 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
 - **Concepts**: 39
-- **Last updated**: 2026-06-19
+- **Last updated**: 2026-06-27
 

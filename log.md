@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-06-27] revision | Third temporistics aspect as painful induction
+
+Expanded `wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md` with new research hypotheses about the third temporistics aspect as a painful inductive mechanism: the attempt to build a complete inductive proof from limited wounded observations, false universalization, the impossibility of a closed proof across Past/Present/Future/Eternity, and a healthier movement from fact-gathering to limited faithful action. Updated `index.md` to reflect the new layer.
+
 ## [2026-06-21] methodology | Public figure evidence protocol and batch 1 dossiers
 
 Added `wiki/concepts/public-figure-typing-evidence-protocol-ru.md`, a Russian evidence protocol for the next accuracy level in public-figure typing: source weights, quote/evidence rows, blind coding, inter-rater agreement, confidence model, differentiator checklists, and final report format. Added `wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md` as the first starter dossier batch for Serhiy Sannikov, Mykola Romaniuk, and Ihor Bandura, with source sets, initial evidence rows, differentiator plans, current confidence scoring, and missing materials needed before confidence can be raised. Linked both pages from `baptist-audience-public-figure-typing-ru.md` and updated `index.md`.
