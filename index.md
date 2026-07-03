@@ -26,6 +26,7 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[hypothesis-status-of-before-we-build]] | Clarifies that Before We Build remains a heuristic and testable research framework |
 | [[biblical-grounding-policy]] | Editorial rule: Christian normative claims need nearby biblical grounding |
 | [[report-caveat-standard]] | Reusable caveat block for generated reports: not a verdict, pastoral authority, or promise |
+| `biblical-compatibility/` | Biblical-hermeneutical research module for the book «Сумісність для одиноких християн»: authority model, claims register, pastoral risks, hermeneutics, themes, and typology-integration limits |
 | [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи |
 | [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї |
 | [[biblical-grounding-policy-ru]] | Русская политика библейской опоры и локализации ссылок |

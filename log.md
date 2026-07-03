@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-07-03] module | Biblical compatibility research layer and separated book repository
+
+Added `biblical-compatibility/` as a biblical-hermeneutical research module for the Ukrainian book «Сумісність для одиноких християн». The module keeps research-only materials in this repository: `authority-model.md`, `methodology.md`, `repository-map.md`, `claims-register.md`, `pastoral-risk-register.md`, `hermeneutics/`, `themes/`, and `typology-integration/`. It classifies compatibility claims by authority level and limits typology to a supporting tool under Scripture, pastoral wisdom, observation, and character. The clean reader-facing manuscript was separated into the public GitHub repository `before-we-build/compatibility-for-single-christians`, while this research repository keeps the sources and verification layer.
+
 ## [2026-06-27] concept | Temporistics cognitive-resource routing creation model
 
 Added `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md`, a Ukrainian research-layer hypothesis that frames Temporistics as a creationist interpretation of distributed cognitive-resource routing across Present, Past, Future, and Eternity. The page keeps strict caveats against brain-type mapping and spiritual ranking, defines deductive, dialogical-integrative, painful inductive/abductive, and delegated temporal processing modes, adds a heuristic energy-budget formula, describes society/community as a distributed temporal system, and provides JSON-shaped simulation configuration examples for `typed-society-simulator`. Updated `index.md` and statistics.
