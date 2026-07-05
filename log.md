@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-07-05] concept | Spiritual foundation levels and pair dynamics
+
+Added `wiki/concepts/spiritual-foundation-levels-ru.md`, a Russian research-layer hypothesis for the spiritual foundation before serious relationships and marriage. The page frames the layer as a check of foundation before Christ rather than a typological rank, defines four working positions (periphery/no shared foundation, threshold/external approach, path of discipleship, rooted maturity), four pair dynamics (shared direction, maturity asymmetry, unclear foundation, different foundation), Bible anchors, connections to the strategic/operational/tactical typology layers, and strict non-claims against spiritual ranking, marriage verdicts, or replacing Scripture, prayer, church, pastoral counsel, observation, and responsibility. Updated `index.md`.
+
 ## [2026-07-03] module | Biblical compatibility research layer and separated book repository
 
 Added `biblical-compatibility/` as a biblical-hermeneutical research module for the Ukrainian book «Сумісність для одиноких християн». The module keeps research-only materials in this repository: `authority-model.md`, `methodology.md`, `repository-map.md`, `claims-register.md`, `pastoral-risk-register.md`, `hermeneutics/`, `themes/`, and `typology-integration/`. It classifies compatibility claims by authority level and limits typology to a supporting tool under Scripture, pastoral wisdom, observation, and character. The clean reader-facing manuscript was separated into the public GitHub repository `before-we-build/compatibility-for-single-christians`, while this research repository keeps the sources and verification layer.
