@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-07-05] research | Сравнение христианских моделей духовной зрелости
+
+Added `wiki/concepts/spiritual-maturity-models-comparison-ru.md`, a Russian research synthesis comparing biblical and Christian models of spiritual maturity with the current 4-position Before We Build spiritual-foundation scheme. The page covers Hebrews 5, 1 Corinthians 3, 1 John 2, Ephesians 4, Galatians 5, 2 Peter 1, Jim Putman / Discipleship.org's five stages of disciple growth, Dallas Willard's spiritual formation as heart/will transformation toward Christlike action and love, GotQuestions' popular evangelical maturity summary, the classic purgative/illuminative/unitive model, and Fowler's developmental faith stages as a non-normative psychological background. Updated `wiki/concepts/spiritual-foundation-levels-ru.md` with safer names (`вне общего основания`, `порог / внешняя форма`, `путь ученика`, `плодоносящая укоренённость`) and linked the comparison from `index.md`.
+
 ## [2026-07-05] concept | Spiritual foundation levels and pair dynamics
 
 Added `wiki/concepts/spiritual-foundation-levels-ru.md`, a Russian research-layer hypothesis for the spiritual foundation before serious relationships and marriage. The page frames the layer as a check of foundation before Christ rather than a typological rank, defines four working positions (periphery/no shared foundation, threshold/external approach, path of discipleship, rooted maturity), four pair dynamics (shared direction, maturity asymmetry, unclear foundation, different foundation), Bible anchors, connections to the strategic/operational/tactical typology layers, and strict non-claims against spiritual ranking, marriage verdicts, or replacing Scripture, prayer, church, pastoral counsel, observation, and responsibility. Updated `index.md`.
