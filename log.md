@@ -1272,5 +1272,5 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-04-24 - Added `neuroscience-researcher` agent and `neuroscience-compatibility-bridges.md` to map Strategic/Operational/Tactical compatibility to DMN/prospection, executive control/salience/regulation, and social cognition/conversation synchrony as neuroscience bridges.
 2026-04-24 - Updated `plan.md` to align with current methodology: level-specific primary typologies, provisional scoring, sociology/neuroscience as secondary layers, typology code policy, and downstream advisor boundaries.
 2026-07-20 - Replaced Temporistics relation display labels with 24 trilingual archetypal names modeled on the narrative style of the source-backed tetrads; retained signatures and mechanism descriptors as the research layer and updated the naming audit and index.
-
+2026-07-20 - Expanded `adequate-compromise-ru.md` with green/yellow/red decision zones and five explicit no-compromise boundaries: truth and fidelity, consent and safety, shared-life structure, reciprocity, and demonstrated capacity to keep and repair agreements.
 
