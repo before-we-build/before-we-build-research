@@ -3,7 +3,7 @@ title: Адекватные форматы интертипных отношен
 type: concept
 tags: [socionics, intertype-relations, compatibility, compromise, distance, relationship-formats, methodology]
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-07-20
 lang: ru
 canonical: adequate-intertype-formats-ru.md
 sources:
@@ -388,6 +388,7 @@ sources:
 
 - [[socionics-intertype-relations]]
 - [[intertype-relations-matrix]]
+- [[adequate-compromise-relations-all-typologies-ru]] — сводная классификация соционики, психософии и темпористики
 - [[adequate-compromise-ru]]
 - [[compatibility-level-boundaries]]
 - [[limits-of-typological-inference]]

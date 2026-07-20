@@ -36,6 +36,8 @@ Psychosophy compares the positions of the same four aspects in two people:
 - **V** — Will / Volition
 - **F** — Physics
 
+An intertype relation is therefore a property of the ordered pair `(type A, type B)`, not a property of either type alone. A four-digit signature such as `1324` is a derived relation code: it is not a Psychosophy type.
+
 Example:
 
 ```text
@@ -108,11 +110,11 @@ In that taxonomy, only some of the 24 signatures receive informal names. The res
 | Signature | Typologies.ru composition / informal Russian label | Before We Build treatment |
 |---|---|---|
 | `1234` | `F-F-F-F` — полная филия | source-aware synonym for PH / Philia |
-| `1243` | `F-F-Q-Q` — верхняя филия | technical-extension synonym; compare PPH cautiously |
+| `1243` | `F-F-Q-Q` — верхняя филия | source-aware synonym for UPH / Upper Philia |
 | `1423` | `F-E-A-Q` | technical composition only |
 | `1432` | `F-E-F-E` — нижний эрос | technical-extension synonym; not product-facing by default |
 | `1342` | `F-A-Q-E` | technical composition only |
-| `1324` | `F-A-A-F` — процессионное агапэ | technical-extension synonym |
+| `1324` | `F-A-A-F` — процессионное агапэ | source-aware synonym for AG / Processional Agape |
 | `3124` | `E-Q-A-F` | technical composition only |
 | `3142` | `E-Q-Q-E` — асимметричный результативный эрос | technical-extension synonym |
 | `3412` | `E-E-E-E` — полный эрос | source-aware synonym for ER / Eros |
@@ -123,11 +125,11 @@ In that taxonomy, only some of the 24 signatures receive informal names. The res
 | `2341` | `Q-A-Q-A` — асимметричное согласующее агапэ | technical-extension synonym |
 | `2431` | `Q-E-F-A` | technical composition only |
 | `2413` | `Q-E-E-Q` — асимметричный процессионный эрос | technical-extension synonym |
-| `2134` | `Q-Q-F-F` — нижняя филия | technical-extension synonym; note current matrix maps `2134` to AG |
-| `2143` | `Q-Q-Q-Q` — полный квазиэрос | technical-extension synonym; note current matrix maps `2143` to ORD |
+| `2134` | `Q-Q-F-F` — нижняя филия | source-aware synonym for LPH / Lower Philia |
+| `2143` | `Q-Q-Q-Q` — полный квазиэрос | source-aware synonym for PPH / Full Pseudophilia / Quasi-eros |
 | `4213` | `A-F-E-Q` | technical composition only |
 | `4231` | `A-F-F-A` — результативное агапэ | technical-extension synonym |
-| `4321` | `A-A-A-A` — полное агапэ | technical-extension synonym; compare CS cautiously |
+| `4321` | `A-A-A-A` — полное агапэ | source-aware synonym for FAG / Full Agape |
 | `4312` | `A-A-E-E` — асимметричное верхнее агапэ | technical-extension synonym |
 | `4132` | `A-Q-F-E` | technical composition only |
 | `4123` | `A-Q-A-Q` — асимметричное верхнее агапэ | technical-extension synonym |
@@ -166,13 +168,13 @@ The full matrix uses compact codes. Some names are more established than others.
 | Code | Relation name | Signature | Status | Short meaning |
 |---|---|---|---|---|
 | PH | Philia | `1234` | classical / source-backed | same type; recognition and similar problems |
-| PPH | Pseudophilia | `1243` | classical label, signature mapping provisional | surface similarity with lower-position mismatch |
-| MR | Mirage | `1324` | extended/community | attractive but unstable mismatch |
+| UPH | Upper Philia | `1243` | technical-extension label | upper positions align while painful and low-investment positions exchange |
+| AG | Processional Agape | `1324` | classical family / technical-extension mapping | reciprocal `2↔3` support with shared 1st and 4th positions |
 | TMR | Partial Support with Misreading | `1342` | extended/community, renamed for Before We Build display | partial help mixed with poor translation |
 | TAT | Asymmetric Support-Attraction | `1423` | extended/community, renamed for Before We Build display | asymmetrical support/attraction without implying therapy |
 | NT | Neutrality | `1432` | extended/community | low activation, polite distance |
-| AG | Agape | `2134` | classical label, signature mapping from current matrix | flexible support and operational complementarity |
-| ORD | Order | `2143` | extended/community | one leads, one follows |
+| LPH | Lower Philia | `2134` | technical-extension label | upper positions exchange while vulnerable and low-investment positions align |
+| PPH | Full Pseudophilia / Quasi-eros | `2143` | classical family / technical-extension mapping | simultaneous `1↔2` and `3↔4` exchange |
 | AG2 | Asymmetric Guidance Chain | `2314` | Before We Build working label | guidance chain with support and pressure components |
 | ROT | Forward Rotation | `2341` | Before We Build working label | functions rotate through positions |
 | TG | Operational Guidance with Pressure Risk | `2413` | Before We Build working label, renamed for Before We Build display | guidance with pressure risk without implying therapy |
@@ -188,9 +190,9 @@ The full matrix uses compact codes. Some names are more established than others.
 | MX | Anchor-Pressure Exchange | `4213` | Before We Build working label | support and pressure coexist |
 | SW | Shared Wound with Mutual Anchoring | `4231` | Before We Build working label | shared 3rd-position sensitivity plus 1↔4 anchoring |
 | FC | Near-Full Operational Complement with Pressure Risk | `4312` | Before We Build working label, renamed for Before We Build display | near-complete complement with pressure risk |
-| CS | Full Operational Inversion with Dependency Risk | `4321` | extended/community, renamed for Before We Build display | strong inversion; high dependence/conflict risk |
+| FAG | Full Agape / Full Operational Inversion | `4321` | classical family / technical-extension mapping | `1↔4` and `2↔3` complementarity with dependency risk |
 
-Important: the code legend is intended to make the full matrix usable. Classical labels such as Agape, Philia, Eros, and Pseudophilia are retained as tradition-aware labels. Community or working labels are displayed with mechanism-first names where the older label is too romantic, moralized, deterministic, or unclear. The legend should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
+Important: the code legend is intended to make the full matrix usable. Agape is a relation family rather than one undifferentiated signature: `1324` is processional Agape, while `4321` is full Agape. Pseudophilia is assigned to `2143`, the signature that actually contains both classical crosses (`1↔2` and `3↔4`). Community aliases may still be mentioned, but they do not override the positional mechanism. The legend should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
 
 ### 5.1 Trilingual Display Names
 
@@ -199,13 +201,13 @@ English is the canonical code-legend language; the following Ukrainian and Russi
 | Code | English | Українська | Русский |
 |---|---|---|---|
 | PH | Philia | Філія | Филия |
-| PPH | Pseudophilia | Псевдофілія | Псевдофилия |
-| MR | Mirage | Міраж | Мираж |
+| UPH | Upper Philia | Верхня філія | Верхняя филия |
+| AG | Processional Agape | Процесійне агапе | Процессионное агапэ |
 | TMR | Partial Support with Misreading | Часткова підтримка з хибним зчитуванням | Частичная поддержка с неверным считыванием |
 | TAT | Asymmetric Support-Attraction | Асиметрична підтримка-притягання | Асимметричная поддержка-притяжение |
 | NT | Neutrality | Нейтральність | Нейтральность |
-| AG | Agape | Агапе | Агапэ |
-| ORD | Order | Порядок | Порядок |
+| LPH | Lower Philia | Нижня філія | Нижняя филия |
+| PPH | Full Pseudophilia / Quasi-eros | Повна псевдофілія / квазіерос | Полная псевдофилия / квазиэрос |
 | AG2 | Asymmetric Guidance Chain | Асиметричний ланцюг спрямування | Асимметричная цепочка руководства |
 | ROT | Forward Rotation | Пряма ротація | Прямая ротация |
 | TG | Operational Guidance with Pressure Risk | Операційне спрямування з ризиком тиску | Операционное руководство с риском давления |
@@ -221,9 +223,9 @@ English is the canonical code-legend language; the following Ukrainian and Russi
 | MX | Anchor-Pressure Exchange | Обмін «опора—тиск» | Обмен «опора—давление» |
 | SW | Shared Wound with Mutual Anchoring | Спільна уразливість із взаємною опорою | Общая уязвимость со взаимной опорой |
 | FC | Near-Full Operational Complement with Pressure Risk | Майже повна операційна додатковість із ризиком тиску | Почти полная операциональная дополнительность с риском давления |
-| CS | Full Operational Inversion with Dependency Risk | Повна операційна інверсія з ризиком залежності | Полная операциональная инверсия с риском зависимости |
+| FAG | Full Agape / Full Operational Inversion | Повне агапе / повна операційна інверсія | Полное агапэ / полная операциональная инверсия |
 
-Technical-extension synonym: signature `4321` is called **Full Agape / Повне агапе / Полное агапэ** in the Typologies.ru composition taxonomy. In the Before We Build code legend it remains `CS`, not a recommendation or a “perfect-match” label.
+The label **Full Agape / Повне агапе / Полное агапэ** describes the `4321` composition in the technical taxonomy. It is a structural name, not a recommendation or a “perfect-match” label.
 
 ## 6. Full 24 × 24 Psychosophy Relation Matrix
 
@@ -231,30 +233,30 @@ The table below covers all 24 standard Psychosophy types. Rows are “type A,”
 
 | Type | LEVF | LEFV | LVEF | LVFE | LFEV | LFVE | ELVF | ELFV | EVLF | EVFL | EFLV | EFVL | VLEF | VLFE | VELF | VEFL | VFLE | VFEL | FLEV | FLVE | FELV | FEVL | FVLE | FVEL |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| LEVF | PH | PPH | MR | TAT | TMR | NT | AG | ORD | OR | AN | RV | ANW | AG2 | TG | RV2 | MX | ER | FC | ROT | SUP | CP | SW | EX | CS |
-| LEFV | PPH | PH | TMR | NT | MR | TAT | ORD | AG | RV | ANW | OR | AN | ROT | SUP | CP | SW | EX | CS | AG2 | TG | RV2 | MX | ER | FC |
-| LVEF | MR | TAT | PH | PPH | NT | TMR | AG2 | TG | RV2 | MX | ER | FC | AG | ORD | OR | AN | RV | ANW | SUP | ROT | EX | CS | CP | SW |
-| LVFE | TMR | NT | PPH | PH | TAT | MR | ROT | SUP | CP | SW | EX | CS | ORD | AG | RV | ANW | OR | AN | TG | AG2 | ER | FC | RV2 | MX |
-| LFEV | TAT | MR | NT | TMR | PH | PPH | TG | AG2 | ER | FC | RV2 | MX | SUP | ROT | EX | CS | CP | SW | AG | ORD | OR | AN | RV | ANW |
-| LFVE | NT | TMR | TAT | MR | PPH | PH | SUP | ROT | EX | CS | CP | SW | TG | AG2 | ER | FC | RV2 | MX | ORD | AG | RV | ANW | OR | AN |
-| ELVF | AG | ORD | OR | AN | RV | ANW | PH | PPH | MR | TAT | TMR | NT | RV2 | MX | AG2 | TG | FC | ER | CP | SW | ROT | SUP | CS | EX |
-| ELFV | ORD | AG | RV | ANW | OR | AN | PPH | PH | TMR | NT | MR | TAT | CP | SW | ROT | SUP | CS | EX | RV2 | MX | AG2 | TG | FC | ER |
-| EVLF | AG2 | TG | RV2 | MX | ER | FC | MR | TAT | PH | PPH | NT | TMR | OR | AN | AG | ORD | ANW | RV | EX | CS | SUP | ROT | SW | CP |
-| EVFL | ROT | SUP | CP | SW | EX | CS | TMR | NT | PPH | PH | TAT | MR | RV | ANW | ORD | AG | AN | OR | ER | FC | TG | AG2 | MX | RV2 |
-| EFLV | TG | AG2 | ER | FC | RV2 | MX | TAT | MR | NT | TMR | PH | PPH | EX | CS | SUP | ROT | SW | CP | OR | AN | AG | ORD | ANW | RV |
-| EFVL | SUP | ROT | EX | CS | CP | SW | NT | TMR | TAT | MR | PPH | PH | ER | FC | TG | AG2 | MX | RV2 | RV | ANW | ORD | AG | AN | OR |
-| VLEF | OR | AN | AG | ORD | ANW | RV | RV2 | MX | AG2 | TG | FC | ER | PH | PPH | MR | TAT | TMR | NT | SW | CP | CS | EX | ROT | SUP |
-| VLFE | RV | ANW | ORD | AG | AN | OR | CP | SW | ROT | SUP | CS | EX | PPH | PH | TMR | NT | MR | TAT | MX | RV2 | FC | ER | AG2 | TG |
-| VELF | RV2 | MX | AG2 | TG | FC | ER | OR | AN | AG | ORD | ANW | RV | MR | TAT | PH | PPH | NT | TMR | CS | EX | SW | CP | SUP | ROT |
-| VEFL | CP | SW | ROT | SUP | CS | EX | RV | ANW | ORD | AG | AN | OR | TMR | NT | PPH | PH | TAT | MR | FC | ER | MX | RV2 | TG | AG2 |
-| VFLE | ER | FC | TG | AG2 | MX | RV2 | EX | CS | SUP | ROT | SW | CP | TAT | MR | NT | TMR | PH | PPH | AN | OR | ANW | RV | AG | ORD |
-| VFEL | EX | CS | SUP | ROT | SW | CP | ER | FC | TG | AG2 | MX | RV2 | NT | TMR | TAT | MR | PPH | PH | ANW | RV | AN | OR | ORD | AG |
-| FLEV | AN | OR | ANW | RV | AG | ORD | MX | RV2 | FC | ER | AG2 | TG | SW | CP | CS | EX | ROT | SUP | PH | PPH | MR | TAT | TMR | NT |
-| FLVE | ANW | RV | AN | OR | ORD | AG | SW | CP | CS | EX | ROT | SUP | MX | RV2 | FC | ER | AG2 | TG | PPH | PH | TMR | NT | MR | TAT |
-| FELV | MX | RV2 | FC | ER | AG2 | TG | AN | OR | ANW | RV | AG | ORD | CS | EX | SW | CP | SUP | ROT | MR | TAT | PH | PPH | NT | TMR |
-| FEVL | SW | CP | CS | EX | ROT | SUP | ANW | RV | AN | OR | ORD | AG | FC | ER | MX | RV2 | TG | AG2 | TMR | NT | PPH | PH | TAT | MR |
-| FVLE | FC | ER | MX | RV2 | TG | AG2 | CS | EX | SW | CP | SUP | ROT | AN | OR | ANW | RV | AG | ORD | TAT | MR | NT | TMR | PH | PPH |
-| FVEL | CS | EX | SW | CP | SUP | ROT | FC | ER | MX | RV2 | TG | AG2 | ANW | RV | AN | OR | ORD | AG | NT | TMR | TAT | MR | PPH | PH |
+| LEVF | PH | UPH | AG | TAT | TMR | NT | LPH | PPH | OR | AN | RV | ANW | AG2 | TG | RV2 | MX | ER | FC | ROT | SUP | CP | SW | EX | FAG |
+| LEFV | UPH | PH | TMR | NT | AG | TAT | PPH | LPH | RV | ANW | OR | AN | ROT | SUP | CP | SW | EX | FAG | AG2 | TG | RV2 | MX | ER | FC |
+| LVEF | AG | TAT | PH | UPH | NT | TMR | AG2 | TG | RV2 | MX | ER | FC | LPH | PPH | OR | AN | RV | ANW | SUP | ROT | EX | FAG | CP | SW |
+| LVFE | TMR | NT | UPH | PH | TAT | AG | ROT | SUP | CP | SW | EX | FAG | PPH | LPH | RV | ANW | OR | AN | TG | AG2 | ER | FC | RV2 | MX |
+| LFEV | TAT | AG | NT | TMR | PH | UPH | TG | AG2 | ER | FC | RV2 | MX | SUP | ROT | EX | FAG | CP | SW | LPH | PPH | OR | AN | RV | ANW |
+| LFVE | NT | TMR | TAT | AG | UPH | PH | SUP | ROT | EX | FAG | CP | SW | TG | AG2 | ER | FC | RV2 | MX | PPH | LPH | RV | ANW | OR | AN |
+| ELVF | LPH | PPH | OR | AN | RV | ANW | PH | UPH | AG | TAT | TMR | NT | RV2 | MX | AG2 | TG | FC | ER | CP | SW | ROT | SUP | FAG | EX |
+| ELFV | PPH | LPH | RV | ANW | OR | AN | UPH | PH | TMR | NT | AG | TAT | CP | SW | ROT | SUP | FAG | EX | RV2 | MX | AG2 | TG | FC | ER |
+| EVLF | AG2 | TG | RV2 | MX | ER | FC | AG | TAT | PH | UPH | NT | TMR | OR | AN | LPH | PPH | ANW | RV | EX | FAG | SUP | ROT | SW | CP |
+| EVFL | ROT | SUP | CP | SW | EX | FAG | TMR | NT | UPH | PH | TAT | AG | RV | ANW | PPH | LPH | AN | OR | ER | FC | TG | AG2 | MX | RV2 |
+| EFLV | TG | AG2 | ER | FC | RV2 | MX | TAT | AG | NT | TMR | PH | UPH | EX | FAG | SUP | ROT | SW | CP | OR | AN | LPH | PPH | ANW | RV |
+| EFVL | SUP | ROT | EX | FAG | CP | SW | NT | TMR | TAT | AG | UPH | PH | ER | FC | TG | AG2 | MX | RV2 | RV | ANW | PPH | LPH | AN | OR |
+| VLEF | OR | AN | LPH | PPH | ANW | RV | RV2 | MX | AG2 | TG | FC | ER | PH | UPH | AG | TAT | TMR | NT | SW | CP | FAG | EX | ROT | SUP |
+| VLFE | RV | ANW | PPH | LPH | AN | OR | CP | SW | ROT | SUP | FAG | EX | UPH | PH | TMR | NT | AG | TAT | MX | RV2 | FC | ER | AG2 | TG |
+| VELF | RV2 | MX | AG2 | TG | FC | ER | OR | AN | LPH | PPH | ANW | RV | AG | TAT | PH | UPH | NT | TMR | FAG | EX | SW | CP | SUP | ROT |
+| VEFL | CP | SW | ROT | SUP | FAG | EX | RV | ANW | PPH | LPH | AN | OR | TMR | NT | UPH | PH | TAT | AG | FC | ER | MX | RV2 | TG | AG2 |
+| VFLE | ER | FC | TG | AG2 | MX | RV2 | EX | FAG | SUP | ROT | SW | CP | TAT | AG | NT | TMR | PH | UPH | AN | OR | ANW | RV | LPH | PPH |
+| VFEL | EX | FAG | SUP | ROT | SW | CP | ER | FC | TG | AG2 | MX | RV2 | NT | TMR | TAT | AG | UPH | PH | ANW | RV | AN | OR | PPH | LPH |
+| FLEV | AN | OR | ANW | RV | LPH | PPH | MX | RV2 | FC | ER | AG2 | TG | SW | CP | FAG | EX | ROT | SUP | PH | UPH | AG | TAT | TMR | NT |
+| FLVE | ANW | RV | AN | OR | PPH | LPH | SW | CP | FAG | EX | ROT | SUP | MX | RV2 | FC | ER | AG2 | TG | UPH | PH | TMR | NT | AG | TAT |
+| FELV | MX | RV2 | FC | ER | AG2 | TG | AN | OR | ANW | RV | LPH | PPH | FAG | EX | SW | CP | SUP | ROT | AG | TAT | PH | UPH | NT | TMR |
+| FEVL | SW | CP | FAG | EX | ROT | SUP | ANW | RV | AN | OR | PPH | LPH | FC | ER | MX | RV2 | TG | AG2 | TMR | NT | UPH | PH | TAT | AG |
+| FVLE | FC | ER | MX | RV2 | TG | AG2 | FAG | EX | SW | CP | SUP | ROT | AN | OR | ANW | RV | LPH | PPH | TAT | AG | NT | TMR | PH | UPH |
+| FVEL | FAG | EX | SW | CP | SUP | ROT | FC | ER | MX | RV2 | TG | AG2 | ANW | RV | AN | OR | PPH | LPH | NT | TMR | TAT | AG | UPH | PH |
 
 ## 7. How to Use the Matrix
 
@@ -270,16 +272,16 @@ Do not use this matrix as a complete compatibility verdict. In Before We Build, 
 
 ## 8. Worked Examples
 
-### 8.1 LEVF + ELVF
+### 8.1 LEVF + LVEF
 
 ```text
 A = LEVF = 1L, 2E, 3V, 4F
-B = ELVF = 1E, 2L, 3V, 4F
-Signature(A → B) = 2134
-Code = AG / Agape
+B = LVEF = 1L, 2V, 3E, 4F
+Signature(A → B) = 1324
+Code = AG / Processional Agape
 ```
 
-Operational interpretation: the upper positions exchange Logic and Emotion, while both partners share 3V and 4F. This can create recognizable Agape-like support in reasoning and emotional processing, but shared 3V may limit repair capacity around will, pressure, and self-assertion.
+Operational interpretation: both partners share 1L and 4F, while 2E↔3E and 3V↔2V create reciprocal processional support. This is the `2↔3` mechanism defined above as Agape-like support. It may help vulnerable expression, but it does not by itself establish relationship quality or readiness for marriage.
 
 Confidence: medium structural / low empirical.
 
@@ -302,7 +304,7 @@ Confidence: medium structural / low empirical.
 A = FVEL = 1F, 2V, 3E, 4L
 B = LEVF = 1L, 2E, 3V, 4F
 Signature(A → B) = 4321
-Code = CS / Full Operational Inversion with Dependency Risk
+Code = FAG / Full Agape (Full Operational Inversion)
 ```
 
 Operational interpretation: the relation is structurally inverted across all four aspects. This can create broad complementarity, but also strong dependency, misunderstanding, or submission-risk dynamics if pressure is not regulated.

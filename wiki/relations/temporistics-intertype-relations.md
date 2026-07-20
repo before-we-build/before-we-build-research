@@ -101,6 +101,8 @@ In practical terms, ask:
 
 ## 4. Structural Derivation Method
 
+A Temporistics intertype relation belongs to a pair `(type A, type B)`. The four-letter strings below are person types; the four-digit signature is only the derived code of their positional relationship and must not be presented as if it were a type of one person.
+
 Represent each type as a mapping from aspect to position.
 
 Example:
