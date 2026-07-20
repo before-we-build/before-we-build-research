@@ -3,7 +3,7 @@ title: Proposed Intertype Relations in Temporistics
 type: relation
 tags: [temporistics, intertype-relations, compatibility, strategic-level, temporal-frame, hypothesis]
 created: 2026-04-15
-updated: 2026-04-24
+updated: 2026-07-20
 sources: [raw/temporistics/types.md, raw/temporistics/theory-description.md, raw/temporistics/mystery-of-third-aspect.md, wiki/sources/temporistics-detailed.md, wiki/concepts/compatibility-level-boundaries.md]
 ---
 
@@ -187,36 +187,78 @@ Names such as duality, conflict, supervision, activation, mirror, and quasi-iden
 
 Because Temporistics has 24 types, the complete pair matrix has 24 × 24 cells. However, those cells reduce structurally to **24 possible relation signatures**, because each pair can be described by one permutation of four positions.
 
-The table below gives provisional descriptors for all 24 structural signatures. These are **not official Temporistics names**. They are research labels for the Before We Build reconstruction. The signatures are structurally reliable as permutations; the names are lower-confidence explanatory labels.
+The table below gives archetypal display names and structural descriptors for all 24 signatures. The naming style follows the source-backed Temporistics tetrads: a short image such as a route, watch, harbor, storm, bridge, or counterweight makes the pattern memorable, while the signature and position pattern preserve the actual mechanism. These are **not official Temporistics names**. They are research labels for the Before We Build reconstruction. The signatures are structurally reliable as permutations; the names are lower-confidence explanatory labels.
 
 ### 6.1 The 24 structural signatures
 
-| Signature | Proposed relation name | Position pattern | Strategic interpretation | Broad family |
+| Signature | Archetypal display name | Position pattern | Strategic interpretation | Broad family |
 |---|---|---|---|---|
-| `1234` | Same-Position Alignment | same order | all temporal aspects occupy the same positions | identity |
-| `1243` | Painful-Blind Swap | 1/2 same, 3/4 swapped | target/creative align; painful and blind positions exchange | resonance + weak-zone risk |
-| `1324` | Creative-Painful Swap | 2 ↔ 3 | target/blind align; creative and painful positions exchange | support / pressure hypothesis |
-| `1342` | Target-Aligned Lower Cycle | 1 same, 2→3→4→2 | target aligns; creative, painful, and blind positions rotate | mixed resonance |
-| `1423` | Target-Aligned Reverse Lower Cycle | 1 same, 2↔4 and 3↔2 | target aligns; lower positions rotate in inverse direction | mixed support |
-| `1432` | Target-Painful Alignment with Creative-Blind Swap | 1 same, 2↔4, 3 same | same target and same wound, but creative/blind handling differs | resonance + shared wound |
-| `2134` | Target-Creative Swap | 1 ↔ 2 | upper positions exchange; painful/blind align | parallel resonance |
-| `2143` | Double Axis Swap | 1↔2 and 3↔4 | target/creative exchange and painful/blind exchange | resonance + blind/wound risk |
-| `2314` | Upper-Triad Cycle | 1→2→3→1, 4 same | target, creative, and painful positions rotate; blind aligns | asymmetric guidance |
-| `2341` | Full Forward Rotation | 1→2→3→4→1 | all four positions rotate in one direction | strategic circulation |
-| `2413` | Target-Creative-Blind-Painful Cycle | 1→2, 2→4, 3→1, 4→3 | full four-position cycle with target moving into creative | mixed / overpressure risk |
-| `2431` | Target-Creative-Blind Cycle with Shared Painful | 1→2, 2→4, 3→3, 4→1 | target/creative/blind rotate; painful aligns | mixed support + shared wound |
-| `3124` | Target-Painful-Creative Cycle | 1→3, 2→1, 3→2, 4 same | target, painful, and creative positions rotate; blind aligns | pressure-risk hypothesis |
-| `3142` | Target-Painful-Blind-Creative Cycle | 1→3, 2→1, 3→4, 4→2 | full four-position cycle with target moving into painful | overpressure |
-| `3214` | Target-Painful Swap | 1↔3, 2 same, 4 same | target and painful exchange; creative/blind align | overpressure + blind collusion |
-| `3241` | Target-Painful-Blind Cycle with Shared Creative | 1→3, 2→2, 3→4, 4→1 | target/painful/blind rotate; creative aligns | overpressure / fragmentation |
-| `3412` | Double Pressure-Anchor Swap | 1→3, 2→4, 3→1, 4→2 | target/painful exchange and creative/blind exchange | high-pressure complement |
-| `3421` | Target-Painful-Creative-Blind Cycle | 1→3, 2→4, 3→2, 4→1 | full four-position cycle with target moving into painful | risky development |
-| `4123` | Full Reverse Rotation | 1→4, 2→1, 3→2, 4→3 | all four positions rotate in inverse direction | anchor complement |
-| `4132` | Target-Blind-Creative Cycle with Shared Painful | 1→4, 2→1, 3 same, 4→2 | target/blind/creative rotate; painful aligns | anchor + shared wound |
-| `4213` | Target-Blind-Painful Cycle with Shared Creative | 1→4, 2→2, 3→1, 4→3 | target/blind/painful rotate; creative aligns | mixed complement / pressure |
-| `4231` | Target-Blind Swap | 1→4, 2→2, 3→3, 4→1 | target and blind exchange; creative/painful align | anchor + shared wound |
-| `4312` | Target-Blind-Creative-Painful Cycle | 1→4, 2→3, 3→1, 4→2 | full four-position cycle with target moving into blind | complement with risk |
-| `4321` | Full Structural Inversion | full inversion | target/blind exchange and creative/painful exchange | full complement hypothesis |
+| `1234` | Common Horizon | same order | all temporal aspects occupy the same positions | identity |
+| `1243` | Shared Course | 1/2 same, 3/4 swapped | target/creative align; painful and blind positions exchange | resonance + weak-zone risk |
+| `1324` | Mutual Guides | 2 ↔ 3 | target/blind align; creative and painful positions exchange | support / pressure hypothesis |
+| `1342` | Current | 1 same, 2→3→4→2 | target aligns; creative, painful, and blind positions rotate | mixed resonance |
+| `1423` | Countercurrent | 1 same, 2↔4 and 3↔2 | target aligns; lower positions rotate in inverse direction | mixed support |
+| `1432` | Common Scar | 1 same, 2↔4, 3 same | same target and same wound, but creative/blind handling differs | resonance + shared wound |
+| `2134` | Helm Exchange | 1 ↔ 2 | upper positions exchange; painful/blind align | parallel resonance |
+| `2143` | Changing of the Watch | 1↔2 and 3↔4 | target/creative exchange and painful/blind exchange | resonance + blind/wound risk |
+| `2314` | Relay | 1→2→3→1, 4 same | target, creative, and painful positions rotate; blind aligns | asymmetric guidance |
+| `2341` | Caravan | 1→2→3→4→1 | all four positions rotate in one direction | strategic circulation |
+| `2413` | Threshold | 1→2, 2→4, 3→1, 4→3 | full four-position cycle with target moving into creative | mixed / overpressure risk |
+| `2431` | Harbor | 1→2, 2→4, 3→3, 4→1 | target/creative/blind rotate; painful aligns | mixed support + shared wound |
+| `3124` | Return Relay | 1→3, 2→1, 3→2, 4 same | target, painful, and creative positions rotate; blind aligns | pressure-risk hypothesis |
+| `3142` | Battering Ram | 1→3, 2→1, 3→4, 4→2 | full four-position cycle with target moving into painful | overpressure |
+| `3214` | Ordeal | 1↔3, 2 same, 4 same | target and painful exchange; creative/blind align | overpressure + blind collusion |
+| `3241` | Storm | 1→3, 2→2, 3→4, 4→1 | target/painful/blind rotate; creative aligns | overpressure / fragmentation |
+| `3412` | Forge | 1→3, 2→4, 3→1, 4→2 | target/painful exchange and creative/blind exchange | high-pressure complement |
+| `3421` | Tempering | 1→3, 2→4, 3→2, 4→1 | full four-position cycle with target moving into painful | risky development |
+| `4123` | Homecoming | 1→4, 2→1, 3→2, 4→3 | all four positions rotate in inverse direction | anchor complement |
+| `4132` | Shelter | 1→4, 2→1, 3 same, 4→2 | target/blind/creative rotate; painful aligns | anchor + shared wound |
+| `4213` | Tugboat | 1→4, 2→2, 3→1, 4→3 | target/blind/painful rotate; creative aligns | mixed complement / pressure |
+| `4231` | Anchor Companions | 1→4, 2→2, 3→3, 4→1 | target and blind exchange; creative/painful align | anchor + shared wound |
+| `4312` | Bridge | 1→4, 2→3, 3→1, 4→2 | full four-position cycle with target moving into blind | complement with risk |
+| `4321` | Counterweights | full inversion | target/blind exchange and creative/painful exchange | full complement hypothesis |
+
+### 6.1.1 Trilingual Archetypal Names
+
+These are translations of Before We Build's provisional archetypal labels, not historical Temporistics terminology. The metaphors are mnemonic titles; the signature and structural interpretation above remain authoritative when the title is ambiguous.
+
+| Signature | English | Українська | Русский |
+|---|---|---|---|
+| `1234` | Common Horizon | Спільний обрій | Общий горизонт |
+| `1243` | Shared Course | Спільний курс | Общий курс |
+| `1324` | Mutual Guides | Взаємні наставники | Взаимные наставники |
+| `1342` | Current | Течія | Течение |
+| `1423` | Countercurrent | Протитечія | Противотечение |
+| `1432` | Common Scar | Спільний шрам | Общий шрам |
+| `2134` | Helm Exchange | Зміна біля стерна | Смена у штурвала |
+| `2143` | Changing of the Watch | Зміна варти | Смена вахты |
+| `2314` | Relay | Естафета | Эстафета |
+| `2341` | Caravan | Караван | Караван |
+| `2413` | Threshold | Поріг | Порог |
+| `2431` | Harbor | Гавань | Гавань |
+| `3124` | Return Relay | Зворотна естафета | Обратная эстафета |
+| `3142` | Battering Ram | Таран | Таран |
+| `3214` | Ordeal | Випробування | Испытание |
+| `3241` | Storm | Буря | Буря |
+| `3412` | Forge | Кузня | Кузница |
+| `3421` | Tempering | Гартування | Закалка |
+| `4123` | Homecoming | Повернення | Возвращение |
+| `4132` | Shelter | Прихисток | Укрытие |
+| `4213` | Tugboat | Буксир | Буксир |
+| `4231` | Anchor Companions | Якірні супутники | Якорные спутники |
+| `4312` | Bridge | Міст | Мост |
+| `4321` | Counterweights | Противаги | Противовесы |
+
+### 6.1.2 Structural Descriptor Policy
+
+An archetypal name must always be shown with its signature and, in research or assessment output, with a mechanism descriptor. For example:
+
+```text
+Bridge / Міст / Мост (`4312`)
+Mechanism: target-blind-creative-painful cycle; near-full complement with pressure risk.
+```
+
+Do not infer moral value or relationship quality from the metaphor. A Harbor is not automatically safe, a Storm is not automatically destructive, and Counterweights are not an ideal-match claim.
 
 ### 6.2 Interpretive families
 

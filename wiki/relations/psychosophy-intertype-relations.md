@@ -3,7 +3,7 @@ title: Psychosophy Intertype Relations
 type: relation
 tags: [psychosophy, relations, compatibility, afanasyev, syntax-of-love, agape, philia, eros]
 created: 2026-04-15
-updated: 2026-05-07
+updated: 2026-07-20
 sources: [raw/psychosophy/psychosophy-compatibility-research.md, raw/psychosophy/psychosophy-relation-naming-sources.md, wiki/concepts/afanasyev-syntax-of-love.md, wiki/sources/psychosophy-detailed.md, wiki/concepts/compatibility-level-boundaries.md]
 ---
 
@@ -191,6 +191,39 @@ The full matrix uses compact codes. Some names are more established than others.
 | CS | Full Operational Inversion with Dependency Risk | `4321` | extended/community, renamed for Before We Build display | strong inversion; high dependence/conflict risk |
 
 Important: the code legend is intended to make the full matrix usable. Classical labels such as Agape, Philia, Eros, and Pseudophilia are retained as tradition-aware labels. Community or working labels are displayed with mechanism-first names where the older label is too romantic, moralized, deterministic, or unclear. The legend should be audited against primary Russian-language Psychosophy relation sources before being treated as canonical.
+
+### 5.1 Trilingual Display Names
+
+English is the canonical code-legend language; the following Ukrainian and Russian names are display translations. They do not resolve the source-tradition conflict between the classical four models, the Russian technical extension, and Before We Build working labels.
+
+| Code | English | Українська | Русский |
+|---|---|---|---|
+| PH | Philia | Філія | Филия |
+| PPH | Pseudophilia | Псевдофілія | Псевдофилия |
+| MR | Mirage | Міраж | Мираж |
+| TMR | Partial Support with Misreading | Часткова підтримка з хибним зчитуванням | Частичная поддержка с неверным считыванием |
+| TAT | Asymmetric Support-Attraction | Асиметрична підтримка-притягання | Асимметричная поддержка-притяжение |
+| NT | Neutrality | Нейтральність | Нейтральность |
+| AG | Agape | Агапе | Агапэ |
+| ORD | Order | Порядок | Порядок |
+| AG2 | Asymmetric Guidance Chain | Асиметричний ланцюг спрямування | Асимметричная цепочка руководства |
+| ROT | Forward Rotation | Пряма ротація | Прямая ротация |
+| TG | Operational Guidance with Pressure Risk | Операційне спрямування з ризиком тиску | Операционное руководство с риском давления |
+| SUP | Supportive Inversion | Підтримувальна інверсія | Поддерживающая инверсия |
+| OR | Target-Wound Contact | Контакт «ціль—уразливість» | Контакт «цель—уязвимость» |
+| RV | Overpressure with Blind Compensation | Надмірний тиск зі сліпою компенсацією | Избыточное давление со слепой компенсацией |
+| RV2 | Target-Wound Inversion with Shared Lower Zones | Інверсія «ціль—уразливість» зі спільними нижніми зонами | Инверсия «цель—уязвимость» с общими нижними зонами |
+| CP | Conflict Pressure | Конфліктний тиск | Конфликтное давление |
+| ER | Eros | Ерос | Эрос |
+| EX | Mutual Damping of Operational Expression | Взаємне гасіння операційного вираження | Взаимное гашение операционального выражения |
+| AN | Anchor-Development Chain | Ланцюг опори й розвитку | Цепочка опоры и развития |
+| ANW | Anchor with Wound | Опора з уразливістю | Опора с уязвимостью |
+| MX | Anchor-Pressure Exchange | Обмін «опора—тиск» | Обмен «опора—давление» |
+| SW | Shared Wound with Mutual Anchoring | Спільна уразливість із взаємною опорою | Общая уязвимость со взаимной опорой |
+| FC | Near-Full Operational Complement with Pressure Risk | Майже повна операційна додатковість із ризиком тиску | Почти полная операциональная дополнительность с риском давления |
+| CS | Full Operational Inversion with Dependency Risk | Повна операційна інверсія з ризиком залежності | Полная операциональная инверсия с риском зависимости |
+
+Technical-extension synonym: signature `4321` is called **Full Agape / Повне агапе / Полное агапэ** in the Typologies.ru composition taxonomy. In the Before We Build code legend it remains `CS`, not a recommendation or a “perfect-match” label.
 
 ## 6. Full 24 × 24 Psychosophy Relation Matrix
 

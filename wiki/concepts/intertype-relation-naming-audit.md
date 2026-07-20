@@ -3,7 +3,7 @@ title: Intertype Relation Naming Audit
 type: concept
 tags: [intertype-relations, naming, methodology, socionics, psychosophy, temporistics, before-we-build]
 created: 2026-04-24
-updated: 2026-05-07
+updated: 2026-07-20
 sources: [wiki/relations/socionics-intertype-relations.md, wiki/relations/psychosophy-intertype-relations.md, wiki/relations/temporistics-intertype-relations.md, raw/psychosophy/psychosophy-relation-naming-sources.md, wiki/concepts/compatibility-level-boundaries.md]
 ---
 
@@ -140,9 +140,14 @@ Policy: Psychosophy should use hybrid names: traditional Greek label plus mechan
 
 ## 6. Temporistics Naming Audit
 
-Temporistics relation names should be mechanism-transparent because the relation system is reconstructed, not canonical.
+Temporistics relation names use a two-layer policy because the relation system is reconstructed, not canonical:
 
-The current Before We Build names mostly follow this rule. They should remain explicitly marked as working labels.
+1. a short archetypal display name, following the narrative style of the source-backed Temporistics tetrads;
+2. a mechanism-transparent signature and structural descriptor.
+
+The archetypal layer was added on 2026-07-20 in [[temporistics-intertype-relations]]. Examples include **Common Horizon / Спільний обрій / Общий горизонт**, **Harbor / Гавань / Гавань**, **Storm / Буря / Буря**, **Bridge / Міст / Мост**, and **Counterweights / Противаги / Противовесы**. These remain explicitly marked as Before We Build working labels.
+
+The table below audits the structural descriptors retained under those display names. Its “current proposed name” column records the earlier naming layer and should not be treated as the current user-facing title.
 
 | Signature | Current proposed name | Assessment | Suggested form |
 |---|---|---|---|
@@ -171,7 +176,7 @@ The current Before We Build names mostly follow this rule. They should remain ex
 | `4312` | Near-Full Complement | acceptable only with caveat | Near-Full Complement with Pressure Risk |
 | `4321` | Full Temporal Complement | structurally accurate but sounds idealized | Full Temporal Complement: Strategic Inversion |
 
-Policy: do not use Duality, Agape, Eros, Activation, Supervision, or Conflict as Temporistics relation names unless explicitly marked as analogy. Temporistics needs strategic temporal/existential language.
+Policy: do not use Duality, Agape, Eros, Activation, Supervision, or Conflict as Temporistics relation names unless explicitly marked as analogy. Temporistics needs strategic temporal/existential language. Every archetypal name must be accompanied by its signature, and research or assessment output must also provide the structural mechanism. The metaphor must never be interpreted as a moral rank or compatibility verdict.
 
 ## 7. Cross-System False Equivalences to Avoid
 

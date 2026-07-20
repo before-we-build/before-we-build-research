@@ -3,7 +3,7 @@ title: Socionics Intertype Relations
 type: relation
 tags: [socionics, relations, compatibility]
 created: 2026-04-15
-updated: 2026-04-25
+updated: 2026-07-20
 sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md]
 ---
 
@@ -178,6 +178,27 @@ In Before We Build, Socionics relations describe the **tactical information-exch
 **Tactical interpretation:** Interaction can resemble duality in some channels while leaving important support gaps.
 
 **Do not infer:** “almost as good as duality” or predictable disappointment.
+
+## Trilingual Canonical Names
+
+The table below provides the project display names in English, Ukrainian, and Russian. It is a localization aid: it does not create additional relation classes or alter the aliases and directional roles defined above.
+
+| English | Українська | Русский | Directional roles / common aliases |
+|---|---|---|---|
+| Identity | Тотожність | Тождество | Identical / ідентичні / тождественные |
+| Duality | Дуальність | Дуальность | Dual relation / дуальні / дуалы |
+| Activation | Активація | Активация | Activity / активація / активация |
+| Mirror | Дзеркальні | Зеркальные | Mirror relation / дзеркальні / зеркальные |
+| Benefit | Замовлення | Заказ | benefactor → beneficiary; request / social order |
+| Supervision | Ревізія | Ревизия | supervisor → supervisee; audit |
+| Business | Ділові | Деловые | Cooperation / Look-a-like |
+| Mirage | Міражні | Миражные | Illusionary |
+| Quasi-identity | Квазітотожність | Квазитождество | — |
+| Extinguishment | Погашення | Погашение | Contrary |
+| Conflict | Конфлікт | Конфликт | — |
+| Super-Ego | Суперего | Суперэго | — |
+| Kindred | Родинні | Родственные | Comparative / Congenerity |
+| Semi-duality | Напівдуальність | Полудуальность | Partial duality |
 
 ## Canonical Label Policy
 

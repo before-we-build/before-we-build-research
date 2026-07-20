@@ -294,7 +294,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 |------|---------|---------|
 | [[socionics-intertype-relations]] | Socionics intertype relation glossary and tactical mechanism overview | raw/socionics/intertype-relations.md |
 | [[psychosophy-intertype-relations]] | Psychosophy intertype relations with full 24×24 working matrix and operational-level caveats | Syntax of Love, psychosophy compatibility research |
-| [[temporistics-intertype-relations]] | Proposed Temporistics intertype-relation reconstruction with structural matrix and validation caveats | raw/temporistics/types.md, mystery-of-third-aspect.md, temporistics-detailed |
+| [[temporistics-intertype-relations]] | Proposed Temporistics intertype-relation reconstruction with 24 trilingual archetypal names, structural signatures, mechanism descriptors, and validation caveats | raw/temporistics/types.md, mystery-of-third-aspect.md, temporistics-detailed |
 
 ### Sources (Derived)
 
@@ -413,7 +413,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | Page | Summary | Sources |
 |------|---------|---------|
 | [[socionics-intertype-relations]] | Overview of Socionics relation classes with asymmetric role notes | raw/socionics/intertype-relations.md |
-| [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures and hypotheses | raw/temporistics/types.md, project reconstruction |
+| [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures with trilingual archetypal names modeled on the narrative style of the tetrads | raw/temporistics/types.md, project reconstruction |
 | [[psychosophy-intertype-relations]] | Greek-model tradition, Russian 24-signature technical labels, Attitudinal Psyche branch labels, and Before We Build working 24×24 operational matrix | Syntax of Love, Typologies.ru, Attitudinal Psyche, project matrix |
 
 ### socionics/
@@ -470,4 +470,3 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
 - **Concepts**: 40
 - **Last updated**: 2026-06-27
-
