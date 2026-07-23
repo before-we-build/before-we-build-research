@@ -1,5 +1,9 @@
 # Before We Build Wiki
 
+## Question bank
+
+`instruments/pilot-question-bank.md` is the browser-ready canonical question bank used by the public test site. Its `~~~question-bank` block must contain valid JSON; increment `bankVersion` whenever a browser-visible item changes. The human-readable seed specifications remain in `wiki/concepts/*-test-specification.md`.
+
 Before We Build is being reframed around a Christian family-formation thesis:
 
 > A strong family is built not only on feelings, but on shared values, fidelity, responsibility, forgiveness, and a supportive community. Christian faith gives this a deep foundation. Typologies may help people discuss differences, but they remain secondary tools, not spiritual verdicts or guarantees.
