@@ -239,7 +239,7 @@ This is the single canonical browser question bank. Keep the payload below valid
           "id": "soc_ac_1",
           "scale": "attention",
           "attention": 2,
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -409,7 +409,7 @@ This is the single canonical browser question bank. Keep the payload below valid
           "text": {
             "ru": "Я переживаю, если мои чувства звучат не так, как я хотел(а).",
             "en": "I worry when my feelings come across differently than I wanted.",
-            "uk": "Я хвилююся, якщо мої почуття звучать не так, как я хотів(ла)."
+            "uk": "Я хвилююся, якщо мої почуття звучать не так, як я хотів(ла)."
           }
         },
         {
@@ -457,7 +457,7 @@ This is the single canonical browser question bank. Keep the payload below valid
           "text": {
             "ru": "Телесный или бытовой дискомфорт может долго меня тревожить.",
             "en": "Body or everyday discomfort can trouble me for a long time.",
-            "uk": "Тілесний або побутовий дискомфорт може долго мене тривожити."
+            "uk": "Тілесний або побутовий дискомфорт може довго мене тривожити."
           }
         },
         {
@@ -476,7 +476,7 @@ This is the single canonical browser question bank. Keep the payload below valid
           "id": "psy_ac_1",
           "scale": "attention",
           "attention": 2,
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -727,13 +727,13 @@ This is the single canonical browser question bank. Keep the payload below valid
           "id": "tmp_ac_1",
           "scale": "attention",
           "attention": 2,
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
             "ru": "Проверка внимательности: выберите вариант 2.",
             "en": "Attention check: choose option 2.",
-            "uk": "Перевірка уважності: оберіть вариант 2."
+            "uk": "Перевірка уважності: оберіть варіант 2."
           }
         }
       ]
