@@ -1,23 +1,23 @@
 ---
-title: Four-Level Compatibility Architecture
+title: Universal Four-Level Compatibility Architecture
 type: concept
-tags: [compatibility, christian-foundation, spiritual-moral, strategic, operational, tactical, architecture]
+tags: [compatibility, universal-core, value-moral, worldview, strategic, operational, tactical, architecture]
 created: 2026-07-26
 updated: 2026-07-26
 lang: en
 canonical: four-level-compatibility-architecture.md
-sources: [wiki/concepts/spiritual-foundation-levels-ru.md, wiki/concepts/family-formation-principles.md, wiki/concepts/compatibility-level-boundaries.md, "Bible: Matthew 7:24-27", "Galatians 5:22-23", "Colossians 3:12-14"]
+sources: [project-owner-decision-2026-07-26, wiki/concepts/compatibility-level-boundaries.md, wiki/concepts/sociological-compatibility-analogues.md, wiki/concepts/limits-of-typological-inference.md]
 ---
 
-# Four-Level Compatibility Architecture
+# Universal Four-Level Compatibility Architecture
 
 Languages: **English** | [[four-level-compatibility-architecture-ru|Русский]] | [[four-level-compatibility-architecture-uk|Українська]]
 
 ## Status
 
-This page defines the current Before We Build compatibility architecture as a
-**project framework**. It distinguishes one primary Christian
-spiritual-moral level from three secondary typological research levels.
+This page defines the universal Before We Build compatibility architecture as
+a **project framework for studying any two people**. It distinguishes one
+value-moral foundational level from three typological research levels.
 
 The architecture is not a proof that all human compatibility has exactly four
 levels. It is a revisable map for discernment, conversation, and research.
@@ -29,7 +29,7 @@ typological**:
 
 | Level | Core question | Primary source | Role |
 |---|---|---|---|
-| **Spiritual-moral / foundational** | Before whom, on what foundation, and according to what good are we building? | Scripture, observable fruit and character, conscience, church community, mature counsel | Establishes the center, moral boundaries, and primary discernment criteria |
+| **Value-moral / foundational** | Which values, moral obligations, and non-negotiable boundaries govern what we build? | Worldview, stated commitments, observed conduct, consent and safety evidence, relevant community and institutional context | Establishes normative commitments, moral boundaries, and primary go/no-go criteria |
 | **Strategic** | Why and where are we going? | Temporistics as a heuristic | Explores temporal, existential, and long-range direction |
 | **Operational** | How do we decide, carry responsibility, and act together? | Psychosophy as a heuristic | Explores joint action, priorities, pressure, and embodiment |
 | **Tactical** | How do we perceive, communicate, misunderstand, and repair? | Socionics as a heuristic | Explores situated information modeling and exchange |
@@ -37,57 +37,80 @@ typological**:
 Compact formula:
 
 ```text
-spiritual-moral foundation -> what governs the building
-strategic compatibility    -> where the building is going
-operational compatibility  -> how the building is carried out
-tactical compatibility     -> how people coordinate in concrete situations
+value-moral foundation    -> what should govern the building
+strategic compatibility  -> where the building is going
+operational compatibility -> how the building is carried out
+tactical compatibility   -> how people coordinate in concrete situations
 ```
 
 ## Why the Foundational Level Is Distinct
 
-The spiritual-moral level cannot be reduced to the strategic level.
-Temporistics may generate hypotheses about how a person structures time,
-meaning, Future, or Eternity. It cannot determine whether the person's
-foundation is true, whether Christ governs actual decisions, whether conduct
-is faithful, or whether repentance and moral fruit are present.
+The value-moral level cannot be reduced to the strategic level. Temporistics
+may generate hypotheses about how a person structures time, meaning, Future,
+or Eternity. It cannot determine which values a person endorses, whether their
+conduct follows those commitments, or whether two people's moral boundaries
+are compatible.
 
 Likewise, easy communication, effective cooperation, or a shared life
-trajectory cannot compensate for incompatible foundations or persistent
-unfaithfulness.
+trajectory cannot compensate for coercion, exploitation, persistent
+dishonesty, incompatible non-negotiable commitments, or unsafe conduct.
 
 The first level therefore asks about:
 
-- the real center and highest authority of life;
-- shared Christian faith and direction before Christ;
-- truth, fidelity, responsibility, love, forgiveness, and repentance;
-- observable fruit, especially under pressure and after failure;
-- willingness to receive Scripture, correction, and mature counsel;
-- moral boundaries that must not be traded for psychological ease.
+- worldview and sources of moral authority;
+- dignity, truth, honesty, fidelity to relevant commitments, and responsibility;
+- consent, autonomy, coercion, violence, exploitation, and safety;
+- reciprocity, fairness, care, repair, and accountability;
+- non-negotiable values and legitimate pluralism;
+- observable conduct, especially under pressure and after failure.
 
 ## Three Forms of Evidence
 
-Spiritual-moral discernment should distinguish:
+Value-moral assessment should distinguish:
 
-1. **Professed foundation** — what a person says they believe.
-2. **Moral direction** — what the person seeks and is willing to obey.
-3. **Observable fruit** — repeated conduct, including repair after failure.
+1. **Stated commitments** — what a person says they value or believe.
+2. **Decision direction** — what their choices prioritize when values compete.
+3. **Observable conduct** — repeated behavior, including accountability and
+   repair after failure.
 
 Agreement in words alone is not enough. At the same time, isolated failure
-should not be turned into a permanent spiritual label; trajectory,
-repentance, time, context, and counsel matter.
+should not be turned into a permanent moral-worth label; pattern, repair,
+time, power differences, and context matter.
 
 ## Boundary and Safety Rules
 
 The foundational level:
 
 - is **not** a fourth typology;
-- is **not** a psychometric scale or automated compatibility score;
-- does not measure salvation, holiness, election, or human worth;
+- is **not** a psychometric moral-worth scale or automated compatibility
+  verdict;
+- does not rank human dignity or the worth of persons or cultures;
 - does not infer character from Socionics, Psychosophy, or Temporistics;
-- requires observation over time, honest conversation, Scripture, prayer,
-  church context, and wise counsel;
-- remains primary in practical Christian discernment, while the three
-  typological levels remain secondary research aids.
+- must represent religious and nonreligious worldviews accurately rather than
+  silently treating one specialization as universal;
+- requires evidence from choices and conduct over time, not only self-report;
+- treats consent, coercion, abuse, violence, and exploitation as safety gates,
+  not as negotiable style differences.
+
+## Worldview and Domain Applications
+
+The universal level defines the questions, not one mandatory answer set.
+Applications should state their normative sources explicitly.
+
+Examples:
+
+- a Christian relationship application may use Christ, Scripture, observable
+  fruit, church community, and mature counsel;
+- another religious application may use its own accurately represented
+  authorities and communal practices;
+- a secular application may use stated ethical commitments, human dignity,
+  consent, law, professional ethics, or an explicit moral framework;
+- a team, friendship, family, or business application may operationalize
+  different commitments while retaining universal safety gates.
+
+Universal scope does not mean that all values are equally true or mutually
+compatible. The framework should expose conflicts without pretending to
+settle every moral or theological dispute.
 
 ## Relation to Context
 
@@ -99,8 +122,8 @@ make the architecture appear complete.
 
 ## Practical Reading Order
 
-1. **Foundation:** Are we building before Christ on compatible
-   spiritual-moral commitments?
+1. **Foundation:** Are our values, moral obligations, and non-negotiable
+   boundaries compatible enough for this relationship or shared task?
 2. **Direction:** Can we name a shared path, purpose, and future?
 3. **Action:** Can we decide, carry responsibility, and revise action
    together?
@@ -111,8 +134,10 @@ make the architecture appear complete.
 
 ## See Also
 
+- [[value-moral-compatibility]]
 - [[spiritual-foundation-levels-ru]]
 - [[family-formation-principles]]
+- [[research-layer-vs-practical-guidance]]
 - [[compatibility-level-boundaries]]
 - [[limits-of-typological-inference]]
 - [[research-layer-vs-practical-guidance]]

@@ -1,12 +1,12 @@
 ---
 title: Compatibility Level Boundaries
 type: concept
-tags: [compatibility, levels, boundaries, methodology, christian-foundation, spiritual-moral, socionics, psychosophy, temporistics]
+tags: [compatibility, levels, boundaries, methodology, universal-core, value-moral, worldview, socionics, psychosophy, temporistics]
 created: 2026-04-24
 updated: 2026-07-26
 lang: en
 canonical: compatibility-level-boundaries.md
-sources: [raw/temporistics/theory-description.md, raw/psychosophy/what-is-psychosophy.md, raw/socionics/what-is-socionics.md]
+sources: [project-owner-decision-2026-07-26, wiki/concepts/value-moral-compatibility.md, raw/temporistics/theory-description.md, raw/psychosophy/what-is-psychosophy.md, raw/socionics/what-is-socionics.md]
 ---
 
 # Compatibility Level Boundaries
@@ -15,8 +15,8 @@ sources: [raw/temporistics/theory-description.md, raw/psychosophy/what-is-psycho
 
 This page is a **project heuristic**, not canonical doctrine of Socionics, Psychosophy, or Temporistics.
 
-The project uses four compatibility levels: one primary spiritual-moral
-foundation and three secondary typological levels. The three typologies model
+The project uses four compatibility levels: one value-moral foundation and
+three typological levels. The three typologies model
 three different latent processes and should not be collapsed into one another.
 The foundational level is not a typology and must not be inferred from them.
 
@@ -24,14 +24,14 @@ The foundational level is not a typology and must not be inferred from them.
 
 | Level | Core question | Process / criterion | Frame type | Primary source |
 |-------|---------------|----------------|------------|------------------|
-| **Spiritual-moral** | Before whom, on what foundation, and according to what good are we building? | Faith, moral direction, character, repentance, and observable fruit | Foundational / normative frame | **Scripture, observation, church context, mature counsel** |
+| **Value-moral** | Which values, moral obligations, and non-negotiable boundaries govern what we build? | Commitments, conduct, consent, safety, responsibility, reciprocity, and repair | Foundational / normative frame | **Worldview, stated commitments, observed conduct, safety and context evidence** |
 | **Strategic** | Why and where are we going? | Inductive-deductive structuring of temporal experience | Temporal frame | **Temporistics** |
 | **Operational** | What do we prioritize and how do we organize action? | Analysis, synthesis, and action organization | Action frame | **Psychosophy** |
 | **Tactical** | How do we perceive, interpret, and exchange situation information? | Information modeling / information metabolism | Information frame | **Socionics** |
 
 Compact rule:
 
-- **Spiritual-moral = same foundation and governing good?**
+- **Value-moral = compatible values, obligations, and boundaries?**
 - **Strategic = same road?**
 - **Operational = can we run life together?**
 - **Tactical = do our minds/interface patterns fit?**
@@ -40,7 +40,8 @@ Compact rule:
 
 ### Rule 1: Only the three research levels have primary typologies
 
-The spiritual-moral level must not receive an automated typological score. The
+The value-moral level must not receive an automated typological or moral-worth
+score. The
 three research-level scores should use their primary typology as the main
 scoring source:
 
@@ -52,10 +53,10 @@ Other systems may add nuance, but should not replace the primary typology for th
 
 ### Rule 1A: Foundation cannot be inferred from type
 
-No Socionics, Psychosophy, or Temporistics result establishes faith,
-faithfulness, repentance, moral character, salvation, or readiness for
-marriage. These require observation over time, Scripture, prayer, church
-context, honest conversation, and wise counsel.
+No Socionics, Psychosophy, or Temporistics result establishes a person's
+values, moral reliability, dignity, worldview, or readiness for a particular
+relationship or shared task. These require explicit commitments, observation
+over time, honest conversation, relevant context, and safety evidence.
 
 ### Rule 2: Secondary systems are annotations, not translations
 
@@ -83,29 +84,32 @@ False equivalences to avoid:
 | Temporistics Present = Socionics Si/Se | Present is place/current-life frame; Si/Se are sensory information aspects |
 | Temporistics Eternity = Socionics Fi/Ni | Eternity is meaning/existential continuity frame, not one information element |
 
-## 1. Spiritual-Moral / Foundational Level
+## 1. Value-Moral / Foundational Level
 
-Spiritual-moral compatibility asks whether two people are building before the
-same highest authority, on a compatible foundation, and with compatible moral
-commitments.
+Value-moral compatibility asks whether two people have sufficiently compatible
+values, moral obligations, and non-negotiable boundaries for a particular
+relationship or shared task.
 
 Use the foundational level when the question concerns:
 
-- shared Christian faith and actual direction before Christ;
-- truth, fidelity, responsibility, love, forgiveness, and repentance;
-- observable character and fruit, especially under pressure;
-- willingness to receive Scripture, correction, and mature counsel;
-- non-negotiable moral and safety boundaries.
+- worldview and sources of moral authority;
+- truth, honesty, fidelity to relevant commitments, and responsibility;
+- consent, autonomy, coercion, violence, exploitation, and safety;
+- reciprocity, fairness, care, accountability, and repair;
+- non-negotiable commitments and legitimate areas of difference;
+- observable conduct, especially under pressure and after failure.
 
 Do not use this level to:
 
-- assign a spiritual type or permanent rank;
-- calculate salvation, holiness, election, or human worth;
-- replace pastoral discernment, church community, or observation;
+- assign a moral type, permanent rank, or score of human worth;
+- treat all values as equally true or automatically compatible;
+- replace domain-relevant ethical, legal, cultural, professional, or
+  community judgment;
 - translate Eternity, Emotion, Ethics, or another typological construct into
-  spiritual maturity.
+  moral character.
 
-See [[four-level-compatibility-architecture]] and
+See [[value-moral-compatibility]],
+[[four-level-compatibility-architecture]], and
 [[spiritual-foundation-levels-ru]].
 
 ## 2. Strategic Level
@@ -252,7 +256,7 @@ Especially in Temporistics, terms like “dual-like”, “activation-like”, o
 
 ## Activity Theory Caveat
 
-The project uses **spiritual-moral / strategic / operational / tactical** as
+The project uses **value-moral / strategic / operational / tactical** as
 its four-level compatibility architecture. Only the last three labels belong
 to the internal typological model discussed in this caveat.
 
@@ -264,7 +268,7 @@ These labels should not be confused with Activity Theory terminology, where “o
 
 ## Practical Shorthand
 
-- **Spiritual-moral:** “Before whom, and according to what good, are we building?”
+- **Value-moral:** “Which values, obligations, and boundaries govern what we build?”
 - **Socionics:** “What signal do you carry, and how do you read mine?”
 - **Psychosophy:** “Who assembles the decision, and who pressures whom?”
 - **Temporistics:** “For what purpose, in what life-time, is this happening?”
@@ -273,6 +277,7 @@ These labels should not be confused with Activity Theory terminology, where “o
 
 - [[main-idea]]
 - [[four-level-compatibility-architecture]]
+- [[value-moral-compatibility]]
 - [[spiritual-foundation-levels-ru]]
 - [[latent-process]]
 - [[typology-activity-theory-mapping]]

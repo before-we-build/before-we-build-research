@@ -1,27 +1,29 @@
 ---
-title: Project Main Goal
+title: Universal Research Goal and First Application
 type: concept
-tags: [before-we-build, product-goal, christian-audience, singles, compatibility, multi-audience]
+tags: [before-we-build, research-goal, universal-core, applications, christian-audience, compatibility]
 created: 2026-05-13
 updated: 2026-07-26
 sources: [wiki/concepts/main-idea.md, wiki/concepts/project-positioning.md, wiki/concepts/four-level-compatibility-architecture.md, wiki/concepts/compatibility-level-boundaries.md]
 status: working
 ---
 
-# Project Main Goal
+# Universal Research Goal and First Application
 
 ## One-Sentence Goal
 
-**Before We Build helps Christians examine the foundation before serious shared decisions: first for lonely brothers and sisters discerning relationships and marriage, and later for family, church service, teams, business partnership, and role/responsibility fit.**
+**Before We Build develops a universal research architecture for helping any
+two people examine values, direction, joint action, and interaction before or
+during a relationship or shared undertaking.**
 
-It uses a hidden four-level compatibility map—one spiritual-moral foundation
-and three typological research levels—to turn complex differences into simple
-questions for prayer, Scripture reflection, honest conversation, wise
-counsel, and responsible next steps.
+It uses a four-level compatibility map—one value-moral foundation and three
+typological research levels—to generate testable hypotheses, conversation
+questions, visible differences, uncertainty, and responsible next steps.
 
-## Primary Launch Audience
+## First Developed Application Audience
 
-The first practical audience should be:
+The universal research core is not limited to one audience. Its first
+developed application may still serve:
 
 > **lonely Christian brothers and sisters who desire marriage or a serious relationship, but do not want to move from loneliness, fear, fantasy, or superficial attraction.**
 
@@ -42,49 +44,60 @@ The tool should help such a person name hopes, fears, values, expectations, uncl
 
 ## Broad Umbrella
 
-The launch audience is narrow, but the project should not collapse into a dating app or marriage-only product.
+The first application audience is narrow, but the research project itself is
+universal and should not collapse into a Christian, dating, marriage, or
+family-only product.
 
 Compatibility is a broad word. In Before We Build, it means the practical question:
 
-> **Can we build this together faithfully, wisely, and without hiding important differences?**
+> **Can these two people build this particular relationship or shared task
+> without hiding important differences, violating essential commitments, or
+> ignoring safety and context?**
 
 That question can apply to:
 
-- relationship and marriage discernment;
+- relationships and marriage across worldview contexts;
 - family life;
-- church service;
+- religious or civic service;
 - friendship and mutual support;
 - teams and shared work;
 - business partnership;
 - role and responsibility fit;
 - later research into broader cooperation and compatibility patterns.
 
-The public doorway may begin with lonely Christian singles, but the underlying project remains an umbrella for many situations where people need to build together.
+The universal core should support any pair of people. Each application must
+state its relationship domain, worldview assumptions, normative sources,
+culture, and safety constraints.
 
 ## Four-Level Compatibility Map
 
-The research layer remains useful, but it should be hidden from the ordinary Christian public doorway.
+Applications may translate the research layer into ordinary language suited to
+their audience.
 
-Internally, Before We Build uses one primary Christian foundational level and
-three secondary typological research levels:
+Internally, Before We Build uses one value-moral foundational level and three
+typological research levels:
 
-| Level | Internal system | Hidden research question | Public Christian translation |
+| Level | Primary source/model | Universal research question | Example Christian application translation |
 |---|---|---|---|
-| **Spiritual-moral / foundational** | No typology; Scripture, observed fruit and character, church context, mature counsel | Do people build before the same highest Authority with compatible faith and moral commitments? | Before Whom and on what foundation are we building? What fruit, faithfulness, repentance, and responsibility are visible? |
+| **Value-moral / foundational** | No typology; worldview, commitments, observed conduct, consent, safety, and context | Which values, obligations, and non-negotiable boundaries govern what the pair builds? | Before Whom and on what foundation are we building? What fruit, faithfulness, repentance, and responsibility are visible? |
 | **Strategic** | Temporistics | Do people share a compatible temporal/existential direction? | Where are we going before God? What future, meaning, memory, and life direction are we building from? |
 | **Operational** | Psychosophy | Can people organize decisions, pressure, effort, emotion, logic, will, and practical action together? | How do we make decisions, carry responsibility, handle pressure, and act together? |
 | **Tactical** | Socionics | Can people perceive, exchange, repair, and coordinate information in concrete situations? | How do we talk, hear, misunderstand, repair, and coordinate daily steps? |
 
-The public audience does not need to see the words **Temporistics**, **Psychosophy**, or **Socionics** at the doorway. They should see ordinary questions:
+An application audience does not need to see the words **Temporistics**,
+**Psychosophy**, or **Socionics** at the doorway. It should see ordinary
+questions:
 
-1. **Before Whom and on what foundation are we building?**
+1. **Which values, obligations, and boundaries govern what we build?**
 2. **Where are we going?**
 3. **How do we decide and carry responsibility?**
 4. **How do we talk, hear, and repair misunderstandings?**
 
-## Christian Public Framing
+## First Application: Christian Public Framing
 
-The project should not be presented to Christians as psychology-first or typology-first.
+The Christian application should not be presented to Christians as
+psychology-first or typology-first. These rules specialize the universal core;
+they are not mandatory wording for every application.
 
 Public framing should be:
 
@@ -102,7 +115,8 @@ Suggested public explanation:
 
 ## What Practical Value Means
 
-The project has practical value only if it helps people do something concrete and faithful.
+The project has practical value only if it helps people do something concrete,
+responsible, and appropriate to the application.
 
 For the first audience, the practical outputs should be:
 
@@ -167,7 +181,7 @@ Shorter version:
 >
 > Почати можна самому: з питань про віру, характер, очікування, страхи, відповідальність і те, що ще потрібно обговорити до серйозного кроку.
 
-## Product Direction
+## First-Application Product Direction
 
 The first implementation should not try to solve all compatibility contexts at once.
 
@@ -178,18 +192,22 @@ Recommended order:
 3. **Church-mediated help** — later, churches may support introductions with consent, privacy, and pastoral responsibility.
 4. **Broader paths** — family, church service, teams, business partnership, and role fit are added as separate routes under the same foundation.
 
-## Guardrail
+## Scope Guardrail
 
-The project should always preserve both truths:
+The project should preserve all three truths:
 
-1. **Narrow launch focus:** lonely Christian singles discerning relationships and marriage.
-2. **Broad future umbrella:** compatibility as a map for many kinds of faithful building together.
+1. **Universal research core:** any two people in a stated domain and context.
+2. **Explicit application assumptions:** worldview and normative commitments
+   must be named, not hidden.
+3. **Narrow first application:** Christian singles discerning relationships
+   and marriage.
 
-If the site speaks to everyone at once, it becomes vague. If it speaks only about dating, it loses the broader calling. The correct public shape is:
+One product interface may remain narrow without narrowing the research
+ontology. The correct architecture is:
 
 ```text
-one clear first doorway
-→ lonely Christian brothers and sisters before relationships/marriage
-→ broader paths shown lower and later
-→ hidden research engine translated into ordinary Christian questions
+universal research core
+→ domain + worldview + culture + safety configuration
+→ one clear application doorway
+→ questions translated into that audience's language
 ```

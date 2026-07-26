@@ -4,7 +4,7 @@ type: concept
 tags: [orientation, methodology, before-we-build, before-we-build-engine, research-positioning]
 created: 2026-04-24
 updated: 2026-07-26
-sources: []
+sources: [project-owner-decision-2026-07-26, wiki/concepts/four-level-compatibility-architecture.md, wiki/concepts/value-moral-compatibility.md]
 ---
 
 # Project Positioning
@@ -13,19 +13,26 @@ This page distinguishes Before We Build as a research framework from its possibl
 
 ## 1. Before We Build in One Paragraph
 
-Before We Build is a Christian conversation and discernment project that helps people examine the foundation before serious shared decisions. The first practical doorway should speak to lonely Christian brothers and sisters discerning relationships and marriage: a person can begin alone, name hopes and fears, examine expectations, and prepare for honest conversation before God. The broader project must still remain larger than dating or marriage: the same foundation-and-differences map may later serve family, church service, teams, common work, business partnership, and role/responsibility fit. The research framework remains useful as hidden support and long-term study, but public outputs should stay Scripture-first, plain, and non-oracular.
+Before We Build is a universal compatibility research framework for studying
+any two people in a stated relationship or shared-task domain. It separates
+value-moral foundation, strategic direction, operational joint action, and
+tactical interaction while retaining context and safety constraints. A
+Christian relationship-discernment map is the first developed application,
+not the definition of the whole research project.
 
 ## 2. The Required Four-Level Mapping
 
 | Source / system | Level | Process / criterion | Guiding question |
 |---|---:|---|---|
-| **Scripture, observable fruit and character, church context, mature counsel** | Spiritual-moral / foundational | Faith, moral direction, character, repentance, and fruit | Before whom, on what foundation, and according to what good are we building? |
+| **Worldview, stated commitments, observed conduct, consent, safety, and relevant context** | Value-moral / foundational | Values, moral obligations, dignity, responsibility, reciprocity, repair, and non-negotiable boundaries | Which values, obligations, and boundaries govern what we build? |
 | **Socionics** | Tactical | Information modeling | How does the person perceive, filter, structure, and exchange information? |
 | **Psychosophy** | Operational | Synthesis and analysis in action | How does the person organize decisions, effort, pressure, emotion, logic, will, and practical embodiment? |
 | **Temporistics** | Strategic | Induction and deduction in temporal/existential experience | How does the person organize Past, Present, Future, and Eternity into meaning, continuity, direction, and life trajectory? |
 
 Compact formula:
 
+- **Value-moral foundation → values, obligations, observed conduct, consent,
+  safety, responsibility, reciprocity, repair, and non-negotiable boundaries**
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
@@ -50,10 +57,9 @@ This means that type labels should remain revisable. They are useful only insofa
 
 **Before We Build** is the broader project:
 
-- Christian conversation and discernment before serious shared decisions;
-- first practical doorway for lonely Christian brothers and sisters preparing for relationships and marriage;
-- broader future paths for family, church service, teams, common work, business partnership, and role/responsibility fit;
-- Scripture-first public doorway;
+- universal research architecture for any two people;
+- explicit domain, worldview, culture, power, context, and safety parameters;
+- four compatibility levels and their boundary rules;
 - ontology of levels and latent processes;
 - interpretation of typologies as heuristic process models;
 - compatibility architecture;
@@ -65,11 +71,12 @@ The earlier **Cognitive Matchmaker** proposal is now a future research track, no
 - possible later candidate triage and explanation interface;
 - only after the simpler conversation-map product proves useful, safe, consent-respecting, and reviewable.
 
-Near-term implementation should instead be:
+The first Christian application may use:
 
 - personal preparation map;
 - shared conversation map;
-- later church-mediated introduction support.
+- later church-mediated introduction support;
+- Scripture-first public language and pastoral caveats.
 
 Cognitive Matchmaker should not be treated as synonymous with Before We Build. Other applications may include team design, career/role navigation, church or service roles, military specialty advising, and AI agent simulation.
 
@@ -91,16 +98,15 @@ The project uses careful language: hypothesis, interpretation, heuristic model, 
 Before We Build preserves the foundational level's independence from type and
 the separation between the three typological systems:
 
-- The spiritual-moral level is primary for Christian discernment and has no
-  typological score.
+- The value-moral level has no typological or automated moral-worth score.
 - Temporistics is the primary strategic-level model.
 - Psychosophy is the primary operational-level model.
 - Socionics is the primary tactical-level model.
 
 Do not write as if:
 
-- a type establishes faith, character, salvation, spiritual maturity, or
-  readiness for marriage;
+- a type establishes values, character, dignity, worldview, moral reliability,
+  or readiness for a particular relationship;
 - Psychosophy Emotion equals Socionics Fe or Fi;
 - Psychosophy Will equals Socionics Se;
 - Temporistics Future equals Socionics Ni;

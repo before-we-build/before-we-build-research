@@ -4,22 +4,48 @@ This document defines the schema and conventions for maintaining the Before We B
 
 ## Project Overview
 
-**Before We Build** is a Christian conversation/discernment project supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It treats typological structures not as final personality labels, but as compressed hypotheses that may support conversation maps, role fit, team design, and later research into AI-assisted simulation.
+**Before We Build** is a universal compatibility research framework for
+studying how any two people may build, decide, coordinate, and sustain
+relationships or shared work. It interprets Socionics, Psychosophy, and
+Temporistics as heuristic models of latent psychological processes. It treats
+typological structures not as final personality labels, but as compressed
+hypotheses that may support conversation maps, role fit, team design, and
+later research into AI-assisted simulation.
 
-**Cognitive Matchmaker** is an earlier downstream application concept for Before We Build. It is now treated as a future research track, not the near MVP. The current implementation direction is humbler: a weak-AI Christian conversation map that helps individuals, pairs, and later churches surface questions, differences, uncertainty, and wise next steps before serious shared decisions.
+The first developed application and worldview lens is a weak-AI Christian
+conversation map that helps individuals, pairs, and later churches surface
+questions, differences, uncertainty, and wise next steps before serious
+shared decisions. This application does not define or exhaust the universal
+research core.
+
+**Cognitive Matchmaker** is an earlier downstream dating application concept
+for Before We Build. It is treated as a future research track, not the near
+MVP.
 
 ### Core Theory
 
-Three typological systems are integrated as proposed latent-process models for human compatibility at three levels:
+Before We Build uses four compatibility levels. The first is a universal
+value-moral foundation; the other three use typologies as proposed
+latent-process models:
 
-| Level | Typology | Latent Process | Frame Type |
-|-------|----------|---------------|------------|
+| Level | Primary source/model | Process or criterion | Frame Type |
+|-------|----------------------|----------------------|------------|
+| Value-moral / foundational | Worldview, stated commitments, observed conduct, consent and safety evidence | Values, moral obligations, dignity, truth, responsibility, reciprocity, repair, non-negotiable boundaries | Normative frame |
 | Strategic | Temporistics | Inductive-deductive structuring of temporal experience | Temporal frame |
 | Operational | Psychosophy | Analysis, synthesis, action organization | Action frame |
 | Tactical | Socionics | Information modeling (information metabolism) | Information frame |
 
+The value-moral level is not a fourth typology, psychometric moral-worth
+scale, or automated verdict. A Christian application may interpret it through
+Christ, Scripture, observable fruit, church community, and mature counsel;
+other worldview applications must state their own normative sources rather
+than treating one specialization as universal.
+
 Required formula:
 
+- **Value-moral foundation → values, moral obligations, observed conduct,
+  consent, safety, responsibility, reciprocity, repair, and non-negotiable
+  boundaries**
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
@@ -28,10 +54,19 @@ These mappings are project heuristics and research hypotheses. They should not b
 
 ### Scope Boundary
 
-- **Before We Build** = broader ontology, latent-process model, compatibility architecture, and research wiki.
+- **Before We Build core** = universal ontology, four-level compatibility
+  architecture, latent-process research, context/safety constraints, and
+  research wiki for any pair of people.
+- **Christian Before We Build application** = the first developed
+  worldview/domain specialization for Christian relationship and family
+  discernment.
 - **Cognitive Matchmaker** = dating-oriented application built on top of Before We Build.
 
-Do not frame the whole repository as only a dating product. Application pages may discuss Cognitive Matchmaker directly, but orientation, theory, glossary, and methodology pages should use Before We Build as the primary frame.
+Do not frame the whole repository as only Christian, only dating, or only a
+family product. Application pages may be explicitly Christian or discuss
+Cognitive Matchmaker directly, but orientation, theory, glossary, and
+methodology pages should use the universal Before We Build core as the primary
+frame and clearly label worldview-specific claims.
 
 ## Directory Structure
 
@@ -136,6 +171,21 @@ Periodically check:
 
 ## Content Guidelines
 
+### Universal Core vs Application Layers
+
+- Core orientation, theory, compatibility, glossary, and methodology pages
+  should be usable for any two people and must not assume a specific religion,
+  relationship domain, culture, or family form unless the page is explicitly
+  specialized.
+- Worldview-neutral does not mean value-free: core pages should retain
+  dignity, consent, coercion, abuse, violence, exploitation, responsibility,
+  reciprocity, and safety boundaries.
+- Christian pages may use Scripture-first normative language, but should link
+  back to the universal construct they specialize.
+- Do not present all worldviews as equally true or compatible; represent their
+  commitments accurately and make conflicts visible without assigning human
+  worth from a profile.
+
 ### Concept Pages
 
 Describe theoretical constructs:
@@ -178,4 +228,4 @@ When maintaining the wiki, investigate:
 
 ## Last Updated
 
-2026-04-24
+2026-07-26

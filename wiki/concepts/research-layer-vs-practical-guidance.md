@@ -1,9 +1,9 @@
 ---
 title: Research Layer vs Practical Guidance
 type: concept
-tags: [methodology, research, practical-guidance, christianity, before-we-build]
+tags: [methodology, research, practical-guidance, universal-core, applications, christianity, before-we-build]
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-07-26
 sources: []
 ---
 
@@ -11,18 +11,51 @@ sources: []
 
 ## Summary
 
-The project must separate Christian practical guidance from Before We Build research hypotheses. Christian family pages state the normative and pastoral frame for family formation. Before We Build research pages explore typological models as heuristic hypotheses that require validation.
+The project must separate the universal Before We Build research core from
+worldview- and domain-specific practical guidance. Core pages define
+constructs, hypotheses, measurement boundaries, context, and safety for any
+two people. Application pages state their audience, relationship domain,
+worldview assumptions, normative sources, and institutional context.
 
-**Biblical grounding for the summary:**
+The Christian family application is the first developed specialization. Its
+Biblical and pastoral claims belong in explicitly Christian pages, not as
+unstated premises of universal theory.
+
+## Universal research core
+
+The research core may investigate value-moral, strategic, operational, and
+tactical compatibility. It must:
+
+- treat typological models as heuristic hypotheses requiring validation;
+- avoid declaring one worldview's answers universal;
+- retain consent, coercion, abuse, violence, exploitation, dignity, privacy,
+  and safety boundaries;
+- name domain and context variables rather than forcing them into type;
+- compare predictions against established measures and observed outcomes.
+
+## Application layer
+
+Each application should declare:
+
+- relationship or shared-task domain;
+- intended population and culture;
+- worldview and normative sources;
+- relevant law, professional ethics, or community authority;
+- power differences and safety gates;
+- which outputs are questions, hypotheses, advice, or prohibited verdicts.
+
+## Christian practical guidance application
+
+Christian family pages state a Biblical and pastoral frame for Christian
+family formation. Within this specialization:
 
 - **Colossians 3:12–14** — Christian practical guidance centers love, patience, and forgiveness.
 - **1 Thessalonians 5:21** — research-like claims should be tested.
 - **Colossians 2:8** — human frameworks must not become ultimate authority.
 - **2 Corinthians 4:2** — spiritual communication should avoid hidden or manipulative practices.
 
-## Practical guidance layer
-
-**Claim:** The practical family layer should center faith, values, fidelity, responsibility, forgiveness, maturity, and community support.
+The practical Christian family layer should center faith, values, fidelity,
+responsibility, forgiveness, maturity, and community support.
 
 **Biblical grounding:**
 
@@ -35,24 +68,7 @@ This layer includes pages such as:
 - [[christian-foundation-of-family]]
 - [[family-formation-principles]]
 
-## Research layer
-
-**Claim:** The research layer may investigate typological systems, latent-process models, and compatibility scoring, but it must not present exploratory models as spiritual doctrine or proven science.
-
-**Biblical grounding:**
-
-- **1 Thessalonians 5:21** — claims should be tested.
-- **1 Corinthians 8:1** — knowledge without love becomes dangerous.
-- **Colossians 2:8** — human frameworks should not become captivity.
-
-This layer includes pages such as:
-
-- [[main-idea]]
-- [[latent-process]]
-- [[weight-calibration]]
-- [[hypothesis-status-of-before-we-build]]
-
-## Product layer
+## Product/application layer
 
 **Claim:** Cognitive Matchmaker may use practical guidance and research hypotheses to support better conversations, but it should not promise marriage, guarantee outcomes, or speak as an oracle.
 
@@ -63,11 +79,14 @@ This layer includes pages such as:
 
 ## Editorial rules
 
-1. Do not use typology to prove theology.
-2. Do not use Bible verses to force product conversion or romantic decisions.
-3. Do not present compatibility scores as spiritual verdicts.
-4. Do not hide research data collection inside product onboarding.
-5. Keep consent, privacy, pastoral care, and research participation separate.
+1. Do not define the universal core through one worldview application.
+2. Do not use typology to prove theology or moral worth.
+3. Do not use Bible verses or another authority to force conversion or
+   relationship decisions.
+4. Do not present compatibility scores as spiritual or moral verdicts.
+5. Do not hide research data collection inside product onboarding.
+6. Keep consent, privacy, pastoral/professional care, and research
+   participation separate.
 
 **Biblical grounding:**
 

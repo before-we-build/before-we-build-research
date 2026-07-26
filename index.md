@@ -1,25 +1,50 @@
 # Index — Before We Build Wiki
 
-Before We Build is being reframed around a Christian family-formation foundation: a strong family is built not only on feelings, but on shared values, fidelity, responsibility, forgiveness, and a supportive community. Christian faith gives this a deep foundation; typologies can support conversation and self-understanding, but they do not replace character, wisdom, pastoral discernment, or real relationships.
+Before We Build is a universal compatibility research framework for studying
+how any two people may build, decide, coordinate, and sustain a relationship
+or shared task. It uses typologies not as final personality labels, but as
+structured hypotheses that may support conversation maps, role fit, team
+design, and later research into AI-assisted simulation.
 
-Biblical grounding for this front-door claim includes **1 Corinthians 13:4–7** on love as patient and enduring, **Colossians 3:12–14** on forgiveness and love, **Matthew 7:24–25** on building on a firm foundation, **Ecclesiastes 4:9–12** on mutual support, and **1 Thessalonians 5:21** on testing claims rather than treating human models as final authority.
-
-Before We Build remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It uses these typologies not as final personality labels, but as structured hypotheses that may support conversation maps, role fit, team design, and later research into AI-assisted simulation.
+The first developed application is a Christian relationship and
+family-discernment profile. Its Scripture-first normative claims remain in
+explicitly Christian pages and must not be treated as unstated premises of the
+universal research core.
 
 Core formula:
 
-- **Spiritual-moral foundation → shared highest authority, moral direction, character, repentance, and observable fruit**
+- **Value-moral foundation → values, moral obligations, observed conduct, consent, safety, responsibility, reciprocity, repair, and non-negotiable boundaries**
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
 
-The first line is the primary Christian discernment level, not a typology or
-automated score. The remaining three lines are secondary typological research
-levels.
+The first line is a universal foundational level, not a typology or automated
+moral-worth score. The remaining three lines are typological research levels.
 
-Before We Build remains the broader framework and research wiki. The earlier **Cognitive Matchmaker** concept is now a future research track, not the near MVP. The current product direction starts with a weak-AI conversation map: Scripture-first questions, answer summaries, visible differences, open questions, and wise next steps before serious shared decisions.
+Before We Build remains the broader framework and research wiki. The earlier
+**Cognitive Matchmaker** concept is a future research track, not the near MVP.
+The first Christian application's product direction starts with a weak-AI
+conversation map: Scripture-first questions, answer summaries, visible
+differences, open questions, and wise next steps before serious shared
+decisions.
 
-## Start Here
+## Start Here — Universal Research Core
+
+1. [[main-idea]] — universal scope and latent-process hypothesis.
+2. [[four-level-compatibility-architecture]] — the four-level architecture for
+   any two people.
+3. [[value-moral-compatibility]] — the foundational level, evidence model,
+   domain contract, and safety gates.
+4. [[compatibility-level-boundaries]] — construct separation and prohibited
+   inferences.
+5. [[project-positioning]] — universal core vs worldview/domain applications.
+6. [[research-layer-vs-practical-guidance]] — rules for building specialized
+   applications.
+
+The Christian family and relationship pages below form the first developed
+application profile, not the definition of the research core.
+
+## Featured Pages
 
 | Page | Purpose |
 |------|---------|
@@ -39,14 +64,17 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[resource-map]] | Internet resource map for source discovery, provenance labels, and web-source intake |
 | [[resource-map-ru]] | Русская версия карты интернет-ресурсов |
 | [[resource-map-uk]] | Українська версія карти інтернет-ресурсів |
-| [[main-idea]] | 60-second explanation of the Before We Build thesis: one spiritual-moral foundation and three typological research levels |
+| [[main-idea]] | 60-second explanation of the universal Before We Build thesis: one value-moral foundation and three typological research levels |
 | [[four-level-compatibility-architecture]] | Defines the four-level architecture, its reading order, and the boundary between the foundational level and three typological levels |
-| [[four-level-compatibility-architecture-ru]] | Русская версия четырёхуровневой архитектуры совместимости |
-| [[four-level-compatibility-architecture-uk]] | Українська версія чотирирівневої архітектури сумісності |
-| [[project-main-goal]] | Current main project goal: first doorway for lonely Christian singles, with broader future paths for family, service, teams, business, and role fit |
+| [[four-level-compatibility-architecture-ru]] | Русская версия универсальной четырёхуровневой архитектуры совместимости |
+| [[four-level-compatibility-architecture-uk]] | Українська версія універсальної чотирирівневої архітектури сумісності |
+| [[value-moral-compatibility]] | Defines the universal foundational level: values, obligations, compatible difference, non-negotiable conflict, evidence, and safety gates |
+| [[value-moral-compatibility-ru]] | Русская страница ценностно-нравственной совместимости |
+| [[value-moral-compatibility-uk]] | Українська сторінка ціннісно-моральної сумісності |
+| [[project-main-goal]] | Universal research goal plus the first developed Christian relationship-discernment application |
 | [[project-positioning]] | Distinguishes Before We Build from Cognitive Matchmaker and states claims/non-claims |
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
-| [[compatibility-level-boundaries]] | Defines spiritual-moral, strategic, operational, and tactical boundaries |
+| [[compatibility-level-boundaries]] | Defines value-moral, strategic, operational, and tactical boundaries |
 | [[operational-compatibility-ru]] | Каноническое русское определение операционного уровня: совместная сборка, воплощение и коррекция решений через Волю, Логику, Эмоцию и Физику |
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
 | [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary rules: Scripture-first wording, no psychology/typology front door, no mixed English product terms |
@@ -77,9 +105,10 @@ This is the catalog of all pages in the wiki. The LLM updates this on every inge
 
 The wiki is organized conceptually into six layers:
 
-- **Christian family foundation** — faith, values, fidelity, responsibility, forgiveness, community, and pastoral caveats.
+- **Universal orientation** — project scope, four-level architecture, application boundary, and methodology.
+- **Christian application** — faith, values, fidelity, responsibility, forgiveness, community, and pastoral caveats.
 - **Orientation** — README, main idea, project positioning, glossary, roadmap.
-- **Core theory** — the spiritual-moral foundation plus three primary typological interpretations.
+- **Core theory** — the value-moral foundation plus three typological interpretations.
 - **Compatibility architecture** — level boundaries, rules, conflicts, complementarity, examples.
 - **Applications** — conversation maps before serious decisions, later church-mediated introduction support, team design, career/role navigation, service roles, and deferred AI simulation research.
 - **Research program** — hypotheses, measurement strategy, validation strategy, evidence, limitations.
@@ -123,11 +152,14 @@ wiki/          — LLM-generated wiki
 | [[hypothesis-status-of-before-we-build-uk]] | Українська версія статусу гіпотез Before We Build | hypothesis-status-of-before-we-build.md |
 | [[biblical-grounding-policy-ru]] | Русская версия политики библейской опоры | biblical-grounding-policy.md |
 | [[biblical-grounding-policy-uk]] | Українська версія політики біблійної опори | biblical-grounding-policy.md |
-| [[main-idea]] | Before We Build thesis: one spiritual-moral foundation and three typological latent-process levels | - |
-| [[four-level-compatibility-architecture]] | Four compatibility levels: a primary spiritual-moral foundation plus strategic, operational, and tactical research levels | spiritual-foundation-levels-ru.md, family-formation-principles.md, compatibility-level-boundaries.md |
-| [[four-level-compatibility-architecture-ru]] | Русская четырёхуровневая архитектура: духовно-нравственное основание и три типологических исследовательских уровня | four-level-compatibility-architecture.md |
-| [[four-level-compatibility-architecture-uk]] | Українська чотирирівнева архітектура: духовно-моральна основа і три типологічні дослідницькі рівні | four-level-compatibility-architecture.md |
-| [[project-main-goal]] | Main goal and public Christian framing: first doorway for lonely brothers/sisters before relationships and marriage, while preserving broad future paths for family, service, teams, business, and role fit | main-idea.md, project-positioning.md, four-level-compatibility-architecture.md, compatibility-level-boundaries.md |
+| [[main-idea]] | Universal Before We Build thesis: one value-moral foundation and three typological latent-process levels | - |
+| [[four-level-compatibility-architecture]] | Four compatibility levels for any pair: value-moral, strategic, operational, and tactical | project-owner decision, compatibility-level-boundaries.md, sociological-compatibility-analogues.md |
+| [[four-level-compatibility-architecture-ru]] | Русская универсальная архитектура: ценностно-нравственное основание и три типологических исследовательских уровня | four-level-compatibility-architecture.md |
+| [[four-level-compatibility-architecture-uk]] | Українська універсальна архітектура: ціннісно-моральна основа і три типологічні дослідницькі рівні | four-level-compatibility-architecture.md |
+| [[value-moral-compatibility]] | Universal foundational construct with domain contract, compatible-difference categories, evidence model, and safety gates | project-owner decision, four-level-compatibility-architecture.md, sociological-compatibility-analogues.md |
+| [[value-moral-compatibility-ru]] | Русская универсальная модель ценностно-нравственной совместимости | value-moral-compatibility.md |
+| [[value-moral-compatibility-uk]] | Українська універсальна модель ціннісно-моральної сумісності | value-moral-compatibility.md |
+| [[project-main-goal]] | Universal research goal plus the first developed Christian relationship-discernment application | main-idea.md, project-positioning.md, four-level-compatibility-architecture.md, compatibility-level-boundaries.md |
 | [[project-positioning]] | Before We Build vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
 | [[operational-compatibility-ru]] | Русская проектная модель операционной совместимости как исправляемой системы совместного действия: анализ, синтез, роли, ответственность, воплощение и коррекция в областях Воли, Логики, Эмоции и Физики | compatibility-level-boundaries-ru.md, latent-process.md, afanasyev-resource-distribution-model-ru.md, psychosophy-intertype-relations.md |

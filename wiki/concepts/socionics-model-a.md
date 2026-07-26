@@ -118,7 +118,7 @@ See [[socionics-information-elements]] for the dedicated element page.
 
 Within Before We Build's four-level compatibility architecture, Socionics is
 assigned to one of the three typological research levels: the tactical layer.
-It does not assess the spiritual-moral foundation:
+It does not assess the value-moral foundation:
 
 - **Temporistics** models strategic temporal/existential framing;
 - **Psychosophy** models operational synthesis and analysis in action;

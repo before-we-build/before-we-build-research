@@ -16,9 +16,9 @@ Use this page as a **reading guide**, not as proof of final typing. In Before We
 ## Level Separation
 
 The current architecture has four levels, but typology tests address only
-three of them. The spiritual-moral foundation is not a type test and must be
-discerned through Scripture, observed fruit and character, church context,
-honest conversation, and mature counsel.
+three of them. The value-moral foundation is not a type test and must be
+examined through stated commitments, observed conduct, consent and safety,
+and relevant worldview, domain, culture, power, and institutional context.
 
 Read each typological system only at its own level:
 
@@ -28,7 +28,7 @@ Read each typological system only at its own level:
 
 Do not treat one system as a translation of another. A result in one layer may clarify that layer without deciding the others.
 
-No combination of these test results establishes spiritual-moral
+No combination of these test results establishes value-moral
 compatibility.
 
 ## How to Read a Result

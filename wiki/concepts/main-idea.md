@@ -1,19 +1,27 @@
 ---
 title: Main Idea
 type: concept
-tags: [theory, foundations, integration, before-we-build, latent-processes]
+tags: [theory, foundations, integration, before-we-build, universal-core, applications, latent-processes]
 created: 2026-04-14
 updated: 2026-07-26
 lang: en
 canonical: main-idea.md
-sources: []
+sources: [project-owner-decision-2026-07-26, wiki/concepts/four-level-compatibility-architecture.md, wiki/concepts/value-moral-compatibility.md]
 ---
 
 # Main Idea
 
-Before We Build is a Christian conversation and discernment project that helps people examine the foundation before serious shared decisions. Its first practical doorway is for lonely Christian brothers and sisters discerning relationships and marriage, while the broader umbrella remains family, church service, teams, business partnership, role/responsibility fit, and other forms of building together. The project is supported by a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological types as final explanations of a person. A type is treated as an observable trace and working hypothesis about how hidden processes may be organized. In the near product, these ideas should serve plain conversation maps and wise questions, not autonomous matchmaking or compatibility verdicts.
+Before We Build is a universal compatibility research framework for studying
+how any two people may build, decide, coordinate, and sustain a relationship
+or shared task. It interprets Socionics, Psychosophy, and Temporistics as
+heuristic models of latent psychological processes rather than final
+explanations of a person. A type is treated as an observable trace and working
+hypothesis about how hidden processes may be organized.
 
-See [[project-main-goal]] for the current product goal and public Christian framing.
+The first developed application is a Christian relationship-discernment
+conversation map, but that application does not define or exhaust the
+universal research core. See [[project-main-goal]] and
+[[research-layer-vs-practical-guidance]].
 
 ## 1. Central Mapping
 
@@ -67,21 +75,21 @@ See [[latent-process]] for the detailed framework.
 
 ## 4. The Four Compatibility Levels
 
-Before We Build uses a four-level compatibility architecture: one primary
-spiritual-moral foundation and three secondary typological research levels.
+Before We Build uses a four-level compatibility architecture: one
+value-moral foundation and three typological research levels.
 
-1. **Spiritual-moral compatibility** asks before whom, on what foundation, and according to what good two people will build. Its sources are Scripture, observable fruit and character, conscience, church context, and mature counsel. It is not a typology or automated score.
+1. **Value-moral compatibility** asks which values, moral obligations, and non-negotiable boundaries govern what two people build. Its evidence includes stated commitments, observed conduct, consent and safety, and relevant worldview, community, and institutional context. It is not a typology or automated moral verdict.
 2. **Strategic compatibility** asks whether two people can share a compatible long-range temporal and existential direction. The primary typology is **Temporistics**.
 3. **Operational compatibility** asks whether two people can organize decisions, effort, pressure, priorities, and embodiment together. The primary typology is **Psychosophy**.
 4. **Tactical compatibility** asks whether two people can perceive, exchange, repair, and coordinate information in concrete situations. The primary typology is **Socionics**.
 
-The spiritual-moral foundation cannot be inferred from a type, and the three
+The value-moral foundation cannot be inferred from a type, and the three
 typological levels should not be collapsed into each other. Similar words
 across systems do not mean identical constructs. For example, Psychosophy
 Emotion is not Socionics Fe or Fi, Psychosophy Will is not Socionics Se, and
 Temporistics Future is not Socionics Ni. See
-[[four-level-compatibility-architecture]] and
-[[compatibility-level-boundaries]].
+[[four-level-compatibility-architecture]],
+[[value-moral-compatibility]], and [[compatibility-level-boundaries]].
 
 ## 5. Positional Modes
 
@@ -110,8 +118,10 @@ The framework should use careful language: hypothesis, interpretation, heuristic
 
 ## 7. Framework vs Application
 
-**Before We Build** is the broader Christian conversation/discernment project and research architecture.
+**Before We Build** is the universal compatibility research architecture.
 
-The earlier **Cognitive Matchmaker** idea is now a future research track, not the near MVP. The current application should begin as a weak-AI conversation map: personal preparation, shared questions, visible differences, open uncertainty, and wise next steps.
+The Christian conversation map is the first developed worldview/domain
+application. The earlier **Cognitive Matchmaker** idea is a future dating
+research track, not the universal core or near MVP.
 
 See [[project-main-goal]] and [[project-positioning]] for the full distinction.
