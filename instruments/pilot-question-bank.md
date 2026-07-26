@@ -3,7 +3,7 @@ title: Before We Build pilot question bank
 type: instrument
 status: pilot
 schemaVersion: 1.0.0
-bankVersion: 2026-07-22.1
+bankVersion: 2026-07-26.2
 ---
 
 # Before We Build pilot question bank
@@ -13,10 +13,10 @@ This is the single canonical browser question bank. Keep the payload below valid
 ~~~question-bank
 {
   "schemaVersion": "1.0.0",
-  "bankVersion": "2026-07-22.1",
+  "bankVersion": "2026-07-26.2",
   "tests": {
     "socionics": {
-      "version": "socionics-pilot-v0.3",
+      "version": "socionics-pilot-v0.4",
       "mode": "socionics",
       "labels": {
         "ru": [
@@ -46,31 +46,31 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_1",
           "scale": "Ti",
-          "version": "1.1",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
-            "ru": "Разбираясь в новой теме, я обычно сначала ищу, как её части связаны и образуют общую систему.",
-            "en": "When learning a new topic, I usually first look for how its parts connect and form a coherent system.",
-            "uk": "Розбираючись у новій темі, я зазвичай спочатку шукаю, як її частини пов’язані й утворюють цілісну систему."
+            "ru": "Мне легче понять тему, когда я вижу порядок и связи между частями.",
+            "en": "I understand a topic more easily when I see the order and links between its parts.",
+            "uk": "Мені легше зрозуміти тему, коли я бачу порядок і зв’язки між частинами."
           }
         },
         {
           "id": "soc_2",
           "scale": "Ti",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Перед спором мне важно договориться, что именно значат слова.",
-            "en": "Before an argument, I need to agree on what the words mean.",
-            "uk": "Перед суперечкою мені важливо домовитися, що саме означають слова."
+            "ru": "Мне тяжело выстраивать строгие логические схемы и формальные определения.",
+            "en": "I find it hard to construct strict logical schemas and formal definitions.",
+            "uk": "Мені важко вибудовувати суворі логічні схеми та формальні визначення."
           }
         },
         {
           "id": "soc_3",
           "scale": "Te",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -82,19 +82,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_4",
           "scale": "Te",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Объяснение кажется мне слабым, если непонятно, что с ним делать.",
-            "en": "An explanation feels weak to me if it is unclear what to do with it.",
-            "uk": "Пояснення здається мені слабким, якщо незрозуміло, що з ним робити."
+            "ru": "Практическая полезность и эффективные действия интересуют меня в последнюю очередь.",
+            "en": "Practical utility and efficient actions matter to me least of all.",
+            "uk": "Практична користь та ефективні дії цікавлять мене в останню чергу."
           }
         },
         {
           "id": "soc_5",
           "scale": "Fi",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -106,19 +106,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_6",
           "scale": "Fi",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Мне важно понимать, где отношения живые, а где только формальные.",
-            "en": "It matters to me where relationships are real and where they are only formal.",
-            "uk": "Мені важливо розуміти, де стосунки живі, а де лише формальні."
+            "ru": "Мне сложно улавливать тонкие оттенки личных отношений и симпатий.",
+            "en": "I find it difficult to catch subtle shades of personal relationships and affinities.",
+            "uk": "Мені складно вловлювати тонкі відтінки особистих стосунків і симпатій."
           }
         },
         {
           "id": "soc_7",
           "scale": "Fe",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -130,19 +130,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_8",
           "scale": "Fe",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Мне хочется оживить разговор, если люди отвечают сухо или вяло.",
-            "en": "I want to liven up a conversation when people respond dryly or weakly.",
-            "uk": "Мені хочеться оживити розмову, якщо люди відповідають сухо або мляво."
+            "ru": "Мне трудно управлять эмоциональной атмосферой в компании.",
+            "en": "I find it hard to manage the emotional atmosphere in a group.",
+            "uk": "Мені важко керувати емоційною атмосферою в компанії."
           }
         },
         {
           "id": "soc_9",
           "scale": "Si",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -154,19 +154,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_10",
           "scale": "Si",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Обстановка вокруг сильно влияет на то, насколько мне спокойно и ясно.",
-            "en": "The space around me strongly affects how calm and clear I feel.",
-            "uk": "Обстановка навколо сильно впливає на те, наскільки мені спокійно і ясно."
+            "ru": "Я часто игнорирую физический комфорт и сигналы своего тела.",
+            "en": "I often ignore physical comfort and bodily signals.",
+            "uk": "Я часто ігнорую фізичний комфорт і сигнали свого тіла."
           }
         },
         {
           "id": "soc_11",
           "scale": "Se",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -178,19 +178,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_12",
           "scale": "Se",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Я замечаю, кто занимает место и где в ситуации есть запас силы.",
-            "en": "I notice who takes space and where the situation has a reserve of force.",
-            "uk": "Я помічаю, хто займає місце і де в ситуації є запас сили."
+            "ru": "Мне тяжело проявлять прямое волевое давление и отстаивать позиции.",
+            "en": "I find it hard to exert direct forceful pressure and defend positions.",
+            "uk": "Мені важко проявляти прямий вольовий тиск і відстоювати позиції."
           }
         },
         {
           "id": "soc_13",
           "scale": "Ni",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -202,19 +202,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_14",
           "scale": "Ni",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Мне важнее уловить вероятный ход событий, чем перечислить все варианты.",
-            "en": "It matters more to me to catch the likely course of events than to list every option.",
-            "uk": "Мені важливіше вловити ймовірний хід подій, ніж перелічити всі варіанти."
+            "ru": "Мне сложно улавливать скрытые тенденции и развитие событий во времени.",
+            "en": "I struggle to catch hidden trends and the development of events over time.",
+            "uk": "Мені складно вловлювати приховані тенденції та розвиток подій у часі."
           }
         },
         {
           "id": "soc_15",
           "scale": "Ne",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -226,13 +226,13 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "soc_16",
           "scale": "Ne",
-          "version": "1.0",
-          "reverse": false,
+          "version": "1.2",
+          "reverse": true,
           "status": "pilot",
           "text": {
-            "ru": "Я легко замечаю варианты, которые другие сначала не видят.",
-            "en": "I easily notice options that others do not see at first.",
-            "uk": "Я легко помічаю варіанти, які інші спочатку не бачать."
+            "ru": "Множество неясных вариантов скорее сбивает меня с толку, чем вдохновляет.",
+            "en": "A multitude of unclear options confuses me rather than inspires me.",
+            "uk": "Безліч неясних варіантів швидше збиває мене з пантелику, ніж надихає."
           }
         },
         {
@@ -240,6 +240,8 @@ This is the single canonical browser question bank. Keep the payload below valid
           "scale": "attention",
           "attention": 2,
           "version": "1.0",
+          "reverse": false,
+          "status": "pilot",
           "text": {
             "ru": "Проверка внимательности: выберите вариант 2.",
             "en": "Attention check: choose option 2.",
@@ -249,7 +251,7 @@ This is the single canonical browser question bank. Keep the payload below valid
       ]
     },
     "psychosophy": {
-      "version": "psychosophy-pilot-v0.3",
+      "version": "psychosophy-pilot-v0.4",
       "mode": "position",
       "labels": {
         "ru": [
@@ -281,7 +283,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Воля_1",
           "scale": "Воля|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -293,7 +295,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Воля_2",
           "scale": "Воля|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -305,7 +307,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Воля_3",
           "scale": "Воля|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -317,7 +319,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Воля_4",
           "scale": "Воля|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -329,7 +331,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Логика_1",
           "scale": "Логика|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -341,7 +343,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Логика_2",
           "scale": "Логика|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -353,7 +355,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Логика_3",
           "scale": "Логика|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -365,7 +367,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Логика_4",
           "scale": "Логика|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -377,7 +379,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Эмоция_1",
           "scale": "Эмоция|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -389,7 +391,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Эмоция_2",
           "scale": "Эмоция|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -401,31 +403,31 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Эмоция_3",
           "scale": "Эмоция|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
             "ru": "Я переживаю, если мои чувства звучат не так, как я хотел(а).",
             "en": "I worry when my feelings come across differently than I wanted.",
-            "uk": "Я хвилююся, якщо мої почуття звучать не так, як я хотів(ла)."
+            "uk": "Я хвилююся, якщо мої почуття звучать не так, как я хотів(ла)."
           }
         },
         {
           "id": "psy_Эмоция_4",
           "scale": "Эмоция|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
-            "ru": "Мне легче включиться, когда настроение уже понятно.",
-            "en": "It is easier for me to engage when the mood is already clear.",
-            "uk": "Мені легше включитися, коли настрій уже зрозумілий."
+            "ru": "Я легко подстраиваюсь под эмоциональный фон вокруг и не создаю свой.",
+            "en": "I easily adjust to the emotional background around me and do not create my own.",
+            "uk": "Я легко підлаштовуюся під емоційний фон навколо й не створюю свій."
           }
         },
         {
           "id": "psy_Физика_1",
           "scale": "Физика|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -437,7 +439,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Физика_2",
           "scale": "Физика|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -449,19 +451,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "psy_Физика_3",
           "scale": "Физика|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
             "ru": "Телесный или бытовой дискомфорт может долго меня тревожить.",
             "en": "Body or everyday discomfort can trouble me for a long time.",
-            "uk": "Тілесний або побутовий дискомфорт може довго мене тривожити."
+            "uk": "Тілесний або побутовий дискомфорт може долго мене тривожити."
           }
         },
         {
           "id": "psy_Физика_4",
           "scale": "Физика|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -475,6 +477,8 @@ This is the single canonical browser question bank. Keep the payload below valid
           "scale": "attention",
           "attention": 2,
           "version": "1.0",
+          "reverse": false,
+          "status": "pilot",
           "text": {
             "ru": "Проверка внимательности: выберите вариант 2.",
             "en": "Attention check: choose option 2.",
@@ -484,7 +488,7 @@ This is the single canonical browser question bank. Keep the payload below valid
       ]
     },
     "temporistics": {
-      "version": "temporistics-pilot-v0.3",
+      "version": "temporistics-pilot-v0.4",
       "mode": "position",
       "labels": {
         "ru": [
@@ -530,7 +534,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Past_1",
           "scale": "Past|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -542,19 +546,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Past_2",
           "scale": "Past|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
-            "ru": "Мне легко помогать людям собрать прошлые события в понятную историю.",
-            "en": "It is easy for me to help people put past events into a clear story.",
-            "uk": "Мені легко допомагати людям скласти минулі події в зрозумілу історію."
+            "ru": "Мне легче переосмыслить прошлый опыт в диалоге с другими.",
+            "en": "It is easier for me to re-evaluate past experience in dialogue with others.",
+            "uk": "Мені легше переосмислити минулий досвід у діалозі з іншими."
           }
         },
         {
           "id": "tmp_Past_3",
           "scale": "Past|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -566,19 +570,19 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Past_4",
           "scale": "Past|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
-            "ru": "Мне не нужно часто связывать новые события с моей прошлой историей.",
-            "en": "I do not need to often connect new events with my past story.",
-            "uk": "Мені не потрібно часто пов’язувати нові події з моєю минулою історією."
+            "ru": "Я спокойнее отношусь к прошлому и не зацикливаюсь на нём.",
+            "en": "I view the past calmly and do not fixate on it.",
+            "uk": "Я спокійніше ставлюся до минулого й не зациклююся на ньому."
           }
         },
         {
           "id": "tmp_Present_1",
           "scale": "Present|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -590,7 +594,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Present_2",
           "scale": "Present|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -602,7 +606,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Present_3",
           "scale": "Present|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -614,7 +618,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Present_4",
           "scale": "Present|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -626,7 +630,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Future_1",
           "scale": "Future|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -638,7 +642,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Future_2",
           "scale": "Future|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -650,7 +654,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Future_3",
           "scale": "Future|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -662,7 +666,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Future_4",
           "scale": "Future|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -674,7 +678,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Eternity_1",
           "scale": "Eternity|1",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -686,7 +690,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Eternity_2",
           "scale": "Eternity|2",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -698,7 +702,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Eternity_3",
           "scale": "Eternity|3",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -710,7 +714,7 @@ This is the single canonical browser question bank. Keep the payload below valid
         {
           "id": "tmp_Eternity_4",
           "scale": "Eternity|4",
-          "version": "1.0",
+          "version": "1.2",
           "reverse": false,
           "status": "pilot",
           "text": {
@@ -724,10 +728,12 @@ This is the single canonical browser question bank. Keep the payload below valid
           "scale": "attention",
           "attention": 2,
           "version": "1.0",
+          "reverse": false,
+          "status": "pilot",
           "text": {
             "ru": "Проверка внимательности: выберите вариант 2.",
             "en": "Attention check: choose option 2.",
-            "uk": "Перевірка уважності: оберіть варіант 2."
+            "uk": "Перевірка уважності: оберіть вариант 2."
           }
         }
       ]
