@@ -26,10 +26,14 @@ Before We Build still remains a research-oriented framework for interpreting Soc
 
 The Christian family-formation layer is primary for the current product direction. Before We Build’s typological layer is secondary and should serve conversation, self-observation, and research rather than making final decisions about people.
 
-Before We Build asks whether three typological systems can be used as structured hypothesis languages for three levels of human interaction:
+Before We Build uses four compatibility levels: a primary spiritual-moral
+foundation and three secondary typological research levels. It asks whether
+the three typological systems can serve as structured hypothesis languages
+for strategic, operational, and tactical interaction:
 
-| Typology | Compatibility level | Latent process class | Main question |
+| Source | Compatibility level | Process / criterion | Main question |
 |---|---:|---|---|
+| **Scripture, observable fruit and character, church context, mature counsel** | Spiritual-moral / foundational | Faith, moral direction, character, repentance, and fruit | Before whom, on what foundation, and according to what good are we building? |
 | **Socionics** | Tactical | Information modeling | How does a person perceive, filter, structure, and exchange information? |
 | **Psychosophy** | Operational | Synthesis and analysis in action | How does a person organize decisions, effort, pressure, emotion, logic, will, and practical embodiment? |
 | **Temporistics** | Strategic | Induction and deduction in temporal/existential experience | How does a person organize Past, Present, Future, and Eternity into meaning, continuity, direction, and life trajectory? |
@@ -77,5 +81,6 @@ The earlier **Cognitive Matchmaker** idea is now treated as a future research tr
 - [[main-idea]] — concise explanation of the central mapping
 - [[project-positioning]] — what Before We Build claims and does not claim
 - [[latent-process]] — observable traces vs hidden processes
-- [[compatibility-level-boundaries]] — strategic, operational, and tactical level boundaries
+- [[four-level-compatibility-architecture]] — one spiritual-moral foundation and three typological research levels
+- [[compatibility-level-boundaries]] — boundaries between all four levels
 - [[weight-calibration]] — why scoring remains provisional

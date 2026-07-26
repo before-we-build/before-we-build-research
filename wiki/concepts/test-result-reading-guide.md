@@ -3,7 +3,7 @@ title: Test Result Reading Guide
 type: concept
 tags: [tests, typing, methodology, multilingual, guide]
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-07-26
 lang: en
 canonical: test-result-reading-guide.md
 sources: [wiki/concepts/main-idea.md, wiki/concepts/compatibility-level-boundaries.md, wiki/concepts/typology-test-design-protocol.md]
@@ -15,13 +15,21 @@ Use this page as a **reading guide**, not as proof of final typing. In Before We
 
 ## Level Separation
 
-Read each system only at its own level:
+The current architecture has four levels, but typology tests address only
+three of them. The spiritual-moral foundation is not a type test and must be
+discerned through Scripture, observed fruit and character, church context,
+honest conversation, and mature counsel.
+
+Read each typological system only at its own level:
 
 - **Socionics** = **tactical** level only -> information modeling.
 - **Psychosophy** = **operational** level only -> action organization.
 - **Temporistics** = **strategic** level only -> temporal-existential orientation.
 
 Do not treat one system as a translation of another. A result in one layer may clarify that layer without deciding the others.
+
+No combination of these test results establishes spiritual-moral
+compatibility.
 
 ## How to Read a Result
 

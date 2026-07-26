@@ -3,7 +3,7 @@ title: Project Positioning
 type: concept
 tags: [orientation, methodology, before-we-build, before-we-build-engine, research-positioning]
 created: 2026-04-24
-updated: 2026-05-13
+updated: 2026-07-26
 sources: []
 ---
 
@@ -15,10 +15,11 @@ This page distinguishes Before We Build as a research framework from its possibl
 
 Before We Build is a Christian conversation and discernment project that helps people examine the foundation before serious shared decisions. The first practical doorway should speak to lonely Christian brothers and sisters discerning relationships and marriage: a person can begin alone, name hopes and fears, examine expectations, and prepare for honest conversation before God. The broader project must still remain larger than dating or marriage: the same foundation-and-differences map may later serve family, church service, teams, common work, business partnership, and role/responsibility fit. The research framework remains useful as hidden support and long-term study, but public outputs should stay Scripture-first, plain, and non-oracular.
 
-## 2. The Required Mapping
+## 2. The Required Four-Level Mapping
 
-| System | Level | Latent process class | Guiding question |
+| Source / system | Level | Process / criterion | Guiding question |
 |---|---:|---|---|
+| **Scripture, observable fruit and character, church context, mature counsel** | Spiritual-moral / foundational | Faith, moral direction, character, repentance, and fruit | Before whom, on what foundation, and according to what good are we building? |
 | **Socionics** | Tactical | Information modeling | How does the person perceive, filter, structure, and exchange information? |
 | **Psychosophy** | Operational | Synthesis and analysis in action | How does the person organize decisions, effort, pressure, emotion, logic, will, and practical embodiment? |
 | **Temporistics** | Strategic | Induction and deduction in temporal/existential experience | How does the person organize Past, Present, Future, and Eternity into meaning, continuity, direction, and life trajectory? |
@@ -87,20 +88,27 @@ The project uses careful language: hypothesis, interpretation, heuristic model, 
 
 ## 6. Level Separation Rules
 
-Before We Build preserves the separation between the three systems:
+Before We Build preserves the foundational level's independence from type and
+the separation between the three typological systems:
 
+- The spiritual-moral level is primary for Christian discernment and has no
+  typological score.
 - Temporistics is the primary strategic-level model.
 - Psychosophy is the primary operational-level model.
 - Socionics is the primary tactical-level model.
 
 Do not write as if:
 
+- a type establishes faith, character, salvation, spiritual maturity, or
+  readiness for marriage;
 - Psychosophy Emotion equals Socionics Fe or Fi;
 - Psychosophy Will equals Socionics Se;
 - Temporistics Future equals Socionics Ni;
 - Temporistics Past, Present, Future, and Eternity are merely surface personality traits.
 
-See [[compatibility-level-boundaries]] and [[emotion-vs-ethics-boundary]] for detailed boundary rules.
+See [[four-level-compatibility-architecture]],
+[[compatibility-level-boundaries]], and [[emotion-vs-ethics-boundary]] for
+detailed boundary rules.
 
 ## 7. Research Direction
 

@@ -57,7 +57,9 @@ Before We Build may be more useful when the task is not only to describe an indi
 
 ### 5.1 Compatibility architecture
 
-Big Five describes broad tendencies. Before We Build tries to model where friction and complementarity may arise across three levels:
+Big Five describes broad tendencies. Within the four-level compatibility
+architecture, Before We Build uses three typological research levels to model
+where friction and complementarity may arise:
 
 - tactical information exchange;
 - operational action coordination;

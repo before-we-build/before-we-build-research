@@ -20,7 +20,12 @@ The simulator imagines a society in which every simulated person has an explicit
 - **tactical information behavior** from Socionics;
 - optional non-typological context such as age, role, family situation, church context, occupation, health limits, culture, habits, and life events.
 
-The purpose is not to predict real people deterministically. The purpose is to test whether a structured three-level model can generate useful hypotheses about cooperation, misunderstanding, role fit, community dynamics, and long-term stability.
+The purpose is not to predict real people deterministically. The purpose is
+to test whether three typological layers within the project's four-level
+compatibility architecture can generate useful hypotheses about cooperation,
+misunderstanding, role fit, community dynamics, and long-term stability. The
+spiritual-moral foundational level is not simulated as a type or automated
+score.
 
 ## Short Definition
 
@@ -31,7 +36,8 @@ A typed society simulator is an agent-based research environment where each agen
 3. memory of interactions;
 4. relationship history with other agents;
 5. situation-specific goals;
-6. rules for how the three typological layers influence choices.
+6. rules for how the three typological layers influence choices without
+   pretending to measure the spiritual-moral foundation.
 
 The simulation can then run repeated scenarios such as family formation, church service, team building, conflict repair, leadership selection, business partnership, relocation, crisis response, or long-term community drift.
 

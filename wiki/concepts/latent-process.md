@@ -3,7 +3,7 @@ title: Latent Processes
 type: concept
 tags: [latent-processes, theory]
 created: 2026-04-14
-updated: 2026-04-24
+updated: 2026-07-26
 sources: []
 ---
 
@@ -247,7 +247,36 @@ Not so much create metaphysics yourself, as accept and learn.
 
 ## Example Through Latent Process of Synthesis/Analysis at Operational Level
 
-Then the logic is:
+### Core Project Hypothesis
+
+Before We Build proposes that **analysis and synthesis at the operational
+level are not limited to formal reasoning or to the Psychosophy aspect of
+Logic**. They describe a more general latent process that may operate through
+all four Psychosophy aspects:
+
+- **Logic** — differentiating arguments, criteria, and explanations, then
+  assembling them into a coherent conclusion;
+- **Will** — differentiating priorities, constraints, responsibilities, and
+  possible courses, then assembling them into a direction for action;
+- **Emotion** — differentiating feelings, expressions, tensions, and
+  interpersonal signals, then assembling them into an emotional response or
+  shared atmosphere;
+- **Physics** — differentiating bodily and material needs, resources,
+  constraints, and routines, then assembling them into a workable practical
+  arrangement.
+
+Here **analysis** does not always mean conscious logical reflection.
+Operationally, it means differentiating relevant parts of a situation within
+an aspect. **Synthesis** means integrating those parts into a workable whole:
+an explanation, course, emotional form, or material arrangement.
+
+Psychosophy supplies the four aspects and their positional organization. The
+interpretation of all four aspects as domains of an analysis–synthesis latent
+process is a **Before We Build research hypothesis**, not an established
+psychometric discovery or a scientifically validated claim about
+Psychosophy.
+
+The operational logic is:
 
 **Operational level = how a person works with a task, goal, method of action, and distribution of roles.**
 
@@ -256,7 +285,7 @@ If looking through latent process:
 - **Analysis** = decomposing a situation into parts
 - **Synthesis** = from parts assembling a working holistic scheme of action
 
-That is, not just "Will" or "Logic," but:
+That is, not just Logic in the ordinary intellectual sense, but:
 - How a person in an aspect analyzes the problem
 - How they assemble the solution
 - How much they do this themselves

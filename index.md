@@ -8,9 +8,14 @@ Before We Build remains a research-oriented framework for interpreting Socionics
 
 Core formula:
 
+- **Spiritual-moral foundation → shared highest authority, moral direction, character, repentance, and observable fruit**
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of induction and deduction in temporal/existential experience**
+
+The first line is the primary Christian discernment level, not a typology or
+automated score. The remaining three lines are secondary typological research
+levels.
 
 Before We Build remains the broader framework and research wiki. The earlier **Cognitive Matchmaker** concept is now a future research track, not the near MVP. The current product direction starts with a weak-AI conversation map: Scripture-first questions, answer summaries, visible differences, open questions, and wise next steps before serious shared decisions.
 
@@ -34,11 +39,15 @@ Before We Build remains the broader framework and research wiki. The earlier **C
 | [[resource-map]] | Internet resource map for source discovery, provenance labels, and web-source intake |
 | [[resource-map-ru]] | Русская версия карты интернет-ресурсов |
 | [[resource-map-uk]] | Українська версія карти інтернет-ресурсів |
-| [[main-idea]] | 60-second explanation of the Before We Build thesis and three-level mapping |
+| [[main-idea]] | 60-second explanation of the Before We Build thesis: one spiritual-moral foundation and three typological research levels |
+| [[four-level-compatibility-architecture]] | Defines the four-level architecture, its reading order, and the boundary between the foundational level and three typological levels |
+| [[four-level-compatibility-architecture-ru]] | Русская версия четырёхуровневой архитектуры совместимости |
+| [[four-level-compatibility-architecture-uk]] | Українська версія чотирирівневої архітектури сумісності |
 | [[project-main-goal]] | Current main project goal: first doorway for lonely Christian singles, with broader future paths for family, service, teams, business, and role fit |
 | [[project-positioning]] | Distinguishes Before We Build from Cognitive Matchmaker and states claims/non-claims |
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
-| [[compatibility-level-boundaries]] | Defines strategic, operational, and tactical boundaries |
+| [[compatibility-level-boundaries]] | Defines spiritual-moral, strategic, operational, and tactical boundaries |
+| [[operational-compatibility-ru]] | Каноническое русское определение операционного уровня: совместная сборка, воплощение и коррекция решений через Волю, Логику, Эмоцию и Физику |
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
 | [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary rules: Scripture-first wording, no psychology/typology front door, no mixed English product terms |
 | [[test-result-reading-guide]] | Explains how to read test outputs as provisional, level-separated hypotheses |
@@ -70,7 +79,7 @@ The wiki is organized conceptually into six layers:
 
 - **Christian family foundation** — faith, values, fidelity, responsibility, forgiveness, community, and pastoral caveats.
 - **Orientation** — README, main idea, project positioning, glossary, roadmap.
-- **Core theory** — latent processes and the three primary typological interpretations.
+- **Core theory** — the spiritual-moral foundation plus three primary typological interpretations.
 - **Compatibility architecture** — level boundaries, rules, conflicts, complementarity, examples.
 - **Applications** — conversation maps before serious decisions, later church-mediated introduction support, team design, career/role navigation, service roles, and deferred AI simulation research.
 - **Research program** — hypotheses, measurement strategy, validation strategy, evidence, limitations.
@@ -114,10 +123,14 @@ wiki/          — LLM-generated wiki
 | [[hypothesis-status-of-before-we-build-uk]] | Українська версія статусу гіпотез Before We Build | hypothesis-status-of-before-we-build.md |
 | [[biblical-grounding-policy-ru]] | Русская версия политики библейской опоры | biblical-grounding-policy.md |
 | [[biblical-grounding-policy-uk]] | Українська версія політики біблійної опори | biblical-grounding-policy.md |
-| [[main-idea]] | Before We Build thesis: typologies as latent-process hypotheses across three levels | - |
-| [[project-main-goal]] | Main goal and public Christian framing: first doorway for lonely brothers/sisters before relationships and marriage, while preserving broad future paths for family, service, teams, business, and role fit | main-idea.md, project-positioning.md, plan.md, compatibility-level-boundaries.md |
+| [[main-idea]] | Before We Build thesis: one spiritual-moral foundation and three typological latent-process levels | - |
+| [[four-level-compatibility-architecture]] | Four compatibility levels: a primary spiritual-moral foundation plus strategic, operational, and tactical research levels | spiritual-foundation-levels-ru.md, family-formation-principles.md, compatibility-level-boundaries.md |
+| [[four-level-compatibility-architecture-ru]] | Русская четырёхуровневая архитектура: духовно-нравственное основание и три типологических исследовательских уровня | four-level-compatibility-architecture.md |
+| [[four-level-compatibility-architecture-uk]] | Українська чотирирівнева архітектура: духовно-моральна основа і три типологічні дослідницькі рівні | four-level-compatibility-architecture.md |
+| [[project-main-goal]] | Main goal and public Christian framing: first doorway for lonely brothers/sisters before relationships and marriage, while preserving broad future paths for family, service, teams, business, and role fit | main-idea.md, project-positioning.md, four-level-compatibility-architecture.md, compatibility-level-boundaries.md |
 | [[project-positioning]] | Before We Build vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
 | [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
+| [[operational-compatibility-ru]] | Русская проектная модель операционной совместимости как исправляемой системы совместного действия: анализ, синтез, роли, ответственность, воплощение и коррекция в областях Воли, Логики, Эмоции и Физики | compatibility-level-boundaries-ru.md, latent-process.md, afanasyev-resource-distribution-model-ru.md, psychosophy-intertype-relations.md |
 | [[before-we-build-vs-big-five]] | Positions Before We Build against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
 | [[psychology-of-everything]] | Context page on unified psychology, metatheory, integrative psychology, and “maps of everything” | psychology-of-everything-synthesis |
 | [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
@@ -125,7 +138,6 @@ wiki/          — LLM-generated wiki
 | [[socionics-test-specification]] | Draft Before We Build Socionics test architecture, scales, seed items, and scoring caveats | typology-test-design-protocol.md, socionics-model-a.md, socionics-information-elements.md |
 | [[psychosophy-test-specification]] | Draft Before We Build Psychosophy test architecture, position axes, seed items, and scoring caveats | typology-test-design-protocol.md, psychosophy-typing-methods.md, psychosophy-model.md |
 | [[temporistics-test-specification]] | Draft Before We Build Temporistics test architecture, temporal-frame scales, seed items, and scoring caveats | typology-test-design-protocol.md, temporistics-model.md, temporal-aspects.md |
-| [[plan]] | Current realistic weak-AI product plan: personal preparation, shared conversation maps, and later church-mediated support | plan.md |
 | [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary boundaries for Before We Build: preferred Scripture-first language, rejected psychology/typology front-door terms, and localized good/bad phrase examples | plan.md, consolidated-action-plan.md, glossary-audience-translation.md |
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
@@ -156,6 +168,7 @@ wiki/          — LLM-generated wiki
 | [[test-result-reading-guide-uk]] | Ukrainian translation of the test result reading guide | test-result-reading-guide.md |
 | [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
 | [[neuroscience-compatibility-bridges]] | Neuroscience and cognitive-science process bridges for compatibility levels | neuroscience-researcher |
+| [[neural-correlates-analysis-synthesis-ru]] | Русская исследовательская карта нейронных коррелятов анализа и синтеза в логике, решениях, эмоциях, Физике и временных задачах; строго без brain-type выводов | neural-correlates-analysis-synthesis-2026.md, neuroscience-compatibility-bridges.md |
 | [[prophetic-visionary-cognition]] | Heuristic link between prophetic/visionary cognition, 1st Eternity, and neuroscience-adjacent mechanisms | guru, neuroscience-compatibility-bridges, expert synthesis |
 | [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the СЛИ + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
@@ -302,6 +315,8 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | [[temporistics-intertype-relations]] | Proposed Temporistics intertype-relation reconstruction with 24 trilingual archetypal names, structural signatures, mechanism descriptors, and validation caveats | raw/temporistics/types.md, mystery-of-third-aspect.md, temporistics-detailed |
 
 ### Sources (Derived)
+
+| [[neural-correlates-analysis-synthesis-2026]] | Derived evidence ledger: neuroimaging reviews and meta-analyses for reasoning, relational integration, value-based decisions, effort, and emotion regulation | web research, 2026-07-26 |
 
 | Page | Summary | Raw Sources |
 |------|---------|------------|

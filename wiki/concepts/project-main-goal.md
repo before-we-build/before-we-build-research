@@ -3,8 +3,8 @@ title: Project Main Goal
 type: concept
 tags: [before-we-build, product-goal, christian-audience, singles, compatibility, multi-audience]
 created: 2026-05-13
-updated: 2026-05-13
-sources: [wiki/concepts/main-idea.md, wiki/concepts/project-positioning.md, wiki/concepts/plan.md, wiki/concepts/compatibility-level-boundaries.md]
+updated: 2026-07-26
+sources: [wiki/concepts/main-idea.md, wiki/concepts/project-positioning.md, wiki/concepts/four-level-compatibility-architecture.md, wiki/concepts/compatibility-level-boundaries.md]
 status: working
 ---
 
@@ -14,7 +14,10 @@ status: working
 
 **Before We Build helps Christians examine the foundation before serious shared decisions: first for lonely brothers and sisters discerning relationships and marriage, and later for family, church service, teams, business partnership, and role/responsibility fit.**
 
-It uses a hidden three-level compatibility map to turn complex differences into simple questions for prayer, Scripture reflection, honest conversation, wise counsel, and responsible next steps.
+It uses a hidden four-level compatibility map—one spiritual-moral foundation
+and three typological research levels—to turn complex differences into simple
+questions for prayer, Scripture reflection, honest conversation, wise
+counsel, and responsible next steps.
 
 ## Primary Launch Audience
 
@@ -58,23 +61,26 @@ That question can apply to:
 
 The public doorway may begin with lonely Christian singles, but the underlying project remains an umbrella for many situations where people need to build together.
 
-## Three-Level Compatibility Map
+## Four-Level Compatibility Map
 
 The research layer remains useful, but it should be hidden from the ordinary Christian public doorway.
 
-Internally, Before We Build uses three typological systems as heuristic maps of compatibility at three levels:
+Internally, Before We Build uses one primary Christian foundational level and
+three secondary typological research levels:
 
 | Level | Internal system | Hidden research question | Public Christian translation |
 |---|---|---|---|
+| **Spiritual-moral / foundational** | No typology; Scripture, observed fruit and character, church context, mature counsel | Do people build before the same highest Authority with compatible faith and moral commitments? | Before Whom and on what foundation are we building? What fruit, faithfulness, repentance, and responsibility are visible? |
 | **Strategic** | Temporistics | Do people share a compatible temporal/existential direction? | Where are we going before God? What future, meaning, memory, and life direction are we building from? |
 | **Operational** | Psychosophy | Can people organize decisions, pressure, effort, emotion, logic, will, and practical action together? | How do we make decisions, carry responsibility, handle pressure, and act together? |
 | **Tactical** | Socionics | Can people perceive, exchange, repair, and coordinate information in concrete situations? | How do we talk, hear, misunderstand, repair, and coordinate daily steps? |
 
 The public audience does not need to see the words **Temporistics**, **Psychosophy**, or **Socionics** at the doorway. They should see ordinary questions:
 
-1. **Where are we going?**
-2. **How do we decide and carry responsibility?**
-3. **How do we talk, hear, and repair misunderstandings?**
+1. **Before Whom and on what foundation are we building?**
+2. **Where are we going?**
+3. **How do we decide and carry responsibility?**
+4. **How do we talk, hear, and repair misunderstandings?**
 
 ## Christian Public Framing
 

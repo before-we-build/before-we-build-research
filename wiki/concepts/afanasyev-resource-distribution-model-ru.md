@@ -3,7 +3,7 @@ title: Модель распределения энергетических ре
 type: concept
 tags: [psychosophy, afanasyev, resource-distribution, operational-level, project-hypothesis, ru]
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-07-26
 lang: ru
 sources: [afanasyev-model.md, psychosophy-model.md, psychosophy-detailed.md, raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md, raw/psychosophy/first-function.md, raw/psychosophy/second-function.md, raw/psychosophy/third-function.md, raw/psychosophy/fourth-function.md, psychosophy-volition-functions.md, psychosophy-logic-functions.md, psychosophy-emotion-functions.md, psychosophy-physics-functions.md]
 ---
@@ -395,6 +395,10 @@ sources: [afanasyev-model.md, psychosophy-model.md, psychosophy-detailed.md, raw
 ## 7. Before We Build: зачем эта модель проекту
 
 В Before We Build психософия не должна быть публичным “тестом совместимости”. Её исследовательская польза — в другом: она помогает строить **карту совместного действия**.
+
+Цельное определение операционной совместимости, включая общий цикл
+«анализ → синтез → распределение ролей → воплощение → коррекция», см. в
+[[operational-compatibility-ru]].
 
 Для христианского публичного пути это нельзя подавать как “узнай свой тип и найди пару”. Безопаснее переводить внутреннюю модель в вопросы:
 

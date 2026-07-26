@@ -3,7 +3,7 @@ title: Main Idea
 type: concept
 tags: [theory, foundations, integration, before-we-build, latent-processes]
 created: 2026-04-14
-updated: 2026-05-13
+updated: 2026-07-26
 lang: en
 canonical: main-idea.md
 sources: []
@@ -65,15 +65,23 @@ observable traces
 
 See [[latent-process]] for the detailed framework.
 
-## 4. The Three Compatibility Levels
+## 4. The Four Compatibility Levels
 
-Before We Build uses the three typologies as primary lenses for three different levels of interaction:
+Before We Build uses a four-level compatibility architecture: one primary
+spiritual-moral foundation and three secondary typological research levels.
 
-1. **Strategic compatibility** asks whether two people can share a compatible long-range temporal and existential direction. The primary typology is **Temporistics**.
-2. **Operational compatibility** asks whether two people can organize decisions, effort, pressure, priorities, and embodiment together. The primary typology is **Psychosophy**.
-3. **Tactical compatibility** asks whether two people can perceive, exchange, repair, and coordinate information in concrete situations. The primary typology is **Socionics**.
+1. **Spiritual-moral compatibility** asks before whom, on what foundation, and according to what good two people will build. Its sources are Scripture, observable fruit and character, conscience, church context, and mature counsel. It is not a typology or automated score.
+2. **Strategic compatibility** asks whether two people can share a compatible long-range temporal and existential direction. The primary typology is **Temporistics**.
+3. **Operational compatibility** asks whether two people can organize decisions, effort, pressure, priorities, and embodiment together. The primary typology is **Psychosophy**.
+4. **Tactical compatibility** asks whether two people can perceive, exchange, repair, and coordinate information in concrete situations. The primary typology is **Socionics**.
 
-These levels should not be collapsed into each other. Similar words across systems do not mean identical constructs. For example, Psychosophy Emotion is not Socionics Fe or Fi, Psychosophy Will is not Socionics Se, and Temporistics Future is not Socionics Ni. See [[compatibility-level-boundaries]].
+The spiritual-moral foundation cannot be inferred from a type, and the three
+typological levels should not be collapsed into each other. Similar words
+across systems do not mean identical constructs. For example, Psychosophy
+Emotion is not Socionics Fe or Fi, Psychosophy Will is not Socionics Se, and
+Temporistics Future is not Socionics Ni. See
+[[four-level-compatibility-architecture]] and
+[[compatibility-level-boundaries]].
 
 ## 5. Positional Modes
 
@@ -106,4 +114,4 @@ The framework should use careful language: hypothesis, interpretation, heuristic
 
 The earlier **Cognitive Matchmaker** idea is now a future research track, not the near MVP. The current application should begin as a weak-AI conversation map: personal preparation, shared questions, visible differences, open uncertainty, and wise next steps.
 
-See [[project-main-goal]], [[project-positioning]] and [[plan]] for the full distinction.
+See [[project-main-goal]] and [[project-positioning]] for the full distinction.
