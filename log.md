@@ -2,6 +2,10 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-07-28] concept | Комбинаторика составных интертипных отношений
+
+Added `wiki/concepts/composite-intertype-combinatorics-ru.md`, a Russian research-layer calculation separating 9 216 three-system composite profiles (`16 × 24 × 24`), 84 934 656 directed profile relations, and 42 471 936 undirected profile pairs including equal profiles. The page distinguishes type profiles from relation signatures and canonical labels, explains why unordered pairs are divided by two, records the 8 064 simplification when 14 Socionics canonical labels are used, and states strict limits: this is a combinatorial model space rather than a validated catalogue of compatibility outcomes. Updated `index.md`.
+
 ## [2026-07-05] research | Сравнение христианских моделей духовной зрелости
 
 Added `wiki/concepts/spiritual-maturity-models-comparison-ru.md`, a Russian research synthesis comparing biblical and Christian models of spiritual maturity with the current 4-position Before We Build spiritual-foundation scheme. The page covers Hebrews 5, 1 Corinthians 3, 1 John 2, Ephesians 4, Galatians 5, 2 Peter 1, Jim Putman / Discipleship.org's five stages of disciple growth, Dallas Willard's spiritual formation as heart/will transformation toward Christlike action and love, GotQuestions' popular evangelical maturity summary, the classic purgative/illuminative/unitive model, and Fowler's developmental faith stages as a non-normative psychological background. Updated `wiki/concepts/spiritual-foundation-levels-ru.md` with safer names (`вне общего основания`, `порог / внешняя форма`, `путь ученика`, `плодоносящая укоренённость`) and linked the comparison from `index.md`.
