@@ -2,9 +2,22 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-08-04] community-research | Total Typology Community Research & Ingestion Infrastructure
+
+Created the research and ingestion pipeline for online typology communities across Socionics, Psychosophy, and Temporistics:
+- `scripts/discover_community_targets.py`: Catalog & CDX auditor for legacy/active community portals (`temporistics.ru`, `socionik.com`, `idealist.ru`, `24types.ru`, `socioforum.su`, `systema-socionicas.org`).
+- `scripts/fetch_wayback_community.py`: Wayback Machine CDX snapshot extractor saving raw JSON metadata and extracted Markdown dumps into `raw/<typology>/community-sources/`.
+- `scripts/parse_and_classify_insights.py`: Insight parser and epistemological provenance classifier mapping community findings to the 4-level compatibility model (`tactical`, `operational`, `strategic`, `value-moral`) and generating wiki source synthesis pages (`wiki/sources/community-socionics-idealist-ru.md`).
+- Established proxy/VPN bypass strategy and verified link integrity via `scripts/check_wikilinks.py`.
+
 ## [2026-07-28] concept | Комбинаторика составных интертипных отношений
 
 Added `wiki/concepts/composite-intertype-combinatorics-ru.md`, a Russian research-layer calculation separating 9 216 three-system composite profiles (`16 × 24 × 24`), 84 934 656 directed profile relations, and 42 471 936 undirected profile pairs including equal profiles. The page distinguishes type profiles from relation signatures and canonical labels, explains why unordered pairs are divided by two, records the 8 064 simplification when 14 Socionics canonical labels are used, and states strict limits: this is a combinatorial model space rather than a validated catalogue of compatibility outcomes. Updated `index.md`.
+
+## [2026-07-27] market research | Mosaic competitor watch
+
+Added `wiki/sources/competitor-mosaic-relationship-intelligence-ru.md` as a dated Russian competitor-watch card. It distinguishes MosaicChats as a potential AI relationship-intelligence competitor, Mosaic Cultural Compass for Couples as an adjacent conversation product, and Mosaic Personality Tasks as an adjacent psychometric product and naming conflict. The note records product overlap, key differences from Before We Build, privacy and non-user-consent questions around uploaded conversations, monitoring signals, and the decision not to use `Mosaic` as a primary marketing name without separate legal review. Linked the card from `wiki/sources/common-projects.md` and added it to `index.md`.
+>>>>>>> e7aa93a (feat: Add community research pipeline scripts, target discovery catalog, and initial idealist.ru source ingestion)
 
 ## [2026-07-05] research | Сравнение христианских моделей духовной зрелости
 
@@ -1290,3 +1303,4 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-07-26 - Added a three-level compatibility physiology hypothesis to `neural-correlates-analysis-synthesis-ru.md`: strategic temporal construction, operational resource/control regulation, tactical interactional coordination, plus stress and recovery as cross-level constraints. Explicitly rejected similarity/synchrony as a compatibility verdict and proposed consent-based behavioral task measures.
 2026-07-26 - Adopted the four-level compatibility architecture: a primary spiritual-moral/foundational level plus three secondary typological research levels (strategic/Temporistics, operational/Psychosophy, tactical/Socionics). Added canonical English, Russian, and Ukrainian architecture pages; synchronized the main idea, level boundaries, project framing, test-result guides, compromise model, simulator wording, README, and index. Explicitly prohibited treating the foundational level as a fourth typology, automated score, spiritual rank, or inference about salvation and human worth.
 2026-07-26 - Superseded the Christian-only core framing with a universal research architecture for any two people. Renamed the universal foundational level to value-moral / ценностно-нравственный / ціннісно-моральний; added trilingual canonical pages with domain contracts, evidence classes, compatible-difference categories, non-negotiable conflicts, and safety gates. Reclassified the Christian relationship/family model as the first developed worldview/domain application, updated AGENTS.md through the controlled `.agent-learning` governance loop, and synchronized README, index, positioning, main-goal, level-boundary, test-reading, compromise, simulator, and Christian-specialization pages.
+2026-07-26 - Added a trilingual project-owner observation to the Psychosophy Physics pages: logistical tasks may be difficult for 4F and may become manageable through a concrete 1F demonstration. Recorded it as a testable hypothesis rather than an established fact and added rival explanations plus before/after observable markers.

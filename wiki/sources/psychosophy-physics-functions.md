@@ -3,7 +3,7 @@ title: Psychosophy Physics Functions — 1F, 2F, 3F, 4F
 type: source
 tags: [psychosophy, physics, body, material-life, operational-level, project-hypothesis]
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-07-26
 lang: en
 canonical: psychosophy-physics-functions.md
 sources: [psychosophy-detailed.md, fourth-physics-deep-research.md, raw/general/fourth-physics-deep-research.md, raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/psychosophy-accentuations.md]
@@ -330,6 +330,23 @@ Libido belongs to a larger human context: health, hormones, sleep, stress, attac
 - 4F may not naturally place sexual/bodily pleasure high in the hierarchy of priorities, or may need context, trust, and a stable relational frame for the topic to become concrete.
 - Healthy form: honest conversation without pressure or shame.
 - Risk: misusing typology either to demand more or to dismiss the topic entirely.
+
+### Project-owner observation: logistics and learning from 1F
+
+The project owner reports a recurring pattern: **logistical tasks are difficult
+for 4F, and they become manageable when a 1F person helps by demonstrating a
+concrete example**. The strong version of the observation says that verbal
+explanation alone is insufficient: 4F needs to see how 1F turns a destination,
+time, transport, things, cost, and constraints into an executable sequence.
+
+Before We Build records this as a **project-owner observation and testable
+hypothesis**, not as an established fact about every 4F person. Testing should
+separate the effect of a specifically 1F model from the effects of any worked
+example, prior experience, a clear checklist, a navigation or taxi app,
+executive-function load, anxiety, money, health, and familiarity with the
+environment. Relevant observable markers are whether the person can initiate,
+sequence, execute, and revise a logistical plan before and after seeing the
+example.
 
 ### Helpful questions
 

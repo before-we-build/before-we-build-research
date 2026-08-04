@@ -3,7 +3,7 @@ title: Common Projects
 type: source
 tags: [research, related-work]
 created: 2026-04-14
-updated: 2026-04-15
+updated: 2026-07-27
 sources: []
 ---
 
@@ -83,6 +83,17 @@ An AI-powered matchmaking product positioned around deep onboarding and curated 
 
 **Fate**  
 Representative of the current “agentic AI dating” wave discussed in mainstream tech press, including an interview-style onboarding agent, curated matches, and optional coaching; this is directly adjacent competitive/adjacent-territory intelligence for your “Love First, Know Later” simulation narrative. 
+
+**Mosaic (competitor watch)**
+The name currently covers several distinct products in adjacent territory.
+MosaicChats analyzes exported conversations and produces personality,
+compatibility, communication-pattern, and AI-coaching outputs, while Mosaic
+Cultural Compass focuses on intercultural couples. Mosaic Personality Tasks is
+a separate workplace psychometric product and creates an additional naming
+collision rather than a direct relationship-product competitor. See
+[[competitor-mosaic-relationship-intelligence-ru]] for the dated market
+snapshot, product-boundary notes, privacy questions, and Before We Build
+monitoring decisions.
 
 **Harver** and **pymetrics**  
 While this lineage is not “LLM simulation-first,” it is a highly relevant HR precedent for psychometrics-in-the-loop talent matching, and it demonstrates an enterprise path (assessment → decisioning) plus acquisition dynamics. 

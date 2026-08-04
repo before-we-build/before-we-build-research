@@ -370,6 +370,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | [[socionics-detailed]] | Tactical level: Model A, 8 functions, 16 types | raw/socionics/ |
 | [[typology-full-description]] | Complete reference for all three typologies | - |
 | [[common-projects]] | Related projects and research | - |
+| [[competitor-mosaic-relationship-intelligence-ru]] | Russian competitor-watch note separating MosaicChats, Mosaic Cultural Compass for Couples, and Mosaic Personality Tasks; records product overlap, naming conflict, privacy questions, and monitoring decisions | official Mosaic product and privacy pages, checked 2026-07-27 |
 | [[deep-research-report]] | Agent frameworks, orchestration, memory comparison | - |
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
 | [[hang-the-dj-simulation-compatibility]] | Black Mirror episode used as simulation metaphor, including the fictional 99.8% reveal | - |
@@ -510,16 +511,18 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | psychosophy-typing-methods.md | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
 | fourth-physics-deep-research.md | Fourth Physics (4Ф) deep research with clinical-safety caveats | Deep research 2026 |
 
+| [[community-socionics-idealist-ru]] | Archived web community source ingestion for idealist.ru portal | Wayback Machine, community archive |
+
 ---
 
 ## Statistics
 
 - **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
 - **Agents created**: 48 (including typology-test-evaluation-expert)
-- **Raw sources**: 59 (21 temporistics + 9 psychosophy + 12 socionics + 17 general)
-- **Wiki pages**: 114 (40 concepts + 35 entities + 3 relations + 32 sources + 4 reference pages)
+- **Raw sources**: 60 (21 temporistics + 9 psychosophy + 13 socionics + 17 general)
+- **Wiki pages**: 115 (40 concepts + 35 entities + 3 relations + 33 sources + 4 reference pages)
 - **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
-- **Articles ingested**: 59 raw sources plus derived web/source pages
+- **Articles ingested**: 60 raw sources plus derived web/source pages
 - **Relations pages**: 3 (socionics, temporistics, psychosophy)
 - **Concepts**: 40
-- **Last updated**: 2026-06-27
+- **Last updated**: 2026-08-04
