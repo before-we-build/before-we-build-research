@@ -414,7 +414,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | [[glossary-extended]] | Extended disambiguation (60+ terms) |
 | [[glossary-audience-translation]] | Public-language bridge for translating research entities for Christian and general audiences |
 | [[christian-entity-renaming-audit]] | Editorial audit of research entities that should be kept, renamed, demoted, or hidden in Christian-facing copy |
-| [[project-requirements]] | Current weak-AI conversation-map requirements; deferred Cognitive Matchmaker research is not the MVP |
+| [[project-main-goal]] | Current weak-AI conversation-map requirements and universal research goal; deferred Cognitive Matchmaker research is not the MVP |
 | [[scientific-contribution-statement]] | Academic contribution statement |
 
 ---

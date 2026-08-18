@@ -17,7 +17,15 @@ Added `wiki/concepts/composite-intertype-combinatorics-ru.md`, a Russian researc
 ## [2026-07-27] market research | Mosaic competitor watch
 
 Added `wiki/sources/competitor-mosaic-relationship-intelligence-ru.md` as a dated Russian competitor-watch card. It distinguishes MosaicChats as a potential AI relationship-intelligence competitor, Mosaic Cultural Compass for Couples as an adjacent conversation product, and Mosaic Personality Tasks as an adjacent psychometric product and naming conflict. The note records product overlap, key differences from Before We Build, privacy and non-user-consent questions around uploaded conversations, monitoring signals, and the decision not to use `Mosaic` as a primary marketing name without separate legal review. Linked the card from `wiki/sources/common-projects.md` and added it to `index.md`.
->>>>>>> e7aa93a (feat: Add community research pipeline scripts, target discovery catalog, and initial idealist.ru source ingestion)
+
+## [2026-08-18] maintenance | Wiki lint and cross-reference fix
+
+Performed full repository linting across 630 markdown documents:
+- Validated YAML frontmatter across all `wiki/` pages.
+- Verified canonical question bank JSON structure in `instruments/pilot-question-bank.md`.
+- Updated `index.md` linking `[[project-main-goal]]` instead of outdated `[[project-requirements]]`.
+- Corrected concept references in `AGENTS.md` (`[[latent-process]]`).
+- Removed leftover git conflict artifact in `log.md`.
 
 ## [2026-07-05] research | Сравнение христианских моделей духовной зрелости
 

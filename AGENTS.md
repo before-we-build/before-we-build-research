@@ -114,7 +114,7 @@ Content...
 
 - **Files**: kebab-case (e.g., `past-aspect.md`, `model-a-functions.md`)
 - **Entities**: lowercase with hyphens (e.g., `1st-past-author.md`)
-- **Concepts**: descriptive nouns (e.g., `latent-processes.md`)
+- **Concepts**: descriptive nouns (e.g., `latent-process.md`)
 
 ### Cross-References
 
@@ -123,7 +123,7 @@ Use wikilinks for internal references:
 - `[[entity-name]]` for entities
 - `[[source-name]]` for sources
 
-Example: `See [[latent-processes]] for theoretical foundation.`
+Example: `See [[latent-process]] for theoretical foundation.`
 
 ## Operations
 
