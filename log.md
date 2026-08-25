@@ -2,6 +2,37 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-08-25] concept | Michelangelo Phenomenon (Феномен Микеланджело)
+
+Added `wiki/concepts/michelangelo-phenomenon.md` and `wiki/concepts/michelangelo-phenomenon-ru.md` documenting the empirical social-psychological model of partner sculpting and ideal-self affirmation:
+- **Academic references:** Grounded in Drigotas, Rusbult, Wieselquist, & Whitton (1999), Rusbult, Finkel, & Kumashiro (2009), and Higgins' Self-Discrepancy Theory (1987).
+- **Core causal sequence:** Target's Ideal Self $\rightarrow$ Partner Perceptual Affirmation $\rightarrow$ Partner Behavioral Affirmation $\rightarrow$ Movement Toward Ideal Self $\rightarrow$ Relational & Individual Well-Being.
+- **Differential typology:** Contrasts Michelangelo sculpting (sculpting toward the target's own ideal) with the Pygmalion phenomenon (imposing partner's preferences), partner disaffirmation (neglect/indifference), and counter-sculpting (degradation/sabotage); disambiguates from Swann's Self-Verification and naive Self-Enhancement.
+- **Four-level framework integration:**
+  - *Value-moral foundation:* Respect for the partner's unique calling, agency, and human dignity; rejection of Pygmalion manipulation.
+  - *Strategic level (Temporistics):* Affirmation of Future aspect trajectories and long-term telos without temporal dissonance.
+  - *Operational level (Psychosophy):* Nurturing and healing vulnerable 3rd functions through 2nd function process dialogue; restraining 1st function despotism.
+  - *Tactical level (Socionics):* Cognitive complementation and metabolic relief on weak/unconscious functions to free energy for Ego-block mastery.
+- **Cross-references & catalog:** Updated `wiki/concepts/sociological-compatibility-analogues.md` under the Interdependence / Rusbult section and registered both pages in `index.md`.
+
+## [2026-08-21] relation | Cognitive Complexity and Intelligence-Level Relations
+
+Added `wiki/relations/cognitive-complexity-relations.md` and `wiki/relations/cognitive-complexity-relations-ru.md` documenting relational dynamics emerging from matches and discrepancies in general intelligence ($g$-factor/IQ) and hierarchical cognitive complexity:
+- **Academic references:** Grounded in Leta Hollingworth (1926, 1942) and Dean Keith Simonton's (1985, 1994) Communication Range Hypothesis, Elliott Jaques' (1989, 1996) Stratified Systems Theory (SST) & Time-Span of Discretion, Michael Commons' (1998, 2008) Model of Hierarchical Complexity (MHC), and Robert Kegan (1982, 1994) / Susanne Cook-Greuter (1999) Constructive-Developmental Theory.
+- **Relational matrix:** Formulates 4 relation classes across cognitive gaps ($\Delta$): Peer Resonance ($\Delta \approx 0$), Developmental Scaffolding ($\Delta = 1$), Paternalistic Disconnect ($\Delta \ge 2$), and Redundant Parity Friction ($\Delta = 0$ in asymmetric command roles).
+- **Asymmetric insight principle:** Formalizes top-down modeling vs bottom-up reductive interpretation ($\text{Insight}(A \rightarrow B) \neq \text{Insight}(B \rightarrow A)$).
+- **Cross-typology interaction:** Analyzes how cognitive complexity gaps distort Socionics Duality, Psychosophy Logic/Volition dialogue (e.g., 2L vs 3L), and separates Temporistics Future aspect from Jaques' operational Time-Span of Discretion.
+- **Construct boundaries:** Strict safeguards against moral worth or typological reduction inferences. Updated `index.md`.
+
+## [2026-08-18] source | Academic multilevel compatibility research (Volkov, Voloskova, Gladkikh 2025)
+
+Added academic source page `wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025.md` analyzing the peer-reviewed publication:
+- **Title:** «Влияние психологической совместимости членов профессиональной группы на социально-психологический климат коллектива» (Волков А. А., Волоскова Н. Н., Гладких М. А. // *Гуманизация образования*, 2025, № 4, с. 39–55, PDF с. 41).
+- **Key claim:** «Согласно материалам исследования, психологическая совместимость — это многоуровневое явление».
+- **Theoretical alignment:** Provides academic validation from social and organizational psychology for the foundational architectural premise of Before We Build — compatibility cannot be collapsed into a single metric and operates across distinct levels (socio-psychological/value-normative, action/operational, and psychophysiological/tactical) through similarity (similarity principle for values) and complementarity (complementarity principle for action and operational styles).
+- **Integration:** Updated `raw/general/existing-validation-research.md`, `wiki/sources/resource-map-ru.md`, `wiki/sources/resource-map.md`, `wiki/concepts/four-level-compatibility-architecture.md`, `wiki/concepts/four-level-compatibility-architecture-ru.md`, and `index.md`. Verified wikilink integrity with `scripts/check_wikilinks.py`.
+
+
 ## [2026-08-04] community-research | Total Typology Community Research & Ingestion Infrastructure
 
 Created the research and ingestion pipeline for online typology communities across Socionics, Psychosophy, and Temporistics:

@@ -6,7 +6,7 @@ created: 2026-07-26
 updated: 2026-07-26
 lang: en
 canonical: four-level-compatibility-architecture.md
-sources: [project-owner-decision-2026-07-26, wiki/concepts/compatibility-level-boundaries.md, wiki/concepts/sociological-compatibility-analogues.md, wiki/concepts/limits-of-typological-inference.md]
+sources: [project-owner-decision-2026-07-26, wiki/concepts/compatibility-level-boundaries.md, wiki/concepts/sociological-compatibility-analogues.md, wiki/concepts/limits-of-typological-inference.md, wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025.md]
 ---
 
 # Universal Four-Level Compatibility Architecture
@@ -132,6 +132,13 @@ make the architecture appear complete.
 5. **Context and safety:** What real conditions, burdens, or dangers change
    the answer?
 
+## Academic Parallels: Multilevel Compatibility
+
+The premise that psychological compatibility is inherently a **multilevel phenomenon** is corroborated in academic social and organizational psychology (see [[volkov-voloskova-gladkikh-multilevel-compatibility-2025]]):
+- The socio-psychological (value-normative) level relies primarily on the *similarity principle* (homogamy, shared moral horizons, non-negotiable boundaries).
+- The action and psychophysiological levels rely primarily on the *complementarity principle* (role division, cognitive/action pacing).
+- Mismatches on different levels produce distinct dysfunctions and require separate diagnostic and conversation strategies.
+
 ## See Also
 
 - [[value-moral-compatibility]]
@@ -140,4 +147,5 @@ make the architecture appear complete.
 - [[research-layer-vs-practical-guidance]]
 - [[compatibility-level-boundaries]]
 - [[limits-of-typological-inference]]
-- [[research-layer-vs-practical-guidance]]
+- [[volkov-voloskova-gladkikh-multilevel-compatibility-2025]]
+

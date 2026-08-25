@@ -58,6 +58,13 @@
 - **Finding:** Supports Bukalov & Filatova's structural compatibility patterns
 - Proposes: Shift from categorical to dimensional (trait-based) compatibility model
 
+#### 6. Volkov, Voloskova, Gladkikh (2025) — Multilevel Compatibility & Team Climate
+**"Влияние психологической совместимости членов профессиональной группы на социально-психологический климат коллектива"** (Influence of Psychological Compatibility of Professional Group Members on Socio-Psychological Climate)
+- Published: *Гуманизация образования* (Humanization of Education), 2025, № 4, pp. 39–55 (PDF p. 41)
+- Link: https://humanization.ru/wp-content/uploads/2026/04/%D0%93%D0%9E-4-2025.pdf#page=41
+- **Key Finding:** Confirms that psychological compatibility is fundamentally a **multilevel phenomenon** (психофизиологический, психологический, социально-психологический уровни) operating through both similarity and complementarity principles.
+
+
 ### German Research Program
 
 **"Socionics: Sociological Concepts for Social Systems"**

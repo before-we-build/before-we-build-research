@@ -7,7 +7,7 @@ updated: 2026-07-26
 lang: ru
 canonical: four-level-compatibility-architecture.md
 translation_of: four-level-compatibility-architecture.md
-sources: [project-owner-decision-2026-07-26, wiki/concepts/compatibility-level-boundaries-ru.md, wiki/concepts/sociological-compatibility-analogues.md, wiki/concepts/limits-of-typological-inference-ru.md]
+sources: [project-owner-decision-2026-07-26, wiki/concepts/compatibility-level-boundaries-ru.md, wiki/concepts/sociological-compatibility-analogues.md, wiki/concepts/limits-of-typological-inference-ru.md, wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025.md]
 ---
 
 # Универсальная четырёхуровневая архитектура совместимости
@@ -137,6 +137,13 @@ Before We Build использует **четыре уровня совмест�
 5. **Контекст и безопасность:** какие реальные условия, нагрузки или
    опасности меняют ответ?
 
+## Академические параллели: многоуровневость совместимости
+
+Тезис о том, что психологическая совместимость принципиально является **многоуровневым явлением**, подтверждается и в академических исследованиях малых и профессиональных групп (см. [[volkov-voloskova-gladkikh-multilevel-compatibility-2025]]):
+- Социально-психологический (ценностный) уровень опирается на принцип *сходства* (гомогамия, общие моральные и смысловые рамки).
+- Личностно-деятельностный и психофизиологический уровни опираются на принцип *дополнительности* (комплементарность ролей, стилей действия и коммуникации).
+- Рассогласование на любом из уровней требует дифференцированного анализа, а не плоского обобщения.
+
 ## См. также
 
 - [[value-moral-compatibility-ru]]
@@ -145,3 +152,5 @@ Before We Build использует **четыре уровня совмест�
 - [[compatibility-level-boundaries-ru]]
 - [[limits-of-typological-inference-ru]]
 - [[research-layer-vs-practical-guidance-ru]]
+- [[volkov-voloskova-gladkikh-multilevel-compatibility-2025]]
+

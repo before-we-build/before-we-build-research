@@ -83,6 +83,8 @@ application profile, not the definition of the research core.
 | [[temporistics-cognitive-resource-routing-creation-model-uk]] | Українська дослідницька гіпотеза: темпористика як креаціоністська модель розподілу когнітивного ресурсу, часової маршрутизації та соціального доповнення |
 | [[spiritual-foundation-levels-ru]] | Русская исследовательская гипотеза о четырёх духовных позициях основания и четырёх парных динамиках: сонаправленность, асимметрия зрелости, неясное основание и разное основание |
 | [[spiritual-maturity-models-comparison-ru]] | Русское сопоставление библейских и христианских моделей духовной зрелости с текущей 4-позиционной схемой Before We Build |
+| [[michelangelo-phenomenon]] | Empirical social-psychological model of mutual partner sculpting toward ideal self, integrated into the 4-level compatibility architecture |
+| [[michelangelo-phenomenon-ru]] | Русская концептуальная статья о феномене Микеланджело: модель взаимного раскрытия идеального «Я», перцептивная/поведенческая аффирмация и 4 уровня проекта |
 | [[adequate-compromise-ru]] | Russian project reconstruction of adequate compromise with green/yellow/red zones and explicit boundaries where compromise becomes impossible, coercive, or one-sided |
 | [[adequate-compromise-relations-all-typologies-ru]] | Russian cross-typology map of all Socionics relations and all 17 reciprocal Psychosophy/Temporistics signature families by compromise zones A, B, and C |
 | [[adequate-intertype-formats-ru]] | Russian Socionics-level hypothesis: intertype relations become adequate when the relationship type receives the right distance, load, and format |
@@ -200,6 +202,8 @@ wiki/          — LLM-generated wiki
 | [[test-result-reading-guide-ru]] | Russian translation of the test result reading guide | test-result-reading-guide.md |
 | [[test-result-reading-guide-uk]] | Ukrainian translation of the test result reading guide | test-result-reading-guide.md |
 | [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
+| [[michelangelo-phenomenon]] | Michelangelo phenomenon: social-psychological model of partner sculpting toward ideal self, affirmation mechanisms, and 4-level compatibility integration | Drigotas 1999, Rusbult 2009, Higgins 1987, sociological-compatibility-analogues.md |
+| [[michelangelo-phenomenon-ru]] | Феномен Микеланджело: модель созидательного раскрытия идеального «Я», перцептивная и поведенческая аффирмация, сопоставление с Пигмалионом и интеграция в 4 уровня | Drigotas 1999, Rusbult 2009, michelangelo-phenomenon.md |
 | [[neuroscience-compatibility-bridges]] | Neuroscience and cognitive-science process bridges for compatibility levels | neuroscience-researcher |
 | [[neural-correlates-analysis-synthesis-ru]] | Русская исследовательская карта нейронных коррелятов анализа и синтеза в логике, решениях, эмоциях, Физике и временных задачах; строго без brain-type выводов | neural-correlates-analysis-synthesis-2026.md, neuroscience-compatibility-bridges.md |
 | [[prophetic-visionary-cognition]] | Heuristic link between prophetic/visionary cognition, 1st Eternity, and neuroscience-adjacent mechanisms | guru, neuroscience-compatibility-bridges, expert synthesis |
@@ -343,6 +347,8 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 
 | Page | Summary | Sources |
 |------|---------|---------|
+| [[cognitive-complexity-relations]] | Relational dynamics across general intelligence ($g$-factor/IQ) and hierarchical cognitive complexity gaps; asymmetric insight, communication range, and cross-typology distortion | Hollingworth, Jaques, Commons, Kegan |
+| [[cognitive-complexity-relations-ru]] | Русская версия отношений уровней когнитивной сложности и интеллекта: асимметрия понимания, коммуникационный диапазон и влияние на типологии | Hollingworth, Jaques, Commons, Kegan |
 | [[socionics-intertype-relations]] | Socionics intertype relation glossary and tactical mechanism overview | raw/socionics/intertype-relations.md |
 | [[psychosophy-intertype-relations]] | Psychosophy intertype relations with full 24×24 working matrix and operational-level caveats | Syntax of Love, psychosophy compatibility research |
 | [[temporistics-intertype-relations]] | Proposed Temporistics intertype-relation reconstruction with 24 trilingual archetypal names, structural signatures, mechanism descriptors, and validation caveats | raw/temporistics/types.md, mystery-of-third-aspect.md, temporistics-detailed |
@@ -390,7 +396,9 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | [[bukalov-neural-structures-correlates]] | Source summary of Bukalov's speculative hypothesis on neural structures as physical correlates of information metabolism functions | raw/socionics/bukalov-neural-structures-correlates.md |
 | [[iis-41-conference-program-topics]] | Metadata-only source note for selected 41st IIS conference topics: Socionics/MBTI/Big Five, typing accuracy, and AI hallucinations | raw/socionics/iis-41-conference-program-metadata.md |
 | [[psychology-of-everything-synthesis]] | Derived synthesis on unified psychology, cognitive-science frameworks, and online totalizing maps | expert synthesis |
+| [[volkov-voloskova-gladkikh-multilevel-compatibility-2025]] | Peer-reviewed academic source: psychological compatibility as a multilevel phenomenon and its impact on socio-psychological climate in groups | Humanization of Education (Гуманизация образования), 2025 №4, p. 41 |
 | [[resource-map]] | Curated internet resource map with source-type, reliability, availability, and claim-use rules | project convention |
+
 | [[resource-map-ru]] | Russian translation of the internet resource map | resource-map.md |
 | [[resource-map-uk]] | Ukrainian translation of the internet resource map | resource-map.md |
 
@@ -466,6 +474,7 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 
 | Page | Summary | Sources |
 |------|---------|---------|
+| [[cognitive-complexity-relations]] | Relational dynamics across intelligence/complexity gaps with asymmetric insight principle | Hollingworth, Jaques, Commons, Kegan |
 | [[socionics-intertype-relations]] | Overview of Socionics relation classes with asymmetric role notes | raw/socionics/intertype-relations.md |
 | [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures with trilingual archetypal names modeled on the narrative style of the tetrads | raw/temporistics/types.md, project reconstruction |
 | [[psychosophy-intertype-relations]] | Greek-model tradition, Russian 24-signature technical labels, Attitudinal Psyche branch labels, and Before We Build working 24×24 operational matrix | Syntax of Love, Typologies.ru, Attitudinal Psyche, project matrix |

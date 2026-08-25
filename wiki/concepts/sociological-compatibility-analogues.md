@@ -176,6 +176,8 @@ Useful concepts:
 - dependence
 - power-dependence
 - investment and commitment
+- Michelangelo phenomenon (partner sculpting toward ideal self)
+- partner perceptual and behavioral affirmation
 
 Authors / search anchors:
 
@@ -185,18 +187,22 @@ Authors / search anchors:
 - Harold Kelley
 - Richard Emerson
 - Caryl Rusbult
+- Stephen Drigotas
+- Eli Finkel
 - `social exchange theory intimate relationships`
 - `interdependence theory relationships`
 - `investment model commitment Rusbult`
+- `michelangelo phenomenon partner sculpting Drigotas Rusbult`
 
 Project use:
 
 - bridge to operational compatibility through resource exchange and pressure handling
 - useful for money, care, labor, commitment, sacrifice, and fairness scenarios
+- foundational social-psychological model for mutual personal growth and affirmation of latent potential (see [[michelangelo-phenomenon]])
 
 Limit:
 
-- can be too rationalistic; does not fully capture meaning, identity, or information metabolism.
+- classic social exchange can be too rationalistic; supplemented by the Michelangelo phenomenon to account for identity, latent telos, and authentic personal flourishing.
 
 ### Household Labor / Division Of Labor
 

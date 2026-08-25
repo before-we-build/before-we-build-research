@@ -194,6 +194,8 @@ sources: []
 | McCrae & Costa — MBTI from the Five-Factor Model perspective | https://doi.org/10.1111/j.1467-6494.1989.tb00759.x | critique | EN | Мост между типологическими ярлыками и continuous traits | MBTI-specific; нельзя автоматически переносить на все типологии |
 | Pittenger — Measuring the MBTI... And Coming Up Short | https://web.archive.org/web/*/https://www.indiana.edu/~jobtalk/HRMWebsite/hrm/articles/develop/mbti.pdf | critique / archive | EN | Классическая критика надёжности, валидности и принудительных дихотомий | Старый источник, посвящённый MBTI; для формального цитирования нужно выбрать и проверить конкретный архивный снимок |
 | Boyle — MBTI: Some Psychometric Limitations | https://doi.org/10.1111/j.1742-9544.1995.tb01750.x | critique | EN | Часто цитируемая критика психометрических ограничений типологических дихотомий | Источник посвящён MBTI; DOI может требовать доступа через издателя и ручной проверки перед цитированием |
+| Волков, Волоскова, Гладких — Влияние психологической совместимости... | https://humanization.ru/wp-content/uploads/2026/04/%D0%93%D0%9E-4-2025.pdf#page=41 | primary-source / psychology | RU | Академическое подтверждение тезиса: «психологическая совместимость — это многоуровневое явление» и анализ СПК | Рецензируемая публикация (ВАК); контекст профессиональных групп, требует сопоставления с диадическими отношениями |
+
 
 ### Богословие, этика и пастырские границы
 

@@ -197,6 +197,8 @@ Use this section for resources on validation, reliability, construct validity, m
 | McCrae & Costa — MBTI from the Five-Factor Model perspective | https://doi.org/10.1111/j.1467-6494.1989.tb00759.x | critique | EN | Bridge for comparing type labels with continuous trait dimensions | MBTI-specific; do not automatically transfer conclusions to all typologies |
 | Pittenger — Measuring the MBTI... And Coming Up Short | https://web.archive.org/web/*/https://www.indiana.edu/~jobtalk/HRMWebsite/hrm/articles/develop/mbti.pdf | critique / archive | EN | Classic critique of reliability/validity and forced dichotomies | Older and MBTI-specific; use archived copies and verify the exact snapshot before formal citation |
 | Boyle — MBTI: Some Psychometric Limitations | https://doi.org/10.1111/j.1742-9544.1995.tb01750.x | critique | EN | Often-cited critique of psychometric limits of typological dichotomies | MBTI-specific; DOI may require publisher access and should be checked manually before citation |
+| Volkov, Voloskova, Gladkikh — Psychological Compatibility & Team Climate | https://humanization.ru/wp-content/uploads/2026/04/%D0%93%D0%9E-4-2025.pdf#page=41 | primary-source / psychology | RU | Academic validation: "psychological compatibility is a multilevel phenomenon" & impact on socio-psychological climate | Peer-reviewed journal article (Humanization of Education, 2025 №4); professional group focus |
+
 
 ### Theology, Ethics, and Pastoral Boundaries
 
