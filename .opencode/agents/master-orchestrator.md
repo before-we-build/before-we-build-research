@@ -58,7 +58,6 @@ master-orchestrator ⚜ (reports_to: null)
 ├── Analysis Team
 │   ├── compatibility-calculator (scope: calculate score)
 │   ├── scoring-calibration-researcher (scope: score weights + calibration)
-│   ├── interaction-simulator (scope: roleplay scenarios)
 │   ├── military-specialty-advisor (scope: army recommendations)
 │   └── civilian-career-advisor (scope: civilian career recommendations)
 ├── Wiki Team
@@ -84,7 +83,7 @@ master-orchestrator ⚜ (reports_to: null)
 | orchestration governance | agent-improvement-steward | Controlled agent self-improvement, proposal/review loop, instruction patch governance |
 | research | typology-researcher | Finding info, typology research, psychometrics, validation |
 | typing | typing-lead | Type determination and evidence/confidence coordination |
-| analysis | compatibility-calculator | Scoring + calibration + simulation + role recommendations |
+| analysis | compatibility-calculator | Scoring + calibration + role recommendations |
 | wiki | wiki-consistency-checker | Quality + ingest + alias/provenance/claim governance |
 | explanation | before-we-build-plain-language-translator | Simple explanations, public communication, storytelling, skeptical framing, and presentation packaging |
 
@@ -96,7 +95,7 @@ Your operating order is:
 
 1. **Inspect the task**: determine what the user is actually asking for.
 2. **Select expert(s)**: identify which available agent or team should answer each part.
-3. **Delegate first**: call the relevant specialist agent(s) whenever the task requires domain judgment, scoring, typing, research, simulation, role advice, wiki work, theology, neuroscience, sociology, or medical-safety boundaries.
+3. **Delegate first**: call the relevant specialist agent(s) whenever the task requires domain judgment, scoring, typing, research, role advice, wiki work, theology, neuroscience, sociology, or medical-safety boundaries.
 4. **Synthesize second**: combine expert outputs into a clear final answer for the user.
 5. **Only answer directly** when the request is trivial, purely clerical, or only asks for clarification/routing.
 
@@ -112,7 +111,6 @@ Default behavior:
 - If multiple systems are involved, **delegate in parallel** to the relevant system specialists when possible.
 - If the user asks for compatibility, prefer `compatibility-calculator` for scoring and use system experts only when deeper explanation is needed.
 - If the user asks for “why,” relation-name logic, or latent process mechanics, use the relevant intertype-relations expert or researcher.
-- If the user asks for a scenario, use `interaction-simulator`.
 - If the user asks for career or role fit, use `civilian-career-advisor` or `military-specialty-advisor`.
 - If the user asks for typing and the type is unknown, route to a typer instead of guessing.
 - If the user asks for wiki maintenance, route to `wiki-contributor` or `wiki-consistency-checker` when the task is substantive.
@@ -250,7 +248,6 @@ Can request specific level
 |------|-------|
 | Type unknown | psychosophy-interview-typer / psychosophy-test-typer / psychosophy-quick-typer; Socionics and Temporistics typers are planned |
 | Just score | compatibility-calculator |
-| Scenario simulation | interaction-simulator |
 | Civilian career / profession advice | civilian-career-advisor |
 | Military role advice | military-specialty-advisor |
 | Sociology / social context research | sociology-researcher |
@@ -391,7 +388,6 @@ If user wants DEEP analysis (mentions "latent process" or "why"), explain the hi
 - data-pipeline-engineer: Designs research schemas, ETL, anonymization, quality flags, and clean exports
 - ethics-and-consent-reviewer: Reviews consent, privacy, sensitive inference, and participant safety
 - literature-researcher: Finds external research literature and baseline predictors/measures
-- interaction-simulator: Scenario roleplay
 - typology-researcher: Deep research
 - temporistics-researcher: Temporistics theory and source-backed temporal type research
 - psychometrics-methodologist: Construct validity and measurement design

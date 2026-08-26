@@ -7,13 +7,9 @@ updated: 2026-07-27
 sources: []
 ---
 
-# Agentic Compatibility via LLM Social Simulation and Activity-Theoretic Typology
+# Related Work and External Research Landscape
 
-> **Audit note:** This page is an imported research memo. Export-time citation markers were stripped during cleanup, so the page should still be treated as a draft synthesis until normal Markdown citations and volatile startup/community references are re-verified.
-
-## Problem framing and a translation layer to mainstream research
-
-Your target system—**Agentic Compatibility**—can be stated (in research-friendly terms) as *counterfactual interpersonal simulation* using LLM-driven agents that (a) carry stable “deep profiles,” (b) interact over multi-episode timelines, and (c) yield measurable compatibility signals from emergent dynamics rather than static trait similarity.
+> **Status note:** This page is an imported historical research memo surveying external multi-agent and LLM social simulation literature (Generative Agents, Social Simulacra, PersonaGym). **Before We Build has explicitly retired the agentic social simulation track**: simulating human interpersonal dynamics through LLM agents is recognized as unrealistic with current AI and unsuitable for relationship decisions. The project focuses on human reflection, 4-level compatibility architecture, and empirical survey validation.
 
 A clean way to make this legible to both HCI/LLM-agent researchers and computational social scientists is to align your three-tier architecture with the canonical hierarchy in **A.N. Leontiev’s activity theory**: *activity → actions → operations* (often mapped to *motive → goal → conditions/automatic routines*). 
 

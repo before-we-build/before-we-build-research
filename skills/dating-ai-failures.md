@@ -51,11 +51,11 @@ Avoid mistakes made by previous LLM dating/compatibility projects by learning fr
 
 | What They Did Right |
 |----------------|
-| Simulating interactions (not static profiles) |
+| Process-level interaction analysis (not static profiles) |
 | Critical moments hypothesis from relationship psychology |
 | Proof of convergence |
 
-**What to Learn From**: They proved the paradigm shift mathematically. This is your academic hook.
+**What to Learn From**: They emphasized interaction process over static trait vectors.
 
 ## Core Error Patterns
 
@@ -78,17 +78,16 @@ Avoid mistakes made by previous LLM dating/compatibility projects by learning fr
 
 ```
 ❌ Match by personality vector similarity only
-✓ Simulate interaction first, then assess
+✓ Use multi-level process architecture (values, strategic, operational, tactical)
 ✓ Use critical moments framework
 ```
 
-### Error 4: Personality Instability
+### Error 4: Ungrounded Claims
 
 ```
-❌ Let model update rewrite persona
-✓ Lock persona anchors, test for drift
-✓ Use "memory checkpoints"
-✓ Implement persistent memory infrastructure
+❌ Claim AI can predict romantic destiny or simulate real human partners
+✓ Treat typologies as heuristic hypotheses for human reflection
+✓ Require human empirical validation
 ```
 
 ### Error 5: The Distribution Lie
@@ -104,10 +103,10 @@ Avoid mistakes made by previous LLM dating/compatibility projects by learning fr
 
 | Pattern to Avoid | Our Approach |
 |----------------|------------|
-| Tech-fixation | Build for specific researcher audience first |
-| Static matching | Scenario-first simulation |
+| Tech-fixation | Build for specific researcher and discernment audience first |
+| Static matching | Multi-level process architecture & conversation mapping |
 | Individual dev | Partner with validation researchers |
-| Monetize intimacy | Research tool, not product |
+| Monetize intimacy | Research tool and conversation aid, not product |
 | Generic cold outreach | Target method-aligned academics first |
 
 ## Key Quote: Dan Kras

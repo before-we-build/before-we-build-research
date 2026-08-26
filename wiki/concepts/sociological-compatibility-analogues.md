@@ -327,7 +327,7 @@ Authors / search anchors:
 Project use:
 
 - strong empirical bridge to tactical compatibility
-- can provide observable markers for interaction simulations
+- can provide observable markers for interaction analysis and conversation mapping
 
 Limit:
 

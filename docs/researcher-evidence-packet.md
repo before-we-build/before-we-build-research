@@ -2,81 +2,76 @@
 
 ## Three-Sentence Version
 
-Cognitive Matchmaker is a research prototype for **simulation-assisted compatibility assessment** using persona-conditioned LLM agents rather than static profile matching alone. It uses three typological systems — Temporistics (strategic), Psychosophy (operational), Socionics (tactical) — as **structured schema languages for hypothesis generation**, then tests those hypotheses through counterfactual interpersonal simulation. The core method relies on **induction, deduction, synthesis, and analysis** to build personas, run dyadic scenarios, and extract compatibility signals — all validated against external outcomes.
+Before We Build is a universal compatibility research framework for studying how any two people build, decide, coordinate, and sustain relationships or shared work. It interprets Temporistics (strategic), Psychosophy (operational), and Socionics (tactical) as **latent-process hypotheses** situated on a foundational value-moral level. The framework aims to explore whether these latent-process models provide incremental predictive validity for dyadic coordination beyond standard Big Five baselines.
 
 ## One-Sentence Thesis
 
-We are testing whether **counterfactual interpersonal simulation** can produce more useful compatibility hypotheses than static trait/profile matching alone.
+We are testing whether **multi-level latent-process models** can explain dyadic coordination friction and complementarity better than static trait similarity alone.
 
 ## What Is New
 
-1. **Scenario-first compatibility evaluation**
-Instead of matching people by profile similarity only, the system evaluates how two modeled personas behave under critical situations.
+1. **Four-level compatibility architecture**
+The project separates foundational values, strategic temporal orientation, operational action coordination, and tactical communication into distinct levels with explicit boundary rules.
 
-2. **Layered explanation model**
-The project decomposes compatibility into strategic, operational, and tactical layers rather than treating it as a single opaque score.
+2. **Process-level explanation of friction**
+Instead of matching people by overall score, the system localizes friction to specific operational domains (decision ownership, logic, emotion, routine) or temporal horizons.
 
-3. **Typology as schema, not dogma**
-Temporistics, Psychosophy, and Socionics are used as structured hypothesis languages, while external validation remains the arbiter.
+3. **Typology as latent-process hypothesis, not dogma**
+Temporistics, Psychosophy, and Socionics are used as heuristic models of latent processes, with empirical validation against human data as the ultimate arbiter.
 
-4. **Brain-based grounding (exploratory)**
-Each typological dimension maps to known brain networks (exploratory hypothesis):
-- Past/Future/Eternity processing → Hippocampus, vmPFC, Default Mode Network
-- Thinking → Left Frontal Lobe; Feeling → OFC/Amygdala
-- Intuition → Right Frontal; Sensing → Parietal cortex
+4. **Cognitive neuroscience analogies (exploratory)**
+Explicit mapping of typological dimensions to known cognitive processes (episodic future thinking, executive control, pragmatic inference) with strict caveats against direct brain localization.
 
 ## What Exists Already
 
-1. A cleaned research posture for LLM simulation, persona fidelity, and validation.
+1. A clear research posture separating foundational ethics from cognitive typologies.
 2. A structured outreach workflow and modular skill layer for researcher contact.
 3. Audited wiki pages on terminology conflicts, author attribution, and evidence tiers.
-4. A concrete modeling concept: persona induction -> dyadic simulation -> transcript analysis -> evidence packet.
+4. A four-level compatibility architecture with explicit level separation rules.
 
 ## What Is Still Hypothesis-Only
 
-1. That simulation predicts real-world relationship outcomes better than profile-only baselines.
-2. That layered typology features add value beyond Big Five or other standard trait models.
-3. That a stable compatibility signal can be extracted from a small scenario set.
-4. That the proposed scoring logic will calibrate well across users.
+1. That typological latent processes add incremental predictive validity beyond Big Five / HEXACO baselines.
+2. That layered typology features predict dyadic coordination in real pairs.
+3. That observable behavioral markers can reliably identify latent-process states.
+4. That the proposed weighting logic calibrates accurately across different relationship domains.
 
 ## Current Epistemic Status
 
 | Component | Status |
 |-----------|--------|
-| LLM simulation as a research tool | Supported as a serious methodology, with strong validation caveats |
-| Persona-conditioned agents | Plausible and increasingly studied |
-| Compatibility prediction via simulation | Open research question |
-| Typology-enhanced modeling | Exploratory hypothesis |
+| Big Five / HEXACO | Validated descriptive baseline |
+| Four-level compatibility architecture | Theoretical synthesis framework |
+| Typology-derived latent-process hypotheses | Exploratory research hypotheses |
+| Incremental predictive validity | Open research question to be tested on human data |
 
 ## Validation Path
 
-1. Build personas from standard instruments first, especially Big Five / BFI-2 style inputs.
-2. Run dyadic simulations on a fixed scenario suite.
-3. Measure persona fidelity, stability, and transcript-level signal quality.
-4. Compare simulation-derived signals against simple baselines.
-Baselines: trait similarity, profile-only matching, random pairing.
-5. Test whether added typology layers improve prediction or only add narrative complexity.
-6. Treat real-world outcomes as the final calibration target.
+1. Administer standard personality instruments (Big Five / BFI-2, values, attachment) alongside typology questionnaires.
+2. Measure dyadic coordination, conflict frequency, and communication repair across real pairs.
+3. Compare multi-level compatibility hypotheses against baseline trait similarity models.
+4. Test whether added typology layers improve prediction of dyadic outcomes.
+5. Treat real-world human relationship outcomes as the calibration target.
 
 ## Why This Might Be Interesting To Researchers
 
-1. It sits at the intersection of persona agents, social simulation, human modeling, and evaluation.
-2. It creates a concrete test bed for the question: `Can simulated interaction add signal beyond static profiles?`
+1. It provides a structured framework for exploring latent processes behind dyadic interaction.
+2. It creates a concrete test bed for the question: `Do operational and temporal process distinctions add signal beyond broad traits?`
 3. It forces explicit boundaries between useful heuristic structure and pseudoscientific overclaiming.
 
 ## What We Are Asking For
 
-We are not asking anyone to endorse the typologies or the product vision.
+We are not asking anyone to endorse the typologies or any specific application.
 
 We are asking for help with one narrower question:
 
-**What evaluation design would make this kind of simulator worth taking seriously as a research prototype?**
+**What psychometric validation design would best test whether these latent-process distinctions show incremental validity beyond Big Five?**
 
 ## Best First Asks
 
-1. A 20-minute sanity check on the validation design.
-2. A benchmark or paper pointer for persona fidelity under pressure.
-3. Feedback on which ablation would be most convincing.
+1. A 20-minute sanity check on the validation design and questionnaire protocol.
+2. A pointer to validated inventories for measuring temporal orientation or operational action styles.
+3. Feedback on pre-registration and baseline control design.
 
 ## Good Research Anchors Inside The Repo
 

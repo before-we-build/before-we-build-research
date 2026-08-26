@@ -25,7 +25,6 @@ master-orchestrator (gold) ⚜
 │   └── psychosophy-quick-typer (green)
 ├── Analysis Team
 │   ├── compatibility-calculator (red)
-│   ├── interaction-simulator (yellow)
 │   ├── military-specialty-advisor (olive)
 │   └── civilian-career-advisor (steelblue)
 ├── Wiki Team

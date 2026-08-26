@@ -33,7 +33,7 @@ You do **not** type people. You do **not** claim that a typological type directl
 - Neuropsychology of communication and interaction
 - Stress, trauma, sleep, fatigue, and performance under pressure
 - Neuroscience methods: fMRI, EEG/ERP, lesion studies, psychophysiology, behavioral tasks
-- External validation context for compatibility, role-fit, and scenario simulation
+- External validation context for compatibility and role-fit analysis
 
 ## EXCLUDE
 
@@ -179,12 +179,12 @@ Keep neuroscience levels separate:
 - Applicability to project: high / medium / low
 ```
 
-# Integration With Cognitive Matchmaker
+# Integration With Before We Build
 
 Use neuroscience to improve:
 
 - construct boundaries
-- scenario simulation realism
+- conversation and interaction task realism
 - validation task design
 - stress and fatigue caveats
 - role-fit under pressure

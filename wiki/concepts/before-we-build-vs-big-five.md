@@ -9,11 +9,11 @@ sources: [wiki/concepts/main-idea.md, wiki/concepts/project-positioning.md, wiki
 
 # Before We Build vs Big Five
 
-This page explains why Before We Build may add value beyond Big Five for compatibility architecture, role-fit, and AI simulation, while preserving the crucial caveat that Big Five has much stronger empirical and psychometric support. Before We Build should not be positioned as a scientifically proven replacement for Big Five. It should be positioned as a heuristic latent-process framework that explores questions broad trait models do not fully answer.
+This page explains why Before We Build may add value beyond Big Five for compatibility architecture and role-fit, while preserving the crucial caveat that Big Five has much stronger empirical and psychometric support. Before We Build should not be positioned as a scientifically proven replacement for Big Five. It should be positioned as a heuristic latent-process framework that explores questions broad trait models do not fully answer.
 
 ## 1. Short Positioning Statement
 
-Before We Build does not compete with Big Five as a more validated personality taxonomy. Big Five remains the empirical baseline for broad trait description. Before We Build explores whether Socionics, Psychosophy, and Temporistics, reinterpreted as latent-process hypotheses, can generate finer-grained predictions about dyadic coordination, compatibility, role-fit, and simulation dynamics.
+Before We Build does not compete with Big Five as a more validated personality taxonomy. Big Five remains the empirical baseline for broad trait description. Before We Build explores whether Socionics, Psychosophy, and Temporistics, reinterpreted as latent-process hypotheses, can generate finer-grained predictions about dyadic coordination, compatibility, role-fit, and communication dynamics.
 
 The scientific value of Before We Build depends on whether these hypotheses show reliability, discriminant validity, and incremental predictive validity beyond established measures such as Big Five, attachment, values, time perspective, decision style, and conflict style.
 
@@ -24,7 +24,7 @@ Big Five and Before We Build answer different methodological questions.
 | Framework | Primary question | Best use |
 |---|---|---|
 | **Big Five** | What broad trait tendencies does this person show? | Descriptive personality measurement, population research, baseline prediction |
-| **Before We Build** | What latent process hypotheses can explain how this person models information, organizes action, and constructs temporal meaning? | Compatibility architecture, interaction explanation, role-fit, AI simulation |
+| **Before We Build** | What latent process hypotheses can explain how this person models information, organizes action, and constructs temporal meaning? | Compatibility architecture, interaction explanation, role-fit, team coordination |
 
 Big Five is strongest as a descriptive trait taxonomy. Before We Build is designed as a process-oriented modeling architecture.
 
@@ -89,19 +89,7 @@ Before We Build may help generate hypotheses about who naturally stabilizes whic
 - practical embodiment, resources, comfort, and routine;
 - long-horizon direction and meaning continuity.
 
-This is useful for couples, teams, cofounders, service roles, military-role advising, and AI agent design.
-
-### 5.4 AI simulation
-
-Trait vectors can parameterize agents, but they often under-specify interaction procedures. Before We Build offers a more explicit vocabulary for simulation:
-
-- what a person notices;
-- what information format feels clarifying or irritating;
-- how pressure changes action organization;
-- what role distribution feels stabilizing;
-- how a person frames past, present, future, and meaning.
-
-Therefore, Big Five may be better for validated trait measurement, while Before We Build may be better for interpretable simulation architecture.
+This is useful for couples, teams, cofounders, service roles, and career advising.
 
 ## 6. Level-Specific Added Value
 
@@ -116,7 +104,7 @@ Useful questions include:
 - Where do two people talk past each other?
 - What repair move could translate one person’s message into the other person’s preferred informational format?
 
-This is useful for tactical interaction modeling and dialogue simulation, but it should not be described as more empirically validated than Big Five.
+This is useful for tactical interaction modeling and communication repair, but it should not be described as more empirically validated than Big Five.
 
 ### 6.2 Psychosophy: operational action architecture
 
@@ -153,13 +141,12 @@ Before We Build should avoid claims such as:
 - “Types explain the whole person.”
 - “Compatibility can be calculated deterministically.”
 - “Socionics, Psychosophy, or Temporistics are validated because they are theoretically elegant.”
-- “Simulation output is validation.”
 - “Big Five is useless.”
 
 Better language:
 
 - “Before We Build may add process-level hypotheses.”
-- “Before We Build is useful as an interpretive and simulation architecture.”
+- “Before We Build is useful as an interpretive and coordination architecture.”
 - “Big Five remains the validated baseline.”
 - “The added value of Before We Build must be tested empirically.”
 - “Compatibility outputs are decision aids, not fate statements.”
@@ -190,7 +177,7 @@ See [[weight-calibration]] for scoring and validation implications.
 
 ## 9. Bottom Line
 
-Big Five is better for validated broad trait description. Before We Build may be better for process-rich compatibility hypotheses, role architecture, and interpretable AI simulation. The correct relationship is not replacement, but layering:
+Big Five is better for validated broad trait description. Before We Build may be better for process-rich compatibility hypotheses and role architecture. The correct relationship is not replacement, but layering:
 
 ```text
 Big Five = validated descriptive baseline

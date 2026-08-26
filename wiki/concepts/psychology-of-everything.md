@@ -52,7 +52,7 @@ Before We Build shares several motivations with unified psychology:
 - it tries to explain surface behavior through hidden processes;
 - it uses multiple levels of analysis;
 - it treats isolated typological labels as insufficient;
-- it tries to build bridges between personality, compatibility, roles, and simulation.
+- it tries to build bridges between personality, compatibility, and roles.
 
 In Before We Build’s current formula:
 
@@ -65,7 +65,7 @@ In Before We Build’s current formula:
 Before We Build should not be framed as a completed universal psychology. It is narrower and more provisional:
 
 - it starts from typological systems rather than from a consensus empirical ontology;
-- it focuses on compatibility architecture, role fit, team design, and simulation;
+- it focuses on compatibility architecture, role fit, and team design;
 - its mappings are project hypotheses, not established scientific facts;
 - it still needs operationalization, measurement, validation, and calibration.
 

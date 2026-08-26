@@ -47,7 +47,7 @@ The intended chain is:
 observable behavior
 → typological pattern hypothesis
 → latent process hypothesis
-→ compatibility / role-fit / simulation prediction
+→ compatibility / role-fit prediction
 → validation against outcomes
 ```
 
@@ -67,7 +67,6 @@ This means that type labels should remain revisable. They are useful only insofa
 
 The earlier **Cognitive Matchmaker** proposal is now a future research track, not the near MVP:
 
-- possible later exploration of simulation-based compatibility;
 - possible later candidate triage and explanation interface;
 - only after the simpler conversation-map product proves useful, safe, consent-respecting, and reviewable.
 
@@ -78,7 +77,7 @@ The first Christian application may use:
 - later church-mediated introduction support;
 - Scripture-first public language and pastoral caveats.
 
-Cognitive Matchmaker should not be treated as synonymous with Before We Build. Other applications may include team design, career/role navigation, church or service roles, military specialty advising, and AI agent simulation.
+Cognitive Matchmaker should not be treated as synonymous with Before We Build. Other applications may include team design, career/role navigation, church or service roles, and specialized role advising.
 
 ## 5. What Before We Build Does Not Claim
 

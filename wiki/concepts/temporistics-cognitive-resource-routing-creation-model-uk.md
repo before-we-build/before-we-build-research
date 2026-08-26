@@ -1,12 +1,12 @@
 ---
 title: Темпористика як креаціоністська модель розподілу когнітивного ресурсу і часової маршрутизації
 type: concept
-tags: [темпористика, когнітивні-ресурси, маршрутизація, нейроаналогії, креаціоністська-інтерпретація, симуляція, українська]
+tags: [темпористика, когнітивні-ресурси, маршрутизація, нейроаналогії, креаціоністська-інтерпретація, українська]
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-08-26
 lang: uk
 status: research-hypothesis
-sources: [temporistics-detailed.md, latent-process.md, temporistics-third-aspect-sin-patterns-ru.md, neuroscience-compatibility-bridges.md, brain-typology-neuroscience.md, typed-society-simulator.md, compatibility-level-boundaries.md]
+sources: [temporistics-detailed.md, latent-process.md, temporistics-third-aspect-sin-patterns-ru.md, neuroscience-compatibility-bridges.md, brain-typology-neuroscience.md, compatibility-level-boundaries.md]
 ---
 
 # Темпористика як креаціоністська модель розподілу когнітивного ресурсу і часової маршрутизації
@@ -228,7 +228,7 @@ $$E_{total} = E_{Тп} + E_{Ми} + E_{Мб} + E_{Вч} + E_{switch} + E_{stress
 - $E_{switch}$ — ціна перемикання між часовими координатами;
 - $E_{stress}$ — додаткова ціна тривоги, конфлікту, травми, перевтоми або невизначеності.
 
-Це не біологічно виміряна формула. Це **евристична модель для симуляцій і майбутніх тестів**.
+Це не біологічно виміряна формула. Це **евристична модель для дослідницького аналізу і майбутніх опитувальників**.
 
 ### 5.1. Дедуктивний профіль
 
@@ -285,9 +285,9 @@ $$E_{A3} = \sum_{i=1}^{N} E_{hypothesis}(i) + E_{threat-monitoring} + E_{proof-s
 
 ---
 
-## 7. Технічна специфікація для симулятора
+## 7. Структурна специфікація профілів маршрутизації
 
-Для майбутнього [[typed-society-simulator]] цю концепцію можна описати як конфігураційний шар.
+Цю концепцію можна формалізувати як структурну конфігураційну схему для дослідження та тестування.
 
 ```json
 {
@@ -375,7 +375,7 @@ $$E_{A3} = \sum_{i=1}^{N} E_{hypothesis}(i) + E_{threat-monitoring} + E_{proof-s
 }
 ```
 
-Ці числа є прикладами для симуляції, а не виміряними нормами.
+Ці числа є ілюстративними прикладами для концептуалізації, а не виміряними нормами.
 
 ---
 
@@ -400,7 +400,6 @@ $$E_{A3} = \sum_{i=1}^{N} E_{hypothesis}(i) + E_{threat-monitoring} + E_{proof-s
 Цю модель можна використовувати для:
 
 - research-layer сторінок;
-- симуляцій типізованих агентів;
 - проєктування питань для тесту темпористики;
 - опису групових ролей без вироку людині;
 - побудови гіпотез про сумісність на стратегічному рівні.
@@ -427,5 +426,4 @@ $$E_{A3} = \sum_{i=1}^{N} E_{hypothesis}(i) + E_{threat-monitoring} + E_{proof-s
 - [[temporistics-third-aspect-sin-patterns-ru]]
 - [[neuroscience-compatibility-bridges]]
 - [[brain-typology-neuroscience]]
-- [[typed-society-simulator]]
 - [[compatibility-level-boundaries]]

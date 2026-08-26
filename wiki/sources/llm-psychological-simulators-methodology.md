@@ -58,11 +58,10 @@ LLMs are used as computational models for psychological processes.
 
 ## Application to Our Project
 
-### For Compatibility Simulation
-1. Use LLM simulation for **hypothesis generation**, not conclusion
-2. Validate predictions against real-world outcomes
-3. Report uncertainty
-4. Combine with human judgment
+### Why Before We Build Avoids Agentic Social Simulation
+1. **Current LLM limitation:** As emphasized by Lin (2025/2026), LLMs cannot faithfully reproduce full interpersonal social dynamics or serve as ground truth for relationship outcomes.
+2. **Methodological boundary:** Before We Build treats typologies as heuristic models for human reflection and conversation mapping, not for agentic behavioral simulation.
+3. **Validation through humans:** Hypotheses must be validated against real-world human data and validated psychometric scales (Big Five, etc.), never against LLM simulation outputs.
 
 ## Quote
 

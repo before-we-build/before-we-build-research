@@ -62,7 +62,6 @@
 - `wiki/concepts/adequate-intertype-formats-ru.md`
 - `wiki/concepts/afanasyev-model.md`
 - `wiki/concepts/afanasyev-resource-distribution-model-ru.md`
-- `wiki/concepts/agentic-skills-hang-the-dj.md`
 - `wiki/concepts/baptist-audience-public-figure-typing-ru.md`
 - `wiki/concepts/before-we-build-vs-big-five.md`
 - `wiki/concepts/biblical-grounding-policy-ru.md`
@@ -170,7 +169,6 @@
 - `wiki/concepts/test-result-reading-guide-ru.md`
 - `wiki/concepts/test-result-reading-guide-uk.md`
 - `wiki/concepts/test-result-reading-guide.md`
-- `wiki/concepts/typed-society-simulator.md`
 - `wiki/concepts/typology-test-design-protocol.md`
 - `wiki/concepts/weight-calibration.md`
 - `wiki/entities/avtor-author-ru.md`
@@ -329,7 +327,6 @@
 - `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md`
 - `wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md`
 - `wiki/concepts/test-result-reading-guide-ru.md`
-- `wiki/concepts/typed-society-simulator.md`
 - `wiki/concepts/typologies-as-supporting-tools-ru.md`
 - `wiki/concepts/typologies-as-supporting-tools-uk.md`
 - `wiki/concepts/typologies-as-supporting-tools.md`

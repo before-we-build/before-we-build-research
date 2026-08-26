@@ -97,7 +97,7 @@ final judgment should be revised after real behavioral checks
 ```
 Step 1: MBTI → Socionics (approximate only)
 Step 2: Socionics IM elements → Temporistics aspect hypothesis
-Step 3: Validate with simulation
+Step 3: Validate with structured questionnaires and interviews
 ```
 
 ## Dependencies
@@ -106,5 +106,5 @@ Step 3: Validate with simulation
 
 ## Related Skills
 
-- `persona-cloner` — Uses type mapping for persona generation
-- `hypothesis-tester` — Tests mapping accuracy through simulation
+- `research-bridge-builder` — Translates mappings into academic terminology
+- `evidence-packager` — Packages mapping evidence for review

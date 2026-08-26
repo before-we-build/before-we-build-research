@@ -14,9 +14,9 @@ Translate the project from internal language into research-language that outside
 
 Convert:
 - project mythology -> research question
-- typology vocabulary -> measurable constructs
+- typology vocabulary -> measurable latent-process constructs
 - product claims -> testable hypotheses
-- simulated outputs -> evidence packets and validation plans
+- heuristic outputs -> evidence packets and empirical validation plans
 
 ## Standard Output
 
@@ -32,21 +32,20 @@ epistemic_status: "hypothesis | prototype | validated component"
 ## Rules
 
 - Avoid presenting niche typologies as established science
-- Lead with the method, not with the ontology
+- Lead with the method and four-level architecture, not with niche ontology
 - Separate what is source-backed, what is project synthesis, and what is still hypothetical
-- Prefer phrases like `simulation-assisted hypothesis testing`, `persona fidelity`, `dyadic outcome prediction`, `counterfactual interpersonal simulation`
+- Prefer phrases like `latent-process modeling`, `four-level compatibility architecture`, `dyadic coordination`, `incremental validity beyond Big Five`
 
 ## Typical Reframes
 
-- `Socionics/Psychosophy/Temporistics` -> `schema languages for hypothesis generation`
-- `digital twin` -> `controllable persona-conditioned agent`
-- `compatibility score` -> `simulation-derived compatibility signal`
-- `matchmaking truth` -> `predictive hypothesis requiring real-world validation`
+- `Socionics/Psychosophy/Temporistics` -> `heuristic schema languages for latent-process hypothesis generation`
+- `typological profile` -> `multi-level structured cognitive and action profile`
+- `compatibility score` -> `multi-level provisional compatibility hypothesis`
+- `matchmaking truth` -> `predictive hypothesis requiring empirical human validation`
 
 ## Dependencies
 
 - `type-mapper`
-- `persona-validator`
 
 ## Related Skills
 

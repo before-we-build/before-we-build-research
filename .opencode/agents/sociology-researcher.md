@@ -41,7 +41,7 @@ You do **not** type people. You do **not** convert sociological variables into t
 - Temporistics aspect positions → dedicated `temporistics-researcher` is planned; use `temporistics-intertype-relations-expert` only for relation/process audits
 - Ukrainian military specialty catalog updates → use `military-roles-researcher`
 - Direct compatibility scoring → use `compatibility-calculator`
-- Relationship scoring or scenarios → use `compatibility-calculator` or `interaction-simulator`
+- Multi-level compatibility analysis → use `compatibility-calculator`
 
 # Boundary Rule
 

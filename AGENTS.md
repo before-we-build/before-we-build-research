@@ -10,7 +10,7 @@ relationships or shared work. It interprets Socionics, Psychosophy, and
 Temporistics as heuristic models of latent psychological processes. It treats
 typological structures not as final personality labels, but as compressed
 hypotheses that may support conversation maps, role fit, team design, and
-later research into AI-assisted simulation.
+structured compatibility research.
 
 The first developed application and worldview lens is a weak-AI Christian
 conversation map that helps individuals, pairs, and later churches surface

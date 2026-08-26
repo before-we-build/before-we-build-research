@@ -196,7 +196,7 @@ epistemic_status: "hypothesis | prototype | validated component"
 ### Prepare Responses For
 - pseudoscience concern
 - why not Big Five only
-- why simulation should predict real outcomes
+- why latent processes add predictive power beyond broad traits
 - where validation comes from
 - what survives if typology mapping fails
 

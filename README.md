@@ -71,7 +71,7 @@ Required formula:
 
 ## What Problem Before We Build Addresses
 
-Most typological systems are used as label systems: a person is assigned a type, and the type is treated as the explanation. Before We Build takes a different position. It uses typological structures as tentative models for reasoning about latent processes, compatibility, role fit, team design, and simulation of interpersonal dynamics.
+Most typological systems are used as label systems: a person is assigned a type, and the type is treated as the explanation. Before We Build takes a different position. It uses typological structures as tentative models for reasoning about latent processes, compatibility, role fit, team design, and interpersonal dynamics.
 
 The framework separates:
 
@@ -105,9 +105,9 @@ safety constraints, and research wiki.
 
 The Christian conversation map is the first developed application. The
 earlier **Cognitive Matchmaker** idea is a future dating research track, not
-the universal core or near MVP. Autonomous matchmaking, digital twins,
-simulation-based scoring, and weekly AI shortlists are deferred until
-usefulness, safety, consent, and validation are proven.
+the universal core or near MVP. Autonomous matchmaking, automated verdicts,
+and weekly AI shortlists are deferred until usefulness, safety, consent, and
+validation are proven.
 
 ## Start Here
 

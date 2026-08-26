@@ -57,13 +57,13 @@ Proposes using trained AI systems as functional benchmarks in some experimental 
    - Calibrate predictions
 
 3. **Continuous improvement**
-   - Human feedback improves AI simulation
-   - Real outcomes refine model
+   - Human empirical feedback refines theoretical models
+   - Real outcomes guide hypothesis calibration
 
 ## Validation Chain
 
 ```
-AI Simulation → Hypothesis → Human Pilot → Real Data → Improved AI
+Theoretical Hypothesis → Questionnaire Pilot → Real Pair Data → Refined Model
 ```
 
 ## References

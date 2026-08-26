@@ -15,7 +15,7 @@ Preempt and answer the strongest researcher objections without becoming defensiv
 1. `This sounds like pseudoscience.`
 2. `How is this different from personality theater?`
 3. `Why not just use Big Five / attachment / standard measures?`
-4. `Why should simulation predict real outcomes?`
+4. `Why should typological latent processes add predictive power over Big Five baselines?`
 5. `Where is the validation plan?`
 6. `Are you building a product story or a research program?`
 

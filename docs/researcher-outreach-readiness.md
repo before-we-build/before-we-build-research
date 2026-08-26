@@ -12,14 +12,14 @@ The project is far enough along to talk to a small number of method-aligned rese
 |------|--------|-------|
 | 3-sentence explanation without typology jargon | Partial | We can do this now, but it was not previously packaged cleanly |
 | Epistemic status is explicit | Partial | Present in some audited pages, but not yet the default framing across flagship docs |
-| Credible validation path exists | Yes | The repo now has a plausible validation posture for simulation, persona fidelity, and hypothesis testing |
+| Credible validation path exists | Yes | The repo has a plausible validation posture for latent-process hypotheses and incremental validity testing |
 | One concrete artifact to send | No -> Now yes | This was missing; `docs/researcher-evidence-packet.md` now fills that gap |
 
 ## What Is Strong Enough Already
 
 1. The project has a real research shape, not just a product idea.
 2. The repo now distinguishes better between source-backed claims, project synthesis, and hypotheses.
-3. There is a credible methodological bridge to current LLM simulation literature.
+3. There is a clear theoretical separation between value foundations and cognitive/action typologies.
 4. The project already has a useful objection posture around pseudoscience, validation, and human-in-the-loop use.
 
 ## Main Blockers
@@ -51,8 +51,8 @@ This is acceptable for early conversations, but not for strong claims.
 
 Use one of these:
 
-1. `Would you sanity-check whether this evaluation design would convince you that the simulator measures something real?`
-2. `What benchmark would you trust most for persona fidelity under pressure?`
+1. `Would you sanity-check whether this validation design would convince you that the 4-level compatibility model measures something real?`
+2. `What inventory would you trust most for measuring operational action styles or temporal orientations?`
 3. `If you were reviewing this as a research prototype, what would you require before taking its claims seriously?`
 
 ## Next Steps

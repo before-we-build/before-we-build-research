@@ -11,49 +11,28 @@ sources: []
 
 ## Overview
 
-Proposed pipeline for experimenting with bridges between three typological systems (Temporistics, Psychosophy, Socionics) and more mainstream trait/persona frameworks. This page records project architecture ideas, not an established mapping standard.
+Proposed pipeline for experimenting with bridges between three typological systems (Temporistics, Psychosophy, Socionics) and more mainstream trait frameworks. This page records project architecture ideas and empirical survey validation, not simulation or an established mapping standard.
 
 ## Pipeline Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  CROSS-TYPOLOGY MAPPING LAYER                         │
+│  CROSS-TYPOLOGY MAPPING LAYER                           │
 │                                                         │
-│  Temporistics (24 types) ──→ MBTI/Jungian (16 types)  │
-│  Psychosophy (81 types)  ──→ MBTI/Jungian (16 types)  │
-│  Socionics (16 types)    ──→ MBTI/Jungian (16 types) │
+│  Temporistics (24 types) ──→ MBTI/Jungian (16 types)    │
+│  Psychosophy (81 types)  ──→ MBTI/Jungian (16 types)    │
+│  Socionics (16 types)    ──→ MBTI/Jungian (16 types)    │
 │                        ↓                                │
 │              PersonaNexus (trait bridge)                │
-│              OCEAN ↔ DISC ↔ Jungian ↔ Custom          │
+│              OCEAN ↔ DISC ↔ Jungian ↔ Custom            │
 └─────────────────────────────────────────────────────────┘
                         ↓
 ┌─────────────────────────────────────────────────────────┐
-│  SIMULATION LAYER (JPAF)                               │
+│  EMPIRICAL SURVEY VALIDATION LAYER (OASIS-platform)     │
 │                                                         │
-│  Triple mechanisms:                                     │
-│  - Dominant-Auxiliary Coordination (personality core)  │
-│  - Reinforcement-Compensation (context adaptation)      │
-│  - Reflection Mechanism (long-term evolution)           │
-│                                                         │
-│  100% MBTI alignment, >90% type activation             │
-└─────────────────────────────────────────────────────────┘
-                        ↓
-┌─────────────────────────────────────────────────────────┐
-│  SOCIAL INTERACTION LAYER (OASIS-sim)                  │
-│                                                         │
-│  - 1M agent social simulation                          │
-│  - Twitter/Reddit platform models                      │
-│  - Dynamic networks, recommendation algorithms          │
-│  - Group polarization, herd effects                    │
-└─────────────────────────────────────────────────────────┘
-                        ↓
-┌─────────────────────────────────────────────────────────┐
-│  EMPIRICAL VALIDATION LAYER (OASIS-platform)          │
-│                                                         │
-│  - AI-powered survey interviews                         │
-│  - Voice and text chat agents                          │
-│  - Semi-structured interview guides                   │
-│  - Multi-provider LLM support                          │
+│  - AI-assisted survey interviews and questionnaires     │
+│  - Semi-structured interview guides                     │
+│  - Multi-provider LLM support for transcription/coding  │
 │  - FAIR-compliant data export                           │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -100,24 +79,14 @@ Temporal framing dimension maps to cognitive style preferences:
 | Physics-heavy | Sensing emphasis | Approximate only |
 | Will-heavy | Judgment / agency emphasis | Approximate only |
 
-## Validation Hypothesis Examples
+## Validation Hypothesis Example
 
-### H1: Dual Socionics pairs show higher JPAF-measured harmony
-- **Method:** JPAF simulates 100 conversations per pair
-- **Metric:** Reflection score, reinforcement-compensation balance
-- **Expected:** Duality > Activation > Mirage
-
-### H2: Temporistics Present types prefer real-time communication
-- **Method:** OASIS-sim measures message timing, response patterns
-- **Metric:** Latency correlation with temporal frame
-- **Expected:** test whether Present-heavy profiles respond faster in synchronous settings
-
-### H3: Combined Temporistics + Socionics predicts satisfaction better than either alone
-- **Method:** OASIS-platform interviews 200 couples
+### Combined Temporistics + Socionics predicts satisfaction better than either alone
+- **Method:** OASIS-platform interviews and structured surveys with 200 real couples
 - **Metric:** Multi-factor regression, cross-validated
 - **Expected:** test whether combined features improve prediction over single-system baselines
 
-## Vendor Tools Reference
+## Tooling Reference
 
 ### PersonaNexus
 - **Purpose:** Declarative personality definition with framework mapping
@@ -127,21 +96,9 @@ Temporal framing dimension maps to cognitive style preferences:
 
 **Audit note:** Vendor/source verification for this tooling stack is incomplete in the current repo; treat these tool references as exploratory pointers.
 
-### JPAF (Jungian Personality Adaptation Framework)
-- **Purpose:** LLM personality simulation with triple mechanisms
-- **Key features:** 100% MBTI alignment, type activation >90%, personality evolution
-- **Install:** `conda create -n jpaf python=3.10 && pip install -r requirement.txt`
-- **Example:** `python personality_test.py --method=test --mbti_num=16 --model=QWEN`
-
-### OASIS-sim (Social Simulation)
-- **Purpose:** 1M agent social media simulation
-- **Key features:** Twitter/Reddit models, dynamic networks, 23 actions
-- **Install:** `git clone https://github.com/camel-ai/oasis && poetry install`
-- **Example:** Replicates information spread, group polarization, herd effects
-
 ### OASIS-platform (Survey Interviews)
-- **Purpose:** AI-powered qualitative interviews
-- **Key features:** Voice/text agents, multi-LLM, Docker deploy, FAIR-compliant
+- **Purpose:** Qualitative research interviews and survey intake
+- **Key features:** Voice/text interview assistance, multi-LLM transcription and coding support, Docker deploy, FAIR-compliant
 - **Install:** `git clone https://github.com/oasis-surveys/oasis-platform && docker compose up`
 - **License:** Open Non-Commercial Research License v1.0
 
@@ -149,6 +106,4 @@ Temporal framing dimension maps to cognitive style preferences:
 
 1. **Verify Socionics→MBTI mapping** using PersonaNexus archetypes
 2. **Hypothesize Temporistics→MBTI** based on aspect patterns
-3. **Test with JPAF:** Run compatibility simulation for 16 MBTI pairs
-4. **Validate with OASIS-sim:** Social dynamics of typed agents
-5. **Empirical check:** OASIS-platform interviews with typed participants
+3. **Empirical check:** OASIS-platform interviews with real typed participants

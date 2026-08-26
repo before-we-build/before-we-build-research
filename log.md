@@ -2,6 +2,20 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-08-26] architecture | Decommissioning and removal of agent-based social simulation
+
+Purged all concepts, skills, source interpretations, and agent roles related to multi-agent interpersonal simulation and synthetic social dynamics:
+- **Rationale:** Simulating human interpersonal dynamics and romantic/team compatibility through multi-agent LLM systems was recognized as unrealistic with current AI models and unsuitable for relationship discernment.
+- **Removed files:**
+  - Deleted simulation concepts and skills: `wiki/concepts/typed-society-simulator.md`, `wiki/concepts/agentic-skills-hang-the-dj.md`, `wiki/sources/hang-the-dj-simulation-compatibility.md`, `.opencode/agents/interaction-simulator.md`, `skills/simulation-runner.md`, `skills/persona-cloner.md`, `skills/global-workspace.md`, `skills/observer-agent.md`, `skills/choice-tracker.md`, `skills/reward-model.md`, `skills/compatibility-scorer.md`, `skills/adversarial-designer.md`, `skills/memory-persister.md`, `skills/persona-generator.md`, `skills/persona-validator.md`, `skills/explanation-generator.md`.
+- **Updated core docs and index:**
+  - `AGENTS.md`, `README.md`, `index.md`, `biblical-compatibility/repository-map.md`.
+  - Rebuilt `skills/index.md` focusing strictly on research translation, academic outreach, and typological analysis.
+  - Updated `wiki/concepts/cross-typology-mapping-framework.md`, `wiki/concepts/before-we-build-vs-big-five.md`, `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md`, `wiki/concepts/project-positioning.md`, `wiki/concepts/psychology-of-everything.md`, `wiki/concepts/sociological-compatibility-analogues.md`, `wiki/concepts/neuroscience-compatibility-bridges.md`, `wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025.md`, `wiki/sources/common-projects.md`, `wiki/sources/ai-experiment-participants.md`, `wiki/sources/llm-psychological-simulators-methodology.md`.
+  - Updated agent definitions in `.opencode/ORGANIZATION.md`, `.opencode/agents/master-orchestrator.md`, `.opencode/agents/compatibility-calculator.md`, `.opencode/agents/sociology-researcher.md`, `.opencode/agents/type-explain.md`, `.opencode/agents/neuroscience-researcher.md`.
+  - Updated outreach packets in `docs/researcher-evidence-packet.md`, `docs/researcher-outreach-readiness.md`, `docs/outreach-gregory-serapio-garcia.md`.
+- **Refocused core:** The project exclusively focuses on its 4-level compatibility architecture (Value-Moral foundation, Strategic Temporistics, Operational Psychosophy, Tactical Socionics), human reflection and conversation mapping, and empirical questionnaire/survey validation against real human data.
+
 ## [2026-08-25] concept | Michelangelo Phenomenon (Феномен Микеланджело)
 
 Added `wiki/concepts/michelangelo-phenomenon.md` and `wiki/concepts/michelangelo-phenomenon-ru.md` documenting the empirical social-psychological model of partner sculpting and ideal-self affirmation:

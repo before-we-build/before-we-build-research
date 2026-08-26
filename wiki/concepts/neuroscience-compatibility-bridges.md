@@ -262,7 +262,7 @@ Authors / search anchors:
 
 Project use:
 
-- strong bridge to tactical simulations
+- strong bridge to tactical interaction analysis
 - observable markers: pauses, repair, interruptions, rhythm, mutual prediction, alignment failures
 
 Limit:
@@ -299,7 +299,7 @@ Limit:
 | Psychosophy ↔ executive control / action organization | operational level is directly about action, control, and priorities |
 | Psychosophy ↔ salience / valuation | both help model what becomes important enough to act on |
 | Socionics ↔ social cognition / mentalizing | useful for situated understanding and partner-modeling |
-| Socionics ↔ conversation / turn-taking | strong bridge for interaction simulations and observable repair patterns |
+| Socionics ↔ conversation / turn-taking | strong bridge for interaction analysis and observable repair patterns |
 
 ## Weak Analogies And Caveats
 
@@ -314,7 +314,7 @@ Limit:
 
 ## Scenario Design Implications
 
-Neuroscience can help generate realistic tasks and stressors for simulations.
+Neuroscience can help generate realistic conversation and interview questions.
 
 | Scenario | Neuroscience bridge | Project level |
 |----------|---------------------|---------------|

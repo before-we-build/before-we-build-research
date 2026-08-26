@@ -2,170 +2,87 @@
 
 ## Purpose
 
-Identify and rank target researchers by their motivation, fit, and likelihood of engagement.
+Identify and rank target researchers by their discipline, motivation, fit, and likelihood of academic engagement.
 
 ## Target Audience Taxonomy
 
-Based on arXiv/Academic research, there are 5 researcher segments interested in LLM-based compatibility simulation:
+There are 4 primary academic segments relevant to Before We Build's 4-level compatibility architecture:
 
 ---
 
-### Segment 1: Psychometric Validation Researchers
+### Segment 1: Psychometric and Personality Validation Researchers
 
-**What they do**: Measure personality in LLMs, validate agent consistency, test psychometric properties
+**What they do**: Measure personality constructs, validate questionnaires, test psychometric properties, incremental validity.
 
-**Key papers**:
-- "Designing LLM-Agents with Personalities: A Psychometric Approach" (arXiv:2410.19238)
-- "The Neuroscience of Personality in LLMs" — Dario Nardi
-- Nature Machine Intelligence — Gregory Serapio-García
-
-**Motivation**: Make LLMs behave like humans consistently enough to study
+**Motivation**: Establish construct validity, reliability, and discriminant validity beyond Big Five / HEXACO.
 
 **What they want**:
-- Validated methods for personality assignment
-- Benchmark datasets
-- Reproducible validation frameworks
+- Validated inventories and psychometric scales
+- Clear falsification criteria and factor structures
+- Pre-registered validation protocols
 
-**Our fit**: We provide structured typology schemas (Temporistics, Psychosophy, Socionics) as alternative personality frameworks to test
+**Our fit**: We offer multi-level latent-process hypotheses that need formal psychometric scale construction and incremental validity testing.
 
 **Priority**: HIGH
 
-**Example targets**: Gregory Serapio-García, Frederick L. Oswald
+**Example targets**: Gregory Serapio-García, Frederick L. Oswald, personality psychologists
 
 ---
 
-### Segment 2: Social Simulation Researchers
+### Segment 2: Relationship Science and Dyadic Interaction Researchers
 
-**What they do**: Build multi-agent simulations, test social theories, simulate human behavior at scale
+**What they do**: Study mate selection, dyadic coordination, conflict regulation, long-term relationship stability.
 
-**Key papers**:
-- S-Researcher (arXiv:2604.01520) — 100K agents for social science
-- TinyTroupe (Microsoft) — persona-based simulation
-- CoBRA toolkit (arXiv:2509.13588) — behavior specification
-- "Love First, Know Later" (arXiv:2512.11844) — compatibility via simulation
+**Key anchors**:
+- Finkel et al. — online matching and relationship dynamics
+- Gottman / Johnson — conflict repair and attunement
+- Assortative mating and homogamy research
 
-**Motivation**: Test social theories without human subjects
+**Motivation**: Understand what predicts dyadic success and coordination friction.
 
 **What they want**:
-- Scalable simulation frameworks
-- Validated agent specifications
-- Population sampling methods
+- Grounded interaction frameworks
+- Pre-marital and dyadic discernment tools
+- Empirical pair datasets
 
-**Our fit**: We provide scenario-first evaluation for dyadic compatibility — a specific application of their general frameworks
+**Our fit**: Four-level architecture separating foundational values, strategic temporal horizons, operational action styles, and tactical communication.
 
 **Priority**: HIGH
 
-**Example targets**: Lei Wang (S-Researcher), Microsoft TinyTroupe team
-
 ---
 
-### Segment 3: Computational Social Scientists
+### Segment 3: Time Perspective and Cognitive Science Researchers
 
-**What they do**: Model human behavior, predict outcomes, build generative agents
+**What they do**: Study episodic future thinking, autobiographical memory, time orientation (Zimbardo), executive control.
 
-**Key papers**:
-- "CiteAgent" — citation network simulation
-- "Persona-Based Romantic Compatibility Through LLM" (arXiv:2512.11844)
-- Sotopia / Generative Agents
+**Motivation**: Understand how temporal horizons and mental time travel shape decisions and cooperation.
 
-**Motivation**: Build digital twins of human behavior
-
-**What they want**:
-- Behavioral fidelity
-- Predictive accuracy
-- Synthetic data generation
-
-**Our fit**: Our three-typology system gives richer persona structure than single-framework approaches
+**Our fit**: Strategic compatibility level operationalized through temporal priorities (Temporistics) and cognitive resource allocation.
 
 **Priority**: MEDIUM-HIGH
 
 ---
 
-### Segment 4: Relationship Psychology Researchers
+### Segment 4: HCI and Decision-Support Systems Researchers
 
-**What they do**: Study mate selection, compatibility, relationship dynamics
+**What they do**: Design reflection tools, conversation maps, interactive decision-support aids.
 
-**Key papers**:
-- Finkel et al. (2012) — "Online Dating"
-- "Critical moments" framework
-- Assortative mating research
+**Motivation**: Help humans make high-stakes life decisions with better self-reflection and dyadic clarity.
 
-**Motivation**: Understand what predicts relationship success
-
-**What they want**:
-- New methodologies
-- Cross-disciplinary collaboration
-- Publication opportunities
-
-**Our fit**: LLM simulation offers new methodology for studying compatibility without traditional dating platform data
+**Our fit**: Weak-AI conversation mapping architecture and pre-commitment reflection tools.
 
 **Priority**: MEDIUM
-
-**Note**: Bridge segment — need translator for LLM jargon
-
----
-
-### Segment 5: HCI / User Experience Researchers
-
-**What they do**: Study human-AI interaction, trust, engagement
-
-**Key papers**:
-- Trust in AI systems
-- AI companion design
-- "Hidden Labor of AI Relationships"
-
-**Motivation**: Make AI interactions feel meaningful
-
-**What they want**:
-- Design patterns
-- User feedback loops
-- Ethical guidelines
-
-**Our fit**: Our work raises questions about persona persistence, memory, trust — relevant to their concerns
-
-**Priority**: LOW (for research, not product)
 
 ---
 
 ## Segmentation Matrix
 
-| Segment | Motivation | Our Value | Priority | Difficulty |
-|---------|-----------|----------|----------|-------------|
-| 1. Psychometric | Validate personality in LLMs | Typology as test framework | HIGH | Low |
-| 2. Social Sim | Scale simulations | Dyadic scenario eval | HIGH | Low |
-| 3. Comp Social | Predict human behavior | Richer personas | MEDIUM | Medium |
-| 4. Relationship Psych | New methods | Novel methodology | MEDIUM | High (bridge) |
-| 5. HCI | Trust/engagement | Memory/trust questions | LOW | High |
-
----
-
-## How to Prioritize
-
-### Best First Targets (Segment 1 + 2)
-
-These researchers:
-- Already read your language (LLM, agent, simulation)
-- Publish in similar venues (arXiv, Nature)
-- Have cited similar work
-
-### Gregory Serapio-García = Segment 1
-- Already working on psychometric validation
-- His papers = validation frameworks
-- Our offer = alternative personality system to test
-
-### "Love First, Know Later" authors = Segment 2
-- Same paradigm (simulation-first)
-- Their gap = single-persona method
-- Our offer = three-layer typology schema
-
-### Key Insight
-
-**Segment 1 and 2 are already convinced** that LLM persona simulation works. They need:
-- Better methods (us)
-- More frameworks to test
-- Validation benchmarks
-
-We don't need to convince them of premise — just show our specific approach adds value.
+| Segment | Motivation | Our Value | Priority |
+|---------|-----------|----------|----------|
+| 1. Psychometrics | Construct validity | Typology latent-process hypotheses | HIGH |
+| 2. Relationship Science | Dyadic coordination | 4-level compatibility model | HIGH |
+| 3. Cognitive / Time Perspective | Temporal meaning & executive control | Strategic level / resource allocation | MEDIUM-HIGH |
+| 4. HCI / Decision Support | Decision aids | Conversation mapping tools | MEDIUM |
 
 ---
 
@@ -173,18 +90,7 @@ We don't need to convince them of premise — just show our specific approach ad
 
 | Segment | Approach | Message Focus |
 |---------|----------|---------------|
-| 1. Psychometric | "Test our typology framework" | Validation |
-| 2. Social Sim | "Application of your framework" | Scaling |
-| 3. Comp Social | "More detailed personas" | Prediction |
-| 4. Relationship Psych | "New methodology for your questions" | Collaboration |
-| 5. HCI | "Memory/trust research" | Design patterns |
-
----
-
-## References
-
-- arXiv:2410.19238 — Psychometric Approach
-- arXiv:2604.01520 — S-Researcher
-- arXiv:2512.11844 — Love First, Know Later
-- arXiv:2507.09788 — TinyTroupe
-- arXiv:2509.13588 — CoBRA
+| 1. Psychometrics | "Testing incremental validity of latent-process typologies" | Validation & measurement |
+| 2. Relationship Science | "4-level model of dyadic coordination and friction" | Interaction & conflict repair |
+| 3. Time Perspective | "Temporal orientation and long-horizon shared planning" | Cognitive time horizons |
+| 4. HCI / Decision Support | "Weak-AI conversation map for high-stakes decisions" | Decision support & reflection |

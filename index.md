@@ -4,7 +4,7 @@ Before We Build is a universal compatibility research framework for studying
 how any two people may build, decide, coordinate, and sustain a relationship
 or shared task. It uses typologies not as final personality labels, but as
 structured hypotheses that may support conversation maps, role fit, team
-design, and later research into AI-assisted simulation.
+design, and structured compatibility research.
 
 The first developed application is a Christian relationship and
 family-discernment profile. Its Scripture-first normative claims remain in
@@ -79,7 +79,6 @@ application profile, not the definition of the research core.
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
 | [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary rules: Scripture-first wording, no psychology/typology front door, no mixed English product terms |
 | [[test-result-reading-guide]] | Explains how to read test outputs as provisional, level-separated hypotheses |
-| [[typed-society-simulator]] | Research-track concept for simulating typed agents in families, church service, teams, and wider society |
 | [[temporistics-cognitive-resource-routing-creation-model-uk]] | Українська дослідницька гіпотеза: темпористика як креаціоністська модель розподілу когнітивного ресурсу, часової маршрутизації та соціального доповнення |
 | [[spiritual-foundation-levels-ru]] | Русская исследовательская гипотеза о четырёх духовных позициях основания и четырёх парных динамиках: сонаправленность, асимметрия зрелости, неясное основание и разное основание |
 | [[spiritual-maturity-models-comparison-ru]] | Русское сопоставление библейских и христианских моделей духовной зрелости с текущей 4-позиционной схемой Before We Build |
@@ -112,7 +111,7 @@ The wiki is organized conceptually into six layers:
 - **Orientation** — README, main idea, project positioning, glossary, roadmap.
 - **Core theory** — the value-moral foundation plus three typological interpretations.
 - **Compatibility architecture** — level boundaries, rules, conflicts, complementarity, examples.
-- **Applications** — conversation maps before serious decisions, later church-mediated introduction support, team design, career/role navigation, service roles, and deferred AI simulation research.
+- **Applications** — conversation maps before serious decisions, later church-mediated introduction support, team design, career/role navigation, service roles, and structured compatibility research.
 - **Research program** — hypotheses, measurement strategy, validation strategy, evidence, limitations.
 
 ```
@@ -177,10 +176,8 @@ wiki/          — LLM-generated wiki
 | [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
 | [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
 | [[civilian-profile-sli-elvf-vpnb]] | Civilian career profile for SLI + ELVF + EPNF with DevOps background | civilian role catalog |
-| [[cross-typology-mapping-framework]] | Unified pipeline: PersonaNexus + JPAF + OASIS-sim + OASIS-platform | typology-best-architecture.md |
-| [[typed-society-simulator]] | Research-track concept for an agent-based society simulator where each simulated person has Temporistics, Psychosophy, Socionics, context, memory, and safety boundaries | cross-typology-mapping-framework.md, agentic-skills-hang-the-dj.md, compatibility-level-boundaries.md |
+| [[cross-typology-mapping-framework]] | Unified mapping concepts between typologies and validated trait frameworks with survey validation | typology-best-architecture.md |
 | [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
-| [[agentic-skills-hang-the-dj]] | 12 agent skills for simulation-based compatibility testing | skills/index.md |
 | [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
 | [[music-styles-and-psychosophy-emotion]] | English draft heuristic: musical styles and the functions of music as soft traces of Psychosophy Emotion position | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
 | [[music-styles-and-psychosophy-emotion-ru]] | Русская черновая эвристика: музыкальные стили и функции музыки как мягкие признаки позиции психософской Эмоции | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
@@ -211,7 +208,7 @@ wiki/          — LLM-generated wiki
 | [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
 | [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
 | [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени; добавлен исследовательский слой о третьем аспекте как болевой индукции и попытке полного индуктивного доказательства | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
-| [[temporistics-cognitive-resource-routing-creation-model-uk]] | Українська дослідницька гіпотеза про темпористику як креаціоністську модель розподілу когнітивного ресурсу: часові координати, дедуктивні/діалогічні/болюче-індуктивні/делеговані режими, ресурсна формула, нейроаналогії, соціальна маршрутизація і JSON-шар для симулятора | temporistics-detailed.md, latent-process.md, temporistics-third-aspect-sin-patterns-ru.md, neuroscience-compatibility-bridges.md, brain-typology-neuroscience.md, typed-society-simulator.md |
+| [[temporistics-cognitive-resource-routing-creation-model-uk]] | Українська дослідницька гіпотеза про темпористику як креаціоністську модель розподілу когнітивного ресурсу: часові координати, дедуктивні/діалогічні/болюче-індуктивні/делеговані режими, ресурсна формула, нейроаналогії та соціальна маршрутизація | temporistics-detailed.md, latent-process.md, temporistics-third-aspect-sin-patterns-ru.md, neuroscience-compatibility-bridges.md, brain-typology-neuroscience.md |
 | [[spiritual-foundation-levels-ru]] | Русская исследовательская гипотеза о духовном основании перед серьёзными отношениями: четыре рабочие позиции, четыре парные динамики, библейские опоры, связь с типологическими слоями и строгие не-утверждения против духовного ранжирования | project conversation, Bible references, christian-foundation-of-family.md, family-formation-principles.md, limits-of-typological-inference.md |
 | [[spiritual-maturity-models-comparison-ru]] | Русское сопоставление библейских и христианских моделей духовной зрелости с 4-позиционной схемой Before We Build: Евреям 5, 1 Коринфянам 3, 1 Иоанна 2, Ефесянам 4, плод Духа, Jim Putman / Discipleship.org, Dallas Willard, GotQuestions, классическая purgative/illuminative/unitive схема и Fowler | Bible references, Discipleship.org, Dallas Willard, GotQuestions.org, New Advent, James W. Fowler overview |
 | [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская реконструкция модели Афанасьева как распределения операционного ресурса: 1-я функция как избыток/стандарт, 2-я как гибкая помощь, 3-я как уязвимая проверка, 4-я как делегируемая рамка | afanasyev-model.md, psychosophy-detailed.md, raw/psychosophy function pages |
@@ -379,7 +376,6 @@ Type-family note (updated 2026-04-30): result-link targets now exist in English,
 | [[competitor-mosaic-relationship-intelligence-ru]] | Russian competitor-watch note separating MosaicChats, Mosaic Cultural Compass for Couples, and Mosaic Personality Tasks; records product overlap, naming conflict, privacy questions, and monitoring decisions | official Mosaic product and privacy pages, checked 2026-07-27 |
 | [[deep-research-report]] | Agent frameworks, orchestration, memory comparison | - |
 | [[research-program]] | Validation framework for typological constructs | research-program.md |
-| [[hang-the-dj-simulation-compatibility]] | Black Mirror episode used as simulation metaphor, including the fictional 99.8% reveal | - |
 | [[brain-typology-neuroscience]] | Historical exploratory note on neuroscience analogies and caveats | web research |
 | [[civilian-career-role-families]] | Civilian role-family catalog for typology-based career recommendations | .opencode/data/civilian-career-roles.md |
 | [[fourth-physics-deep-research]] | Fourth Physics (4Ф) deep research with clinical-safety caveats | raw/general/fourth-physics-deep-research.md |

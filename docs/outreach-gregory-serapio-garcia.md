@@ -10,9 +10,9 @@ Hi Gregory,
 
 I read your Nature Machine Intelligence paper on the psychometric framework for evaluating personality in LLMs — especially your finding that larger instruction-finetuned models show measurable personality signals. This connects with my work because I'm building a system that treats typological frameworks as structured hypothesis languages for LLM persona construction, with external validation as the ultimate arbiter.
 
-**The gap I'm tackling:** Can counterfactual dyadic simulation produce better compatibility hypotheses than static profile matching alone?
+**The gap I'm tackling:** Can multi-level latent-process typologies (Temporistics, Psychosophy, Socionics) demonstrate incremental predictive validity for dyadic coordination beyond standard Big Five / HEXACO baselines?
 
-**My approach:** Scenario-first evaluation — build structured personas from three typologies (Temporistics, Psychosophy, Socionics), run dyadic simulation scenarios, extract signals from behavioral transcripts.
+**My approach:** Four-level compatibility architecture — formalizing value foundations, temporal perspective, operational action styles, and tactical information metabolism as testable latent-process hypotheses for survey validation.
 
 **One proof-of-work artifact:** I drafted a cautious neuroscience-analogy note for where Before We Build constructs might suggest future validation tasks, while explicitly avoiding direct brain-type mapping. Evidence packet: [link to brain-typology-neuroscience.md](wiki/sources/brain-typology-neuroscience.md)
 

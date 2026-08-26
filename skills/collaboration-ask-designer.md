@@ -16,7 +16,7 @@ Turn vague interest in collaboration into a concrete, low-friction ask.
 |----------|----------|
 | 20-minute sanity check | senior researchers with limited time |
 | benchmark / dataset pointer | methods people |
-| review of evaluation design | psychometrics / HCI / social simulation researchers |
+| review of evaluation design | psychometrics / HCI / relationship science researchers |
 | pilot-study consultation | applied collaborators |
 | co-design of ablation plan | technical research partners |
 
@@ -40,8 +40,8 @@ ask:
 
 ## Examples
 
-- `Could you sanity-check whether this evaluation design would convince you that the simulator measures something real?`
-- `Would you point me to the benchmark you would trust most for persona fidelity under pressure?`
+- `Could you sanity-check whether this evaluation design would convince you that the multi-level compatibility framework measures something real?`
+- `Would you point me to the validated inventory you would trust most for measuring operational action styles?`
 
 ## Dependencies
 
