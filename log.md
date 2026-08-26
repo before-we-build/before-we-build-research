@@ -2,6 +2,20 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-08-26] concept | Reconceptualization of Typologies (Переосмысление типологий)
+
+Formally articulated and integrated the foundational project principle that Before We Build is a fundamental reconceptualization of Socionics, Psychosophy, and Temporistics:
+- **Authors & Historical Roots:** Socionics (Aushra Augustinaviciute), Psychosophy (Alexander Afanasyev), Temporistics (Alexander Latyshev & Nika Sherman).
+- **Core Reconceptualization Shifts:**
+  - *Static labels to latent processes:* Moving away from deterministic badges and fatalistic personality labels toward heuristic structural models of latent processes (information modeling, action/resource synthesis-analysis, temporal/existential structuring).
+  - *Intertype determinism to interaction dynamics:* Relational patterns reframed as maps of cognitive friction and synergy points rather than deterministic outcomes.
+  - *Subordination to Value-Moral foundation:* Typologies explicitly stripped of moral-arbitration authority; they do not measure love, fidelity, safety, maturity, or spiritual repentance.
+  - *Disambiguation of cross-system constructs:* Resolving false equivalences (e.g. Volition $\neq$ Se, Emotion $\neq$ Fe/Fi, Future $\neq$ Ni).
+- **New & Updated Files:**
+  - Created `wiki/concepts/typology-reconceptualization-ru.md`.
+  - Updated `wiki/concepts/main-idea-ru.md`, `wiki/concepts/main-idea.md`, `wiki/concepts/main-idea-uk.md`.
+  - Updated `README.md`, `AGENTS.md`, and `index.md`.
+
 ## [2026-08-26] architecture | Decommissioning and removal of agent-based social simulation
 
 Purged all concepts, skills, source interpretations, and agent roles related to multi-agent interpersonal simulation and synthetic social dynamics:

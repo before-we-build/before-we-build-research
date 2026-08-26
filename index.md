@@ -31,14 +31,15 @@ decisions.
 ## Start Here — Universal Research Core
 
 1. [[main-idea]] — universal scope and latent-process hypothesis.
-2. [[four-level-compatibility-architecture]] — the four-level architecture for
+2. [[typology-reconceptualization-ru]] — fundamental reconceptualization of Socionics, Psychosophy, and Temporistics into latent process models.
+3. [[four-level-compatibility-architecture]] — the four-level architecture for
    any two people.
-3. [[value-moral-compatibility]] — the foundational level, evidence model,
+4. [[value-moral-compatibility]] — the foundational level, evidence model,
    domain contract, and safety gates.
-4. [[compatibility-level-boundaries]] — construct separation and prohibited
+5. [[compatibility-level-boundaries]] — construct separation and prohibited
    inferences.
-5. [[project-positioning]] — universal core vs worldview/domain applications.
-6. [[research-layer-vs-practical-guidance]] — rules for building specialized
+6. [[project-positioning]] — universal core vs worldview/domain applications.
+7. [[research-layer-vs-practical-guidance]] — rules for building specialized
    applications.
 
 The Christian family and relationship pages below form the first developed

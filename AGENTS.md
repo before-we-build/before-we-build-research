@@ -6,9 +6,10 @@ This document defines the schema and conventions for maintaining the Before We B
 
 **Before We Build** is a universal compatibility research framework for
 studying how any two people may build, decide, coordinate, and sustain
-relationships or shared work. It interprets Socionics, Psychosophy, and
-Temporistics as heuristic models of latent psychological processes. It treats
-typological structures not as final personality labels, but as compressed
+relationships or shared work. It is based on a **fundamental reconceptualization
+of typologies** (Socionics, Psychosophy, and Temporistics), interpreting them
+not as deterministic character labels, but as heuristic models of latent
+psychological processes. It treats typological structures as compressed
 hypotheses that may support conversation maps, role fit, team design, and
 structured compatibility research.
 

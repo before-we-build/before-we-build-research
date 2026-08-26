@@ -17,11 +17,19 @@ relationship-discernment profile:
 
 Biblical grounding for this front-door thesis includes **1 Corinthians 13:4–7** on love as patient and enduring, **Colossians 3:12–14** on forgiveness and love, **Matthew 7:24–25** on building on a firm foundation, and **Ecclesiastes 4:9–12** on the strength of mutual support.
 
-Before We Build still remains a research-oriented framework for interpreting Socionics, Psychosophy, and Temporistics as heuristic models of latent psychological processes. It does not treat typological labels as final explanations of a person. Instead, a type is used as a compressed working hypothesis about how hidden processes may be organized and expressed through observable behavior.
+Before We Build fundamentally reconceptualizes three typological systems —
+Socionics (created by Aushra Augustinaviciute), Psychosophy (created by
+Alexander Afanasyev), and Temporistics (created by Alexander Latyshev and Nika
+Sherman). Instead of taking them as deterministic character labels or esoteric
+fatalism, it interprets their structural frameworks as heuristic models of
+latent psychological processes. A type is used not as a final explanation of
+a person, but as a compressed working hypothesis about how hidden processes
+may be organized and expressed through observable behavior.
 
 ## Start Here — Universal Research Core
 
 - [[main-idea]] — concise explanation of the universal research architecture.
+- [[typology-reconceptualization-ru]] — how Before We Build reconceptualizes Socionics, Psychosophy, and Temporistics.
 - [[four-level-compatibility-architecture]] — value-moral, strategic,
   operational, and tactical compatibility.
 - [[value-moral-compatibility]] — foundational values, obligations,

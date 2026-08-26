@@ -13,10 +13,11 @@ sources: [project-owner-decision-2026-07-26, wiki/concepts/four-level-compatibil
 
 Before We Build is a universal compatibility research framework for studying
 how any two people may build, decide, coordinate, and sustain a relationship
-or shared task. It interprets Socionics, Psychosophy, and Temporistics as
-heuristic models of latent psychological processes rather than final
-explanations of a person. A type is treated as an observable trace and working
-hypothesis about how hidden processes may be organized.
+or shared task. It is built on a **fundamental reconceptualization of typologies**
+(Socionics, Psychosophy, and Temporistics), interpreting them not as fatalistic labels,
+but as heuristic models of latent psychological processes (see [[typology-reconceptualization-ru]]).
+A type is treated as an observable trace and working hypothesis about how hidden
+processes may be organized rather than a final explanation of a person.
 
 The first developed application is a Christian relationship-discernment
 conversation map, but that application does not define or exhaust the
