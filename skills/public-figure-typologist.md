@@ -1,321 +1,115 @@
 ---
 name: public-figure-typologist
-description: Create typology profiles for public figures using publicly available information. Use when user wants to analyze a public figure's personality using Temporistics, Psychosophy, and Socionics frameworks based on public statements and behavior.
+description: Создание верифицированных типологических профилей публичных персон по трем типологиям (Темпористика, Психософия, Соционика) на основе латентных когнитивных процессов, гносеологической матрицы (Дедукция 1/4, Абдукция 2, Индукция 3), строгой Модели А и канонического реестра псевдонимов (SSOT).
 ---
 
-# Public Figure Typologist
+# Public Figure Typologist (Calibrated Latent-Process Version)
 
-## Purpose
-
-Create respectful, ethical typology profiles for public figures based on publicly available information using three typological systems.
-
-## When to Use
-
-- User requests typology for a public figure (celebrity, politician, military leader, etc.)
-- User wants analysis based on public statements, interviews, documented behavior
-- User asks to "type" someone
-
-## When NOT to Use
-
-- Private individuals without their consent
-- Any clinical diagnosis claims
-- Commercial purposes without consent
-
-## Ethical Framework
-
-### ALWAYS Required: Disclaimer
-
-Every typology analysis MUST include:
+## 1. Этика и статус исследования
 
 ```
-DISCLAIMER: This typology is an interpretation based on publicly available 
-information only. It does not constitute a psychological diagnosis. 
-No examination was conducted. The subject has not consented to this analysis. 
-This is opinion, not fact.
+ДИСКЛЕЙМЕР: Данный анализ представляет собой исследовательскую гипотезу 
+на основе публично доступных источников (интервью, текстов, видео). 
+Типологии рассматриваются как эвристические модели латентных психологических 
+процессов, а не как фатальные ярлыки или медицинские диагнозы.
 ```
 
-### Acceptable Scenarios
+---
 
-| Scenario | OK? | Notes |
-|----------|-----|-------|
-| Public figure (academic analysis) | ✅ | With disclaimer |
-| Public figure (non-commercial) | ✅ | With disclaimer |
-| Private individual | ❌ | Needs consent |
-| Clinical diagnosis | ❌ | Never claim this |
-| Commercial use | ❌ | Needs consent |
+## 2. Гносеологическая матрица функций (Позиции 1–4)
 
-## Workflow
+При анализе позиций аспектов в **Темпористике** и **Психософии** строго применять когнитивно-эпистемологическую модель Пирса:
 
-### Step 1: Research (Required)
-
-Before any typing, research publicly available information:
-
-1. Search for recent interviews, speeches, public statements
-2. Find biographical information
-3. Look for documented leadership style, decisions
-4. Find quotes about values, worldview, goals
-
-**Required**: At least 3-5 public sources
-
-### Step 2: Analyze for Evidence
-
-For each typological system, find evidence for:
-
-#### Temporistics (Strategic - Past/Present/Future/Eternity)
-- Past: What past experiences shaped them?
-- Present: How do they handle current reality?
-- Future: What are their goals/vision?
-- Eternity: What is their sense of meaning/legacy?
-
-#### Psychosophy (Operational - 4 Functions × 4 Positions)
-
-Each person has ONE position (1/2/3/4) for each of 4 aspects = 2-letter type!
-
-**Type format**: [Aspect][Position] + [Aspect][Position]
-- Example: LE means 1st position in Logic, 2nd in Emotion
-
-**How to determine**:
-- Which aspect is LEADING (1)? = What they naturally drive
-- Which aspect is CREATIVE (2)? = What they develop with others
-- Which is VULNERABLE (3)? = What causes anxiety
-- Which is ROLE (4)? = How they present
-
-**Reference**: `wiki/sources/psychosophy-detailed.md` for full function descriptions
-
-#### Socionics (Tactical - 8 functions)
-- Leading function: What drives them?
-- Creative function: What do they excel at?
-- Vulnerable function: What do they struggle with?
-- Role function: How do they present themselves?
-
-### Step 3: Draft Typology
-
-Use this template:
-
-```markdown
-# Typology Analysis: [Name]
-
-**DISCLAIMER**: [Standard disclaimer]
+| Позиция | Режим познания | Формула Пирса | Психологический паттерн | Поведение субъекта |
+| :---: | :--- | :--- | :--- | :--- |
+| **1-я** | **Субъектная ДЕДУКЦИЯ** (Результативная, Доминантная, Монологичная) | $Rule \to Cases$ | Автономное порождение нерушимой аксиомы / генеральной рамки. | «Я знаю фундаментальный закон/цель; все частные факты и действия подчиняются ему». Не терпит навязывания чужих рамок. |
+| **2-я** | **Творческая АБДУКЦИЯ** (Процессионная, Подстраивающаяся, Диалогичная) | $Fact \to Hypothesis$ | Гибкая генерация и подбор рабочих объяснений под текущую реальность. | «Вижу факт $\to$ предлагаю рабочую гипотезу $\to$ проверяю в диалоге $\to$ если не работает, легко меняю». Зона сотрудничества. |
+| **3-я** | **Сверхконтролирующая ИНДУКЦИЯ** (Процессионная, Доминантная, Уязвимая) | $\sum Cases \to Rule?$ | Мучительное накопление частных фактов при вечной неполноте выборки. | «Мне не хватает данных, а вдруг ошибка/угроза?». Сомнения, синдром самозванца, перепроверка доктрин, гиперкомпенсация в академизм/контроль. |
+| **4-я** | **Принимающая ДЕДУКЦИЯ** (Результативная, Подстраивающаяся, Адиафорная) | $ExternalRule \to Trust$ | Спокойное принятие внешней готовой аксиомы (институт, вера, устав). | «Правило задано извне (системой/авторитетом), я принимаю его без споров». Экономия ресурса, отсутствие экзистенциальных метаний. |
 
 ---
 
-## Summary Profile
+## 3. Правила деконтаминации (Запреты на типичные ошибки)
 
-| System | Type Format | Example |
-|--------|-------------|------------|
-| Temporistics | БНПВ (F N P E) | User notation |
-| Psychosophy | ФВЛЭ (F V L E) | User notation |
-| Socionics | СЛЭ (SLE) | 4-letter code |
+1. **Разделение «Содержания деятельности» и «Функции»:**
+   * Наличие научной степени, академических публикаций или написание стратегических статей **НЕ является маркером 1-й Логики**. 3-я Логика часто гиперкомпенсируется в академизм и диссертации ради снятия индуктивной неуверенности.
+   * Жизнь в бункере, на передовой или армейский аскетизм — это **протокол безопасности (OPSEC) и профессиональный долг**, а не слабая 4-я Физика.
 
----
+2. **Разделение «Ценностно-морального выбора» и психософских функций:**
+   * Передача личного миллионного наследства армии или самопожертвование — это проявление **Ценностно-морального уровня (Level 1) и широты 2-й Воли (2В)**, а не признак «безразличия к деньгам по 4Ф».
+   * **1Ф (Физика)** оценивается по базовой материально-ресурсной картине мира (плотность огня, вес снарядов, логистика, физическая выносливость, удержание земли).
 
-## Key Observations
+3. **Фильтр «Нормы человеческого горя/стресса»:**
+   * Слезы при известии о гибели сослуживцев или сочувствие родственникам погибших — это **здоровая человеческая эмпатия**, а не маркер «травмированной 3-й Эмоции (3Э)».
+   * **4-я Эмоция (4Э)** — это спокойная результативная сдержанность без публичной экзальтации, драмы и популизма.
 
-### [Category]
-- [Evidence from public sources]
+4. **Дедукция Темпористики vs Логика Психософии:**
+   * Тяга к фундаментальной науке, академической доктринальности, религии и институциональному служению («армия как единый организм») — это проявление **дедуктивных аспектов Темпористики (Прошлое / Вечность)**, а не индивидуалистической 1-й Логики в Психософии.
 
----
+5. **Строгая триангуляция Психософии по дихотомиям Афанасьева:**
+   Каждая функция обязана проверяться на пересечении 3 бинарных осей:
+   * **Доминантность (1, 3) vs Подстраиваемость (2, 4)**
+   * **Результативность (1, 4) vs Процессионность (2, 3)**
+   * **Принципиальность / Высота (1, 2) vs Адиафория / Низ (3, 4)**
 
-## Temporistics Analysis
-
-### [Type determination]
-**Rationale**: [Explanation with evidence]
-
-[Detailed temporal analysis]
-
----
-
-## Psychosophy Analysis (4 aspects × 4 positions = LEVF format)
-
-### Determining Positions
-
-Each aspect (L/E/V/F) has position 1-4:
-
-| Position | What to look for |
-|----------|----------------|
-| 1 (Leading) | What they naturally drive, confident in |
-| 2 (Creative) | What they develop with others |
-| 3 (Vulnerable) | What causes anxiety/doubt |
-| 4 (Role) | How they present externally |
-
-**Output format**: 4-character like "1L2E3V4F" or simplified "LEV" (just leading + creative)
-
-### Analysis
-
-[Which position for each: L, E, V, F]
+6. **Корректность Модели А в Соционике:**
+   * Недопустимы комбинации вида $Se + Te$.
+   * Для **СЛЭ (Жуков)**: Базовая $Se$, Творческая $Ti$, Ролевая $Ne$, Болевая $Fi$, Суггестивная $Ni$, Активационная $Fe$, Ограничительная $Si$, Фоновая $Te$.
 
 ---
 
-## Socionics Analysis
+## 4. Канонический реестр типов (SSOT Registry)
 
-### [Type determination]
-**Rationale**: [Explanation with evidence]
+Все агенты обязаны строго использовать канонические соответствия формул и псевдонимов. Запрещено использовать вольные метафоры или путать перестановки 2-й и 3-й функций.
 
-[Function-by-function breakdown]
+### 4.1. Психософия (24 типа Афанасьева)
+* **1Ф:** ФВЛЭ — «Гёте», ФВЭЛ — «Чехов», ФЛВЭ — «Аристипп», ФЛЭВ — «Эпикур», ФЭВЛ — «Дюма», ФЭЛВ — «Борджиа»
+* **1В:** ВФЛЭ — «Наполеон», ВФЭЛ — «Твардовский», ВЛФЭ — «Ленин», ВЛЭФ — «Сократ», ВЭФЛ — «Толстой», ВЭЛФ — «Ахматова»
+* **1Л:** ЛВФЭ — «Лао-Цзы», ЛВЭФ — «Эйнштейн», ЛФВЭ — «Платон», ЛФЭВ — «Бертье», ЛЭВФ — «Паскаль», ЛЭФВ — «Августин»
+* **1Э:** ЭВФЛ — «Пастернак», ЭВЛФ — «Газали», ЭФВЛ — «Пушкин», ЭФЛВ — «Бухарин», ЭЛВФ — «Андерсен», ЭЛФВ — «Руссо»
+
+### 4.2. Темпористика (24 типа Радута)
+* **Проводники:** БНПВ — «Колонист», БПНВ — «Пионер», ВПНБ — «Идеолог», ВНПБ — «Самурай»
+* **Старожилы:** НБПВ — «Завоеватель», НПБВ — «Звезда», ВПБН — «Теоретик», ВБПН — «Оракул»
+* **Кочевники:** БНВП — «Инициатор», БВНП — «Робинзон», ПВНБ — «Следопыт», ПНВБ — «Тамада»
+* **Лазутчики:** БПВН — «Хакер», БВПН — «Разведчик», НПВБ — «Дегустатор», НВПБ — «Серый Кардинал»
+* **Стражи:** ВБНП — «Миссионер», ВНБП — «Знаменосец», ПНБВ — «Спасатель», ПБНВ — «Рыцарь»
+* **Антиподы:** НВБП — «Политик», НБВП — «Игрок», ПВБН — «Маэстро», ПБВН — «Гэйм Мастер»
+
+### 4.3. Соционика (16 типов Модели А)
+* **Альфа:** ИЛЭ («Дон Кихот» / Искатель), СЭИ («Дюма» / Посредник), ЭСЭ («Гюго» / Энтузиаст), ЛИИ («Робеспьер» / Аналитик)
+* **Бета:** ЭИЭ («Гамлет» / Наставник), ЛСИ («Максим Горький» / Инспектор), СЛЭ («Жуков» / Маршал), ИЭИ («Есенин» / Лирик)
+* **Гамма:** СЭЭ («Наполеон» / Политик), ИЛИ («Бальзак» / Критик), ЛИЭ («Джек Лондон» / Предприниматель), ЭСИ («Драйзер» / Хранитель)
+* **Дельта:** ЛСЭ («Штирлиц» / Администратор), ЭИИ («Достоевский» / Гуманист), ИЭЭ («Гексли» / Советчик), СЛИ («Габен» / Мастер)
 
 ---
 
-## Combined Profile
+## 5. Правило строгой номенклатуры и протокол Adversarial Auditor
 
-[Three-layer summary]
+1. **Формат вывода типа:**
+   Строго: `[Буквенная_формула] — «[Канонический_псевдоним]»`.  
+   *Пример:* `ФВЛЭ — «Гёте»`, `БНПВ — «Колонист»`, `СЛЭ — «Жуков»`.
+2. **Запрет вольных эпитетов как имен типов:**
+   Запрещено писать `БНПВ — «Первопроходец»` или `ФВЛЭ — «Эпикур»`. Все описания роли указываются только после скобок или двоеточия.
+3. **Обязанность Adversarial Auditor:**
+   В чеклист критика входит обязательный шаг: **верификация формул по SSOT Registry (Раздел 4)**. При обнаружении инверсии 2-й и 3-й функций выдавать отказ в верификации.
+4. **Детерминированная валидация:**
+   Для программной проверки использовать `scripts/validate_typology_profile.py`.
 
 ---
 
-## Notes
+## 6. Эталонный композитный профиль (Пример: Валерий Залужный)
 
-1. This is speculative analysis based on public behavior only
-2. No examination conducted — cannot verify accuracy
-3. Typology is opinion, not psychological diagnosis
-4. Subject has not consented to this analysis
-```
-
-### Step 4: Review and Save
-
-Before finalizing, verify:
-
-- [ ] Disclaimer is present
-- [ ] No clinical diagnosis claims
-- [ ] Based on public sources only
-- [ ] Clear this is opinion, not fact
-- [ ] Non-commercial framing
-
-## Typology Reference
-
-### Temporistics Type (4 letters in EXTERNAL order!)
-
-**User's notation**: БНПВ (F N P E in Russian letters)
-
-| Letter (EN) | Russian | Aspect | Core Question |
-|-------------|---------|--------|---------------|
-| P | П | Past | "Who am I?" |
-| N | Н | Present | "Where is my place?" |
-| F | Б | Future | "Where am I going?" |
-| E | В | Eternity | "Why am I?" |
-
-**Format**: **Letter order = position 1, 2, 3, 4**
-
-**Example**: БНПВ = Future 1st, Present 2nd, Past 3rd, Eternity 4th
-
-**Verification for Zaluzhnyi**:
-- Future (Б) = 1st: Victory drives him — "entire occupied territory must be liberated"
-- Present (Н) = 2nd: Lives in war reality — "every day it's those who were killed"
-- Past (П) = 3rd: Soviet legacy transformation in progress — "transformation remains irreversible"
-- Eternity (В) = 4th: Legacy is external output, not primary focus
-
-**Reference**: See `wiki/sources/temporistics-detailed.md`
-
-### Psychosophy Type (4 letters in EXTERNAL order!)
-
-**CRITICAL FORMAT**: Letter order = POSITION 1, 2, 3, 4
-
-**User's notation**: ФВЛЭ means **Physics=1, Will=2, Logic=3, Emotion=4**
-
-| Russian | EN | Position | Meaning |
-|----------|---|---------|-------------------|
-| Ф | F (Physics) | 1st | Leading - drives action, material focus |
-| В | V (Volition) | 2nd | Creative - develops with others |
-| Л | L (Logic) | 3rd | Vulnerable - anxious about correctness |
-| Э | E (Emotion) | 4th | Role - presents externally |
-
-**Example**: ФВЛЭ = Physics 1st, Will 2nd, Logic 3rd, Emotion 4th
-
-**Position meanings**:
-- 1st (Leading): Can do easily, drives others
-- 2nd (Creative): Develops well with help
-- 3rd (Vulnerable): Anxious about, sensitive to criticism
-- 4th (Role): Presents externally, adapts to others
-
-**Verification for Zaluzhnyi (ФВЛЭ)**:
-- Physics (1st): Action-oriented, practical results — "kill enemy today"
-- Will (2nd): Persistent through war — "I have to live with it"
-- Logic (3rd): Anxious about correctness — overthinking? "I read a lot of books"
-- Emotion (4th): Keeps distance — human touch but not leading
-
-**IMPORTANT**: 3rd position doesn't mean "bad at" — means "anxious about correctness"
-
-Reference: See `wiki/sources/psychosophy-detailed.md`
-
-### Socionics Type — Key Correction!
-
-**IMPORTANT**: Different from my initial typing!
-
-**Common mistake**: Assuming vision/Intuition (Ne/Ni) leads for strategic commanders.
-**Correction**: Many military leaders lead with **Se** (External Sensing), not Ne!
-
-SLE (СЛЭ) = Se leading, Te creative, Fe role, Ne vulnerable:
-- Se = Action-oriented, battlefield adaptability, "kill enemy today"
-- Te = Systematic doctrine, external logic
-- Fe = Human touch as role, but not leading
-- Ne = Strategic vision is VULNERABLE (4th), not strength!
-
-**User's notation**: СЛЭ (SLE), ИЛЭ (ILE), ЛСИ (LSI), etc.
-
-Socionics uses 8 functions in 4 positions:
-
-| Function | Full Name |
-|----------|-----------|
-| **Ne** | External Intuition |
-| **Ni** | Internal Intuition |
-| **Se** | External Sensing (ACTION) |
-| **Si** | Internal Sensing |
-| **Te** | External Logic |
-| **Ti** | Internal Logic |
-| **Fe** | External Ethics |
-| **Fi** | Internal Ethics |
-
-**Model A (8 types in each of 4 clubs)**:
-- **Alpha**: ILE, SEI, EII, LII
-- **Beta**: SLE, ESFj, EIE, LSI
-- **Gamma**: SLI, IEI, LIE, ESE
-- **Delta**: ESI, IEE, SEV, ILI
-
-**Type format**: 4 letters in order Leading, Creative, Role, Vulnerable
-
-**Example**: SLE (Se-Te-Fe-Ne) = External Sensing leading, External Logic creative, External Ethics role, External Intuition vulnerable
-
-**Verification for Zaluzhnyi**: СЛЭ (SLE) is more accurate than LIE because:
-- He is ACTION-oriented: "kill enemy today", "not a show"
-- His vision (Ne) is secondary to his tactical action (Se)
-- He delegated to commanders, didn't lead with big picture
-
-**Reference**: See `wiki/sources/socionics-detailed.md`
-
-## Examples
-
-### Example: Zaluzhnyi (Completed)
-
-See `docs/typology-zaluzhnyi.md` for complete example showing:
-- Research process
-- Evidence-based reasoning
-- Three-system analysis
-- Proper disclaimer
-
-## All Three Systems Now Verified
-
-| System | User Type | Format | Verified |
-|--------|----------|--------|----------|----------|
-| Temporistics | БНПВ | Future=1, Present=2, Past=3, Eternity=4 | ✅ |
-| Psychosophy | ФВЛЭ | Physics=1, Will=2, Logic=3, Emotion=4 | ✅ |
-| Socionics | СЛЭ | Se leading, Te creative, Fe role, Ne vulnerable | ✅ |
-
-### Key Corrections Applied
-
-1. **Temporistics**: БНПВ confirmed — Future (victory) drives him
-2. **Psychosophy**: ФВЛЭ — Action (Physics) leads, not Logic!
-3. **Socionics**: СЛЭ (SLE) — Action (Se) leads, not vision (Ne)!
-
-### Critical Insight: Military Leaders ≠ Vision Types
-
-**Big mistake**: Assuming commanders = Ne/LIE (vision types)
-**Reality**: Many military leaders = Se/SLE (action types)!
-
-Zaluzhnyi's "kill enemy today", "not a show" = **Se** (External Sensing), not **Ne** (External Intuition)
-
-This changes how we type all military/personnel leaders!
-
-## Sources
-
-- Ethics framework: `docs/ethics-legal-typology-public-figures.md`
-- Typology systems: See wiki/ folder
-- Example: `docs/typology-zaluzhnyi.md`
-- Verification: User's typingБНПВ, ФВЛЭ, СЛЭ confirmed for Zaluzhnyi
+* **Темпористика: БНПВ — «Колонист»**
+  * 1Б (Будущее): Субъектная дедукция — технологический скачок и новая философия войны.
+  * 2Н (Настоящее): Творческая абдукция — гибкое сетевое управление боем «здесь и сейчас».
+  * 3П (Прошлое): Болезненная индукция — преодоление советского наследия, сомнение в догмах прошлого, тяжесть потерь.
+  * 4В (Вечность): Принимающая дедукция — непафосное служение долгу, вера в Бога и армию.
+* **Психософия: ФВЛЭ — «Гёте»**
+  * 1Ф (Физика): Материально-силовой реализм, удержание территории, логистика снарядов.
+  * 2В (Воля): Диалоговое лидерство (*Mission Command*), доверие генералам, достоинство.
+  * 3Л (Логика): Индуктивная перепроверка доктрин, академический поиск, сомнения в расчетах.
+  * 4Э (Эмоция): Сдержанность, теплота без пафоса и эмоциональных манипуляций.
+* **Соционика: СЛЭ — «Жуков» / «Маршал»**
+  * Базовая $Se$ (контроль пространства и баланс сил) + Творческая $Ti$ (архитектура штаба).
+  * Болевая $Fi$ (уязвимость в кулуарных интригах) + Суггестивная $Ni$ (запрос на исторический тайминг).

@@ -2,6 +2,25 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-08-27] profile | Svitlana Tarabarova & Valerii Zaluzhnyi Multi-Agent Decontamination
+
+Refactored and decontaminated the public figure typological profiles in `docs/detailed-typology-tarabarova.md` and `docs/detailed-typology-zaluzhnyi.md`:
+- **Audited & Fixed Socionics Model A:** Replaced flawed 4-line stacks with full canonical 8-function Model A (for IEE: Leading $Ne$, Creative $Fi$, Role $Se$, PoLR $Ti$, Suggestive $Si$, Mobilizing $Te$, Ignoring $Ni$, Demonstrative $Fe$; for SLE: Leading $Se$, Creative $Ti$, Role $Ne$, PoLR $Fi$, Suggestive $Ni$, Mobilizing $Fe$, Ignoring $Si$, Demonstrative $Te$).
+- **Integrated Peirce Epistemic Matrix & Afanasyev Dichotomies:** Replaced erroneous socionic labels in Psychosophy and Temporistics with Deduction (1/4), Abduction (2), Induction (3) across ЭВФЛ («Пастернак»), ФВЛЭ («Гёте»), and БНПВ («Колонист»).
+- **Eliminated Barnum Effect:** Grounded arguments in verifiable behavioral choices (real estate debt crisis in Dmytrivka for 3Ф, non-coercive leadership for 2В, 2014 war-anticipation songs for 1Б).
+- **Passed SSOT Validation:** Verified adherence to canonical registry via `scripts/validate_typology_profile.py`.
+
+## [2026-08-27] governance | Canonical Typology Registry & Pseudonym Hardening
+
+Hardened the multi-agent typing pipeline against pseudonym drift and permutation hallucinations:
+- **Observed issue:** Subagents and synthesizers misattributed canonical pseudonyms (e.g. `ФВЛЭ` as `«Эпикур»` instead of `«Гёте»`; `БНПВ` as `«Первопроходец» / «Пионер»` instead of `«Колонист»`).
+- **Corrective implementation:**
+  - Created single source of truth (SSOT): `wiki/concepts/canonical-typology-registry.md`.
+  - Added deterministic Python validator: `scripts/validate_typology_profile.py`.
+  - Updated `skills/public-figure-typologist.md` with full SSOT lookup tables for Psychosophy (24), Temporistics (24), and Socionics (16), strict nomenclature rules, and mandatory Adversarial Auditor cross-check steps.
+  - Recorded governance loop artifacts in `.agent-learning/logs/`, `.agent-learning/proposals/`, and `.agent-learning/reviews/`.
+
+
 ## [2026-08-26] concept | Reconceptualization of Typologies (Переосмысление типологий)
 
 Formally articulated and integrated the foundational project principle that Before We Build is a fundamental reconceptualization of Socionics, Psychosophy, and Temporistics:

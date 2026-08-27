@@ -80,6 +80,7 @@ application profile, not the definition of the research core.
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
 | [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary rules: Scripture-first wording, no psychology/typology front door, no mixed English product terms |
 | [[test-result-reading-guide]] | Explains how to read test outputs as provisional, level-separated hypotheses |
+| [[canonical-typology-registry]] | Single Source of Truth (SSOT) registry for all 24 Psychosophy, 24 Temporistics, and 16 Socionics canonical formulas and pseudonyms |
 | [[temporistics-cognitive-resource-routing-creation-model-uk]] | Українська дослідницька гіпотеза: темпористика як креаціоністська модель розподілу когнітивного ресурсу, часової маршрутизації та соціального доповнення |
 | [[spiritual-foundation-levels-ru]] | Русская исследовательская гипотеза о четырёх духовных позициях основания и четырёх парных динамиках: сонаправленность, асимметрия зрелости, неясное основание и разное основание |
 | [[spiritual-maturity-models-comparison-ru]] | Русское сопоставление библейских и христианских моделей духовной зрелости с текущей 4-позиционной схемой Before We Build |

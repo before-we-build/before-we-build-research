@@ -1,265 +1,84 @@
 # Detailed Typology: Валерій Залужний (Valerii Zaluzhnyi)
 
-**DISCLAIMER**: This typology is an interpretation based on publicly available information only. It does not constitute a psychological diagnosis. No examination was conducted. The subject has not consented to this analysis. This is opinion, not fact.
+```
+ДИСКЛЕЙМЕР: Данный анализ представляет собой исследовательскую гипотезу в рамках исследовательской 
+системы Before We Build на основе анализа открытых источников (видеоинтервью, текстов, публикаций). 
+Типологии (Темпористика, Психософия, Соционика) рассматриваются как эвристические модели латентных 
+когнитивно-психологических процессов, а не как фатальные ярлыки или медицинские диагнозы.
+```
 
 ---
 
-## Final Type Summary
+## 1. Сводная типологическая карта (SSOT Registry)
 
-| System | Type | Position 1 | Position 2 | Position 3 | Position 4 |
-|--------|------|------------|------------|------------|------------|
-| **Socionics** | СЛЭ | Se (External Sensing) | Te (External Logic) | Fe (External Ethics) | Ne (External Intuition) |
-| **Psychosophy** | ФВЛЭ | Physics (Ф) | Volition (В) | Logic (Л) | Emotion (Э) |
-| **Temporistics** | БНПВ | Future (Б) | Present (Н) | Past (П) | Eternity (В) |
-
----
-
-## Socionics: СЛЭ (Sensing, Logic, Extrovert)
-
-### Function Stack: Se → Te → Fe → Ne
-
-| Position | Function | Name | Description |
-|----------|----------|------|------------|
-| **1st (Leading)** | **Se** | External Sensing | Action-oriented, practical, "here and now" |
-| **2nd (Creative)** | **Te** | External Logic | Systematic organization, external structure |
-| **3rd (Role)** | **Fe** | External Ethics | Social harmony externally |
-| **4th (Vulnerable)** | **Ne** | External Intuition | Long-term vision |
-
-### Detailed Breakdown
-
-#### Position 1: Se (External Sensing) — Leading
-
-**What it means**: He's driven by immediate physical reality, action in the present moment.
-
-**Evidence**:
-- "Kill enemy today, not tomorrow" — immediate action
-- "Not a show" — real battlefield results, not performances
-- Battlefield adaptability, maneuver warfare
-- "We stopped the second most powerful army in the world" — concrete result
-
-**Direct quotes**:
-- "I don't need to understand military affairs any more than I need to know about medicine"
-- "To remain human in any situation — that is the most important thing"
-- Prioritized Kyiv defense over political considerations
-
-**How it manifests**:
-- Focus on practical results over theory
-- "Now" battlefield decisions
-- Action-oriented leadership
-
-#### Position 2: Te (External Logic) — Creative
-
-**What it means**: He develops systematic, organized approaches with structure.
-
-**Evidence**:
-- Systematic military reform toward NATO standards
-- Graduate from multiple military academies with honors
-- Created flexible command structure
-- "The overall course... remains irreversible" — systematic approach
-
-**Direct quotes**:
-- "I read a lot of books, I graduated from all the academies with a gold medal"
-- "We practiced... almost like a religion" — systematic doctrine
-
-**How it manifests**:
-- Organized military transformation
-- Systematic approach to warfare
-- NATO-compatible structure
-
-#### Position 3: Fe (External Ethics) — Role
-
-**What it means**: He presents social/human values externally.
-
-**Evidence**:
-- "I do not mock people, I do not oppress them, I do not humiliate them"
-- Human touch with subordinates
-- Caring about soldiers: "Every day it's those who were killed"
-- Called "Iron General" but has "human side"
-
-**Direct quotes**:
-- "To remain human in any situation"
-- "My attitude towards people has not changed throughout my service"
-
-**How it manifests**:
-- External concern for soldiers
-- Human leadership presentation
-- Social responsibility
-
-#### Position 4: Ne (External Intuition) — Vulnerable
-
-**What it means**: Long-term strategic vision is his sensitive point.
-
-**Evidence**:
-- Focus on immediate results, not long-term vision
-- Didn't predict full-scale invasion scale
-- Victory defined as territory liberation — concrete, not abstract
-
-**How it manifests**:
-- May not emphasize long-term vision
-- Concrete over abstract
-- Present/future focus but on achievable goals
+| Уровень совместимости / Система | Код / Формула | Канонический псевдоним (SSOT) | Гносеологический / Структурный механизм |
+| :--- | :---: | :---: | :--- |
+| **Уровень 1: Ценностно-моральный** | — | **Воинская честь и служение** | Защита украинского народа, сохранение жизней солдат, человечность, верность долгу. |
+| **Уровень 2: Темпористика (Стратегия)** | **БНПВ** | **«Колонист»** *(Тетрада «Проводники»)* | $1Б$ (Дедукция) $\to$ $2Н$ (Абдукция) $\to$ $3П$ (Индукция) $\to$ $4В$ (Делегированная дедукция) |
+| **Уровень 3: Психософия (Действие)** | **ФВЛЭ** | **«Гёте»** | $1Ф$ (Дедукция) $\to$ $2В$ (Абдукция) $\to$ $3Л$ (Индукция) $\to$ $4Э$ (Делегированная дедукция) |
+| **Уровень 4: Соционика (Информация)** | **СЛЭ** | **«Жуков» / «Маршал»** *(II Квадра / Бета)* | Базовая $Se$ (4D) + Творческая $Ti$ (3D); Болевая $Fi$ (1D); Суггестивная $Ni$ (1D) |
 
 ---
 
-## Psychosophy: ФВЛЭ
+## 2. Психософия: ФВЛЭ — «Гёте»
 
-### Function Stack: Ф → В → Л → Э
+### 2.1. Гносеологическая матрица функций и дихотомии
 
-| Position | Function | Name | Description |
-|----------|----------|------|------------|
-| **1st (Leading)** | **Ф (Physics)** | Practical, material action driver |
-| **2nd (Creative)** | **В (Volition)** | Will, persistence, goal orientation |
-| **3rd (Role)** | **Л (Logic)** | Analytical externally |
-| **4th (Vulnerable)** | **Э (Emotion)** | Emotional sensitivity |
-
-### Detailed Breakdown
-
-#### Position 1: Physics (Ф) — Leading
-
-**What it means**: He's driven by practical, material results.
-
-**Evidence**:
-- Lives in bunker, minimal comfort
-- "I have to live with it" — practical burden
-- No luxury claims
-- Focus on real battlefield results
-
-**How it manifests**:
-- Minimal personal comfort needs
-- Practical military decisions
-- Result-oriented
-
-#### Position 2: Volition (В) — Creative
-
-**What it means**: He persists toward goals with support.
-
-**Evidence**:
-- Persisted through war since 2014
-- Didn't resign even when criticized
-- Maintained position through political turbulence
-
-**How it manifests**:
-- Persistent will
-- Goal-oriented despite losses
-- Continues despite challenges
-
-#### Position 3: Logic (Л) — Role
-
-**What it means**: He presents logical/analytical externally when needed.
-
-**Evidence**:
-- Academic military education
-- Strategy analysis
-- "I understand everything theoretically"
-
-**How it manifests**:
-- Presents analysis when needed
-- Logical military decisions
-- Structured thinking
-
-#### Position 4: Emotion (Э) — Vulnerable
-
-**What it means**: Emotional expression is sensitive.
-
-**Evidence**:
-- Rarely shows emotion publicly
-- Keeps distance from public
-- Private about feelings
-
-**How it manifests**:
-- Guarded emotions
-- Not publicly expressive
-- May internalize pain
+| Позиция / Аспект | Дихотомический срез | Формула Пирса | Когнитивно-поведенческий паттерн |
+| :--- | :--- | :--- | :--- |
+| **1-я позиция: 1Ф (Физика)** | • Доминантность<br>• Результативность<br>• Принципиальность (Верх) | **$Rule \to Cases$**<br>*(Субъектная Дедукция)* | Материально-силовой реализм, удержание суверенной территории, расчет плотности огня, логистика ресурсов и снарядов. |
+| **2-я позиция: 2В (Воля)** | • Подстраиваемость<br>• Процессионность<br>• Принципиальность (Верх) | **$Fact \to Hypothesis$**<br>*(Творческая Абдукция)* | Делегированное командование (*Mission Command*), доверие генералам и офицерам на местах, уважение человеческого достоинства бойцов. |
+| **3-я позиция: 3Л (Логика)** | • Доминантность<br>• Процессионность<br>• Адиафория / Уязвимость (Низ) | **$\sum Cases \to Rule?$**<br>*(Сверхконтролирующая Индукция)* | Непрерывная индуктивная перепроверка доктрин, написание научных статей, защита диссертации, сомнения в теоретических шаблонах. |
+| **4-я позиция: 4Э (Эмоция)** | • Подстраиваемость<br>• Результативность<br>• Адиафория (Низ) | **$ExternalRule \to Trust$**<br>*(Принимающая Дедукция)* | Спокойная сдержанность без эмоционального популизма, пафоса и истерии. Искренняя эмпатия без театрализации. |
 
 ---
 
-## Temporistics: БНПВ
+## 3. Темпористика: БНПВ — «Колонист»
 
-### Function Stack: Б → Н → П → В
+### 3.1. Гносеологический анализ темпорального опыта
 
-| Position | Function | Name | Description |
-|----------|----------|------|------------|
-| **1st (Leading)** | **Б (Future)** | Future goal, victory orientation |
-| **2nd (Creative)** | **Н (Present)** | Present reality engagement |
-| **3rd (Role)** | **П (Past)** | Past experience reference |
-| **4th (Vulnerable)** | **В (Eternity)** | Legacy sensitivity |
-
-### Detailed Breakdown
-
-#### Position 1: Future (Б) — Leading
-
-**What it means**: He's driven by future victory goals.
-
-**Evidence**:
-- "Our victory is, unequivocally, the liberation of the entire occupied territory"
-- Focus on destroying enemy, not abstractions
-- Long-term war: attrition strategy
-
-**Direct quotes**:
-- "Our victory is, unequivocally, the liberation of the entire occupied territory"
-- Not focused on peace negotiations until victory
-
-**How it manifests**:
-- Victory-driven
-- Future-oriented military goals
-- Outcome-focused
-
-#### Position 2: Present (Н) — Creative
-
-**What it means**: He develops within current war reality.
-
-**Evidence**:
-- Lives in daily war reality: "Every day it's those who were killed"
-- Daily decisions, daily burden
-- Current battlefield focus
-
-**How it manifests**:
-- Present-focused decisions
-- Daily war reality
-- Current situation management
-
-#### Position 3: Past (П) — Role
-
-**What it means**: He references past outwardly as needed.
-
-**Evidence**:
-- Transforms from Soviet legacy — past reference
-- 2014 Donbas experience shaped him
-- References past for learning
-
-**How it manifest**:
-- Uses past experience
-- Transforms Soviet military
-- Past informs present
-
-#### Position 4: Eternity (В) — Vulnerable
-
-**What it means**: Legacy/meaning is sensitive.
-
-**Evidence**:
-- "The transformation remains irreversible" — not about personal legacy
-- Not seeking personal fame
-- Focus on institution, not self
-
-**How it manifests**:
-- Less focus on personal legacy
-- Institutional over personal
-- May avoid immortality discussions
+* **1-я: Будущее (1Б) — Субъектная Дедукция ($Rule \to Cases$):**  
+  * Стратегическое видение технологического перелома в войне (статья в *The Economist* о позиционном тупике и необходимости технологического скачка). Победа как безальтернативная аксиома освобождения всех территорий.
+* **2-я: Настоящее (2Н) — Творческая Абдукция ($Fact \to Hypothesis$):**  
+  * Гибкое сетевое управление боем «здесь и сейчас». Мгновенное реагирование на маневры противника, адаптация к реалиям текущего фронта.
+* **3-я: Прошлое (3П) — Сверхконтролирующая Индукция ($\sum Cases \to Rule?$):**  
+  * Преодоление тяжелого советского наследия («выжигание совка»), рефлексия потерь, переосмысление боевого опыта с 2014 года.
+* **4-я: Вечность (4В) — Принимающая Дедукция ($ExternalRule \to Trust$):**  
+  * Спокойное служение долгу, вера в Бога и украинскую армию без мистического пафоса. Служение институту, а не личной славе.
 
 ---
 
-## Summary: Key Differences from Tarabarova
+## 4. Соционика: СЛЭ («Жуков» / «Маршал») — Модель А
 
-| Aspect | Zaluzhnyi | Tarabarova |
-|--------|-----------|-----------|
-| **Socionics Lead** | Se (Action) | Ne (Vision) |
-| **Socionics 2nd** | Te (Structure) | Fi (Emotional Values) |
-| **Psychosophy Lead** | Physics (Practical) | Emotion (Feeling) |
-| **Temporistics Lead** | Victory (Future) | Breakthrough (Future) |
+### 4.1. Полная 8-функциональная структура Модели А
 
-**Key insight**: COMPLETE OPPOSITE in many positions!
+```
+       МЕНТАЛЬНОЕ КОЛЬЦО (Осознанное)               ВИТАЛЬНОЕ КОЛЬЦО (Бессознательное)
+┌──────────────────────────────────────────┬──────────────────────────────────────────┐
+│ Блок ЭГО (Ценностный)                    │ Блок ИД (Неценностный)                   │
+│ 1. [ЧС / Se] Базовая (4D)                 │ 7. [БС / Si] Ограничительная (3D)        │
+│ 2. [БЛ / Ti] Творческая (3D)             │ 8. [ЧЛ / Te] Фоновая (4D)                │
+├──────────────────────────────────────────┼──────────────────────────────────────────┤
+│ Блок СУПЕРЭГО (Неценностный)             │ Блок СУПЕРИД (Ценностный)                │
+│ 3. [ЧИ / Ne] Ролевая (2D)                │ 5. [БИ / Ni] Суггестивная (1D)           │
+│ 4. [БЭ / Fi] Болевая / PoLR (1D)         │ 6. [ЧЭ / Fe] Активационная (2D)          │
+└──────────────────────────────────────────┴──────────────────────────────────────────┘
+```
 
-- Zaluzhnyi = Se + Ф (action/practical)
-- Tarabarova = Ne + Э (vision/emotion)
+* **1. Базовая $Se$ (ЧС, Силовая сенсорика, 4D):** Оценка баланса сил, контроль пространства, непосредственное удержание фронта.
+* **2. Творческая $Ti$ (БЛ, Структурная логика, 3D):** Архитектура управления войсками, внедрение стандартов НАТО, штабное моделирование.
+* **3. Ролевая $Ne$ (ЧИ, Интуиция возможностей, 2D):** Демонстрация нестандартных ходов и альтернативных вариантов в стратегическом планировании.
+* **4. Болевая $Fi$ (БЭ, Этика отношений, 1D / PoLR):** Уязвимость перед кулуарными интригами, политическими играми и межличностной неискренностью.
+* **5. Суггестивная $Ni$ (БИ, Интуиция времени, 1D):** Высокая чувствительность к историческому моменту, таймингу и стратегическим прогнозам.
+* **6. Активационная $Fe$ (ЧЭ, Этика эмоций, 2D):** Эмоциональный подъем от боевого братства, искреннего душевного контакта с подчиненными («Оставаться человеком»).
 
-These could attract each other as opposites!
+---
+
+## 5. Сравнительный анализ с профилем Светланы Тарабаровой
+
+| Уровень / Типология | Валерий Залужный | Светлана Тарабарова | Интертипная динамика |
+| :--- | :---: | :---: | :--- |
+| **Уровень 1: Ценности** | Воинский долг, защита государства | Гуманизм, служение свету, защита детей | **Полный резонанс на ценностно-нравственном уровне** |
+| **Уровень 2: Темпористика** | **БНПВ («Колонист»)** | **БНПВ («Колонист»)** | **Тождество:** Единый ритм устремленности в будущее ($1Б$) и гибкого освоения момента ($2Н$). |
+| **Уровень 3: Психософия** | **ФВЛЭ («Гёте»)** | **ЭВФЛ («Пастернак»)** | **Эрозия по 1/4 при полном союзе по 2В:** $1Ф \leftrightarrow 3Ф$ и $1Э \leftrightarrow 4Э$ при общем диалоге $2В \leftrightarrow 2В$. |
+| **Уровень 4: Соционика** | **СЛЭ («Жуков»)** | **ИЭЭ («Гексли»)** | **Квазитождество / Родственные клубы:** Разные квадры (Бета vs Дельта), силовой фокус против гуманитарного. |
