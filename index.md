@@ -77,6 +77,7 @@ application profile, not the definition of the research core.
 | [[latent-process]] | Explains observable traces vs hidden process hypotheses |
 | [[compatibility-level-boundaries]] | Defines value-moral, strategic, operational, and tactical boundaries |
 | [[operational-compatibility-ru]] | Каноническое русское определение операционного уровня: совместная сборка, воплощение и коррекция решений через Волю, Логику, Эмоцию и Физику |
+| [[typology-disambiguation-guide-ru]] | Русский практический гид по различению терминов трёх типологий: устранение ложных склеек (Воля vs ЧС, Эмоция vs Этика) и примеры парадоксальных профилей |
 | [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
 | [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary rules: Scripture-first wording, no psychology/typology front door, no mixed English product terms |
 | [[test-result-reading-guide]] | Explains how to read test outputs as provisional, level-separated hypotheses |
@@ -169,6 +170,7 @@ wiki/          — LLM-generated wiki
 | [[before-we-build-vs-big-five]] | Positions Before We Build against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
 | [[psychology-of-everything]] | Context page on unified psychology, metatheory, integrative psychology, and “maps of everything” | psychology-of-everything-synthesis |
 | [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
+| [[typology-disambiguation-guide-ru]] | Русский практический гид по различению терминов трёх типологий: устранение ложных склеек (Воля vs ЧС, Эмоция vs Этика) и парадоксальные примеры профилей | typology-reconceptualization-ru.md, cross-typology-terminology-conflicts.md, emotion-vs-ethics-boundary.md |
 | [[composite-intertype-combinatorics-ru]] | Русский расчёт пространства составных профилей и пар по трём типологиям: 9 216 профилей, 84 934 656 направленных и 42 471 936 ненаправленных структурных пар; с границами против ложного представления об эмпирически доказанной совместимости | socionics-intertype-relations.md, psychosophy-intertype-relations.md, temporistics-intertype-relations.md |
 | [[typology-test-design-protocol]] | Shared psychometric protocol for Socionics, Psychosophy, and Temporistics test design and validation | research-program.md, weight-calibration.md, 2026-04-25-typology-test-evaluation-protocol.md |
 | [[socionics-test-specification]] | Draft Before We Build Socionics test architecture, scales, seed items, and scoring caveats | typology-test-design-protocol.md, socionics-model-a.md, socionics-information-elements.md |

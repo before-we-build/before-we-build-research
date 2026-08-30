@@ -66,5 +66,6 @@ Before We Build не является простой компиляцией го
 ## См. также
 - [[main-idea-ru|Главная идея]]
 - [[four-level-compatibility-architecture-ru|Четырёхуровневая архитектура совместимости]]
+- [[typology-disambiguation-guide-ru|Гид по различению типологий: как не путать термины]]
 - [[latent-process|Концепция латентных процессов]]
 - [[compatibility-level-boundaries-ru|Границы уровней совместимости]]
