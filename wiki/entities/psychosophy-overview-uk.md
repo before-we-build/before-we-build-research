@@ -11,11 +11,13 @@ claims:
     status: research-hypothesis
   - id: psychosophy-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md]
 translation_group: psychosophy-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:psychosophy-operational-model -->
 Психософія — типологічна теорія, пов'язана з Олександром Афанасьєвим і *«Синтаксисом кохання»*. Before We Build використовує її як **евристичну гіпотезу про операційну організацію спільної дії**: про те, як люди узгоджують агентність, вираження, обґрунтування, матеріальні ресурси, зусилля й тиск. Це не повна теорія особистості й не визначник результату стосунків.
+
+Її коди — компактні моделі передбачуваних задатків аналізу, синтезу й організації дії, а не типи особистості. Можливе природне підґрунтя — додаткова неперевірена гіпотеза; навчання, роль, культура, стан, стрес і контекст залишаються альтернативами.
 
 <!-- section:core-constructs -->
 ## Основні конструкти
@@ -56,7 +60,7 @@ page_role: entity
 ## Довідник типів
 
 <!-- claim:psychosophy-reference-codes -->
-Стандартний довідник містить 24 перестановки L, E, V і F. Код `LEVF` означає 1L, 2E, 3V і 4F; це компактна мітка моделі, а не вид людини. Теоретичний «25-й тип» Афанасьєва (`2-2-2-2`) зберігається як специфічна для джерела історична пропозиція, а не додаткова спостережувана категорія.
+Стандартний довідник містить 24 перестановки L, E, V і F. Код `LEVF` означає 1L, 2E, 3V і 4F; він компактно моделює передбачуваний процесний задаток, а не вид людини. Теоретичний «25-й тип» Афанасьєва (`2-2-2-2`) зберігається як специфічна для джерела історична пропозиція, а не додаткова спостережувана категорія.
 
 <!-- section:observations-and-alternatives -->
 ## Спостереження й альтернативні пояснення

@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: en
 translation_group: epistemic-status-and-inference-limits
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, normative-rule]
@@ -16,7 +16,9 @@ claims:
     status: normative-rule
   - id: current-typology-mappings-unvalidated
     status: research-hypothesis
-caveat_ids: [no-person-verdict, no-cross-level-compensation, uncertainty-visible]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [no-person-verdict, no-cross-level-compensation, uncertainty-visible, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -47,7 +49,7 @@ Documents, statements, recorded conduct, measurement results, and outcomes may b
 <!-- section:hypotheses -->
 ## What remains a hypothesis
 
-The four-level architecture is a project definition and research map. The claim that the three typologies validly measure their proposed latent processes, or predict pair outcomes, remains to be established.
+The four-level architecture is a project definition and research map. A type is a model hypothesis about perception and experience organization, not a personality type. Whether the three typologies validly measure proposed latent processes, predict pair outcomes, or reflect natural predispositions remains to be established; the last claim does not establish biological innateness.
 
 <!-- section:alternatives -->
 ## Alternative explanations

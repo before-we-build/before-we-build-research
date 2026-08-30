@@ -7,8 +7,8 @@ updated: 2026-04-24
 sources: [wiki/concepts/main-idea-en.md, wiki/concepts/project-positioning-en.md, wiki/concepts/compatibility-level-boundaries-en.md, wiki/concepts/compatibility-measurement-roadmap-en.md, wiki/sources/big-five-alternatives-en.md]
 lang: en
 translation_group: before-we-build-vs-big-five
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -44,7 +44,7 @@ Big Five is strongest as a descriptive trait taxonomy. Before We Build is design
 
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
-- **Temporistics → latent processes of induction and deduction in temporal/existential experience**
+- **Temporistics → latent processes of abduction, induction, and deduction in temporal/existential experience**
 
 These mappings are proposed heuristics, not established psychometric facts.
 

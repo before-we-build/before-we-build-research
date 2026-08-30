@@ -7,8 +7,8 @@ updated: 2026-08-30
 lang: uk
 sources: [wiki/concepts/main-idea-uk.md, wiki/concepts/compatibility-level-boundaries-uk.md, wiki/concepts/typology-test-design-protocol-uk.md]
 translation_group: test-result-reading-guide
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -21,6 +21,8 @@ caveat_ids: []
 Мови: [[test-result-reading-guide-en|English]] | [[test-result-reading-guide-ru|Русский]] | **Українська**
 
 Використовуйте цю сторінку як **посібник із читання**, а не як доказ остаточного типування. У Before We Build результат тесту — це **пілотна гіпотеза**, яку ще потрібно зіставити зі спостереженнями, самоописом і альтернативами. Див. [[main-idea-uk]] і [[compatibility-level-boundaries-uk]].
+
+Результат стосується запропонованого типового патерну сприйняття й організації досвіду, а не типу особистості. Природна схильність — лише додаткова гіпотеза. Див. [[typology-reconceptualization-uk]].
 
 <!-- section:level-separation -->
 ## Розділення рівнів

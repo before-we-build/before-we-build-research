@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: en
 translation_group: start-here
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, application-guidance]
@@ -28,6 +28,8 @@ English · [[start-here-ru|Русский]] · [[start-here-uk|Українсь�
 ## In 90 seconds
 
 Before We Build is a research framework for asking how two people may build, decide, coordinate, and sustain a relationship or shared task. It separates a value-moral foundation from three proposed typological lenses: strategic direction through Temporistics, operational joint action through Psychosophy, and tactical information exchange through Socionics. These lenses organize questions; they do not diagnose a person or deliver a compatibility verdict.
+
+Here a type means a model hypothesis about a pattern of perception and experience organization, not a personality type. “Perception” includes selecting, ordering, interpreting, and organizing experience, not only sensory perception. See [[typology-reconceptualization-en]].
 
 <!-- section:definition-and-scope -->
 ## Definition and scope

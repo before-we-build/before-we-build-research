@@ -6,8 +6,8 @@ created: 2026-04-24
 updated: 2026-08-30
 lang: ru
 translation_group: latent-process
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -16,7 +16,9 @@ claims:
     status: project-definition
   - id: latent-process-may-explain-pattern
     status: research-hypothesis
-caveat_ids: [not-directly-observed, not-proven-cause, multiple-indicators-required]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [not-directly-observed, not-proven-cause, multiple-indicators-required, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -32,7 +34,7 @@ sources: [AGENTS.md]
 <!-- section:definition-and-scope -->
 ## Определение и область применения
 
-Различайте четыре вещи: наблюдаемый след, описательный паттерн, гипотезу типа и гипотезу латентного процесса. Причинный механизм — ещё более сильное отдельное утверждение. Каждый переход требует свидетельств.
+Различайте пять вещей: всю личность, наблюдаемый след или описательный паттерн, гипотезу типового паттерна восприятия и организации опыта, гипотезу латентного процесса и гипотезу о природной предрасположенности. Причинный механизм — ещё более сильное отдельное утверждение. Каждый переход требует свидетельств.
 
 <!-- section:shared-example -->
 ## Общий пример
@@ -47,7 +49,7 @@ sources: [AGENTS.md]
 <!-- section:hypotheses -->
 ## Что остаётся гипотезой
 
-Процесс полезен, только если объясняет согласованную вариативность, отличается от конкурирующих конструктов и улучшает прогноз для конкретной области. Соответствия типологических позиций процессам остаются непроверенными гипотезами проекта без отдельных свидетельств.
+Процесс полезен, только если объясняет согласованную вариативность, отличается от конкурирующих конструктов и улучшает прогноз для конкретной области. Соответствия типологических позиций процессам остаются непроверенными гипотезами проекта. Дополнительное утверждение, что паттерн отражает природную предрасположенность, также требует отдельных свидетельств и не устанавливает врождённость.
 
 <!-- section:alternatives -->
 ## Альтернативные объяснения

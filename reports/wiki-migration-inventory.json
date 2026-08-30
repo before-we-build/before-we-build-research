@@ -34,7 +34,7 @@
       "historical-proposal": 3,
       "normative-rule": 33,
       "project-definition": 54,
-      "research-hypothesis": 69,
+      "research-hypothesis": 93,
       "source-attribution": 15
     },
     "groups_with_duplicate_locales": 0,
@@ -288,7 +288,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "adequate-compromise-en",
           "resolved": "wiki/concepts/adequate-compromise-en.md",
           "ambiguous": []
@@ -595,7 +595,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "adequate-compromise-ru",
           "resolved": "wiki/concepts/adequate-compromise-ru.md",
           "ambiguous": []
@@ -677,7 +677,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "adequate-compromise-uk",
           "resolved": "wiki/concepts/adequate-compromise-uk.md",
           "ambiguous": []
@@ -1045,7 +1045,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 314,
+          "line": 316,
           "raw_target": "afanasyev-model-en",
           "resolved": "wiki/concepts/afanasyev-model-en.md",
           "ambiguous": []
@@ -1205,7 +1205,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 312,
+          "line": 314,
           "raw_target": "afanasyev-model-ru",
           "resolved": "wiki/concepts/afanasyev-model-ru.md",
           "ambiguous": []
@@ -1365,7 +1365,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 312,
+          "line": 314,
           "raw_target": "afanasyev-model-uk",
           "resolved": "wiki/concepts/afanasyev-model-uk.md",
           "ambiguous": []
@@ -2052,8 +2052,8 @@
       "translation_group": "before-we-build-vs-big-five",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -2130,8 +2130,8 @@
       "translation_group": "before-we-build-vs-big-five",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -2208,8 +2208,8 @@
       "translation_group": "before-we-build-vs-big-five",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -2773,7 +2773,7 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 81,
+          "line": 83,
           "raw_target": "christian-application-overview-en",
           "resolved": "wiki/concepts/christian-application-overview-en.md",
           "ambiguous": []
@@ -2935,7 +2935,7 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 81,
+          "line": 83,
           "raw_target": "christian-application-overview-ru",
           "resolved": "wiki/concepts/christian-application-overview-ru.md",
           "ambiguous": []
@@ -3097,7 +3097,7 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 81,
+          "line": 83,
           "raw_target": "christian-application-overview-uk",
           "resolved": "wiki/concepts/christian-application-overview-uk.md",
           "ambiguous": []
@@ -3892,7 +3892,7 @@
       "inbound_links": [
         {
           "source": ".opencode/agents/socionics-intertype-relations-expert.md",
-          "line": 99,
+          "line": 103,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -3955,7 +3955,7 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-en.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4018,14 +4018,14 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4200,7 +4200,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 93,
+          "line": 97,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4410,7 +4410,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 113,
+          "line": 117,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4438,7 +4438,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 108,
+          "line": 112,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4613,7 +4613,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4761,7 +4761,7 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-ru.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -4824,14 +4824,14 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5006,7 +5006,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 93,
+          "line": 97,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5216,7 +5216,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 113,
+          "line": 117,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5244,7 +5244,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 108,
+          "line": 112,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5419,7 +5419,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5567,7 +5567,7 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-uk.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -5630,14 +5630,14 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -5812,7 +5812,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 93,
+          "line": 97,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -6022,7 +6022,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 113,
+          "line": 117,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -6050,7 +6050,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 108,
+          "line": 112,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -6225,7 +6225,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -6344,7 +6344,7 @@
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-measurement-methods-en",
           "resolved": "wiki/concepts/compatibility-measurement-methods-en.md",
           "ambiguous": []
@@ -6358,7 +6358,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "compatibility-measurement-methods-en",
           "resolved": "wiki/concepts/compatibility-measurement-methods-en.md",
           "ambiguous": []
@@ -6477,7 +6477,7 @@
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-measurement-methods-ru",
           "resolved": "wiki/concepts/compatibility-measurement-methods-ru.md",
           "ambiguous": []
@@ -6491,7 +6491,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "compatibility-measurement-methods-ru",
           "resolved": "wiki/concepts/compatibility-measurement-methods-ru.md",
           "ambiguous": []
@@ -6610,7 +6610,7 @@
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-measurement-methods-uk",
           "resolved": "wiki/concepts/compatibility-measurement-methods-uk.md",
           "ambiguous": []
@@ -6624,7 +6624,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "compatibility-measurement-methods-uk",
           "resolved": "wiki/concepts/compatibility-measurement-methods-uk.md",
           "ambiguous": []
@@ -6757,7 +6757,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "compatibility-measurement-roadmap-en",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-en.md",
           "ambiguous": []
@@ -6792,7 +6792,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 311,
+          "line": 313,
           "raw_target": "compatibility-measurement-roadmap-en",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-en.md",
           "ambiguous": []
@@ -6813,7 +6813,7 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "compatibility-measurement-roadmap-en",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-en.md",
           "ambiguous": []
@@ -6939,7 +6939,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "compatibility-measurement-roadmap-ru",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-ru.md",
           "ambiguous": []
@@ -6974,7 +6974,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 309,
+          "line": 311,
           "raw_target": "compatibility-measurement-roadmap-ru",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-ru.md",
           "ambiguous": []
@@ -6988,7 +6988,7 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "compatibility-measurement-roadmap-ru",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-ru.md",
           "ambiguous": []
@@ -7114,7 +7114,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "compatibility-measurement-roadmap-uk",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-uk.md",
           "ambiguous": []
@@ -7149,7 +7149,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 309,
+          "line": 311,
           "raw_target": "compatibility-measurement-roadmap-uk",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-uk.md",
           "ambiguous": []
@@ -7163,7 +7163,7 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "compatibility-measurement-roadmap-uk",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-uk.md",
           "ambiguous": []
@@ -9258,8 +9258,8 @@
       "translation_group": "epistemic-status-and-inference-limits",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -9267,12 +9267,14 @@
       ],
       "claims": {
         "claim-kinds-must-be-separated": "normative-rule",
-        "current-typology-mappings-unvalidated": "research-hypothesis"
+        "current-typology-mappings-unvalidated": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "no-person-verdict",
         "no-cross-level-compensation",
-        "uncertainty-visible"
+        "uncertainty-visible",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -9327,14 +9329,14 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
@@ -9355,7 +9357,7 @@
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
@@ -9397,21 +9399,21 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 316,
+          "line": 318,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
@@ -9453,7 +9455,7 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
@@ -9462,35 +9464,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "compatibility-measurement-roadmap-en",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "evidence-workflow-and-walkthrough-en",
           "resolved": "wiki/concepts/evidence-workflow-and-walkthrough-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -9504,8 +9506,8 @@
       "translation_group": "epistemic-status-and-inference-limits",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -9513,12 +9515,14 @@
       ],
       "claims": {
         "claim-kinds-must-be-separated": "normative-rule",
-        "current-typology-mappings-unvalidated": "research-hypothesis"
+        "current-typology-mappings-unvalidated": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "no-person-verdict",
         "no-cross-level-compensation",
-        "uncertainty-visible"
+        "uncertainty-visible",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -9573,14 +9577,14 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
@@ -9601,7 +9605,7 @@
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
@@ -9643,21 +9647,21 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 314,
+          "line": 316,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
@@ -9699,7 +9703,7 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
@@ -9708,35 +9712,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "compatibility-measurement-roadmap-ru",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "evidence-workflow-and-walkthrough-ru",
           "resolved": "wiki/concepts/evidence-workflow-and-walkthrough-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -9750,8 +9754,8 @@
       "translation_group": "epistemic-status-and-inference-limits",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -9759,12 +9763,14 @@
       ],
       "claims": {
         "claim-kinds-must-be-separated": "normative-rule",
-        "current-typology-mappings-unvalidated": "research-hypothesis"
+        "current-typology-mappings-unvalidated": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "no-person-verdict",
         "no-cross-level-compensation",
-        "uncertainty-visible"
+        "uncertainty-visible",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -9819,14 +9825,14 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -9847,7 +9853,7 @@
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -9889,21 +9895,21 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 314,
+          "line": 316,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -9945,7 +9951,7 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -9954,35 +9960,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "compatibility-measurement-roadmap-uk",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "evidence-workflow-and-walkthrough-uk",
           "resolved": "wiki/concepts/evidence-workflow-and-walkthrough-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -10413,7 +10419,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "evidence-workflow-and-walkthrough-en",
           "resolved": "wiki/concepts/evidence-workflow-and-walkthrough-en.md",
           "ambiguous": []
@@ -10532,7 +10538,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "evidence-workflow-and-walkthrough-ru",
           "resolved": "wiki/concepts/evidence-workflow-and-walkthrough-ru.md",
           "ambiguous": []
@@ -10651,7 +10657,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "evidence-workflow-and-walkthrough-uk",
           "resolved": "wiki/concepts/evidence-workflow-and-walkthrough-uk.md",
           "ambiguous": []
@@ -11028,8 +11034,8 @@
       "translation_group": "four-level-compatibility-architecture",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -11084,7 +11090,7 @@
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "four-level-compatibility-architecture-en",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
           "ambiguous": []
@@ -11112,7 +11118,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 72,
+          "line": 74,
           "raw_target": "four-level-compatibility-architecture-en",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
           "ambiguous": []
@@ -11133,7 +11139,7 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "four-level-compatibility-architecture-en",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
           "ambiguous": []
@@ -11156,14 +11162,21 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-en.md",
-          "line": 85,
+          "line": 34,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/four-level-compatibility-architecture-en.md",
+          "line": 87,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-en.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "value-moral-compatibility-en",
           "resolved": "wiki/concepts/value-moral-compatibility-en.md",
           "ambiguous": []
@@ -11177,8 +11190,8 @@
       "translation_group": "four-level-compatibility-architecture",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -11233,7 +11246,7 @@
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "four-level-compatibility-architecture-ru",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
           "ambiguous": []
@@ -11261,7 +11274,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 72,
+          "line": 74,
           "raw_target": "four-level-compatibility-architecture-ru",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
           "ambiguous": []
@@ -11282,7 +11295,7 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "four-level-compatibility-architecture-ru",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
           "ambiguous": []
@@ -11305,14 +11318,21 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-ru.md",
-          "line": 85,
+          "line": 34,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/four-level-compatibility-architecture-ru.md",
+          "line": 87,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-ru.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "value-moral-compatibility-ru",
           "resolved": "wiki/concepts/value-moral-compatibility-ru.md",
           "ambiguous": []
@@ -11326,8 +11346,8 @@
       "translation_group": "four-level-compatibility-architecture",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -11382,7 +11402,7 @@
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "four-level-compatibility-architecture-uk",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
           "ambiguous": []
@@ -11410,7 +11430,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 72,
+          "line": 74,
           "raw_target": "four-level-compatibility-architecture-uk",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
           "ambiguous": []
@@ -11431,7 +11451,7 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "four-level-compatibility-architecture-uk",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
           "ambiguous": []
@@ -11454,14 +11474,21 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-uk.md",
-          "line": 85,
+          "line": 34,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/four-level-compatibility-architecture-uk.md",
+          "line": 87,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-uk.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "value-moral-compatibility-uk",
           "resolved": "wiki/concepts/value-moral-compatibility-uk.md",
           "ambiguous": []
@@ -11508,7 +11535,7 @@
       "inbound_links": [
         {
           "source": ".opencode/agents/socionics-intertype-relations-expert.md",
-          "line": 99,
+          "line": 103,
           "raw_target": "intertype-relation-naming-audit-en",
           "resolved": "wiki/concepts/intertype-relation-naming-audit-en.md",
           "ambiguous": []
@@ -12160,20 +12187,22 @@
       "translation_group": "latent-process",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "latent-process-is-inferred-construct": "project-definition",
-        "latent-process-may-explain-pattern": "research-hypothesis"
+        "latent-process-may-explain-pattern": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "not-directly-observed",
         "not-proven-cause",
-        "multiple-indicators-required"
+        "multiple-indicators-required",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -12214,21 +12243,21 @@
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
@@ -12277,7 +12306,7 @@
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
@@ -12300,35 +12329,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-measurement-methods-en",
           "resolved": "wiki/concepts/compatibility-measurement-methods-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
@@ -12342,20 +12371,22 @@
       "translation_group": "latent-process",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "latent-process-is-inferred-construct": "project-definition",
-        "latent-process-may-explain-pattern": "research-hypothesis"
+        "latent-process-may-explain-pattern": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "not-directly-observed",
         "not-proven-cause",
-        "multiple-indicators-required"
+        "multiple-indicators-required",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -12396,21 +12427,21 @@
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
@@ -12459,7 +12490,7 @@
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
@@ -12482,35 +12513,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-measurement-methods-ru",
           "resolved": "wiki/concepts/compatibility-measurement-methods-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
@@ -12524,20 +12555,22 @@
       "translation_group": "latent-process",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "latent-process-is-inferred-construct": "project-definition",
-        "latent-process-may-explain-pattern": "research-hypothesis"
+        "latent-process-may-explain-pattern": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "not-directly-observed",
         "not-proven-cause",
-        "multiple-indicators-required"
+        "multiple-indicators-required",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -12578,21 +12611,21 @@
         },
         {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
@@ -12641,7 +12674,7 @@
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
@@ -12664,35 +12697,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-measurement-methods-uk",
           "resolved": "wiki/concepts/compatibility-measurement-methods-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
@@ -12706,20 +12739,22 @@
       "translation_group": "main-idea",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "four-level-map": "project-definition",
-        "typologies-model-latent-processes": "research-hypothesis"
+        "typologies-model-latent-processes": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "heuristic-not-fact",
         "context-required",
-        "no-compatibility-verdict"
+        "no-compatibility-verdict",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -12746,14 +12781,14 @@
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-en",
           "resolved": "wiki/concepts/main-idea-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-en",
           "resolved": "wiki/concepts/main-idea-en.md",
           "ambiguous": []
@@ -12788,7 +12823,7 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "main-idea-en",
           "resolved": "wiki/concepts/main-idea-en.md",
           "ambiguous": []
@@ -12797,42 +12832,42 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-ru",
           "resolved": "wiki/concepts/main-idea-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-uk",
           "resolved": "wiki/concepts/main-idea-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "four-level-compatibility-architecture-en",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
@@ -12846,20 +12881,22 @@
       "translation_group": "main-idea",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "four-level-map": "project-definition",
-        "typologies-model-latent-processes": "research-hypothesis"
+        "typologies-model-latent-processes": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "heuristic-not-fact",
         "context-required",
-        "no-compatibility-verdict"
+        "no-compatibility-verdict",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -12886,14 +12923,14 @@
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-ru",
           "resolved": "wiki/concepts/main-idea-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-ru",
           "resolved": "wiki/concepts/main-idea-ru.md",
           "ambiguous": []
@@ -12928,7 +12965,7 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "main-idea-ru",
           "resolved": "wiki/concepts/main-idea-ru.md",
           "ambiguous": []
@@ -12937,42 +12974,42 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-en",
           "resolved": "wiki/concepts/main-idea-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-uk",
           "resolved": "wiki/concepts/main-idea-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "four-level-compatibility-architecture-ru",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
@@ -12986,20 +13023,22 @@
       "translation_group": "main-idea",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "four-level-map": "project-definition",
-        "typologies-model-latent-processes": "research-hypothesis"
+        "typologies-model-latent-processes": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "heuristic-not-fact",
         "context-required",
-        "no-compatibility-verdict"
+        "no-compatibility-verdict",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -13026,14 +13065,14 @@
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-uk",
           "resolved": "wiki/concepts/main-idea-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-uk",
           "resolved": "wiki/concepts/main-idea-uk.md",
           "ambiguous": []
@@ -13068,7 +13107,7 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "main-idea-uk",
           "resolved": "wiki/concepts/main-idea-uk.md",
           "ambiguous": []
@@ -13077,42 +13116,42 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-en",
           "resolved": "wiki/concepts/main-idea-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "main-idea-ru",
           "resolved": "wiki/concepts/main-idea-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "four-level-compatibility-architecture-uk",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 85,
+          "line": 89,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
@@ -14863,7 +14902,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 90,
+          "line": 94,
           "raw_target": "operational-compatibility-en",
           "resolved": "wiki/concepts/operational-compatibility-en.md",
           "ambiguous": []
@@ -14997,7 +15036,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 90,
+          "line": 94,
           "raw_target": "operational-compatibility-ru",
           "resolved": "wiki/concepts/operational-compatibility-ru.md",
           "ambiguous": []
@@ -15131,7 +15170,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 90,
+          "line": 94,
           "raw_target": "operational-compatibility-uk",
           "resolved": "wiki/concepts/operational-compatibility-uk.md",
           "ambiguous": []
@@ -15883,8 +15922,8 @@
       "translation_group": "psychology-of-everything",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -15990,8 +16029,8 @@
       "translation_group": "psychology-of-everything",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -16097,8 +16136,8 @@
       "translation_group": "psychology-of-everything",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -17087,8 +17126,8 @@
       "translation_group": "public-figure-typing-evidence-protocol",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -17164,6 +17203,13 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/public-figure-typing-evidence-protocol-en.md",
+          "line": 28,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/public-figure-typing-evidence-protocol-en.md",
           "line": 110,
           "raw_target": "public-figure-typing-evidence-dossiers-batch-1-en",
           "resolved": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-en.md",
@@ -17178,8 +17224,8 @@
       "translation_group": "public-figure-typing-evidence-protocol",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -17255,6 +17301,13 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/public-figure-typing-evidence-protocol-ru.md",
+          "line": 28,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/public-figure-typing-evidence-protocol-ru.md",
           "line": 110,
           "raw_target": "public-figure-typing-evidence-dossiers-batch-1-ru",
           "resolved": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md",
@@ -17269,8 +17322,8 @@
       "translation_group": "public-figure-typing-evidence-protocol",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -17344,6 +17397,13 @@
         }
       ],
       "outbound_links": [
+        {
+          "source": "wiki/concepts/public-figure-typing-evidence-protocol-uk.md",
+          "line": 28,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
         {
           "source": "wiki/concepts/public-figure-typing-evidence-protocol-uk.md",
           "line": 110,
@@ -19958,7 +20018,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 313,
+          "line": 315,
           "raw_target": "socionics-model-a-en",
           "resolved": "wiki/concepts/socionics-model-a-en.md",
           "ambiguous": []
@@ -20191,7 +20251,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 311,
+          "line": 313,
           "raw_target": "socionics-model-a-ru",
           "resolved": "wiki/concepts/socionics-model-a-ru.md",
           "ambiguous": []
@@ -20424,7 +20484,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 311,
+          "line": 313,
           "raw_target": "socionics-model-a-uk",
           "resolved": "wiki/concepts/socionics-model-a-uk.md",
           "ambiguous": []
@@ -21137,8 +21197,8 @@
       "translation_group": "strategic-compatibility",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -21220,7 +21280,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 105,
+          "line": 109,
           "raw_target": "strategic-compatibility-en",
           "resolved": "wiki/concepts/strategic-compatibility-en.md",
           "ambiguous": []
@@ -21264,8 +21324,8 @@
       "translation_group": "strategic-compatibility",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -21347,7 +21407,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 105,
+          "line": 109,
           "raw_target": "strategic-compatibility-ru",
           "resolved": "wiki/concepts/strategic-compatibility-ru.md",
           "ambiguous": []
@@ -21391,8 +21451,8 @@
       "translation_group": "strategic-compatibility",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -21474,7 +21534,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 105,
+          "line": 109,
           "raw_target": "strategic-compatibility-uk",
           "resolved": "wiki/concepts/strategic-compatibility-uk.md",
           "ambiguous": []
@@ -21601,7 +21661,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "tactical-compatibility-en",
           "resolved": "wiki/concepts/tactical-compatibility-en.md",
           "ambiguous": []
@@ -21728,7 +21788,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "tactical-compatibility-ru",
           "resolved": "wiki/concepts/tactical-compatibility-ru.md",
           "ambiguous": []
@@ -21855,7 +21915,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "tactical-compatibility-uk",
           "resolved": "wiki/concepts/tactical-compatibility-uk.md",
           "ambiguous": []
@@ -22359,14 +22419,14 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 315,
+          "line": 317,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
@@ -22430,14 +22490,14 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 313,
+          "line": 315,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
@@ -22501,14 +22561,14 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 313,
+          "line": 315,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
@@ -22538,8 +22598,8 @@
       "translation_group": "temporistics-test-specification",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -22587,8 +22647,8 @@
       "translation_group": "temporistics-test-specification",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -22636,8 +22696,8 @@
       "translation_group": "temporistics-test-specification",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -22877,8 +22937,8 @@
       "translation_group": "test-result-reading-guide",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -22909,7 +22969,7 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-en.md",
-          "line": 89,
+          "line": 91,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
@@ -22923,7 +22983,7 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-ru.md",
-          "line": 90,
+          "line": 92,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
@@ -22937,7 +22997,7 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-uk.md",
-          "line": 89,
+          "line": 91,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
@@ -23534,21 +23594,28 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-en.md",
-          "line": 89,
+          "line": 25,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/test-result-reading-guide-en.md",
+          "line": 91,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-en.md",
-          "line": 90,
+          "line": 92,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-en.md",
-          "line": 91,
+          "line": 93,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -23562,8 +23629,8 @@
       "translation_group": "test-result-reading-guide",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -23601,14 +23668,14 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-en.md",
-          "line": 90,
+          "line": 92,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-ru.md",
-          "line": 91,
+          "line": 93,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
@@ -23622,7 +23689,7 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-uk.md",
-          "line": 90,
+          "line": 92,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
@@ -24219,21 +24286,28 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-ru.md",
-          "line": 90,
+          "line": 25,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/test-result-reading-guide-ru.md",
+          "line": 92,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-ru.md",
-          "line": 91,
+          "line": 93,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-ru.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -24247,8 +24321,8 @@
       "translation_group": "test-result-reading-guide",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -24286,7 +24360,7 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-en.md",
-          "line": 91,
+          "line": 93,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -24300,14 +24374,14 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-ru.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-uk.md",
-          "line": 91,
+          "line": 93,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -24904,21 +24978,28 @@
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-uk.md",
-          "line": 89,
+          "line": 25,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/test-result-reading-guide-uk.md",
+          "line": 91,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-uk.md",
-          "line": 90,
+          "line": 92,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/test-result-reading-guide-uk.md",
-          "line": 91,
+          "line": 93,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -25241,8 +25322,8 @@
       "translation_group": "typologies-as-supporting-tools",
       "document_status": "active",
       "page_role": "application",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "application-guidance",
         "research-hypothesis",
@@ -25348,8 +25429,8 @@
       "translation_group": "typologies-as-supporting-tools",
       "document_status": "active",
       "page_role": "application",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "application-guidance",
         "research-hypothesis",
@@ -25455,8 +25536,8 @@
       "translation_group": "typologies-as-supporting-tools",
       "document_status": "active",
       "page_role": "application",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "application-guidance",
         "research-hypothesis",
@@ -25865,8 +25946,8 @@
       "translation_group": "typology-disambiguation-guide",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -25897,28 +25978,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 71,
+          "line": 21,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 72,
+          "line": 73,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-disambiguation-guide-en.md",
+          "line": 74,
           "raw_target": "four-level-compatibility-architecture-en",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "adequate-compromise-en",
           "resolved": "wiki/concepts/adequate-compromise-en.md",
           "ambiguous": []
@@ -25932,8 +26020,8 @@
       "translation_group": "typology-disambiguation-guide",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -25964,28 +26052,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 71,
+          "line": 21,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 72,
+          "line": 73,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
+          "line": 74,
           "raw_target": "four-level-compatibility-architecture-ru",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "adequate-compromise-ru",
           "resolved": "wiki/concepts/adequate-compromise-ru.md",
           "ambiguous": []
@@ -25999,8 +26094,8 @@
       "translation_group": "typology-disambiguation-guide",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -26031,28 +26126,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 71,
+          "line": 21,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 72,
+          "line": 73,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
+          "line": 74,
           "raw_target": "four-level-compatibility-architecture-uk",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "adequate-compromise-uk",
           "resolved": "wiki/concepts/adequate-compromise-uk.md",
           "ambiguous": []
@@ -26066,8 +26168,8 @@
       "translation_group": "typology-reconceptualization",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -26075,12 +26177,14 @@
       ],
       "claims": {
         "type-is-model-hypothesis": "project-definition",
-        "typological-structures-may-model-processes": "research-hypothesis"
+        "typological-structures-may-model-processes": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "not-person-type",
         "not-causal-proof",
-        "source-traditions-vary"
+        "source-traditions-vary",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md",
@@ -26109,15 +26213,36 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/four-level-compatibility-architecture-en.md",
+          "line": 34,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/latent-process-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 85,
+          "line": 89,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/public-figure-typing-evidence-protocol-en.md",
+          "line": 28,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/test-result-reading-guide-en.md",
+          "line": 25,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
@@ -26131,21 +26256,42 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 71,
+          "line": 21,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-disambiguation-guide-en.md",
+          "line": 73,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 25,
+          "line": 27,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-test-design-protocol-en.md",
+          "line": 26,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-en.md",
+          "line": 32,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
@@ -26154,35 +26300,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
@@ -26196,8 +26342,8 @@
       "translation_group": "typology-reconceptualization",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -26205,12 +26351,14 @@
       ],
       "claims": {
         "type-is-model-hypothesis": "project-definition",
-        "typological-structures-may-model-processes": "research-hypothesis"
+        "typological-structures-may-model-processes": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "not-person-type",
         "not-causal-proof",
-        "source-traditions-vary"
+        "source-traditions-vary",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md",
@@ -26239,15 +26387,36 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/four-level-compatibility-architecture-ru.md",
+          "line": 34,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/latent-process-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 85,
+          "line": 89,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/public-figure-typing-evidence-protocol-ru.md",
+          "line": 28,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/test-result-reading-guide-ru.md",
+          "line": 25,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
@@ -26261,21 +26430,42 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 71,
+          "line": 21,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
+          "line": 73,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 25,
+          "line": 27,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-test-design-protocol-ru.md",
+          "line": 26,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-ru.md",
+          "line": 32,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
@@ -26284,35 +26474,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
@@ -26326,8 +26516,8 @@
       "translation_group": "typology-reconceptualization",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -26335,12 +26525,14 @@
       ],
       "claims": {
         "type-is-model-hypothesis": "project-definition",
-        "typological-structures-may-model-processes": "research-hypothesis"
+        "typological-structures-may-model-processes": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "not-person-type",
         "not-causal-proof",
-        "source-traditions-vary"
+        "source-traditions-vary",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md",
@@ -26369,15 +26561,36 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/four-level-compatibility-architecture-uk.md",
+          "line": 34,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/latent-process-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 85,
+          "line": 89,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/public-figure-typing-evidence-protocol-uk.md",
+          "line": 28,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/test-result-reading-guide-uk.md",
+          "line": 25,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
@@ -26391,21 +26604,42 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 71,
+          "line": 21,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
+          "line": 73,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 25,
+          "line": 27,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-test-design-protocol-uk.md",
+          "line": 26,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-uk.md",
+          "line": 32,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
@@ -26414,35 +26648,35 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 78,
+          "line": 80,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
@@ -26456,8 +26690,8 @@
       "translation_group": "typology-test-design-protocol",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -26541,70 +26775,77 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 72,
+          "line": 26,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-test-design-protocol-en.md",
+          "line": 74,
           "raw_target": "socionics-overview-en",
           "resolved": "wiki/entities/socionics-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "psychosophy-overview-en",
           "resolved": "wiki/entities/psychosophy-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 310,
+          "line": 312,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 311,
+          "line": 313,
           "raw_target": "compatibility-measurement-roadmap-en",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 312,
+          "line": 314,
           "raw_target": "psychosophy-typing-methods-en",
           "resolved": "wiki/sources/psychosophy-typing-methods-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 313,
+          "line": 315,
           "raw_target": "socionics-model-a-en",
           "resolved": "wiki/concepts/socionics-model-a-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 314,
+          "line": 316,
           "raw_target": "afanasyev-model-en",
           "resolved": "wiki/concepts/afanasyev-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 315,
+          "line": 317,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 316,
+          "line": 318,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
@@ -26618,8 +26859,8 @@
       "translation_group": "typology-test-design-protocol",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -26703,70 +26944,77 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 72,
+          "line": 26,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-test-design-protocol-ru.md",
+          "line": 74,
           "raw_target": "socionics-overview-ru",
           "resolved": "wiki/entities/socionics-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "psychosophy-overview-ru",
           "resolved": "wiki/entities/psychosophy-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 308,
+          "line": 310,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 309,
+          "line": 311,
           "raw_target": "compatibility-measurement-roadmap-ru",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 310,
+          "line": 312,
           "raw_target": "psychosophy-typing-methods-ru",
           "resolved": "wiki/sources/psychosophy-typing-methods-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 311,
+          "line": 313,
           "raw_target": "socionics-model-a-ru",
           "resolved": "wiki/concepts/socionics-model-a-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 312,
+          "line": 314,
           "raw_target": "afanasyev-model-ru",
           "resolved": "wiki/concepts/afanasyev-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 313,
+          "line": 315,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 314,
+          "line": 316,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
@@ -26780,8 +27028,8 @@
       "translation_group": "typology-test-design-protocol",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -26865,70 +27113,77 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 72,
+          "line": 26,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/typology-test-design-protocol-uk.md",
+          "line": 74,
           "raw_target": "socionics-overview-uk",
           "resolved": "wiki/entities/socionics-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "psychosophy-overview-uk",
           "resolved": "wiki/entities/psychosophy-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 308,
+          "line": 310,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 309,
+          "line": 311,
           "raw_target": "compatibility-measurement-roadmap-uk",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 310,
+          "line": 312,
           "raw_target": "psychosophy-typing-methods-uk",
           "resolved": "wiki/sources/psychosophy-typing-methods-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 311,
+          "line": 313,
           "raw_target": "socionics-model-a-uk",
           "resolved": "wiki/concepts/socionics-model-a-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 312,
+          "line": 314,
           "raw_target": "afanasyev-model-uk",
           "resolved": "wiki/concepts/afanasyev-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 313,
+          "line": 315,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 314,
+          "line": 316,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -26996,7 +27251,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -27010,21 +27265,21 @@
         },
         {
           "source": "wiki/concepts/main-idea-en.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 310,
+          "line": 312,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -27045,7 +27300,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -27059,14 +27314,14 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 80,
+          "line": 82,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -27164,7 +27419,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -27178,21 +27433,21 @@
         },
         {
           "source": "wiki/concepts/main-idea-ru.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 308,
+          "line": 310,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -27213,7 +27468,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -27227,14 +27482,14 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 80,
+          "line": 82,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -27332,7 +27587,7 @@
         },
         {
           "source": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
-          "line": 79,
+          "line": 81,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -27346,21 +27601,21 @@
         },
         {
           "source": "wiki/concepts/main-idea-uk.md",
-          "line": 80,
+          "line": 84,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-reconceptualization-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 308,
+          "line": 310,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -27381,7 +27636,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -27395,14 +27650,14 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 80,
+          "line": 82,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -27514,7 +27769,7 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-en.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "value-moral-compatibility-en",
           "resolved": "wiki/concepts/value-moral-compatibility-en.md",
           "ambiguous": []
@@ -27661,7 +27916,7 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-ru.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "value-moral-compatibility-ru",
           "resolved": "wiki/concepts/value-moral-compatibility-ru.md",
           "ambiguous": []
@@ -27808,7 +28063,7 @@
         },
         {
           "source": "wiki/concepts/four-level-compatibility-architecture-uk.md",
-          "line": 85,
+          "line": 87,
           "raw_target": "value-moral-compatibility-uk",
           "resolved": "wiki/concepts/value-moral-compatibility-uk.md",
           "ambiguous": []
@@ -34508,8 +34763,8 @@
       "translation_group": "psychosophy-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -34517,13 +34772,15 @@
       ],
       "claims": {
         "psychosophy-operational-model": "research-hypothesis",
-        "psychosophy-reference-codes": "source-attribution"
+        "psychosophy-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/psychosophy/what-is-psychosophy.md",
@@ -34564,7 +34821,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "psychosophy-overview-en",
           "resolved": "wiki/entities/psychosophy-overview-en.md",
           "ambiguous": []
@@ -34739,14 +34996,14 @@
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 114,
+          "line": 118,
           "raw_target": "psychosophy-overview-en",
           "resolved": "wiki/entities/psychosophy-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 109,
+          "line": 113,
           "raw_target": "psychosophy-overview-en",
           "resolved": "wiki/entities/psychosophy-overview-en.md",
           "ambiguous": []
@@ -34804,42 +35061,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 90,
+          "line": 94,
           "raw_target": "operational-compatibility-en",
           "resolved": "wiki/concepts/operational-compatibility-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 91,
+          "line": 95,
           "raw_target": "psychosophy-detailed-en",
           "resolved": "wiki/sources/psychosophy-detailed-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 92,
+          "line": 96,
           "raw_target": "psychosophy-intertype-relations-en",
           "resolved": "wiki/relations/psychosophy-intertype-relations-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 93,
+          "line": 97,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 94,
+          "line": 98,
           "raw_target": "socionics-overview-en",
           "resolved": "wiki/entities/socionics-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 95,
+          "line": 99,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -34853,8 +35110,8 @@
       "translation_group": "psychosophy-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -34862,13 +35119,15 @@
       ],
       "claims": {
         "psychosophy-operational-model": "research-hypothesis",
-        "psychosophy-reference-codes": "source-attribution"
+        "psychosophy-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/psychosophy/what-is-psychosophy.md",
@@ -34909,7 +35168,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "psychosophy-overview-ru",
           "resolved": "wiki/entities/psychosophy-overview-ru.md",
           "ambiguous": []
@@ -35084,14 +35343,14 @@
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 114,
+          "line": 118,
           "raw_target": "psychosophy-overview-ru",
           "resolved": "wiki/entities/psychosophy-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 109,
+          "line": 113,
           "raw_target": "psychosophy-overview-ru",
           "resolved": "wiki/entities/psychosophy-overview-ru.md",
           "ambiguous": []
@@ -35149,42 +35408,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 90,
+          "line": 94,
           "raw_target": "operational-compatibility-ru",
           "resolved": "wiki/concepts/operational-compatibility-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 91,
+          "line": 95,
           "raw_target": "psychosophy-detailed-ru",
           "resolved": "wiki/sources/psychosophy-detailed-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 92,
+          "line": 96,
           "raw_target": "psychosophy-intertype-relations-ru",
           "resolved": "wiki/relations/psychosophy-intertype-relations-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 93,
+          "line": 97,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 94,
+          "line": 98,
           "raw_target": "socionics-overview-ru",
           "resolved": "wiki/entities/socionics-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 95,
+          "line": 99,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -35198,8 +35457,8 @@
       "translation_group": "psychosophy-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -35207,13 +35466,15 @@
       ],
       "claims": {
         "psychosophy-operational-model": "research-hypothesis",
-        "psychosophy-reference-codes": "source-attribution"
+        "psychosophy-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/psychosophy/what-is-psychosophy.md",
@@ -35254,7 +35515,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 73,
+          "line": 75,
           "raw_target": "psychosophy-overview-uk",
           "resolved": "wiki/entities/psychosophy-overview-uk.md",
           "ambiguous": []
@@ -35429,14 +35690,14 @@
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 114,
+          "line": 118,
           "raw_target": "psychosophy-overview-uk",
           "resolved": "wiki/entities/psychosophy-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 109,
+          "line": 113,
           "raw_target": "psychosophy-overview-uk",
           "resolved": "wiki/entities/psychosophy-overview-uk.md",
           "ambiguous": []
@@ -35494,42 +35755,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 90,
+          "line": 94,
           "raw_target": "operational-compatibility-uk",
           "resolved": "wiki/concepts/operational-compatibility-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 91,
+          "line": 95,
           "raw_target": "psychosophy-detailed-uk",
           "resolved": "wiki/sources/psychosophy-detailed-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 92,
+          "line": 96,
           "raw_target": "psychosophy-intertype-relations-uk",
           "resolved": "wiki/relations/psychosophy-intertype-relations-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 93,
+          "line": 97,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 94,
+          "line": 98,
           "raw_target": "socionics-overview-uk",
           "resolved": "wiki/entities/socionics-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 95,
+          "line": 99,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
@@ -43313,8 +43574,8 @@
       "translation_group": "socionics-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -43322,13 +43583,15 @@
       ],
       "claims": {
         "socionics-tactical-model": "research-hypothesis",
-        "socionics-reference-codes": "source-attribution"
+        "socionics-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/socionics/what-is-socionics.md",
@@ -43377,7 +43640,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 72,
+          "line": 74,
           "raw_target": "socionics-overview-en",
           "resolved": "wiki/entities/socionics-overview-en.md",
           "ambiguous": []
@@ -43468,7 +43731,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 94,
+          "line": 98,
           "raw_target": "socionics-overview-en",
           "resolved": "wiki/entities/socionics-overview-en.md",
           "ambiguous": []
@@ -43503,7 +43766,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "socionics-overview-en",
           "resolved": "wiki/entities/socionics-overview-en.md",
           "ambiguous": []
@@ -43526,42 +43789,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "tactical-compatibility-en",
           "resolved": "wiki/concepts/tactical-compatibility-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 111,
+          "line": 115,
           "raw_target": "socionics-detailed-en",
           "resolved": "wiki/sources/socionics-detailed-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 112,
+          "line": 116,
           "raw_target": "socionics-intertype-relations-en",
           "resolved": "wiki/relations/socionics-intertype-relations-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 113,
+          "line": 117,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 114,
+          "line": 118,
           "raw_target": "psychosophy-overview-en",
           "resolved": "wiki/entities/psychosophy-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 115,
+          "line": 119,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -43575,8 +43838,8 @@
       "translation_group": "socionics-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -43584,13 +43847,15 @@
       ],
       "claims": {
         "socionics-tactical-model": "research-hypothesis",
-        "socionics-reference-codes": "source-attribution"
+        "socionics-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/socionics/what-is-socionics.md",
@@ -43639,7 +43904,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 72,
+          "line": 74,
           "raw_target": "socionics-overview-ru",
           "resolved": "wiki/entities/socionics-overview-ru.md",
           "ambiguous": []
@@ -43730,7 +43995,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 94,
+          "line": 98,
           "raw_target": "socionics-overview-ru",
           "resolved": "wiki/entities/socionics-overview-ru.md",
           "ambiguous": []
@@ -43765,7 +44030,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "socionics-overview-ru",
           "resolved": "wiki/entities/socionics-overview-ru.md",
           "ambiguous": []
@@ -43788,42 +44053,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "tactical-compatibility-ru",
           "resolved": "wiki/concepts/tactical-compatibility-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 111,
+          "line": 115,
           "raw_target": "socionics-detailed-ru",
           "resolved": "wiki/sources/socionics-detailed-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 112,
+          "line": 116,
           "raw_target": "socionics-intertype-relations-ru",
           "resolved": "wiki/relations/socionics-intertype-relations-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 113,
+          "line": 117,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 114,
+          "line": 118,
           "raw_target": "psychosophy-overview-ru",
           "resolved": "wiki/entities/psychosophy-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 115,
+          "line": 119,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -43837,8 +44102,8 @@
       "translation_group": "socionics-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -43846,13 +44111,15 @@
       ],
       "claims": {
         "socionics-tactical-model": "research-hypothesis",
-        "socionics-reference-codes": "source-attribution"
+        "socionics-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/socionics/what-is-socionics.md",
@@ -43901,7 +44168,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 72,
+          "line": 74,
           "raw_target": "socionics-overview-uk",
           "resolved": "wiki/entities/socionics-overview-uk.md",
           "ambiguous": []
@@ -43992,7 +44259,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 94,
+          "line": 98,
           "raw_target": "socionics-overview-uk",
           "resolved": "wiki/entities/socionics-overview-uk.md",
           "ambiguous": []
@@ -44027,7 +44294,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "socionics-overview-uk",
           "resolved": "wiki/entities/socionics-overview-uk.md",
           "ambiguous": []
@@ -44050,42 +44317,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "tactical-compatibility-uk",
           "resolved": "wiki/concepts/tactical-compatibility-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 111,
+          "line": 115,
           "raw_target": "socionics-detailed-uk",
           "resolved": "wiki/sources/socionics-detailed-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 112,
+          "line": 116,
           "raw_target": "socionics-intertype-relations-uk",
           "resolved": "wiki/relations/socionics-intertype-relations-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 113,
+          "line": 117,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 114,
+          "line": 118,
           "raw_target": "psychosophy-overview-uk",
           "resolved": "wiki/entities/psychosophy-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 115,
+          "line": 119,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
@@ -44909,8 +45176,8 @@
       "translation_group": "temporistics-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -44918,13 +45185,15 @@
       ],
       "claims": {
         "temporistics-strategic-model": "research-hypothesis",
-        "temporistics-reference-codes": "source-attribution"
+        "temporistics-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/temporistics/theory-description.md",
@@ -45035,7 +45304,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 95,
+          "line": 99,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -45049,7 +45318,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 115,
+          "line": 119,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -45254,42 +45523,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 105,
+          "line": 109,
           "raw_target": "strategic-compatibility-en",
           "resolved": "wiki/concepts/strategic-compatibility-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 106,
+          "line": 110,
           "raw_target": "temporistics-detailed-en",
           "resolved": "wiki/sources/temporistics-detailed-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 107,
+          "line": 111,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 108,
+          "line": 112,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 109,
+          "line": 113,
           "raw_target": "psychosophy-overview-en",
           "resolved": "wiki/entities/psychosophy-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "socionics-overview-en",
           "resolved": "wiki/entities/socionics-overview-en.md",
           "ambiguous": []
@@ -45303,8 +45572,8 @@
       "translation_group": "temporistics-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -45312,13 +45581,15 @@
       ],
       "claims": {
         "temporistics-strategic-model": "research-hypothesis",
-        "temporistics-reference-codes": "source-attribution"
+        "temporistics-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/temporistics/theory-description.md",
@@ -45429,7 +45700,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 95,
+          "line": 99,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -45443,7 +45714,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 115,
+          "line": 119,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -45648,42 +45919,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 105,
+          "line": 109,
           "raw_target": "strategic-compatibility-ru",
           "resolved": "wiki/concepts/strategic-compatibility-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 106,
+          "line": 110,
           "raw_target": "temporistics-detailed-ru",
           "resolved": "wiki/sources/temporistics-detailed-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 107,
+          "line": 111,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 108,
+          "line": 112,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 109,
+          "line": 113,
           "raw_target": "psychosophy-overview-ru",
           "resolved": "wiki/entities/psychosophy-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "socionics-overview-ru",
           "resolved": "wiki/entities/socionics-overview-ru.md",
           "ambiguous": []
@@ -45697,8 +45968,8 @@
       "translation_group": "temporistics-overview",
       "document_status": "active",
       "page_role": "entity",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "source-attribution",
@@ -45706,13 +45977,15 @@
       ],
       "claims": {
         "temporistics-strategic-model": "research-hypothesis",
-        "temporistics-reference-codes": "source-attribution"
+        "temporistics-reference-codes": "source-attribution",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "typology-is-heuristic",
         "type-is-not-person",
         "no-pair-verdict",
-        "context-and-safety-override-type"
+        "context-and-safety-override-type",
+        "innateness-not-established"
       ],
       "sources": [
         "raw/temporistics/theory-description.md",
@@ -45823,7 +46096,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 95,
+          "line": 99,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
@@ -45837,7 +46110,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 115,
+          "line": 119,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
@@ -46042,42 +46315,42 @@
       "outbound_links": [
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 105,
+          "line": 109,
           "raw_target": "strategic-compatibility-uk",
           "resolved": "wiki/concepts/strategic-compatibility-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 106,
+          "line": 110,
           "raw_target": "temporistics-detailed-uk",
           "resolved": "wiki/sources/temporistics-detailed-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 107,
+          "line": 111,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 108,
+          "line": 112,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 109,
+          "line": 113,
           "raw_target": "psychosophy-overview-uk",
           "resolved": "wiki/entities/psychosophy-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 110,
+          "line": 114,
           "raw_target": "socionics-overview-uk",
           "resolved": "wiki/entities/socionics-overview-uk.md",
           "ambiguous": []
@@ -52844,20 +53117,22 @@
       "translation_group": "glossary-core",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 3,
-      "reviewed_semantic_version": 3,
+      "semantic_version": 4,
+      "reviewed_semantic_version": 4,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "glossary-defines-project-usage": "project-definition",
-        "typology-process-mappings-are-hypotheses": "research-hypothesis"
+        "typology-process-mappings-are-hypotheses": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "terms-not-proof",
         "source-usage-may-differ",
-        "no-score"
+        "no-score",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -52905,14 +53180,14 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-en",
           "resolved": "wiki/glossary-core-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-en",
           "resolved": "wiki/glossary-core-en.md",
           "ambiguous": []
@@ -52933,7 +53208,7 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 82,
+          "line": 84,
           "raw_target": "glossary-core-en",
           "resolved": "wiki/glossary-core-en.md",
           "ambiguous": []
@@ -52942,56 +53217,56 @@
       "outbound_links": [
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-ru",
           "resolved": "wiki/glossary-core-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-uk",
           "resolved": "wiki/glossary-core-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "compatibility-measurement-methods-en",
           "resolved": "wiki/concepts/compatibility-measurement-methods-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "glossary-extended-en",
           "resolved": "wiki/glossary-extended-en.md",
           "ambiguous": []
@@ -53005,20 +53280,22 @@
       "translation_group": "glossary-core",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 3,
-      "reviewed_semantic_version": 3,
+      "semantic_version": 4,
+      "reviewed_semantic_version": 4,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "glossary-defines-project-usage": "project-definition",
-        "typology-process-mappings-are-hypotheses": "research-hypothesis"
+        "typology-process-mappings-are-hypotheses": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "terms-not-proof",
         "source-usage-may-differ",
-        "no-score"
+        "no-score",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -53066,14 +53343,14 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-ru",
           "resolved": "wiki/glossary-core-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-ru",
           "resolved": "wiki/glossary-core-ru.md",
           "ambiguous": []
@@ -53094,7 +53371,7 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 82,
+          "line": 84,
           "raw_target": "glossary-core-ru",
           "resolved": "wiki/glossary-core-ru.md",
           "ambiguous": []
@@ -53103,56 +53380,56 @@
       "outbound_links": [
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-en",
           "resolved": "wiki/glossary-core-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-uk",
           "resolved": "wiki/glossary-core-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "compatibility-measurement-methods-ru",
           "resolved": "wiki/concepts/compatibility-measurement-methods-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "glossary-extended-ru",
           "resolved": "wiki/glossary-extended-ru.md",
           "ambiguous": []
@@ -53166,20 +53443,22 @@
       "translation_group": "glossary-core",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 3,
-      "reviewed_semantic_version": 3,
+      "semantic_version": 4,
+      "reviewed_semantic_version": 4,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
       "claims": {
         "glossary-defines-project-usage": "project-definition",
-        "typology-process-mappings-are-hypotheses": "research-hypothesis"
+        "typology-process-mappings-are-hypotheses": "research-hypothesis",
+        "natural-predisposition-is-hypothesis": "research-hypothesis"
       },
       "caveat_ids": [
         "terms-not-proof",
         "source-usage-may-differ",
-        "no-score"
+        "no-score",
+        "innateness-not-established"
       ],
       "sources": [
         "AGENTS.md"
@@ -53227,14 +53506,14 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-uk",
           "resolved": "wiki/glossary-core-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-uk",
           "resolved": "wiki/glossary-core-uk.md",
           "ambiguous": []
@@ -53255,7 +53534,7 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 82,
+          "line": 84,
           "raw_target": "glossary-core-uk",
           "resolved": "wiki/glossary-core-uk.md",
           "ambiguous": []
@@ -53264,56 +53543,56 @@
       "outbound_links": [
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-en",
           "resolved": "wiki/glossary-core-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "glossary-core-ru",
           "resolved": "wiki/glossary-core-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "compatibility-measurement-methods-uk",
           "resolved": "wiki/concepts/compatibility-measurement-methods-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 126,
+          "line": 132,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "glossary-extended-uk",
           "resolved": "wiki/glossary-extended-uk.md",
           "ambiguous": []
@@ -53387,7 +53666,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "glossary-extended-en",
           "resolved": "wiki/glossary-extended-en.md",
           "ambiguous": []
@@ -53533,7 +53812,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "glossary-extended-ru",
           "resolved": "wiki/glossary-extended-ru.md",
           "ambiguous": []
@@ -53679,7 +53958,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 131,
+          "line": 137,
           "raw_target": "glossary-extended-uk",
           "resolved": "wiki/glossary-extended-uk.md",
           "ambiguous": []
@@ -54074,7 +54353,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 92,
+          "line": 96,
           "raw_target": "psychosophy-intertype-relations-en",
           "resolved": "wiki/relations/psychosophy-intertype-relations-en.md",
           "ambiguous": []
@@ -54196,7 +54475,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 92,
+          "line": 96,
           "raw_target": "psychosophy-intertype-relations-ru",
           "resolved": "wiki/relations/psychosophy-intertype-relations-ru.md",
           "ambiguous": []
@@ -54325,7 +54604,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 92,
+          "line": 96,
           "raw_target": "psychosophy-intertype-relations-uk",
           "resolved": "wiki/relations/psychosophy-intertype-relations-uk.md",
           "ambiguous": []
@@ -54432,7 +54711,7 @@
       "inbound_links": [
         {
           "source": ".opencode/agents/socionics-intertype-relations-expert.md",
-          "line": 99,
+          "line": 103,
           "raw_target": "socionics-intertype-relations-en",
           "resolved": "wiki/relations/socionics-intertype-relations-en.md",
           "ambiguous": []
@@ -54481,7 +54760,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 112,
+          "line": 116,
           "raw_target": "socionics-intertype-relations-en",
           "resolved": "wiki/relations/socionics-intertype-relations-en.md",
           "ambiguous": []
@@ -54609,7 +54888,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 112,
+          "line": 116,
           "raw_target": "socionics-intertype-relations-ru",
           "resolved": "wiki/relations/socionics-intertype-relations-ru.md",
           "ambiguous": []
@@ -54744,7 +55023,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 112,
+          "line": 116,
           "raw_target": "socionics-intertype-relations-uk",
           "resolved": "wiki/relations/socionics-intertype-relations-uk.md",
           "ambiguous": []
@@ -54882,7 +55161,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 107,
+          "line": 111,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
@@ -54991,7 +55270,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 107,
+          "line": 111,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
@@ -55107,7 +55386,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 107,
+          "line": 111,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
@@ -58327,7 +58606,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-en.md",
-          "line": 91,
+          "line": 95,
           "raw_target": "psychosophy-detailed-en",
           "resolved": "wiki/sources/psychosophy-detailed-en.md",
           "ambiguous": []
@@ -58474,7 +58753,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-ru.md",
-          "line": 91,
+          "line": 95,
           "raw_target": "psychosophy-detailed-ru",
           "resolved": "wiki/sources/psychosophy-detailed-ru.md",
           "ambiguous": []
@@ -58649,7 +58928,7 @@
         },
         {
           "source": "wiki/entities/psychosophy-overview-uk.md",
-          "line": 91,
+          "line": 95,
           "raw_target": "psychosophy-detailed-uk",
           "resolved": "wiki/sources/psychosophy-detailed-uk.md",
           "ambiguous": []
@@ -60478,7 +60757,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-en.md",
-          "line": 312,
+          "line": 314,
           "raw_target": "psychosophy-typing-methods-en",
           "resolved": "wiki/sources/psychosophy-typing-methods-en.md",
           "ambiguous": []
@@ -60572,7 +60851,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-ru.md",
-          "line": 310,
+          "line": 312,
           "raw_target": "psychosophy-typing-methods-ru",
           "resolved": "wiki/sources/psychosophy-typing-methods-ru.md",
           "ambiguous": []
@@ -60673,7 +60952,7 @@
         },
         {
           "source": "wiki/concepts/typology-test-design-protocol-uk.md",
-          "line": 310,
+          "line": 312,
           "raw_target": "psychosophy-typing-methods-uk",
           "resolved": "wiki/sources/psychosophy-typing-methods-uk.md",
           "ambiguous": []
@@ -61670,7 +61949,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-en.md",
-          "line": 111,
+          "line": 115,
           "raw_target": "socionics-detailed-en",
           "resolved": "wiki/sources/socionics-detailed-en.md",
           "ambiguous": []
@@ -61770,7 +62049,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-ru.md",
-          "line": 111,
+          "line": 115,
           "raw_target": "socionics-detailed-ru",
           "resolved": "wiki/sources/socionics-detailed-ru.md",
           "ambiguous": []
@@ -61878,7 +62157,7 @@
         },
         {
           "source": "wiki/entities/socionics-overview-uk.md",
-          "line": 111,
+          "line": 115,
           "raw_target": "socionics-detailed-uk",
           "resolved": "wiki/sources/socionics-detailed-uk.md",
           "ambiguous": []
@@ -62836,7 +63115,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-en.md",
-          "line": 106,
+          "line": 110,
           "raw_target": "temporistics-detailed-en",
           "resolved": "wiki/sources/temporistics-detailed-en.md",
           "ambiguous": []
@@ -62924,7 +63203,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
-          "line": 106,
+          "line": 110,
           "raw_target": "temporistics-detailed-ru",
           "resolved": "wiki/sources/temporistics-detailed-ru.md",
           "ambiguous": []
@@ -63020,7 +63299,7 @@
         },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
-          "line": 106,
+          "line": 110,
           "raw_target": "temporistics-detailed-uk",
           "resolved": "wiki/sources/temporistics-detailed-uk.md",
           "ambiguous": []
@@ -64286,8 +64565,8 @@
       "translation_group": "start-here",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -64371,42 +64650,28 @@
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 74,
+          "line": 32,
+          "raw_target": "typology-reconceptualization-en",
+          "resolved": "wiki/concepts/typology-reconceptualization-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-en.md",
+          "line": 76,
           "raw_target": "compatibility-measurement-roadmap-en",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 74,
-          "raw_target": "validation-program-en",
-          "resolved": "wiki/concepts/validation-program-en.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-en.md",
-          "line": 79,
-          "raw_target": "four-level-compatibility-architecture-en",
-          "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-en.md",
-          "line": 79,
-          "raw_target": "main-idea-en",
-          "resolved": "wiki/concepts/main-idea-en.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-en.md",
-          "line": 80,
+          "line": 76,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -64414,13 +64679,34 @@
         {
           "source": "wiki/start-here-en.md",
           "line": 81,
+          "raw_target": "four-level-compatibility-architecture-en",
+          "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-en.md",
+          "line": 81,
+          "raw_target": "main-idea-en",
+          "resolved": "wiki/concepts/main-idea-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-en.md",
+          "line": 82,
+          "raw_target": "validation-program-en",
+          "resolved": "wiki/concepts/validation-program-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-en.md",
+          "line": 83,
           "raw_target": "christian-application-overview-en",
           "resolved": "wiki/concepts/christian-application-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-en.md",
-          "line": 82,
+          "line": 84,
           "raw_target": "glossary-core-en",
           "resolved": "wiki/glossary-core-en.md",
           "ambiguous": []
@@ -64434,8 +64720,8 @@
       "translation_group": "start-here",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -64519,42 +64805,28 @@
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 74,
+          "line": 32,
+          "raw_target": "typology-reconceptualization-ru",
+          "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-ru.md",
+          "line": 76,
           "raw_target": "compatibility-measurement-roadmap-ru",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 74,
-          "raw_target": "validation-program-ru",
-          "resolved": "wiki/concepts/validation-program-ru.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-ru.md",
-          "line": 79,
-          "raw_target": "four-level-compatibility-architecture-ru",
-          "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-ru.md",
-          "line": 79,
-          "raw_target": "main-idea-ru",
-          "resolved": "wiki/concepts/main-idea-ru.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-ru.md",
-          "line": 80,
+          "line": 76,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -64562,13 +64834,34 @@
         {
           "source": "wiki/start-here-ru.md",
           "line": 81,
+          "raw_target": "four-level-compatibility-architecture-ru",
+          "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-ru.md",
+          "line": 81,
+          "raw_target": "main-idea-ru",
+          "resolved": "wiki/concepts/main-idea-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-ru.md",
+          "line": 82,
+          "raw_target": "validation-program-ru",
+          "resolved": "wiki/concepts/validation-program-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-ru.md",
+          "line": 83,
           "raw_target": "christian-application-overview-ru",
           "resolved": "wiki/concepts/christian-application-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-ru.md",
-          "line": 82,
+          "line": 84,
           "raw_target": "glossary-core-ru",
           "resolved": "wiki/glossary-core-ru.md",
           "ambiguous": []
@@ -64582,8 +64875,8 @@
       "translation_group": "start-here",
       "document_status": "active",
       "page_role": "hub",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "project-definition",
         "research-hypothesis",
@@ -64667,42 +64960,28 @@
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 74,
+          "line": 32,
+          "raw_target": "typology-reconceptualization-uk",
+          "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-uk.md",
+          "line": 76,
           "raw_target": "compatibility-measurement-roadmap-uk",
           "resolved": "wiki/concepts/compatibility-measurement-roadmap-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 74,
+          "line": 76,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 74,
-          "raw_target": "validation-program-uk",
-          "resolved": "wiki/concepts/validation-program-uk.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-uk.md",
-          "line": 79,
-          "raw_target": "four-level-compatibility-architecture-uk",
-          "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-uk.md",
-          "line": 79,
-          "raw_target": "main-idea-uk",
-          "resolved": "wiki/concepts/main-idea-uk.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/start-here-uk.md",
-          "line": 80,
+          "line": 76,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -64710,13 +64989,34 @@
         {
           "source": "wiki/start-here-uk.md",
           "line": 81,
+          "raw_target": "four-level-compatibility-architecture-uk",
+          "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-uk.md",
+          "line": 81,
+          "raw_target": "main-idea-uk",
+          "resolved": "wiki/concepts/main-idea-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-uk.md",
+          "line": 82,
+          "raw_target": "validation-program-uk",
+          "resolved": "wiki/concepts/validation-program-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/start-here-uk.md",
+          "line": 83,
           "raw_target": "christian-application-overview-uk",
           "resolved": "wiki/concepts/christian-application-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/start-here-uk.md",
-          "line": 82,
+          "line": 84,
           "raw_target": "glossary-core-uk",
           "resolved": "wiki/glossary-core-uk.md",
           "ambiguous": []

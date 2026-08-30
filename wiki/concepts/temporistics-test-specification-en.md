@@ -7,8 +7,8 @@ updated: 2026-04-25
 sources: [wiki/concepts/typology-test-design-protocol-en.md, wiki/concepts/temporistics-model-en.md, wiki/concepts/temporal-aspects-en.md]
 lang: en
 translation_group: temporistics-test-specification
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -44,7 +44,7 @@ And four positions:
 - **3 Painful** — criterion;
 - **4 Blind** — resource.
 
-Before We Build interprets Temporistics as a heuristic model of **latent processes of induction and deduction in temporal/existential experience**.
+Before We Build interprets Temporistics as a heuristic model of **latent processes of abduction, induction, and deduction in temporal/existential experience**.
 
 <!-- section:primary-scales -->
 ## Primary Scales

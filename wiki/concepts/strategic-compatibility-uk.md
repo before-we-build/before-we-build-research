@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: uk
 translation_group: strategic-compatibility
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -42,7 +42,7 @@ sources: [AGENTS.md, raw/temporistics]
 <!-- section:latent-construct -->
 ## Запропонований латентний конструкт
 
-Запропонований конструкт — індукція й дедукція в темпоральному або екзистенційному досвіді: організація часових аспектів у фрейм напряму. Його точна структура й відповідність темпористиці залишаються гіпотезами.
+Запропонований конструкт — абдукція, індукція й дедукція в темпоральному або екзистенційному досвіді: організація часових аспектів у фрейм напряму. Його точна структура й відповідність темпористиці залишаються гіпотезами.
 
 <!-- section:shared-example -->
 ## Спільний приклад

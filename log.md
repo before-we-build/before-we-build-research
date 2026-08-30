@@ -1409,3 +1409,29 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 - Added standard-library validation, link, claim-language, index, inventory, migration, and section-ID tooling with CI coverage and acceptance fixtures.
 - Preserved existing files under `raw/` unchanged and added only `raw/README.md` to explain the boundary between archived sources and the current BWB position.
 - Updated project skills and OpenCode agents through the controlled learning loop so future work cannot silently restore deterministic typing, one-language wiki pages, role assignment from type, human simulation, or premature scoring.
+
+---
+
+## [2026-08-30] terminology | Type as perception and experience organization
+
+**Action:** Synchronized the owner-approved positive definition of a
+typological type across the active repository.
+
+**Result:**
+- Defined a type in Before We Build as a model hypothesis about a pattern of
+  perception and experience organization, not a personality type or kind of
+  person.
+- Kept `type pattern` and `latent-process hypothesis` as the technical layers
+  and separated both from the whole personality and direct observations.
+- Recorded a possible natural predisposition as a further unvalidated research
+  hypothesis, not established biological innateness; learning, role, culture,
+  state, stress, and context remain rival explanations.
+- Preserved distinct mappings for Socionics information modeling,
+  Psychosophy analysis/synthesis/action organization, and Temporistics
+  abductive/inductive/deductive temporal-existential structuring.
+- Updated the canonical, orientation, methodology, system-overview, and
+  public-figure protocol triads; synchronized relevant OpenCode agents through
+  the controlled `.agent-learning` loop.
+- Added a strict claim-language regression rule and unit fixture, regenerated
+  the index and migration inventory, and preserved all `raw/` sources without
+  modification.

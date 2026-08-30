@@ -7,8 +7,8 @@ updated: 2026-08-30
 lang: ru
 sources: [wiki/concepts/main-idea-ru.md, wiki/concepts/compatibility-level-boundaries-ru.md, wiki/concepts/typology-test-design-protocol-ru.md]
 translation_group: test-result-reading-guide
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -21,6 +21,8 @@ caveat_ids: []
 Языки: [[test-result-reading-guide-en|English]] | **Русский** | [[test-result-reading-guide-uk|Українська]]
 
 Используйте эту страницу как **руководство по чтению**, а не как доказательство окончательной типировки. В Before We Build результат теста — это **пилотная гипотеза**, которую ещё нужно сопоставить с наблюдениями, самоописанием и альтернативами. См. [[main-idea-ru]] и [[compatibility-level-boundaries-ru]].
+
+Результат относится к предполагаемому типовому паттерну восприятия и организации опыта, а не к типу личности. Природная предрасположенность — лишь дополнительная гипотеза. См. [[typology-reconceptualization-ru]].
 
 <!-- section:level-separation -->
 ## Разделение уровней

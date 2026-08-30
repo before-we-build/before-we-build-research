@@ -7,8 +7,8 @@ updated: 2026-08-30
 lang: en
 sources: [wiki/concepts/typology-reconceptualization-en.md, wiki/concepts/cross-typology-terminology-conflicts-en.md, wiki/concepts/compatibility-level-boundaries-en.md]
 translation_group: typology-disambiguation-guide
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -18,11 +18,13 @@ caveat_ids: []
 
 # Guide to Distinguishing Typologies
 
+A type in BWB is a model hypothesis about a pattern of perception and experience organization, not a personality type. Perception here includes selection, ordering, interpretation, and process organization rather than sensory perception alone. See [[typology-reconceptualization-en]].
+
 The same word in Socionics, Psychosophy, and Temporistics does not automatically denote the same construct. Before We Build models three proposed process domains separately:
 
 - **Socionics / tactical level:** hypotheses about information modelling.
 - **Psychosophy / operational level:** hypotheses about analysis and synthesis in action.
-- **Temporistics / strategic level:** hypotheses about the organization of temporal and existential experience.
+- **Temporistics / strategic level:** hypotheses about abductive, inductive, and deductive organization of temporal and existential experience.
 
 These mappings are the project's working architecture, not proof that the three systems are empirically independent.
 

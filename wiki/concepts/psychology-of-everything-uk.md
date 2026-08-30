@@ -7,8 +7,8 @@ updated: 2026-04-25
 lang: uk
 sources: [wiki/sources/psychology-of-everything-synthesis-uk.md]
 translation_group: psychology-of-everything
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -75,7 +75,7 @@ Before We Build поділяє кілька мотивів уніфікован�
 
 - **Соціоніка → латентні процеси моделювання інформації**
 - **Психософія → латентні процеси синтезу й аналізу в дії**
-- **Темпористика → латентні процеси індукції й дедукції в темпоральному та екзистенційному досвіді**
+- **Темпористика → латентні процеси абдукції, індукції й дедукції в темпоральному та екзистенційному досвіді**
 
 <!-- section:difference-from-before-we-build -->
 ## Відмінність Before We Build

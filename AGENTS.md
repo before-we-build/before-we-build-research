@@ -32,7 +32,7 @@ latent-process models:
 | Level | Primary source/model | Process or criterion | Frame Type |
 |-------|----------------------|----------------------|------------|
 | Value-moral / foundational | Worldview, stated commitments, observed conduct, consent and safety evidence | Values, moral obligations, dignity, truth, responsibility, reciprocity, repair, non-negotiable boundaries | Normative frame |
-| Strategic | Temporistics | Inductive-deductive structuring of temporal experience | Temporal frame |
+| Strategic | Temporistics | Abductive, inductive, and deductive structuring of temporal experience | Temporal frame |
 | Operational | Psychosophy | Analysis, synthesis, action organization | Action frame |
 | Tactical | Socionics | Information modeling (information metabolism) | Information frame |
 
@@ -49,9 +49,20 @@ Required formula:
   boundaries**
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
-- **Temporistics → latent processes of induction and deduction in temporal/existential experience**
+- **Temporistics → latent processes of abduction, induction, and deduction in temporal/existential experience**
 
-These mappings are project heuristics and research hypotheses. They should not be written as scientifically proven personality facts or deterministic compatibility rules.
+A type in Before We Build is not a personality type or a kind of person. In
+plain language, it is a **type of perception and experience organization**; in
+technical language, it is a compact type-pattern hypothesis about how a
+narrower process may select, order, interpret, or organize experience. A type
+pattern is distinct from both the latent-process hypothesis proposed to explain
+it and the further hypothesis that the predisposition has a natural basis.
+
+These mappings and the possible natural basis of a predisposition are project
+heuristics and research hypotheses. Natural does not mean demonstrated innate,
+biological, fixed, or context-independent. They should not be written as
+scientifically proven personality facts or deterministic compatibility rules;
+learning, role, culture, state, stress, and context remain rival explanations.
 
 ### Scope Boundary
 

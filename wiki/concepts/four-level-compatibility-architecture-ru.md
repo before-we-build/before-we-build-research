@@ -6,8 +6,8 @@ created: 2026-07-26
 updated: 2026-08-30
 lang: ru
 translation_group: four-level-compatibility-architecture
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, normative-rule]
@@ -30,6 +30,8 @@ sources: [AGENTS.md]
 ## За 90 секунд
 
 Before We Build разделяет четыре вопроса, которые легко перепутать: что должно управлять общим делом, куда оно направлено, как люди действуют вместе и как они обмениваются информацией. Первый вопрос образует нетипологическое основание; три остальных используют типологии как исследовательские гипотезы.
+
+Их типы — модельные гипотезы о восприятии и организации опыта, а не типы личности. См. [[typology-reconceptualization-ru]].
 
 <!-- section:definition-and-scope -->
 ## Определение и область применения

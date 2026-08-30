@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: en
 translation_group: strategic-compatibility
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -42,7 +42,7 @@ Include horizon, continuity, sequencing of life periods, interpretation of past 
 <!-- section:latent-construct -->
 ## Proposed latent construct
 
-The proposed construct is induction and deduction in temporal or existential experience: how a person organizes time-aspects into a frame for direction. Its exact structure and Temporistics mapping remain hypotheses.
+The proposed construct is abduction, induction, and deduction in temporal or existential experience: how a person organizes time-aspects into a frame for direction. Its exact structure and Temporistics mapping remain hypotheses.
 
 <!-- section:shared-example -->
 ## Shared example

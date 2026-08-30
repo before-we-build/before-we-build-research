@@ -11,11 +11,13 @@ claims:
     status: research-hypothesis
   - id: psychosophy-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md]
 translation_group: psychosophy-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:psychosophy-operational-model -->
 Психософия — типологическая теория, связанная с Александром Афанасьевым и *«Синтаксисом любви»*. Before We Build использует её как **эвристическую гипотезу об операционной организации совместного действия**: о том, как люди согласуют агентность, выражение, обоснования, материальные ресурсы, усилие и давление. Это не полная теория личности и не определитель исхода отношений.
+
+Её коды — компактные модели предполагаемых задатков анализа, синтеза и организации действия, а не типы личности. Возможное природное основание — дополнительная непроверенная гипотеза; обучение, роль, культура, состояние, стресс и контекст остаются альтернативами.
 
 <!-- section:core-constructs -->
 ## Основные конструкты
@@ -56,7 +60,7 @@ page_role: entity
 ## Справочник типов
 
 <!-- claim:psychosophy-reference-codes -->
-Стандартный справочник содержит 24 перестановки L, E, V и F. Код `LEVF` означает 1L, 2E, 3V и 4F; это компактная метка модели, а не вид человека. Теоретический «25-й тип» Афанасьева (`2-2-2-2`) хранится как специфическое для источника историческое предложение, а не дополнительная наблюдаемая категория.
+Стандартный справочник содержит 24 перестановки L, E, V и F. Код `LEVF` означает 1L, 2E, 3V и 4F; он компактно моделирует предполагаемый процессный задаток, а не вид человека. Теоретический «25-й тип» Афанасьева (`2-2-2-2`) хранится как специфическое для источника историческое предложение, а не дополнительная наблюдаемая категория.
 
 <!-- section:observations-and-alternatives -->
 ## Наблюдения и альтернативные объяснения

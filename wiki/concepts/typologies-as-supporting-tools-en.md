@@ -6,8 +6,8 @@ created: 2026-04-26
 updated: 2026-08-30
 lang: en
 translation_group: typologies-as-supporting-tools
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: application
 claim_status: [application-guidance, research-hypothesis, normative-rule]
@@ -46,7 +46,7 @@ Used cautiously, a model can suggest questions about a recurring disagreement, e
 
 Before We Build currently studies three separate mappings:
 
-- **Temporistics** → proposed latent processes of induction and deduction in temporal or existential experience;
+- **Temporistics** → proposed latent processes of abduction, induction, and deduction in temporal or existential experience;
 - **Psychosophy** → proposed latent processes of synthesis and analysis in action;
 - **Socionics** → proposed latent processes of information modeling.
 

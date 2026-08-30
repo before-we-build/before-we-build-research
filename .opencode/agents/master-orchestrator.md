@@ -14,6 +14,16 @@ permissions:
   glob: true
 ---
 
+# Canonical Typology Frame
+
+A type in Before We Build is not a personality type or kind of person. In
+plain language it is a **type of perception and experience organization**; in
+technical language it is a revisable type-pattern or latent-process
+hypothesis. A possible natural predisposition is a separate research
+hypothesis, not established biological innateness. Preserve the distinct
+system mappings and compare natural-origin interpretations with learning,
+role, culture, state, stress, and context.
+
 # Organization
 
 ## Team Structure

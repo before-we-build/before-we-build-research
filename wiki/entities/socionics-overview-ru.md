@@ -11,11 +11,13 @@ claims:
     status: research-hypothesis
   - id: socionics-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md, raw/socionics/information-aspects.md]
 translation_group: socionics-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:socionics-tactical-model -->
 Соционика — типологическая традиция, связанная с Аушрой Аугустинавичюте, юнгианскими идеями о типе, информационным метаболизмом и Model A. Before We Build использует её как **эвристическую гипотезу о тактическом моделировании и обмене информацией**. Она не охватывает всю коммуникацию, всю личность или исход отношений.
+
+Её коды типов — компактные модели предполагаемых задатков информационного моделирования, а не типы личности. Возможное природное основание — дополнительная непроверенная гипотеза; обучение, роль, культура, состояние, стресс и контекст остаются альтернативами.
 
 <!-- section:core-constructs -->
 ## Основные конструкты
@@ -75,7 +79,7 @@ page_role: entity
 | Gamma | SEE, ILI, LIE, ESI |
 | Delta | IEE, EII, SLI, LSE |
 
-Каталог — формальная расстановка позиций информационных элементов. Членство в квадре обозначает внутримодельные ценностные элементы; оно не доказывает общие нравственные ценности, лёгкость общения или качество отношений. Трёхбуквенные коды и исторические четырёхбуквенные алиасы — справочные названия, а не виды людей.
+Каталог — формальная расстановка позиций информационных элементов и компактная модель предполагаемого процессного задатка. Членство в квадре обозначает внутримодельные ценностные элементы; оно не доказывает общие нравственные ценности, лёгкость общения или качество отношений. Трёхбуквенные коды и исторические четырёхбуквенные алиасы — справочные названия, а не виды людей.
 
 <!-- section:observations-and-alternatives -->
 ## Наблюдения и альтернативные объяснения

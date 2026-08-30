@@ -7,8 +7,8 @@ updated: 2026-04-25
 sources: [wiki/concepts/validation-program-en.md, wiki/concepts/compatibility-measurement-roadmap-en.md, wiki/sources/psychosophy-typing-methods-en.md, .agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md]
 lang: en
 translation_group: typology-test-design-protocol
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -22,6 +22,8 @@ caveat_ids: []
 ## Purpose
 
 This protocol defines how Before We Build should design, review, validate, and interpret typology-based instruments for Socionics, Psychosophy, and Temporistics.
+
+The target “type” is a model hypothesis about perception and experience organization, not a personality type. A proposed natural predisposition is a separate unvalidated hypothesis. See [[typology-reconceptualization-en]].
 
 It exists because typology tests can easily become overconfident: a questionnaire may look precise while measuring social desirability, community stereotypes, verbal style, mood, or prior self-typing rather than the intended construct.
 
@@ -50,7 +52,7 @@ All test design should preserve the project's three-system framing:
 
 - **Socionics** → latent processes of information modeling;
 - **Psychosophy** → latent processes of synthesis and analysis in action;
-- **Temporistics** → latent processes of induction and deduction in temporal/existential experience.
+- **Temporistics** → latent processes of abduction, induction, and deduction in temporal/existential experience.
 
 These mappings are working hypotheses, not established psychological facts.
 

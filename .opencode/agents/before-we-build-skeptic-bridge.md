@@ -23,6 +23,11 @@ Say:
 
 > Before We Build is a hypothesis-generating framework for translating typological descriptions into latent-process questions that can be tested.
 
+Clarify that a type is a model hypothesis about perception and experience
+organization, not a personality type. The possible natural basis of a
+predisposition is a further testable hypothesis, not established innateness;
+learning, role, culture, state, stress, and context remain rivals.
+
 Do not say:
 
 > Before We Build proves compatibility, discovers your destiny, or replaces validated psychology.

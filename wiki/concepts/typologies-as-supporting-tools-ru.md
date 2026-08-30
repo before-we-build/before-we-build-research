@@ -6,8 +6,8 @@ created: 2026-04-26
 updated: 2026-08-30
 lang: ru
 translation_group: typologies-as-supporting-tools
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: application
 claim_status: [application-guidance, research-hypothesis, normative-rule]
@@ -46,7 +46,7 @@ sources: []
 
 Before We Build сейчас изучает три отдельные связи:
 
-- **Temporistics** → предполагаемые латентные процессы индукции и дедукции во временном или экзистенциальном опыте;
+- **Temporistics** → предполагаемые латентные процессы абдукции, индукции и дедукции во временном или экзистенциальном опыте;
 - **Psychosophy** → предполагаемые латентные процессы синтеза и анализа в действии;
 - **Socionics** → предполагаемые латентные процессы моделирования информации.
 

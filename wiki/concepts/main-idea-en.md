@@ -6,8 +6,8 @@ created: 2026-04-26
 updated: 2026-08-30
 lang: en
 translation_group: main-idea
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis]
@@ -16,7 +16,9 @@ claims:
     status: project-definition
   - id: typologies-model-latent-processes
     status: research-hypothesis
-caveat_ids: [heuristic-not-fact, context-required, no-compatibility-verdict]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [heuristic-not-fact, context-required, no-compatibility-verdict, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -28,6 +30,8 @@ English · [[main-idea-ru|Русский]] · [[main-idea-uk|Українськ�
 ## In 90 seconds
 
 Before We Build turns compatibility from a label into a structured inquiry. It asks first what should govern a shared undertaking, then examines direction, action, and information exchange. Typologies supply provisional vocabulary for the last three questions; evidence from real conduct, context, consent, and outcomes remains primary.
+
+A type is a model hypothesis about a pattern of perception and experience organization, not a personality type. A possible natural predisposition is a further research hypothesis, not established innateness.
 
 <!-- section:definition-and-scope -->
 ## Definition and scope

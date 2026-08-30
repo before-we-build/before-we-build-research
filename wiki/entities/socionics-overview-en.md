@@ -10,12 +10,14 @@ claims:
     status: research-hypothesis
   - id: socionics-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md, raw/socionics/information-aspects.md]
 lang: en
 translation_group: socionics-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:socionics-tactical-model -->
 Socionics is a typological tradition associated with Aušra Augustinavičiūtė, Jungian type ideas, information metabolism, and Model A. Before We Build uses it as a **heuristic hypothesis about tactical information modeling and exchange**. It does not cover all communication, the whole personality, or the outcome of a relationship.
+
+Its type codes are compact models of proposed information-modeling predispositions, not personality types. Any natural basis is a further unvalidated hypothesis, with learning, role, culture, state, stress, and context as rivals.
 
 <!-- section:core-constructs -->
 ## Core Constructs
@@ -75,7 +79,7 @@ The standard reference catalog contains 16 type codes grouped into four quadras:
 | Gamma | SEE, ILI, LIE, ESI |
 | Delta | IEE, EII, SLI, LSE |
 
-The catalog is a formal arrangement of information-element positions. Quadra membership marks model-internal valued elements; it does not prove shared moral values, ease of communication, or relationship quality. Three-letter codes and historical four-letter aliases are reference names, not kinds of people.
+The catalog is a formal arrangement of information-element positions and a compact model of a proposed process predisposition. Quadra membership marks model-internal valued elements; it does not prove shared moral values, ease of communication, or relationship quality. Three-letter codes and historical four-letter aliases are reference names, not kinds of people.
 
 <!-- section:observations-and-alternatives -->
 ## Observations and Alternative Explanations

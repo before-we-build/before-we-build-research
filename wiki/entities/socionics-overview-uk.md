@@ -11,11 +11,13 @@ claims:
     status: research-hypothesis
   - id: socionics-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md, raw/socionics/information-aspects.md]
 translation_group: socionics-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:socionics-tactical-model -->
 Соціоніка — типологічна традиція, пов'язана з Аушрою Аугустинавічюте, юнгіанськими ідеями про тип, інформаційним метаболізмом і Model A. Before We Build використовує її як **евристичну гіпотезу про тактичне моделювання та обмін інформацією**. Вона не охоплює всю комунікацію, всю особистість або результат стосунків.
+
+Її коди типів — компактні моделі передбачуваних задатків інформаційного моделювання, а не типи особистості. Можливе природне підґрунтя — додаткова неперевірена гіпотеза; навчання, роль, культура, стан, стрес і контекст залишаються альтернативами.
 
 <!-- section:core-constructs -->
 ## Основні конструкти
@@ -75,7 +79,7 @@ page_role: entity
 | Gamma | SEE, ILI, LIE, ESI |
 | Delta | IEE, EII, SLI, LSE |
 
-Каталог — формальне розташування позицій інформаційних елементів. Членство у квадрі позначає внутрішньомодельні ціннісні елементи; воно не доводить спільні моральні цінності, легкість спілкування або якість стосунків. Трилітерні коди й історичні чотирилітерні аліаси — довідкові назви, а не види людей.
+Каталог — формальне розташування позицій інформаційних елементів і компактна модель передбачуваного процесного задатку. Членство у квадрі позначає внутрішньомодельні ціннісні елементи; воно не доводить спільні моральні цінності, легкість спілкування або якість стосунків. Трилітерні коди й історичні чотирилітерні аліаси — довідкові назви, а не види людей.
 
 <!-- section:observations-and-alternatives -->
 ## Спостереження й альтернативні пояснення

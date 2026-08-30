@@ -7,8 +7,8 @@ updated: 2026-08-30
 lang: uk
 sources: [wiki/concepts/typology-reconceptualization-uk.md, wiki/concepts/cross-typology-terminology-conflicts-uk.md, wiki/concepts/compatibility-level-boundaries-uk.md]
 translation_group: typology-disambiguation-guide
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -18,11 +18,13 @@ caveat_ids: []
 
 # Гід із розрізнення типологій
 
+Тип у BWB — це модельна гіпотеза про патерн сприйняття й організації досвіду, а не тип особистості. Сприйняття тут охоплює відбір, упорядкування, тлумачення й організацію процесів, а не лише сенсорне сприйняття. Див. [[typology-reconceptualization-uk]].
+
 Однакові слова в соціоніці, психософії й темпористиці не позначають автоматично той самий конструкт. Before We Build окремо моделює три запропоновані сфери процесів:
 
 - **Соціоніка / тактичний рівень:** гіпотези про моделювання інформації.
 - **Психософія / операційний рівень:** гіпотези про аналіз і синтез у дії.
-- **Темпористика / стратегічний рівень:** гіпотези про організацію часового та екзистенційного досвіду.
+- **Темпористика / стратегічний рівень:** гіпотези про абдуктивну, індуктивну й дедуктивну організацію часового та екзистенційного досвіду.
 
 Ці відповідності є робочою архітектурою проєкту, а не доказом емпіричної незалежності трьох систем.
 

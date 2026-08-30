@@ -28,9 +28,13 @@ Treat Before We Build typological constructs as heuristic latent-process hypothe
 
 - **Socionics** → latent processes of information modeling
 - **Psychosophy** → latent processes of synthesis and analysis in action
-- **Temporistics** → latent processes of induction and deduction in temporal/existential experience
+- **Temporistics** → latent processes of abduction, induction, and deduction in temporal/existential experience
 
 These mappings are project hypotheses, not established psychological facts.
+A type is a model hypothesis about a pattern of perception and experience
+organization, not a personality type. Treat a natural predisposition as a
+separate unvalidated hypothesis and test it against learning, role, culture,
+state, stress, and context.
 
 # Use For
 

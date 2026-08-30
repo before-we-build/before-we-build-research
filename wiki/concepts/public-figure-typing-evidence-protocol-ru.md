@@ -11,8 +11,8 @@ sources:
   - wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md
   - wiki/concepts/typology-test-design-protocol-ru.md
 translation_group: public-figure-typing-evidence-protocol
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -25,7 +25,7 @@ caveat_ids: []
 <!-- section:purpose -->
 ## Назначение
 
-Протокол помогает проверить, выдерживает ли типологическая гипотеза критику. Он не устанавливает тип личности и не превращает публичный материал в духовную, моральную, пасторскую или кадровую оценку. Процесс ведут люди; AI может только помочь упорядочить проверенные записи и сформулировать вопросы.
+Протокол помогает проверить, выдерживает ли критику предварительная гипотеза о типовом паттерне восприятия или организации опыта. Он не описывает всю личность, не устанавливает природную предрасположенность и не превращает публичный материал в духовную, моральную, пасторскую, диагностическую или кадровую оценку. Процесс ведут люди; AI может только помочь упорядочить проверенные записи и сформулировать вопросы. См. [[typology-reconceptualization-ru]].
 
 <!-- section:corpus-sufficiency-gates -->
 ## Ворота достаточности корпуса

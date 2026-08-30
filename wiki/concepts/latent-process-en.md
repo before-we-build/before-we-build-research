@@ -6,8 +6,8 @@ created: 2026-04-24
 updated: 2026-08-30
 lang: en
 translation_group: latent-process
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -16,7 +16,9 @@ claims:
     status: project-definition
   - id: latent-process-may-explain-pattern
     status: research-hypothesis
-caveat_ids: [not-directly-observed, not-proven-cause, multiple-indicators-required]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [not-directly-observed, not-proven-cause, multiple-indicators-required, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -32,7 +34,7 @@ A latent process is a proposed process that cannot be observed directly but may 
 <!-- section:definition-and-scope -->
 ## Definition and scope
 
-Keep four things separate: an observed trace, a descriptive pattern, a type hypothesis, and a latent-process hypothesis. A causal mechanism is a further and stronger claim. Moving between these layers requires evidence.
+Keep five things separate: the whole personality, an observed trace or descriptive pattern, a type-pattern hypothesis about perception and experience organization, a latent-process hypothesis, and a natural-predisposition hypothesis. A causal mechanism is a further and stronger claim. Moving between these layers requires evidence.
 
 <!-- section:shared-example -->
 ## Shared example
@@ -47,7 +49,7 @@ Useful indicators include behaviour across repeated tasks, language, timing, cho
 <!-- section:hypotheses -->
 ## What remains a hypothesis
 
-A process is useful only if it explains coherent variance, can be distinguished from rival constructs, and improves a domain-specific prediction. Typological position-to-process mappings remain unvalidated project hypotheses unless supported by separate evidence.
+A process is useful only if it explains coherent variance, can be distinguished from rival constructs, and improves a domain-specific prediction. Typological position-to-process mappings remain unvalidated project hypotheses. The further claim that a pattern reflects a natural predisposition also requires separate evidence and does not establish innateness.
 
 <!-- section:alternatives -->
 ## Alternative explanations

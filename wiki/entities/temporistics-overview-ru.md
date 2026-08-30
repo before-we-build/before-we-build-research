@@ -11,11 +11,13 @@ claims:
     status: research-hypothesis
   - id: temporistics-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 translation_group: temporistics-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:temporistics-strategic-model -->
 Темпористика — типологическая традиция, приписываемая Александру Латышеву и Нике Шерман и опирающаяся на темпорально-экзистенциальные идеи и четырёхпозиционную структуру психософии. Before We Build использует её как **эвристическую гипотезу о стратегической временной и экзистенциальной рамке**: о том, как люди организуют историю, текущее положение, направление и смысл. Это не система ценностей, не полная теория личности и не предсказатель исхода отношений.
+
+Её коды — компактные модели предполагаемых задатков абдуктивного, индуктивного и дедуктивного структурирования временного и экзистенциального опыта, а не типы личности. Возможное природное основание — дополнительная непроверенная гипотеза; обучение, роль, культура, состояние, стресс и контекст остаются альтернативами.
 
 <!-- section:core-constructs -->
 ## Основные конструкты
@@ -58,7 +62,7 @@ Eternity относится к предполагаемой смысловой �
 ## Справочник типов
 
 <!-- claim:temporistics-reference-codes -->
-Стандартный справочник содержит 24 перестановки P, N, F и E. Код `EPNF` означает 1E, 2P, 3N и 4F; это компактная метка модели, а не вид человека.
+Стандартный справочник содержит 24 перестановки P, N, F и E. Код `EPNF` означает 1E, 2P, 3N и 4F; он компактно моделирует предполагаемый процессный задаток, а не вид человека.
 
 Шестнадцать названий вроде Автор (`1P`), Хозяин (`1N`), Капитан (`1F`) и Гуру (`1E`) являются алиасами аспектно-позиционных архетипов, а не дополнительными полными типами. Шесть тетрад — также формальные справочные группы:
 

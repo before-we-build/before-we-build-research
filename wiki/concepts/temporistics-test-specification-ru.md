@@ -7,8 +7,8 @@ updated: 2026-04-25
 lang: ru
 sources: [wiki/concepts/typology-test-design-protocol-ru.md, wiki/concepts/temporistics-model-ru.md, wiki/concepts/temporal-aspects-ru.md]
 translation_group: temporistics-test-specification
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -44,7 +44,7 @@ caveat_ids: []
 - **3 Болезненная** — критерий;
 - **4 Слепая** — ресурс.
 
-Before We Build интерпретирует темпористику как эвристическую модель **латентных процессов индукции и дедукции во временном/экзистенциальном опыте**.
+Before We Build интерпретирует темпористику как эвристическую модель **латентных процессов абдукции, индукции и дедукции во временном/экзистенциальном опыте**.
 
 <!-- section:primary-scales -->
 ## Основные шкалы

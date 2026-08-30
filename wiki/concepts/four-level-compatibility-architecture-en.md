@@ -6,8 +6,8 @@ created: 2026-07-26
 updated: 2026-08-30
 lang: en
 translation_group: four-level-compatibility-architecture
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, normative-rule]
@@ -30,6 +30,8 @@ English · [[four-level-compatibility-architecture-ru|Русский]] · [[four
 ## In 90 seconds
 
 Before We Build separates four questions that are easily confused: what should govern a shared undertaking, where it is going, how people act together, and how they exchange information. The first is a non-typological foundation; the other three use typologies as research hypotheses.
+
+Their types are model hypotheses about perception and experience organization, not personality types. See [[typology-reconceptualization-en]].
 
 <!-- section:definition-and-scope -->
 ## Definition and scope

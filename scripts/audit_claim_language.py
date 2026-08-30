@@ -147,6 +147,18 @@ RULES = (
         ),
     ),
     Rule(
+        "bwb-personality-typology",
+        "Before We Build models process predisposition hypotheses, not personality types",
+        re.compile(
+            r"\b(?:before\s+we\s+build|bwb)\b.{0,100}\b(?:"
+            r"personality\s+(?:typolog(?:y|ies)|type\s+system)|"
+            r"типологи\w*\s+личност\w*|систем\w*\s+тип\w*\s+личност\w*|"
+            r"типологі\w*\s+особист\w*|систем\w*\s+тип\w*\s+особист\w*"
+            r")\b",
+            re.IGNORECASE,
+        ),
+    ),
+    Rule(
         "systems-proven-independent",
         "describe typology systems as non-equivalent/separately modeled, not empirically independent",
         re.compile(

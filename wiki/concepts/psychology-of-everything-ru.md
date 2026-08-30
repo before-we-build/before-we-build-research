@@ -7,8 +7,8 @@ updated: 2026-04-25
 lang: ru
 sources: [wiki/sources/psychology-of-everything-synthesis-ru.md]
 translation_group: psychology-of-everything
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -75,7 +75,7 @@ Before We Build разделяет несколько мотивов унифи�
 
 - **Соционика → латентные процессы моделирования информации**
 - **Психософия → латентные процессы синтеза и анализа в действии**
-- **Темпористика → латентные процессы индукции и дедукции в темпоральном и экзистенциальном опыте**
+- **Темпористика → латентные процессы абдукции, индукции и дедукции в темпоральном и экзистенциальном опыте**
 
 <!-- section:difference-from-before-we-build -->
 ## Отличие Before We Build

@@ -7,8 +7,8 @@ updated: 2026-08-30
 lang: ru
 sources: [wiki/concepts/typology-reconceptualization-ru.md, wiki/concepts/cross-typology-terminology-conflicts-ru.md, wiki/concepts/compatibility-level-boundaries-ru.md]
 translation_group: typology-disambiguation-guide
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -18,11 +18,13 @@ caveat_ids: []
 
 # Гид по различению типологий
 
+Тип в BWB — это модельная гипотеза о паттерне восприятия и организации опыта, а не тип личности. Восприятие здесь включает отбор, упорядочивание, толкование и организацию процессов, а не только сенсорное восприятие. См. [[typology-reconceptualization-ru]].
+
 Одинаковые слова в соционике, психософии и темпористике не обозначают автоматически один конструкт. Before We Build раздельно моделирует три предполагаемые области процессов:
 
 - **Соционика / тактический уровень:** гипотезы о моделировании информации.
 - **Психософия / операционный уровень:** гипотезы об анализе и синтезе в действии.
-- **Темпористика / стратегический уровень:** гипотезы об организации временного и экзистенциального опыта.
+- **Темпористика / стратегический уровень:** гипотезы об абдуктивной, индуктивной и дедуктивной организации временного и экзистенциального опыта.
 
 Эти соответствия являются рабочей архитектурой проекта, а не доказанной независимостью трёх систем.
 

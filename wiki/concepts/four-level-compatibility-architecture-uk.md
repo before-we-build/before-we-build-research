@@ -6,8 +6,8 @@ created: 2026-07-26
 updated: 2026-08-30
 lang: uk
 translation_group: four-level-compatibility-architecture
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, normative-rule]
@@ -30,6 +30,8 @@ sources: [AGENTS.md]
 ## За 90 секунд
 
 Before We Build розділяє чотири питання, які легко переплутати: що має керувати спільною справою, куди вона спрямована, як люди діють разом і як обмінюються інформацією. Перше питання утворює нетипологічне підґрунтя; три інші використовують типології як дослідницькі гіпотези.
+
+Їхні типи — модельні гіпотези про сприйняття й організацію досвіду, а не типи особистості. Див. [[typology-reconceptualization-uk]].
 
 <!-- section:definition-and-scope -->
 ## Визначення та сфера застосування

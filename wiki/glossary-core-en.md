@@ -6,8 +6,8 @@ created: 2026-04-24
 updated: 2026-08-30
 lang: en
 translation_group: glossary-core
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis]
@@ -16,7 +16,9 @@ claims:
     status: project-definition
   - id: typology-process-mappings-are-hypotheses
     status: research-hypothesis
-caveat_ids: [terms-not-proof, source-usage-may-differ, no-score]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [terms-not-proof, source-usage-may-differ, no-score, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -61,11 +63,15 @@ This glossary fixes how active Before We Build pages use central terms. A defini
 
 **Typology** — a structured classification tradition used here as a source of testable hypotheses, not as proven personality science.
 
-**Type pattern** — a compact model-based summary of a pattern of world perception or process organization; not a kind of person or a directly observed object.
+**Type of perception and experience organization** — the plain-language BWB label for a model hypothesis about how a narrower process may select, order, interpret, or organize experience; not a personality type or a sensory-perception-only category.
+
+**Type pattern** — the technical label for a compact, revisable model-based summary of such a pattern; not a kind of person, the whole personality, or a directly observed object.
 
 **Latent construct** — a proposed variable inferred from indicators.
 
 **Latent process** — a proposed unobserved process that may explain a recurring pattern; not an established causal mechanism.
+
+**Natural-predisposition hypothesis** — the further, unvalidated proposal that a type pattern partly reflects a natural predisposition. It does not establish biological innateness, fixity, or independence from learning, role, culture, state, stress, and context.
 
 **Frame** — an internal principle of selection, ordering, and interpretation within a proposed process model.
 

@@ -6,8 +6,8 @@ created: 2026-08-26
 updated: 2026-08-30
 lang: en
 translation_group: typology-reconceptualization
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis, contested]
@@ -16,7 +16,9 @@ claims:
     status: project-definition
   - id: typological-structures-may-model-processes
     status: research-hypothesis
-caveat_ids: [not-person-type, not-causal-proof, source-traditions-vary]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [not-person-type, not-causal-proof, source-traditions-vary, innateness-not-established]
 sources: [AGENTS.md, raw/socionics, raw/psychosophy, raw/temporistics]
 ---
 
@@ -27,12 +29,12 @@ English · [[typology-reconceptualization-ru|Русский]] · [[typology-reco
 <!-- section:in-90-seconds -->
 ## In 90 seconds
 
-Before We Build does not use a type as a kind of person. It uses a type pattern as a compact, revisable hypothesis about how a narrower process may be organized. The project borrows structures from source traditions but does not inherit every traditional or popular interpretation.
+Before We Build does not use a type as a personality type or kind of person. In plain language, it is a **type of perception and experience organization**; technically, a type pattern is a compact, revisable hypothesis about how a narrower process may select, order, interpret, or organize experience. The project borrows structures from source traditions but does not inherit every traditional or popular interpretation.
 
 <!-- section:definition-and-scope -->
 ## Definition and scope
 
-Socionics is assigned to information modelling, Psychosophy to analysis and synthesis in action, and Temporistics to induction and deduction in temporal or existential experience. The systems are non-equivalent and separately modelled. Similar words across them do not establish identical constructs.
+Socionics is assigned to information modelling, Psychosophy to analysis, synthesis, and organization in action, and Temporistics to abduction, induction, and deduction in temporal or existential experience. “Perception” is an umbrella for selection, ordering, interpretation, and process organization, not sensory perception alone. The systems are non-equivalent and separately modelled.
 
 <!-- section:shared-example -->
 ## Shared example
@@ -47,7 +49,7 @@ Researchers can observe utterances, choices, task sequences, corrections, respon
 <!-- section:hypotheses -->
 ## What remains a hypothesis
 
-The hypothesis is that some recurring structures capture latent process differences that improve explanation or prediction beyond ordinary contextual variables. This has to be demonstrated separately for each construct and outcome.
+The hypothesis is that some recurring structures capture latent-process differences that improve explanation or prediction beyond ordinary contextual variables. A further hypothesis is that some patterns reflect natural predispositions; this does not establish biological innateness, fixity, or context independence. Each claim has to be demonstrated separately for each construct and outcome.
 
 <!-- section:alternatives -->
 ## Alternative explanations

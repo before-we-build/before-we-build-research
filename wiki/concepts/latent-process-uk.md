@@ -6,8 +6,8 @@ created: 2026-04-24
 updated: 2026-08-30
 lang: uk
 translation_group: latent-process
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -16,7 +16,9 @@ claims:
     status: project-definition
   - id: latent-process-may-explain-pattern
     status: research-hypothesis
-caveat_ids: [not-directly-observed, not-proven-cause, multiple-indicators-required]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [not-directly-observed, not-proven-cause, multiple-indicators-required, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -32,7 +34,7 @@ sources: [AGENTS.md]
 <!-- section:definition-and-scope -->
 ## Визначення та сфера застосування
 
-Розрізняйте чотири речі: спостережуваний слід, описовий патерн, гіпотезу типу й гіпотезу латентного процесу. Причинний механізм — ще сильніше окреме твердження. Кожен перехід потребує свідчень.
+Розрізняйте п'ять речей: усю особистість, спостережуваний слід або описовий патерн, гіпотезу типового патерну сприйняття й організації досвіду, гіпотезу латентного процесу та гіпотезу про природну схильність. Причинний механізм — ще сильніше окреме твердження. Кожен перехід потребує свідчень.
 
 <!-- section:shared-example -->
 ## Спільний приклад
@@ -47,7 +49,7 @@ sources: [AGENTS.md]
 <!-- section:hypotheses -->
 ## Що залишається гіпотезою
 
-Процес корисний лише тоді, коли пояснює узгоджену варіативність, відрізняється від конкурентних конструктів і покращує прогноз для конкретної сфери. Відповідності типологічних позицій процесам залишаються неперевіреними гіпотезами проєкту без окремих свідчень.
+Процес корисний лише тоді, коли пояснює узгоджену варіативність, відрізняється від конкурентних конструктів і покращує прогноз для конкретної сфери. Відповідності типологічних позицій процесам залишаються неперевіреними гіпотезами проєкту. Додаткове твердження, що патерн відображає природну схильність, також потребує окремих свідчень і не встановлює вродженість.
 
 <!-- section:alternatives -->
 ## Альтернативні пояснення

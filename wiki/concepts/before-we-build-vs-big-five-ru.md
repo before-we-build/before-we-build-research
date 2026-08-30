@@ -7,8 +7,8 @@ updated: 2026-04-24
 lang: ru
 sources: [wiki/concepts/main-idea-ru.md, wiki/concepts/project-positioning-ru.md, wiki/concepts/compatibility-level-boundaries-ru.md, wiki/concepts/compatibility-measurement-roadmap-ru.md, wiki/sources/big-five-alternatives-ru.md]
 translation_group: before-we-build-vs-big-five
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -44,7 +44,7 @@ Big Five и Before We Build отвечают на разные методоло�
 
 - **Соционика → латентные процессы информационного моделирования**
 - **Психософия → латентные процессы синтеза и анализа в действии**
-- **Темпористика → латентные процессы индукции и дедукции во временном/экзистенциальном опыте**
+- **Темпористика → латентные процессы абдукции, индукции и дедукции во временном/экзистенциальном опыте**
 
 Эти сопоставления — предложенные эвристики, а не установленные психометрические факты.
 

@@ -6,8 +6,8 @@ created: 2026-04-26
 updated: 2026-08-30
 lang: uk
 translation_group: main-idea
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis]
@@ -16,7 +16,9 @@ claims:
     status: project-definition
   - id: typologies-model-latent-processes
     status: research-hypothesis
-caveat_ids: [heuristic-not-fact, context-required, no-compatibility-verdict]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [heuristic-not-fact, context-required, no-compatibility-verdict, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -28,6 +30,8 @@ sources: [AGENTS.md]
 ## За 90 секунд
 
 Before We Build перетворює сумісність із ярлика на структуроване дослідження. Спочатку він запитує, що має керувати спільною справою, а потім розглядає напрям, дію та обмін інформацією. Типології дають попередню мову для трьох останніх питань; первинними залишаються реальні вчинки, контекст, згода й результати.
+
+Тип — це модельна гіпотеза про патерн сприйняття й організації досвіду, а не тип особистості. Можлива природна схильність — додаткова дослідницька гіпотеза, а не встановлена вродженість.
 
 <!-- section:definition-and-scope -->
 ## Визначення та сфера застосування

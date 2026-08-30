@@ -412,6 +412,34 @@ class ClaimAuditTests(RepositoryFixture):
         codes = {item.code for item in audit_claims(self.root, strict=True)}
         self.assertIn("compatibility-score", codes)
 
+    def test_flags_bwb_as_personality_typology_but_allows_explicit_rejection(self) -> None:
+        assertions = {
+            "en": "Before We Build is a personality typology.",
+            "ru": "Before We Build — типология личности.",
+            "uk": "BWB — типологія особистості.",
+        }
+        rejections = {
+            "en": "Before We Build is not a personality typology.",
+            "ru": "Before We Build — не типология личности.",
+            "uk": "BWB — не типологія особистості.",
+        }
+        for lang, body in assertions.items():
+            self.write_page(
+                f"wiki/asserted-personality-typology-{lang}.md",
+                page_text("asserted-personality-typology", lang, body=body),
+            )
+        for lang, body in rejections.items():
+            self.write_page(
+                f"wiki/rejected-personality-typology-{lang}.md",
+                page_text("rejected-personality-typology", lang, body=body),
+            )
+        diagnostics = audit_claims(self.root, strict=True)
+        paths = {
+            item.path for item in diagnostics if item.code == "bwb-personality-typology"
+        }
+        self.assertTrue(any("asserted-personality-typology-" in path for path in paths if path))
+        self.assertFalse(any("rejected-personality-typology-" in path for path in paths if path))
+
     def test_flags_retired_simulation_entity_outside_wiki(self) -> None:
         self.write_page(
             "docs/active-design.md",

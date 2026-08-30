@@ -21,6 +21,10 @@ In Before We Build, Socionics operates at the **tactical level**:
 
 > Socionics → latent processes of information modeling.
 
+Treat a Socionics code as a compact hypothesis about an information-modeling
+predisposition, not a personality type. Any natural basis is unvalidated and
+must be compared with learning, role, culture, state, stress, and context.
+
 Therefore, every relation must be explained as a tactical information interaction: information exchange, Model A function contact, valued/unvalued aspect alignment, weak-function pressure, or asymmetric information flow.
 
 # Core Question

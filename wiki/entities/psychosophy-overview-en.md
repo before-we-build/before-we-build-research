@@ -10,12 +10,14 @@ claims:
     status: research-hypothesis
   - id: psychosophy-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/aspects.md]
 lang: en
 translation_group: psychosophy-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:psychosophy-operational-model -->
 Psychosophy is a typological theory associated with Alexander Afanasyev and *Syntax of Love*. Before We Build uses it as a **heuristic hypothesis about the operational organization of joint action**: how people negotiate agency, expression, reasons, material resources, effort, and pressure. It is not a complete theory of personality and does not determine relationship outcomes.
+
+Its codes are compact models of proposed predispositions in analysis, synthesis, and action organization, not personality types. Any natural basis is a further unvalidated hypothesis, with learning, role, culture, state, stress, and context as rivals.
 
 <!-- section:core-constructs -->
 ## Core Constructs
@@ -56,7 +60,7 @@ These descriptions must be tested in episodes. “Confident,” “vulnerable,�
 ## Type Reference
 
 <!-- claim:psychosophy-reference-codes -->
-The standard reference catalog contains the 24 permutations of L, E, V, and F. A code such as `LEVF` means 1L, 2E, 3V, and 4F; it is a compact model label, not a kind of human being. Afanasyev's theoretical “25th type” (`2-2-2-2`) is retained as a source-specific historical proposal, not as an additional observed category.
+The standard reference catalog contains the 24 permutations of L, E, V, and F. A code such as `LEVF` means 1L, 2E, 3V, and 4F; it compactly models a proposed process predisposition, not a kind of human being. Afanasyev's theoretical “25th type” (`2-2-2-2`) is retained as a source-specific historical proposal, not as an additional observed category.
 
 <!-- section:observations-and-alternatives -->
 ## Observations and Alternative Explanations

@@ -11,8 +11,8 @@ sources:
   - wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-en.md
   - wiki/concepts/typology-test-design-protocol-en.md
 translation_group: public-figure-typing-evidence-protocol
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -25,7 +25,7 @@ caveat_ids: []
 <!-- section:purpose -->
 ## Purpose
 
-The protocol tests whether a typological hypothesis survives criticism. It does not establish personality type or turn public material into a spiritual, moral, pastoral, or staffing assessment. People lead the process; AI may only help organize verified records and formulate questions.
+The protocol tests whether a provisional hypothesis about a type pattern of perception or experience organization survives criticism. It does not describe the whole personality, establish a natural predisposition, or turn public material into a spiritual, moral, pastoral, diagnostic, or staffing assessment. People lead the process; AI may only help organize verified records and formulate questions. See [[typology-reconceptualization-en]].
 
 <!-- section:corpus-sufficiency-gates -->
 ## Corpus-sufficiency gates

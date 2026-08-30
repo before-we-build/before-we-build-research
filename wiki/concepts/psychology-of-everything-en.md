@@ -7,8 +7,8 @@ updated: 2026-04-25
 sources: [wiki/sources/psychology-of-everything-synthesis-en.md]
 lang: en
 translation_group: psychology-of-everything
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -75,7 +75,7 @@ In Before We Build’s current formula:
 
 - **Socionics → latent processes of information modeling**
 - **Psychosophy → latent processes of synthesis and analysis in action**
-- **Temporistics → latent processes of induction and deduction in temporal/existential experience**
+- **Temporistics → latent processes of abduction, induction, and deduction in temporal/existential experience**
 
 <!-- section:difference-from-before-we-build -->
 ## Difference from Before We Build

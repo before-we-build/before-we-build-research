@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: ru
 translation_group: strategic-compatibility
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -42,7 +42,7 @@ sources: [AGENTS.md, raw/temporistics]
 <!-- section:latent-construct -->
 ## Предполагаемый латентный конструкт
 
-Предлагаемый конструкт — индукция и дедукция в темпоральном или экзистенциальном опыте: организация временных аспектов во фрейм направления. Его точная структура и соответствие темпористике остаются гипотезами.
+Предлагаемый конструкт — абдукция, индукция и дедукция в темпоральном или экзистенциальном опыте: организация временных аспектов во фрейм направления. Его точная структура и соответствие темпористике остаются гипотезами.
 
 <!-- section:shared-example -->
 ## Общий пример

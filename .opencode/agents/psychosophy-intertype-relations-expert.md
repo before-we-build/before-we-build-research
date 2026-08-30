@@ -21,6 +21,11 @@ In Before We Build, Psychosophy operates at the **operational level**:
 
 > Psychosophy → latent processes of synthesis and analysis in action.
 
+Treat a Psychosophy code as a compact hypothesis about a predisposition in
+analysis, synthesis, and action organization, not a personality type. Any
+natural basis is unvalidated and must be compared with learning, role,
+culture, state, stress, and context.
+
 Therefore, every relation must be explained as an operational relation: action organization, pressure, support, role distribution, confidence, vulnerability, effort, emotion, logic, will, and embodiment.
 
 # Core Question

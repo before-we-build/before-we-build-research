@@ -28,8 +28,11 @@ Ask for or state the limits caused by missing information about:
 - stated values, obligations, consent, repair, and safety boundaries;
 - any provisional typology results and how they were obtained.
 
-A type is a model-based hypothesis about a pattern of perceiving or organizing
-experience. It is not an observable object, a complete person, or a verdict.
+A type is a model-based hypothesis about a pattern of perception and
+experience organization. It is not a personality type, observable object,
+complete person, or verdict. A possible natural predisposition is a separate
+unvalidated hypothesis; learning, role, culture, state, stress, and context
+remain alternatives.
 
 # Four-level map
 

@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: ru
 translation_group: epistemic-status-and-inference-limits
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, normative-rule]
@@ -16,7 +16,9 @@ claims:
     status: normative-rule
   - id: current-typology-mappings-unvalidated
     status: research-hypothesis
-caveat_ids: [no-person-verdict, no-cross-level-compensation, uncertainty-visible]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [no-person-verdict, no-cross-level-compensation, uncertainty-visible, innateness-not-established]
 sources: [AGENTS.md]
 ---
 
@@ -47,7 +49,7 @@ Before We Build различает определения проекта, пер
 <!-- section:hypotheses -->
 ## Что остаётся гипотезой
 
-Четырёхуровневая архитектура — определение проекта и исследовательская карта. Валидно ли три типологии измеряют предполагаемые латентные процессы и предсказывают исходы пары, ещё предстоит установить.
+Четырёхуровневая архитектура — определение проекта и исследовательская карта. Тип — это модельная гипотеза о восприятии и организации опыта, а не тип личности. Валидно ли три типологии измеряют предполагаемые латентные процессы, предсказывают исходы пары или отражают природные предрасположенности, ещё предстоит установить; последнее утверждение не устанавливает биологическую врождённость.
 
 <!-- section:alternatives -->
 ## Альтернативные объяснения

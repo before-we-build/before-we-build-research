@@ -10,12 +10,14 @@ claims:
     status: research-hypothesis
   - id: temporistics-reference-codes
     status: source-attribution
-caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type]
+  - id: natural-predisposition-is-hypothesis
+    status: research-hypothesis
+caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 lang: en
 translation_group: temporistics-overview
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 ---
@@ -27,6 +29,8 @@ page_role: entity
 
 <!-- claim:temporistics-strategic-model -->
 Temporistics is a typological tradition attributed to Alexander Latyshev and Nika Sherman, drawing on temporal-existential ideas and the four-position structure used in Psychosophy. Before We Build uses it as a **heuristic hypothesis about strategic temporal and existential framing**: how people organize history, present location, direction, and meaning. It is not a value system, a complete theory of personality, or a predictor of relationship outcomes.
+
+Its codes are compact models of proposed predispositions in abductive, inductive, and deductive structuring of temporal and existential experience, not personality types. Any natural basis is a further unvalidated hypothesis, with learning, role, culture, state, stress, and context as rivals.
 
 <!-- section:core-constructs -->
 ## Core Constructs
@@ -58,7 +62,7 @@ The source tradition also uses strong/weak and Berne-style analogies. BWB retain
 ## Type Reference
 
 <!-- claim:temporistics-reference-codes -->
-The standard reference catalog contains the 24 permutations of P, N, F, and E. A code such as `EPNF` means 1E, 2P, 3N, and 4F; it is a compact model label, not a kind of human being.
+The standard reference catalog contains the 24 permutations of P, N, F, and E. A code such as `EPNF` means 1E, 2P, 3N, and 4F; it compactly models a proposed process predisposition, not a kind of human being.
 
 The 16 names such as Author (`1P`), Host (`1N`), Captain (`1F`), and Guru (`1E`) are aspect-position archetype aliases, not additional full types. The six tetrads are also formal reference groupings:
 

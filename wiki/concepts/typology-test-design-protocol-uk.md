@@ -7,8 +7,8 @@ updated: 2026-04-25
 lang: uk
 sources: [wiki/concepts/validation-program-uk.md, wiki/concepts/compatibility-measurement-roadmap-uk.md, wiki/sources/psychosophy-typing-methods-uk.md, .agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md]
 translation_group: typology-test-design-protocol
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -22,6 +22,8 @@ caveat_ids: []
 ## Призначення
 
 Протокол визначає, як Before We Build має розробляти, рецензувати, валідувати й інтерпретувати інструменти для соціоніки, психософії та темпористики.
+
+Цільовий «тип» — це модельна гіпотеза про сприйняття й організацію досвіду, а не тип особистості. Передбачувана природна схильність — окрема неперевірена гіпотеза. Див. [[typology-reconceptualization-uk]].
 
 Він потрібен, бо типологічний тест легко створює надмірну впевненість: точний на вигляд опитувальник може вимірювати соціальну бажаність, стереотипи спільноти, вербальний стиль, настрій або попереднє самотипування замість цільового конструкту.
 
@@ -50,7 +52,7 @@ caveat_ids: []
 
 - **Соціоніка** → латентні процеси інформаційного моделювання;
 - **Психософія** → латентні процеси синтезу й аналізу в дії;
-- **Темпористика** → латентні процеси індукції та дедукції в часовому/екзистенційному досвіді.
+- **Темпористика** → латентні процеси абдукції, індукції та дедукції в часовому/екзистенційному досвіді.
 
 Це робочі гіпотези, а не встановлені психологічні факти.
 

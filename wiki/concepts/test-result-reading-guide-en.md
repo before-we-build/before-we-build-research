@@ -7,8 +7,8 @@ updated: 2026-08-30
 lang: en
 sources: [wiki/concepts/main-idea-en.md, wiki/concepts/compatibility-level-boundaries-en.md, wiki/concepts/typology-test-design-protocol-en.md]
 translation_group: test-result-reading-guide
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -21,6 +21,8 @@ caveat_ids: []
 Languages: **English** | [[test-result-reading-guide-ru|Русский]] | [[test-result-reading-guide-uk|Українська]]
 
 Use this page as a **reading guide**, not as proof of final typing. In Before We Build, a test result is a **pilot hypothesis** that still needs comparison with observation, self-description, and possible alternatives. See [[main-idea-en]] and [[compatibility-level-boundaries-en]].
+
+The result concerns a proposed type pattern of perception and experience organization, not a personality type. A natural predisposition is only a further hypothesis. See [[typology-reconceptualization-en]].
 
 <!-- section:level-separation -->
 ## Level Separation
