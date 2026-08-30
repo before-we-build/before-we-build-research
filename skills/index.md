@@ -22,14 +22,14 @@ Modular skills for academic communication, translation of typological constructs
 
 ## 2. Typology Analysis and Mapping Skills
 
-Skills for structured typological analysis, interviews, and cross-framework translation.
+Skills for exploratory typological analysis, interviews, and cross-framework construct comparison.
 
 | Skill | Purpose | Why It Matters |
 |-------|---------|----------------|
-| `type-mapper` | Cross-system translation between typologies and trait models | Explains where mappings are approximate and where they are distinct |
-| `psychosophy-typer` | Structured psychosophy function determination | Systematic analysis of operational action style |
-| `psychosophy-accentuation-typer` | Identify accentuations and intra-type variations | Finer-grained operational profiling |
-| `public-figure-typologist` | Evidence-based typing of public figures | Dossier generation and evidence verification |
+| `type-mapper` | Cross-system construct comparison without type conversion | Separates attributed crosswalks, overlaps, differences, and missing evidence |
+| `psychosophy-typer` | Read answers as provisional Psychosophy hypotheses | Separates observations, rivals, and method limitations |
+| `psychosophy-accentuation-typer` | Compare exploratory accentuation hypotheses | Allows ambiguity and contextual alternatives |
+| `public-figure-typologist` | Evidence-first public-figure hypothesis protocol | Separates public observation, context, candidates, and disconfirmation |
 
 ---
 
@@ -44,12 +44,12 @@ skills/
 ├── objection-handler.md            # Academic objection handling
 ├── outreach-personalizer.md        # Personalized researcher emails
 ├── psychosophy-accentuation-typer.md # Psychosophy accentuation analysis
-├── psychosophy-typer.md            # Core psychosophy typing
-├── public-figure-typologist.md     # Public figure evidence analysis
+├── psychosophy-typer.md            # Provisional Psychosophy hypothesis reading
+├── public-figure-typologist.md     # Public-figure evidence and hypothesis analysis
 ├── research-bridge-builder.md      # Language translation to mainstream science
 ├── researcher-interest-maker.md    # Academic hook design
 ├── researcher-outreach-workflow.md # End-to-end outreach orchestration
 ├── researcher-segmentation.md      # Academic discipline segmentation
 ├── researcher-targeter.md          # Researcher target prioritization
-└── type-mapper.md                 # Cross-system construct mapping
+└── type-mapper.md                 # Cross-system construct comparison
 ```

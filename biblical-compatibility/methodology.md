@@ -39,8 +39,8 @@
 
 - `wiki/concepts/compatibility-level-boundaries-uk.md` — стратегічний / операційний / тактичний рівні.
 - `wiki/concepts/typologies-as-supporting-tools-uk.md` — типології як допоміжні інструменти.
-- `wiki/concepts/research-layer-vs-practical-guidance-uk.md` — межа між дослідницьким шаром і практичним керівництвом.
+- `wiki/concepts/project-positioning-en.md` — межа між дослідницьким шаром і практичним керівництвом.
 - `wiki/concepts/biblical-grounding-policy-uk.md` — правило біблійної опори для нормативних тверджень.
 - `wiki/concepts/christian-foundation-of-family-uk.md` і `wiki/concepts/family-formation-principles-uk.md` — первинність віри, характеру, вірності, відповідальності й спільноти.
-- `wiki/sources/socionics-detailed.md`, `wiki/sources/psychosophy-detailed.md`, `wiki/sources/temporistics-detailed.md` — технічні описи трьох систем.
+- `wiki/sources/socionics-detailed-en.md`, `wiki/sources/psychosophy-detailed-en.md`, `wiki/sources/temporistics-detailed-en.md` — технічні описи трьох систем.
 - `wiki/concepts/adequate-intertype-formats-ru.md` — ідея формату, дистанції, навантаження і відповідальності як дослідницька гіпотеза, не як вирок.

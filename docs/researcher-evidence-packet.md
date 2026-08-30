@@ -14,7 +14,9 @@ We are testing whether **multi-level latent-process models** can explain dyadic 
 The project separates foundational values, strategic temporal orientation, operational action coordination, and tactical communication into distinct levels with explicit boundary rules.
 
 2. **Process-level explanation of friction**
-Instead of matching people by overall score, the system localizes friction to specific operational domains (decision ownership, logic, emotion, routine) or temporal horizons.
+Instead of matching people by an overall score, the framework organizes questions
+about possible friction into specific action domains and temporal horizons. Whether
+those distinctions correspond to reliable constructs remains an empirical question.
 
 3. **Typology as latent-process hypothesis, not dogma**
 Temporistics, Psychosophy, and Socionics are used as heuristic models of latent processes, with empirical validation against human data as the ultimate arbiter.
@@ -34,7 +36,8 @@ Explicit mapping of typological dimensions to known cognitive processes (episodi
 1. That typological latent processes add incremental predictive validity beyond Big Five / HEXACO baselines.
 2. That layered typology features predict dyadic coordination in real pairs.
 3. That observable behavioral markers can reliably identify latent-process states.
-4. That the proposed weighting logic calibrates accurately across different relationship domains.
+4. That any future outcome-specific measurement model could be calibrated,
+   replicated, and used safely across relationship domains.
 
 ## Current Epistemic Status
 
@@ -75,15 +78,15 @@ We are asking for help with one narrower question:
 
 ## Good Research Anchors Inside The Repo
 
-- `wiki/sources/llm-psychological-simulators-methodology.md`
-- `wiki/sources/ai-agents-psychometric-approach.md`
-- `wiki/sources/llm-emulate-personality-nature-2025.md`
-- `wiki/sources/typology-researchers.md`
-- `wiki/scientific-contribution-statement.md`
+- `wiki/concepts/four-level-compatibility-architecture-en.md`
+- `wiki/concepts/typology-test-design-protocol-en.md`
+- `wiki/sources/typology-researchers-en.md`
+- `wiki/concepts/neuroscience-compatibility-bridges-en.md`
+- `wiki/concepts/sociological-compatibility-analogues-en.md`
 
 ## What Not To Claim In Outreach
 
 1. Do not claim that compatibility prediction is already validated.
 2. Do not present Socionics / Psychosophy / Temporistics as established mainstream science.
 3. Do not use fictional-style exact percentages as if they were scientific outputs.
-4. Do not imply that LLM personas are substitutes for human evidence.
+4. Do not imply that AI-generated summaries, questions, or interpretations are substitutes for human evidence.

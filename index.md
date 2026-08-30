@@ -1,537 +1,228 @@
-# Index — Before We Build Wiki
-
-Before We Build is a universal compatibility research framework for studying
-how any two people may build, decide, coordinate, and sustain a relationship
-or shared task. It uses typologies not as final personality labels, but as
-structured hypotheses that may support conversation maps, role fit, team
-design, and structured compatibility research.
-
-The first developed application is a Christian relationship and
-family-discernment profile. Its Scripture-first normative claims remain in
-explicitly Christian pages and must not be treated as unstated premises of the
-universal research core.
-
-Core formula:
-
-- **Value-moral foundation → values, moral obligations, observed conduct, consent, safety, responsibility, reciprocity, repair, and non-negotiable boundaries**
-- **Socionics → latent processes of information modeling**
-- **Psychosophy → latent processes of synthesis and analysis in action**
-- **Temporistics → latent processes of induction and deduction in temporal/existential experience**
-
-The first line is a universal foundational level, not a typology or automated
-moral-worth score. The remaining three lines are typological research levels.
-
-Before We Build remains the broader framework and research wiki. The earlier
-**Cognitive Matchmaker** concept is a future research track, not the near MVP.
-The first Christian application's product direction starts with a weak-AI
-conversation map: Scripture-first questions, answer summaries, visible
-differences, open questions, and wise next steps before serious shared
-decisions.
-
-## Start Here — Universal Research Core
-
-1. [[main-idea]] — universal scope and latent-process hypothesis.
-2. [[typology-reconceptualization-ru]] — fundamental reconceptualization of Socionics, Psychosophy, and Temporistics into latent process models.
-3. [[four-level-compatibility-architecture]] — the four-level architecture for
-   any two people.
-4. [[value-moral-compatibility]] — the foundational level, evidence model,
-   domain contract, and safety gates.
-5. [[compatibility-level-boundaries]] — construct separation and prohibited
-   inferences.
-6. [[project-positioning]] — universal core vs worldview/domain applications.
-7. [[research-layer-vs-practical-guidance]] — rules for building specialized
-   applications.
-
-The Christian family and relationship pages below form the first developed
-application profile, not the definition of the research core.
-
-## Featured Pages
-
-| Page | Purpose |
-|------|---------|
-| [[christian-foundation-of-family]] | Primary Christian family foundation: faith, values, fidelity, responsibility, forgiveness, and community |
-| [[family-formation-principles]] | Primary and secondary criteria for relationship discernment and family formation |
-| [[typologies-as-supporting-tools]] | Reframes typologies as secondary tools rather than spiritual verdicts or guarantees |
-| [[limits-of-typological-inference]] | States what must not be inferred from type labels or compatibility scores |
-| [[research-layer-vs-practical-guidance]] | Separates Christian guidance, product matching, and Before We Build research hypotheses |
-| [[hypothesis-status-of-before-we-build]] | Clarifies that Before We Build remains a heuristic and testable research framework |
-| [[biblical-grounding-policy]] | Editorial rule: Christian normative claims need nearby biblical grounding |
-| [[report-caveat-standard]] | Reusable caveat block for generated reports: not a verdict, pastoral authority, or promise |
-| `biblical-compatibility/` | Biblical-hermeneutical research module for the book «Сумісність для одиноких християн»: authority model, claims register, pastoral risks, hermeneutics, themes, and typology-integration limits |
-| [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи |
-| [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї |
-| [[biblical-grounding-policy-ru]] | Русская политика библейской опоры и локализации ссылок |
-| [[biblical-grounding-policy-uk]] | Українська політика біблійної опори та локалізації посилань |
-| [[resource-map]] | Internet resource map for source discovery, provenance labels, and web-source intake |
-| [[resource-map-ru]] | Русская версия карты интернет-ресурсов |
-| [[resource-map-uk]] | Українська версія карти інтернет-ресурсів |
-| [[main-idea]] | 60-second explanation of the universal Before We Build thesis: one value-moral foundation and three typological research levels |
-| [[four-level-compatibility-architecture]] | Defines the four-level architecture, its reading order, and the boundary between the foundational level and three typological levels |
-| [[four-level-compatibility-architecture-ru]] | Русская версия универсальной четырёхуровневой архитектуры совместимости |
-| [[four-level-compatibility-architecture-uk]] | Українська версія універсальної чотирирівневої архітектури сумісності |
-| [[value-moral-compatibility]] | Defines the universal foundational level: values, obligations, compatible difference, non-negotiable conflict, evidence, and safety gates |
-| [[value-moral-compatibility-ru]] | Русская страница ценностно-нравственной совместимости |
-| [[value-moral-compatibility-uk]] | Українська сторінка ціннісно-моральної сумісності |
-| [[project-main-goal]] | Universal research goal plus the first developed Christian relationship-discernment application |
-| [[project-positioning]] | Distinguishes Before We Build from Cognitive Matchmaker and states claims/non-claims |
-| [[latent-process]] | Explains observable traces vs hidden process hypotheses |
-| [[compatibility-level-boundaries]] | Defines value-moral, strategic, operational, and tactical boundaries |
-| [[operational-compatibility-ru]] | Каноническое русское определение операционного уровня: совместная сборка, воплощение и коррекция решений через Волю, Логику, Эмоцию и Физику |
-| [[typology-disambiguation-guide-ru]] | Русский практический гид по различению терминов трёх типологий: устранение ложных склеек (Воля vs ЧС, Эмоция vs Этика) и примеры парадоксальных профилей |
-| [[multilingual-translation-policy]] | Defines canonical English, RU/UK suffixes, frontmatter, and wikilink fallback policy |
-| [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary rules: Scripture-first wording, no psychology/typology front door, no mixed English product terms |
-| [[test-result-reading-guide]] | Explains how to read test outputs as provisional, level-separated hypotheses |
-| [[canonical-typology-registry]] | Single Source of Truth (SSOT) registry for all 24 Psychosophy, 24 Temporistics, and 16 Socionics canonical formulas and pseudonyms |
-| [[temporistics-cognitive-resource-routing-creation-model-uk]] | Українська дослідницька гіпотеза: темпористика як креаціоністська модель розподілу когнітивного ресурсу, часової маршрутизації та соціального доповнення |
-| [[spiritual-foundation-levels-ru]] | Русская исследовательская гипотеза о четырёх духовных позициях основания и четырёх парных динамиках: сонаправленность, асимметрия зрелости, неясное основание и разное основание |
-| [[spiritual-maturity-models-comparison-ru]] | Русское сопоставление библейских и христианских моделей духовной зрелости с текущей 4-позиционной схемой Before We Build |
-| [[michelangelo-phenomenon]] | Empirical social-psychological model of mutual partner sculpting toward ideal self, integrated into the 4-level compatibility architecture |
-| [[michelangelo-phenomenon-ru]] | Русская концептуальная статья о феномене Микеланджело: модель взаимного раскрытия идеального «Я», перцептивная/поведенческая аффирмация и 4 уровня проекта |
-| [[adequate-compromise-ru]] | Russian project reconstruction of adequate compromise with green/yellow/red zones and explicit boundaries where compromise becomes impossible, coercive, or one-sided |
-| [[adequate-compromise-relations-all-typologies-ru]] | Russian cross-typology map of all Socionics relations and all 17 reciprocal Psychosophy/Temporistics signature families by compromise zones A, B, and C |
-| [[adequate-intertype-formats-ru]] | Russian Socionics-level hypothesis: intertype relations become adequate when the relationship type receives the right distance, load, and format |
-| [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская страница о психософии Афанасьева как модели распределения операционного ресурса: избыток, гибкая помощь, уязвимость и делегируемая рамка |
-| [[composite-quadra-tetrad-names-ru]] | Русская исследовательская номенклатура составных квадр/тетрад: 4 соционические квадры × 6 психософских квадр/секст × 6 темпористических тетрад = 144 рабочих названия |
-| [[baptist-audience-public-figure-typing-ru]] | Русские исследовательские гипотезы типирования публичных фигур, значимых для баптистской/евангельской аудитории Украины, включая текущий проход по руководству ВСЦ ЕХБ, с источниками, альтернативами и строгими ограничениями применения |
-| [[public-figure-typing-agent-pipeline-ru]] | Русский агентный пайплайн для более точного типирования публичных фигур: источники, признаки, независимые типировщики, критика, пасторская безопасность, арбитраж и шкала уверенности |
-| [[public-figure-typing-methodology-audit-ru]] | Русский аудит актуальных интернет-методик типирования для публичных фигур: соционические интервью/Model A/Talanov-style шкалы, психософские оси и AP-параллели, темпористический heatmap, LLM/text-analysis и психометрические ограничения |
-| [[public-figure-typing-pipeline-run-2026-06-21-ru]] | Первый русский run агентного пайплайна для уточнения типирований популярных баптистских фигур: Санников, Романюк, Антонюк, Бандура; source dossier, критика role-overfit, арбитраж уверенности |
-| [[public-figure-typing-pipeline-run-2026-06-21-method-v2-ru]] | Русское методологическое v2-перетипирование текущего списка популярных баптистских/евангельских фигур Украины с учётом method scout, шкал/осей до типа, source-quality gates и role-overfit downgrade |
-| [[public-figure-typing-evidence-protocol-ru]] | Русский протокол доказательного типирования публичных фигур: цитатная база, source weights, blind coding, inter-rater agreement, confidence model и differentiator checklists |
-| [[public-figure-typing-evidence-dossiers-batch-1-ru]] | Стартовые evidence dossiers для глубокого типирования Сергея Санникова, Николая Романюка и Игоря Бандуры: source set, первые evidence rows, спорные пары и список материалов для добора |
-| [[weight-calibration]] | Explains why compatibility scoring remains provisional |
-
----
-
-This is the catalog of all pages in the wiki. The LLM updates this on every ingest.
-
-## Wiki Structure
-
-The wiki is organized conceptually into six layers:
-
-- **Universal orientation** — project scope, four-level architecture, application boundary, and methodology.
-- **Christian application** — faith, values, fidelity, responsibility, forgiveness, community, and pastoral caveats.
-- **Orientation** — README, main idea, project positioning, glossary, roadmap.
-- **Core theory** — the value-moral foundation plus three typological interpretations.
-- **Compatibility architecture** — level boundaries, rules, conflicts, complementarity, examples.
-- **Applications** — conversation maps before serious decisions, later church-mediated introduction support, team design, career/role navigation, service roles, and structured compatibility research.
-- **Research program** — hypotheses, measurement strategy, validation strategy, evidence, limitations.
-
-```
-raw/           — Immutable source documents
-wiki/          — LLM-generated wiki
-├── concepts/   — Theoretical concept pages
-├── entities/  — Entity pages (types, aspects, functions)
-├── relations/  — Compatibility patterns, intertype relations
-└── sources/   — Source summaries and derived docs
-```
-
----
-
-## Wiki Pages
-
-### Concepts
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[christian-foundation-of-family]] | Christian family foundation: shared values, fidelity, responsibility, forgiveness, community, and typology as secondary | theological synthesis, Bible references |
-| [[family-formation-principles]] | Primary vs secondary criteria for serious relationship discernment and matching | theological synthesis, Bible references |
-| [[typologies-as-supporting-tools]] | Typologies as limited aids for conversation, not moral/spiritual verdicts | theological synthesis, methodology caveats |
-| [[limits-of-typological-inference]] | Non-claims and prohibited inferences from type labels and compatibility scores | ethics review, theological caveats |
-| [[research-layer-vs-practical-guidance]] | Editorial boundary between Christian practical guidance, product matching, and research hypotheses | project convention |
-| [[hypothesis-status-of-before-we-build]] | Before We Build mappings and scores as hypotheses requiring testing and revision | project convention |
-| [[biblical-grounding-policy]] | Requires nearby Bible references for Christian normative claims and defines exceptions for technical/research statements | project convention, Bible references |
-| [[report-caveat-standard]] | Reusable report caveat: report is not a verdict, pastoral authority, or promise, and points back to Scripture, prayer, church, wise counsel, and responsibility | project convention |
-| [[christian-foundation-of-family-ru]] | Русская версия христианского основания семьи с русскими библейскими ссылками | christian-foundation-of-family.md |
-| [[christian-foundation-of-family-uk]] | Українська версія християнської основи сімʼї з українськими біблійними посиланнями | christian-foundation-of-family.md |
-| [[family-formation-principles-ru]] | Русская версия принципов формирования семьи | family-formation-principles.md |
-| [[family-formation-principles-uk]] | Українська версія принципів формування сімʼї | family-formation-principles.md |
-| [[typologies-as-supporting-tools-ru]] | Русская версия страницы о типологиях как вспомогательных инструментах | typologies-as-supporting-tools.md |
-| [[typologies-as-supporting-tools-uk]] | Українська версія сторінки про типології як допоміжні інструменти | typologies-as-supporting-tools.md |
-| [[limits-of-typological-inference-ru]] | Русская версия границ типологического вывода | limits-of-typological-inference.md |
-| [[limits-of-typological-inference-uk]] | Українська версія меж типологічного висновку | limits-of-typological-inference.md |
-| [[research-layer-vs-practical-guidance-ru]] | Русская версия разделения исследовательского и практического слоёв | research-layer-vs-practical-guidance.md |
-| [[research-layer-vs-practical-guidance-uk]] | Українська версія розділення дослідницького і практичного шарів | research-layer-vs-practical-guidance.md |
-| [[hypothesis-status-of-before-we-build-ru]] | Русская версия статуса гипотез Before We Build | hypothesis-status-of-before-we-build.md |
-| [[hypothesis-status-of-before-we-build-uk]] | Українська версія статусу гіпотез Before We Build | hypothesis-status-of-before-we-build.md |
-| [[biblical-grounding-policy-ru]] | Русская версия политики библейской опоры | biblical-grounding-policy.md |
-| [[biblical-grounding-policy-uk]] | Українська версія політики біблійної опори | biblical-grounding-policy.md |
-| [[main-idea]] | Universal Before We Build thesis: one value-moral foundation and three typological latent-process levels | - |
-| [[four-level-compatibility-architecture]] | Four compatibility levels for any pair: value-moral, strategic, operational, and tactical | project-owner decision, compatibility-level-boundaries.md, sociological-compatibility-analogues.md |
-| [[four-level-compatibility-architecture-ru]] | Русская универсальная архитектура: ценностно-нравственное основание и три типологических исследовательских уровня | four-level-compatibility-architecture.md |
-| [[four-level-compatibility-architecture-uk]] | Українська універсальна архітектура: ціннісно-моральна основа і три типологічні дослідницькі рівні | four-level-compatibility-architecture.md |
-| [[value-moral-compatibility]] | Universal foundational construct with domain contract, compatible-difference categories, evidence model, and safety gates | project-owner decision, four-level-compatibility-architecture.md, sociological-compatibility-analogues.md |
-| [[value-moral-compatibility-ru]] | Русская универсальная модель ценностно-нравственной совместимости | value-moral-compatibility.md |
-| [[value-moral-compatibility-uk]] | Українська універсальна модель ціннісно-моральної сумісності | value-moral-compatibility.md |
-| [[project-main-goal]] | Universal research goal plus the first developed Christian relationship-discernment application | main-idea.md, project-positioning.md, four-level-compatibility-architecture.md, compatibility-level-boundaries.md |
-| [[project-positioning]] | Before We Build vs Cognitive Matchmaker; research positioning and non-claims | main-idea, latent-process, compatibility-level-boundaries |
-| [[latent-process]] | Hidden internal mechanisms judged by observable traces | latent-process.md |
-| [[operational-compatibility-ru]] | Русская проектная модель операционной совместимости как исправляемой системы совместного действия: анализ, синтез, роли, ответственность, воплощение и коррекция в областях Воли, Логики, Эмоции и Физики | compatibility-level-boundaries-ru.md, latent-process.md, afanasyev-resource-distribution-model-ru.md, psychosophy-intertype-relations.md |
-| [[before-we-build-vs-big-five]] | Positions Before We Build against Big Five as heuristic process architecture vs validated trait baseline | main-idea, project-positioning, weight-calibration, big-five-alternatives |
-| [[psychology-of-everything]] | Context page on unified psychology, metatheory, integrative psychology, and “maps of everything” | psychology-of-everything-synthesis |
-| [[intertype-relation-naming-audit]] | Audits relation names across Socionics, Psychosophy, and Temporistics for mechanism clarity and level boundaries | relation pages, compatibility-level-boundaries |
-| [[typology-disambiguation-guide-ru]] | Русский практический гид по различению терминов трёх типологий: устранение ложных склеек (Воля vs ЧС, Эмоция vs Этика) и парадоксальные примеры профилей | typology-reconceptualization-ru.md, cross-typology-terminology-conflicts.md, emotion-vs-ethics-boundary.md |
-| [[composite-intertype-combinatorics-ru]] | Русский расчёт пространства составных профилей и пар по трём типологиям: 9 216 профилей, 84 934 656 направленных и 42 471 936 ненаправленных структурных пар; с границами против ложного представления об эмпирически доказанной совместимости | socionics-intertype-relations.md, psychosophy-intertype-relations.md, temporistics-intertype-relations.md |
-| [[typology-test-design-protocol]] | Shared psychometric protocol for Socionics, Psychosophy, and Temporistics test design and validation | research-program.md, weight-calibration.md, 2026-04-25-typology-test-evaluation-protocol.md |
-| [[socionics-test-specification]] | Draft Before We Build Socionics test architecture, scales, seed items, and scoring caveats | typology-test-design-protocol.md, socionics-model-a.md, socionics-information-elements.md |
-| [[psychosophy-test-specification]] | Draft Before We Build Psychosophy test architecture, position axes, seed items, and scoring caveats | typology-test-design-protocol.md, psychosophy-typing-methods.md, psychosophy-model.md |
-| [[temporistics-test-specification]] | Draft Before We Build Temporistics test architecture, temporal-frame scales, seed items, and scoring caveats | typology-test-design-protocol.md, temporistics-model.md, temporal-aspects.md |
-| [[public-language-boundaries]] | Public Russian/Ukrainian vocabulary boundaries for Before We Build: preferred Scripture-first language, rejected psychology/typology front-door terms, and localized good/bad phrase examples | plan.md, consolidated-action-plan.md, glossary-audience-translation.md |
-| [[weight-calibration]] | Research plan for validating scoring weights | weight-calibration.md |
-| [[composite-profile-sli-elvf-vpnb]] | Core composite profile: SLI + ELVF + EPNF without mixing civilian and military profiling | project synthesis |
-| [[civilian-profile-sli-elvf-vpnb]] | Civilian career profile for SLI + ELVF + EPNF with DevOps background | civilian role catalog |
-| [[cross-typology-mapping-framework]] | Unified mapping concepts between typologies and validated trait frameworks with survey validation | typology-best-architecture.md |
-| [[cross-typology-terminology-conflicts]] | Terms with different meanings across systems (Extraversion, Function, etc.) | web research |
-| [[emotion-vs-ethics-boundary]] | Research-backed boundary between Psychosophy Emotion and Socionics Ethics | Wikisocion, BestSocionics, Afanasyev |
-| [[music-styles-and-psychosophy-emotion]] | English draft heuristic: musical styles and the functions of music as soft traces of Psychosophy Emotion position | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
-| [[music-styles-and-psychosophy-emotion-ru]] | Русская черновая эвристика: музыкальные стили и функции музыки как мягкие признаки позиции психософской Эмоции | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
-| [[music-styles-and-psychosophy-emotion-uk]] | Українська чернеткова евристика: музичні стилі й функції музики як м’які ознаки позиції психософської Емоції | psychosophy-detailed.md, emotion-vs-ethics-boundary.md |
-| [[music-style-catalog-and-psychosophy-emotion]] | Research hypothesis: a full music-style catalog as material for studying result-oriented (1E/4E) and process-oriented (2E/3E) musical functions, without genre-based typing | music-styles-and-psychosophy-emotion.md, psychosophy-emotion-functions.md |
-| [[music-style-catalog-and-psychosophy-emotion-ru]] | Русская исследовательская гипотеза: полный каталог музыкальных стилей как материал для изучения результативной (1Э/4Э) и процессионной (2Э/3Э) функций музыки, без типирования по жанру | music-style-catalog-and-psychosophy-emotion.md |
-| [[music-style-catalog-and-psychosophy-emotion-uk]] | Українська дослідницька гіпотеза: повний каталог музичних стилів як матеріал для вивчення результативної (1Е/4Е) та процесійної (2Е/3Е) функцій музики без типування за жанром | music-style-catalog-and-psychosophy-emotion.md |
-| [[mbti-socionics-terminology-mapping]] | Explains MBTI vs Socionics terminology, J/P vs rationality, function-name caveats, and alias policy | socionics-model-a.md, socionics-information-elements.md, cross-typology-terminology-conflicts.md, Wikisocion |
-| [[compatibility-level-boundaries]] | Normative project boundary between strategic, operational, and tactical compatibility levels | main-idea, latent-process, expert audit |
-| [[adequate-compromise-ru]] | Russian project reconstruction of adequate compromise: negotiable form, high-cost staged decisions, and non-negotiable boundaries of truth, consent, safety, shared-life structure, reciprocity, and responsibility | raw/general/adekvatnyy-kompromiss-tipologii.md, compatibility-level-boundaries.md, family-formation-principles-ru.md |
-| [[adequate-compromise-relations-all-typologies-ru]] | Russian relation-by-relation compromise map: all 14 Socionics classes and all 24 directional signatures reduced to 17 reciprocal Psychosophy/Temporistics families | adequate-compromise-ru.md, relation pages, compatibility-level-boundaries.md |
-| [[adequate-intertype-formats-ru]] | Russian Socionics-level hypothesis that intertype relation adequacy depends on the correct format: distance, load, role, and allowed closeness | socionics-intertype-relations.md, adequate-compromise-ru.md |
-| [[multilingual-translation-policy]] | Multilingual naming, frontmatter, and wikilink rules for English, Russian, and Ukrainian pages | project convention, 2026-04-26 |
-| [[test-result-reading-guide]] | Concise guide for reading Top-3 test outputs, clarity labels, and language fallback without collapsing levels | main-idea.md, compatibility-level-boundaries.md, typology-test-design-protocol.md |
-| [[main-idea-ru]] | Russian translation of the core Before We Build orientation page | main-idea.md |
-| [[main-idea-uk]] | Ukrainian translation of the core Before We Build orientation page | main-idea.md |
-| [[compatibility-level-boundaries-ru]] | Russian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
-| [[compatibility-level-boundaries-uk]] | Ukrainian translation of compatibility level boundary rules | compatibility-level-boundaries.md |
-| [[test-result-reading-guide-ru]] | Russian translation of the test result reading guide | test-result-reading-guide.md |
-| [[test-result-reading-guide-uk]] | Ukrainian translation of the test result reading guide | test-result-reading-guide.md |
-| [[sociological-compatibility-analogues]] | Sociological bridges for strategic, operational, and tactical compatibility levels | sociology-researcher |
-| [[michelangelo-phenomenon]] | Michelangelo phenomenon: social-psychological model of partner sculpting toward ideal self, affirmation mechanisms, and 4-level compatibility integration | Drigotas 1999, Rusbult 2009, Higgins 1987, sociological-compatibility-analogues.md |
-| [[michelangelo-phenomenon-ru]] | Феномен Микеланджело: модель созидательного раскрытия идеального «Я», перцептивная и поведенческая аффирмация, сопоставление с Пигмалионом и интеграция в 4 уровня | Drigotas 1999, Rusbult 2009, michelangelo-phenomenon.md |
-| [[neuroscience-compatibility-bridges]] | Neuroscience and cognitive-science process bridges for compatibility levels | neuroscience-researcher |
-| [[neural-correlates-analysis-synthesis-ru]] | Русская исследовательская карта нейронных коррелятов анализа и синтеза в логике, решениях, эмоциях, Физике и временных задачах; строго без brain-type выводов | neural-correlates-analysis-synthesis-2026.md, neuroscience-compatibility-bridges.md |
-| [[prophetic-visionary-cognition]] | Heuristic link between prophetic/visionary cognition, 1st Eternity, and neuroscience-adjacent mechanisms | guru, neuroscience-compatibility-bridges, expert synthesis |
-| [[composite-profile-sli-elvf-vpnb-ru]] | Russian version of the СЛИ + ЭЛВФ + ВПНБ composite profile | composite-profile-sli-elvf-vpnb.md |
-| [[composite-profile-sli-elvf-vpnb-uk]] | Ukrainian version of the СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб composite profile | composite-profile-sli-elvf-vpnb.md |
-| [[third-present-exile-latent-process]] | Deep boundary for 3rd Present / Exile: place, belonging, contact, confidence | raw/temporistics/izgnannik-exile.md, mystery-of-third-aspect.md |
-| [[temporistics-third-aspect-sin-patterns-ru]] | Русская христианская карта возможных греховных искушений по 3-му аспекту времени; добавлен исследовательский слой о третьем аспекте как болевой индукции и попытке полного индуктивного доказательства | mystery-of-third-aspect.md, raw/temporistics 3rd-aspect pages, Bible references |
-| [[temporistics-cognitive-resource-routing-creation-model-uk]] | Українська дослідницька гіпотеза про темпористику як креаціоністську модель розподілу когнітивного ресурсу: часові координати, дедуктивні/діалогічні/болюче-індуктивні/делеговані режими, ресурсна формула, нейроаналогії та соціальна маршрутизація | temporistics-detailed.md, latent-process.md, temporistics-third-aspect-sin-patterns-ru.md, neuroscience-compatibility-bridges.md, brain-typology-neuroscience.md |
-| [[spiritual-foundation-levels-ru]] | Русская исследовательская гипотеза о духовном основании перед серьёзными отношениями: четыре рабочие позиции, четыре парные динамики, библейские опоры, связь с типологическими слоями и строгие не-утверждения против духовного ранжирования | project conversation, Bible references, christian-foundation-of-family.md, family-formation-principles.md, limits-of-typological-inference.md |
-| [[spiritual-maturity-models-comparison-ru]] | Русское сопоставление библейских и христианских моделей духовной зрелости с 4-позиционной схемой Before We Build: Евреям 5, 1 Коринфянам 3, 1 Иоанна 2, Ефесянам 4, плод Духа, Jim Putman / Discipleship.org, Dallas Willard, GotQuestions, классическая purgative/illuminative/unitive схема и Fowler | Bible references, Discipleship.org, Dallas Willard, GotQuestions.org, New Advent, James W. Fowler overview |
-| [[afanasyev-resource-distribution-model-ru]] | Русская исследовательская реконструкция модели Афанасьева как распределения операционного ресурса: 1-я функция как избыток/стандарт, 2-я как гибкая помощь, 3-я как уязвимая проверка, 4-я как делегируемая рамка | afanasyev-model.md, psychosophy-detailed.md, raw/psychosophy function pages |
-| [[composite-quadra-tetrad-names-ru]] | Русская исследовательская номенклатура составных квадр/тетрад трёх слоёв: соционическая квадра + психософская квадра/секста + темпористическая тетрада, 144 рабочих названия с границами применения | socionics-detailed.md, psychosophy-quadras.md, temporistics-detailed.md, raw/temporistics/types.md, web sources |
-| [[baptist-audience-public-figure-typing-ru]] | Русские исследовательские гипотезы типирования публичных фигур, значимых для баптистской/евангельской аудитории Украины: Валерий Антонюк, Игорь Бандура, Сергей Санников, Геннадий Мохненко, Владимир Кондор, Роман Вечерковский, Василий Фурта, Николай Романюк, Владимир Омельчук, Сергей Сизоненко, Владимир Шемчишин; с источниками, альтернативами, уровнями уверенности и не-утверждениями | socionics-detailed.md, psychosophy-typing-methods.md, temporistics-detailed.md, web sources |
-| [[public-figure-typing-agent-pipeline-ru]] | Русский исследовательский пайплайн для повышения точности типирования публичных фигур: source dossier, observable traces, независимые агенты по соционике/психософии/темпористике, критик role-overfit, богословско-пасторский safety review, арбитраж и JSON-формат результата | baptist-audience-public-figure-typing-ru.md, socionics-detailed.md, psychosophy-typing-methods.md, temporistics-detailed.md |
-| [[public-figure-typing-methodology-audit-ru]] | Русский методический аудит, проверяющий актуальные и перспективные интернет-подходы к типированию публичных фигур: Wikisocion diagnosis, Sociotype tests, AIM/Talanov-style inventory, Attitudinal Psyche theory, text-based automatic personality prediction and LLM limitations; добавляет matrix of methods and confidence gates для pipeline | public-figure-typing-agent-pipeline-ru.md, typology-test-design-protocol.md, socionics-test-specification.md, psychosophy-test-specification.md, temporistics-test-specification.md, web/arxiv sources |
-| [[public-figure-typing-pipeline-run-2026-06-21-ru]] | Первый применённый проход агентного пайплайна к популярным баптистским фигурам Украины: Сергей Санников, Николай Романюк, Валерий Антонюк, Игорь Бандура; включает source dossier, observable traces, независимые выводы, критику, safety review и машинную сводку | public-figure-typing-agent-pipeline-ru.md, baptist-audience-public-figure-typing-ru.md, web sources |
-| [[public-figure-typing-pipeline-run-2026-06-21-method-v2-ru]] | Второй методологический проход по текущему списку популярных баптистских/евангельских фигур Украины: применяет method scout, scale-before-type, source-quality gates, role-overfit downgrade и более строгую темпористическую осторожность; меняет/уточняет гипотезы по Фурте, Омельчуку, Антонюку, Мохненко и Шемчишину | public-figure-typing-agent-pipeline-ru.md, public-figure-typing-methodology-audit-ru.md, baptist-audience-public-figure-typing-ru.md, web sources |
-| [[public-figure-typing-evidence-protocol-ru]] | Русский исследовательский протокол для следующего уровня точности типирования публичных фигур: минимальный corpus, source weights, YAML evidence rows, blind coding procedure, inter-rater agreement, confidence model, differentiator checklists and final report shape | public-figure-typing-agent-pipeline-ru.md, public-figure-typing-methodology-audit-ru.md, typology-test-design-protocol.md |
-| [[public-figure-typing-evidence-dossiers-batch-1-ru]] | Первый batch стартовых evidence dossiers для Сергея Санникова, Николая Романюка и Игоря Бандуры: source set, первые rows из проверенных источников, спорные дифференциаторы, текущий confidence score и список материалов, которые надо добрать | public-figure-typing-evidence-protocol-ru.md, public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md, web sources |
-| [[typology-code-conventions]] | Multilingual abbreviation standard for Socionics, Psychosophy, and Temporistics codes | project convention |
-| [[afanasyev-model]] | Alexander Afanasyev's Psychosophy model | before-we-build/Psyche-Yoga |
-| [[afanasyev-syntax-of-love]] | Original "Syntax of Love" source book | before-we-build/Psyche-Yoga |
-| [[psychosophy-model]] | Psychosophy type structure | before-we-build/Psyche-Yoga |
-| [[psychosophy-functions]] | Function block descriptions | before-we-build/Psyche-Yoga |
-| [[socionics-model-a]] | Model A: 8 information elements and function positions | raw/socionics |
-| [[socionics-function-positions]] | Detailed Model A reference for positions 1–8 and their structural properties | raw/socionics/model-a.md, socionics-function-dichotomies |
-| [[socionics-model-a-blocks]] | Ego, Super-Ego, Super-Id, and Id as paired Model A function zones | raw/socionics/model-a.md, socionics-function-dichotomies |
-| [[socionics-information-elements]] | Eight Socionics information elements/aspects and naming variants | raw/socionics/information-aspects.md |
-| [[kalinauskas-steering-wheel]] | Kalinauskas/Reinin steering-wheel interpretive schema; Model-A-adjacent, not canonical Model A | Kalinauskas mirror, shturval.me, Reinin-linked materials |
-| [[temporistics-model]] | Temporistics type structure | raw/temporistics |
-| [[temporal-aspects]] | Past, Present, Future, and Eternity aspects | raw/temporistics |
-| [[intertype-relations-matrix]] | Socionics tactical relation reference; no calibrated compatibility percentages | raw/socionics |
-
-### Entities — Temporistics Aspect-Position Archetypes (16)
-
-These pages cover the 16 aspect-position archetypes. The 24 full four-letter Temporistics type permutations are listed in `raw/temporistics/types.md` and summarized in [[temporistics-overview]].
-
-Localization note (updated 2026-04-30): the 16 Temporistics aspect-position archetypes now have Russian and Ukrainian pages using the canonical slug plus `-ru` / `-uk` suffixes. Ukrainian display names use project-working forms such as **Безквитник** for 3F and **Міщанин** for 3E.
-
-Type-family note (updated 2026-04-30): result-link targets now exist in English, Russian, and Ukrainian for all 24 full four-letter Temporistics hypotheses under `wiki/entities/temporistics-type-<code>.md`, `wiki/entities/temporistics-type-<code>-ru.md`, and `wiki/entities/temporistics-type-<code>-uk.md`.
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[temporistics-overview]] | Overview of temporistics: Past/Present/Future/Eternity and type structure | raw/temporistics/ |
-| [[temporistics-overview-ru]] | Russian translation of the Temporistics system overview | temporistics-overview.md |
-| [[temporistics-overview-uk]] | Ukrainian translation of the Temporistics system overview | temporistics-overview.md |
-
-#### Past Aspect (Прошлое)
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[avtor-author]] | 1st Past — forms identity, creates own story | raw/temporistics/author.md |
-| [[chronicler-letopisets]] | 2nd Past — uses past as tool, good memory | raw/temporistics/letopisets-chronicler.md |
-| [[kritik-critic]] | 3rd Past — derives harsh conclusions from painful past | raw/temporistics/critic.md |
-| [[reader-chitatel]] | 4th Past — treats past as resource, blind spot | raw/temporistics/chitatel-reader.md |
-
-#### Present Aspect (Настоящее)
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[host-khozyain]] | 1st Present — self-realizes through "here and now" | raw/temporistics/khozyain-host.md |
-| [[local-mestnyi]] | 2nd Present — comfortable anywhere, uses present as tool | raw/temporistics/mestnyi-local.md |
-| [[exile-izgnannik]] | 3rd Present — painful sense of not belonging | raw/temporistics/izgnannik-exile.md |
-| [[guest-gost]] | 4th Present — blind to present, floats with current | raw/temporistics/gost-guest.md |
-
-#### Future Aspect (Будущее)
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[captain-kapitan]] | 1st Future — creates process, plans, visionary | raw/temporistics/kapitan-captain.md |
-| [[stewersman-rulevoi]] | 2nd Future — tactical, adapts, follows natural flow | raw/temporistics/rulevoi-steversman.md |
-| [[stowaway-bezbiletnik]] | 3rd Future — painful fear of the future | raw/temporistics/bezbiletnik-stowaway.md |
-| [[passenger-passazhir]] | 4th Future — blind to future, goes with the flow | raw/temporistics/passazhir-passenger.md |
-
-#### Eternity Aspect (Вечность)
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[guru]] | 1st Eternity — creates meaning, spreads ideology | raw/temporistics/guru.md |
-| [[philosopher-filosof]] | 2nd Eternity — treats meaning as tool, analytical | raw/temporistics/filosof-philosopher.md |
-| [[philistine-obyvatel]] | 3rd Eternity — painful search for meaning | raw/temporistics/obyvatel-philistine.md |
-| [[student-uchenik]] | 4th Eternity — blind to meaning, accepts others' ideologies | raw/temporistics/uchenik-student.md |
-
-### Entities — Psychosophy
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[psychosophy-overview]] | Overview of psychosophy: Will/Emotion/Logic/Physics | raw/psychosophy/ |
-| [[psychosophy-overview-ru]] | Russian translation of the Psychosophy system overview | psychosophy-overview.md |
-| [[psychosophy-overview-uk]] | Ukrainian translation of the Psychosophy system overview | psychosophy-overview.md |
-
-Type-family note (updated 2026-04-30): result-link targets now exist in English, Russian, and Ukrainian for all 24 full four-letter Psychosophy hypotheses under `wiki/entities/psychosophy-type-<code>.md`, `wiki/entities/psychosophy-type-<code>-ru.md`, and `wiki/entities/psychosophy-type-<code>-uk.md`.
-
-### Entities — Socionics
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[socionics-overview]] | Overview of socionics: 8 IM elements, Model A, 16 types | raw/socionics/ |
-| [[socionics-overview-ru]] | Russian translation of the Socionics system overview | socionics-overview.md |
-| [[socionics-overview-uk]] | Ukrainian translation of the Socionics system overview | socionics-overview.md |
-
-Type-family note (updated 2026-04-30): result-link targets now exist in English, Russian, and Ukrainian for all 16 Socionics TIM hypotheses, using the canonical slug plus `-ru` / `-uk` suffixes for localized pages.
-
-#### Alpha Quadra (Idealistic)
-
-| Page | Summary | Code |
-|------|---------|------|
-| [[ile-intuitive-logical-extrovert]] | Inventive, enthusiastic, creative | ILE (ENTp) |
-| [[lii-logical-intuitive-introvert]] | Logical analyst, systems thinker | LII (INTj) |
-| [[ese-ethical-sensory-extrovert]] | Caring host, warm, hospitable | ESE (ESFj) |
-| [[sei-sensory-ethical-introvert]] | Harmonizer, comfort-oriented, emotionally warm | SEI (ISFp) |
-
-#### Beta Quadra (Normative)
-
-| Page | Summary | Code |
-|------|---------|------|
-| [[sle-sensory-logical-extrovert]] | Commander, bold leader, decisive | SLE (ESTp) |
-| [[iei-intuitive-ethical-introvert]] | Romantic, symbolic, emotionally attuned | IEI (INFp) |
-| [[eie-ethical-intuitive-extrovert]] | Inspirer, charismatic dramatist | EIE (ENFj) |
-| [[lsi-logical-sensory-introvert]] | Inspector, principled guardian | LSI (ISTj) |
-
-#### Gamma Quadra (Pragmatic)
-
-| Page | Summary | Code |
-|------|---------|------|
-| [[see-sensory-ethical-extrovert]] | Politician, forceful social actor | SEE (ESFp) |
-| [[ili-intuitive-logical-introvert]] | Analyst, strategic critic | ILI (INTp) |
-| [[lie-logical-intuitive-extrovert]] | Entrepreneur, strategic organizer | LIE (ENTj) |
-| [[esi-ethical-sensory-introvert]] | Protector, loyal sentinel | ESI (ISFj) |
-
-#### Delta Quadra (Humanitarian)
-
-| Page | Summary | Code |
-|------|---------|------|
-| [[iee-intuitive-ethical-extrovert]] | Visionary, humanitarian | IEE (ENFp) |
-| [[eii-ethical-intuitive-introvert]] | Humanist, moralist | EII (INFj) |
-| [[sli-sensory-logical-introvert]] | Craftsman, practical, skilled | SLI (ISTp) |
-| [[lse-logical-sensory-extrovert]] | Administrator, practical organizer | LSE (ESTj) |
-
-### Relations
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[cognitive-complexity-relations]] | Relational dynamics across general intelligence ($g$-factor/IQ) and hierarchical cognitive complexity gaps; asymmetric insight, communication range, and cross-typology distortion | Hollingworth, Jaques, Commons, Kegan |
-| [[cognitive-complexity-relations-ru]] | Русская версия отношений уровней когнитивной сложности и интеллекта: асимметрия понимания, коммуникационный диапазон и влияние на типологии | Hollingworth, Jaques, Commons, Kegan |
-| [[socionics-intertype-relations]] | Socionics intertype relation glossary and tactical mechanism overview | raw/socionics/intertype-relations.md |
-| [[psychosophy-intertype-relations]] | Psychosophy intertype relations with full 24×24 working matrix and operational-level caveats | Syntax of Love, psychosophy compatibility research |
-| [[temporistics-intertype-relations]] | Proposed Temporistics intertype-relation reconstruction with 24 trilingual archetypal names, structural signatures, mechanism descriptors, and validation caveats | raw/temporistics/types.md, mystery-of-third-aspect.md, temporistics-detailed |
-
-### Sources (Derived)
-
-| [[neural-correlates-analysis-synthesis-2026]] | Derived evidence ledger: neuroimaging reviews and meta-analyses for reasoning, relational integration, value-based decisions, effort, and emotion regulation | web research, 2026-07-26 |
-
-| Page | Summary | Raw Sources |
-|------|---------|------------|
-| [[temporistics-detailed]] | Strategic level: Past/Present/Future/Eternity aspects, 24 types | raw/temporistics/ |
-| [[psychosophy-detailed]] | Operational level: Logic/Emotion/Will/Physics functions | raw/psychosophy/ |
-| [[psychosophy-volition-functions]] | Detailed research-layer synthesis of all four Psychosophy Volition positions: 1V, 2V, 3V, and 4V, with accentuations and responsibility caveats | psychosophy-detailed.md, psychosophy-accentuations.md |
-| [[psychosophy-volition-functions-ru]] | Русская версия полного разбора Воли в психософии: 1В, 2В, 3В и 4В, с акцентуациями и оговорками об ответственности | psychosophy-volition-functions.md |
-| [[psychosophy-volition-functions-uk]] | Українська версія повного розбору Волі в психософії: 1В, 2В, 3В і 4В, з акцентуаціями та застереженнями щодо відповідальності | psychosophy-volition-functions.md |
-| [[psychosophy-logic-functions]] | Detailed research-layer synthesis of all four Psychosophy Logic positions: 1L, 2L, 3L, and 4L, with accentuations and knowledge caveats | psychosophy-detailed.md, psychosophy-accentuations.md |
-| [[psychosophy-logic-functions-ru]] | Русская версия полного разбора Логики в психософии: 1Л, 2Л, 3Л и 4Л, с акцентуациями и оговорками о знании | psychosophy-logic-functions.md |
-| [[psychosophy-logic-functions-uk]] | Українська версія повного розбору Логіки в психософії: 1Л, 2Л, 3Л і 4Л, з акцентуаціями та застереженнями щодо знання | psychosophy-logic-functions.md |
-| [[psychosophy-emotion-functions]] | Detailed research-layer synthesis of all four Psychosophy Emotion positions: 1E, 2E, 3E, and 4E, with accentuations and emotional-safety caveats | psychosophy-detailed.md, psychosophy-accentuations.md |
-| [[psychosophy-emotion-functions-ru]] | Русская версия полного разбора Эмоции в психософии: 1Э, 2Э, 3Э и 4Э, с акцентуациями и оговорками об эмоциональной безопасности | psychosophy-emotion-functions.md |
-| [[psychosophy-emotion-functions-uk]] | Українська версія повного розбору Емоції в психософії: 1Е, 2Е, 3Е і 4Е, з акцентуаціями та застереженнями щодо емоційної безпеки | psychosophy-emotion-functions.md |
-| [[psychosophy-physics-functions]] | Detailed research-layer synthesis of all four Psychosophy Physics positions: 1F, 2F, 3F, and 4F, with examples and libido/health caveats | psychosophy-detailed.md, fourth-physics-deep-research.md |
-| [[psychosophy-physics-functions-ru]] | Русская версия полного разбора Физики в психософии: 1Ф, 2Ф, 3Ф и 4Ф, с примерами и оговорками по либидо/здоровью | psychosophy-physics-functions.md |
-| [[psychosophy-physics-functions-uk]] | Українська версія повного розбору Фізики в психософії: 1Ф, 2Ф, 3Ф і 4Ф, з прикладами та застереженнями щодо лібідо/здоров'я | psychosophy-physics-functions.md |
-| [[socionics-detailed]] | Tactical level: Model A, 8 functions, 16 types | raw/socionics/ |
-| [[typology-full-description]] | Complete reference for all three typologies | - |
-| [[common-projects]] | Related projects and research | - |
-| [[competitor-mosaic-relationship-intelligence-ru]] | Russian competitor-watch note separating MosaicChats, Mosaic Cultural Compass for Couples, and Mosaic Personality Tasks; records product overlap, naming conflict, privacy questions, and monitoring decisions | official Mosaic product and privacy pages, checked 2026-07-27 |
-| [[deep-research-report]] | Agent frameworks, orchestration, memory comparison | - |
-| [[research-program]] | Validation framework for typological constructs | research-program.md |
-| [[brain-typology-neuroscience]] | Historical exploratory note on neuroscience analogies and caveats | web research |
-| [[civilian-career-role-families]] | Civilian role-family catalog for typology-based career recommendations | .opencode/data/civilian-career-roles.md |
-| [[fourth-physics-deep-research]] | Fourth Physics (4Ф) deep research with clinical-safety caveats | raw/general/fourth-physics-deep-research.md |
-| [[psychosophy-quadras]] | Unofficial psychosophy sextas/quadras and type clusters | raw/psychosophy/aspects.md; community sources |
-| [[typology-authors-timeline]] | Who created which typology and when; secondary historical summary | web research |
-| [[typology-activity-theory-mapping]] | Project heuristic mapping to Activity Theory; hypothesis status | web research |
-| [[typology-researchers]] | Researchers, reviews, and critique literature around typologies | web research |
-| [[big-five-alternatives]] | Alternatives to Big Five: HEXACO, 16PF, PEN, RST, Dark Tetrad | web research |
-| [[temporistics-eternity-altruism-hypothesis]] | Hypothesis: 1E/4E Eternity → collectivism, 2E/3E → individualism | user observation |
-| [[socionics-function-dichotomies]] | Model A function dichotomies and dimensionality | Wikisocion, BestSocionics |
-| [[socionics-plus-minus-signs]] | Theory of plus/minus signs for functions in some Socionics schools | Wikisocion |
-| [[socionics-reinin-dichotomies]] | Reinin layer and school disagreements | Wikisocion, Imperative Socionics |
-| [[kalinauskas-steering-wheel-source-notes]] | Source notes for Kalinauskas/Reinin steering-wheel materials and provenance caveats | Kalinauskas mirror, shturval.me, B17 |
-| [[bukalov-neural-structures-correlates]] | Source summary of Bukalov's speculative hypothesis on neural structures as physical correlates of information metabolism functions | raw/socionics/bukalov-neural-structures-correlates.md |
-| [[iis-41-conference-program-topics]] | Metadata-only source note for selected 41st IIS conference topics: Socionics/MBTI/Big Five, typing accuracy, and AI hallucinations | raw/socionics/iis-41-conference-program-metadata.md |
-| [[psychology-of-everything-synthesis]] | Derived synthesis on unified psychology, cognitive-science frameworks, and online totalizing maps | expert synthesis |
-| [[volkov-voloskova-gladkikh-multilevel-compatibility-2025]] | Peer-reviewed academic source: psychological compatibility as a multilevel phenomenon and its impact on socio-psychological climate in groups | Humanization of Education (Гуманизация образования), 2025 №4, p. 41 |
-| [[resource-map]] | Curated internet resource map with source-type, reliability, availability, and claim-use rules | project convention |
-
-| [[resource-map-ru]] | Russian translation of the internet resource map | resource-map.md |
-| [[resource-map-uk]] | Ukrainian translation of the internet resource map | resource-map.md |
-
-### Research on AI in Psychology
-
-| Page | Summary | Source |
-|------|---------|--------|
-| [[llm-emulate-personality-nature-2025]] | GPT-4 emulates constrained Big Five response patterns with high internal consistency | Scientific Reports |
-| [[llm-psychological-simulators-methodology]] | Methodological guide: LLM as psychological simulators | arXiv:2506.16702 |
-| [[ai-agents-psychometric-approach]] | Psychometric approach to assigning personalities to AI agents using BFI-2 | arXiv:2410.19238 |
-| [[psypilot-ai-psychologist-toolkit]] | AI as copilot for psychologists: risks and governance | Frontiers in Psychology |
-| [[s-researcher-llm-social-scientists]] | 100K agents for social science research, human-in-the-loop | arXiv:2604.01520 |
-| [[ai-experiment-participants]] | Trained AI as experiment participants: behavioral economics | Current Psychology |
-| [[psychosophy-typing-methods]] | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
-
-### Concept Reference Pages
-
-| Page | Summary |
-|------|---------|
-| [[glossary-core]] | Core terminology definitions |
-| [[glossary-extended]] | Extended disambiguation (60+ terms) |
-| [[glossary-audience-translation]] | Public-language bridge for translating research entities for Christian and general audiences |
-| [[christian-entity-renaming-audit]] | Editorial audit of research entities that should be kept, renamed, demoted, or hidden in Christian-facing copy |
-| [[project-main-goal]] | Current weak-AI conversation-map requirements and universal research goal; deferred Cognitive Matchmaker research is not the MVP |
-| [[scientific-contribution-statement]] | Academic contribution statement |
-
----
-
-## Raw Sources
-
-### temporistics/
-
-| Source | Summary | Archived |
-|--------|---------|----------|
-| theory-description.md | Full theory description | 2025-01-15 |
-| types.md | Type matrix, tetra classifications | 2025-04-15 |
-| mystery-of-third-aspect.md | Dr. Radut's article on the third aspect | - |
-| author.md | Author (1P) type description | - |
-| critic.md | Critic (3P) type description | - |
-| guru.md | Guru (1E) type description | - |
-| khozyain-host.md | Host (1 Present) type description | 2025-01-15 |
-| mestnyi-local.md | Local (2 Present) type description | 2025-01-15 |
-| izgnannik-exile.md | Exile (3 Present) type description | 2025-01-15 |
-| gost-guest.md | Guest (4 Present) type description | 2025-01-15 |
-| kapitan-captain.md | Captain (1 Future) type description | 2025-01-15 |
-| rulevoi-steversman.md | Steersman (2 Future) type description | 2025-02-14 |
-| bezbiletnik-stowaway.md | Stowaway (3 Future) type description | 2024-12-04 |
-| passazhir-passenger.md | Passenger (4 Future) type description | 2025-02-14 |
-| filosof-philosopher.md | Philosopher (2 Eternity) type description | 2025-01-15 |
-| obyvatel-philistine.md | Philistine (3 Eternity) type description | 2024-12-04 |
-| uchenik-student.md | Student (4 Eternity) type description | 2025-03-17 |
-| letopisets-chronicler.md | Chronicler (2 Past) type description | 2025-01-15 |
-| chitatel-reader.md | Reader (4 Past) type description | 2024-12-04 |
-| how-to-distinguish-author-from-critic.md | Article on distinguishing Past types | 2025-01-15 |
-| comet-in-brain-birth-of-temporistics.md | History of Temporistics creation | 2025-01-15 |
-
-### psychosophy/
-
-| Source | Summary | Source |
-|--------|---------|--------|
-| what-is-psychosophy.md | Official definition and summary | Psychosophy Library |
-| aspects.md | The four aspects: Will, Emotion, Logic, Physics | Psychosophy Library |
-| first-function.md | First function properties | Psychosophy Library |
-| second-function.md | Second function properties | Psychosophy Library |
-| third-function.md | Third function properties | Psychosophy Library |
-| fourth-function.md | Fourth function properties | Psychosophy Library |
-| psychosophy-quadras.md | Unofficial psychosophy sextas/quadras and type clusters | Psychosophy Library / community sources |
-| psychosophy-accentuations.md | Unofficial/community accentuation layer requiring source-status caveats | BestSocionics |
-| psychosophy-compatibility-research.md | Synthax of Love, 4 Greek models, function compatibility | Multiple sources |
-| psychosophy-relation-naming-sources.md | Source note for classical Greek labels, Typologies.ru 24-signature technical labels, and Attitudinal Psyche branch relation names | Sociomodel, Typologies.ru, Attitudinal Psyche |
-
-### Intertype Relations
-
-| Page | Summary | Sources |
-|------|---------|---------|
-| [[cognitive-complexity-relations]] | Relational dynamics across intelligence/complexity gaps with asymmetric insight principle | Hollingworth, Jaques, Commons, Kegan |
-| [[socionics-intertype-relations]] | Overview of Socionics relation classes with asymmetric role notes | raw/socionics/intertype-relations.md |
-| [[temporistics-intertype-relations]] | Proposed strategic-level Temporistics relation signatures with trilingual archetypal names modeled on the narrative style of the tetrads | raw/temporistics/types.md, project reconstruction |
-| [[psychosophy-intertype-relations]] | Greek-model tradition, Russian 24-signature technical labels, Attitudinal Psyche branch labels, and Before We Build working 24×24 operational matrix | Syntax of Love, Typologies.ru, Attitudinal Psyche, project matrix |
-
-### socionics/
-
-| Source | Summary | Source |
-|--------|---------|--------|
-| what-is-socionics.md | Official definition and summary | BestSocionics |
-| model-a.md | Model A: 8 functions, properties | BestSocionics |
-| information-aspects.md | 8 information aspects (white/black) | BestSocionics |
-| bukalov-neural-structures-correlates.md | Metadata and abstract for Bukalov's hypothesis on neural structures as physical correlates of functions of information metabolism | IIS OJS article page |
-| iis-41-conference-program-metadata.md | Metadata-only note for selected 41st IIS conference topics without mirroring the full program | IIS conference pages |
-| kalinauskas-steering-wheel.md | Source notes on Kalinauskas steering-wheel schema | Kalinauskas mirror, shturval.me |
-| intertype-relations.md | Types of information exchange | BestSocionics |
-| reinin-traits.md | Additional dichotomies beyond Jung | BestSocionics |
-| subtypes-dcnh.md | DCNH subtype theory | BestSocionics |
-| intertype-relations-ratings.md | Star ratings (0-5) for relations | Type•volution |
-| intertype-mapper-scoring.md | Rank-based scoring (1-16) | Neocities Mapper |
-| empirical-validation-studies.md | Scientific studies on intertype relations | Multiple researchers |
-| socion-app.md | Dating app using Socionics + empirical research | Socion.app |
-| opteamyzer-compatibility.md | Intensity concept for group compatibility | Opteamyzer |
-
-### general/
-
-| Source | Summary | Source |
-|--------|---------|--------|
-| [[esco-typology-mapping]] | How to map ESCO occupations to typology-based role fit | ESCO concept, project synthesis |
-| autoreasearch.md | Karpathy's AutoResearch adaptation | - |
-| christian-perspectives.md | Christian views on typologies (Orthodox, Protestant) | Multiple sources |
-| typology-crisis-war.md | Stress resilience, military leadership, crisis teams | Multiple sources |
-| type-distribution-statistics.md | MBTI and Socionics type distribution data | MBTI Manual, Terra Socionika |
-| scientific-validation-plan.md | Framework for scientifically validating typological systems | Academic standards |
-| existing-validation-research.md | Existing peer-reviewed studies on MBTI and Socionics | Multiple researchers |
-| simple-research-guide.md | Beginner-friendly guide: hypothesis → data → analysis → report | - |
-| ai-research-agents.md | AI agents for research: GPT Researcher, The AI Scientist, ChatGPT Code Interpreter | - |
-| agentic-research-pipelines.md | Multi-agent pipelines: Agent Laboratory, CrewAI, STORM, workflow architectures | - |
-| participant-recruitment.md | How to attract participants: Reddit, Telegram, snowball sampling | - |
-| automated-research-plan.md | Full autonomous pipeline: Typology Agent, 6 automated research agents | - |
-| typology-best-architecture.md | Best architecture for cross-typology automation and validation pipeline | project synthesis |
-| optimal-2026-tech-stack.md | Optimal 2026 stack: CrewAI + Claude Sonnet 4.6 + GPT Researcher, complete implementation | - |
-| modern-agentic-systems.md | Production-ready systems: InternAgent, The Agentic Researcher, Anthropic patterns, SciDER | arXiv 2026 |
-| psychosophy-typing-methods.md | Methods for psychosophy typing: tests, dichotomies, accentuations | Web research 2026 |
-| fourth-physics-deep-research.md | Fourth Physics (4Ф) deep research with clinical-safety caveats | Deep research 2026 |
-
-| [[community-socionics-idealist-ru]] | Archived web community source ingestion for idealist.ru portal | Wayback Machine, community archive |
-
----
-
-## Statistics
-
-- **Skills created**: 2 historical typing skills (superseded by current Psychosophy typing agents)
-- **Agents created**: 48 (including typology-test-evaluation-expert)
-- **Raw sources**: 60 (21 temporistics + 9 psychosophy + 13 socionics + 17 general)
-- **Wiki pages**: 115 (40 concepts + 35 entities + 3 relations + 33 sources + 4 reference pages)
-- **Entity pages created**: 35 (17 temporistics + 1 psychosophy + 1 socionics overview + 16 socionics types)
-- **Articles ingested**: 60 raw sources plus derived web/source pages
-- **Relations pages**: 3 (socionics, temporistics, psychosophy)
-- **Concepts**: 40
-- **Last updated**: 2026-08-04
+<!-- Generated by scripts/generate_wiki_index.py; do not edit by hand. -->
+
+# Before We Build — Wiki Catalog
+
+This is the generated, language-neutral catalog. Reader entrypoints are the localized `start-here` pages.
+
+## Inventory
+
+- Markdown pages: **597**
+- Translation groups: **199**
+- Complete EN/RU/UK triads: **199**
+- Missing language files: **0**
+- Document statuses: active=594, historical=3
+- Page roles: application=24, entity=249, explanation=123, hub=15, relation=12, research-appendix=81, source-summary=93
+
+## Reader entrypoints
+
+- English: [Start Here](wiki/start-here-en.md)
+- Русский: [Начать здесь](wiki/start-here-ru.md)
+- Українська: [Почати тут](wiki/start-here-uk.md)
+
+## Full catalog
+
+| Translation group | English | Русский | Українська | Status | Role | Semantic version |
+|---|---|---|---|---|---|---|
+| adequate-compromise | [Adequate Compromise](wiki/concepts/adequate-compromise-en.md) | [Адекватный компромисс](wiki/concepts/adequate-compromise-ru.md) | [Адекватний компроміс](wiki/concepts/adequate-compromise-uk.md) | active | explanation | 1 |
+| adequate-compromise-relations-all-typologies | [Compromise and Type Relations Across Three Typologies](wiki/concepts/adequate-compromise-relations-all-typologies-en.md) | [Компромисс и отношения типов в трёх типологиях](wiki/concepts/adequate-compromise-relations-all-typologies-ru.md) | [Компроміс і відносини типів у трьох типологіях](wiki/concepts/adequate-compromise-relations-all-typologies-uk.md) | active | explanation | 1 |
+| adequate-intertype-formats | [Interaction Formats for Proposed Socionics Relations](wiki/concepts/adequate-intertype-formats-en.md) | [Форматы взаимодействия для предполагаемых соционических отношений](wiki/concepts/adequate-intertype-formats-ru.md) | [Формати взаємодії для запропонованих соціонічних відносин](wiki/concepts/adequate-intertype-formats-uk.md) | active | explanation | 1 |
+| afanasyev-model | [Afanasyev's Psychosophy Model](wiki/concepts/afanasyev-model-en.md) | [Модель психософии Афанасьева](wiki/concepts/afanasyev-model-ru.md) | [Модель психософії Афанасьєва](wiki/concepts/afanasyev-model-uk.md) | active | explanation | 2 |
+| afanasyev-resource-distribution-model | [A Resource Reading of Afanasyev's Model](wiki/concepts/afanasyev-resource-distribution-model-en.md) | [Ресурсное прочтение модели Афанасьева](wiki/concepts/afanasyev-resource-distribution-model-ru.md) | [Ресурсне прочитання моделі Афанасьєва](wiki/concepts/afanasyev-resource-distribution-model-uk.md) | active | research-appendix | 1 |
+| afanasyev-syntax-of-love | [Afanasyev's Syntax of Love](wiki/concepts/afanasyev-syntax-of-love-en.md) | [«Синтаксис любви» Афанасьева](wiki/concepts/afanasyev-syntax-of-love-ru.md) | [«Синтаксис кохання» Афанасьєва](wiki/concepts/afanasyev-syntax-of-love-uk.md) | active | explanation | 1 |
+| avtor-author | [Автор](wiki/entities/avtor-author-en.md) | [Темпористический архетип 1P — Автор](wiki/entities/avtor-author-ru.md) | [Темпористичний архетип 1P — Автор](wiki/entities/avtor-author-uk.md) | active | entity | 1 |
+| baptist-audience-public-figure-typing | [Working Hypotheses About Public Figures Relevant to Ukraine's Baptist Audience](wiki/concepts/baptist-audience-public-figure-typing-en.md) | [Рабочие гипотезы о публичных фигурах, значимых для баптистской аудитории Украины](wiki/concepts/baptist-audience-public-figure-typing-ru.md) | [Робочі гіпотези про публічних осіб, значущих для баптистської аудиторії України](wiki/concepts/baptist-audience-public-figure-typing-uk.md) | active | research-appendix | 1 |
+| before-we-build-vs-big-five | [Before We Build vs Big Five](wiki/concepts/before-we-build-vs-big-five-en.md) | [Before We Build и Big Five](wiki/concepts/before-we-build-vs-big-five-ru.md) | [Before We Build і Big Five](wiki/concepts/before-we-build-vs-big-five-uk.md) | active | research-appendix | 1 |
+| biblical-grounding-policy | [Biblical Grounding Policy](wiki/concepts/biblical-grounding-policy-en.md) | [Политика библейской опоры](wiki/concepts/biblical-grounding-policy-ru.md) | [Політика біблійної опори](wiki/concepts/biblical-grounding-policy-uk.md) | active | application | 2 |
+| big-five-alternatives | [Big Five Alternatives in Personality Psychology](wiki/sources/big-five-alternatives-en.md) | [Альтернативы Big Five в психологии личности](wiki/sources/big-five-alternatives-ru.md) | [Альтернативи Big Five у психології особистості](wiki/sources/big-five-alternatives-uk.md) | active | source-summary | 1 |
+| brain-typology-neuroscience | [Historical Exploratory Note on Brain Regions and Typology Systems](wiki/sources/brain-typology-neuroscience-en.md) | [Историческая исследовательская заметка о мозговых областях и типологических системах](wiki/sources/brain-typology-neuroscience-ru.md) | [Історична дослідницька нотатка про ділянки мозку та типологічні системи](wiki/sources/brain-typology-neuroscience-uk.md) | active | source-summary | 1 |
+| bukalov-neural-structures-correlates | [Bukalov — Neural Structures as Physical Correlates of Information-Metabolism Functions](wiki/sources/bukalov-neural-structures-correlates-en.md) | [Букалов — Нейронные структуры как физические корреляты функций информационного метаболизма](wiki/sources/bukalov-neural-structures-correlates-ru.md) | [Букалов — Нейронні структури як фізичні кореляти функцій інформаційного метаболізму](wiki/sources/bukalov-neural-structures-correlates-uk.md) | active | source-summary | 1 |
+| canonical-typology-registry | [Typology Notation Registry](wiki/concepts/canonical-typology-registry-en.md) | [Реестр обозначений типологий](wiki/concepts/canonical-typology-registry-ru.md) | [Реєстр позначень типологій](wiki/concepts/canonical-typology-registry-uk.md) | active | explanation | 1 |
+| captain-kapitan | [Captain (Kapitan)](wiki/entities/captain-kapitan-en.md) | [Темпористический архетип 1F — Капитан](wiki/entities/captain-kapitan-ru.md) | [Темпористичний архетип 1F — Капітан](wiki/entities/captain-kapitan-uk.md) | active | entity | 1 |
+| christian-application-overview | [Christian Before We Build Application](wiki/concepts/christian-application-overview-en.md) | [Христианское приложение Before We Build](wiki/concepts/christian-application-overview-ru.md) | [Християнське застосування Before We Build](wiki/concepts/christian-application-overview-uk.md) | active | application | 1 |
+| christian-entity-renaming-audit | [Christian Entity Renaming Audit](wiki/christian-entity-renaming-audit-en.md) | [Аудит переименования сущностей для христианской аудитории](wiki/christian-entity-renaming-audit-ru.md) | [Аудит перейменування сутностей для християнської аудиторії](wiki/christian-entity-renaming-audit-uk.md) | active | application | 1 |
+| christian-foundation-of-family | [Christian Foundation of Family Discernment](wiki/concepts/christian-foundation-of-family-en.md) | [Христианское основание рассуждения о семье](wiki/concepts/christian-foundation-of-family-ru.md) | [Християнська основа розпізнавання щодо сім'ї](wiki/concepts/christian-foundation-of-family-uk.md) | active | application | 2 |
+| chronicler-letopisets | [Chronicler (Letopisets)](wiki/entities/chronicler-letopisets-en.md) | [Темпористический архетип 2P — Летописец](wiki/entities/chronicler-letopisets-ru.md) | [Темпористичний архетип 2P — Літописець](wiki/entities/chronicler-letopisets-uk.md) | active | entity | 1 |
+| civilian-career-role-families | [Civilian Career Role Families](wiki/sources/civilian-career-role-families-en.md) | [Семейства гражданских профессиональных ролей](wiki/sources/civilian-career-role-families-ru.md) | [Сімейства цивільних професійних ролей](wiki/sources/civilian-career-role-families-uk.md) | active | source-summary | 1 |
+| civilian-profile-sli-elvf-vpnb | [Civilian Career Case — SLI + ELVF + EPNF Hypothesis](wiki/concepts/civilian-profile-sli-elvf-vpnb-en.md) | [Кейс гражданской карьеры — гипотеза SLI + ELVF + EPNF](wiki/concepts/civilian-profile-sli-elvf-vpnb-ru.md) | [Кейс цивільної карʼєри — гіпотеза SLI + ELVF + EPNF](wiki/concepts/civilian-profile-sli-elvf-vpnb-uk.md) | active | research-appendix | 2 |
+| cognitive-complexity-relations | [Cognitive Complexity and Intelligence-Level Relations](wiki/relations/cognitive-complexity-relations-en.md) | [Отношения уровней когнитивной сложности и интеллекта](wiki/relations/cognitive-complexity-relations-ru.md) | [Відносини рівнів когнітивної складності та інтелекту](wiki/relations/cognitive-complexity-relations-uk.md) | active | relation | 1 |
+| community-socionics-idealist | [Community Source Analysis — idealist.ru (Socionics)](wiki/sources/community-socionics-idealist-en.md) | [Community Source Analysis: idealist.ru (Socionics)](wiki/sources/community-socionics-idealist-ru.md) | [Аналіз джерела спільноти — idealist.ru (соціоніка)](wiki/sources/community-socionics-idealist-uk.md) | active | source-summary | 1 |
+| compatibility-level-boundaries | [Compatibility Level Boundaries](wiki/concepts/compatibility-level-boundaries-en.md) | [Границы уровней совместимости](wiki/concepts/compatibility-level-boundaries-ru.md) | [Межі рівнів сумісності](wiki/concepts/compatibility-level-boundaries-uk.md) | active | explanation | 2 |
+| compatibility-measurement-methods | [Compatibility Measurement Methods](wiki/concepts/compatibility-measurement-methods-en.md) | [Методы измерения совместимости](wiki/concepts/compatibility-measurement-methods-ru.md) | [Методи вимірювання сумісності](wiki/concepts/compatibility-measurement-methods-uk.md) | active | research-appendix | 1 |
+| compatibility-measurement-roadmap | [Compatibility Measurement Roadmap](wiki/concepts/compatibility-measurement-roadmap-en.md) | [Дорожная карта измерения совместимости](wiki/concepts/compatibility-measurement-roadmap-ru.md) | [Дорожня карта вимірювання сумісності](wiki/concepts/compatibility-measurement-roadmap-uk.md) | active | explanation | 1 |
+| competitor-mosaic-relationship-intelligence | [Mosaic: potential competitor and naming conflict](wiki/sources/competitor-mosaic-relationship-intelligence-en.md) | [Mosaic: потенциальный конкурент и конфликт названия](wiki/sources/competitor-mosaic-relationship-intelligence-ru.md) | [Mosaic: потенційний конкурент і конфлікт назви](wiki/sources/competitor-mosaic-relationship-intelligence-uk.md) | active | source-summary | 1 |
+| composite-intertype-combinatorics | [Combinatorics of Composite Intertype Structures](wiki/concepts/composite-intertype-combinatorics-en.md) | [Комбинаторика составных интертипных структур](wiki/concepts/composite-intertype-combinatorics-ru.md) | [Комбінаторика складених інтертипних структур](wiki/concepts/composite-intertype-combinatorics-uk.md) | active | research-appendix | 1 |
+| composite-profile-sli-elvf-vpnb | [Core Composite Profile SLI + ELVF + EPNF](wiki/concepts/composite-profile-sli-elvf-vpnb-en.md) | [Композитный профиль СЛИ + ЭЛВФ + ВПНБ](wiki/concepts/composite-profile-sli-elvf-vpnb-ru.md) | [Композитний профіль СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб](wiki/concepts/composite-profile-sli-elvf-vpnb-uk.md) | active | explanation | 1 |
+| composite-quadra-tetrad-names | [Composite Quadra and Tetrad Nomenclature](wiki/concepts/composite-quadra-tetrad-names-en.md) | [Номенклатура составных квадр и тетрад](wiki/concepts/composite-quadra-tetrad-names-ru.md) | [Номенклатура складених квадр і тетрад](wiki/concepts/composite-quadra-tetrad-names-uk.md) | active | explanation | 1 |
+| cross-typology-mapping-framework | [Cross-Typology Mapping Framework](wiki/concepts/cross-typology-mapping-framework-en.md) | [Рамка межтипологического сопоставления](wiki/concepts/cross-typology-mapping-framework-ru.md) | [Рамка міжтипологічного зіставлення](wiki/concepts/cross-typology-mapping-framework-uk.md) | active | research-appendix | 1 |
+| cross-typology-terminology-conflicts | [Cross-Typology Terminology Conflicts](wiki/concepts/cross-typology-terminology-conflicts-en.md) | [Межтипологические конфликты терминов](wiki/concepts/cross-typology-terminology-conflicts-ru.md) | [Міжтипологічні конфлікти термінів](wiki/concepts/cross-typology-terminology-conflicts-uk.md) | active | explanation | 1 |
+| deep-research-report | [Deep Research Report](wiki/sources/deep-research-report-en.md) | [Обзор agent-фреймворков, оркестрации и памяти](wiki/sources/deep-research-report-ru.md) | [Огляд agent-фреймворків, оркестрації та пам'яті](wiki/sources/deep-research-report-uk.md) | active | source-summary | 1 |
+| eie-ethical-intuitive-extrovert | [EIE — Ethical Intuitive Extrovert (Hamlet)](wiki/entities/eie-ethical-intuitive-extrovert-en.md) | [Соционический тип EIE — Гамлет](wiki/entities/eie-ethical-intuitive-extrovert-ru.md) | [Соціонічний тип EIE — Гамлет](wiki/entities/eie-ethical-intuitive-extrovert-uk.md) | active | entity | 1 |
+| eii-ethical-intuitive-introvert | [EII — Ethical Intuitive Introvert (Dostoevsky)](wiki/entities/eii-ethical-intuitive-introvert-en.md) | [Соционический тип EII — Достоевский](wiki/entities/eii-ethical-intuitive-introvert-ru.md) | [Соціонічний тип EII — Достоєвський](wiki/entities/eii-ethical-intuitive-introvert-uk.md) | active | entity | 1 |
+| emotion-vs-ethics-boundary | [Emotion vs Ethics Boundary](wiki/concepts/emotion-vs-ethics-boundary-en.md) | [Граница между Эмоцией и Этикой](wiki/concepts/emotion-vs-ethics-boundary-ru.md) | [Межа між Емоцією та Етикою](wiki/concepts/emotion-vs-ethics-boundary-uk.md) | active | explanation | 1 |
+| epistemic-status-and-inference-limits | [Epistemic Status and Inference Limits](wiki/concepts/epistemic-status-and-inference-limits-en.md) | [Эпистемический статус и пределы вывода](wiki/concepts/epistemic-status-and-inference-limits-ru.md) | [Епістемічний статус і межі висновку](wiki/concepts/epistemic-status-and-inference-limits-uk.md) | active | hub | 1 |
+| esco-typology-mapping | [ESCO and Typology — Research Boundary](wiki/concepts/esco-typology-mapping-en.md) | [ESCO и типологии — исследовательская граница](wiki/concepts/esco-typology-mapping-ru.md) | [ESCO і типології — дослідницька межа](wiki/concepts/esco-typology-mapping-uk.md) | active | research-appendix | 2 |
+| ese-ethical-sensory-extrovert | [ESE — Ethical Sensory Extrovert (Hugo)](wiki/entities/ese-ethical-sensory-extrovert-en.md) | [Соционический тип ESE — Гюго](wiki/entities/ese-ethical-sensory-extrovert-ru.md) | [Соціонічний тип ESE — Гюго](wiki/entities/ese-ethical-sensory-extrovert-uk.md) | active | entity | 1 |
+| esi-ethical-sensory-introvert | [ESI — Ethical Sensory Introvert (Dreiser)](wiki/entities/esi-ethical-sensory-introvert-en.md) | [Соционический тип ESI — Драйзер](wiki/entities/esi-ethical-sensory-introvert-ru.md) | [Соціонічний тип ESI — Драйзер](wiki/entities/esi-ethical-sensory-introvert-uk.md) | active | entity | 1 |
+| evidence-workflow-and-walkthrough | [Evidence Workflow and Relocation Walkthrough](wiki/concepts/evidence-workflow-and-walkthrough-en.md) | [Работа со свидетельствами — пример переезда](wiki/concepts/evidence-workflow-and-walkthrough-ru.md) | [Робота зі свідченнями — приклад переїзду](wiki/concepts/evidence-workflow-and-walkthrough-uk.md) | active | explanation | 1 |
+| exile-izgnannik | [Exile (Izgnannik)](wiki/entities/exile-izgnannik-en.md) | [Темпористический архетип 3N — Изгнанник](wiki/entities/exile-izgnannik-ru.md) | [Темпористичний архетип 3N — Вигнанець](wiki/entities/exile-izgnannik-uk.md) | active | entity | 1 |
+| family-formation-principles | [Family Formation Principles](wiki/concepts/family-formation-principles-en.md) | [Принципы формирования семьи](wiki/concepts/family-formation-principles-ru.md) | [Принципи формування сімʼї](wiki/concepts/family-formation-principles-uk.md) | active | application | 2 |
+| four-level-compatibility-architecture | [Four-Level Compatibility Architecture](wiki/concepts/four-level-compatibility-architecture-en.md) | [Четырёхуровневая архитектура совместимости](wiki/concepts/four-level-compatibility-architecture-ru.md) | [Чотирирівнева архітектура сумісності](wiki/concepts/four-level-compatibility-architecture-uk.md) | active | hub | 2 |
+| fourth-physics-deep-research | [Fourth Physics (4Ф) in Psychosophy — Deep Research](wiki/sources/fourth-physics-deep-research-en.md) | [Четвёртая Физика (4Ф) в психософии — исследовательский обзор](wiki/sources/fourth-physics-deep-research-ru.md) | [Четверта Фізика (4Ф) у психософії — дослідницький огляд](wiki/sources/fourth-physics-deep-research-uk.md) | active | source-summary | 1 |
+| glossary-audience-translation | [Audience Terminology Map](wiki/glossary-audience-translation-en.md) | [Карта терминов для разных аудиторий](wiki/glossary-audience-translation-ru.md) | [Карта термінів для різних аудиторій](wiki/glossary-audience-translation-uk.md) | active | explanation | 1 |
+| glossary-core | [Core Glossary](wiki/glossary-core-en.md) | [Основной глоссарий](wiki/glossary-core-ru.md) | [Основний глосарій](wiki/glossary-core-uk.md) | active | hub | 3 |
+| glossary-extended | [Extended Research Glossary](wiki/glossary-extended-en.md) | [Расширенный исследовательский глоссарий](wiki/glossary-extended-ru.md) | [Розширений дослідницький глосарій](wiki/glossary-extended-uk.md) | active | research-appendix | 3 |
+| guest-gost | [Guest (Gost)](wiki/entities/guest-gost-en.md) | [Темпористический архетип 4N — Гость](wiki/entities/guest-gost-ru.md) | [Темпористичний архетип 4N — Гість](wiki/entities/guest-gost-uk.md) | active | entity | 1 |
+| guru | [Гуру](wiki/entities/guru-en.md) | [Темпористический архетип 1E — Гуру](wiki/entities/guru-ru.md) | [Темпористичний архетип 1E — Гуру](wiki/entities/guru-uk.md) | active | entity | 1 |
+| host-khozyain | [Host (Khozyain)](wiki/entities/host-khozyain-en.md) | [Темпористический архетип 1N — Хозяин](wiki/entities/host-khozyain-ru.md) | [Темпористичний архетип 1N — Хазяїн](wiki/entities/host-khozyain-uk.md) | active | entity | 1 |
+| iee-intuitive-ethical-extrovert | [IEE — Intuitive Ethical Extrovert (Huxley / the Journalist)](wiki/entities/iee-intuitive-ethical-extrovert-en.md) | [Соционический тип IEE — Гексли](wiki/entities/iee-intuitive-ethical-extrovert-ru.md) | [Соціонічний тип IEE — Гекслі](wiki/entities/iee-intuitive-ethical-extrovert-uk.md) | active | entity | 1 |
+| iei-intuitive-ethical-introvert | [IEI — Intuitive Ethical Introvert (Yesenin)](wiki/entities/iei-intuitive-ethical-introvert-en.md) | [Соционический тип IEI — Есенин](wiki/entities/iei-intuitive-ethical-introvert-ru.md) | [Соціонічний тип IEI — Єсенін](wiki/entities/iei-intuitive-ethical-introvert-uk.md) | active | entity | 1 |
+| iis-41-conference-program-topics | [41st IIS Conference Program — Selected Topics](wiki/sources/iis-41-conference-program-topics-en.md) | [Программа 41-й конференции МИС — избранные темы](wiki/sources/iis-41-conference-program-topics-ru.md) | [Програма 41-ї конференції МІС — вибрані теми](wiki/sources/iis-41-conference-program-topics-uk.md) | active | source-summary | 1 |
+| ile-intuitive-logical-extrovert | [ILE — Intuitive Logical Extrovert (Don Quixote)](wiki/entities/ile-intuitive-logical-extrovert-en.md) | [Соционический тип ILE — Дон Кихот](wiki/entities/ile-intuitive-logical-extrovert-ru.md) | [Соціонічний тип ILE — Дон Кіхот](wiki/entities/ile-intuitive-logical-extrovert-uk.md) | active | entity | 1 |
+| ili-intuitive-logical-introvert | [ILI — Intuitive Logical Introvert (Balzac)](wiki/entities/ili-intuitive-logical-introvert-en.md) | [Соционический тип ILI — Бальзак](wiki/entities/ili-intuitive-logical-introvert-ru.md) | [Соціонічний тип ILI — Бальзак](wiki/entities/ili-intuitive-logical-introvert-uk.md) | active | entity | 1 |
+| intertype-relation-naming-audit | [Intertype Relation Naming Audit](wiki/concepts/intertype-relation-naming-audit-en.md) | [Аудит названий интертипных отношений](wiki/concepts/intertype-relation-naming-audit-ru.md) | [Аудит назв інтертипних відносин](wiki/concepts/intertype-relation-naming-audit-uk.md) | active | explanation | 1 |
+| intertype-relations-matrix | [Intertype Relations Matrix](wiki/concepts/intertype-relations-matrix-en.md) | [Матрица межтипных отношений](wiki/concepts/intertype-relations-matrix-ru.md) | [Матриця міжтипних стосунків](wiki/concepts/intertype-relations-matrix-uk.md) | active | explanation | 1 |
+| kalinauskas-steering-wheel | [Kalinauskas Steering Wheel](wiki/concepts/kalinauskas-steering-wheel-en.md) | [Штурвал Калинаускаса](wiki/concepts/kalinauskas-steering-wheel-ru.md) | [Штурвал Калінаускаса](wiki/concepts/kalinauskas-steering-wheel-uk.md) | active | explanation | 1 |
+| kalinauskas-steering-wheel-source-notes | [Kalinauskas Steering Wheel Source Notes](wiki/sources/kalinauskas-steering-wheel-source-notes-en.md) | [Заметки об источниках по штурвалу Калинаускаса](wiki/sources/kalinauskas-steering-wheel-source-notes-ru.md) | [Нотатки про джерела щодо штурвала Калинаускаса](wiki/sources/kalinauskas-steering-wheel-source-notes-uk.md) | active | source-summary | 1 |
+| kritik-critic | [Критик](wiki/entities/kritik-critic-en.md) | [Темпористический архетип 3P — Критик](wiki/entities/kritik-critic-ru.md) | [Темпористичний архетип 3P — Критик](wiki/entities/kritik-critic-uk.md) | active | entity | 1 |
+| latent-process | [Latent Process](wiki/concepts/latent-process-en.md) | [Латентный процесс](wiki/concepts/latent-process-ru.md) | [Латентний процес](wiki/concepts/latent-process-uk.md) | active | explanation | 2 |
+| lie-logical-intuitive-extrovert | [LIE — Logical Intuitive Extrovert (Jack London)](wiki/entities/lie-logical-intuitive-extrovert-en.md) | [Соционический тип LIE — Джек Лондон](wiki/entities/lie-logical-intuitive-extrovert-ru.md) | [Соціонічний тип LIE — Джек Лондон](wiki/entities/lie-logical-intuitive-extrovert-uk.md) | active | entity | 1 |
+| lii-logical-intuitive-introvert | [LII — Logical Intuitive Introvert (Robespierre)](wiki/entities/lii-logical-intuitive-introvert-en.md) | [Соционический тип LII — Робеспьер](wiki/entities/lii-logical-intuitive-introvert-ru.md) | [Соціонічний тип LII — Робеспʼєр](wiki/entities/lii-logical-intuitive-introvert-uk.md) | active | entity | 1 |
+| local-mestnyi | [Local (Mestny)](wiki/entities/local-mestnyi-en.md) | [Темпористический архетип 2N — Местный](wiki/entities/local-mestnyi-ru.md) | [Темпористичний архетип 2N — Місцевий](wiki/entities/local-mestnyi-uk.md) | active | entity | 1 |
+| lse-logical-sensory-extrovert | [LSE — Logical Sensory Extrovert (Stierlitz)](wiki/entities/lse-logical-sensory-extrovert-en.md) | [Соционический тип LSE — Штирлиц](wiki/entities/lse-logical-sensory-extrovert-ru.md) | [Соціонічний тип LSE — Штірліц](wiki/entities/lse-logical-sensory-extrovert-uk.md) | active | entity | 1 |
+| lsi-logical-sensory-introvert | [LSI — Logical Sensory Introvert (Maxim Gorky / the Inspector)](wiki/entities/lsi-logical-sensory-introvert-en.md) | [Соционический тип LSI — Максим Горький](wiki/entities/lsi-logical-sensory-introvert-ru.md) | [Соціонічний тип LSI — Максим Горький](wiki/entities/lsi-logical-sensory-introvert-uk.md) | active | entity | 1 |
+| main-idea | [Main Idea](wiki/concepts/main-idea-en.md) | [Главная идея](wiki/concepts/main-idea-ru.md) | [Головна ідея](wiki/concepts/main-idea-uk.md) | active | hub | 2 |
+| mbti-socionics-terminology-mapping | [MBTI ↔ Socionics Terminology Mapping](wiki/concepts/mbti-socionics-terminology-mapping-en.md) | [Сопоставление терминологии MBTI ↔ соционики](wiki/concepts/mbti-socionics-terminology-mapping-ru.md) | [Зіставлення термінології MBTI ↔ соціоніки](wiki/concepts/mbti-socionics-terminology-mapping-uk.md) | active | research-appendix | 1 |
+| michelangelo-phenomenon | [Michelangelo Phenomenon](wiki/concepts/michelangelo-phenomenon-en.md) | [Феномен Микеланджело](wiki/concepts/michelangelo-phenomenon-ru.md) | [Феномен Мікеланджело](wiki/concepts/michelangelo-phenomenon-uk.md) | active | explanation | 1 |
+| multilingual-translation-policy | [Multilingual Translation Policy](wiki/concepts/multilingual-translation-policy-en.md) | [Политика многоязычных переводов](wiki/concepts/multilingual-translation-policy-ru.md) | [Політика багатомовних перекладів](wiki/concepts/multilingual-translation-policy-uk.md) | active | research-appendix | 2 |
+| music-styles-and-psychosophy-emotion | [Music Styles as Rough Markers of Psychosophy Emotion Position](wiki/concepts/music-styles-and-psychosophy-emotion-en.md) | [Музыкальные стили как грубые маркеры позиции Эмоции в психософии](wiki/concepts/music-styles-and-psychosophy-emotion-ru.md) | [Музичні стилі як приблизні ознаки позиції Емоції в психософії](wiki/concepts/music-styles-and-psychosophy-emotion-uk.md) | active | research-appendix | 2 |
+| neural-correlates-analysis-synthesis | [Neural Correlates of Analysis and Synthesis Across Domains](wiki/concepts/neural-correlates-analysis-synthesis-en.md) | [Нейронные корреляты анализа и синтеза в разных доменах](wiki/concepts/neural-correlates-analysis-synthesis-ru.md) | [Нейронні кореляти аналізу й синтезу в різних доменах](wiki/concepts/neural-correlates-analysis-synthesis-uk.md) | active | research-appendix | 1 |
+| neural-correlates-analysis-synthesis-2026 | [Neural Correlates of Analysis and Integration — Research Note (2026)](wiki/sources/neural-correlates-analysis-synthesis-2026-en.md) | [Нейронные корреляты анализа и интеграции — исследовательская заметка (2026)](wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md) | [Нейронні кореляти аналізу та інтеграції — дослідницька нотатка (2026)](wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md) | active | source-summary | 1 |
+| neuroscience-compatibility-bridges | [Neuroscience Compatibility Bridges](wiki/concepts/neuroscience-compatibility-bridges-en.md) | [Нейронаучные мосты к совместимости](wiki/concepts/neuroscience-compatibility-bridges-ru.md) | [Нейронаукові мости до сумісності](wiki/concepts/neuroscience-compatibility-bridges-uk.md) | active | research-appendix | 1 |
+| operational-compatibility | [Operational Compatibility](wiki/concepts/operational-compatibility-en.md) | [Операционная совместимость](wiki/concepts/operational-compatibility-ru.md) | [Операційна сумісність](wiki/concepts/operational-compatibility-uk.md) | active | explanation | 1 |
+| passenger-passazhir | [Passenger (Passazhir)](wiki/entities/passenger-passazhir-en.md) | [Темпористический архетип 4F — Пассажир](wiki/entities/passenger-passazhir-ru.md) | [Темпористичний архетип 4F — Пасажир](wiki/entities/passenger-passazhir-uk.md) | active | entity | 1 |
+| philistine-obyvatel | [Philistine (Obyvatel)](wiki/entities/philistine-obyvatel-en.md) | [Темпористический архетип 3E — Обыватель](wiki/entities/philistine-obyvatel-ru.md) | [Темпористичний архетип 3E — Міщанин](wiki/entities/philistine-obyvatel-uk.md) | active | entity | 1 |
+| philosopher-filosof | [Philosopher (Filosof)](wiki/entities/philosopher-filosof-en.md) | [Темпористический архетип 2E — Философ](wiki/entities/philosopher-filosof-ru.md) | [Темпористичний архетип 2E — Філософ](wiki/entities/philosopher-filosof-uk.md) | active | entity | 1 |
+| project-positioning | [Project Positioning](wiki/concepts/project-positioning-en.md) | [Позиционирование проекта](wiki/concepts/project-positioning-ru.md) | [Позиціонування проєкту](wiki/concepts/project-positioning-uk.md) | active | explanation | 2 |
+| prophetic-visionary-cognition | [Prophetic and Visionary Cognition](wiki/concepts/prophetic-visionary-cognition-en.md) | [Пророческое и визионерское мышление](wiki/concepts/prophetic-visionary-cognition-ru.md) | [Пророче й візіонерське мислення](wiki/concepts/prophetic-visionary-cognition-uk.md) | active | explanation | 1 |
+| psychology-of-everything | [Psychology of Everything](wiki/concepts/psychology-of-everything-en.md) | [Психология всего](wiki/concepts/psychology-of-everything-ru.md) | [Психологія всього](wiki/concepts/psychology-of-everything-uk.md) | active | explanation | 1 |
+| psychology-of-everything-synthesis | [Psychology of Everything Synthesis](wiki/sources/psychology-of-everything-synthesis-en.md) | [Синтез по теме «психология всего»](wiki/sources/psychology-of-everything-synthesis-ru.md) | [Синтез на тему «психологія всього»](wiki/sources/psychology-of-everything-synthesis-uk.md) | active | source-summary | 1 |
+| psychosophy-detailed | [Psychosophy Detailed](wiki/sources/psychosophy-detailed-en.md) | [Подробный обзор психософии](wiki/sources/psychosophy-detailed-ru.md) | [Докладний огляд психософії](wiki/sources/psychosophy-detailed-uk.md) | active | source-summary | 1 |
+| psychosophy-emotion-functions | [Psychosophy Emotion Functions — 1E, 2E, 3E, 4E](wiki/sources/psychosophy-emotion-functions-en.md) | [Функции Эмоции в психософии — 1Э, 2Э, 3Э, 4Э](wiki/sources/psychosophy-emotion-functions-ru.md) | [Функції Емоції в психософії — 1Е, 2Е, 3Е, 4Е](wiki/sources/psychosophy-emotion-functions-uk.md) | active | source-summary | 1 |
+| psychosophy-functions | [Psychosophy Functions](wiki/concepts/psychosophy-functions-en.md) | [Функции психософии](wiki/concepts/psychosophy-functions-ru.md) | [Функції психософії](wiki/concepts/psychosophy-functions-uk.md) | active | explanation | 1 |
+| psychosophy-intertype-relations | [Psychosophy Intertype Relations](wiki/relations/psychosophy-intertype-relations-en.md) | [Интертипные отношения в психософии](wiki/relations/psychosophy-intertype-relations-ru.md) | [Інтертипні відносини у психософії](wiki/relations/psychosophy-intertype-relations-uk.md) | active | relation | 1 |
+| psychosophy-logic-functions | [Psychosophy Logic Functions — 1L, 2L, 3L, 4L](wiki/sources/psychosophy-logic-functions-en.md) | [Функции Логики в психософии — 1Л, 2Л, 3Л, 4Л](wiki/sources/psychosophy-logic-functions-ru.md) | [Функції Логіки в психософії — 1Л, 2Л, 3Л, 4Л](wiki/sources/psychosophy-logic-functions-uk.md) | active | source-summary | 1 |
+| psychosophy-overview | [Psychosophy Overview](wiki/entities/psychosophy-overview-en.md) | [Обзор психософии](wiki/entities/psychosophy-overview-ru.md) | [Огляд психософії](wiki/entities/psychosophy-overview-uk.md) | active | entity | 1 |
+| psychosophy-physics-functions | [Psychosophy Physics Functions — 1F, 2F, 3F, 4F](wiki/sources/psychosophy-physics-functions-en.md) | [Физика в психософии — 1Ф, 2Ф, 3Ф, 4Ф](wiki/sources/psychosophy-physics-functions-ru.md) | [Фізика в психософії — 1Ф, 2Ф, 3Ф, 4Ф](wiki/sources/psychosophy-physics-functions-uk.md) | active | source-summary | 1 |
+| psychosophy-quadras | [Psychosophy Sextas / Quadras](wiki/sources/psychosophy-quadras-en.md) | [Сексты / квадры психософии](wiki/sources/psychosophy-quadras-ru.md) | [Сексти / квадри психософії](wiki/sources/psychosophy-quadras-uk.md) | active | source-summary | 1 |
+| psychosophy-test-specification | [Psychosophy Test Specification](wiki/concepts/psychosophy-test-specification-en.md) | [Спецификация теста по психософии](wiki/concepts/psychosophy-test-specification-ru.md) | [Специфікація тесту з психософії](wiki/concepts/psychosophy-test-specification-uk.md) | active | research-appendix | 1 |
+| psychosophy-type-eflv | [Psychosophy Type EFLV](wiki/entities/psychosophy-type-eflv-en.md) | [Психософский тип ЭФЛВ (EFLV)](wiki/entities/psychosophy-type-eflv-ru.md) | [Психософський тип ЕФЛВ (EFLV)](wiki/entities/psychosophy-type-eflv-uk.md) | active | entity | 1 |
+| psychosophy-type-efvl | [Psychosophy Type EFVL](wiki/entities/psychosophy-type-efvl-en.md) | [Психософский тип ЭФВЛ (EFVL)](wiki/entities/psychosophy-type-efvl-ru.md) | [Психософський тип ЕФВЛ (EFVL)](wiki/entities/psychosophy-type-efvl-uk.md) | active | entity | 1 |
+| psychosophy-type-elfv | [Psychosophy Type ELFV](wiki/entities/psychosophy-type-elfv-en.md) | [Психософский тип ЭЛФВ (ELFV)](wiki/entities/psychosophy-type-elfv-ru.md) | [Психософський тип ЕЛФВ (ELFV)](wiki/entities/psychosophy-type-elfv-uk.md) | active | entity | 1 |
+| psychosophy-type-elvf | [Psychosophy Type ELVF](wiki/entities/psychosophy-type-elvf-en.md) | [Психософский тип ЭЛВФ (ELVF)](wiki/entities/psychosophy-type-elvf-ru.md) | [Психософський тип ЕЛВФ (ELVF)](wiki/entities/psychosophy-type-elvf-uk.md) | active | entity | 1 |
+| psychosophy-type-evfl | [Psychosophy Type EVFL](wiki/entities/psychosophy-type-evfl-en.md) | [Психософский тип ЭВФЛ (EVFL)](wiki/entities/psychosophy-type-evfl-ru.md) | [Психософський тип ЕВФЛ (EVFL)](wiki/entities/psychosophy-type-evfl-uk.md) | active | entity | 1 |
+| psychosophy-type-evlf | [Psychosophy Type EVLF](wiki/entities/psychosophy-type-evlf-en.md) | [Психософский тип ЭВЛФ (EVLF)](wiki/entities/psychosophy-type-evlf-ru.md) | [Психософський тип ЕВЛФ (EVLF)](wiki/entities/psychosophy-type-evlf-uk.md) | active | entity | 1 |
+| psychosophy-type-felv | [Psychosophy Type FELV](wiki/entities/psychosophy-type-felv-en.md) | [Психософский тип ФЭЛВ (FELV)](wiki/entities/psychosophy-type-felv-ru.md) | [Психософський тип ФЕЛВ (FELV)](wiki/entities/psychosophy-type-felv-uk.md) | active | entity | 1 |
+| psychosophy-type-fevl | [Psychosophy Type FEVL](wiki/entities/psychosophy-type-fevl-en.md) | [Психософский тип ФЭВЛ (FEVL)](wiki/entities/psychosophy-type-fevl-ru.md) | [Психософський тип ФЕВЛ (FEVL)](wiki/entities/psychosophy-type-fevl-uk.md) | active | entity | 1 |
+| psychosophy-type-flev | [Psychosophy Type FLEV](wiki/entities/psychosophy-type-flev-en.md) | [Психософский тип ФЛЭВ (FLEV)](wiki/entities/psychosophy-type-flev-ru.md) | [Психософський тип ФЛЕВ (FLEV)](wiki/entities/psychosophy-type-flev-uk.md) | active | entity | 1 |
+| psychosophy-type-flve | [Psychosophy Type FLVE](wiki/entities/psychosophy-type-flve-en.md) | [Психософский тип ФЛВЭ (FLVE)](wiki/entities/psychosophy-type-flve-ru.md) | [Психософський тип ФЛВЕ (FLVE)](wiki/entities/psychosophy-type-flve-uk.md) | active | entity | 1 |
+| psychosophy-type-fvel | [Psychosophy Type FVEL](wiki/entities/psychosophy-type-fvel-en.md) | [Психософский тип ФВЭЛ (FVEL)](wiki/entities/psychosophy-type-fvel-ru.md) | [Психософський тип ФВЕЛ (FVEL)](wiki/entities/psychosophy-type-fvel-uk.md) | active | entity | 1 |
+| psychosophy-type-fvle | [Psychosophy Type FVLE](wiki/entities/psychosophy-type-fvle-en.md) | [Психософский тип ФВЛЭ (FVLE)](wiki/entities/psychosophy-type-fvle-ru.md) | [Психософський тип ФВЛЕ (FVLE)](wiki/entities/psychosophy-type-fvle-uk.md) | active | entity | 1 |
+| psychosophy-type-lefv | [Psychosophy Type LEFV](wiki/entities/psychosophy-type-lefv-en.md) | [Психософский тип ЛЭФВ (LEFV)](wiki/entities/psychosophy-type-lefv-ru.md) | [Психософський тип ЛЕФВ (LEFV)](wiki/entities/psychosophy-type-lefv-uk.md) | active | entity | 1 |
+| psychosophy-type-levf | [Psychosophy Type LEVF](wiki/entities/psychosophy-type-levf-en.md) | [Психософский тип ЛЭВФ (LEVF)](wiki/entities/psychosophy-type-levf-ru.md) | [Психософський тип ЛЕВФ (LEVF)](wiki/entities/psychosophy-type-levf-uk.md) | active | entity | 1 |
+| psychosophy-type-lfev | [Psychosophy Type LFEV](wiki/entities/psychosophy-type-lfev-en.md) | [Психософский тип ЛФЭВ (LFEV)](wiki/entities/psychosophy-type-lfev-ru.md) | [Психософський тип ЛФЕВ (LFEV)](wiki/entities/psychosophy-type-lfev-uk.md) | active | entity | 1 |
+| psychosophy-type-lfve | [Psychosophy Type LFVE](wiki/entities/psychosophy-type-lfve-en.md) | [Психософский тип ЛФВЭ (LFVE)](wiki/entities/psychosophy-type-lfve-ru.md) | [Психософський тип ЛФВЕ (LFVE)](wiki/entities/psychosophy-type-lfve-uk.md) | active | entity | 1 |
+| psychosophy-type-lvef | [Psychosophy Type LVEF](wiki/entities/psychosophy-type-lvef-en.md) | [Психософский тип ЛВЭФ (LVEF)](wiki/entities/psychosophy-type-lvef-ru.md) | [Психософський тип ЛВЕФ (LVEF)](wiki/entities/psychosophy-type-lvef-uk.md) | active | entity | 1 |
+| psychosophy-type-lvfe | [Psychosophy Type LVFE](wiki/entities/psychosophy-type-lvfe-en.md) | [Психософский тип ЛВФЭ (LVFE)](wiki/entities/psychosophy-type-lvfe-ru.md) | [Психософський тип ЛВФЕ (LVFE)](wiki/entities/psychosophy-type-lvfe-uk.md) | active | entity | 1 |
+| psychosophy-type-vefl | [Psychosophy Type VEFL](wiki/entities/psychosophy-type-vefl-en.md) | [Психософский тип ВЭФЛ (VEFL)](wiki/entities/psychosophy-type-vefl-ru.md) | [Психософський тип ВЕФЛ (VEFL)](wiki/entities/psychosophy-type-vefl-uk.md) | active | entity | 1 |
+| psychosophy-type-velf | [Psychosophy Type VELF](wiki/entities/psychosophy-type-velf-en.md) | [Психософский тип ВЭЛФ (VELF)](wiki/entities/psychosophy-type-velf-ru.md) | [Психософський тип ВЕЛФ (VELF)](wiki/entities/psychosophy-type-velf-uk.md) | active | entity | 1 |
+| psychosophy-type-vfel | [Psychosophy Type VFEL](wiki/entities/psychosophy-type-vfel-en.md) | [Психософский тип ВФЭЛ (VFEL)](wiki/entities/psychosophy-type-vfel-ru.md) | [Психософський тип ВФЕЛ (VFEL)](wiki/entities/psychosophy-type-vfel-uk.md) | active | entity | 1 |
+| psychosophy-type-vfle | [Psychosophy Type VFLE](wiki/entities/psychosophy-type-vfle-en.md) | [Психософский тип ВФЛЭ (VFLE)](wiki/entities/psychosophy-type-vfle-ru.md) | [Психософський тип ВФЛЕ (VFLE)](wiki/entities/psychosophy-type-vfle-uk.md) | active | entity | 1 |
+| psychosophy-type-vlef | [Psychosophy Type VLEF](wiki/entities/psychosophy-type-vlef-en.md) | [Психософский тип ВЛЭФ (VLEF)](wiki/entities/psychosophy-type-vlef-ru.md) | [Психософський тип ВЛЕФ (VLEF)](wiki/entities/psychosophy-type-vlef-uk.md) | active | entity | 1 |
+| psychosophy-type-vlfe | [Psychosophy Type VLFE](wiki/entities/psychosophy-type-vlfe-en.md) | [Психософский тип ВЛФЭ (VLFE)](wiki/entities/psychosophy-type-vlfe-ru.md) | [Психософський тип ВЛФЕ (VLFE)](wiki/entities/psychosophy-type-vlfe-uk.md) | active | entity | 1 |
+| psychosophy-typing-methods | [Psychosophy Typing Methods](wiki/sources/psychosophy-typing-methods-en.md) | [Методы типирования по психософии](wiki/sources/psychosophy-typing-methods-ru.md) | [Методи типування за психософією](wiki/sources/psychosophy-typing-methods-uk.md) | active | source-summary | 1 |
+| psychosophy-volition-functions | [Psychosophy Volition Functions — 1V, 2V, 3V, 4V](wiki/sources/psychosophy-volition-functions-en.md) | [Функции Воли в психософии — 1В, 2В, 3В, 4В](wiki/sources/psychosophy-volition-functions-ru.md) | [Функції Волі в психософії — 1В, 2В, 3В, 4В](wiki/sources/psychosophy-volition-functions-uk.md) | active | source-summary | 1 |
+| psypilot-ai-psychologist-toolkit | [AI in Psychologist's Toolkit — Psypilot Case Study](wiki/sources/psypilot-ai-psychologist-toolkit-en.md) | [AI в инструментарии психолога — кейс Psypilot](wiki/sources/psypilot-ai-psychologist-toolkit-ru.md) | [AI в інструментарії психолога — кейс Psypilot](wiki/sources/psypilot-ai-psychologist-toolkit-uk.md) | active | source-summary | 1 |
+| public-figure-typing-agent-pipeline | [A Human-Led Evidence Workflow for Public-Figure Hypotheses](wiki/concepts/public-figure-typing-agent-pipeline-en.md) | [Человеко-ведомый доказательный процесс для гипотез о публичных фигурах](wiki/concepts/public-figure-typing-agent-pipeline-ru.md) | [Керований людьми доказовий процес для гіпотез про публічних осіб](wiki/concepts/public-figure-typing-agent-pipeline-uk.md) | active | research-appendix | 1 |
+| public-figure-typing-evidence-dossiers-batch-1 | [Initial Evidence Dossiers — Sannikov, Romaniuk, Bandura](wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-en.md) | [Стартовые доказательные досье — Санников, Романюк, Бандура](wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md) | [Початкові доказові досьє — Санніков, Романюк, Бандура](wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-uk.md) | active | research-appendix | 1 |
+| public-figure-typing-evidence-protocol | [Evidence Protocol for Testing Public-Figure Hypotheses](wiki/concepts/public-figure-typing-evidence-protocol-en.md) | [Протокол доказательной проверки гипотез о публичных фигурах](wiki/concepts/public-figure-typing-evidence-protocol-ru.md) | [Протокол доказової перевірки гіпотез про публічних осіб](wiki/concepts/public-figure-typing-evidence-protocol-uk.md) | active | research-appendix | 1 |
+| public-figure-typing-methodology-audit | [Methodology Audit for Public-Figure Research](wiki/concepts/public-figure-typing-methodology-audit-en.md) | [Аудит методик для исследования публичных фигур](wiki/concepts/public-figure-typing-methodology-audit-ru.md) | [Аудит методик для дослідження публічних осіб](wiki/concepts/public-figure-typing-methodology-audit-uk.md) | active | research-appendix | 1 |
+| public-figure-typing-pipeline-run-2026-06-21 | [Historical First Review of Hypotheses About Four Public Figures — 2026-06-21](wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-en.md) | [Исторический первый обзор гипотез о четырёх публичных фигурах — 2026-06-21](wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-ru.md) | [Історичний перший огляд гіпотез про чотирьох публічних осіб — 2026-06-21](wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-uk.md) | active | research-appendix | 1 |
+| public-figure-typing-pipeline-run-2026-06-21-method-v2 | [Historical Methodology-v2 Review of Public Figures — 2026-06-21](wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-en.md) | [Исторический методологический обзор v2 публичных фигур — 2026-06-21](wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md) | [Історичний методологічний огляд v2 публічних осіб — 2026-06-21](wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-uk.md) | historical | research-appendix | 1 |
+| public-language-boundaries | [Public Language Boundaries](wiki/concepts/public-language-boundaries-en.md) | [Границы публичного языка](wiki/concepts/public-language-boundaries-ru.md) | [Межі публічної мови](wiki/concepts/public-language-boundaries-uk.md) | active | explanation | 1 |
+| reader-chitatel | [Reader (Chitatel)](wiki/entities/reader-chitatel-en.md) | [Темпористический архетип 4P — Читатель](wiki/entities/reader-chitatel-ru.md) | [Темпористичний архетип 4P — Читач](wiki/entities/reader-chitatel-uk.md) | active | entity | 1 |
+| report-caveat-standard | [Report Caveat Standard](wiki/concepts/report-caveat-standard-en.md) | [Стандарт оговорок в отчётах](wiki/concepts/report-caveat-standard-ru.md) | [Стандарт застережень у звітах](wiki/concepts/report-caveat-standard-uk.md) | active | explanation | 1 |
+| resource-map | [Internet Resource Map](wiki/sources/resource-map-en.md) | [Карта интернет-ресурсов](wiki/sources/resource-map-ru.md) | [Карта інтернет-ресурсів](wiki/sources/resource-map-uk.md) | active | source-summary | 1 |
+| see-sensory-ethical-extrovert | [SEE — Sensory Ethical Extrovert (Napoleon)](wiki/entities/see-sensory-ethical-extrovert-en.md) | [Соционический тип SEE — Наполеон](wiki/entities/see-sensory-ethical-extrovert-ru.md) | [Соціонічний тип SEE — Наполеон](wiki/entities/see-sensory-ethical-extrovert-uk.md) | active | entity | 1 |
+| sei-sensory-ethical-introvert | [SEI — Sensory Ethical Introvert (Dumas)](wiki/entities/sei-sensory-ethical-introvert-en.md) | [Соционический тип SEI — Дюма](wiki/entities/sei-sensory-ethical-introvert-ru.md) | [Соціонічний тип SEI — Дюма](wiki/entities/sei-sensory-ethical-introvert-uk.md) | active | entity | 1 |
+| sle-sensory-logical-extrovert | [SLE — Sensory Logical Extrovert (Zhukov)](wiki/entities/sle-sensory-logical-extrovert-en.md) | [Соционический тип SLE — Жуков](wiki/entities/sle-sensory-logical-extrovert-ru.md) | [Соціонічний тип SLE — Жуков](wiki/entities/sle-sensory-logical-extrovert-uk.md) | active | entity | 1 |
+| sli-sensory-logical-introvert | [SLI — Sensory Logical Introvert (Gabin / Gaben)](wiki/entities/sli-sensory-logical-introvert-en.md) | [Соционический тип SLI — Габен](wiki/entities/sli-sensory-logical-introvert-ru.md) | [Соціонічний тип SLI — Габен](wiki/entities/sli-sensory-logical-introvert-uk.md) | active | entity | 1 |
+| sociological-compatibility-analogues | [Sociological Compatibility Analogues](wiki/concepts/sociological-compatibility-analogues-en.md) | [Социологические аналоги совместимости](wiki/concepts/sociological-compatibility-analogues-ru.md) | [Соціологічні аналоги сумісності](wiki/concepts/sociological-compatibility-analogues-uk.md) | active | research-appendix | 1 |
+| socionics-detailed | [Socionics Detailed](wiki/sources/socionics-detailed-en.md) | [Подробный обзор соционики](wiki/sources/socionics-detailed-ru.md) | [Докладний огляд соціоніки](wiki/sources/socionics-detailed-uk.md) | active | source-summary | 1 |
+| socionics-function-dichotomies | [Socionics Function Dichotomies](wiki/sources/socionics-function-dichotomies-en.md) | [Дихотомии функций в соционике](wiki/sources/socionics-function-dichotomies-ru.md) | [Дихотомії функцій у соціоніці](wiki/sources/socionics-function-dichotomies-uk.md) | active | source-summary | 1 |
+| socionics-function-positions | [Socionics Function Positions](wiki/concepts/socionics-function-positions-en.md) | [Позиции функций в соционике](wiki/concepts/socionics-function-positions-ru.md) | [Позиції функцій у соціоніці](wiki/concepts/socionics-function-positions-uk.md) | active | explanation | 1 |
+| socionics-information-elements | [Socionics Information Elements](wiki/concepts/socionics-information-elements-en.md) | [Информационные элементы соционики](wiki/concepts/socionics-information-elements-ru.md) | [Інформаційні елементи соціоніки](wiki/concepts/socionics-information-elements-uk.md) | active | explanation | 1 |
+| socionics-intertype-relations | [Socionics Intertype Relations](wiki/relations/socionics-intertype-relations-en.md) | [Соционические интертипные отношения](wiki/relations/socionics-intertype-relations-ru.md) | [Соціонічні інтертипні відносини](wiki/relations/socionics-intertype-relations-uk.md) | active | relation | 1 |
+| socionics-model-a | [Socionics Model A](wiki/concepts/socionics-model-a-en.md) | [Соционическая Модель A](wiki/concepts/socionics-model-a-ru.md) | [Соціонічна Модель A](wiki/concepts/socionics-model-a-uk.md) | active | explanation | 1 |
+| socionics-model-a-blocks | [Socionics Model A Blocks](wiki/concepts/socionics-model-a-blocks-en.md) | [Блоки соционической Модели A](wiki/concepts/socionics-model-a-blocks-ru.md) | [Блоки соціонічної Моделі A](wiki/concepts/socionics-model-a-blocks-uk.md) | active | explanation | 1 |
+| socionics-overview | [Socionics Overview](wiki/entities/socionics-overview-en.md) | [Обзор соционики](wiki/entities/socionics-overview-ru.md) | [Огляд соціоніки](wiki/entities/socionics-overview-uk.md) | active | entity | 1 |
+| socionics-plus-minus-signs | [Socionics Plus Minus Signs](wiki/sources/socionics-plus-minus-signs-en.md) | [Знаки плюс и минус в соционике](wiki/sources/socionics-plus-minus-signs-ru.md) | [Знаки плюс і мінус у соціоніці](wiki/sources/socionics-plus-minus-signs-uk.md) | active | source-summary | 1 |
+| socionics-reinin-dichotomies | [Socionics Reinin Dichotomies](wiki/sources/socionics-reinin-dichotomies-en.md) | [Признаки Рейнина в соционике](wiki/sources/socionics-reinin-dichotomies-ru.md) | [Ознаки Рейніна в соціоніці](wiki/sources/socionics-reinin-dichotomies-uk.md) | active | source-summary | 1 |
+| socionics-test-specification | [Socionics Test Specification](wiki/concepts/socionics-test-specification-en.md) | [Спецификация теста по соционике](wiki/concepts/socionics-test-specification-ru.md) | [Специфікація тесту із соціоніки](wiki/concepts/socionics-test-specification-uk.md) | active | research-appendix | 1 |
+| spiritual-foundation-levels | [Spiritual Foundation and Pair Direction](wiki/concepts/spiritual-foundation-levels-en.md) | [Духовное основание и направленность пары](wiki/concepts/spiritual-foundation-levels-ru.md) | [Духовне підґрунтя й напрям пари](wiki/concepts/spiritual-foundation-levels-uk.md) | active | application | 1 |
+| spiritual-maturity-models-comparison | [Comparison of Christian Spiritual-Maturity Models](wiki/concepts/spiritual-maturity-models-comparison-en.md) | [Сравнение христианских моделей духовной зрелости](wiki/concepts/spiritual-maturity-models-comparison-ru.md) | [Порівняння християнських моделей духовної зрілості](wiki/concepts/spiritual-maturity-models-comparison-uk.md) | active | application | 1 |
+| start-here | [Start Here](wiki/start-here-en.md) | [Начать здесь](wiki/start-here-ru.md) | [Почати тут](wiki/start-here-uk.md) | active | hub | 1 |
+| stewersman-rulevoi | [Steersman (Rulevoi)](wiki/entities/stewersman-rulevoi-en.md) | [Темпористический архетип 2F — Рулевой](wiki/entities/stewersman-rulevoi-ru.md) | [Темпористичний архетип 2F — Керманич](wiki/entities/stewersman-rulevoi-uk.md) | active | entity | 1 |
+| stowaway-bezbiletnik | [Stowaway (Bezbiletnik)](wiki/entities/stowaway-bezbiletnik-en.md) | [Темпористический архетип 3F — Безбилетник](wiki/entities/stowaway-bezbiletnik-ru.md) | [Темпористичний архетип 3F — Безквитник](wiki/entities/stowaway-bezbiletnik-uk.md) | active | entity | 1 |
+| strategic-compatibility | [Strategic Compatibility](wiki/concepts/strategic-compatibility-en.md) | [Стратегическая совместимость](wiki/concepts/strategic-compatibility-ru.md) | [Стратегічна сумісність](wiki/concepts/strategic-compatibility-uk.md) | active | explanation | 1 |
+| student-uchenik | [Student (Uchenik)](wiki/entities/student-uchenik-en.md) | [Темпористический архетип 4E — Ученик](wiki/entities/student-uchenik-ru.md) | [Темпористичний архетип 4E — Учень](wiki/entities/student-uchenik-uk.md) | active | entity | 1 |
+| tactical-compatibility | [Tactical Compatibility](wiki/concepts/tactical-compatibility-en.md) | [Тактическая совместимость](wiki/concepts/tactical-compatibility-ru.md) | [Тактична сумісність](wiki/concepts/tactical-compatibility-uk.md) | active | explanation | 1 |
+| temporal-aspects | [Temporal Aspects](wiki/concepts/temporal-aspects-en.md) | [Темпоральные аспекты](wiki/concepts/temporal-aspects-ru.md) | [Темпоральні аспекти](wiki/concepts/temporal-aspects-uk.md) | active | explanation | 1 |
+| temporistics-cognitive-resource-routing-creation-model | [Temporistics as a Cognitive-Resource Routing Hypothesis](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md) | [Темпористика как гипотеза маршрутизации когнитивного ресурса](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md) | [Темпористика як гіпотеза маршрутизації когнітивного ресурсу](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md) | active | research-appendix | 1 |
+| temporistics-detailed | [Temporistics Detailed](wiki/sources/temporistics-detailed-en.md) | [Подробный обзор Temporistics](wiki/sources/temporistics-detailed-ru.md) | [Докладний огляд Temporistics](wiki/sources/temporistics-detailed-uk.md) | active | source-summary | 1 |
+| temporistics-eternity-altruism-hypothesis | [Temporistics Eternity Position — Altruism Hypothesis](wiki/sources/temporistics-eternity-altruism-hypothesis-en.md) | [Позиция Eternity в Temporistics — гипотеза об альтруизме](wiki/sources/temporistics-eternity-altruism-hypothesis-ru.md) | [Позиція Eternity у Temporistics — гіпотеза про альтруїзм](wiki/sources/temporistics-eternity-altruism-hypothesis-uk.md) | active | source-summary | 1 |
+| temporistics-intertype-relations | [Proposed Temporistics Intertype Relations](wiki/relations/temporistics-intertype-relations-en.md) | [Предлагаемые интертипные отношения в Temporistics](wiki/relations/temporistics-intertype-relations-ru.md) | [Запропоновані інтертипні відносини в Temporistics](wiki/relations/temporistics-intertype-relations-uk.md) | active | relation | 1 |
+| temporistics-model | [Temporistics Model](wiki/concepts/temporistics-model-en.md) | [Модель темпористики](wiki/concepts/temporistics-model-ru.md) | [Модель темпористики](wiki/concepts/temporistics-model-uk.md) | active | explanation | 1 |
+| temporistics-overview | [Temporistics Overview](wiki/entities/temporistics-overview-en.md) | [Обзор темпористики](wiki/entities/temporistics-overview-ru.md) | [Огляд темпористики](wiki/entities/temporistics-overview-uk.md) | active | entity | 1 |
+| temporistics-test-specification | [Temporistics Test Specification](wiki/concepts/temporistics-test-specification-en.md) | [Спецификация теста по темпористике](wiki/concepts/temporistics-test-specification-ru.md) | [Специфікація тесту з темпористики](wiki/concepts/temporistics-test-specification-uk.md) | active | research-appendix | 1 |
+| temporistics-third-aspect-sin-patterns | [The Third Temporal Aspect: Source Motifs and Christian Discernment](wiki/concepts/temporistics-third-aspect-sin-patterns-en.md) | [Третий временной аспект: мотивы источника и христианское рассуждение](wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md) | [Третій часовий аспект: мотиви джерела й християнське розпізнавання](wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md) | active | explanation | 1 |
+| temporistics-type-efnp | [Temporistics Type EFNP](wiki/entities/temporistics-type-efnp-en.md) | [Темпористический тип ВБНП (EFNP)](wiki/entities/temporistics-type-efnp-ru.md) | [Темпористичний тип Вч-Мб-Тп-Ми (EFNP)](wiki/entities/temporistics-type-efnp-uk.md) | active | entity | 1 |
+| temporistics-type-efpn | [Temporistics Type EFPN](wiki/entities/temporistics-type-efpn-en.md) | [Темпористический тип ВБПН (EFPN)](wiki/entities/temporistics-type-efpn-ru.md) | [Темпористичний тип Вч-Мб-Ми-Тп (EFPN)](wiki/entities/temporistics-type-efpn-uk.md) | active | entity | 1 |
+| temporistics-type-enfp | [Temporistics Type ENFP](wiki/entities/temporistics-type-enfp-en.md) | [Темпористический тип ВНБП (ENFP)](wiki/entities/temporistics-type-enfp-ru.md) | [Темпористичний тип Вч-Тп-Мб-Ми (ENFP)](wiki/entities/temporistics-type-enfp-uk.md) | active | entity | 1 |
+| temporistics-type-enpf | [Temporistics Type ENPF](wiki/entities/temporistics-type-enpf-en.md) | [Темпористический тип ВНПБ (ENPF)](wiki/entities/temporistics-type-enpf-ru.md) | [Темпористичний тип Вч-Тп-Ми-Мб (ENPF)](wiki/entities/temporistics-type-enpf-uk.md) | active | entity | 1 |
+| temporistics-type-epfn | [Temporistics Type EPFN](wiki/entities/temporistics-type-epfn-en.md) | [Темпористический тип ВПБН (EPFN)](wiki/entities/temporistics-type-epfn-ru.md) | [Темпористичний тип Вч-Ми-Мб-Тп (EPFN)](wiki/entities/temporistics-type-epfn-uk.md) | active | entity | 1 |
+| temporistics-type-epnf | [Temporistics Type EPNF](wiki/entities/temporistics-type-epnf-en.md) | [Темпористический тип ВПНБ (EPNF)](wiki/entities/temporistics-type-epnf-ru.md) | [Темпористичний тип Вч-Ми-Тп-Мб (EPNF)](wiki/entities/temporistics-type-epnf-uk.md) | active | entity | 1 |
+| temporistics-type-fenp | [Temporistics Type FENP](wiki/entities/temporistics-type-fenp-en.md) | [Темпористический тип БВНП (FENP)](wiki/entities/temporistics-type-fenp-ru.md) | [Темпористичний тип Мб-Вч-Тп-Ми (FENP)](wiki/entities/temporistics-type-fenp-uk.md) | active | entity | 1 |
+| temporistics-type-fepn | [Temporistics Type FEPN](wiki/entities/temporistics-type-fepn-en.md) | [Темпористический тип БВПН (FEPN)](wiki/entities/temporistics-type-fepn-ru.md) | [Темпористичний тип Мб-Вч-Ми-Тп (FEPN)](wiki/entities/temporistics-type-fepn-uk.md) | active | entity | 1 |
+| temporistics-type-fnep | [Temporistics Type FNEP](wiki/entities/temporistics-type-fnep-en.md) | [Темпористический тип БНВП (FNEP)](wiki/entities/temporistics-type-fnep-ru.md) | [Темпористичний тип Мб-Тп-Вч-Ми (FNEP)](wiki/entities/temporistics-type-fnep-uk.md) | active | entity | 1 |
+| temporistics-type-fnpe | [Temporistics Type FNPE](wiki/entities/temporistics-type-fnpe-en.md) | [Темпористический тип БНПВ (FNPE)](wiki/entities/temporistics-type-fnpe-ru.md) | [Темпористичний тип Мб-Тп-Ми-Вч (FNPE)](wiki/entities/temporistics-type-fnpe-uk.md) | active | entity | 1 |
+| temporistics-type-fpen | [Temporistics Type FPEN](wiki/entities/temporistics-type-fpen-en.md) | [Темпористический тип БПВН (FPEN)](wiki/entities/temporistics-type-fpen-ru.md) | [Темпористичний тип Мб-Ми-Вч-Тп (FPEN)](wiki/entities/temporistics-type-fpen-uk.md) | active | entity | 1 |
+| temporistics-type-fpne | [Temporistics Type FPNE](wiki/entities/temporistics-type-fpne-en.md) | [Темпористический тип БПНВ (FPNE)](wiki/entities/temporistics-type-fpne-ru.md) | [Темпористичний тип Мб-Ми-Тп-Вч (FPNE)](wiki/entities/temporistics-type-fpne-uk.md) | active | entity | 1 |
+| temporistics-type-nefp | [Temporistics Type NEFP](wiki/entities/temporistics-type-nefp-en.md) | [Темпористический тип НВБП (NEFP)](wiki/entities/temporistics-type-nefp-ru.md) | [Темпористичний тип Тп-Вч-Мб-Ми (NEFP)](wiki/entities/temporistics-type-nefp-uk.md) | active | entity | 1 |
+| temporistics-type-nepf | [Temporistics Type NEPF](wiki/entities/temporistics-type-nepf-en.md) | [Темпористический тип НВПБ (NEPF)](wiki/entities/temporistics-type-nepf-ru.md) | [Темпористичний тип Тп-Вч-Ми-Мб (NEPF)](wiki/entities/temporistics-type-nepf-uk.md) | active | entity | 1 |
+| temporistics-type-nfep | [Temporistics Type NFEP](wiki/entities/temporistics-type-nfep-en.md) | [Темпористический тип НБВП (NFEP)](wiki/entities/temporistics-type-nfep-ru.md) | [Темпористичний тип Тп-Мб-Вч-Ми (NFEP)](wiki/entities/temporistics-type-nfep-uk.md) | active | entity | 1 |
+| temporistics-type-nfpe | [Temporistics Type NFPE](wiki/entities/temporistics-type-nfpe-en.md) | [Темпористический тип НБПВ (NFPE)](wiki/entities/temporistics-type-nfpe-ru.md) | [Темпористичний тип Тп-Мб-Ми-Вч (NFPE)](wiki/entities/temporistics-type-nfpe-uk.md) | active | entity | 1 |
+| temporistics-type-npef | [Temporistics Type NPEF](wiki/entities/temporistics-type-npef-en.md) | [Темпористический тип НПВБ (NPEF)](wiki/entities/temporistics-type-npef-ru.md) | [Темпористичний тип Тп-Ми-Вч-Мб (NPEF)](wiki/entities/temporistics-type-npef-uk.md) | active | entity | 1 |
+| temporistics-type-npfe | [Temporistics Type NPFE](wiki/entities/temporistics-type-npfe-en.md) | [Темпористический тип НПБВ (NPFE)](wiki/entities/temporistics-type-npfe-ru.md) | [Темпористичний тип Тп-Ми-Мб-Вч (NPFE)](wiki/entities/temporistics-type-npfe-uk.md) | active | entity | 1 |
+| temporistics-type-pefn | [Temporistics Type PEFN](wiki/entities/temporistics-type-pefn-en.md) | [Темпористический тип ПВБН (PEFN)](wiki/entities/temporistics-type-pefn-ru.md) | [Темпористичний тип Ми-Вч-Мб-Тп (PEFN)](wiki/entities/temporistics-type-pefn-uk.md) | active | entity | 1 |
+| temporistics-type-penf | [Temporistics Type PENF](wiki/entities/temporistics-type-penf-en.md) | [Темпористический тип ПВНБ (PENF)](wiki/entities/temporistics-type-penf-ru.md) | [Темпористичний тип Ми-Вч-Тп-Мб (PENF)](wiki/entities/temporistics-type-penf-uk.md) | active | entity | 1 |
+| temporistics-type-pfen | [Temporistics Type PFEN](wiki/entities/temporistics-type-pfen-en.md) | [Темпористический тип ПБВН (PFEN)](wiki/entities/temporistics-type-pfen-ru.md) | [Темпористичний тип Ми-Мб-Вч-Тп (PFEN)](wiki/entities/temporistics-type-pfen-uk.md) | active | entity | 1 |
+| temporistics-type-pfne | [Temporistics Type PFNE](wiki/entities/temporistics-type-pfne-en.md) | [Темпористический тип ПБНВ (PFNE)](wiki/entities/temporistics-type-pfne-ru.md) | [Темпористичний тип Ми-Мб-Тп-Вч (PFNE)](wiki/entities/temporistics-type-pfne-uk.md) | active | entity | 1 |
+| temporistics-type-pnef | [Temporistics Type PNEF](wiki/entities/temporistics-type-pnef-en.md) | [Темпористический тип ПНВБ (PNEF)](wiki/entities/temporistics-type-pnef-ru.md) | [Темпористичний тип Ми-Тп-Вч-Мб (PNEF)](wiki/entities/temporistics-type-pnef-uk.md) | active | entity | 1 |
+| temporistics-type-pnfe | [Temporistics Type PNFE](wiki/entities/temporistics-type-pnfe-en.md) | [Темпористический тип ПНБВ (PNFE)](wiki/entities/temporistics-type-pnfe-ru.md) | [Темпористичний тип Ми-Тп-Мб-Вч (PNFE)](wiki/entities/temporistics-type-pnfe-uk.md) | active | entity | 1 |
+| test-result-reading-guide | [Test Result Reading Guide](wiki/concepts/test-result-reading-guide-en.md) | [Руководство по чтению результатов теста](wiki/concepts/test-result-reading-guide-ru.md) | [Посібник із читання результатів тесту](wiki/concepts/test-result-reading-guide-uk.md) | active | explanation | 1 |
+| third-present-exile-latent-process | [Third Present Exile Latent Process](wiki/concepts/third-present-exile-latent-process-en.md) | [Латентный процесс третьего Настоящего / Изгнанника](wiki/concepts/third-present-exile-latent-process-ru.md) | [Латентний процес третього Теперішнього / Вигнанця](wiki/concepts/third-present-exile-latent-process-uk.md) | active | explanation | 1 |
+| typologies-as-supporting-tools | [Typologies as Supporting Tools](wiki/concepts/typologies-as-supporting-tools-en.md) | [Типологии как вспомогательные инструменты](wiki/concepts/typologies-as-supporting-tools-ru.md) | [Типології як допоміжні інструменти](wiki/concepts/typologies-as-supporting-tools-uk.md) | active | application | 2 |
+| typology-activity-theory-mapping | [Typology to Activity Theory Level Mapping](wiki/sources/typology-activity-theory-mapping-en.md) | [Сопоставление типологий с уровнями теории деятельности](wiki/sources/typology-activity-theory-mapping-ru.md) | [Зіставлення типологій із рівнями теорії діяльності](wiki/sources/typology-activity-theory-mapping-uk.md) | active | source-summary | 1 |
+| typology-authors-timeline | [Typology Authors Timeline](wiki/sources/typology-authors-timeline-en.md) | [Хронология авторов типологических систем](wiki/sources/typology-authors-timeline-ru.md) | [Хронологія авторів типологічних систем](wiki/sources/typology-authors-timeline-uk.md) | active | source-summary | 1 |
+| typology-code-conventions | [Typology Code Conventions](wiki/concepts/typology-code-conventions-en.md) | [Правила записи типологических кодов](wiki/concepts/typology-code-conventions-ru.md) | [Правила запису типологічних кодів](wiki/concepts/typology-code-conventions-uk.md) | active | explanation | 1 |
+| typology-disambiguation-guide | [Guide to Distinguishing Typologies](wiki/concepts/typology-disambiguation-guide-en.md) | [Гид по различению типологий](wiki/concepts/typology-disambiguation-guide-ru.md) | [Гід із розрізнення типологій](wiki/concepts/typology-disambiguation-guide-uk.md) | active | explanation | 1 |
+| typology-reconceptualization | [Reconceiving Typologies](wiki/concepts/typology-reconceptualization-en.md) | [Переосмысление типологий](wiki/concepts/typology-reconceptualization-ru.md) | [Переосмислення типологій](wiki/concepts/typology-reconceptualization-uk.md) | active | explanation | 2 |
+| typology-researchers | [Typology Researchers and Validation Studies](wiki/sources/typology-researchers-en.md) | [Исследователи типологий и валидационные работы](wiki/sources/typology-researchers-ru.md) | [Дослідники типологій і валідаційні праці](wiki/sources/typology-researchers-uk.md) | active | source-summary | 1 |
+| typology-test-design-protocol | [Typology Test Design Protocol](wiki/concepts/typology-test-design-protocol-en.md) | [Протокол разработки типологических тестов](wiki/concepts/typology-test-design-protocol-ru.md) | [Протокол розроблення типологічних тестів](wiki/concepts/typology-test-design-protocol-uk.md) | active | research-appendix | 1 |
+| validation-program | [Validation Program](wiki/concepts/validation-program-en.md) | [Программа валидации](wiki/concepts/validation-program-ru.md) | [Програма валідації](wiki/concepts/validation-program-uk.md) | active | research-appendix | 1 |
+| value-moral-compatibility | [Value-Moral Compatibility](wiki/concepts/value-moral-compatibility-en.md) | [Ценностно-нравственная совместимость](wiki/concepts/value-moral-compatibility-ru.md) | [Ціннісно-моральна сумісність](wiki/concepts/value-moral-compatibility-uk.md) | active | explanation | 2 |
+| volkov-voloskova-gladkikh-multilevel-compatibility-2025 | [The influence of psychological compatibility in professional groups on team socio-psychological climate](wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-en.md) | [Влияние психологической совместимости членов профессиональной группы на социально-психологический климат коллектива](wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-ru.md) | [Вплив психологічної сумісності членів професійної групи на соціально-психологічний клімат колективу](wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-uk.md) | active | source-summary | 1 |
+
+## Maintenance
+
+Regenerate with `python3 scripts/generate_wiki_index.py --write`. CI verifies this file with `--check`.

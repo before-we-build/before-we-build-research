@@ -3,13 +3,22 @@ title: "Mosaic: потенциальный конкурент и конфлик�
 type: source
 tags: [competitor-watch, market-research, relationship-intelligence, ai, assessment, naming, russian]
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-08-30
 lang: ru
 sources: [mosaicchats.com, mosaicglobalapp.com, mosaictasks.com]
+translation_group: competitor-mosaic-relationship-intelligence
+semantic_version: 1
+reviewed_semantic_version: 1
+document_status: active
+page_role: source-summary
+claim_status: [source-attribution]
+claims: []
+caveat_ids: []
 ---
 
 # Mosaic: потенциальный конкурент и конфликт названия
 
+<!-- section:status -->
 ## Статус
 
 `Mosaic` внесён в исследовательский список Before We Build как
@@ -22,6 +31,7 @@ sources: [mosaicchats.com, mosaicglobalapp.com, mosaictasks.com]
 числа пользователей, точность и эффективность ниже не считаются независимо
 подтверждёнными.
 
+<!-- section:1-mosaicchats-closest-competitor -->
 ## 1. MosaicChats — ближайший конкурент
 
 - **URL:** https://www.mosaicchats.com/
@@ -30,11 +40,13 @@ sources: [mosaicchats.com, mosaicglobalapp.com, mosaictasks.com]
   экспортированных разговоров из WhatsApp, iMessage, Instagram, Telegram и
   других мессенджеров.
 - **Заявленные результаты:** анализ тональности и динамики общения,
+  <!-- claim-audit: allow reason=competitor-source-attribution -->
   compatibility score, MBTI-анализ, паттерны ответов, отчёт об отношениях и
   рекомендации AI-коуча.
 - **Будущее направление:** на сайте анонсированы MosaicMatch и Amavie —
   подбор людей на основе стиля общения и личности, выведенной из переписки.
 
+<!-- section:why-it-overlaps -->
 ### Почему это конкурент
 
 MosaicChats пересекается с будущими направлениями Before We Build в нескольких
@@ -46,16 +58,19 @@ MosaicChats пересекается с будущими направления�
   совместимость;
 - заявлен переход от анализа существующих отношений к matching.
 
+<!-- section:material-differences -->
 ### Существенные различия
 
 | Измерение | MosaicChats | Before We Build |
 |---|---|---|
 | Основной вход | Экспорт уже состоявшейся переписки | Добровольные ответы, направляемые вопросы, наблюдения и позднее — согласованные сценарии |
 | Основной объект | Коммуникация и отношения, наблюдаемые в сообщениях | Ценностно-нравственное основание, стратегическое направление, организация совместного действия и тактическое взаимодействие |
+<!-- claim-audit: allow reason=competitor-source-attribution -->
 | Публичный результат | Compatibility score, MBTI, relationship report, AI coach | Карта разговора, важные различия, открытые вопросы и следующий мудрый шаг |
 | Эпистемическая позиция | В публичном маркетинге встречаются формулировки о выявлении «true compatibility» | Предварительные гипотезы без вердикта, предсказания судьбы или автоматического решения |
 | Ближайший рынок | Dating, текущие отношения, разрыв, AI relationship advice | Универсальная подготовка любых двух людей к серьёзному общему решению; первое приложение — христианская карта разговора |
 
+<!-- section:2-mosaic-cultural-compass-for-couples -->
 ## 2. Mosaic — Cultural Compass for Couples
 
 - **URL:** https://www.mosaicglobalapp.com/
@@ -69,6 +84,7 @@ MosaicChats пересекается с будущими направления�
 вопросов для пары**, хотя его предметная специализация уже: межкультурные
 отношения. Его следует отслеживать отдельно от MosaicChats.
 
+<!-- section:3-mosaic-personality-tasks -->
 ## 3. Mosaic Personality Tasks — смежный продукт и конфликт категории
 
 - **URL:** https://www.mosaictasks.com/
@@ -87,6 +103,7 @@ MosaicChats пересекается с будущими направления�
 - дополнительная причина не использовать `Mosaic` как название собственной
   метамодели или продукта.
 
+<!-- section:privacy-and-consent-risk -->
 ## Риск приватности и согласия для наблюдения
 
 Политика MosaicChats прямо указывает, что загружаемые разговоры могут содержать
@@ -101,17 +118,20 @@ MosaicChats пересекается с будущими направления�
 - отделения наблюдаемого текста от выводов модели;
 - удаления исходных и производных данных.
 
+<!-- section:what-to-monitor -->
 ## Что отслеживать
 
 1. Переход MosaicChats от анализа переписки к MosaicMatch и Amavie.
 2. Появление публичной методологии и независимой валидации заявленных выводов.
 3. Изменения privacy/consent-политики для сообщений не-пользователей.
 4. Модель монетизации, удержания и распространения shareable reports.
+<!-- claim-audit: allow reason=competitor-source-attribution -->
 5. Использование MBTI, compatibility scores и высокоуверенного языка.
 6. Развитие Cultural Compass for Couples в сторону веры, ценностей и
    предбрачной подготовки.
 7. Товарные знаки и поисковую занятость имени `Mosaic` в релевантных классах.
 
+<!-- section:before-we-build-decision -->
 ## Решение для Before We Build
 
 - Считать MosaicChats **ближайшим потенциальным конкурентом** в категории
@@ -123,14 +143,47 @@ MosaicChats пересекается с будущими направления�
 - Не использовать `Mosaic` как основное маркетинговое название Before We
   Build без отдельной юридической проверки; текущая рыночная занятость делает
   его слабым кандидатом.
+<!-- claim-audit: allow reason=competitor-source-attribution -->
 - Не копировать публичные compatibility scores, MBTI-from-chat claims или
   загрузку переписки без ясного согласия всех участников.
 
+<!-- section:related-pages -->
 ## Связанные страницы
 
-- [[common-projects]]
-- [[project-positioning]]
-- [[public-language-boundaries]]
-- [[typology-test-design-protocol]]
-- [[limits-of-typological-inference]]
+- [[project-positioning-ru]]
+- [[public-language-boundaries-ru]]
+- [[typology-test-design-protocol-ru]]
+- [[epistemic-status-and-inference-limits-ru]]
 
+<!-- section:source-assessment -->
+## Оценка источника
+
+<!-- section:source-claims -->
+### Что утверждает источник
+
+Публичные материалы Mosaic утверждают, что загруженные разговоры могут поддерживать автоматический анализ отношений, выводы в стиле профиля личности, отчёты и coaching.
+
+<!-- section:source-evidence -->
+### Какие данные или свидетельства приведены
+
+Сводка использует публичные продуктовые и маркетинговые материалы; независимой валидации исходов, данных калибровки или доступа к полной методике провайдера в ней нет.
+
+<!-- section:source-limitations -->
+### Ограничения
+
+Маркетинговые описания не устанавливают точность, причинную пользу, практику приватности в каждом развёртывании или безопасность в отношениях высокого риска.
+
+<!-- section:bwb-accepts -->
+### Что принимает BWB
+
+BWB принимает обзор конкурента как ориентир продуктовых границ, особенно для согласия, происхождения данных, неопределённости и недиагностической поддержки разговора.
+
+<!-- section:bwb-contested -->
+### Что остаётся спорным или открытым
+
+Точность, дополнительная польза, реализация приватности и профиль вреда результатов Mosaic остаются открытыми без независимой оценки.
+
+<!-- section:bwb-rejected-or-historical -->
+### Что отвергнуто или хранится только исторически
+
+BWB отвергает копирование автоматических рейтингов пары, вывод типа человека из приватной переписки и вынесение вердиктов отношениям.

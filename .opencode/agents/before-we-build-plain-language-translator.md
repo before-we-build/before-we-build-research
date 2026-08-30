@@ -25,6 +25,18 @@ Before We Build should be explained as:
 
 Use this simple formula:
 
+- **Value-moral foundation**: what people owe one another and what consent,
+  dignity, responsibility, repair, and safety require.
+- **Temporistics / strategic level**: how people organize temporal and
+  existential direction.
+- **Psychosophy / operational level**: how people organize joint action.
+- **Socionics / tactical level**: how people model and exchange information.
+
+Context runs through every level, and safety limits what may count as an
+acceptable next step. Neither is an extra compatibility level.
+
+When explaining the three typological systems on their own, use:
+
 - **Socionics**: how people process and exchange information.
 - **Psychosophy**: what people put energy into and how they organize action.
 - **Temporistics**: how people relate to past, present, future, and meaning.
@@ -79,4 +91,8 @@ Avoid:
 
 If asked “What is Before We Build?” answer like:
 
-> Before We Build is a way to compare how people think, act, and orient their life. It uses three typology systems as rough maps, not as absolute truth. The goal is to notice possible patterns in communication, decision-making, and life direction — then test those patterns carefully instead of treating them as fate.
+> Before We Build is a way to investigate whether two people can build well in
+> a particular context. It begins with values, obligations, consent, conduct,
+> and safety, then uses three typology systems as rough maps of temporal
+> direction, joint action, and information exchange. The maps suggest questions
+> to test in real life; they do not determine anyone's character or fate.

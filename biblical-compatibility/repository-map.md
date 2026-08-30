@@ -1,350 +1,96 @@
-# Карта наявного typology research repository
+# Карта репозиторію Before We Build
 
-Цей файл фіксує, що біблійно-герменевтичний модуль **не створює типологічну базу з нуля**, а читає вже наявний research repository як нижчий, допоміжний шар. Типологічні джерела залишаються у `wiki/` та `raw/`; цей модуль лише перевіряє, обмежує і пастирськи рамкує твердження про сумісність.
+Ця карта показує чинну інформаційну архітектуру репозиторію після мовної та змістової міграції. **Before We Build** має універсальне дослідницьке ядро для вивчення взаємодії будь-яких двох людей. **Christian Before We Build** є першим спеціалізованим застосуванням цього ядра, але не визначає його повністю і не перетворює типології на біблійну антропологію.
 
-## Головні наявні ідеї
+## Точки входу
 
-| Ділянка | Що вже є в repository | Сила | Слабкість / потреба в обмеженні |
-|---|---|---|---|
-| Три рівні сумісності | `wiki/concepts/compatibility-level-boundaries-uk.md` розводить стратегічний, операційний і тактичний рівні. | Добре запобігає змішуванню систем. | Не можна подавати як біблійну антропологію або духовну ієрархію. |
-| Соціоніка | `wiki/sources/socionics-detailed.md`, `raw/socionics/*`, `wiki/relations/*` описують інформаційний обмін і intertype relations. | Корисно для питань комунікації та сприйняття. | Слабке місце — типування, повторюваність, ризик вироку стосункам. |
-| Психософія | `wiki/sources/psychosophy-detailed.md`, `raw/psychosophy/*` описують пріоритети дії, тиск, ресурс і ролі. | Корисно для питань побуту, відповідальності, емоційного і матеріального навантаження. | Не може замінити біблійне вчення про серце, гріх, плід Духа і характер. |
-| Темпористика | `wiki/sources/temporistics-detailed.md`, `raw/temporistics/*` описують час, шлях, минуле, теперішнє, майбутнє, вічність. | Корисно для питань напряму, смислу, темпу. | Не є пророцтвом, покликанням або духовним баченням Божої волі. |
-| Християнські межі | `wiki/concepts/biblical-grounding-policy-uk.md`, `christian-foundation-of-family-uk.md`, `typologies-as-supporting-tools-uk.md`, `research-layer-vs-practical-guidance-uk.md`. | Вже є правильний напрям: Писання і характер первинні. | Потрібен окремий герменевтичний шар із claims-register і текстами Писання. |
+- `README.md` — короткий мовний навігатор і межі проєкту.
+- `index.md` — автоматично згенерований повний каталог wiki.
+- `wiki/start-here-en.md`, `wiki/start-here-ru.md`, `wiki/start-here-uk.md` — рівноправні стартові сторінки для огляду, дослідницького маршруту, Christian application і типологічного довідника.
 
-## Богословські обмеження, які треба накласти
+Кожна активна wiki-група має три рівноправні файли: `slug-en.md`, `slug-ru.md` і `slug-uk.md`. Несуфіксовані мовні wiki-сторінки не є частиною чинної архітектури.
 
-1. Типологія не може бути джерелом норми для шлюбу, святості, любові чи церковного рішення.
-2. Сумісність не може стати ідолом, гарантією або фільтром людської гідності.
-3. Різність людей треба читати через тіло Христове, дари, служіння і любов, а не через касту типів.
-4. Висновки про сумісність треба класифікувати: пряме біблійне вчення, біблійний принцип, пастирське застосування, типологічна гіпотеза, практична порада.
-5. Книга має бути корисною одиноким християнам без тиску «обов’язково знайти пару».
+## Універсальне дослідницьке ядро
 
-## Файли про сумісність / шлюб / стосунки
+Основне позиціювання і межі ядра описані в:
 
-- `AGENTS.md`
-- `README.md`
-- `index.md`
-- `raw/general/adekvatnyy-kompromiss-tipologii.md`
-- `raw/general/ai-research-agents.md`
-- `raw/general/automated-research-plan.md`
-- `raw/general/autoreasearch.md`
-- `raw/general/existing-validation-research.md`
-- `raw/general/fourth-physics-deep-research.md`
-- `raw/general/participant-recruitment.md`
-- `raw/general/simple-research-guide.md`
-- `raw/general/typology-best-architecture.md`
-- `raw/general/typology-crisis-war.md`
-- `raw/psychosophy/psychosophy-compatibility-research.md`
-- `raw/psychosophy/psychosophy-relation-naming-sources.md`
-- `raw/socionics/bukalov-neural-structures-correlates.md`
-- `raw/socionics/empirical-validation-studies.md`
-- `raw/socionics/intertype-mapper-scoring.md`
-- `raw/socionics/intertype-relations-ratings.md`
-- `raw/socionics/intertype-relations.md`
-- `raw/socionics/opteamyzer-compatibility.md`
-- `raw/socionics/socion-app.md`
-- `raw/temporistics/author.md`
-- `raw/temporistics/bezbiletnik-stowaway.md`
-- `raw/temporistics/comet-in-brain-birth-of-temporistics.md`
-- `raw/temporistics/critic.md`
-- `raw/temporistics/gost-guest.md`
-- `raw/temporistics/guru.md`
-- `raw/temporistics/how-to-distinguish-author-from-critic.md`
-- `raw/temporistics/kapitan-captain.md`
-- `raw/temporistics/mestnyi-local.md`
-- `raw/temporistics/obyvatel-philistine.md`
-- `raw/temporistics/rulevoi-steversman.md`
-- `raw/temporistics/theory-description.md`
-- `raw/temporistics/uchenik-student.md`
-- `wiki/christian-entity-renaming-audit.md`
-- `wiki/concepts/adequate-compromise-ru.md`
-- `wiki/concepts/adequate-intertype-formats-ru.md`
-- `wiki/concepts/afanasyev-model.md`
-- `wiki/concepts/afanasyev-resource-distribution-model-ru.md`
-- `wiki/concepts/baptist-audience-public-figure-typing-ru.md`
-- `wiki/concepts/before-we-build-vs-big-five.md`
-- `wiki/concepts/biblical-grounding-policy-ru.md`
-- `wiki/concepts/biblical-grounding-policy-uk.md`
-- `wiki/concepts/biblical-grounding-policy.md`
-- `wiki/concepts/christian-foundation-of-family-ru.md`
-- `wiki/concepts/christian-foundation-of-family-uk.md`
-- `wiki/concepts/christian-foundation-of-family.md`
-- `wiki/concepts/civilian-profile-sli-elvf-vpnb.md`
-- `wiki/concepts/compatibility-level-boundaries-ru.md`
-- `wiki/concepts/compatibility-level-boundaries-uk.md`
-- `wiki/concepts/compatibility-level-boundaries.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb-ru.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb-uk.md`
-- `wiki/concepts/composite-quadra-tetrad-names-ru.md`
-- `wiki/concepts/cross-typology-mapping-framework.md`
-- `wiki/concepts/cross-typology-terminology-conflicts.md`
-- `wiki/concepts/esco-typology-mapping.md`
-- `wiki/concepts/family-formation-principles-ru.md`
-- `wiki/concepts/family-formation-principles-uk.md`
-- `wiki/concepts/family-formation-principles.md`
-- `wiki/concepts/hypothesis-status-of-before-we-build-ru.md`
-- `wiki/concepts/hypothesis-status-of-before-we-build-uk.md`
-- `wiki/concepts/hypothesis-status-of-before-we-build.md`
-- `wiki/concepts/intertype-relation-naming-audit.md`
-- `wiki/concepts/intertype-relations-matrix.md`
-- `wiki/concepts/kalinauskas-steering-wheel.md`
-- `wiki/concepts/latent-process.md`
-- `wiki/concepts/limits-of-typological-inference-ru.md`
-- `wiki/concepts/limits-of-typological-inference-uk.md`
-- `wiki/concepts/limits-of-typological-inference.md`
-- `wiki/concepts/main-idea-ru.md`
-- `wiki/concepts/main-idea-uk.md`
-- `wiki/concepts/main-idea.md`
-- `wiki/concepts/multilingual-translation-policy.md`
-- `wiki/concepts/music-styles-and-psychosophy-emotion-ru.md`
-- `wiki/concepts/music-styles-and-psychosophy-emotion-uk.md`
-- `wiki/concepts/neuroscience-compatibility-bridges.md`
-- `wiki/concepts/project-main-goal.md`
+- `wiki/concepts/project-positioning-en.md`, `wiki/concepts/project-positioning-ru.md`, `wiki/concepts/project-positioning-uk.md`;
+- `wiki/concepts/main-idea-en.md`, `wiki/concepts/main-idea-ru.md`, `wiki/concepts/main-idea-uk.md`;
+- `wiki/concepts/typology-reconceptualization-en.md`, `wiki/concepts/typology-reconceptualization-ru.md`, `wiki/concepts/typology-reconceptualization-uk.md`;
+- `wiki/concepts/latent-process-en.md`, `wiki/concepts/latent-process-ru.md`, `wiki/concepts/latent-process-uk.md`;
+- `wiki/concepts/epistemic-status-and-inference-limits-en.md`, `wiki/concepts/epistemic-status-and-inference-limits-ru.md`, `wiki/concepts/epistemic-status-and-inference-limits-uk.md`.
 
-## Файли про трирівневу модель
+Чинна архітектура має чотири рівні:
 
-- `AGENTS.md`
-- `README.md`
-- `index.md`
-- `raw/general/adekvatnyy-kompromiss-tipologii.md`
-- `raw/general/agentic-research-pipelines.md`
-- `raw/general/autoreasearch.md`
-- `raw/general/existing-validation-research.md`
-- `raw/general/modern-agentic-systems.md`
-- `raw/general/optimal-2026-tech-stack.md`
-- `raw/general/participant-recruitment.md`
-- `raw/general/scientific-validation-plan.md`
-- `raw/general/typology-best-architecture.md`
-- `raw/general/typology-crisis-war.md`
-- `raw/socionics/kalinauskas-steering-wheel.md`
-- `raw/temporistics/bezbiletnik-stowaway.md`
-- `raw/temporistics/critic.md`
-- `raw/temporistics/gost-guest.md`
-- `raw/temporistics/kapitan-captain.md`
-- `raw/temporistics/obyvatel-philistine.md`
-- `raw/temporistics/rulevoi-steversman.md`
-- `raw/temporistics/theory-description.md`
-- `wiki/christian-entity-renaming-audit.md`
-- `wiki/concepts/adequate-compromise-ru.md`
-- `wiki/concepts/adequate-intertype-formats-ru.md`
-- `wiki/concepts/afanasyev-model.md`
-- `wiki/concepts/afanasyev-resource-distribution-model-ru.md`
-- `wiki/concepts/baptist-audience-public-figure-typing-ru.md`
-- `wiki/concepts/before-we-build-vs-big-five.md`
-- `wiki/concepts/compatibility-level-boundaries-ru.md`
-- `wiki/concepts/compatibility-level-boundaries-uk.md`
-- `wiki/concepts/compatibility-level-boundaries.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb-ru.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb-uk.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb.md`
-- `wiki/concepts/composite-quadra-tetrad-names-ru.md`
-- `wiki/concepts/emotion-vs-ethics-boundary.md`
-- `wiki/concepts/esco-typology-mapping.md`
-- `wiki/concepts/hypothesis-status-of-before-we-build-uk.md`
-- `wiki/concepts/intertype-relation-naming-audit.md`
-- `wiki/concepts/intertype-relations-matrix.md`
-- `wiki/concepts/kalinauskas-steering-wheel.md`
-- `wiki/concepts/latent-process.md`
-- `wiki/concepts/main-idea-ru.md`
-- `wiki/concepts/main-idea-uk.md`
-- `wiki/concepts/main-idea.md`
-- `wiki/concepts/music-styles-and-psychosophy-emotion-uk.md`
-- `wiki/concepts/neuroscience-compatibility-bridges.md`
-- `wiki/concepts/project-main-goal.md`
-- `wiki/concepts/project-positioning.md`
-- `wiki/concepts/prophetic-visionary-cognition.md`
-- `wiki/concepts/psychology-of-everything.md`
-- `wiki/concepts/public-figure-typing-agent-pipeline-ru.md`
-- `wiki/concepts/public-figure-typing-methodology-audit-ru.md`
-- `wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-ru.md`
-- `wiki/concepts/research-layer-vs-practical-guidance-uk.md`
-- `wiki/concepts/sociological-compatibility-analogues.md`
-- `wiki/concepts/socionics-function-positions.md`
-- `wiki/concepts/socionics-information-elements.md`
-- `wiki/concepts/socionics-model-a-blocks.md`
-- `wiki/concepts/socionics-model-a.md`
-- `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md`
-- `wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md`
-- `wiki/concepts/test-result-reading-guide-ru.md`
-- `wiki/concepts/test-result-reading-guide-uk.md`
-- `wiki/concepts/test-result-reading-guide.md`
-- `wiki/concepts/typology-test-design-protocol.md`
-- `wiki/concepts/weight-calibration.md`
-- `wiki/entities/avtor-author-ru.md`
-- `wiki/entities/avtor-author-uk.md`
-- `wiki/entities/captain-kapitan-ru.md`
-- `wiki/entities/captain-kapitan-uk.md`
-- `wiki/entities/chronicler-letopisets-ru.md`
-- `wiki/entities/chronicler-letopisets-uk.md`
-- `wiki/entities/eie-ethical-intuitive-extrovert-ru.md`
-- `wiki/entities/eie-ethical-intuitive-extrovert-uk.md`
-- `wiki/entities/eie-ethical-intuitive-extrovert.md`
-- `wiki/entities/eii-ethical-intuitive-introvert-ru.md`
-- `wiki/entities/eii-ethical-intuitive-introvert-uk.md`
-- `wiki/entities/eii-ethical-intuitive-introvert.md`
+| Рівень | Що досліджується | Основна сторінка українською |
+|---|---|---|
+| Ціннісно-моральна основа | Цінності, моральні зобов’язання, спостережувана поведінка, згода, безпека, відповідальність, взаємність і відновлення після шкоди | `wiki/concepts/value-moral-compatibility-uk.md` |
+| Стратегічний | Часова та екзистенційна організація напряму; Temporistics як евристична модель | `wiki/concepts/strategic-compatibility-uk.md` |
+| Операційний | Організація спільної дії; Psychosophy як евристична модель | `wiki/concepts/operational-compatibility-uk.md` |
+| Тактичний | Моделювання та обмін інформацією; Socionics як евристична модель | `wiki/concepts/tactical-compatibility-uk.md` |
 
-## Файли про соціоніку, психософію, темпористику
+Зведення рівнів і правила їх розмежування містять `wiki/concepts/four-level-compatibility-architecture-uk.md` і `wiki/concepts/compatibility-level-boundaries-uk.md`. Відповідні EN і RU сторінки мають ті самі slug, версію, структуру та ідентифікатори тверджень.
 
-- `AGENTS.md`
-- `README.md`
-- `index.md`
-- `raw/general/adekvatnyy-kompromiss-tipologii.md`
-- `raw/general/agentic-research-pipelines.md`
-- `raw/general/ai-research-agents.md`
-- `raw/general/automated-research-plan.md`
-- `raw/general/christian-perspectives.md`
-- `raw/general/existing-validation-research.md`
-- `raw/general/fourth-physics-deep-research.md`
-- `raw/general/optimal-2026-tech-stack.md`
-- `raw/general/participant-recruitment.md`
-- `raw/general/psychosophy-typing-methods.md`
-- `raw/general/scientific-validation-plan.md`
-- `raw/general/simple-research-guide.md`
-- `raw/general/type-distribution-statistics.md`
-- `raw/general/typology-best-architecture.md`
-- `raw/general/typology-crisis-war.md`
-- `raw/psychosophy/aspects.md`
-- `raw/psychosophy/first-function.md`
-- `raw/psychosophy/fourth-function.md`
-- `raw/psychosophy/psychosophy-accentuations.md`
-- `raw/psychosophy/psychosophy-compatibility-research.md`
-- `raw/psychosophy/psychosophy-relation-naming-sources.md`
-- `raw/psychosophy/second-function.md`
-- `raw/psychosophy/third-function.md`
-- `raw/psychosophy/what-is-psychosophy.md`
-- `raw/socionics/bukalov-neural-structures-correlates.md`
-- `raw/socionics/empirical-validation-studies.md`
-- `raw/socionics/iis-41-conference-program-metadata.md`
-- `raw/socionics/information-aspects.md`
-- `raw/socionics/intertype-mapper-scoring.md`
-- `raw/socionics/intertype-relations-ratings.md`
-- `raw/socionics/intertype-relations.md`
-- `raw/socionics/kalinauskas-steering-wheel.md`
-- `raw/socionics/model-a.md`
-- `raw/socionics/opteamyzer-compatibility.md`
-- `raw/socionics/reinin-traits.md`
-- `raw/socionics/socion-app.md`
-- `raw/socionics/subtypes-dcnh.md`
-- `raw/socionics/what-is-socionics.md`
-- `raw/temporistics/author.md`
-- `raw/temporistics/bezbiletnik-stowaway.md`
-- `raw/temporistics/chitatel-reader.md`
-- `raw/temporistics/comet-in-brain-birth-of-temporistics.md`
-- `raw/temporistics/critic.md`
-- `raw/temporistics/filosof-philosopher.md`
-- `raw/temporistics/gost-guest.md`
-- `raw/temporistics/guru.md`
-- `raw/temporistics/how-to-distinguish-author-from-critic.md`
-- `raw/temporistics/izgnannik-exile.md`
-- `raw/temporistics/kapitan-captain.md`
-- `raw/temporistics/khozyain-host.md`
-- `raw/temporistics/letopisets-chronicler.md`
-- `raw/temporistics/mestnyi-local.md`
-- `raw/temporistics/mystery-of-third-aspect.md`
-- `raw/temporistics/obyvatel-philistine.md`
-- `raw/temporistics/passazhir-passenger.md`
-- `raw/temporistics/rulevoi-steversman.md`
-- `raw/temporistics/theory-description.md`
-- `raw/temporistics/types.md`
-- `raw/temporistics/uchenik-student.md`
-- `wiki/christian-entity-renaming-audit.md`
-- `wiki/concepts/adequate-compromise-ru.md`
-- `wiki/concepts/adequate-intertype-formats-ru.md`
-- `wiki/concepts/afanasyev-model.md`
-- `wiki/concepts/afanasyev-resource-distribution-model-ru.md`
-- `wiki/concepts/afanasyev-syntax-of-love.md`
-- `wiki/concepts/baptist-audience-public-figure-typing-ru.md`
-- `wiki/concepts/before-we-build-vs-big-five.md`
-- `wiki/concepts/civilian-profile-sli-elvf-vpnb.md`
-- `wiki/concepts/compatibility-level-boundaries-ru.md`
-- `wiki/concepts/compatibility-level-boundaries-uk.md`
-- `wiki/concepts/compatibility-level-boundaries.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb-ru.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb-uk.md`
-- `wiki/concepts/composite-profile-sli-elvf-vpnb.md`
-- `wiki/concepts/composite-quadra-tetrad-names-ru.md`
-- `wiki/concepts/cross-typology-mapping-framework.md`
-- `wiki/concepts/cross-typology-terminology-conflicts.md`
+Контекст є наскрізною умовою, а безпека — обов’язковим обмеженням. Вони не додають нових рівнів. Типологічний тип тут означає модельну гіпотезу, а не сутність людини, моральний рейтинг або прогноз долі стосунків.
 
-## Файли з християнською / церковною рамкою
+## Christian Before We Build
 
-- `AGENTS.md`
-- `README.md`
-- `index.md`
-- `raw/general/adekvatnyy-kompromiss-tipologii.md`
-- `raw/general/agentic-research-pipelines.md`
-- `raw/general/ai-research-agents.md`
-- `raw/general/automated-research-plan.md`
-- `raw/general/christian-perspectives.md`
-- `raw/general/modern-agentic-systems.md`
-- `raw/general/participant-recruitment.md`
-- `raw/general/psychosophy-typing-methods.md`
-- `raw/general/simple-research-guide.md`
-- `raw/general/typology-crisis-war.md`
-- `raw/temporistics/author.md`
-- `raw/temporistics/comet-in-brain-birth-of-temporistics.md`
-- `raw/temporistics/critic.md`
-- `raw/temporistics/guru.md`
-- `raw/temporistics/how-to-distinguish-author-from-critic.md`
-- `raw/temporistics/theory-description.md`
-- `wiki/christian-entity-renaming-audit.md`
-- `wiki/concepts/adequate-compromise-ru.md`
-- `wiki/concepts/adequate-intertype-formats-ru.md`
-- `wiki/concepts/afanasyev-resource-distribution-model-ru.md`
-- `wiki/concepts/baptist-audience-public-figure-typing-ru.md`
-- `wiki/concepts/biblical-grounding-policy-ru.md`
-- `wiki/concepts/biblical-grounding-policy-uk.md`
-- `wiki/concepts/biblical-grounding-policy.md`
-- `wiki/concepts/christian-foundation-of-family-ru.md`
-- `wiki/concepts/christian-foundation-of-family-uk.md`
-- `wiki/concepts/christian-foundation-of-family.md`
-- `wiki/concepts/composite-quadra-tetrad-names-ru.md`
-- `wiki/concepts/family-formation-principles-ru.md`
-- `wiki/concepts/family-formation-principles-uk.md`
-- `wiki/concepts/family-formation-principles.md`
-- `wiki/concepts/hypothesis-status-of-before-we-build-ru.md`
-- `wiki/concepts/hypothesis-status-of-before-we-build-uk.md`
-- `wiki/concepts/hypothesis-status-of-before-we-build.md`
-- `wiki/concepts/limits-of-typological-inference-uk.md`
-- `wiki/concepts/limits-of-typological-inference.md`
-- `wiki/concepts/main-idea.md`
-- `wiki/concepts/music-styles-and-psychosophy-emotion-uk.md`
-- `wiki/concepts/project-main-goal.md`
-- `wiki/concepts/project-positioning.md`
-- `wiki/concepts/prophetic-visionary-cognition.md`
-- `wiki/concepts/public-figure-typing-agent-pipeline-ru.md`
-- `wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md`
-- `wiki/concepts/public-figure-typing-evidence-protocol-ru.md`
-- `wiki/concepts/public-figure-typing-methodology-audit-ru.md`
-- `wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md`
-- `wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-ru.md`
-- `wiki/concepts/public-language-boundaries.md`
-- `wiki/concepts/report-caveat-standard.md`
-- `wiki/concepts/research-layer-vs-practical-guidance-ru.md`
-- `wiki/concepts/research-layer-vs-practical-guidance-uk.md`
-- `wiki/concepts/research-layer-vs-practical-guidance.md`
-- `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md`
-- `wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md`
-- `wiki/concepts/test-result-reading-guide-ru.md`
-- `wiki/concepts/typologies-as-supporting-tools-ru.md`
-- `wiki/concepts/typologies-as-supporting-tools-uk.md`
-- `wiki/concepts/typologies-as-supporting-tools.md`
-- `wiki/entities/avtor-author-ru.md`
-- `wiki/entities/captain-kapitan-ru.md`
-- `wiki/entities/chronicler-letopisets-ru.md`
-- `wiki/entities/eie-ethical-intuitive-extrovert-ru.md`
-- `wiki/entities/eii-ethical-intuitive-introvert-ru.md`
-- `wiki/entities/ese-ethical-sensory-extrovert-ru.md`
-- `wiki/entities/esi-ethical-sensory-introvert-ru.md`
-- `wiki/entities/exile-izgnannik-ru.md`
-- `wiki/entities/guest-gost-ru.md`
-- `wiki/entities/guru-ru.md`
-- `wiki/entities/host-khozyain-ru.md`
-- `wiki/entities/iee-intuitive-ethical-extrovert-ru.md`
-- `wiki/entities/iei-intuitive-ethical-introvert-ru.md`
-- `wiki/entities/ile-intuitive-logical-extrovert-ru.md`
-- `wiki/entities/ili-intuitive-logical-introvert-ru.md`
-- `wiki/entities/kritik-critic-ru.md`
-- `wiki/entities/lie-logical-intuitive-extrovert-ru.md`
-- `wiki/entities/lii-logical-intuitive-introvert-ru.md`
+Межу спеціалізації задають:
+
+- `wiki/concepts/christian-application-overview-en.md`;
+- `wiki/concepts/christian-application-overview-ru.md`;
+- `wiki/concepts/christian-application-overview-uk.md`.
+
+Каталог `biblical-compatibility/` розвиває Scripture-first герменевтичний, етичний і пастирський шар: реєстр тверджень, біблійні теми, огляди застосування типологій і застереження. Він може уточнювати нормативні джерела Christian application, але не переписує універсальні визначення ядра і не надає типологічним гіпотезам біблійного авторитету.
+
+`Cognitive Matchmaker` залишається майбутнім прикладним дослідницьким треком, а не поточним ядром чи Christian MVP.
+
+## Дослідницькі додатки
+
+Окремий маршрут для дослідника починається з:
+
+- `wiki/concepts/validation-program-en.md`, `wiki/concepts/validation-program-ru.md`, `wiki/concepts/validation-program-uk.md`;
+- `wiki/concepts/compatibility-measurement-roadmap-en.md`, `wiki/concepts/compatibility-measurement-roadmap-ru.md`, `wiki/concepts/compatibility-measurement-roadmap-uk.md`;
+- `wiki/concepts/compatibility-measurement-methods-en.md`, `wiki/concepts/compatibility-measurement-methods-ru.md`, `wiki/concepts/compatibility-measurement-methods-uk.md`;
+- `wiki/concepts/evidence-workflow-and-walkthrough-en.md`, `wiki/concepts/evidence-workflow-and-walkthrough-ru.md`, `wiki/concepts/evidence-workflow-and-walkthrough-uk.md`.
+
+Цей шар охоплює перевірюваність конструктів, психометрику, оцінку джерел, невизначеність, альтернативні пояснення та умови спростування. Дорожня карта вимірювання описує лише передумови майбутньої валідованої моделі. У репозиторії немає чинного BWB score, ваг, відсотків сумісності чи формули вердикту для пари.
+
+## Довідники, сутності та відносини
+
+- `wiki/glossary-core-en.md`, `wiki/glossary-core-ru.md`, `wiki/glossary-core-uk.md` — основні визначення і розмежування термінів.
+- `wiki/glossary-extended-en.md`, `wiki/glossary-extended-ru.md`, `wiki/glossary-extended-uk.md` — розширений технічний довідник.
+- `wiki/entities/` — типологічні коди й сутності з обов’язковими застереженнями щодо висновків.
+- `wiki/relations/` — якісні гіпотези про можливі ресурси, напруження, альтернативні пояснення і те, що слід перевірити в реальній взаємодії.
+
+## Джерела і межа `raw/`
+
+`raw/` є незмінюваним архівом отриманих матеріалів. Наявність тексту в цьому каталозі не означає, що Before We Build погоджується з його формулами, відсотками, типологічними узагальненнями або іншими висновками. Цю межу паралельно пояснює `raw/README.md`.
+
+Чинна оцінка використаного джерела розміщується у відповідній тріаді `wiki/sources/*-en.md`, `wiki/sources/*-ru.md`, `wiki/sources/*-uk.md`. Source-summary окремо фіксує:
+
+- що стверджує автор;
+- які дані наведено;
+- які обмеження виявлено;
+- що BWB приймає;
+- що залишається спірним;
+- що відхилено або збережено лише історично.
+
+## Автоматизація і контроль якості
+
+Основні перевірки:
+
+- `scripts/validate_wiki.py` — frontmatter, мовні тріади, версії, структури, claims, caveats, sources і заборонена термінологія;
+- `scripts/check_wikilinks.py` — шляхи, якорі, старі slug, мовна узгодженість, неоднозначні посилання й сироти;
+- `scripts/audit_claim_language.py` — надмірні наукові, детерміністичні та кількісні формулювання;
+- `scripts/add_wiki_section_ids.py` — однакові стабільні ідентифікатори розділів у мовних партнерах;
+- `scripts/generate_wiki_index.py` — генерація і перевірка `index.md`;
+- `scripts/generate_wiki_inventory.py` — підсумковий машинний звіт про міграцію;
+- `scripts/lint-agents.py` — статична перевірка інструкцій агентів;
+- `tests/test_wiki_quality.py` — регресійні сценарії на стандартному `unittest`.
+
+`.github/workflows/wiki-quality.yml` запускає ці quality gates у CI. `wiki/slug-migrations.json` є однозначним маніфестом старих і нових шляхів; перенаправляючі заглушки не використовуються, історію зберігає Git.
+
+## Як користуватися картою
+
+Новому читачеві слід почати зі Start Here своєю мовою. Для практичного християнського застосування після огляду універсального ядра перейти до Christian application. Для перевірки доказовості перейти до validation program і source summaries. Архівні `raw/` матеріали слід читати лише як джерела, а не як чинну позицію проєкту.

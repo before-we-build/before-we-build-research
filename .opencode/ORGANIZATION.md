@@ -2,7 +2,7 @@
 
 Based on best practices from McKinsey, ClawPort, and enterprise deployments (2025-2026).
 
-## Hierarchy (3 Levels)
+## Agent hierarchy (3 tiers)
 
 ```
 master-orchestrator (gold) ⚜
@@ -19,12 +19,13 @@ master-orchestrator (gold) ⚜
 │   ├── christian-theology-researcher (sienna)
 │   ├── baptist-pastor (saddlebrown)
 │   └── military-roles-researcher (darkgreen)
-├── Typing Team  
+├── Typing Team
 │   ├── psychosophy-interview-typer (green)
 │   ├── psychosophy-test-typer (green)
 │   └── psychosophy-quick-typer (green)
 ├── Analysis Team
-│   ├── compatibility-calculator (red)
+│   ├── compatibility-conversation-mapper (red)
+│   ├── compatibility-measurement-researcher (crimson)
 │   ├── military-specialty-advisor (olive)
 │   └── civilian-career-advisor (steelblue)
 ├── Wiki Team
@@ -52,14 +53,14 @@ master-orchestrator (gold) ⚜
 **Purpose:** Controlled self-improvement of `.opencode/agents/*.md`, including learning logs, improvement proposals, review-gated instruction patches, and preservation of delegation-first behavior.
 **Storage:** `.agent-learning/`
 
-### 2. Typing Team  
-**Lead:** (no dedicated lead yet)
-**Purpose:** Psychosophy type determination
-**Agents:** 3 Psychosophy typing specialists
+### 2. Typing Team
+**Lead:** typing-lead
+**Purpose:** Coordinating provisional Psychosophy hypotheses, rival explanations, evidence limits, and `insufficient data` outcomes
+**Agents:** 3 exploratory Psychosophy hypothesis readers
 
 ### 3. Analysis Team
-**Lead:** compatibility-calculator
-**Purpose:** Multi-type analysis and recommendations
+**Lead:** compatibility-conversation-mapper
+**Purpose:** Qualitative, context-specific evidence maps and research planning for possible future measurement; no current compatibility score
 
 ### 4. Wiki Team
 **Lead:** wiki-consistency-checker
@@ -95,16 +96,16 @@ master-orchestrator (gold) ⚜
 
 ```
 1. User → master-orchestrator
-2. Orchestrator → (route to typing team)
-3. Typing team → get all 3 types
-4. Types → military-specialty-advisor
-5. Advisor → recommendation
+2. Orchestrator → military-specialty-advisor
+3. Advisor → verify current role requirements and gather relevant qualifications, experience, preferences, and constraints
+4. Advisor → non-ranked comparison, unknowns, and authoritative next checks
+5. Typology is not used for selection, exclusion, or assignment
 ```
 
 ### Update Flow: "Update military roles"
 
 ```
-1. User → master-orchestrator  
+1. User → master-orchestrator
 2. Orchestrator → military-roles-researcher
 3. Researcher → web search → updates data
 4. Notify military-specialty-advisor
@@ -157,7 +158,7 @@ master-orchestrator (gold) ⚜
 ## Future Expansion
 
 Reserved slots for:
-- Date/socionics matching system
+- Qualitative conversation-mapping and research-validation support
 - Content generation team
 - External API integrations
 

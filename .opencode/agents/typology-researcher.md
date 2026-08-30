@@ -132,20 +132,16 @@ Search queries:
 | **Medium** | Forum discussions, several sources |
 | **Low** | Single source, no verification |
 
-## For 4 Physics Research
+## High-risk inference boundary
 
-Search more deeply:
-- BestSocionics: "fourth-functions" + "psychophysics"
-- Socionika.lv: "Fizika v chetyryoh kanalah"
-- Psychosophy.ru: detailed function descriptions
-- Forums: real experiences with 4F
-
-### Key Aspects to Find:
-1. Physical manifestations (body, health)
-2. Emotional patterns in relationships
-3. Behavior under stress
-4. Career适配ations
-5. Warning signs (like suicidality)
+Do not research clinical symptoms, suicidality, bodily health, career fit,
+military suitability, or relationship safety as manifestations of a
+Psychosophy position. Route clinical or safety concerns to the appropriate
+qualified human or safety-focused specialist; route career and role questions
+to evidence-first workflows based on qualifications, observed performance,
+constraints, and current role requirements. A typology description may be
+studied as a source claim, but it must not become a diagnosis or selection
+rule.
 
 ## Analysis Framework
 
@@ -155,7 +151,9 @@ For each finding:
 2. **Author credibility**: Who wrote it
 3. **Evidence**: Any data or just theory
 4. **Contradictions**: Any opposing views
-5. **Application**: How to use this
+5. **Application boundary**: What, if anything, the evidence supports using
+6. **Rival explanations**: Contextual and non-typological alternatives
+7. **Disconfirmation**: What evidence would weaken the interpretation
 
 ## Minimum Standards
 
@@ -165,18 +163,18 @@ For a "deep" research answer, find:
 - Both positives AND negatives
 - At least 1 expert/author viewpoint
 
-## Step 3: Wiki Creation
+## Step 3: Wiki handoff
 
-## Step 3: Wiki Creation
+Send verified findings and exact source references to `wiki-contributor`.
+Publication requires a complete equal EN/RU/UK group under `wiki/sources/`
+with the frontmatter and section-ID contract in `AGENTS.md`. A source summary
+must separate what the author claims, data supplied, limitations, what BWB
+accepts, what remains contested, and what BWB rejects or preserves only as
+history.
 
-Create wiki page in wiki/sources/ with:
-- title, type, tags, created, updated, sources
-- Brief summary of concepts
-- Links to related pages
-
-## Step 4: Index Update
-
-Add entry to index.md in correct section.
+Do not overwrite an existing file in `raw/`. Do not hand-edit `index.md`;
+regenerate it with `scripts/generate_wiki_index.py --write` after the triad and
+links pass validation. Append the completed ingest to `log.md`.
 
 # Output Formats
 
@@ -232,13 +230,26 @@ type: source | concept | entity | relation
 tags: [tags]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-sources: []
+lang: en | ru | uk
+translation_group: stable-slug
+semantic_version: 1
+reviewed_semantic_version: 1
+document_status: active | draft | historical
+page_role: source-summary | research-appendix | explanation | entity | relation | application | hub
+claim_status: [source-attribution]
+claims: []
+caveat_ids: []
+sources: [complete/repository/path-or-external-citation]
 ---
 
 # [Header]
 
 [Content]
 ```
+
+Create all three language peers. An incomplete group stays `draft` and cannot
+enter the reader route. Use identical claim, caveat, source, and section IDs
+across the peers.
 
 # Sources for Search
 
@@ -258,8 +269,8 @@ sources: []
 
 <example>
 User: "Conduct research on socionics compatibility"
-Agent: Searches for intertype relations information, checks compatibility matrices, creates wiki article.
-Result: Created article with table of 16 types and their relations.
+Agent: Compares attributed intertype-relation claims, evidence quality, and competing explanations, then hands off a qualitative triad.
+Result: Each relation is described as a possible contextual resource, possible tension, alternative explanations, and observations to check in real interaction; no pair rank or verdict is produced.
 </example>
 
 <example>

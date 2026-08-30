@@ -33,17 +33,19 @@ Support:
 Always keep the core claim safe:
 
 - Before We Build is a research-oriented framework.
-- Cognitive Matchmaker is an applied matching concept.
-- Compatibility scores are not guarantees.
+- The Christian conversation map is the first developed application of the universal core.
+- Before We Build does not currently provide pair compatibility scores.
 - Typologies are heuristic lenses, not fixed identities.
+- Cognitive Matchmaker, when named, is a future dating research track rather
+  than the current MVP or the definition of Before We Build.
 
 # CTA Types
 
 Use CTAs such as:
 
-- “Comment ‘3 layers’ and I’ll explain the model.”
-- “Would you try global matching without swipes?”
-- “Join the waitlist.”
+- “Comment ‘4 levels’ and I’ll explain the model.”
+- “Which shared decision deserves a better conversation?”
+- “Volunteer for a research interview.”
 - “Tell me your biggest dating-app frustration.”
 - “Follow for the build-in-public series.”
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from __future__ import annotations
 """
 OpenCode Agent Manifest Linter.
 
@@ -7,7 +6,9 @@ Validates agent markdown files against manifest schema rules and checks that
 agent model IDs point to реально доступные модели в текущем OpenCode setup.
 """
 
-import json
+from __future__ import annotations
+
+import argparse
 import re
 import subprocess
 import sys
@@ -77,9 +78,6 @@ def load_available_models() -> tuple[dict[str, set[str]], str | None]:
         return {}, f"{ERRORS['opencode_unavailable']}: {exc}"
 
 
-AVAILABLE_MODELS, MODEL_LOAD_ERROR = load_available_models()
-
-
 def load_registered_agents() -> tuple[set[str], str | None]:
     try:
         proc = subprocess.run(
@@ -102,50 +100,55 @@ def load_registered_agents() -> tuple[set[str], str | None]:
         return set(), f"Could not query agents from opencode CLI: {exc}"
 
 
-REGISTERED_AGENTS, AGENT_LOAD_ERROR = load_registered_agents()
-
-
-def lint_file(filepath: Path) -> list[dict[str, str]]:
+def lint_file(
+    filepath: Path,
+    *,
+    available_models: dict[str, set[str]] | None = None,
+    model_load_error: str | None = None,
+    registered_agents: set[str] | None = None,
+    agent_load_error: str | None = None,
+    static_only: bool = False,
+) -> list[dict[str, str]]:
     errors = []
     content = filepath.read_text()
-    
+
     if not content.startswith("---"):
         return errors
-    
+
     frontmatter_end = content[3:].find("---")
     if frontmatter_end == -1:
         return errors
-    
+
     frontmatter = content[3:frontmatter_end]
     lines = frontmatter.strip().split("\n")
-    
+
     fields = {}
     for line in lines:
         if ":" in line:
             key = line.split(":", 1)[0].strip()
             value = line.split(":", 1)[1].strip()
             fields[key] = value
-    
+
     if re.search(r"^permission:", content, re.MULTILINE):
         errors.append({"code": "permission_singular", "msg": ERRORS["permission_singular"]})
-    
+
     if re.search(r"^reports_to:", content, re.MULTILINE):
         errors.append({"code": "reports_to_underscore", "msg": ERRORS["reports_to_underscore"]})
-    
+
     if "color" in fields:
         color_val = fields["color"].strip().strip('"').strip("'")
         if not re.match(r"^#[0-9A-Fa-f]{6}$", color_val):
             errors.append({"code": "invalid_color", "msg": ERRORS["invalid_color"]})
-    
+
     extra_keys = {"cron", "time", "questions"}
     for key in extra_keys:
         if key in fields:
             errors.append({"code": "extra_keys", "msg": ERRORS["extra_keys"]})
-    
+
     for field in REQUIRED_FIELDS:
         if field not in fields:
             errors.append({"code": "missing_required", "msg": ERRORS["missing_required"].format(field=field)})
-    
+
     if "name" in fields:
         agent_name = fields["name"].strip().strip('"').strip("'")
         if filepath.stem != agent_name:
@@ -154,14 +157,14 @@ def lint_file(filepath: Path) -> list[dict[str, str]]:
                 "msg": f"{ERRORS['filename_name_mismatch']}: file '{filepath.stem}', name '{agent_name}'",
             })
 
-        if AGENT_LOAD_ERROR:
-            errors.append({"code": "agent_registry_unavailable", "msg": AGENT_LOAD_ERROR})
-        elif agent_name not in REGISTERED_AGENTS:
+        if not static_only and agent_load_error:
+            errors.append({"code": "agent_registry_unavailable", "msg": agent_load_error})
+        elif not static_only and registered_agents is not None and agent_name not in registered_agents:
             errors.append({
                 "code": "agent_not_registered",
                 "msg": f"{ERRORS['agent_not_registered']}: '{agent_name}'",
             })
-    
+
     if "model" in fields:
         model_val = fields["model"].strip().strip('"').strip("'")
         if "/" not in model_val:
@@ -169,17 +172,17 @@ def lint_file(filepath: Path) -> list[dict[str, str]]:
                 "code": "invalid_model_format",
                 "msg": f"{ERRORS['invalid_model_format']}: '{model_val}'",
             })
-        elif MODEL_LOAD_ERROR:
-            errors.append({"code": "opencode_unavailable", "msg": MODEL_LOAD_ERROR})
-        else:
+        elif not static_only and model_load_error:
+            errors.append({"code": "opencode_unavailable", "msg": model_load_error})
+        elif not static_only and available_models is not None:
             provider, model_name = model_val.split("/", 1)
-            if provider not in AVAILABLE_MODELS:
+            if provider not in available_models:
                 errors.append({
                     "code": "unknown_provider",
                     "msg": ERRORS["unknown_provider"].format(provider=provider),
                 })
-            elif model_name not in AVAILABLE_MODELS[provider]:
-                known = ", ".join(sorted(AVAILABLE_MODELS[provider]))
+            elif model_name not in available_models[provider]:
+                known = ", ".join(sorted(available_models[provider]))
                 errors.append({
                     "code": "unavailable_model",
                     "msg": f"{ERRORS['unavailable_model'].format(model=model_name, provider=provider)}. Available: {known}",
@@ -188,16 +191,38 @@ def lint_file(filepath: Path) -> list[dict[str, str]]:
     return errors
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--static-only",
+        action="store_true",
+        help="skip OpenCode runtime/model registry checks (for portable CI)",
+    )
+    args = parser.parse_args()
+
     if not AGENTS_DIR.exists():
         print("No .opencode/agents directory found")
         sys.exit(0)
-    
+
+    if args.static_only:
+        available_models, model_load_error = None, None
+        registered_agents, agent_load_error = None, None
+    else:
+        available_models, model_load_error = load_available_models()
+        registered_agents, agent_load_error = load_registered_agents()
+
     all_errors = {}
     for md_file in AGENTS_DIR.glob("*.md"):
-        errors = lint_file(md_file)
+        errors = lint_file(
+            md_file,
+            available_models=available_models,
+            model_load_error=model_load_error,
+            registered_agents=registered_agents,
+            agent_load_error=agent_load_error,
+            static_only=args.static_only,
+        )
         if errors:
             all_errors[md_file] = errors
-    
+
     if all_errors:
         print("OpenCode Agent Linter: ERRORS FOUND\n")
         for file, errors in all_errors.items():

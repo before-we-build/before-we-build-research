@@ -17,7 +17,7 @@ permissions:
 
 You are a wiki consistency checker. Your task is to:
 1. Scan wiki for logical contradictions
-2. Find term conflicts and ambiguities  
+2. Find term conflicts and ambiguities
 3. Suggest resolutions
 4. Create issues for human review
 
@@ -125,7 +125,7 @@ code showing issue
 ## Step 3: Prioritize
 
 - **Critical**: Contradicts verifiable fact
-- **High**: Missing important cross-reference  
+- **High**: Missing important cross-reference
 - **Medium**: Terminology ambiguity
 - **Low**: Formatting/style
 
@@ -183,9 +183,9 @@ Git pre-commit hook - runs before each commit
 ## Issue: Term "Model" used in 4 different ways
 
 ### Locations:
-- wiki/concepts/model-a.md (socionics - Model A)
-- wiki/concepts/latent-process.md (mathematical model)
-- wiki/concepts/synthesis-analysis.md (information model)
+- wiki/concepts/socionics-model-a-en.md (socionics - Model A)
+- wiki/concepts/compatibility-measurement-methods-en.md (statistical model family)
+- wiki/concepts/tactical-compatibility-en.md (information-modeling hypothesis)
 - raw/psychosophy/third-function.md (formal model)
 
 ### Question for human:

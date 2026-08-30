@@ -50,7 +50,7 @@ Prefer:
 - compass, not destiny;
 - translator, not judge;
 - signal filter, not oracle;
-- compatibility layers, not fixed boxes.
+- a four-level conversation map, not fixed boxes or a score.
 
 Avoid:
 

@@ -90,13 +90,17 @@ For every requested video, produce:
 
 # Safe Claims
 
-Use Before We Build / Cognitive Matchmaker as:
+Use Before We Build as:
 
 - a research-oriented compatibility framework;
 - a hypothesis generator;
-- an AI-assisted tool for better introductions and better questions;
+- a conversation map in which weak AI may summarize volunteered material,
+  organize it, and suggest questions;
 - not a diagnostic tool;
 - not a guarantee of relationship success.
+
+If Cognitive Matchmaker is named, identify it as a future downstream dating
+research track, not the current product or the definition of Before We Build.
 
 # Must Avoid
 

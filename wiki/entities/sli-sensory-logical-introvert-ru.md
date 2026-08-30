@@ -3,31 +3,50 @@ title: Соционический тип SLI — Габен
 type: entity
 tags: [socionics, tactical-level, type-hypothesis, sli, ru]
 created: 2026-04-30
-updated: 2026-04-30
+updated: 2026-08-30
 lang: ru
-canonical: sli-sensory-logical-introvert.md
-translation_of: sli-sensory-logical-introvert.md
-sources: [wiki/entities/sli-sensory-logical-introvert.md, wiki/entities/socionics-overview-ru.md, wiki/concepts/test-result-reading-guide-ru.md]
+sources: ["raw/socionics/what-is-socionics.md", "raw/socionics/model-a.md", "wiki/entities/socionics-overview-ru.md", "wiki/concepts/compatibility-level-boundaries-ru.md", "wiki/concepts/test-result-reading-guide-ru.md"]
+translation_group: sli-sensory-logical-introvert
+semantic_version: 1
+reviewed_semantic_version: 1
+document_status: active
+page_role: entity
+claim_status: [source-attribution, research-hypothesis]
+claims: []
+caveat_ids: []
 ---
-
 # Соционический тип SLI — Габен
 
-Эта страница описывает только **тактический уровень Соционики**: рабочую гипотезу об информационном моделировании, стиле восприятия сигналов, фактов, контекста и общения. Это не MBTI-тип, не диагноз и не полный портрет личности.
+[[sli-sensory-logical-introvert-en|English]] · Русский · [[sli-sensory-logical-introvert-uk|Українська]]
 
-## Кратко
+<!-- section:definition -->
+Страница фиксирует **гипотезу тактического уровня Соционики** об информационном моделировании и обмене. Это не MBTI-тип, диагноз, полный портрет личности или детерминированный вердикт об отношениях.
+
+<!-- section:code -->
+## Краткая справка
 
 - Код: **SLI**
-- Традиционный псевдоним: **Габен**
-- Модель A / стек функций: **1Si 2Te 3Fi 4Ne 5Ni 6Fe 7Ti 8Se**
+- Традиционно приписываемый псевдоним: **Габен**
+- Обозначение Модели A, используемое в репозитории: **1Si 2Te 3Fi 4Ne 5Ni 6Fe 7Ti 8Se**
 
-## Как читать после теста
+<!-- section:reading -->
+## Как читать
 
-Top-3 результата показывает ближайшие варианты по текущим ответам. Используйте страницу как список вопросов: какие ситуации действительно похожи, где описание спорно, и какие альтернативы стоит сравнить.
+Используйте страницу как повод для сравнения, а не ярлык идентичности. Проверяйте, какие повторяющиеся информационные задачи совпадают, какие альтернативы остаются правдоподобными и где роль, опыт, язык, стресс или контекст объясняют наблюдение лучше.
 
+<!-- section:caveat -->
 ## Важно
 
-Соционический результат не описывает духовную зрелость, характер, профессию или судьбу отношений. В Before We Build это только тактический слой — как человек может моделировать информацию и общение.
+Гипотеза не определяет нравственность, достоинство, духовную зрелость, профессию, безопасность или исход отношений. Названия отношений — структурные мнемоники, а не шкала от лучшего к худшему.
 
+<!-- section:questions -->
+## Вопросы для проверки
+
+- Какую информацию человек повторяющимся образом замечает, запрашивает или пропускает?
+- Какие виды исправления помогают или мешают в сопоставимых задачах?
+- Какие данные отличают этот код от ближайших альтернатив?
+
+<!-- section:see-also -->
 ## См. также
 
 - [[socionics-overview-ru]]

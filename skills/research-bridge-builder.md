@@ -40,7 +40,7 @@ epistemic_status: "hypothesis | prototype | validated component"
 
 - `Socionics/Psychosophy/Temporistics` -> `heuristic schema languages for latent-process hypothesis generation`
 - `typological profile` -> `multi-level structured cognitive and action profile`
-- `compatibility score` -> `multi-level provisional compatibility hypothesis`
+- `global compatibility verdict` -> `context-specific, multi-level conversation hypothesis`
 - `matchmaking truth` -> `predictive hypothesis requiring empirical human validation`
 
 ## Dependencies

@@ -1,0 +1,632 @@
+---
+title: Psychosophy Physics Functions — 1F, 2F, 3F, 4F
+type: source
+tags: [psychosophy, physics, body, material-life, operational-level, project-hypothesis]
+created: 2026-06-07
+updated: 2026-07-26
+lang: en
+sources: [wiki/sources/psychosophy-detailed-en.md, wiki/sources/fourth-physics-deep-research-en.md, raw/general/fourth-physics-deep-research.md, raw/psychosophy/what-is-psychosophy.md, raw/psychosophy/psychosophy-accentuations.md]
+translation_group: psychosophy-physics-functions
+semantic_version: 1
+reviewed_semantic_version: 1
+document_status: active
+page_role: source-summary
+claim_status: [source-attribution]
+claims: []
+caveat_ids: []
+---
+
+# Psychosophy Physics Functions — 1F, 2F, 3F, 4F
+
+Languages: **English** | [[psychosophy-physics-functions-ru|Русский]] | [[psychosophy-physics-functions-uk|Українська]]
+
+<!-- section:status-and-boundary -->
+## Status and boundary
+
+This page is a **Before We Build research-layer synthesis** of the Physics aspect in Psychosophy across all four positions. It is not a medical, sexual, moral, or spiritual diagnosis.
+
+In Before We Build, Psychosophy belongs to the **operational level**: it describes how a person organizes action, pressure, priorities, analysis, synthesis, and practical embodiment. Physics is the operational aspect that touches the body and material life.
+
+Use the page as a map for questions and observation, not as a verdict about a person.
+
+<!-- section:what-physics-means-here -->
+## What Physics means here
+
+**Physics / F / Физика** is the aspect of:
+
+- body and bodily needs;
+- food, sleep, health routines, rest, fatigue;
+- comfort, temperature, clothes, appearance, hygiene;
+- money, possessions, household, practical resources;
+- sensual and bodily pleasure, including sexuality as one possible part of bodily life;
+- practical maintenance of the shared physical environment.
+
+Before We Build reads Physics not as “how strong the body is,” but as **how the person organizes the bodily-material sphere**: what they notice, what they prioritize, what they negotiate, what they avoid, what they outsource, and where they need support.
+
+<!-- section:safety-and-interpretation-rules -->
+## Safety and interpretation rules
+
+1. **Do not equate Physics position with health.** Sleep problems, illness, depression, trauma, medication, addiction, hormonal factors, neurological factors, poverty, war stress, or unsafe living conditions can override typological patterns.
+2. **Do not turn libido into a type verdict.** Some source descriptions link 4F with low priority of sexuality or weak libido, but Before We Build treats that as source-language to handle cautiously. Libido is affected by health, hormones, attachment, trauma, faith convictions, relationship safety, stress, shame, medication, and many other non-typological factors.
+3. **Distinguish priority from capacity.** A person can have strong physical capacity but low material self-prioritization, or high concern about the body while being physically ill or exhausted.
+4. **Distinguish body from morality.** Sexual restraint, faithfulness, modesty, greed, gluttony, laziness, self-control, care for spouse, and stewardship must not be reduced to Physics position.
+5. **Clinical and safety concerns come first.** Self-harm language, eating disorder signs, severe self-neglect, sexual coercion, abuse, addiction, or serious medical symptoms require human/clinical/pastoral support, not typological interpretation.
+
+<!-- section:quick-comparison -->
+## Quick comparison
+
+| Position | Working name | Short pattern | Typical need |
+|---|---|---|---|
+| **1F** | Primary material organizer | “I know what is materially right and will set it.” | Respect for standards plus humility toward others' needs |
+| **2F** | Cooperative material organizer | “Let's arrange comfort and resources so it works for both.” | Real shared process and room to care practically |
+| **3F** | Anxious material processor | “Is this enough, safe, attractive, decent, healthy?” | Patient reassurance, stable routines, no shaming |
+| **4F** | Material frame-taker | “Give me a working material frame; I will adapt.” | External structure, reminders, care without infantilizing |
+
+<!-- section:1f-first-physics-primary-material-organization -->
+## 1F — First Physics: primary material organization
+
+<!-- section:core-pattern -->
+### Core pattern
+
+1F treats the bodily-material sphere as something that should be brought into a clear result. It can quickly see what is enough, what is wasteful, what is comfortable, what is practical, and what physical standard should be kept.
+
+In Before We Build terms, 1F often performs **fast material synthesis**:
+
+```text
+notices material variables → selects a standard → builds a practical result → expects the result to hold
+```
+
+<!-- section:what-1f-tends-to-notice -->
+### What 1F tends to notice
+
+- whether the room, food, clothes, tools, transport, money, or schedule are practically adequate;
+- whether resources are being wasted;
+- whether the household has a stable material order;
+- whether the body is fed, rested, warm, clean, and practically maintained;
+- whether a purchase, repair, routine, or physical arrangement is “worth it.”
+
+<!-- section:strengths -->
+### Strengths
+
+- can set concrete household standards;
+- often handles money, repairs, equipment, food, clothes, and bodily routines decisively;
+- can protect the family from chaos, waste, or impractical fantasies;
+- notices practical consequences that more abstract partners may ignore;
+- can build a stable physical base for shared life.
+
+<!-- section:risks -->
+### Risks
+
+- may impose material standards as if they are obvious to everyone;
+- may treat comfort, food, beauty, money, sex, or practical order as “simple” topics while others experience them as vulnerable;
+- may dismiss 3F anxiety as weakness or fussiness;
+- may over-identify care with provision, control, or practical correctness;
+- may confuse “my standard works” with “this is the only reasonable standard.”
+
+<!-- section:examples -->
+### Examples
+
+**Household budget**
+
+- 1F says: “Rent, food, reserve, transport, repair fund. This is the base. We do not touch it.”
+- Healthy form: creates stability and protects the household.
+- Unhealthy form: refuses to discuss why the partner needs a different comfort or spending rhythm.
+
+**Food and bodily routine**
+
+- 1F can quickly decide: “This is enough food, that is junk, this schedule works.”
+- Healthy form: provides structure.
+- Risk: may not notice that the partner's body, stress, illness, pregnancy, medication, or work rhythm requires another arrangement.
+
+**Appearance**
+
+- 1F may have a clear sense of what is acceptable, beautiful, durable, or practical.
+- Healthy form: helps maintain dignity and order.
+- Risk: may shame someone whose Physics is more vulnerable.
+
+**Sexuality**
+
+- 1F may treat sexuality as a concrete embodied part of marriage rather than an abstract theme.
+- Healthy form: can value consistency, bodily care, and practical tenderness.
+- Risk: can become too result-oriented or insufficiently attentive to emotional, spiritual, health, trauma, or consent boundaries. This must be handled ethically and pastorally, not typologically.
+
+<!-- section:helpful-questions -->
+### Helpful questions
+
+- Do I ask what the other person's body and comfort actually need, or do I assume?
+- Do I use provision as service or as control?
+- Can I distinguish stewardship from material dominance?
+- Can I slow down when another person needs process, reassurance, or safety?
+
+<!-- section:2f-second-physics-cooperative-material-organization -->
+## 2F — Second Physics: cooperative material organization
+
+<!-- section:core-pattern-2 -->
+### Core pattern
+
+2F treats the bodily-material sphere as a shared process. It tends to ask, adjust, compare needs, and build workable routines together.
+
+Before We Build pattern:
+
+```text
+notices own and others' needs → discusses options → adapts routine → keeps practical comfort relational
+```
+
+<!-- section:what-2f-tends-to-notice -->
+### What 2F tends to notice
+
+- whether another person is hungry, cold, tired, uncomfortable, overloaded, or physically unsupported;
+- whether the shared home, meal, trip, budget, or schedule works for all involved;
+- how to make practical life more humane without turning it into a battle;
+- small material adjustments that make cooperation easier.
+
+<!-- section:strengths-2 -->
+### Strengths
+
+- good at practical care and hospitality;
+- can mediate different comfort standards;
+- often notices unspoken bodily or household needs;
+- can help 3F without humiliating them;
+- can support 4F with structure while preserving autonomy;
+- can turn resources, routines, and comfort into shared service.
+
+<!-- section:risks-2 -->
+### Risks
+
+- may over-care and forget boundaries;
+- may carry too much household or bodily responsibility for others;
+- may enable passivity if always solving practical issues for a 4F partner;
+- may avoid necessary material decisions because they want everyone comfortable;
+- can be taken for granted.
+
+<!-- section:examples-2 -->
+### Examples
+
+**Shared apartment or marriage household**
+
+- 2F says: “Let's see what temperature, food, cleaning rhythm, and spending level works for both of us.”
+- Healthy form: turns material life into cooperation.
+- Risk: keeps adjusting forever while avoiding a final standard.
+
+**Illness or exhaustion**
+
+- 2F notices: “You are saying you are fine, but you did not eat and your face changed.”
+- Healthy form: offers concrete care.
+- Risk: becomes controlling if care is not requested or if adult autonomy is ignored.
+
+**Money**
+
+- 2F can discuss: “What makes you feel safe? What amount should remain flexible? What is enough for hospitality?”
+- Healthy form: builds a budget that breathes.
+- Risk: avoids hard limits when limits are needed.
+
+**Sexuality**
+
+- 2F may be attentive to bodily comfort, mutuality, tenderness, timing, and practical context.
+- Healthy form: asks, listens, adapts, and connects bodily care with relational care.
+- Risk: may over-adapt or read the other person's bodily state without enough explicit conversation.
+
+<!-- section:helpful-questions-2 -->
+### Helpful questions
+
+- Am I caring, or am I taking responsibility that belongs to another adult?
+- Did we make a real decision, or did we only keep everyone comfortable for now?
+- Do I ask clearly rather than guessing bodily needs?
+- Can I serve without becoming invisible?
+
+<!-- section:3f-third-physics-anxious-material-processing -->
+## 3F — Third Physics: anxious material processing
+
+<!-- section:core-pattern-3 -->
+### Core pattern
+
+3F treats the bodily-material sphere as important but vulnerable. It often processes the body, appearance, money, comfort, strength, health, sexuality, and adequacy with heightened sensitivity.
+
+Before We Build pattern:
+
+```text
+notices material vulnerability → analyzes adequacy → fears judgment or insufficiency → struggles to settle into stable comfort
+```
+
+<!-- section:what-3f-tends-to-notice -->
+### What 3F tends to notice
+
+- whether the body is attractive, strong, healthy, acceptable, or “enough”;
+- whether money and possessions are sufficient or embarrassing;
+- whether comfort is legitimate or excessive;
+- whether needs will be mocked, ignored, or used against them;
+- whether sexual/bodily vulnerability is safe.
+
+<!-- section:strengths-3 -->
+### Strengths
+
+- can become very attentive to embodied life because it matters deeply;
+- may notice subtle discomfort, shame, poverty signals, health anxieties, or physical insecurity;
+- can develop careful stewardship after receiving patient support;
+- may bring necessary seriousness to money, body, home, and intimacy questions;
+- can understand people who feel materially exposed or ashamed.
+
+<!-- section:risks-3 -->
+### Risks
+
+- anxiety about appearance, money, sex, health, or comfort can become consuming;
+- may oscillate between deprivation and overcompensation;
+- may experience practical feedback as humiliation;
+- may compare bodies, income, clothes, housing, or sexual adequacy painfully;
+- can become trapped in “not enough / too much / wrong / shameful” loops.
+
+<!-- section:examples-3 -->
+### Examples
+
+**Appearance and clothing**
+
+- 3F may ask internally: “Do I look poor? Too much? Not attractive? Ridiculous?”
+- Healthy support: specific reassurance without mockery; practical help choosing clothes.
+- Harmful response: “Why do you care so much? Stop being vain.”
+
+**Money**
+
+- 3F may fear both poverty and greed: “Are we irresponsible? Are we too poor? Am I demanding too much?”
+- Healthy form: clear budget, stable categories, gentle review.
+- Risk: endless anxiety if numbers are vague.
+
+**Body and health**
+
+- 3F can be very sensitive to bodily signals, sometimes with anxiety.
+- Healthy form: reasonable routines, medical consultation when needed, no shame.
+- Risk: typology must not replace medical assessment.
+
+**Sexuality**
+
+- 3F may carry vulnerability around desirability, bodily adequacy, performance, shame, or safety.
+- Healthy form: patient marital conversation, consent, tenderness, spiritual and emotional safety.
+- Risk: pressure, jokes, comparison, pornography-shaped expectations, or moralizing can wound deeply. Typology must never be used to demand sexual access or to shame a spouse.
+
+<!-- section:helpful-questions-3 -->
+### Helpful questions
+
+- What exact material fear is active: money, body, comfort, attractiveness, health, safety, sex, or shame?
+- What stable routine would reduce ambiguity?
+- Who can give practical support without mockery?
+- Am I treating a health or trauma issue as “just typology”?
+
+<!-- section:4f-fourth-physics-material-frame-taking -->
+## 4F — Fourth Physics: material frame-taking
+
+<!-- section:core-pattern-4 -->
+### Core pattern
+
+4F treats the bodily-material sphere as low-priority until an external frame makes it concrete. It can adapt to existing conditions and may not initiate material self-care, household structure, money planning, comfort negotiation, or bodily routines unless the context requires it.
+
+Before We Build pattern:
+
+```text
+minimal independent material analysis → accepts external frame → adapts to conditions → may neglect own bodily needs under pressure
+```
+
+<!-- section:what-4f-tends-not-to-prioritize -->
+### What 4F tends not to prioritize
+
+- hunger, fatigue, sleep, temperature, clothing, appearance, bodily discomfort;
+- money details or household systems unless someone makes them explicit;
+- personal comfort preferences;
+- sexual or sensual priority as a central value, in some source descriptions;
+- maintenance of the material environment when attention is absorbed elsewhere.
+
+<!-- section:strengths-4 -->
+### Strengths
+
+- often easygoing about food, comfort, household preferences, and material conditions;
+- can live simply without dramatizing discomfort;
+- may be less tempted by luxury, status objects, or bodily vanity;
+- can integrate into a well-built household or practical system;
+- may be faithful and undemanding when the frame is healthy.
+
+<!-- section:risks-4 -->
+### Risks
+
+- may neglect eating, sleeping, warmth, hygiene, health routines, money, or physical safety;
+- may not notice that conditions are becoming harmful;
+- may accept another person's habits too easily;
+- may become passive under stress;
+- may need external reminders but resent being treated like a child;
+- source descriptions around melancholy, sexuality, or self-harm must be handled with extreme caution and not normalized as “type.”
+
+<!-- section:libido-and-sexuality-caveat -->
+### Libido and sexuality caveat
+
+Some raw source notes describe 4F as having low sexual priority or weak libido. Before We Build should translate this carefully:
+
+- safe wording: “sexuality and bodily pleasure may be low-priority in some 4F descriptions”;
+- unsafe wording: “4F people have low libido”;
+- forbidden use: using 4F to dismiss a spouse's needs, shame a person, excuse coldness, pressure someone, predict faithfulness, or ignore medical/trauma factors.
+
+Libido belongs to a larger human context: health, hormones, sleep, stress, attachment, trauma, conscience, faith, marriage quality, trust, medication, age, and relational safety.
+
+<!-- section:examples-4 -->
+### Examples
+
+**Food and sleep**
+
+- 4F may say: “I'm fine,” while having eaten almost nothing or slept badly.
+- Healthy support: concrete reminders, shared meals, a visible routine.
+- Risk: assuming silence means real well-being.
+
+**Household**
+
+- 4F may adapt to someone else's order, even if it is inconvenient.
+- Healthy form: “Here is our basic cleaning and shopping rhythm.”
+- Risk: no one leads, so the environment degrades.
+
+**Money**
+
+- 4F may avoid detailed material planning and prefer a trusted person or system to define the frame.
+- Healthy form: simple budget categories, automatic payments, clear limits.
+- Risk: financial neglect, dependence, or exploitation.
+
+**Sexuality**
+
+- 4F may not naturally place sexual/bodily pleasure high in the hierarchy of priorities, or may need context, trust, and a stable relational frame for the topic to become concrete.
+- Healthy form: honest conversation without pressure or shame.
+- Risk: misusing typology either to demand more or to dismiss the topic entirely.
+
+<!-- section:project-owner-observation-logistics-and-learning-from-1f -->
+### Project-owner observation: logistics and learning from 1F
+
+The project owner reports a recurring pattern: **logistical tasks are difficult
+for 4F, and they become manageable when a 1F person helps by demonstrating a
+concrete example**. The strong version of the observation says that verbal
+explanation alone is insufficient: 4F needs to see how 1F turns a destination,
+time, transport, things, cost, and constraints into an executable sequence.
+
+Before We Build records this as a **project-owner observation and testable
+hypothesis**, not as an established fact about every 4F person. Testing should
+separate the effect of a specifically 1F model from the effects of any worked
+example, prior experience, a clear checklist, a navigation or taxi app,
+executive-function load, anxiety, money, health, and familiarity with the
+environment. Relevant observable markers are whether the person can initiate,
+sequence, execute, and revise a logistical plan before and after seeing the
+example.
+
+<!-- section:helpful-questions-4 -->
+### Helpful questions
+
+- Did I eat, sleep, wash, rest, move, and handle basic practical needs?
+- Am I truly fine, or only adapted to discomfort?
+- Whose material frame am I living inside, and is it good?
+- Do I need a reminder system, budget system, medical appointment, or trusted practical helper?
+
+<!-- section:physics-accentuations -->
+## Physics accentuations
+
+<!-- section:source-status -->
+### Source status
+
+Psychosophy accentuations are an **unofficial/community extension**, not the core Afanasyev doctrine. In Before We Build they should be treated as a weak second-layer hypothesis: first identify the aspect and position carefully, then ask which property of that function is most visible.
+
+The accentuation layer says that every function has three properties, and one of them may be expressed more sharply than the others. For Physics, this means that two people with the same 1F, 2F, 3F, or 4F can still look different in bodily-material life.
+
+<!-- section:position-properties-used-for-physics -->
+### Position properties used for Physics
+
+| Position | Properties |
+|---|---|
+| **1F** | Strong / result-oriented / introverted |
+| **2F** | Strong / process-oriented / extraverted |
+| **3F** | Weak / process-oriented / introverted |
+| **4F** | Weak / result-oriented / extraverted |
+
+<!-- section:1f-accentuations -->
+### 1F accentuations
+
+**1F with strong-subjective accent**
+
+- The person is especially confident that their material standard is valid.
+- Can be very firm about money, food, sex, clothes, tools, repairs, household, or health routines.
+- Gift: reliable provision and clear standards.
+- Risk: bodily-material dominance; others may feel their needs are overridden.
+- Example: “This is the proper way to run a household; if we do it differently, it is irresponsible.”
+
+**1F with result accent**
+
+- The person mainly wants a stable material result and may dislike ongoing discussion about comfort.
+- Gift: finishes practical tasks and creates durable systems.
+- Risk: may skip process questions: “Why are we still discussing this? It already works.”
+- Example: chooses the bed, budget category, meal plan, or repair method and expects the topic to close.
+
+**1F with introverted/principled accent**
+
+- The person is especially focused on their own bodily-material state and standard.
+- Gift: strong self-maintenance, endurance, and clear embodied preference.
+- Risk: may be less receptive to another person's different comfort rhythm.
+- Example: “I know exactly what my body/home/money standard needs; I do not want outside interference.”
+
+<!-- section:2f-accentuations -->
+### 2F accentuations
+
+**2F with strong-subjective accent**
+
+- The person actively supports others materially and feels competent in practical care.
+- Gift: hospitality, bodily attentiveness, practical help.
+- Risk: may become the default caregiver and quietly carry too much.
+- Example: notices who has not eaten, who is cold, what needs repair, and what would make everyone more comfortable.
+
+**2F with process accent**
+
+- The person especially values discussing and adjusting material life together.
+- Gift: excellent negotiation around household, money, food, rest, sex, and comfort.
+- Risk: may over-process practical decisions and struggle to settle a final standard.
+- Example: “Let's keep checking whether this routine still works for both of us.”
+
+**2F with extraverted/unprincipled accent**
+
+- The person is especially oriented toward others' bodily-material states and adapts easily.
+- Gift: practical empathy and flexible care.
+- Risk: can over-adapt to others' preferences and lose their own material needs.
+- Example: changes plans, meals, temperature, spending, or pace around the other person without noticing self-erasure.
+
+<!-- section:3f-accentuations -->
+### 3F accentuations
+
+**3F with weak/objective accent**
+
+- The person feels the weakness/vulnerability of the bodily-material sphere most sharply.
+- Gift: can become honest about need, poverty, health, shame, and embodied limits.
+- Risk: deep insecurity around body, attractiveness, money, sex, or physical adequacy.
+- Example: “I am not enough physically/materially; others will see it and judge me.”
+
+**3F with process accent**
+
+- The person processes material questions continuously and needs time to clarify them.
+- Gift: careful attention to what is actually needed.
+- Risk: repeated loops around health, appearance, budget, comfort, or intimacy.
+- Example: revisits the same money/body/comfort concern many times before feeling settled.
+
+**3F with introverted/principled accent**
+
+- The person is especially sensitive about their own bodily-material state and boundaries.
+- Gift: can develop serious stewardship of body, money, home, and sexuality.
+- Risk: sharp defensiveness if another person comments on appearance, spending, food, sexuality, or health.
+- Example: even a practical suggestion may sound like judgment: “You think I am ugly, weak, poor, dirty, or irresponsible.”
+
+<!-- section:4f-accentuations -->
+### 4F accentuations
+
+The older 4F deep research page already names three accentuation variants: unconsciousness/resultativity, extraversion/non-principledness, and objectness/low. In this fuller page they should be read with safer language.
+
+**4F with weak/objective accent**
+
+- The person most clearly shows low material self-prioritization and can resemble 3F in visible vulnerability, but with less process around it.
+- Gift: simplicity and low demands.
+- Risk: self-neglect, passivity, dependence on external conditions, or accepting harmful discomfort.
+- Example: “If there is no hot water, no food plan, no normal bed, it is fine; I will manage.”
+
+**4F with result/unconscious accent**
+
+- The person wants a simple stable material frame and may not question old habits.
+- Gift: loyalty to routine and low drama around practical life.
+- Risk: may keep inherited or imposed routines even if they no longer serve health or family life.
+- Example: eats, sleeps, dresses, spends, or rests in a habitual way without asking whether it is good.
+
+**4F with extraverted/adaptive accent**
+
+- The person is especially responsive to others' material needs and preferences.
+- Gift: easy coexistence, service, willingness to adapt.
+- Risk: takes others' habits as the frame and forgets own body, comfort, money, or sexuality.
+- Example: “Whatever you like is fine,” while personal needs remain unnamed.
+
+<!-- section:how-to-use-accentuations-safely -->
+### How to use accentuations safely
+
+- Treat accentuation as a **fine-tuning question**, not a separate type verdict.
+- Do not type accentuation from one domain only: money, sex, food, body image, or health can each be distorted by life history.
+- Look for repeated patterns across several material domains: body, household, money, comfort, routine, rest, and shared practical responsibility.
+- If health, trauma, abuse, coercion, addiction, self-harm, or severe self-neglect appears, stop typological interpretation and use appropriate human support.
+
+<!-- section:pair-dynamics-around-physics -->
+## Pair dynamics around Physics
+
+<!-- section:1f-4f -->
+### 1F + 4F
+
+Can work smoothly when 1F provides a practical frame and 4F accepts it. Risk appears when 1F becomes controlling or 4F loses adult agency.
+
+<!-- section:2f-3f -->
+### 2F + 3F
+
+Often supportive when 2F helps 3F process body, money, comfort, and vulnerability without shame. Risk appears when 2F over-cares or 3F becomes dependent on reassurance.
+
+<!-- section:1f-3f -->
+### 1F + 3F
+
+Can be productive but sensitive. 1F wants a result; 3F may still be processing vulnerability. Risk: 1F pushes, 3F feels judged.
+
+<!-- section:2f-4f -->
+### 2F + 4F
+
+Can be gentle and practical. 2F notices needs; 4F receives care. Risk: 2F carries all practical life and 4F never builds basic responsibility.
+
+<!-- section:1f-1f -->
+### 1F + 1F
+
+Both may have strong material standards. This can build a powerful household if values align, or cause conflict over money, comfort, food, order, appearance, or sexuality.
+
+<!-- section:3f-3f -->
+### 3F + 3F
+
+Both may understand vulnerability, but both may also amplify anxiety. Needs clear routines, outside practical counsel, and no shaming.
+
+<!-- section:4f-4f -->
+### 4F + 4F
+
+Both may be undemanding, but practical life can lack structure. Needs explicit routines, budget, food/sleep systems, and external reminders.
+
+<!-- section:before-we-build-translation-layer -->
+## Before We Build translation layer
+
+For public or pastoral-facing product language, do not expose “1F/2F/3F/4F” first. Translate into questions:
+
+- How do we care for the body without making it an idol?
+- How do we handle money, food, rest, home, health, and practical limits?
+- Where does one of us impose standards, and where does one of us disappear?
+- Where is there shame, fear, neglect, or pressure around the body?
+- What routines would protect love, responsibility, and peace?
+
+<!-- section:non-claims -->
+## Non-claims
+
+This page does **not** claim that Physics position determines:
+
+- real libido or sexual health;
+- medical condition;
+- body type or attractiveness;
+- wealth, poverty, or financial virtue;
+- faithfulness or unfaithfulness;
+- gluttony, asceticism, modesty, or greed;
+- marriage readiness;
+- trauma history;
+- moral character.
+
+Physics can only suggest a possible operational pattern in the bodily-material sphere. Real people must be understood through Scripture, conscience, health, history, choices, counsel, and concrete observation.
+
+<!-- section:related-pages -->
+## Related pages
+
+- [[psychosophy-overview-en]] — Psychosophy overview
+- [[psychosophy-detailed-en]] — detailed operational-level synthesis
+- [[fourth-physics-deep-research-en]] — older 4F deep research source note with strong caveats
+- [[psychosophy-functions-en]] — function-position basics
+- [[epistemic-status-and-inference-limits-en]] — limits of type inference
+
+<!-- section:source-assessment -->
+## Source Assessment
+
+<!-- section:source-claims -->
+### What the Source Claims
+
+Psychosophy sources claim that the four Physics positions differ in confidence, process orientation, vulnerability, and willingness to adopt an external material or bodily frame.
+
+<!-- section:source-evidence -->
+### Data or Evidence Provided
+
+The page summarizes attributed function descriptions and examples; it does not provide a validated health, sensory, or behavior scale.
+
+<!-- section:source-limitations -->
+### Limitations
+
+Health, disability, income, occupation, culture, trauma, medication, sensory profile, and immediate conditions can explain the same observations.
+
+<!-- section:bwb-accepts -->
+### What BWB Accepts
+
+BWB accepts the distinctions as hypotheses for asking how practical resources, comfort, embodiment, and maintenance are organized in joint action.
+
+<!-- section:bwb-contested -->
+### What Remains Contested or Open
+
+Reliable indicators, discriminant validity, stability, and the proposed latent process remain contested.
+
+<!-- section:bwb-rejected-or-historical -->
+### Rejected or Historical-Only
+
+BWB rejects inferring health, diagnosis, attractiveness, sexuality, consent, capacity, or moral worth from a Physics position.

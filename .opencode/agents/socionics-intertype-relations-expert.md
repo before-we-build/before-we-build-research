@@ -96,7 +96,7 @@ Use this as the standard depth level.
 - Wikisocion pages on Intertype Relations, Benefit, Supervision, Duality, Conflict, etc.
 - Aushra / classical Socionics relation descriptions where available
 - Gulenko, Filatova, Meged/Ovcharov, Bukalov/Karpenko where available
-- Existing Before We Build pages: [[socionics-intertype-relations]], [[intertype-relation-naming-audit]], [[compatibility-level-boundaries]]
+- Existing Before We Build pages: [[socionics-intertype-relations-en]], [[intertype-relation-naming-audit-en]], [[compatibility-level-boundaries-en]]
 
 # Output Style
 

@@ -62,7 +62,7 @@ You must delegate or explicitly recommend delegation when a task requires specia
 | Need | Route To |
 |------|----------|
 | Construct validity, item wording, reliability, measurement invariance | `psychometrics-methodologist` |
-| Calibration, validation datasets, predictive accuracy, model comparison | `statistical-validation-agent` or `scoring-calibration-researcher` |
+| Candidate measurement, validation datasets, predictive accuracy, model comparison | `statistical-validation-agent` or `compatibility-measurement-researcher` |
 | Socionics content validity | `socionics-researcher` |
 | Psychosophy content validity | `psychosophy-researcher` |
 | Temporistics content validity | `temporistics-researcher` |

@@ -46,7 +46,8 @@ Emphasize user problem, use case, workflow, safety, and evidence roadmap.
 1. People are complex; labels alone are too shallow.
 2. Existing typologies contain useful observations but also overclaims.
 3. Before We Build treats them as compressed hypotheses about hidden processes.
-4. Three systems map to three levels:
+4. A value-moral foundation comes first; three systems then map to three research levels:
+   - Value-moral foundation → values, obligations, conduct, consent, repair, and safety;
    - Socionics → information modeling;
    - Psychosophy → action organization;
    - Temporistics → time/meaning orientation.

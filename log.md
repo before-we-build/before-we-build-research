@@ -1391,3 +1391,21 @@ Paper Writer ← Data Analyst ← Recruitment Bot
 2026-07-26 - Superseded the Christian-only core framing with a universal research architecture for any two people. Renamed the universal foundational level to value-moral / ценностно-нравственный / ціннісно-моральний; added trilingual canonical pages with domain contracts, evidence classes, compatible-difference categories, non-negotiable conflicts, and safety gates. Reclassified the Christian relationship/family model as the first developed worldview/domain application, updated AGENTS.md through the controlled `.agent-learning` governance loop, and synchronized README, index, positioning, main-goal, level-boundary, test-reading, compromise, simulator, and Christian-specialization pages.
 2026-07-26 - Added a trilingual project-owner observation to the Psychosophy Physics pages: logistical tasks may be difficult for 4F and may become manageable through a concrete 1F demonstration. Recorded it as a testable hypothesis rather than an established fact and added rival explanations plus before/after observable markers.
 2026-08-30 - Enhanced clarity and accessibility across core wiki pages: (1) Added intuitive ship expedition analogy and real-world scenario (pair planning a relocation / joint venture) to `four-level-compatibility-architecture-ru.md`; (2) Created `typology-disambiguation-guide-ru.md` explaining cross-system false cognates (Воля vs ЧС, Эмоция vs Этика, Будущее vs БИ) with paradoxical profiles (LII+1E, SLE+4V, ILI+4F) and diagnostic checks; (3) Added concrete behavioral breakdowns of adequate compromise (form concession without structural betrayal for dominant, processing, and vulnerable functions) to `adequate-compromise-ru.md`; (4) Synchronized `typology-reconceptualization-ru.md` and `index.md`.
+
+---
+
+## [2026-08-30] migration | Multilingual clarity and epistemic hardening
+
+**Action:** Completed the repository-wide clarity migration approved by the project owner.
+
+**Result:**
+- Consolidated the audited baseline of 206 language groups into 199 active/historical groups and completed all 199 EN/RU/UK triads: 597 wiki pages, 0 missing locales, and 0 duplicate locales.
+- Established one four-level architecture: value-moral foundation, strategic Temporistics, operational Psychosophy, and tactical Socionics; context remains cross-cutting and safety remains a mandatory constraint.
+- Rebuilt the central reader route, evidence walkthrough, validation program, measurement roadmap, core/extended glossaries, and Christian application boundary.
+- Removed the seven human-simulation track groups and retired Digital Twin/Simulation Engine terminology from active content.
+- Removed operational compatibility percentages, weights, formulas, high/medium/low pair verdicts, and type-based career or military assignment; retained only qualitative conversation maps and prerequisites for possible future measurement research.
+- Migrated every wiki page to `stable-slug-{en,ru,uk}.md`, updated repository links, and recorded 188 path mappings plus 7 removed paths in `wiki/slug-migrations.json`; no redirect stubs were created.
+- Added mandatory multilingual frontmatter, synchronized section/claim/caveat/source IDs, source-summary assessment boundaries, a generated language-neutral index, and `reports/wiki-migration-inventory.json`.
+- Added standard-library validation, link, claim-language, index, inventory, migration, and section-ID tooling with CI coverage and acceptance fixtures.
+- Preserved existing files under `raw/` unchanged and added only `raw/README.md` to explain the boundary between archived sources and the current BWB position.
+- Updated project skills and OpenCode agents through the controlled learning loop so future work cannot silently restore deterministic typing, one-language wiki pages, role assignment from type, human simulation, or premature scoring.

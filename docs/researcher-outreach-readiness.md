@@ -2,16 +2,16 @@
 
 ## Verdict
 
-**Not ready for broad outreach. Ready for limited pilot outreach after using the evidence packet in `docs/researcher-evidence-packet.md`.**
+**Ready for limited pilot outreach using `docs/researcher-evidence-packet.md`; not ready for empirical or predictive claims.**
 
-The project is far enough along to talk to a small number of method-aligned researchers, but not clean enough yet for wide outbound outreach.
+The project is far enough along to talk to a small number of method-aligned researchers. Broad outreach should wait for pilot evidence and a reviewed target list.
 
 ## Readiness Gate
 
 | Gate | Status | Notes |
 |------|--------|-------|
-| 3-sentence explanation without typology jargon | Partial | We can do this now, but it was not previously packaged cleanly |
-| Epistemic status is explicit | Partial | Present in some audited pages, but not yet the default framing across flagship docs |
+| 3-sentence explanation without typology jargon | Yes | The localized Start Here pages and evidence packet provide it |
+| Epistemic status is explicit | Yes | The central triads now distinguish project definitions, hypotheses, evidence, and non-inferences |
 | Credible validation path exists | Yes | The repo has a plausible validation posture for latent-process hypotheses and incremental validity testing |
 | One concrete artifact to send | No -> Now yes | This was missing; `docs/researcher-evidence-packet.md` now fills that gap |
 
@@ -24,16 +24,10 @@ The project is far enough along to talk to a small number of method-aligned rese
 
 ## Main Blockers
 
-1. `wiki/project-requirements.md` is not sendable yet.
-Line-level citation export artifacts like `cite...` and `entity...` make it look unfinished.
-
-2. `wiki/scientific-contribution-statement.md` is too grandiose for first contact.
-It is useful internally, but too abstract and high-claim as a first artifact.
-
-3. There is still no validated pilot result.
+1. There is still no validated pilot result.
 This is acceptable for early conversations, but not for strong claims.
 
-4. We still do not have a live shortlist of 5 named researchers with role-specific asks.
+2. We still do not have a live shortlist of 5 named researchers with role-specific asks.
 
 ## Safe Decision
 
@@ -51,7 +45,7 @@ This is acceptable for early conversations, but not for strong claims.
 
 Use one of these:
 
-1. `Would you sanity-check whether this validation design would convince you that the 4-level compatibility model measures something real?`
+1. `Would you sanity-check whether this design can test which proposed constructs are distinguishable, reliable, and useful beyond baseline measures?`
 2. `What inventory would you trust most for measuring operational action styles or temporal orientations?`
 3. `If you were reviewing this as a research prototype, what would you require before taking its claims seriously?`
 

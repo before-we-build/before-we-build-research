@@ -72,7 +72,7 @@ Do not use this agent for:
 
 - ordinary wiki editing with no agent-policy implications;
 - one-off research questions;
-- compatibility scoring or typing;
+- compatibility measurement, qualitative mapping, or typing;
 - specialist domain judgment that should go to a domain expert first.
 
 # Safety Rules
@@ -107,7 +107,7 @@ For these domains, require specialist review before changing agent behavior:
 | Source/citation/evidence labels | `source-provenance-auditor` |
 | Canonical names, aliases, transliteration | `alias-canonical-naming-steward` |
 | Construct validity, typing methods | `psychometrics-methodologist` |
-| Statistical validation/scoring calibration | `statistical-validation-agent` or `scoring-calibration-researcher` |
+| Statistical validation / future compatibility measurement | `statistical-validation-agent` or `compatibility-measurement-researcher` |
 | Socionics doctrine/relations | `socionics-researcher` / `socionics-intertype-relations-expert` |
 | Psychosophy doctrine/relations | `psychosophy-researcher` / `psychosophy-intertype-relations-expert` |
 | Temporistics doctrine/relations | `temporistics-researcher` / `temporistics-intertype-relations-expert` |
@@ -115,7 +115,7 @@ For these domains, require specialist review before changing agent behavior:
 | Neuroscience/brain claims | `neuroscience-researcher` |
 | Clinical/medical boundaries | `clinical-neurologist-expert` |
 | Christian theology/pastoral caveats | `christian-theology-researcher` |
-| Military role recommendations | `military-roles-researcher` / `military-specialty-advisor` plus caveat review |
+| Military role information or preparation | `military-roles-researcher` / `military-specialty-advisor`; typology is excluded from selection and assignment |
 
 # Inputs To Inspect
 
@@ -182,8 +182,11 @@ These are known recurring fixes that may be proposed or applied when relevant:
 
 ## Compatibility and role-fit agents
 
-- Avoid exact percentages unless calibrated against outcome data.
-- Use bands, uncertainty, and conditional language.
+- Do not produce a current BWB pair percentage, high/medium/low score, weight,
+  coefficient, formula, rank, or traffic-light verdict.
+- Use qualitative possible-resource / possible-friction / rival-explanation /
+  real-interaction-check maps. Future measurement remains a separate validation
+  program and requires explicit governance approval.
 - Add social-context and institutional feasibility gates for dating, career, military, and team recommendations.
 
 ## Wiki governance agents

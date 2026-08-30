@@ -303,5 +303,4 @@ By the end of one outreach cycle, you should have:
 ## Related Skills
 
 - `type-mapper`
-- `persona-validator`
 - `explanation-generator`

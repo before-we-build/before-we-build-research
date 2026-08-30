@@ -10,8 +10,8 @@ relationships or shared work. It is based on a **fundamental reconceptualization
 of typologies** (Socionics, Psychosophy, and Temporistics), interpreting them
 not as deterministic character labels, but as heuristic models of latent
 psychological processes. It treats typological structures as compressed
-hypotheses that may support conversation maps, role fit, team design, and
-structured compatibility research.
+hypotheses that may support conversation maps, structured compatibility
+research, and questions that can be checked in real interaction.
 
 The first developed application and worldview lens is a weak-AI Christian
 conversation map that helps individuals, pairs, and later churches surface
@@ -83,9 +83,10 @@ frame and clearly label worldview-specific claims.
 │   ├── entities/            # Entity pages (types, aspects, functions)
 │   ├── relations/           # Compatibility patterns, intertype relations
 │   ├── sources/             # Source summaries and derived docs
-│   ├── glossary-core.md      # Core terminology
-│   └── glossary-extended.md  # Extended disambiguation
-├── index.md                # Wiki catalog
+│   ├── glossary-core-{en,ru,uk}.md      # Core terminology triad
+│   ├── glossary-extended-{en,ru,uk}.md  # Extended disambiguation triad
+│   └── slug-migrations.json             # Historical path mapping
+├── index.md                # Generated language-neutral wiki catalog
 ├── log.md                  # Chronological activity log
 └── .agent-learning/        # Controlled self-improvement logs, proposals, reviews, templates
 ```
@@ -103,7 +104,18 @@ type: concept | entity | relation | source
 tags: [tag1, tag2]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-sources: [source-file.md]
+lang: en | ru | uk
+translation_group: stable-slug
+semantic_version: 1
+reviewed_semantic_version: 1
+document_status: active | draft | historical
+page_role: hub | explanation | application | research-appendix | source-summary | entity | relation
+claim_status: [project-definition]
+claims:
+  - id: stable-claim-id
+    status: research-hypothesis
+caveat_ids: []
+sources: []
 ---
 
 # Page Title
@@ -113,18 +125,52 @@ Content...
 
 ### Naming Conventions
 
-- **Files**: kebab-case (e.g., `past-aspect.md`, `model-a-functions.md`)
-- **Entities**: lowercase with hyphens (e.g., `1st-past-author.md`)
-- **Concepts**: descriptive nouns (e.g., `latent-process.md`)
+- **Files**: `stable-slug-en.md`, `stable-slug-ru.md`, and
+  `stable-slug-uk.md`; all three peers are equal.
+- **Translation groups**: stable kebab-case slugs without a language suffix.
+- **Entities**: lowercase with hyphens (for example,
+  `1st-past-author-{en,ru,uk}.md`).
+- **Concepts**: descriptive nouns (for example,
+  `latent-process-{en,ru,uk}.md`).
+- `canonical` and `translation_of` are not used.
+
+An `active` group must contain exactly one EN, RU, and UK page with equal
+`semantic_version`, `reviewed_semantic_version`, `page_role`, claim IDs,
+caveat IDs, source references, and synchronized `<!-- section:id -->`
+markers. A page remains `draft` until semantic review is complete in all
+three languages.
 
 ### Cross-References
 
 Use wikilinks for internal references:
-- `[[concept-name]]` for concepts
-- `[[entity-name]]` for entities
-- `[[source-name]]` for sources
+- `[[concept-name-en]]` from an English page
+- `[[entity-name-ru]]` from a Russian page
+- `[[source-name-uk]]` from a Ukrainian page
 
-Example: `See [[latent-process]] for theoretical foundation.`
+Example: `See [[latent-process-en]] for the theoretical foundation.`
+
+Cross-language links are reserved for explicit language switching or
+comparison. Repository paths in `sources` must be complete and unambiguous.
+
+### Central Page Contract
+
+Central explanation pages in every language contain, with shared section IDs:
+
+1. a 90-second summary;
+2. definition and scope;
+3. the same life example across the triad;
+4. direct observations;
+5. interpretations or research hypotheses;
+6. alternative explanations;
+7. non-inferences;
+8. practical conversation questions;
+9. an explicit researcher route;
+10. the next recommended page.
+
+Pages for the four levels additionally distinguish inclusion/exclusion,
+latent construct, observable indicators, possible pair mechanism,
+counterexamples and rival hypotheses, falsification conditions, and current
+evidence status.
 
 ## Operations
 
@@ -146,9 +192,11 @@ When adding a new source:
 
 1. Place raw source in appropriate `raw/` subdirectory
 2. Read and analyze the source
-3. Create or update relevant pages in `wiki/`
-4. Update `index.md` with new entries
-5. Append entry to `log.md`
+3. Create or update all three language peers in `wiki/`
+4. Separate source attribution, evidence, limitations, accepted claims,
+   contested claims, and rejected or historical claims
+5. Run the strict wiki checks and regenerate `index.md`
+6. Append an entry to `log.md`
 
 ### Query Workflow
 
@@ -157,11 +205,23 @@ When answering questions:
 1. Read `index.md` to find relevant pages
 2. Read relevant pages for detailed information
 3. Synthesize answer with citations
-4. If answer creates new knowledge, create new wiki page
+4. If the answer creates durable new knowledge, create or update the complete
+   EN/RU/UK group and regenerate the index
 
 ### Lint Workflow
 
-Periodically check:
+Run the blocking checks used by `.github/workflows/wiki-quality.yml`:
+
+- `python3 -m unittest discover -s tests -v`
+- `python3 scripts/validate_wiki.py --strict`
+- `python3 scripts/add_wiki_section_ids.py --check`
+- `python3 scripts/check_wikilinks.py --strict`
+- `python3 scripts/audit_claim_language.py --strict`
+- `python3 scripts/generate_wiki_index.py --check`
+- `python3 scripts/generate_wiki_inventory.py --output reports/wiki-migration-inventory.json --check`
+- `python3 scripts/lint-agents.py --static-only`
+
+Also review:
 
 - [ ] Contradictions between pages
 - [ ] Stale claims superseded by new sources
@@ -198,20 +258,21 @@ Describe theoretical constructs:
 ### Entity Pages
 
 Describe specific instances:
-- For types: description, characteristics, examples
-- For aspects: position, latent process, manifestations
-- For functions: properties, behaviors, relationships
+- For types: attributed description, proposed indicators, alternatives, and caveats
+- For aspects: position, hypothesized latent process, observable indicators, and limits
+- For functions: attributed properties, candidate manifestations, relationships, and non-inferences
 
 ### Relation Pages
 
 Describe compatibility patterns:
-- Good combinations with examples
-- Challenging combinations with explanations
-- Mechanisms behind compatibility
+- Possible resources in a specified context
+- Possible tensions in that context
+- Alternative explanations
+- What should be checked in real interaction
 
 ## Key Terminology
 
-See `glossary-core.md` and `glossary-extended.md` for disambiguation of ambiguous terms:
+See `wiki/glossary-core-en.md` and `wiki/glossary-extended-en.md` for disambiguation of ambiguous terms; use the `-ru.md` or `-uk.md` peer when working in those languages:
 
 - **Model** has 4 meanings (formal model, information model, Model A, mathematical model)
 - **Function** has 3 meanings (psychic function, mathematical function, software function)
@@ -223,10 +284,10 @@ When maintaining the wiki, investigate:
 
 1. Empirical validation of typological claims
 2. Cross-system correlations (Temporistics ↔ Psychosophy ↔ Socionics)
-3. Weight calibration for compatibility scoring
+3. Prerequisites, validation, uncertainty, and safety requirements for any future measurement model
 4. Observable behavioral markers for latent processes
 5. Real-world case studies and outcomes
 
 ## Last Updated
 
-2026-07-26
+2026-08-30

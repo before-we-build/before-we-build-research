@@ -10,6 +10,11 @@ bankVersion: 2026-07-28.1
 
 This is the single canonical browser question bank. Keep the payload below valid JSON and update bankVersion whenever a browser-visible item changes. The site loads this Markdown file and accepts only the question-bank JSON block.
 
+The instrument is exploratory and unvalidated. Its scale profiles concern
+individual response patterns only; they are not pair compatibility scores,
+relationship verdicts, or evidence that a typological mechanism has been
+established.
+
 ~~~question-bank
 {
   "schemaVersion": "1.0.0",

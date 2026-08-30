@@ -34,7 +34,9 @@ Always make clear:
 - typologies are treated as **heuristics**;
 - claims require validation;
 - Big Five and established measures are baselines, not enemies;
-- scores should be calibrated before being treated as probabilities;
+- any future measurement proposal would require construct validation,
+  calibration, uncertainty estimates, replication, and comparison with
+  baselines before it could support a pair-level inference;
 - social context matters;
 - no type determines outcomes.
 
@@ -43,6 +45,7 @@ Always make clear:
 - “scientifically proven” without evidence;
 - “theory of everything”;
 - exact compatibility percentages;
+- current compatibility weights, formulas, rankings, or verdicts;
 - deterministic role/career/military claims;
 - brain-region/type mappings;
 - spiritual or medical claims;

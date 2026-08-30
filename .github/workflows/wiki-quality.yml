@@ -1,0 +1,54 @@
+name: Wiki quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate-wiki:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run quality-tool tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Validate multilingual wiki contract
+        run: python3 scripts/validate_wiki.py --strict
+
+      - name: Verify synchronized section identifiers
+        run: python3 scripts/add_wiki_section_ids.py --check
+
+      - name: Validate links, anchors, localized targets, and orphans
+        run: python3 scripts/check_wikilinks.py --strict
+
+      - name: Audit claim language
+        run: python3 scripts/audit_claim_language.py --strict
+
+      - name: Verify generated wiki index
+        run: python3 scripts/generate_wiki_index.py --check
+
+      - name: Verify generated migration inventory
+        run: >-
+          python3 scripts/generate_wiki_inventory.py
+          --output reports/wiki-migration-inventory.json
+          --check
+
+      - name: Lint OpenCode agent manifests
+        run: python3 scripts/lint-agents.py --static-only
+
+      - name: Check whitespace errors
+        run: git diff --check

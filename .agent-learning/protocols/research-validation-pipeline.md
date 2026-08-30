@@ -27,7 +27,7 @@ human owner
   -> ethics-and-consent-reviewer
   -> data-pipeline-engineer
   -> statistical-validation-agent
-  -> scoring-calibration-researcher
+  -> compatibility-measurement-researcher
   -> source-provenance-auditor
   -> empirical-claims-caveats-reviewer
   -> human approval
@@ -56,7 +56,7 @@ Each study should produce:
 - `hypothesis`
 - `empirical-result`
 - `statistical-model-output`
-- `simulation-output`
+- `synthetic-code-test-output`
 - `unsupported`
 
 ## Human Approval Required
@@ -67,7 +67,7 @@ Each study should produce:
 - Submitting preregistration.
 - Excluding data from confirmatory analysis after inspection.
 - Publishing reports.
-- Changing scoring weights.
+- Authorizing any production compatibility measure, coefficient, or threshold.
 - Updating agent instructions.
 
 ## Output Standard

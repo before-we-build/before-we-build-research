@@ -19,11 +19,11 @@ Find and rank researchers, labs, and adjacent organizations most worth contactin
 ## Selection Criteria
 
 Score each target on:
-1. **Topical overlap** — persona agents, social simulation, relationship science, psychometrics, evaluation
-2. **Method overlap** — LLM agents, simulation, longitudinal validation, HCI systems
+1. **Topical overlap** — relationship science, dyadic coordination, psychometrics, temporal orientation, construct validation
+2. **Method overlap** — scale development, longitudinal validation, measurement invariance, dyadic models, human-centered decision support
 3. **Practical overlap** — would they actually care about this problem
 4. **Reachability** — active lab, recent papers, public contact surface
-5. **Collaboration fit** — advisor, method reviewer, coauthor, pilot partner, product-intelligence source
+5. **Collaboration fit** — advisor, method reviewer, coauthor, pilot partner, research-practice translator
 
 ## Output Format
 
