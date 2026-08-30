@@ -5,15 +5,19 @@ tags: [socionics, tactical-level, model-a]
 created: 2026-04-15
 updated: 2026-08-30
 lang: ru
-sources: []
+sources: [raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 translation_group: socionics-detailed
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: source-summary
 claim_status: [source-attribution]
-claims: []
-caveat_ids: []
+claims:
+  - id: school-socionics-summary-is-attributed-not-endorsed
+    status: source-attribution
+  - id: bwb-reconstruction-is-separate-from-school-summary
+    status: project-definition
+caveat_ids: [school-language-not-empirical-fact, not-ability-profile, innateness-not-established]
 ---
 
 # Соционика: тактический уровень — подробный обзор
@@ -24,6 +28,11 @@ caveat_ids: []
 > **Вопрос:** «Как мы замечаем и обсуждаем ситуацию?»
 
 Socionics — типологическая традиция Aušra Augustinavičiūtė, развивающая Jung и Model A. Она не равна MBTI, а её информационные элементы и позиции не являются доказанными когнитивными модулями. BWB использует их как проверяемые гипотезы о паттернах информационного внимания.
+
+<!-- section:bwb-reconstruction-boundary -->
+## Граница реконструкции BWB
+
+Эта страница сохраняет школьные формулировки как атрибутированный материал источников; встречающиеся ниже слова «сильный», «слабый», «уязвимый», «врождённый» или «эксперт» не являются выводами BWB. Отдельная реконструкция BWB понимает аспект как предполагаемую пару «содержание — операция» в частичной пересматриваемой модели одной общей реальности, а позицию Модели A — как предполагаемый режим использования этой операции. Реконструкция не подтверждает школьные утверждения и не переписывает их задним числом. См. [[socionics-reality-modeling-ru]] и [[augustinaviciute-information-metabolism-foundations-ru]].
 
 <!-- section:theoretical-foundation -->
 ## Теоретическая основа

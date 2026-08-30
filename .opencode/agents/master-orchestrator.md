@@ -157,7 +157,9 @@ Do **not** silently perform full compatibility analysis, deep typing, public-fig
 - **Aspects**: 8 information aspects (Ti, Fe, etc.)
 - **Positions**: 8 functions in Model A
 - **16 types**: INTp, ENFj, etc.
-- **Focus**: Information metabolism
+- **BWB focus**: partial, revisable information models of one shared reality
+- **Boundary**: aspect content/operation, Model A position mode, and observable
+  trace are different layers
 
 ## 3. Temporistics (Темпористика)
 
@@ -195,10 +197,18 @@ joint action across Will, Logic, Emotion, and Physics.
 
 ## Tactical / Socionics
 
-**Project hypothesis:** Socionics may provide a language for information
-modeling and exchange. It does not explain all communication.
+**Project hypothesis:** Socionics may provide a language for how a partial
+model selects and compresses reality distinctions, supports inference or
+prediction, and updates through feedback. Aspect content and operation must be
+separated from the Model A position mode and from observed behavior. It does
+not explain all communication.
 
-**Question:** "How do we select, structure, and exchange information?"
+**Question:** "Which distinctions does each partial model retain, how does it
+update them, and how do the two models coordinate under this context?"
+
+Classical aspect axes are attributed source language; BWB operation definitions
+are revisable research hypotheses. Never route an aspect or position as an
+ability, deficit, innate essence, brain module, or relationship-fate predictor.
 
 The three typological mappings are non-deterministic research hypotheses.
 Context is cross-cutting, and safety is a gate rather than a fifth level.
@@ -225,7 +235,8 @@ Ask user or determine:
 1. Value-moral foundation: commitments, conduct, consent, repair, safety
 2. Strategic / Temporistics: temporal and existential direction
 3. Operational / Psychosophy: organization of joint action
-4. Tactical / Socionics: information modeling and exchange
+4. Tactical / Socionics: coordination of partial reality-modeling operations
+   and their proposed position modes
 
 ### Limited map
 

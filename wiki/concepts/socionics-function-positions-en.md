@@ -3,224 +3,87 @@ title: Socionics Function Positions
 type: concept
 tags: [socionics, model-a, functions, positions, tactical-level]
 created: 2026-04-25
-updated: 2026-04-25
-sources: [raw/socionics/model-a.md, wiki/sources/socionics-function-dichotomies-en.md]
+updated: 2026-08-30
+sources: [raw/socionics/model-a.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md, wiki/sources/socionics-function-dichotomies-en.md, wiki/concepts/socionics-reality-modeling-en.md]
 lang: en
 translation_group: socionics-function-positions
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
-claim_status: [project-definition, research-hypothesis]
-claims: []
-caveat_ids: []
+claim_status: [source-attribution, research-hypothesis]
+claims:
+  - id: position-is-distinct-from-aspect
+    status: source-attribution
+  - id: positions-may-describe-operation-use-modes
+    status: research-hypothesis
+caveat_ids: [not-ability-ranking, not-deficit-diagnosis, context-required, innateness-not-established]
 ---
 
 # Socionics Function Positions
 
+English · [[socionics-function-positions-ru|Русский]] · [[socionics-function-positions-uk|Українська]]
+
 <!-- section:overview -->
 ## Overview
 
-In Model A, a **function position** is the structural role occupied by an information element. The position is not the same thing as the element itself.
-
-- **Information element:** what kind of information is being processed.
-- **Function position:** how the person tends to process, value, resist, seek, or background that information.
-
-The same element can be leading for one type, vulnerable for another, and suggestive for a third. Therefore, Socionics interpretation depends on the combination of element and position.
-
-In Before We Build, these positions are treated as heuristic markers of relative confidence, strain, support-seeking, and automaticity in tactical information modeling.
+An aspect proposes which distinctions a partial representation preserves and which modeling operation it performs. A Model A position proposes how that operation may be used. A position is therefore not an aspect, topic, skill, or amount of ability. See [[socionics-reality-modeling-en]].
 
 <!-- section:position-by-position-summary -->
-## Position-by-Position Summary
+## Eight proposed position modes
 
-| Position | Common Names | Structural Reading |
-|----------|--------------|--------------------|
-| 1 | Leading, Base | Primary filter of perception; strong, conscious, valued, and stable |
-| 2 | Creative | Flexible production and application; strong, conscious, valued, and situationally adaptive |
-| 3 | Role | Socially demanded adaptation; weak, conscious, unvalued, and effortful |
-| 4 | Vulnerable, PoLR | Least robust conscious zone; weak, unvalued, and easily overloaded by direct pressure |
-| 5 | Suggestive | Valued but weak support-seeking zone; receives needed orientation from outside |
-| 6 | Mobilizing, Activation | Valued growth zone; energized by encouragement and appropriate informational support |
-| 7 | Ignoring | Strong but unvalued; usable when needed but not preferred as a life focus |
-| 8 | Demonstrative | Strong automatic background competence; often used casually without emphasis |
+| Position | Traditional name | Revisable BWB mode | Verification focus |
+|---:|---|---|---|
+| 1 | Leading / Base | stable foreground framing | Does the operation recurrently organize the initial representation? |
+| 2 | Creative | flexible situational production | Does the operation adapt output to changing task demands? |
+| 3 | Role | norm-guided, effortful application | Does use follow learned expectations, and when does that explanation fail? |
+| 4 | Vulnerable / PoLR | least-stable modeling under pressure | Which errors recur under comparable pressure, and do they disappear with training or support? |
+| 5 | Suggestive | valued, externally scaffolded intake | Is external framing repeatedly sought or merely convenient in this context? |
+| 6 | Mobilizing / Activation | supported or activated development | Does supported practice change use across time and tasks? |
+| 7 | Ignoring | background monitoring | Is the operation detected without becoming the foreground frame? |
+| 8 | Demonstrative | automatic background production | Does the operation produce unprompted output outside the declared focus? |
 
-<!-- section:the-eight-positions -->
-## The Eight Positions
+<!-- section:source-properties -->
+## Attributed source properties
 
-<!-- section:1-leading-base-function -->
-### 1. Leading / Base Function
+Socionics schools also classify positions with `mental/vital`, `accepting/producing`, `strong/weak`, `valued/unvalued`, `inert/contact`, and dimensionality labels. Those are Model A claims to operationalize and test. They do not become measurements merely because the table is internally regular.
 
-The leading function is the most stable and natural information filter. A person often trusts this information channel, notices it quickly, and uses it to orient in situations.
-
-It is usually interpreted as:
-
-- strong;
-- conscious or mental;
-- valued;
-- central to the type's default worldview.
-
-In interaction, the leading function can feel clear and confident. The risk is that the person may over-assume that this way of seeing is obvious to everyone.
-
-<!-- section:2-creative-function -->
-### 2. Creative Function
-
-The creative function supports and extends the leading function. It is strong and valued, but more flexible and situational than the leading function.
-
-It is often interpreted as:
-
-- adaptive;
-- productive;
-- capable of generating solutions;
-- easier to vary by context than the leading function.
-
-In interaction, the creative function often becomes a practical tool for helping, persuading, improvising, or shaping the situation.
-
-<!-- section:3-role-function -->
-### 3. Role Function
-
-The role function handles information that a person may try to perform when the environment demands it. It is conscious, but weak and unvalued.
-
-It is often interpreted as:
-
-- effortful;
-- norm-driven;
-- tense under evaluation;
-- more about meeting expectations than natural preference.
-
-In interaction, pressure on the role function may produce formal compliance, awkward performance, or fatigue.
-
-<!-- section:4-vulnerable-polr-function -->
-### 4. Vulnerable / PoLR Function
-
-The vulnerable function is the weakest conscious point in Model A. It is not simply “bad at a skill”; it is a zone where stable information modeling is especially difficult under direct pressure.
-
-It is often interpreted as:
-
-- weak;
-- conscious enough to be noticed;
-- unvalued;
-- sensitive to criticism or demand.
-
-In interaction, strong pressure on the PoLR may feel invasive, confusing, humiliating, or exhausting. This should not be treated as pathology.
-
-<!-- section:5-suggestive-function -->
-### 5. Suggestive Function
-
-The suggestive function is weak but valued. The person may not want to be the main author of this information, yet may strongly appreciate receiving it in a clean, non-pressuring form.
-
-It is often interpreted as:
-
-- support-seeking;
-- receptive;
-- valued but underdeveloped;
-- especially responsive to complementary input.
-
-In intertype theory, supportive contact with the suggestive function is central to many descriptions of comfort and complementarity.
-
-<!-- section:6-mobilizing-activation-function -->
-### 6. Mobilizing / Activation Function
-
-The mobilizing function is also weak and valued, but it is more growth-oriented and energizable than the suggestive function.
-
-It is often interpreted as:
-
-- activated by encouragement;
-- responsive to examples and invitations;
-- a zone of aspiration and development;
-- sensitive to support quality.
-
-In interaction, helpful input here can feel motivating. Harsh pressure can make the person defensive or discouraged.
-
-<!-- section:7-ignoring-function -->
-### 7. Ignoring Function
-
-The ignoring function is strong but unvalued. The person can often process this information well, but does not want it to dominate interaction or identity.
-
-It is often interpreted as:
-
-- competent;
-- backgrounded;
-- selectively used;
-- de-emphasized in favor of valued functions.
-
-In interaction, a person may show competence here but redirect attention away from it.
-
-<!-- section:8-demonstrative-function -->
-### 8. Demonstrative Function
-
-The demonstrative function is strong, vital, and unvalued. It often appears as automatic background competence rather than deliberate self-expression.
-
-It is often interpreted as:
-
-- effortless;
-- casual;
-- supportive in the background;
-- not usually treated as a main topic of identity.
-
-In interaction, this function can provide quiet assistance without the person emphasizing it.
-
-<!-- section:structural-patterns-across-positions -->
-## Structural Patterns Across Positions
-
-Source traditions describe Model A positions through several dichotomies:
-
-| Dichotomy | Positions |
-|-----------|-----------|
-| Mental | 1, 2, 3, 4 |
-| Vital | 5, 6, 7, 8 |
-| Accepting | 1, 3, 5, 7 |
-| Producing | 2, 4, 6, 8 |
-| Strong | 1, 2, 7, 8 |
-| Weak | 3, 4, 5, 6 |
-| Valued | 1, 2, 5, 6 |
-| Unvalued | 3, 4, 7, 8 |
-| Inert | 1, 4, 6, 7 |
-| Contact | 2, 3, 5, 8 |
-
-See [[socionics-function-dichotomies-en]] for the fuller source-derived treatment.
+| Source property | Positions in the common school layout |
+|---|---|
+| Mental / Vital | `1–4` / `5–8` |
+| Accepting / Producing | `1,3,5,7` / `2,4,6,8` |
+| “Strong” / “Weak” | `1,2,7,8` / `3,4,5,6` |
+| Valued / Unvalued | `1,2,5,6` / `3,4,7,8` |
 
 <!-- section:dimensionality -->
-## Dimensionality
+## Dimensionality boundary
 
-The current wiki source summary lists the common dimensionality mapping as:
+The common `4D: 1,8; 3D: 2,7; 2D: 3,6; 1D: 4,5` layout is retained as attributed school terminology. BWB does not translate it into intelligence, competence, task performance, or a general capacity score. Validation would require independent task measures, model comparison, reliability, invariance, and held-out prediction.
 
-| Dimensionality | Positions | Practical Reading |
-|----------------|-----------|-------------------|
-| 4D | 1, 8 | broadest and most confident handling |
-| 3D | 2, 7 | strong situational competence |
-| 2D | 3, 6 | workable but limited under demand |
-| 1D | 4, 5 | narrowest and most dependent on support or context |
+<!-- section:observations-and-alternatives -->
+## Observations and alternatives
 
-Dimensionality should be treated as a Socionics-internal construct, not as a measured cognitive capacity.
+Record what is selected, preserved after compression, inferred, produced, and updated after feedback. Position evidence requires repeated comparable contexts. Expertise, instruction, language, culture, role, health, sensory access, motivation, stress, and familiarity can imitate any proposed mode.
 
-<!-- section:before-we-build-reading -->
-## Before We Build Reading
+<!-- section:non-inferences -->
+## What positions do not establish
 
-For Before We Build, function positions help describe tactical interaction patterns:
+- Positions 1/2/7/8 are not ready-made abilities or virtues.
+- Positions 3/4/5/6 are not deficiencies, diagnoses, or dependence scores.
+- A “vulnerable” position does not prove humiliation, dislike, or inability.
+- A “background” position does not prove hidden expertise.
+- A position pattern does not establish innateness, neural localization, personality, vocation, morality, or relationship fate.
 
-- where a person confidently initiates information;
-- where they adapt and create;
-- where they comply tensely;
-- where they feel exposed;
-- where they seek support;
-- where they have background competence.
+<!-- section:researcher-route -->
+## Researcher route
 
-This is useful for modeling communication, but it should be combined with observation, context, and other compatibility levels.
-
-<!-- section:caveats -->
-## Caveats
-
-- Position descriptions are not direct behavioral certainties.
-- PoLR should not be treated as illness, defect, or moral weakness.
-- Weak functions do not mean a person can never learn skills in that area.
-- Strong functions do not guarantee maturity, wisdom, or good judgment.
-- Socionics function positions are not the same as MBTI cognitive-function stacks.
+First gather aspect-operation evidence through selection, compression, inference, and updating tasks. Then test position-mode predictions independently across repeated settings. Rank a Model A stack only when both layers have sufficient, discriminating evidence and rival explanations have been checked.
 
 <!-- section:see-also -->
-## See Also
+## See also
 
-- [[socionics-model-a-en]] — Main Model A hub
-- [[socionics-model-a-blocks-en]] — Function blocks
-- [[socionics-information-elements-en]] — Information elements/aspects
-- [[socionics-function-dichotomies-en]] — Function properties and dimensionality
-- [[socionics-intertype-relations-en]] — Relation mechanisms
+- [[socionics-model-a-en]]
+- [[socionics-model-a-blocks-en]]
+- [[socionics-information-elements-en]]
+- [[socionics-test-specification-en]]
+- [[socionics-reality-modeling-en]]

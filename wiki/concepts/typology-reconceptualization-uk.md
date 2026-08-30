@@ -6,8 +6,8 @@ created: 2026-08-26
 updated: 2026-08-30
 lang: uk
 translation_group: typology-reconceptualization
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis, contested]
@@ -15,6 +15,8 @@ claims:
   - id: type-is-model-hypothesis
     status: project-definition
   - id: typological-structures-may-model-processes
+    status: research-hypothesis
+  - id: socionics-aspects-may-model-partial-reality-representations
     status: research-hypothesis
   - id: natural-predisposition-is-hypothesis
     status: research-hypothesis
@@ -34,7 +36,7 @@ Before We Build не використовує тип як тип особист�
 <!-- section:definition-and-scope -->
 ## Визначення та сфера застосування
 
-Соціоніка співвідноситься з моделюванням інформації, психософія — з аналізом, синтезом та організацією дії, темпористика — з абдукцією, індукцією й дедукцією в темпоральному або екзистенційному досвіді. «Сприйняття» тут охоплює відбір, упорядкування, тлумачення й організацію процесів, а не лише сенсорне сприйняття. Системи нееквівалентні й моделюються окремо.
+Соціоніка співвідноситься з моделюванням інформації, психософія — з аналізом, синтезом та організацією дії, темпористика — з абдукцією, індукцією й дедукцією в темпоральному або екзистенційному досвіді. У центральній гіпотезі про соціоніку аспект поєднує клас відмінностей з операцією, що зберігає й оновлює часткове представлення одного спільного світу; див. [[socionics-reality-modeling-uk]]. «Сприйняття» тут охоплює відбір, упорядкування, тлумачення й організацію процесів, а не лише сенсорне сприйняття. Системи нееквівалентні й моделюються окремо.
 
 <!-- section:shared-example -->
 ## Спільний приклад

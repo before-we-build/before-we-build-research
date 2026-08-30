@@ -3,146 +3,87 @@ title: Socionics Model A Blocks
 type: concept
 tags: [socionics, model-a, blocks, function-groups, tactical-level]
 created: 2026-04-25
-updated: 2026-04-25
-sources: [raw/socionics/model-a.md, wiki/sources/socionics-function-dichotomies-en.md]
+updated: 2026-08-30
+sources: [raw/socionics/model-a.md, wiki/sources/socionics-function-dichotomies-en.md, wiki/concepts/socionics-reality-modeling-en.md]
 lang: en
 translation_group: socionics-model-a-blocks
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
-claim_status: [project-definition, research-hypothesis]
-claims: []
-caveat_ids: []
+claim_status: [source-attribution, research-hypothesis]
+claims:
+  - id: model-a-blocks-group-position-modes
+    status: source-attribution
+  - id: blocks-may-coordinate-paired-operation-use
+    status: research-hypothesis
+caveat_ids: [not-ability-profile, not-neural-module, context-required, school-language-not-validation]
 ---
 
 # Socionics Model A Blocks
 
+English · [[socionics-model-a-blocks-ru|Русский]] · [[socionics-model-a-blocks-uk|Українська]]
+
 <!-- section:overview -->
 ## Overview
 
-Model A groups eight function positions into four two-function blocks. Each block combines an accepting and producing function and describes a broader zone of information processing.
+Model A groups eight positions into four two-position blocks. In BWB, a block is an attributed school structure and a research hypothesis about coordinated use of two aspect operations. It is not a pair of cognitive abilities, brain modules, or fixed character traits. See [[socionics-reality-modeling-en]].
 
-| Block | Positions | General Meaning |
-|-------|-----------|-----------------|
-| Ego | 1 + 2 | strong conscious valued expression |
-| Super-Ego | 3 + 4 | conscious weak adaptation and strain |
-| Super-Id | 5 + 6 | valued weak support-seeking and activation |
-| Id | 7 + 8 | strong background processing |
+<!-- section:block-map -->
+## Block map
 
-Blocks matter because Model A is not only a list of isolated functions. The paired structure helps explain why some information is naturally initiated, some is performed under pressure, some is sought from others, and some is handled quietly in the background.
+| Block | Positions | Proposed mode combination |
+|---|---:|---|
+| Ego | 1 + 2 | stable foreground framing + flexible situational production |
+| Super-Ego | 3 + 4 | norm-guided effort + least-stable modeling under pressure |
+| Super-Id | 5 + 6 | externally scaffolded intake + supported development |
+| Id | 7 + 8 | background monitoring + automatic background production |
+
+The source tradition also describes blocks with `strong/weak`, `conscious/vital`, and `valued/unvalued` labels. Those labels remain attributed Model A terminology; they are not BWB measurements.
 
 <!-- section:ego-block -->
-## Ego Block
+## Ego block
 
-**Positions:** 1 + 2
-**General status:** strong, conscious, valued
-
-The Ego block is the clearest zone of conscious self-expression in Model A. It combines the leading function's primary orientation with the creative function's flexible production.
-
-Common interpretation:
-
-- where the person most naturally initiates information;
-- what the person tends to trust and verbalize;
-- where competence is most visible;
-- the strongest valued channel for communication.
-
-In Before We Build, the Ego block is important for tactical compatibility because it shows what kind of information a person naturally emits. This output may support another person's valued weak functions, or it may accidentally pressure unvalued weak zones.
+Positions 1 and 2 propose a foreground frame paired with flexible production. Research should ask whether the two relevant operations recur in those modes across comparable tasks. It must not infer competence from the block label.
 
 <!-- section:super-ego-block -->
-## Super-Ego Block
+## Super-Ego block
 
-**Positions:** 3 + 4
-**General status:** weak, conscious, unvalued
-
-The Super-Ego block is the zone of conscious adaptation, social demand, and strain. The person can notice this information area, but does not usually experience it as natural or preferred.
-
-Common interpretation:
-
-- where a person may perform expected behavior;
-- where external standards may feel heavy;
-- where criticism can be tiring or exposing;
-- where direct pressure can reduce flexibility.
-
-The role function usually handles normative performance. The vulnerable function is more fragile and less stable under demand.
-
-In Before We Build, the Super-Ego block helps identify tactical pressure points. It should not be moralized or pathologized.
+Positions 3 and 4 propose norm-guided use paired with the least-stable-under-pressure mode. A recorded error or strain can support only a local task observation; it is not a general deficit and may reflect role demands, unfamiliarity, health, or stress.
 
 <!-- section:super-id-block -->
-## Super-Id Block
+## Super-Id block
 
-**Positions:** 5 + 6
-**General status:** weak, vital/background, valued
-
-The Super-Id block is valued but underdeveloped or support-seeking. It describes information a person may welcome from others when it is offered in a supportive and non-invasive way.
-
-Common interpretation:
-
-- where a person appreciates help;
-- where complementary input can feel relieving;
-- where motivation and activation can occur;
-- where support quality matters strongly.
-
-The suggestive function receives orientation. The mobilizing function is more growth-oriented and energizable.
-
-In intertype theory, Ego-to-Super-Id contact is central to many descriptions of comfortable complementarity.
+Positions 5 and 6 propose externally scaffolded intake paired with supported or activated development. Welcoming another person's framing is not evidence of incapacity, dependence, or guaranteed complementarity.
 
 <!-- section:id-block -->
-## Id Block
+## Id block
 
-**Positions:** 7 + 8
-**General status:** strong, vital/background, unvalued
-
-The Id block is a zone of strong background processing that is not usually central to conscious identity or preferred communication.
-
-Common interpretation:
-
-- where the person can be competent without emphasizing it;
-- where information may be used automatically;
-- where the person may resist making the topic central;
-- where support can be provided quietly.
-
-The ignoring function is strong but selectively de-emphasized. The demonstrative function often appears as casual background competence.
+Positions 7 and 8 propose background monitoring paired with automatic background production. “Background” concerns the hypothesized use mode, not hidden expertise or a guaranteed strength.
 
 <!-- section:block-logic-and-function-cooperation -->
-## Block Logic and Function Cooperation
+## Paired-operation hypothesis
 
-Each block contains one accepting and one producing function:
+Each block pairs an accepting and a producing position. BWB treats this as a candidate sequence between two operations: what one representation registers and what the paired operation produces or updates. The sequence must be operationalized and tested rather than assumed from a type code.
 
-| Block | Accepting Function | Producing Function |
-|-------|--------------------|--------------------|
-| Ego | 1 | 2 |
-| Super-Ego | 3 | 4 |
-| Super-Id | 5 | 6 |
-| Id | 7 | 8 |
+<!-- section:observations-and-alternatives -->
+## Observations and alternatives
 
-This means each block can be read as a small information-processing pair: one function registers or accepts a kind of information, while the other shapes, produces, or responds from within that block's orientation.
-
-<!-- section:before-we-build-interpretation -->
-## Before We Build Interpretation
-
-For Before We Build, blocks help translate Model A into tactical interaction hypotheses:
-
-- **Ego:** where a person naturally sends information;
-- **Super-Ego:** where pressure and awkward adaptation may appear;
-- **Super-Id:** where the person seeks and values support;
-- **Id:** where strong background handling may occur without explicit identification.
-
-This makes Model A useful for analyzing conversation dynamics, feedback style, informational comfort, and friction points.
+Observe selection, compression, inference, revision after feedback, error patterns, response time, and transfer. Compare the block hypothesis with expertise, task cues, language, culture, role, motivation, health, sensory access, stress, and familiarity.
 
 <!-- section:caveats -->
 ## Caveats
 
-- Blocks are Socionics-internal constructs, not independently validated cognitive modules.
-- They should not be used to decide a person's worth, competence, or destiny.
-- They do not determine whole-relationship success.
-- Block analysis should remain subordinate to direct evidence, context, and consent.
+- A block does not establish ability, intelligence, personality, diagnosis, vocation, or moral worth.
+- Positions 1/2/7/8 are not ready-made strengths; 3/4/5/6 are not deficits.
+- Block contact does not predict relationship fate or total compatibility.
+- The four blocks, their independence, and their natural basis remain unvalidated.
 
 <!-- section:see-also -->
-## See Also
+## See also
 
-- [[socionics-model-a-en]] — Main Model A hub
-- [[socionics-function-positions-en]] — Detailed position reference
-- [[socionics-information-elements-en]] — Information elements/aspects
-- [[socionics-function-dichotomies-en]] — Function properties and dimensionality
-- [[socionics-intertype-relations-en]] — Relation mechanisms
+- [[socionics-model-a-en]]
+- [[socionics-function-positions-en]]
+- [[socionics-information-elements-en]]
+- [[socionics-intertype-relations-en]]
+- [[socionics-reality-modeling-en]]

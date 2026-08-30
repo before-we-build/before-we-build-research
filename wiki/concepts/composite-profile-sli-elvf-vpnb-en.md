@@ -4,16 +4,20 @@ type: concept
 tags: [composite-profile, core-profile, socionics, psychosophy, temporistics]
 created: 2026-04-24
 updated: 2026-08-30
-sources: [raw/socionics/model-a.md, raw/socionics/information-aspects.md, raw/psychosophy/aspects.md, raw/temporistics/guru.md, raw/temporistics/izgnannik-exile.md, raw/temporistics/theory-description.md]
+sources: [raw/socionics/model-a.md, raw/socionics/information-aspects.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md, raw/psychosophy/aspects.md, raw/temporistics/guru.md, raw/temporistics/izgnannik-exile.md, raw/temporistics/theory-description.md]
 lang: en
 translation_group: composite-profile-sli-elvf-vpnb
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: composite-socionics-code-is-positioned-operation-hypothesis
+    status: research-hypothesis
+  - id: composite-profile-does-not-establish-ability
+    status: project-definition
+caveat_ids: [not-ability-profile, context-required, innateness-not-established]
 ---
 
 # Core Composite Profile SLI + ELVF + EPNF
@@ -77,7 +81,7 @@ Therefore the neutral core pattern is **meaningful reliability**: preference for
 
 | Question | Primary system | What not to confuse it with |
 |----------|----------------|-----------------------------|
-| How information is perceived and processed? | **Socionics** | not Psychosophy work-style dynamics |
+| Which distinctions a partial information model retains and how it may update them? | **Socionics** | not Psychosophy work-style dynamics |
 | How action, pressure, support, and role distribution are handled? | **Psychosophy** | not Socionics IM elements |
 | How meaning, direction, and time horizon are organized? | **Temporistics** | not Socionics intuition or Psychosophy will |
 | What role fits current labor market structure? | **ESCO / role catalog** | not typology alone |
@@ -105,45 +109,44 @@ Practical rule:
 <!-- section:information-elements -->
 #### Information Elements
 
-- **Si**: comfort, physical conditions, maintenance
-- **Te**: efficiency, pragmatism, operational usefulness
-- **Fi**: boundaries, values, close relations
-- **Ne**: possibilities, alternatives, change
+In the BWB reconstruction, all eight aspects concern partial, revisable representations of one shared reality. An aspect proposes what distinctions are retained and what operation is performed; a Model A position proposes how that operation is used. See [[socionics-reality-modeling-en]].
+
+- **Si** integrates simultaneous conditions and their effects on state, quality, and environmental fit.
+- **Te** connects actions and methods to observed changes and outcomes, revising procedures from feedback.
+- **Fi** represents relatively stable subjective relations: attraction, significance, need, distance, and acceptability.
+- **Ne** infers hidden properties and possible realizations of an object while preserving unrealized potential.
 
 <!-- section:model-a -->
 #### Model A
 
-| Function | Element | Practical meaning |
-|----------|---------|-------------------|
-| 1 | Si | 4D base comfort and stable environment |
-| 2 | Te | 3D practical optimization and tool use |
-| 3 | Ni | 2D socially cautious, time/trajectory role zone |
-| 4 | Fe | 1D vulnerable zone around emotional pressure and display |
-| 5 | Ne | 1D wants possibility framing and alternatives from outside |
-| 6 | Fi | 2D mobilizes around stable relations and personal trust |
-| 7 | Se | 3D can use force/pressure, but does not value it as a primary mode |
-| 8 | Ti | 4D background structural clarity and consistency control |
+| Position | Aspect operation | Proposed position mode |
+|----------|------------------|------------------------|
+| 1 | Si: integrate simultaneous conditions and their effects on state, quality, and environmental fit | stable foreground framing |
+| 2 | Te: connect actions and methods to observed changes and outcomes; update procedure from feedback | flexible situational production |
+| 3 | Ni: organize successive processes into trajectory, temporal relations, pace, and transitions | norm-guided, effortful use |
+| 4 | Fe: track internal dynamics of arousal and state through expressed reactions and their spread | least stable under pressure; not an inability |
+| 5 | Ne: infer hidden properties and possible realizations while preserving unrealized potential | valued, externally scaffolded intake |
+| 6 | Fi: represent stable subjective relations, significance, distance, and acceptability | supported or activated development |
+| 7 | Se: assess present force, form, boundaries, resistance, and direct impact | background monitoring; not an ability score |
+| 8 | Ti: build objective structural relations, classifications, constraints, and invariants | automatic background production in school terminology, not an ability score |
 
 <!-- section:blocks -->
 #### Blocks
 
 | Block | Functions | Meaning for this profile |
 |-------|-----------|--------------------------|
-| **Ego** | 1Si, 2Te | natural mode: maintain systems, optimize them, keep things usable |
-| **Super-Ego** | 3Ni, 4Fe | strain zone: demanded forecasting, emotional display, and atmosphere management |
-| **Super-Id** | 5Ne, 6Fi | wants supportive possibility framing and stable personal trust from outside |
-| **Id** | 7Se, 8Ti | can use pressure and structure in the background, but does not want to live there |
+| **Ego** | 1Si, 2Te | proposed foreground and flexible use of condition-integration and feedback-based method revision |
+| **Super-Ego** | 3Ni, 4Fe | proposed norm-guided and least-stable modes for trajectory and expressed-state dynamics |
+| **Super-Id** | 5Ne, 6Fi | proposed externally scaffolded and developing modes for possibilities and stable relations |
+| **Id** | 7Se, 8Ti | proposed background modes for force/boundaries and structural invariants |
 
 <!-- section:strong-weak -->
-#### Strong / Weak
+#### School strength / weakness labels
 
 - **Strong:** 1Si, 2Te, 7Se, 8Ti
 - **Weak:** 3Ni, 4Fe, 5Ne, 6Fi
 
-Practical reading:
-
-- strong functions give technical steadiness and quiet competence
-- weak functions are not "useless," but are more context-dependent and easier to overload
+These are inherited Model A labels. They describe hypothesized information-processing conditions inside that school; they do not establish competence, talent, intelligence, or a general deficit. Every claim still requires task evidence and comparison with training, role, culture, health, stress, and context.
 
 <!-- section:conscious-unconscious -->
 #### Conscious / Unconscious
@@ -183,10 +186,7 @@ Practical reading:
 - **Accepting:** 1Si, 3Ni, 5Ne, 7Se
 - **Producing:** 2Te, 4Fe, 6Fi, 8Ti
 
-Practical reading:
-
-- this profile tends to first register conditions and trajectory signals, then respond through practical adjustment
-- in healthy conditions, 2Te is the main productive channel: fixing, optimizing, implementing
+Research reading: the accepting/producing distinction is a school hypothesis about information-flow order. It does not establish that the person will notice, fix, optimize, or implement successfully in a real task.
 
 <!-- section:inert-contact -->
 #### Inert / Contact
@@ -212,53 +212,7 @@ Practical reading:
 <!-- section:dimensional-consequences-by-function -->
 #### Dimensional Consequences By Function
 
-**1Si — 4D**
-
-- broad confidence in reading comfort, load, maintenance, and bodily/environmental conditions
-- tends to notice what is sustainable or unsustainable without much strain
-- strongest when the task rewards stability, calibration, and keeping systems workable
-
-**2Te — 3D**
-
-- strong situational competence in efficiency, tools, diagnostics, and implementation
-- excellent for operational problem-solving, but more task-driven than globally ideological
-- best productive channel for technical work, automation, and reliability
-
-**3Ni — 2D**
-
-- can use timelines, forecasts, and trajectory language when socially required
-- enough capacity for practical scheduling and risk awareness, but not a natural strategic identity center
-- overload risk appears when the environment demands constant abstract foresight without concrete operational anchors
-
-**4Fe — 1D**
-
-- vulnerable zone around emotional display, mood pressure, and forced group atmosphere management
-- can react to emotional signals, but sustained emotional performance is draining
-- works better when the team climate is calm, direct, and not built around dramatization
-
-**5Ne — 1D**
-
-- wants helpful possibility framing and alternatives from outside
-- benefits from someone who opens options without flooding the situation with chaos
-- without this support, the profile can become too locked into the immediate workable path
-
-**6Fi — 2D**
-
-- mobilizes through stable personal trust, reliable boundaries, and clear interpersonal loyalty
-- can grow into relational confidence when the environment is safe and non-manipulative
-- best when closeness and trust support work, not when moral/status testing becomes the job
-
-**7Se — 3D**
-
-- can apply pressure, containment, and direct force when necessary
-- because this is unvalued, it is usually used instrumentally rather than as a lifestyle
-- helpful for boundary enforcement and crisis containment, but not for status competition as a permanent mode
-
-**8Ti — 4D**
-
-- strong background capacity for structure, classification, and consistency checking
-- because this is unvalued and backgrounded, it supports practical work rather than becoming the main identity claim
-- helpful for architecture review, technical checks, and background coherence control
+Dimensionality is retained here only as an attributed school layer: `1Si—4D`, `2Te—3D`, `3Ni—2D`, `4Fe—1D`, `5Ne—1D`, `6Fi—2D`, `7Se—3D`, `8Ti—4D`. It does not convert an aspect operation into capacity, expertise, task performance, career fit, or deficit. Any proposed consequence must be tested with comparable tasks and disconfirmed against expertise, role, language, health, stress, culture, and context. The operation × position-mode map above is the active BWB reading.
 
 <!-- section:model-a-caveat -->
 #### Model A Caveat
@@ -269,8 +223,9 @@ Practical reading:
 <!-- section:socionics-takeaway -->
 #### Socionics Takeaway
 
-- hypothesized resource: technical, grounded, operational work
-- hypothesized tension: noise, forced improvisation, and social pressure as the main work style
+- research question: whether Si condition-integration and Te feedback-based method revision recur in the proposed foreground/flexible modes
+- competing evidence: direct work samples, training, role expectations, health, stress, language, culture, and context
+- non-inference: the SLI code does not establish technical ability, work style, or occupational fit
 - neither claim establishes ability or role fit without behavioral and contextual evidence
 
 <!-- section:reinin-traits-for-sli -->
@@ -454,10 +409,10 @@ Applied consequences differ by context and are handled in:
 <!-- section:socionics-signal -->
 ### Socionics signal
 
-- calm technical execution
-- practical systems sense
-- preference for stable, concrete work
-- low tolerance for noisy social pressure as a primary mode
+- evidence about what is selected, preserved after compression, inferred, and updated for all eight aspect operations
+- separate evidence about each proposed Model A position mode
+- errors, counterexamples, and rival explanations across comparable contexts
+- no technical-ability, temperament, or work-style conclusion from `SLI` alone
 
 <!-- section:psychosophy-signal -->
 ### Psychosophy signal
@@ -471,8 +426,8 @@ Applied consequences differ by context and are handled in:
 ### Emotion / Ethics Boundary
 
 - **Psychosophy 1E** means emotional state and expression are primary operational material: the profile can set tone from its own emotional frame.
-- **Socionics 4Fe** means external emotional atmosphere and demanded group emotional performance are a vulnerable information zone.
-- These are not contradictory: the profile can be emotionally expressive while still disliking noisy social pressure, forced mood management, and performative atmosphere demands.
+- **Socionics 4Fe** proposes a least-stable-under-pressure mode for tracking expressed-state dynamics; it does not establish emotional inability or dislike.
+- The two hypotheses are not logically contradictory, but neither can explain observed expression without direct evidence and alternatives.
 
 <!-- section:temporistics-signal -->
 ### Temporistics signal

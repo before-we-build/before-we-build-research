@@ -6,8 +6,8 @@ created: 2026-04-24
 updated: 2026-08-30
 lang: en
 translation_group: glossary-extended
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: research-appendix
 claim_status: [project-definition, application-guidance]
@@ -34,9 +34,9 @@ These terms are easy to read in more than one way. Active pages should qualify t
 
 **Function** may mean a proposed psychic function, mathematical mapping, or software operation. Name the discipline.
 
-**Aspect** is a system-specific dimension in a source typology; aspects with similar names across systems are not automatically equivalent.
+**Aspect** is a system-specific dimension in a source typology. In the BWB Socionics reconstruction it is a proposed content-operation pair; aspects with similar names across systems are not automatically equivalent.
 
-**Position** is a location in a type structure. Any cognitive interpretation assigned by BWB must be labelled a project hypothesis rather than a canonical alias.
+**Position** is a location in a type structure. In Model A it is kept distinct from the aspect and interpreted as a proposed use mode. Any cognitive interpretation assigned by BWB must be labelled a project hypothesis rather than a canonical alias.
 
 <!-- section:shared-example -->
 ## Example of disambiguation

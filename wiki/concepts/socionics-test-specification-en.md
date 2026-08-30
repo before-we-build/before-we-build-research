@@ -1,145 +1,125 @@
 ---
 title: Socionics Test Specification
 type: concept
-tags: [methodology, psychometrics, typology-tests, socionics, model-a]
+tags: [methodology, psychometrics, typology-tests, socionics, model-a, en]
 created: 2026-04-25
-updated: 2026-04-25
-sources: [wiki/concepts/typology-test-design-protocol-en.md, wiki/concepts/socionics-model-a-en.md, wiki/concepts/socionics-information-elements-en.md]
+updated: 2026-08-30
 lang: en
 translation_group: socionics-test-specification
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
-claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claim_status: [research-hypothesis, application-guidance]
+claims:
+  - id: socionics-test-separates-aspect-and-position-evidence
+    status: application-guidance
+  - id: behavioral-process-tasks-are-primary
+    status: research-hypothesis
+  - id: model-a-output-is-conditional
+    status: application-guidance
+caveat_ids: [not-validated, not-ability-score, no-innateness-score, no-theme-only-typing, context-required]
+sources: [wiki/concepts/typology-test-design-protocol-en.md, wiki/concepts/socionics-model-a-en.md, wiki/concepts/socionics-information-elements-en.md, wiki/concepts/socionics-reality-modeling-en.md]
 ---
 
 # Socionics Test Specification
 
-This page defines the first Before We Build draft test for Socionics. It is an original research instrument, not a copied version of existing online tests.
+English · [[socionics-test-specification-ru|Русский]] · [[socionics-test-specification-uk|Українська]]
 
 <!-- section:status -->
 ## Status
 
-**Draft / ready for expert review, not validated.**
-
-The test should produce ranked hypotheses, not a definitive TIM. Result wording must say: “your answer profile is most compatible with...” rather than “your true type is...”.
+**Research design / not validated and not ready for individual verdicts.** The instrument reports evidence about proposed operations and position modes. It does not reveal a true type.
 
 <!-- section:construct-frame -->
-## Construct Frame
+## Construct frame
 
-In Before We Build, [[socionics-model-a-en]] is treated as a heuristic model of **latent processes of information modeling**.
+The target is the BWB hypothesis in [[socionics-reality-modeling-en]]: an aspect pairs a class of distinctions with an operation for selecting, compressing, organizing, inferring from, and updating a partial representation of one shared world. Aspect evidence and Model A position evidence are separate constructs and must not be inferred from the same thematic preference.
 
-The test should measure:
+<!-- section:measurement-facets -->
+## Four measurement facets
 
-1. which information aspects the person notices most readily;
-2. which aspects feel confident, tiring, valuable, or externally requested;
-3. whether the profile resembles a Model A structure strongly enough to propose type hypotheses.
-
-<!-- section:primary-scales -->
-## Primary Scales
-
-Eight aspect scales:
-
-- **Ti** — structures, categories, internal logical relations;
-- **Te** — workable methods, efficiency, evidence of practical usefulness;
-- **Fi** — personal distance, trust, relationship boundaries;
-- **Fe** — shared emotional atmosphere and expressive response;
-- **Si** — comfort, bodily state, environmental quality;
-- **Se** — force, pressure, influence, resource control;
-- **Ni** — temporal line, tendency, unfolding path;
-- **Ne** — possibilities, alternatives, potential versions.
-
-For each aspect, collect four subscale signals:
-
-| Subscale | Question |
+| Facet | Evidence question |
 |---|---|
-| Attention | Do I naturally notice this information? |
-| Confidence | Can I handle it under pressure? |
-| Value | Do I prefer this kind of information as meaningful or right? |
-| Production | Do I initiate it for others? |
+| Selection | What is noticed without an aspect cue? |
+| Compression | Which distinctions survive summarization, delay, or limited capacity? |
+| Inference | What novel conclusion, prediction, or alternative is generated? |
+| Updating | What error signal triggers revision, and how well is the representation corrected? |
 
-<!-- section:recommended-mvp-structure -->
-## Recommended MVP Structure
+Record accuracy where a task has an answer, coverage, error pattern, response time, confidence calibration, transfer, and revision after feedback. No single metric is an aspect score by itself.
 
-- 80–120 total items for a full pilot bank.
-- 50–60 Likert items.
-- 20–30 scenario items.
-- 10–20 forced-choice contrast items.
-- Optional observer-rating version for partners, friends, or colleagues.
+<!-- section:aspect-scales -->
+## Eight provisional operation scales
 
-Use a 6-point Likert scale without a neutral midpoint:
+| Aspect | Proposed operation |
+|---|---|
+| Ne | latent properties and unrealized possibilities |
+| Se | present force, form, boundaries, resistance, and direct impact |
+| Te | action/method links to observable results and feedback |
+| Fe | changing activation and state through expressed reactions |
+| Ni | timing, trajectory, and transition among sequential processes |
+| Si | concurrent conditions and their effects on state and quality |
+| Ti | structural relations, classifications, constraints, and invariants |
+| Fi | subjective significance, attraction, need, distance, and acceptability |
 
-1. Completely unlike me
-2. Mostly unlike me
-3. Slightly unlike me
-4. Slightly like me
-5. Mostly like me
-6. Very much like me
+These scales are candidate constructs, not established eight-factor structure.
 
-<!-- section:seed-item-bank -->
-## Seed Item Bank
+<!-- section:position-mode-evidence -->
+## Position-mode evidence
 
-These are original seed items for initial review. They are not yet a validated questionnaire.
+Test position claims independently across repeated tasks. Candidate evidence concerns foreground versus background use, accepting versus producing, stable versus situational use, response to pressure, reliance on external scaffolding, and valuation. The Model A labels leading, creative, role, vulnerable, suggestive, mobilizing, ignoring, and demonstrative remain hypotheses. Positions 1/2/7/8 are not ability scores; 3/4/5/6 are not deficits.
 
-<!-- section:likert-items -->
-### Likert Items
+<!-- section:parallel-microtasks -->
+## Four parallel microtask families
 
-1. When I encounter a new system, I first try to understand how its parts logically relate before looking for the fastest application. `Ti`
-2. I feel calmer when a method has already shown practical results, even if its theory is not elegant. `Te`
-3. I quickly notice when the level of trust or personal distance between people has shifted. `Fi`
-4. If a group’s emotional state is unclear, I often want to make the mood more visible and shared. `Fe`
-5. When something is going wrong, I often first adjust pace, comfort, workload, or the physical setup. `Si`
-6. In a tense situation, I automatically notice who actually has leverage and who only appears influential. `Se`
-7. When planning, I naturally track where events seem to be heading over time. `Ni`
-8. I become energized when a situation opens many possible directions, even before one is chosen. `Ne`
-9. I can enjoy a beautiful idea, but I still want to know what it changes in practice. `Te`
-10. I often compare statements by checking whether their inner categories are consistent. `Ti`
-11. I find it important to know whether closeness with someone is real or only polite on the surface. `Fi`
-12. I often notice whether people are emotionally included or just formally present. `Fe`
+1. **Condition state ↔ direct impact (Si/Se).** Present the same changing physical or resource scene. Measure detection and updating of condition-quality effects separately from capacity, boundary, resistance, and leverage estimates.
+2. **Temporal trajectory ↔ possibility space (Ni/Ne).** Present an event sequence with hidden alternatives. Measure timing/direction inference separately from discovery of viable latent properties and branches.
+3. **Structural rule ↔ effective method (Ti/Te).** Present a novel system with rules and outcome feedback. Measure invariant/constraint recovery separately from choosing and revising a result-producing procedure.
+4. **Stable relation ↔ expressed-state dynamics (Fi/Fe).** Present interaction traces over time. Measure inference about significance and distance separately from detection of expressed-state transition and propagation.
 
-<!-- section:forced-choice-items -->
-### Forced-Choice Items
+Each family needs matched difficulty, equivalent information access, counterbalanced order, neutral wording, and tasks where either operation can help without one being socially superior.
 
-13. In a work discussion, my first impulse is usually:
-    - A. clarify definitions, categories, and internal logic; `Ti`
-    - B. clarify what will produce measurable results. `Te`
+<!-- section:auxiliary-self-report -->
+## Auxiliary self-report
 
-14. If a meeting loses energy, I am more likely to:
-    - A. raise the emotional involvement; `Fe`
-    - B. introduce an unexpected alternative; `Ne`
-    - C. return to the likely direction of events; `Ni`
-    - D. adjust the tempo, format, or comfort. `Si`
+Self-report may ask about perceived effort, preference, support, and familiarity after behavioral tasks. It cannot serve as the primary aspect measure because identity, prestige, prior typing knowledge, role, and memory can imitate the target. Observer reports and interviews are also auxiliary.
 
-15. When people disagree, I most often want to know:
-    - A. which principle or structure is being violated; `Ti`
-    - B. what evidence would settle the practical question; `Te`
-    - C. how the disagreement changes the relationship; `Fi`
-    - D. how the group atmosphere is being affected. `Fe`
+<!-- section:output-contract -->
+## Public output contract
 
-16. In uncertainty, I first look for:
-    - A. hidden potential and alternative openings; `Ne`
-    - B. the most probable line of development; `Ni`
-    - C. who can actually push the situation; `Se`
-    - D. what would restore a workable state now. `Si`
+The report must contain four separate blocks:
+
+1. **Aspect-operation evidence:** selection, compression, inference, and updating observations for all eight candidate operations.
+2. **Position-mode evidence:** separate repeated-task evidence, including contradictions and dependence on support or pressure.
+3. **Context and rivals:** expertise, language, health, sensory access, role, stress, familiarity, motivation, missingness, and measurement error.
+4. **Ranked Model A hypotheses:** only when preregistered minimum evidence exists for both aspect and position structures; otherwise report that no code inference is warranted.
+
+Never report an overall ability score, innateness score, compatibility score, calibrated-looking percentage without calibration data, or a type inferred only from preferred topics.
 
 <!-- section:scoring-sketch -->
-## Scoring Sketch
+## Analysis sketch
 
-1. Calculate aspect scores and subscale scores.
-2. Detect conflict patterns: high value but low confidence, high attention but low production, high production but low value.
-3. Compare the profile with 16 Model A templates.
-4. Return top 3 TIM hypotheses with confidence status: low, moderate, provisional.
-5. Report uncertainty drivers: flat profile, contradictory answers, self-typing bias, response extremity.
+- Preserve task-level observations before aggregation.
+- Estimate facet profiles with uncertainty and report missing data.
+- Test whether aspect operation patterns replicate across task variants.
+- Estimate position-mode evidence separately; do not backfill it from the expected stack.
+- Compare candidate profiles with simpler baselines such as expertise, general task performance, response style, and broad traits.
+- Attempt type-like classification last, on held-out data, and permit “insufficient evidence” as the default outcome.
+
+<!-- section:validation -->
+## Validation requirements
+
+Use cognitive pretesting, blinded coding, inter-rater reliability where relevant, test-retest designs, factor/model comparison, measurement invariance across EN/RU/UK and relevant groups, convergent and discriminant measures, held-out prediction, external replication, calibration, harm review, and preregistered failure thresholds.
 
 <!-- section:caveats -->
 ## Caveats
 
-- Do not identify Ti with intelligence, Fe with emotionality, Se with aggression, or Ni with mysticism.
-- Training and professional role can mimic strong aspects.
-- Knowledge of Socionics can contaminate self-report.
-- This test requires cognitive pretesting and pilot validation before user-facing deployment.
+- Task success may reflect knowledge, intelligence, reading ability, motor or sensory access, or familiarity rather than the proposed operation.
+- A stable aspect-like pattern does not establish Model A positions or biological innateness.
+- All people may use all operations; the target is a recurring differential pattern, not ownership of a channel.
+- No result authorizes moral, clinical, employment, relationship, or safety decisions.
 
-See [[typology-test-design-protocol-en]] for shared psychometric safeguards.
+<!-- section:next-reading -->
+## Next reading
+
+See [[typology-test-design-protocol-en]], [[compatibility-measurement-methods-en]], and [[socionics-reality-modeling-en]].

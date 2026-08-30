@@ -17,15 +17,17 @@ sources:
   - "web: https://biblechurch.com.ua/"
   - "web: https://uk.wikipedia.org/wiki/Мохненко_Геннадій_Вікторович"
 translation_group: public-figure-typing-pipeline-run-2026-06-21-method-v2
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: historical
 page_role: research-appendix
 claim_status: [historical-proposal]
 claims:
   - id: public-figure-v2-named-person-candidates
     status: historical-proposal
-caveat_ids: [public-figure-v2-insufficient-corpus, public-figure-v2-no-personal-inference]
+  - id: historical-v2-socionics-codes-precede-reality-modeling-ontology
+    status: historical-proposal
+caveat_ids: [public-figure-v2-insufficient-corpus, public-figure-v2-no-personal-inference, no-retrospective-recalculation]
 ---
 
 # Historical Methodology-v2 Review of Public Figures — 2026-06-21
@@ -34,6 +36,11 @@ caveat_ids: [public-figure-v2-insufficient-corpus, public-figure-v2-no-personal-
 ## Status
 
 This is a historical record of the second review, conducted before the current evidence protocol. It improved the initial table by explicitly considering source quality, role overfit, and alternatives, but still proposed codes from a corpus that was too thin. Candidates are retained to audit the method's development, not as current conclusions about people.
+
+<!-- section:ontology-supersession -->
+## Ontology supersession notice
+
+The Socionics candidates in this record predate the BWB content–operation account of aspects and the separate account of position modes. No retrospective recalculation has been made. Any future reanalysis must gather evidence for both layers under [[socionics-reality-modeling-en]] rather than translating the old code mechanically.
 
 <!-- section:method-changes-in-v2 -->
 ## Method changes in v2

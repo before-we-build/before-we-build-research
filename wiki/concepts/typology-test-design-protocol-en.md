@@ -7,8 +7,8 @@ updated: 2026-04-25
 sources: [wiki/concepts/validation-program-en.md, wiki/concepts/compatibility-measurement-roadmap-en.md, wiki/sources/psychosophy-typing-methods-en.md, .agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md]
 lang: en
 translation_group: typology-test-design-protocol
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -50,11 +50,13 @@ A score produced by an individual typology instrument is not a compatibility sco
 
 All test design should preserve the project's three-system framing:
 
-- **Socionics** → latent processes of information modeling;
+- **Socionics** → latent processes of selecting, compressing, inferring from, and updating partial models of one shared reality;
 - **Psychosophy** → latent processes of synthesis and analysis in action;
 - **Temporistics** → latent processes of abduction, induction, and deduction in temporal/existential experience.
 
 These mappings are working hypotheses, not established psychological facts.
+
+Socionics instruments must keep aspect-operation evidence separate from Model A position-mode evidence, cover selection, compression, inference, and updating, and treat self-report as auxiliary. The system-specific design is defined in [[socionics-test-specification-en]] and [[socionics-reality-modeling-en]].
 
 <!-- section:recommended-expert-routing -->
 ## Recommended Expert Routing

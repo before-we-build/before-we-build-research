@@ -7,8 +7,8 @@ updated: 2026-04-24
 sources: [wiki/concepts/main-idea-en.md, wiki/concepts/project-positioning-en.md, wiki/concepts/compatibility-level-boundaries-en.md, wiki/concepts/compatibility-measurement-roadmap-en.md, wiki/sources/big-five-alternatives-en.md]
 lang: en
 translation_group: before-we-build-vs-big-five
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -42,7 +42,7 @@ Big Five is strongest as a descriptive trait taxonomy. Before We Build is design
 <!-- section:3-required-before-we-build-formula -->
 ## 3. Required Before We Build Formula
 
-- **Socionics → latent processes of information modeling**
+- **Socionics → latent processes of selecting, compressing, inferring from, and updating partial models of one shared reality**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of abduction, induction, and deduction in temporal/existential experience**
 
@@ -114,7 +114,7 @@ These questions may support conversations in pairs, teams, and cofounder groups.
 <!-- section:6-1-socionics-tactical-interaction-modeling -->
 ### 6.1 Socionics: tactical interaction modeling
 
-Socionics may add value by modeling informational priorities, blind spots, and dyadic misattunement.
+Socionics may add value by generating hypotheses about which distinctions each partial model retains, how it revises them, and where two proposed position modes misattune. This is the BWB reconstruction in [[socionics-reality-modeling-en]], not a validated advantage over trait models.
 
 Useful questions include:
 

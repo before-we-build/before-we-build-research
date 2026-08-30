@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: en
 translation_group: tactical-compatibility
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -16,8 +16,10 @@ claims:
     status: project-definition
   - id: socionics-may-model-tactical-process
     status: research-hypothesis
-caveat_ids: [not-all-communication, not-relationship-quality, context-required]
-sources: [AGENTS.md, raw/socionics]
+  - id: tactical-coordination-may-join-partial-reality-models
+    status: research-hypothesis
+caveat_ids: [not-all-communication, not-relationship-quality, context-required, not-neural-module]
+sources: [AGENTS.md, raw/socionics, raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 ---
 
 # Tactical Compatibility
@@ -32,7 +34,7 @@ Tactical compatibility concerns how two people notice, select, structure, exchan
 <!-- section:definition-and-scope -->
 ## Definition and scope
 
-This level asks whether a pair can build sufficiently shared situation models to coordinate a named task, despite differences in attention, framing, vocabulary, and preferred evidence.
+This level asks whether a pair can build sufficiently shared, correctable models of one situation to coordinate a named task, despite differences in attention, compression, framing, vocabulary, and preferred evidence. The Socionics reconstruction treats aspects as proposed partial-model operations; see [[socionics-reality-modeling-en]].
 
 <!-- section:inclusion-exclusion -->
 ## What belongs here — and what does not
@@ -42,7 +44,7 @@ Include attention, interpretation, information requests, compression, explanatio
 <!-- section:latent-construct -->
 ## Proposed latent construct
 
-The proposed construct is information modelling: forming and updating internal representations from available information. Mapping Model A functions and relations to it remains a research hypothesis.
+The proposed construct is information modelling: selecting distinctions, forming partial representations, drawing inferences, and updating them from feedback. Aspectual content and operation are kept separate from the positional mode assigned by Model A. Their mapping remains a research hypothesis.
 
 <!-- section:shared-example -->
 ## Shared example
@@ -110,4 +112,4 @@ Use observable information tasks, blind coding, accuracy and repair outcomes, re
 <!-- section:next-reading -->
 ## Next reading
 
-Return to [[four-level-compatibility-architecture-en]] or follow the worked case in [[evidence-workflow-and-walkthrough-en]].
+Continue with [[socionics-reality-modeling-en]], return to [[four-level-compatibility-architecture-en]], or follow the worked case in [[evidence-workflow-and-walkthrough-en]].

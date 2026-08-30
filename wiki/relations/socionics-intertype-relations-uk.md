@@ -5,15 +5,19 @@ tags: [socionics, relations, compatibility]
 created: 2026-04-15
 updated: 2026-08-30
 lang: uk
-sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md]
+sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 translation_group: socionics-intertype-relations
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: relation
 claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: relations-are-model-a-contact-hypotheses
+    status: research-hypothesis
+  - id: relations-may-describe-partial-model-coordination
+    status: research-hypothesis
+caveat_ids: [no-relationship-fate, context-required, consent-required, not-ability-ranking]
 ---
 
 # Соціонічні інтертипні відносини
@@ -23,12 +27,14 @@ caveat_ids: []
 <!-- section:overview -->
 ## Огляд
 
-Зазвичай розрізняють **14 класів**. Замовлення й ревізія асиметричні, тому потребують зазначення напряму. У Before We Build ці відносини стосуються лише **тактичного обміну інформацією**. Це внутрішньомодельні гіпотези, а не прогноз успіху стосунків, кар'єри чи шлюбу.
+Зазвичай розрізняють **14 класів**. Замовлення й ревізія асиметричні, тому потребують зазначення напряму. У Before We Build ці відносини — гіпотези про контакти операцій часткового моделювання, використаних у різних позиційних режимах Моделі A. Вони стосуються лише **тактичного обміну інформацією**, а не прогнозують успіх стосунків, кар'єри чи шлюбу. Див. [[socionics-reality-modeling-uk]].
 
 <!-- section:relation-types -->
 ## Типи відносин
 
-Для кожного класу наведено можливий ресурс, можливе напруження та перевірку. Альтернативні пояснення для всіх класів охоплюють навички спілкування, спільні знання, владу, стрес, культуру, прив'язаність і контекст завдання.
+Для кожного класу наведено можливий ресурс, можливе напруження та перевірку. Контакт описує, як два запропоновані способи відбору й представлення однієї ситуації можуть координуватися, перекладатися, розходитися або тиснути один на одного; це не зустріч фіксованих особистостей. Альтернативи охоплюють навички спілкування, спільні знання, роль, владу, стрес, культуру, прив'язаність і контекст завдання.
+
+Слова `сильний`, `слабкий`, `ціннісний` і `вразливий` у механізмах нижче — атрибутована коротка мова Моделі A. Читайте їх через карту позиційних режимів, а не як здібності або дефіцити. Видимий патерн відносин також може змінюватися з контекстом і виконуваними зараз ролями.
 
 <!-- section:identity -->
 ### Тотожність
@@ -174,3 +180,4 @@ caveat_ids: []
 
 - [[socionics-detailed-uk]]
 - [[intertype-relations-matrix-uk]]
+- [[socionics-reality-modeling-uk]]

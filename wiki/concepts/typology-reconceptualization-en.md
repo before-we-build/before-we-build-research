@@ -6,8 +6,8 @@ created: 2026-08-26
 updated: 2026-08-30
 lang: en
 translation_group: typology-reconceptualization
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis, contested]
@@ -15,6 +15,8 @@ claims:
   - id: type-is-model-hypothesis
     status: project-definition
   - id: typological-structures-may-model-processes
+    status: research-hypothesis
+  - id: socionics-aspects-may-model-partial-reality-representations
     status: research-hypothesis
   - id: natural-predisposition-is-hypothesis
     status: research-hypothesis
@@ -34,7 +36,7 @@ Before We Build does not use a type as a personality type or kind of person. In 
 <!-- section:definition-and-scope -->
 ## Definition and scope
 
-Socionics is assigned to information modelling, Psychosophy to analysis, synthesis, and organization in action, and Temporistics to abduction, induction, and deduction in temporal or existential experience. “Perception” is an umbrella for selection, ordering, interpretation, and process organization, not sensory perception alone. The systems are non-equivalent and separately modelled.
+Socionics is assigned to information modelling, Psychosophy to analysis, synthesis, and organization in action, and Temporistics to abduction, induction, and deduction in temporal or existential experience. In the central Socionics hypothesis, an aspect pairs a class of distinctions with an operation that preserves and updates a partial representation of one shared world; see [[socionics-reality-modeling-en]]. “Perception” is an umbrella for selection, ordering, interpretation, and process organization, not sensory perception alone. The systems are non-equivalent and separately modelled.
 
 <!-- section:shared-example -->
 ## Shared example

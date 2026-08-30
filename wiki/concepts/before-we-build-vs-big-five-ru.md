@@ -7,8 +7,8 @@ updated: 2026-04-24
 lang: ru
 sources: [wiki/concepts/main-idea-ru.md, wiki/concepts/project-positioning-ru.md, wiki/concepts/compatibility-level-boundaries-ru.md, wiki/concepts/compatibility-measurement-roadmap-ru.md, wiki/sources/big-five-alternatives-ru.md]
 translation_group: before-we-build-vs-big-five
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -42,7 +42,7 @@ Big Five и Before We Build отвечают на разные методоло�
 <!-- section:3-required-before-we-build-formula -->
 ## 3. Обязательная формула Before We Build
 
-- **Соционика → латентные процессы информационного моделирования**
+- **Соционика → латентные процессы отбора, сжатия, вывода и обновления частичных моделей одной общей реальности**
 - **Психософия → латентные процессы синтеза и анализа в действии**
 - **Темпористика → латентные процессы абдукции, индукции и дедукции во временном/экзистенциальном опыте**
 
@@ -112,7 +112,7 @@ Before We Build может помогать формулировать вопр�
 <!-- section:6-1-socionics-tactical-interaction-modeling -->
 ### 6.1 Соционика: тактическое моделирование взаимодействия
 
-Соционика может добавлять гипотезы об информационных приоритетах, слепых зонах и рассогласовании двух людей.
+Соционика может добавлять гипотезы о том, какие различия сохраняет каждая частичная модель, как она их пересматривает и где расходятся два предполагаемых позиционных режима. Это реконструкция BWB из [[socionics-reality-modeling-ru]], а не валидированное преимущество над моделями черт.
 
 Полезные вопросы:
 

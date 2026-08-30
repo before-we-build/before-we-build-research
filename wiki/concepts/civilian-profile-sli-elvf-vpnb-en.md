@@ -6,8 +6,8 @@ created: 2026-04-25
 updated: 2026-08-30
 lang: en
 translation_group: civilian-profile-sli-elvf-vpnb
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis, evidence-informed, application-guidance]
@@ -18,6 +18,8 @@ claims:
     status: research-hypothesis
   - id: role-fit-requires-direct-context-evidence
     status: application-guidance
+  - id: socionics-code-does-not-establish-occupational-ability
+    status: project-definition
 caveat_ids: [no-career-from-type, no-type-confirmation, context-and-skill-required, no-pair-inference]
 sources: [.opencode/data/civilian-career-roles.md, raw/general/typology-crisis-war.md]
 ---
@@ -46,6 +48,8 @@ If the three input codes are provisionally retained, they may generate questions
 - temporal direction: use of precedent, planning horizons, continuity, and meaning.
 
 These mappings are project hypotheses about proposed latent processes, not established explanations of the person’s behavior.
+
+For Socionics specifically, `SLI` is read as a compound hypothesis about eight aspect operations in eight proposed position modes—not as a character portrait or occupational ability profile. See [[socionics-reality-modeling-en]] and [[sli-sensory-logical-introvert-en]].
 
 <!-- section:role-options -->
 ## Role options to investigate

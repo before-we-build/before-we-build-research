@@ -466,6 +466,54 @@ This page does not claim that:
         )
         self.assertEqual(audit_claims(self.root, strict=True), [])
 
+    def test_flags_socionics_aspect_reification_but_allows_negated_boundaries(self) -> None:
+        assertions = {
+            "en": {
+                "ability": "A Socionics aspect is an innate ability.",
+                "brain": "A Socionics aspect is a brain module.",
+                "essence": "A Socionics aspect is an innate essence.",
+                "channel": "A Socionics aspect is an objectively established information channel.",
+            },
+            "ru": {
+                "ability": "Соционический аспект является врождённой способностью.",
+                "brain": "Соционический аспект является модулем мозга.",
+                "essence": "Соционический аспект является врождённой сущностью.",
+                "channel": "Соционический аспект является объективно установленным информационным каналом.",
+            },
+            "uk": {
+                "ability": "Соціонічний аспект є вродженою здатністю.",
+                "brain": "Соціонічний аспект є модулем мозку.",
+                "essence": "Соціонічний аспект є вродженою сутністю.",
+                "channel": "Соціонічний аспект є об'єктивно встановленим інформаційним каналом.",
+            },
+        }
+        for lang, phrases in assertions.items():
+            for name, body in phrases.items():
+                self.write_page(
+                    f"wiki/asserted-aspect-{name}-{lang}.md",
+                    page_text(f"asserted-aspect-{name}", lang, body=body),
+                )
+        negated = {
+            "en": "A Socionics aspect is not an ability, brain module, innate essence, or objectively established information channel.",
+            "ru": "Соционический аспект не является способностью, модулем мозга, врождённой сущностью или объективно установленным информационным каналом.",
+            "uk": "Соціонічний аспект не є здатністю, модулем мозку, вродженою сутністю або об'єктивно встановленим інформаційним каналом.",
+        }
+        for lang, body in negated.items():
+            self.write_page(
+                f"wiki/negated-aspect-reification-{lang}.md",
+                page_text("negated-aspect-reification", lang, body=body),
+            )
+        diagnostics = audit_claims(self.root, strict=True)
+        codes = {item.code for item in diagnostics}
+        self.assertIn("socionics-aspect-as-ability", codes)
+        self.assertIn("socionics-aspect-as-brain-module", codes)
+        self.assertIn("socionics-aspect-as-innate-essence", codes)
+        self.assertIn("socionics-aspect-as-established-channel", codes)
+        negated_diagnostics = [
+            item for item in diagnostics if item.path and "negated-aspect" in item.path
+        ]
+        self.assertEqual(negated_diagnostics, [])
+
 
 class IndexAndInventoryTests(RepositoryFixture):
     def test_generated_index_and_stale_check(self) -> None:

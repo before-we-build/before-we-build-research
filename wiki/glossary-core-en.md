@@ -6,8 +6,8 @@ created: 2026-04-24
 updated: 2026-08-30
 lang: en
 translation_group: glossary-core
-semantic_version: 4
-reviewed_semantic_version: 4
+semantic_version: 5
+reviewed_semantic_version: 5
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis]
@@ -16,6 +16,8 @@ claims:
     status: project-definition
   - id: typology-process-mappings-are-hypotheses
     status: research-hypothesis
+  - id: socionics-reality-modeling-terms-are-project-definitions
+    status: project-definition
   - id: natural-predisposition-is-hypothesis
     status: research-hypothesis
 caveat_ids: [terms-not-proof, source-usage-may-differ, no-score, innateness-not-established]
@@ -75,13 +77,21 @@ This glossary fixes how active Before We Build pages use central terms. A defini
 
 **Frame** — an internal principle of selection, ordering, and interpretation within a proposed process model.
 
+**Aspectual content** — in the BWB Socionics reconstruction, the class of distinctions and relations a proposed partial representation preserves.
+
+**Aspectual operation** — the proposed way those distinctions are selected, compressed, organized, used for inference, and updated; a research hypothesis, not a brain module.
+
+**Partial reality model** — a limited, correctable representation of one shared world. It does not imply a private reality or exhaustive depiction.
+
+**Position mode** — the Model A hypothesis about how an aspectual operation is foregrounded, produced, valued, resisted, sought, or backgrounded; not an ability rank.
+
 **Value-moral foundation** — values, moral obligations, conduct, dignity, consent, safety, responsibility, reciprocity, repair, and non-negotiable boundaries; not a typology.
 
 **Strategic compatibility** — compatibility of temporal or existential direction; mapped provisionally to Temporistics, not to values.
 
 **Operational compatibility** — compatibility in organizing decisions and joint action; mapped provisionally to Psychosophy.
 
-**Tactical compatibility** — compatibility in information modelling and exchange; mapped provisionally to Socionics, not to all communication.
+**Tactical compatibility** — compatibility in building, exchanging, checking, and repairing partial information models; mapped provisionally to Socionics, not to all communication.
 
 <!-- section:alternatives -->
 ## Alternative meanings and rival explanations

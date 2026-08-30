@@ -34,7 +34,7 @@ latent-process models:
 | Value-moral / foundational | Worldview, stated commitments, observed conduct, consent and safety evidence | Values, moral obligations, dignity, truth, responsibility, reciprocity, repair, non-negotiable boundaries | Normative frame |
 | Strategic | Temporistics | Abductive, inductive, and deductive structuring of temporal experience | Temporal frame |
 | Operational | Psychosophy | Analysis, synthesis, action organization | Action frame |
-| Tactical | Socionics | Information modeling (information metabolism) | Information frame |
+| Tactical | Socionics | Selecting, compressing, organizing, inferring from, and updating partial information models of one shared reality | Information frame |
 
 The value-moral level is not a fourth typology, psychometric moral-worth
 scale, or automated verdict. A Christian application may interpret it through
@@ -47,7 +47,9 @@ Required formula:
 - **Value-moral foundation → values, moral obligations, observed conduct,
   consent, safety, responsibility, reciprocity, repair, and non-negotiable
   boundaries**
-- **Socionics → latent processes of information modeling**
+- **Socionics → latent processes of selecting, compressing, organizing,
+  inferring from, and updating partial information models of one shared
+  reality**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of abduction, induction, and deduction in temporal/existential experience**
 
@@ -63,6 +65,24 @@ heuristics and research hypotheses. Natural does not mean demonstrated innate,
 biological, fixed, or context-independent. They should not be written as
 scientifically proven personality facts or deterministic compatibility rules;
 learning, role, culture, state, stress, and context remain rival explanations.
+
+For Socionics, keep four layers distinct:
+
+1. **aspect content** — which distinctions or relations the proposed partial
+   model retains;
+2. **aspect operation** — how it selects, compresses, organizes, infers, or
+   updates those distinctions;
+3. **Model A position mode** — how that operation is proposed to be used;
+4. **observable trace** — task, speech, choice, revision, or coordination data
+   that may support or contradict the hypothesis.
+
+The classical `object/field × static/dynamic × internal/external` axes are
+attributed source language. The eight operation definitions in
+`wiki/concepts/socionics-reality-modeling-{en,ru,uk}.md` are a revisable BWB
+reconstruction, not an established cognitive architecture. Never equate an
+aspect or position with an ability, deficit, brain module, innate essence, or
+objectively established information channel. Do not rank Model A hypotheses
+without evidence for both aspect operations and position modes.
 
 ### Scope Boundary
 

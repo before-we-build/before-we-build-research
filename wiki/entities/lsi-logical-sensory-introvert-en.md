@@ -5,22 +5,26 @@ tags: [socionics, beta-quadra, istj, lsi, logical, sensory, introvert]
 created: 2026-04-15
 updated: 2026-08-30
 lang: en
-sources: ["raw/socionics/what-is-socionics.md", "raw/socionics/model-a.md", "wiki/entities/socionics-overview-en.md", "wiki/concepts/compatibility-level-boundaries-en.md", "wiki/concepts/test-result-reading-guide-en.md"]
+sources: ["raw/socionics/what-is-socionics.md", "raw/socionics/model-a.md", "wiki/entities/socionics-overview-en.md", "wiki/concepts/socionics-reality-modeling-en.md", "wiki/concepts/compatibility-level-boundaries-en.md", "wiki/concepts/test-result-reading-guide-en.md"]
 translation_group: lsi-logical-sensory-introvert
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: entity
 claim_status: [source-attribution, research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: socionics-type-code-is-model-a-arrangement
+    status: source-attribution
+  - id: socionics-type-code-may-model-positioned-operations
+    status: research-hypothesis
+caveat_ids: [not-personality-type, not-ability-profile, context-required, innateness-not-established]
 ---
 # LSI — Logical Sensory Introvert (Maxim Gorky / the Inspector)
 
 English · [[lsi-logical-sensory-introvert-ru|Русский]] · [[lsi-logical-sensory-introvert-uk|Українська]]
 
 <!-- section:definition -->
-This page records a **Socionics tactical-level hypothesis** about information modeling and exchange. It is not an MBTI type, diagnosis, full personality portrait, or deterministic relation verdict.
+This page records a **Socionics tactical-level hypothesis** about positioned operations for building partial, correctable representations of one shared world. It is not an MBTI type, diagnosis, ability profile, full personality portrait, or deterministic relation verdict.
 
 <!-- section:code -->
 ## Compact reference
@@ -29,22 +33,36 @@ This page records a **Socionics tactical-level hypothesis** about information mo
 - Traditionally attributed alias: **Maxim Gorky / the Inspector**
 - Model A notation used in this repository: **1Ti 2Se 3Fi 4Ne 5Fe 6Ni 7Te 8Si**
 
+<!-- section:process-map -->
+## Eight-position process map
+
+| Position | Aspect | Proposed aspect operation | Proposed position mode | Verification question | Rival explanations |
+|---:|---|---|---|---|---|
+| 1 | Ti | construct objective structural relations, comparisons, classifications, constraints, and invariants | stable foreground framing | Does the structure preserve its rules without contradiction? | expertise, task cues, role, language, health, stress, or familiarity |
+| 2 | Se | estimate present force, form, boundaries, resistance, and direct impact | flexible situational production | What evidence changes the estimate of capacity, boundary, or resistance? | expertise, task cues, role, language, health, stress, or familiarity |
+| 3 | Fi | represent stable subjective relations: attraction, significance, need, distance, and acceptability | norm-guided, effortful application | Does later interaction fit the represented significance and distance? | expertise, task cues, role, language, health, stress, or familiarity |
+| 4 | Ne | infer hidden properties and possible realizations of an object while preserving unrealized potential | least stable modeling under pressure | Which viable property or alternative was preserved or excluded? | expertise, task cues, role, language, health, stress, or familiarity |
+| 5 | Fe | track internal dynamics of activation and state through expressed reactions and their spread | valued, externally scaffolded intake | Which expressed-state transition or propagation was detected or missed? | expertise, task cues, role, language, health, stress, or familiarity |
+| 6 | Ni | organize sequential processes into trajectory, temporal relations, pace, and transitions | supported or activated development | Does the inferred timing and direction still fit the sequence? | expertise, task cues, role, language, health, stress, or familiarity |
+| 7 | Te | link actions and methods to observable changes and results, updating procedure from feedback | background monitoring | Does the method reproduce the result after feedback changes? | expertise, task cues, role, language, health, stress, or familiarity |
+| 8 | Si | integrate simultaneous conditions and their effects on state, quality, and environmental fit | automatic background production | Does the represented condition match experienced or observed state? | expertise, task cues, role, language, health, stress, or familiarity |
+
 <!-- section:reading -->
 ## How to read it
 
-Use the page as a comparison prompt, not an identity label. Ask which repeated information tasks fit, which alternatives remain plausible, and where role, expertise, language, stress, or context gives a better explanation.
+Read each row as aspect operation × position mode. Use the page as a comparison prompt, not an identity label. Aspect evidence and position evidence must be gathered separately before the whole stack is preferred.
 
 <!-- section:caveat -->
 ## Important
 
-The hypothesis does not determine morality, dignity, spiritual maturity, profession, safety, or relationship outcome. Relation names are structural mnemonics, not a scale from best to worst.
+The hypothesis does not determine ability, innateness, morality, dignity, spiritual maturity, profession, safety, or relationship outcome. Positions 1/2/7/8 are not guaranteed strengths, and 3/4/5/6 are not diagnosed deficits.
 
 <!-- section:questions -->
 ## Questions for verification
 
-- Which information does the person repeatedly notice, request, or omit?
-- Which kinds of correction help or hinder in comparable tasks?
-- What evidence distinguishes this code from its nearest alternatives?
+- What is selected, preserved after compression, inferred, and updated after feedback?
+- Does the proposed position mode recur across comparable tasks?
+- What evidence distinguishes this code from its nearest alternatives and rival explanations?
 
 <!-- section:see-also -->
 ## See also
@@ -52,3 +70,4 @@ The hypothesis does not determine morality, dignity, spiritual maturity, profess
 - [[socionics-overview-en]]
 - [[compatibility-level-boundaries-en]]
 - [[test-result-reading-guide-en]]
+- [[socionics-reality-modeling-en]]

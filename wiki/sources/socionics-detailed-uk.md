@@ -5,15 +5,19 @@ tags: [socionics, tactical-level, model-a]
 created: 2026-04-15
 updated: 2026-08-30
 lang: uk
-sources: []
+sources: [raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 translation_group: socionics-detailed
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: source-summary
 claim_status: [source-attribution]
-claims: []
-caveat_ids: []
+claims:
+  - id: school-socionics-summary-is-attributed-not-endorsed
+    status: source-attribution
+  - id: bwb-reconstruction-is-separate-from-school-summary
+    status: project-definition
+caveat_ids: [school-language-not-empirical-fact, not-ability-profile, innateness-not-established]
 ---
 
 # Соціоніка: тактичний рівень — докладний огляд
@@ -24,6 +28,11 @@ caveat_ids: []
 > **Питання:** «Як ми помічаємо й обговорюємо ситуацію?»
 
 Socionics — типологічна традиція Aušra Augustinavičiūtė, що розвиває Jung і Model A. Вона не дорівнює MBTI, а її інформаційні елементи й позиції не є доведеними когнітивними модулями. BWB використовує їх як перевірювані гіпотези про патерни інформаційної уваги.
+
+<!-- section:bwb-reconstruction-boundary -->
+## Межа реконструкції BWB
+
+Ця сторінка зберігає шкільні формулювання як атрибутований матеріал джерел; слова «сильний», «слабкий», «вразливий», «вроджений» або «експерт» нижче не є висновками BWB. Окрема реконструкція BWB розуміє аспект як пропоновану пару «зміст — операція» у частковій переглядній моделі однієї спільної реальності, а позицію Моделі A — як пропонований режим використання цієї операції. Реконструкція не підтверджує шкільні твердження й не переписує їх заднім числом. Див. [[socionics-reality-modeling-uk]] і [[augustinaviciute-information-metabolism-foundations-uk]].
 
 <!-- section:theoretical-foundation -->
 ## Теоретична основа

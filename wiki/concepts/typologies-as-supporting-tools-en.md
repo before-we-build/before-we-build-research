@@ -6,8 +6,8 @@ created: 2026-04-26
 updated: 2026-08-30
 lang: en
 translation_group: typologies-as-supporting-tools
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: application
 claim_status: [application-guidance, research-hypothesis, normative-rule]
@@ -48,9 +48,11 @@ Before We Build currently studies three separate mappings:
 
 - **Temporistics** → proposed latent processes of abduction, induction, and deduction in temporal or existential experience;
 - **Psychosophy** → proposed latent processes of synthesis and analysis in action;
-- **Socionics** → proposed latent processes of information modeling.
+- **Socionics** → proposed latent processes of selecting, compressing, inferring from, and updating partial models of one shared reality.
 
 The systems are modeled separately. This does not establish that they are empirically valid or statistically independent.
+
+For the Socionics reconstruction and its separation of aspect operation from position mode, see [[socionics-reality-modeling-en]].
 
 <!-- section:observation-and-hypothesis -->
 ## Observation and hypothesis

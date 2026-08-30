@@ -6,8 +6,8 @@ created: 2026-04-25
 updated: 2026-08-30
 lang: uk
 translation_group: civilian-profile-sli-elvf-vpnb
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis, evidence-informed, application-guidance]
@@ -18,6 +18,8 @@ claims:
     status: research-hypothesis
   - id: role-fit-requires-direct-context-evidence
     status: application-guidance
+  - id: socionics-code-does-not-establish-occupational-ability
+    status: project-definition
 caveat_ids: [no-career-from-type, no-type-confirmation, context-and-skill-required, no-pair-inference]
 sources: [.opencode/data/civilian-career-roles.md, raw/general/typology-crisis-war.md]
 ---
@@ -46,6 +48,8 @@ sources: [.opencode/data/civilian-career-roles.md, raw/general/typology-crisis-w
 - часовий напрям: використання прецедентів, горизонти планування, безперервність і сенс.
 
 Ці звʼязки — проєктні гіпотези про припущені латентні процеси, а не встановлені пояснення поведінки людини.
+
+У частині соціоніки `SLI` читається як складена гіпотеза про вісім аспектних операцій у восьми пропонованих позиційних режимах, а не як портрет характеру чи профіль професійних здібностей. Див. [[socionics-reality-modeling-uk]] і [[sli-sensory-logical-introvert-uk]].
 
 <!-- section:role-options -->
 ## Варіанти ролей для дослідження

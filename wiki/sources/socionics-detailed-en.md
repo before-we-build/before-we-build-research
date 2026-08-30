@@ -3,17 +3,21 @@ title: Socionics Detailed
 type: source
 tags: [socionics, tactical-level, model-a]
 created: 2026-04-15
-updated: 2026-04-15
-sources: []
+updated: 2026-08-30
+sources: [raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 lang: en
 translation_group: socionics-detailed
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: source-summary
 claim_status: [source-attribution]
-claims: []
-caveat_ids: []
+claims:
+  - id: school-socionics-summary-is-attributed-not-endorsed
+    status: source-attribution
+  - id: bwb-reconstruction-is-separate-from-school-summary
+    status: project-definition
+caveat_ids: [school-language-not-empirical-fact, not-ability-profile, innateness-not-established]
 ---
 
 # Socionics: Tactical Level — Comprehensive Analysis
@@ -31,6 +35,11 @@ From Personality Cafe discussions:
 > "Socionics is not a system that very well explains or predicts surface traits. What it does explain and predict is why people see things the way they see them."
 
 ---
+
+<!-- section:bwb-reconstruction-boundary -->
+## BWB reconstruction boundary
+
+This page preserves school and community formulations as attributed source material; terms such as “strong,” “weak,” “vulnerable,” “innate,” or “expert” below are not BWB findings. BWB separately reconstructs an aspect as a proposed content–operation pair in a partial, revisable model of one shared reality, and a Model A position as a proposed mode of using that operation. That reconstruction neither validates the school claims nor retroactively rewrites them. See [[socionics-reality-modeling-en]] and [[augustinaviciute-information-metabolism-foundations-en]].
 
 <!-- section:theoretical-foundation -->
 ## Theoretical Foundation

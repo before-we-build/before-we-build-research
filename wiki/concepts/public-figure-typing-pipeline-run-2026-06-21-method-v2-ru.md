@@ -17,15 +17,17 @@ sources:
   - "web: https://biblechurch.com.ua/"
   - "web: https://uk.wikipedia.org/wiki/Мохненко_Геннадій_Вікторович"
 translation_group: public-figure-typing-pipeline-run-2026-06-21-method-v2
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: historical
 page_role: research-appendix
 claim_status: [historical-proposal]
 claims:
   - id: public-figure-v2-named-person-candidates
     status: historical-proposal
-caveat_ids: [public-figure-v2-insufficient-corpus, public-figure-v2-no-personal-inference]
+  - id: historical-v2-socionics-codes-precede-reality-modeling-ontology
+    status: historical-proposal
+caveat_ids: [public-figure-v2-insufficient-corpus, public-figure-v2-no-personal-inference, no-retrospective-recalculation]
 ---
 
 # Исторический методологический обзор v2 публичных фигур — 2026-06-21
@@ -34,6 +36,11 @@ caveat_ids: [public-figure-v2-insufficient-corpus, public-figure-v2-no-personal-
 ## Статус
 
 Это историческая запись второго обзора, выполненного до действующего доказательного протокола. Он улучшил исходную таблицу, потому что явно учёл качество источника, role-overfit и альтернативы, но всё ещё предложил коды на слишком бедном корпусе. Кандидаты сохранены для аудита развития метода, а не как текущие выводы о людях.
+
+<!-- section:ontology-supersession -->
+## Уведомление о смене онтологии
+
+Соционические кандидаты в этой записи появились до реконструкции BWB, разделяющей содержание и операцию аспекта, а также отдельный позиционный режим. Ретроспективного пересчёта не проводилось. Будущий повторный анализ должен собирать свидетельства обоих слоёв по [[socionics-reality-modeling-ru]], а не механически переводить старый код.
 
 <!-- section:method-changes-in-v2 -->
 ## Методические изменения v2

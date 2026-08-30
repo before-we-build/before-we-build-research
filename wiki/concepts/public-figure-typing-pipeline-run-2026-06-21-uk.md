@@ -17,13 +17,15 @@ sources:
   - "web: https://sannikov.info/"
   - "web: https://biblechurch.com.ua/"
 translation_group: public-figure-typing-pipeline-run-2026-06-21
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: historical-socionics-codes-precede-reality-modeling-ontology
+    status: research-hypothesis
+caveat_ids: [no-retrospective-recalculation]
 ---
 
 # Історичний перший огляд гіпотез про чотирьох публічних осіб — 2026-06-21
@@ -32,6 +34,11 @@ caveat_ids: []
 ## Статус
 
 Це історичний запис першого огляду, а не чинне типологічне оцінювання. Пізніший протокол визнав корпус недостатнім для впевнених кодів і замінив автоматизований «агентний» арбітраж керованою людьми перевіркою. Таблицю збережено, щоб показати, які кандидати й помилки потребували подальшого розрізнення.
+
+<!-- section:ontology-supersession -->
+## Повідомлення про зміну онтології
+
+Ці соціонічні кандидати з'явилися до того, як BWB розділив аспектну операцію і позиційний режим Моделі A. Їх не перераховано за [[socionics-reality-modeling-uk]], і вони не мають вважатися свідченням на користь нової онтології.
 
 <!-- section:candidates-proposed-in-that-run -->
 ## Кандидати, запропоновані в тому проході

@@ -3,17 +3,21 @@ title: Socionics Information Elements
 type: concept
 tags: [socionics, information-elements, information-aspects, model-a, tactical-level]
 created: 2026-04-25
-updated: 2026-04-25
-sources: [raw/socionics/information-aspects.md, raw/socionics/model-a.md]
+updated: 2026-08-30
+sources: [raw/socionics/information-aspects.md, raw/socionics/model-a.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 lang: en
 translation_group: socionics-information-elements
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: elements-are-source-information-categories
+    status: source-attribution
+  - id: aspects-may-pair-content-and-modeling-operation
+    status: research-hypothesis
+caveat_ids: [not-neural-module, not-ability, source-axis-conflict]
 ---
 
 # Socionics Information Elements
@@ -21,7 +25,7 @@ caveat_ids: []
 <!-- section:overview -->
 ## Overview
 
-Socionics information elements, also called information aspects, are the categories of information that Model A assigns to function positions. They describe **what kind of information** is being modeled, not whether a person is good, bad, moral, intelligent, emotional, or practical.
+Socionics information elements, also called information aspects, are source-tradition categories assigned to Model A positions. In the BWB reconstruction, each aspect provisionally pairs **what distinctions a partial representation preserves** with **how it organizes them**. It does not say whether a person is good, bad, moral, intelligent, emotional, or practical.
 
 In Before We Build, information elements are treated as heuristic categories of tactical information modeling. They are not scientifically established modules of the mind.
 
@@ -55,10 +59,31 @@ Each sign has white/introverted and black/extraverted variants, producing eight 
 
 The wiki's raw source currently uses BS/CS/BI/CI/BL/CL/BE/CE naming. Many Socionics communities use Si/Se/Ni/Ne/Ti/Te/Fi/Fe. These are naming variants for the same broad element categories in this context, not separate concepts.
 
+<!-- section:source-axis-audit -->
+## Source-axis audit
+
+Founder-text auditing yields an attributed object/field × static/dynamic × internal/external scaffold. The resulting coordinates are Ne internal-object-static, Se external-object-static, Fe internal-object-dynamic, Te external-object-dynamic, Ni internal-field-dynamic, Si external-field-dynamic, Fi internal-field-static, and Ti external-field-static. `raw/socionics/information-aspects.md` differs for Si, Ne, Fi, and Fe; it remains archived rather than silently corrected. See [[augustinaviciute-information-metabolism-foundations-en]].
+
+<!-- section:bwb-operation-map -->
+## BWB operation map
+
+| Element | Proposed partial-model operation |
+|---|---|
+| Ne | preserve latent properties and unrealized possibilities |
+| Se | estimate present force, form, boundary, resistance, and direct impact |
+| Te | connect actions and methods to observable results and feedback |
+| Fe | track changing activation and state through expressed reactions |
+| Ni | organize sequential processes into timing, trajectory, and transition |
+| Si | integrate simultaneous conditions and their effects on state and quality |
+| Ti | preserve structural relations, classifications, constraints, and invariants |
+| Fi | preserve subjective significance, attraction, need, distance, and acceptability |
+
+These operations are research hypotheses, not translations of a single source passage. See [[socionics-reality-modeling-en]].
+
 <!-- section:property-dimensions -->
 ## Property Dimensions
 
-The raw source summarizes three property pairs for information aspects:
+The archived raw source summarizes three property pairs for information aspects, but its static/dynamic assignments are not used uncritically because of the documented source conflict:
 
 | Property Pair | Basic Meaning |
 |---------------|---------------|
@@ -71,28 +96,21 @@ These properties belong to Socionics theory. Before We Build uses them as concep
 <!-- section:elements-inside-model-a -->
 ## Elements Inside Model A
 
-An information element becomes typologically meaningful when it occupies a Model A position.
+An information element becomes typologically specific when it occupies a Model A position. The aspect proposes content and operation; the position proposes a mode of use.
 
 For example:
 
-- an element in position 1 becomes a leading filter;
-- the same element in position 2 becomes a creative tool;
-- the same element in position 4 becomes a vulnerable zone;
-- the same element in position 5 becomes a suggestive support-seeking zone.
+- position 1 proposes stable foreground framing;
+- position 2 proposes flexible situational production;
+- position 4 proposes least-stable modeling under pressure;
+- position 5 proposes valued, externally scaffolded intake.
 
 Therefore, element names alone should not be turned into personality claims. The structural position matters.
 
 <!-- section:before-we-build-interpretation -->
 ## Before We Build Interpretation
 
-In Before We Build, information elements help define the tactical content of interaction:
-
-- Logic elements point to structural, causal, technological, or effectiveness-oriented information;
-- Ethics elements point to relational, evaluative, expressive, or affective information;
-- Sensing elements point to bodily, material, force, comfort, or resource information;
-- Intuition elements point to possibility, event-flow, tendency, timing, or scenario information.
-
-Model A then estimates how each type tends to approach that content: confidently, flexibly, tensely, vulnerably, receptively, aspirationally, dismissively, or automatically.
+In BWB, each element is read through its specific operation rather than a broad theme family. Evidence must show what is selected, preserved after compression, inferred, and revised after feedback. Model A then adds a separate, revisable position-mode hypothesis. Neither thematic interest nor task success alone identifies the element or position.
 
 <!-- section:naming-and-boundary-caveats -->
 ## Naming and Boundary Caveats
@@ -112,3 +130,4 @@ Model A then estimates how each type tends to approach that content: confidently
 - [[socionics-model-a-blocks-en]] — Paired function zones
 - [[emotion-vs-ethics-boundary-en]] — Boundary between Psychosophy Emotion and Socionics Ethics
 - [[socionics-overview-en]] — Socionics overview
+- [[socionics-reality-modeling-en]] — Canonical BWB reconstruction

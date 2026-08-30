@@ -4,16 +4,20 @@ type: relation
 tags: [socionics, relations, compatibility]
 created: 2026-04-15
 updated: 2026-08-30
-sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md]
+sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 lang: en
 translation_group: socionics-intertype-relations
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: relation
 claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: relations-are-model-a-contact-hypotheses
+    status: research-hypothesis
+  - id: relations-may-describe-partial-model-coordination
+    status: research-hypothesis
+caveat_ids: [no-relationship-fate, context-required, consent-required, not-ability-ranking]
 ---
 
 # Socionics Intertype Relations
@@ -23,12 +27,14 @@ A mechanism-first glossary of Socionics relation classes.
 <!-- section:overview -->
 ## Overview
 
-Socionics commonly distinguishes **14 relation classes**. Benefit and Supervision are asymmetric, so their direction must be named. In Before We Build, these relations concern only **tactical information exchange**. They are model-internal hypotheses, not forecasts of relationship, career, or marriage success.
+Socionics commonly distinguishes **14 relation classes**. Benefit and Supervision are asymmetric, so their direction must be named. In Before We Build, these relations are hypotheses about contacts between partial-model operations used in different Model A position modes. They concern only **tactical information exchange**, not forecasts of relationship, career, or marriage success. See [[socionics-reality-modeling-en]].
 
 <!-- section:relation-types -->
 ## Relation Types
 
-Each class below states a possible resource, possible friction, and what to check. Rival explanations across all classes include communication skill, shared knowledge, power, stress, culture, attachment, and task context.
+Each class below states a possible resource, possible friction, and what to check. A contact describes how two proposed ways of selecting and representing one situation may coordinate, translate, miss, or pressure each other; it is not a meeting of fixed personalities. Rival explanations across all classes include communication skill, shared knowledge, role, power, stress, culture, attachment, and task context.
+
+Terms such as `strong`, `weak`, `valued`, and `vulnerable` in the mechanisms below are attributed Model A shorthand. Read them through the position-mode map, never as abilities or deficits. Any apparent relation can also change with context and the roles currently being enacted.
 
 <!-- section:identity -->
 ### Identity
@@ -180,3 +186,4 @@ The names in the table are the primary project labels. Request/Social Order, Rev
 
 - [[socionics-detailed-en]]
 - [[intertype-relations-matrix-en]]
+- [[socionics-reality-modeling-en]]

@@ -7,8 +7,8 @@ updated: 2026-04-25
 lang: uk
 sources: [wiki/sources/psychology-of-everything-synthesis-uk.md]
 translation_group: psychology-of-everything
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -73,9 +73,11 @@ Before We Build поділяє кілька мотивів уніфікован�
 
 Поточна формула Before We Build:
 
-- **Соціоніка → латентні процеси моделювання інформації**
+- **Соціоніка → латентні процеси відбору, стиснення, висновування й оновлення часткових моделей однієї спільної реальності**
 - **Психософія → латентні процеси синтезу й аналізу в дії**
 - **Темпористика → латентні процеси абдукції, індукції й дедукції в темпоральному та екзистенційному досвіді**
+
+Соціонічне формулювання — переглядна реконструкція BWB з [[socionics-reality-modeling-uk]], а не встановлений когнітивний модуль.
 
 <!-- section:difference-from-before-we-build -->
 ## Відмінність Before We Build

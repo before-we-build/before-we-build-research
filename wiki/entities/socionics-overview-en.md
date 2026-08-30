@@ -10,14 +10,16 @@ claims:
     status: research-hypothesis
   - id: socionics-reference-codes
     status: source-attribution
+  - id: socionics-aspects-may-model-partial-shared-reality
+    status: research-hypothesis
   - id: natural-predisposition-is-hypothesis
     status: research-hypothesis
 caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
-sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md, raw/socionics/information-aspects.md]
+sources: [raw/socionics/what-is-socionics.md, raw/socionics/model-a.md, raw/socionics/information-aspects.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 lang: en
 translation_group: socionics-overview
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: entity
 ---
@@ -30,12 +32,12 @@ page_role: entity
 <!-- claim:socionics-tactical-model -->
 Socionics is a typological tradition associated with Aušra Augustinavičiūtė, Jungian type ideas, information metabolism, and Model A. Before We Build uses it as a **heuristic hypothesis about tactical information modeling and exchange**. It does not cover all communication, the whole personality, or the outcome of a relationship.
 
-Its type codes are compact models of proposed information-modeling predispositions, not personality types. Any natural basis is a further unvalidated hypothesis, with learning, role, culture, state, stress, and context as rivals.
+Its type codes are compact models of proposed information-modeling patterns, not personality types. BWB provisionally reads each aspect as a content-operation pair contributing a correctable partial representation of one shared world; Model A positions propose modes of using those operations. Any natural basis is a further unvalidated hypothesis, with learning, role, culture, state, stress, and context as rivals. See [[socionics-reality-modeling-en]].
 
 <!-- section:core-constructs -->
 ## Core Constructs
 
-The school distinguishes eight information elements. The questions below are reference prompts, not established modules of the brain or directly observed objects.
+The school distinguishes eight information elements. The prompts below belong to the source tradition; the operational reconstruction is in [[socionics-reality-modeling-en]]. Neither layer is an established brain module or directly observed object.
 
 | Element | Reference focus |
 |---|---|
@@ -55,14 +57,14 @@ Here “ethics” in Fi/Fe is school terminology for information content; it is 
 
 | Position | Common name | Cautious model-internal hypothesis |
 |---|---|---|
-| 1 | Leading / Base | confident foreground modeling |
+| 1 | Leading / Base | stable foreground framing |
 | 2 | Creative | flexible production for the situation |
-| 3 | Role | conscious situational regulation |
-| 4 | Vulnerable / PoLR | sensitive and less flexible regulation |
-| 5 | Suggestive | valued external input |
-| 6 | Mobilizing | valued development and activation |
-| 7 | Ignoring | strong background filtering |
-| 8 | Demonstrative | strong background production |
+| 3 | Role | norm-guided, effortful application |
+| 4 | Vulnerable / PoLR | least-stable modeling under pressure |
+| 5 | Suggestive | valued, externally scaffolded intake |
+| 6 | Mobilizing | supported or activated development |
+| 7 | Ignoring | background monitoring/filtering |
+| 8 | Demonstrative | automatic background production |
 
 The position names express Model A roles. They do not by themselves establish ability, deficiency, pathology, or a causal mechanism.
 
@@ -84,7 +86,7 @@ The catalog is a formal arrangement of information-element positions and a compa
 <!-- section:observations-and-alternatives -->
 ## Observations and Alternative Explanations
 
-Direct observations include which information a person requests, supplies, ignores, reformulates, or treats as sufficient in a concrete exchange. Type and function positions are interpretations of repeated indicators. Knowledge, profession, culture, language, status, attachment, stress, neurodivergence, and task demands are rival explanations.
+Direct observations include what a person selects, preserves after compression, infers, predicts, produces, and revises after feedback in a concrete task or exchange. Type and function positions are interpretations of repeated indicators. Knowledge, profession, culture, language, status, attachment, health, stress, sensory access, neurodivergence, and task demands are rival explanations.
 
 <!-- section:non-inferences -->
 ## What Must Not Be Inferred
@@ -117,3 +119,4 @@ These sources establish attributed school definitions and codes. They do not by 
 - [[compatibility-level-boundaries-en]]
 - [[psychosophy-overview-en]]
 - [[temporistics-overview-en]]
+- [[socionics-reality-modeling-en]]

@@ -1435,3 +1435,35 @@ typological type across the active repository.
 - Added a strict claim-language regression rule and unit fixture, regenerated
   the index and migration inventory, and preserved all `raw/` sources without
   modification.
+
+---
+
+## [2026-08-30] ontology | Socionics as partial reality modeling
+
+**Action:** Implemented the owner-approved reconstruction of Socionics aspects
+as revisable content–operation hypotheses for partial models of one shared
+reality.
+
+**Result:**
+- Added an Augustinavičiūtė provenance record and a trilingual source summary
+  covering information metabolism, *On the Dual Nature of Man*, and
+  Static/Dynamic without copying full protected texts.
+- Recorded the static/dynamic conflict between the archived aspect table and
+  the attributed founder-source layout; preserved the existing raw file.
+- Added the canonical `socionics-reality-modeling` EN/RU/UK triad with the
+  chain reality → selection → partial representation → inference/prediction →
+  feedback → update and eight explicitly revisable BWB operation definitions.
+- Separated aspect content, aspect operation, Model A position mode, and
+  observable trace across the core, glossaries, Model A, relations, test
+  methodology, historical notices, and applied SLI profile.
+- Made `scripts/normalize_entity_triads.py` the canonical generator for all 16
+  Socionics type groups; regenerated all 48 pages as eight-row operation ×
+  position-mode process maps and corrected their stacks to the canonical table.
+- Rebuilt the Socionics test specification around selection, compression,
+  inference, updating, four parallel microtask families, separate operation
+  and position evidence, and conditional Model A output.
+- Added strict language rules against treating an aspect as an ability, brain
+  module, innate essence, or established channel, plus regression tests for all
+  16 stacks and three-language page generation.
+- Updated `AGENTS.md` and the Socionics, relations, test, master, and research
+  agents through the `.agent-learning` log → proposal → review workflow.

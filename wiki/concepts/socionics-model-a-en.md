@@ -3,17 +3,21 @@ title: Socionics Model A
 type: concept
 tags: [socionics, model-a, information-metabolism, tactical-level, theory]
 created: 2026-04-15
-updated: 2026-04-25
-sources: [raw/socionics/model-a.md, raw/socionics/information-aspects.md, wiki/sources/socionics-function-dichotomies-en.md]
+updated: 2026-08-30
+sources: [raw/socionics/model-a.md, raw/socionics/information-aspects.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md, wiki/sources/socionics-function-dichotomies-en.md]
 lang: en
 translation_group: socionics-model-a
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: model-a-combines-aspects-with-position-modes
+    status: source-attribution
+  - id: position-modes-may-organize-partial-model-operations
+    status: research-hypothesis
+caveat_ids: [not-ability-ranking, not-neural-module, context-required]
 ---
 
 # Socionics Model A
@@ -25,7 +29,7 @@ Model A is the standard Socionics model for arranging eight information elements
 
 The model is named after Aušra Augustinavičiūtė, the founder of Socionics. In source Socionics, Model A is used to describe how a person receives, processes, produces, avoids, values, and background-processes different kinds of information.
 
-In Before We Build, Model A belongs to the **tactical compatibility layer**: it is used as a heuristic map of latent processes of information modeling in moment-to-moment interaction.
+In Before We Build, Model A belongs to the **tactical compatibility layer**: it is used as a heuristic map of how partial-model operations might be used in moment-to-moment interaction. See [[socionics-reality-modeling-en]].
 
 <!-- section:before-we-build-interpretation -->
 ## Before We Build Interpretation
@@ -34,17 +38,17 @@ Before We Build reads Model A as a structured hypothesis about how information i
 
 The core interpretation is:
 
-- **information elements** describe the kind of information being modeled;
-- **function positions** describe the person's structural relation to that information;
-- **blocks** describe paired zones of conscious expression, strain, support-seeking, and background competence;
-- **intertype relations** describe theory-internal patterns of information exchange between two Model A structures.
+- **information elements** propose which distinctions are preserved and how a partial representation organizes them;
+- **function positions** propose a structural mode of using that operation;
+- **blocks** propose paired combinations of position modes;
+- **intertype relations** propose context-dependent contacts between partial-model operations and position modes.
 
 This means Model A can be useful for generating compatibility hypotheses such as:
 
-- where communication is likely to feel natural;
-- where one person may supply information the other seeks;
-- where pressure may land on weak or unvalued positions;
-- where two people may talk past each other despite both being competent.
+- which distinctions each partial model preserves or omits;
+- how each model revises an inference after feedback;
+- whether an operation recurs in the proposed position mode;
+- where role, expertise, stress, or context better explains an apparent contact pattern.
 
 These are hypotheses for interpretation and research, not deterministic predictions of behavior or relationship success.
 
@@ -55,8 +59,8 @@ Model A combines three layers:
 
 | Layer | Question | Example |
 |------|----------|---------|
-| Information element | What kind of information is being processed? | structure, comfort, relations, possibilities |
-| Function position | How does this person process that kind of information? | leading, creative, vulnerable, suggestive |
+| Information element | Which distinctions and operation define the partial representation? | structure, state, relation, possibility |
+| Function position | In what mode is that operation hypothesized to be used? | leading, creative, vulnerable, suggestive |
 | Block | How do paired functions cooperate? | Ego, Super-Ego, Super-Id, Id |
 
 The same information element can appear in different positions for different types. For example, an element in the leading position is experienced very differently from the same element in the vulnerable or suggestive position.
@@ -64,7 +68,7 @@ The same information element can appear in different positions for different typ
 <!-- section:function-properties -->
 ## Function Properties
 
-Socionics sources describe Model A functions through several property pairs:
+Socionics sources describe Model A functions through several property pairs. The table attributes school language; none of the pairs is a BWB ability measurement:
 
 | Property | Basic Meaning |
 |----------|---------------|
@@ -81,16 +85,18 @@ See [[socionics-function-dichotomies-en]] for a fuller source summary, including
 <!-- section:function-positions -->
 ## Function Positions
 
-| Position | Name | Properties |
-|----------|------|------------|
-| 1 | Leading / Base | Strong, conscious, valued; primary filter of perception |
-| 2 | Creative | Strong, conscious, valued; flexible production and application |
-| 3 | Role | Weak, conscious, unvalued; tense adaptation under social demand |
-| 4 | Vulnerable / PoLR | Weak, conscious, unvalued; unstable under direct pressure |
-| 5 | Suggestive | Weak, unconscious, valued; seeks support from outside |
-| 6 | Mobilizing / Activation | Weak, unconscious, valued; energized by supportive input |
-| 7 | Ignoring | Strong, unconscious, unvalued; competent but de-emphasized |
-| 8 | Demonstrative | Strong, unconscious, unvalued; automatic background competence |
+| Position | Traditional name | Proposed BWB mode |
+|----------|------------------|-------------------|
+| 1 | Leading / Base | stable foreground framing |
+| 2 | Creative | flexible situational production |
+| 3 | Role | norm-guided, effortful application |
+| 4 | Vulnerable / PoLR | least-stable modeling under pressure |
+| 5 | Suggestive | valued, externally scaffolded intake |
+| 6 | Mobilizing / Activation | supported or activated development |
+| 7 | Ignoring | background monitoring |
+| 8 | Demonstrative | automatic background production |
+
+The mode labels do not establish strength, weakness, competence, deficit, consciousness, or natural origin.
 
 See [[socionics-function-positions-en]] for the detailed position-by-position page.
 
@@ -99,14 +105,14 @@ See [[socionics-function-positions-en]] for the detailed position-by-position pa
 
 Model A groups the eight positions into four two-function blocks:
 
-| Block | Positions | General Meaning |
-|-------|-----------|-----------------|
-| Ego | 1 + 2 | Strong conscious self-expression and valued initiative |
-| Super-Ego | 3 + 4 | Conscious but weak adaptation, social pressure, and strain |
-| Super-Id | 5 + 6 | Valued but weak support-seeking and growth-oriented zone |
-| Id | 7 + 8 | Strong background processing without central self-identification |
+| Block | Positions | Proposed position-mode pair |
+|-------|-----------|-----------------------------|
+| Ego | 1 + 2 | stable foreground framing + flexible production |
+| Super-Ego | 3 + 4 | norm-guided effort + least-stable-under-pressure use |
+| Super-Id | 5 + 6 | externally scaffolded intake + supported development |
+| Id | 7 + 8 | background monitoring + automatic background production |
 
-Blocks are important because functions do not operate only as isolated points. The leading and creative functions cooperate differently from the role and vulnerable functions, or from the suggestive and mobilizing functions.
+Blocks are a school hypothesis about paired position modes, not a ranking of ability or deficit. The proposed cooperation must be checked through operations and observations.
 
 See [[socionics-model-a-blocks-en]] for the dedicated block page.
 
@@ -143,12 +149,12 @@ It does not assess the value-moral foundation:
 
 Model A is therefore most useful when asking:
 
-- How do two people exchange information in the moment?
-- Which topics feel natural, energizing, irritating, or exposing?
-- Which partner supplies valued but weak information?
-- Which partner's confident expression may accidentally pressure the other's vulnerable zone?
+- Which distinctions does each partial representation retain or discard?
+- What is inferred, predicted, and revised after feedback?
+- Which observable traces support an aspect operation separately from a position mode?
+- Which context or role mode changes the proposed interaction?
 
-For example, classical Socionics relation theory often interprets duality through complementary Ego-to-Super-Id contacts, while conflict relations are often described through strong functions landing on weak and unvalued zones. In Before We Build, these are tactical interaction hypotheses, not whole-relationship verdicts.
+For example, classical Socionics relation theory often interprets duality through Ego-to-Super-Id contacts and conflict through what it calls strong-to-weak/unvalued contact. BWB preserves that attribution but reconstructs the mechanism as an interaction of operations and position modes, not abilities and deficits. It remains a tactical hypothesis, not a whole-relationship verdict.
 
 <!-- section:boundaries-and-non-claims -->
 ## Boundaries and Non-Claims
@@ -172,3 +178,4 @@ Before We Build treats Socionics and Model A as a structured research heuristic.
 - [[socionics-function-dichotomies-en]] — Function properties and dimensionality
 - [[socionics-intertype-relations-en]] — Socionics relation mechanisms
 - [[socionics-overview-en]] — Socionics system overview
+- [[socionics-reality-modeling-en]] — Partial-reality-model reconstruction

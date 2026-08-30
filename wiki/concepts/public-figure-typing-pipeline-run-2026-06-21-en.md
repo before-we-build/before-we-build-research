@@ -17,13 +17,15 @@ sources:
   - "web: https://sannikov.info/"
   - "web: https://biblechurch.com.ua/"
 translation_group: public-figure-typing-pipeline-run-2026-06-21
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: historical-socionics-codes-precede-reality-modeling-ontology
+    status: research-hypothesis
+caveat_ids: [no-retrospective-recalculation]
 ---
 
 # Historical First Review of Hypotheses About Four Public Figures — 2026-06-21
@@ -32,6 +34,11 @@ caveat_ids: []
 ## Status
 
 This is a historical record of the first review, not a current typological assessment. The later protocol found the corpus insufficient for confident codes and replaced automated “agent” arbitration with human-led review. The table is retained to show which candidates and errors needed further differentiation.
+
+<!-- section:ontology-supersession -->
+## Ontology supersession notice
+
+These Socionics candidates predate the BWB distinction between aspect operation and Model A position mode. They have not been recalculated under [[socionics-reality-modeling-en]] and must not be treated as evidence for the new ontology.
 
 <!-- section:candidates-proposed-in-that-run -->
 ## Candidates proposed in that run

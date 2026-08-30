@@ -6,8 +6,8 @@ created: 2026-08-30
 updated: 2026-08-30
 lang: ru
 translation_group: tactical-compatibility
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -16,8 +16,10 @@ claims:
     status: project-definition
   - id: socionics-may-model-tactical-process
     status: research-hypothesis
-caveat_ids: [not-all-communication, not-relationship-quality, context-required]
-sources: [AGENTS.md, raw/socionics]
+  - id: tactical-coordination-may-join-partial-reality-models
+    status: research-hypothesis
+caveat_ids: [not-all-communication, not-relationship-quality, context-required, not-neural-module]
+sources: [AGENTS.md, raw/socionics, raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 ---
 
 # Тактическая совместимость
@@ -32,7 +34,7 @@ sources: [AGENTS.md, raw/socionics]
 <!-- section:definition-and-scope -->
 ## Определение и область применения
 
-Уровень спрашивает, может ли пара построить достаточно общие модели ситуации для координации названной задачи, несмотря на различия внимания, фрейминга, словаря и предпочитаемых свидетельств.
+Уровень спрашивает, может ли пара построить достаточно общие и исправимые модели одной ситуации для координации названной задачи, несмотря на различия внимания, сжатия, фрейминга, словаря и предпочитаемых свидетельств. Реконструкция соционики рассматривает аспекты как предполагаемые операции частичного моделирования; см. [[socionics-reality-modeling-ru]].
 
 <!-- section:inclusion-exclusion -->
 ## Что входит и не входит
@@ -42,7 +44,7 @@ sources: [AGENTS.md, raw/socionics]
 <!-- section:latent-construct -->
 ## Предполагаемый латентный конструкт
 
-Предлагаемый конструкт — моделирование информации: создание и обновление внутренних представлений из доступных данных. Соответствие функций и отношений Модели А этому процессу остаётся исследовательской гипотезой.
+Предлагаемый конструкт — моделирование информации: отбор различий, создание частичных представлений, построение выводов и обновление по обратной связи. Аспектное содержание и операция отделяются от позиционного режима Модели A. Их соответствие остаётся исследовательской гипотезой.
 
 <!-- section:shared-example -->
 ## Общий пример
@@ -110,4 +112,4 @@ sources: [AGENTS.md, raw/socionics]
 <!-- section:next-reading -->
 ## Следующее чтение
 
-Вернитесь к [[four-level-compatibility-architecture-ru]] или разберите пример в [[evidence-workflow-and-walkthrough-ru]].
+Продолжите с [[socionics-reality-modeling-ru]], вернитесь к [[four-level-compatibility-architecture-ru]] или разберите пример в [[evidence-workflow-and-walkthrough-ru]].

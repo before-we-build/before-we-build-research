@@ -7,8 +7,8 @@ updated: 2026-04-25
 lang: ru
 sources: [wiki/concepts/validation-program-ru.md, wiki/concepts/compatibility-measurement-roadmap-ru.md, wiki/sources/psychosophy-typing-methods-ru.md, .agent-learning/proposals/2026-04-25-typology-test-evaluation-protocol.md]
 translation_group: typology-test-design-protocol
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
@@ -50,11 +50,13 @@ caveat_ids: []
 
 Вся разработка тестов сохраняет трёхсистемную рамку проекта:
 
-- **Соционика** → латентные процессы информационного моделирования;
+- **Соционика** → латентные процессы отбора, сжатия, вывода и обновления частичных моделей одной общей реальности;
 - **Психософия** → латентные процессы синтеза и анализа в действии;
 - **Темпористика** → латентные процессы абдукции, индукции и дедукции во временном/экзистенциальном опыте.
 
 Это рабочие гипотезы, а не установленные психологические факты.
+
+Соционический инструмент должен раздельно собирать свидетельства по аспектным операциям и позиционным режимам Модели A, охватывать отбор, сжатие, вывод и обновление, а самоотчёт считать вспомогательным. Системная спецификация дана в [[socionics-test-specification-ru]] и [[socionics-reality-modeling-ru]].
 
 <!-- section:recommended-expert-routing -->
 ## Рекомендуемое распределение экспертных ролей

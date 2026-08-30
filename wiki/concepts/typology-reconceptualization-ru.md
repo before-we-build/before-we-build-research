@@ -6,8 +6,8 @@ created: 2026-08-26
 updated: 2026-08-30
 lang: ru
 translation_group: typology-reconceptualization
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis, contested]
@@ -15,6 +15,8 @@ claims:
   - id: type-is-model-hypothesis
     status: project-definition
   - id: typological-structures-may-model-processes
+    status: research-hypothesis
+  - id: socionics-aspects-may-model-partial-reality-representations
     status: research-hypothesis
   - id: natural-predisposition-is-hypothesis
     status: research-hypothesis
@@ -34,7 +36,7 @@ Before We Build не использует тип как тип личности 
 <!-- section:definition-and-scope -->
 ## Определение и область применения
 
-Соционика соотносится с моделированием информации, психософия — с анализом, синтезом и организацией действия, темпористика — с абдукцией, индукцией и дедукцией в темпоральном или экзистенциальном опыте. «Восприятие» здесь охватывает отбор, упорядочивание, толкование и организацию процессов, а не только сенсорное восприятие. Системы неэквивалентны и моделируются раздельно.
+Соционика соотносится с моделированием информации, психософия — с анализом, синтезом и организацией действия, темпористика — с абдукцией, индукцией и дедукцией в темпоральном или экзистенциальном опыте. В центральной гипотезе о соционике аспект соединяет класс различий с операцией, которая сохраняет и обновляет частичное представление одного общего мира; см. [[socionics-reality-modeling-ru]]. «Восприятие» здесь охватывает отбор, упорядочивание, толкование и организацию процессов, а не только сенсорное восприятие. Системы неэквивалентны и моделируются раздельно.
 
 <!-- section:shared-example -->
 ## Общий пример

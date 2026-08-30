@@ -168,6 +168,46 @@ RULES = (
             re.IGNORECASE,
         ),
     ),
+    Rule(
+        "socionics-aspect-as-ability",
+        "a Socionics aspect is a process hypothesis, not an established ability",
+        re.compile(
+            r"\b(?:socionics\s+)?aspect\b.{0,70}\b(?:is|equals?|measures?|proves?|constitutes?)\b.{0,35}\b(?:an?\s+)?abilit(?:y|ies)\b|"
+            r"\bсоционическ\w*\s+аспект\w*\b.{0,70}\b(?:является|равен|измеря\w*|доказыва\w*)\b.{0,35}\bспособност\w*\b|"
+            r"\bсоціонічн\w*\s+аспект\w*\b.{0,70}\b(?:є|дорівнює|вимірю\w*|довод\w*)\b.{0,35}\bздатн\w*\b",
+            re.IGNORECASE,
+        ),
+    ),
+    Rule(
+        "socionics-aspect-as-brain-module",
+        "do not identify a Socionics aspect with a discovered or localized brain module",
+        re.compile(
+            r"\b(?:socionics\s+)?aspect\b.{0,70}\b(?:is|equals?|maps?\s+to|corresponds?\s+to)\b.{0,35}\b(?:brain|neural)\s+module\b|"
+            r"\bсоционическ\w*\s+аспект\w*\b.{0,70}\b(?:является|равен|локализован|соответству\w*)\b.{0,35}\b(?:модул\w*\s+мозг\w*|нейронн\w*\s+модул\w*)\b|"
+            r"\bсоціонічн\w*\s+аспект\w*\b.{0,70}\b(?:є|дорівнює|локалізован|відповіда\w*)\b.{0,35}\b(?:модул\w*\s+мозк\w*|нейронн\w*\s+модул\w*)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    Rule(
+        "socionics-aspect-as-innate-essence",
+        "innateness or a natural basis must remain a separate unestablished hypothesis",
+        re.compile(
+            r"\b(?:socionics\s+)?aspect\b.{0,70}\b(?:is|equals?|reveals?|proves?)\b.{0,35}\b(?:innate|inborn|biological)\s+(?:essence|capacity|trait|faculty)\b|"
+            r"\bсоционическ\w*\s+аспект\w*\b.{0,70}\b(?:является|равен|выявля\w*|доказыва\w*)\b.{0,35}\b(?:врожд[её]нн\w*|биологическ\w*)\s+(?:сущност\w*|качеств\w*|свойств\w*|задат\w*)\b|"
+            r"\bсоціонічн\w*\s+аспект\w*\b.{0,70}\b(?:є|дорівнює|виявля\w*|довод\w*)\b.{0,35}\b(?:вроджен\w*|біологічн\w*)\s+(?:сутн\w*|якост\w*|властив\w*|задат\w*)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    Rule(
+        "socionics-aspect-as-established-channel",
+        "do not present a Socionics aspect as an objectively established information channel",
+        re.compile(
+            r"\b(?:socionics\s+)?aspect\b.{0,70}\b(?:is|equals?|constitutes?)\b.{0,35}\b(?:objectively\s+)?(?:established|proven)\s+information\s+channel\b|"
+            r"\bсоционическ\w*\s+аспект\w*\b.{0,70}\b(?:является|равен)\b.{0,35}\b(?:объективно\s+)?(?:установленн\w*|доказанн\w*)\s+информационн\w*\s+канал\w*\b|"
+            r"\bсоціонічн\w*\s+аспект\w*\b.{0,70}\b(?:є|дорівнює)\b.{0,35}\b(?:об'єктивно\s+)?(?:встановлен\w*|доведен\w*)\s+інформаційн\w*\s+канал\w*\b",
+            re.IGNORECASE,
+        ),
+    ),
 )
 
 NEGATED_RE = re.compile(

@@ -16,13 +16,15 @@ sources:
   - "web: https://biblechurch.com.ua/"
   - "web: https://www.baptyst.com/duhovne-batkivstvo-igor-bandura/"
 translation_group: public-figure-typing-evidence-dossiers-batch-1
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: dossier-socionics-candidates-precede-reality-modeling-ontology
+    status: research-hypothesis
+caveat_ids: [no-retrospective-recalculation]
 ---
 
 # Стартовые доказательные досье — Санников, Романюк, Бандура
@@ -31,6 +33,11 @@ caveat_ids: []
 ## Статус
 
 Это начальный реестр источников и наблюдений, а не завершённое типирование. В нём ещё нет достаточного корпуса полных материалов, слепого кодирования и независимого согласия. Коды ниже — вопросы для различения; они не описывают сущность людей и не поддерживают духовную, моральную или кадровую оценку.
+
+<!-- section:ontology-supersession -->
+## Уведомление о смене онтологии
+
+Соционические кандидаты ниже были записаны до того, как BWB разделил свидетельства по аспектным операциям и по позиционным режимам Модели A. Они остаются историческими вопросами, не пересчитаны и не могут подтверждать [[socionics-reality-modeling-ru]].
 
 <!-- section:current-candidate-map -->
 ## Текущая карта кандидатов

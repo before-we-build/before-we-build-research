@@ -5,15 +5,19 @@ tags: [socionics, relations, compatibility]
 created: 2026-04-15
 updated: 2026-08-30
 lang: ru
-sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md]
+sources: [raw/socionics/intertype-relations.md, raw/socionics/model-a.md, raw/socionics/augustinaviciute-information-metabolism-provenance.md]
 translation_group: socionics-intertype-relations
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: relation
 claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: relations-are-model-a-contact-hypotheses
+    status: research-hypothesis
+  - id: relations-may-describe-partial-model-coordination
+    status: research-hypothesis
+caveat_ids: [no-relationship-fate, context-required, consent-required, not-ability-ranking]
 ---
 
 # Соционические интертипные отношения
@@ -23,12 +27,14 @@ caveat_ids: []
 <!-- section:overview -->
 ## Обзор
 
-Обычно выделяют **14 классов**. Заказ и ревизия асимметричны, поэтому требуют указания направления. В Before We Build эти отношения относятся только к **тактическому обмену информацией**. Это внутримодельные гипотезы, а не прогноз успеха отношений, карьеры или брака.
+Обычно выделяют **14 классов**. Заказ и ревизия асимметричны, поэтому требуют указания направления. В Before We Build эти отношения — гипотезы о контактах операций частичного моделирования, используемых в разных позиционных режимах Модели A. Они относятся только к **тактическому обмену информацией**, а не прогнозируют успех отношений, карьеры или брака. См. [[socionics-reality-modeling-ru]].
 
 <!-- section:relation-types -->
 ## Типы отношений
 
-Для каждого класса приведены возможный ресурс, возможное напряжение и проверка. Альтернативные объяснения для всех классов включают навыки общения, общие знания, власть, стресс, культуру, привязанность и контекст задачи.
+Для каждого класса приведены возможный ресурс, возможное напряжение и проверка. Контакт описывает, как два предполагаемых способа отбора и представления одной ситуации могут координироваться, переводиться, расходиться или давить друг на друга; это не встреча фиксированных личностей. Альтернативы включают навыки общения, общие знания, роль, власть, стресс, культуру, привязанность и контекст задачи.
+
+Слова `сильный`, `слабый`, `ценностный` и `уязвимый` в механизмах ниже — атрибутированный краткий язык Модели A. Читайте их через карту позиционных режимов, а не как способности или дефициты. Видимый паттерн отношения также может меняться с контекстом и исполняемыми сейчас ролями.
 
 <!-- section:identity -->
 ### Тождество
@@ -174,3 +180,4 @@ caveat_ids: []
 
 - [[socionics-detailed-ru]]
 - [[intertype-relations-matrix-ru]]
+- [[socionics-reality-modeling-ru]]

@@ -7,8 +7,8 @@ updated: 2026-04-25
 sources: [wiki/sources/psychology-of-everything-synthesis-en.md]
 lang: en
 translation_group: psychology-of-everything
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: explanation
 claim_status: [project-definition, research-hypothesis]
@@ -73,9 +73,11 @@ Before We Build shares several motivations with unified psychology:
 
 In Before We Build’s current formula:
 
-- **Socionics → latent processes of information modeling**
+- **Socionics → latent processes of selecting, compressing, inferring from, and updating partial models of one shared reality**
 - **Psychosophy → latent processes of synthesis and analysis in action**
 - **Temporistics → latent processes of abduction, induction, and deduction in temporal/existential experience**
+
+The Socionics formulation is the revisable BWB reconstruction described in [[socionics-reality-modeling-en]], not an established cognitive module.
 
 <!-- section:difference-from-before-we-build -->
 ## Difference from Before We Build

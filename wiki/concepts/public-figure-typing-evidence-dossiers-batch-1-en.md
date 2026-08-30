@@ -16,13 +16,15 @@ sources:
   - "web: https://biblechurch.com.ua/"
   - "web: https://www.baptyst.com/duhovne-batkivstvo-igor-bandura/"
 translation_group: public-figure-typing-evidence-dossiers-batch-1
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis]
-claims: []
-caveat_ids: []
+claims:
+  - id: dossier-socionics-candidates-precede-reality-modeling-ontology
+    status: research-hypothesis
+caveat_ids: [no-retrospective-recalculation]
 ---
 
 # Initial Evidence Dossiers — Sannikov, Romaniuk, Bandura
@@ -31,6 +33,11 @@ caveat_ids: []
 ## Status
 
 This is an initial register of sources and observations, not completed typing. It still lacks a sufficient corpus of full materials, blind coding, and independent agreement. The codes below are differentiating questions; they do not describe the essence of these people or support spiritual, moral, or staffing assessments.
+
+<!-- section:ontology-supersession -->
+## Ontology supersession notice
+
+The Socionics candidates below were recorded before BWB separated evidence for aspect operations from evidence for Model A position modes. They remain historical prompts, have not been recalculated, and cannot validate [[socionics-reality-modeling-en]].
 
 <!-- section:current-candidate-map -->
 ## Current candidate map

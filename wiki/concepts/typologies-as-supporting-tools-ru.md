@@ -6,8 +6,8 @@ created: 2026-04-26
 updated: 2026-08-30
 lang: ru
 translation_group: typologies-as-supporting-tools
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: application
 claim_status: [application-guidance, research-hypothesis, normative-rule]
@@ -48,9 +48,11 @@ Before We Build сейчас изучает три отдельные связи
 
 - **Temporistics** → предполагаемые латентные процессы абдукции, индукции и дедукции во временном или экзистенциальном опыте;
 - **Psychosophy** → предполагаемые латентные процессы синтеза и анализа в действии;
-- **Socionics** → предполагаемые латентные процессы моделирования информации.
+- **Socionics** → предполагаемые латентные процессы отбора, сжатия, вывода и обновления частичных моделей одной общей реальности.
 
 Системы моделируются отдельно. Из этого не следует, что они эмпирически валидны или статистически независимы.
+
+Реконструкция соционики и разделение аспектной операции с позиционным режимом описаны в [[socionics-reality-modeling-ru]].
 
 <!-- section:observation-and-hypothesis -->
 ## Наблюдение и гипотеза
