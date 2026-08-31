@@ -1467,3 +1467,21 @@ reality.
   16 stacks and three-language page generation.
 - Updated `AGENTS.md` and the Socionics, relations, test, master, and research
   agents through the `.agent-learning` log → proposal → review workflow.
+
+---
+
+## [2026-08-31] documentation | Plain-language Socionics dimensionality example
+
+**Action:** Expanded the active `socionics-function-positions` EN/RU/UK triad
+with a plain-language bridge from dimensionality to latent reality modeling.
+
+**Result:**
+- Explained dimensionality through an internal-navigation metaphor as a
+  research hypothesis about the breadth and stability of operation transfer,
+  not intelligence, competence, or measured capacity.
+- Added one synchronized shared-trip example using the proposed `Te` operation
+  across all eight Model A positions.
+- Paired every illustrative trace with a question that tests repetition,
+  transfer, support, pressure, or a rival explanation.
+- Raised the synchronized semantic and reviewed versions to `3` and added the
+  `dimensionality-may-describe-operation-transfer-breadth` research claim.

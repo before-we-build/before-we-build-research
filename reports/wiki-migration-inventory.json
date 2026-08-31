@@ -34,7 +34,7 @@
       "historical-proposal": 6,
       "normative-rule": 33,
       "project-definition": 66,
-      "research-hypothesis": 189,
+      "research-hypothesis": 192,
       "source-attribution": 84
     },
     "groups_with_duplicate_locales": 0,
@@ -19079,15 +19079,16 @@
       "translation_group": "socionics-function-positions",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "source-attribution",
         "research-hypothesis"
       ],
       "claims": {
         "position-is-distinct-from-aspect": "source-attribution",
-        "positions-may-describe-operation-use-modes": "research-hypothesis"
+        "positions-may-describe-operation-use-modes": "research-hypothesis",
+        "dimensionality-may-describe-operation-transfer-breadth": "research-hypothesis"
       },
       "caveat_ids": [
         "not-ability-ranking",
@@ -19106,6 +19107,8 @@
         "position-by-position-summary",
         "source-properties",
         "dimensionality",
+        "dimensionality-in-plain-language",
+        "same-life-example",
         "observations-and-alternatives",
         "non-inferences",
         "researcher-route",
@@ -19135,14 +19138,14 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-en",
           "resolved": "wiki/concepts/socionics-function-positions-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-en",
           "resolved": "wiki/concepts/socionics-function-positions-en.md",
           "ambiguous": []
@@ -19193,56 +19196,56 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-ru",
           "resolved": "wiki/concepts/socionics-function-positions-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-uk",
           "resolved": "wiki/concepts/socionics-function-positions-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 30,
+          "line": 32,
           "raw_target": "socionics-reality-modeling-en",
           "resolved": "wiki/concepts/socionics-reality-modeling-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 85,
+          "line": 117,
           "raw_target": "socionics-model-a-en",
           "resolved": "wiki/concepts/socionics-model-a-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 86,
+          "line": 118,
           "raw_target": "socionics-model-a-blocks-en",
           "resolved": "wiki/concepts/socionics-model-a-blocks-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 87,
+          "line": 119,
           "raw_target": "socionics-information-elements-en",
           "resolved": "wiki/concepts/socionics-information-elements-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 88,
+          "line": 120,
           "raw_target": "socionics-test-specification-en",
           "resolved": "wiki/concepts/socionics-test-specification-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 89,
+          "line": 121,
           "raw_target": "socionics-reality-modeling-en",
           "resolved": "wiki/concepts/socionics-reality-modeling-en.md",
           "ambiguous": []
@@ -19256,15 +19259,16 @@
       "translation_group": "socionics-function-positions",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "source-attribution",
         "research-hypothesis"
       ],
       "claims": {
         "position-is-distinct-from-aspect": "source-attribution",
-        "positions-may-describe-operation-use-modes": "research-hypothesis"
+        "positions-may-describe-operation-use-modes": "research-hypothesis",
+        "dimensionality-may-describe-operation-transfer-breadth": "research-hypothesis"
       },
       "caveat_ids": [
         "not-ability-ranking",
@@ -19283,6 +19287,8 @@
         "position-by-position-summary",
         "source-properties",
         "dimensionality",
+        "dimensionality-in-plain-language",
+        "same-life-example",
         "observations-and-alternatives",
         "non-inferences",
         "researcher-route",
@@ -19312,14 +19318,14 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-ru",
           "resolved": "wiki/concepts/socionics-function-positions-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-ru",
           "resolved": "wiki/concepts/socionics-function-positions-ru.md",
           "ambiguous": []
@@ -19370,56 +19376,56 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-en",
           "resolved": "wiki/concepts/socionics-function-positions-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-uk",
           "resolved": "wiki/concepts/socionics-function-positions-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 30,
+          "line": 32,
           "raw_target": "socionics-reality-modeling-ru",
           "resolved": "wiki/concepts/socionics-reality-modeling-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 85,
+          "line": 117,
           "raw_target": "socionics-model-a-ru",
           "resolved": "wiki/concepts/socionics-model-a-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 86,
+          "line": 118,
           "raw_target": "socionics-model-a-blocks-ru",
           "resolved": "wiki/concepts/socionics-model-a-blocks-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 87,
+          "line": 119,
           "raw_target": "socionics-information-elements-ru",
           "resolved": "wiki/concepts/socionics-information-elements-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 88,
+          "line": 120,
           "raw_target": "socionics-test-specification-ru",
           "resolved": "wiki/concepts/socionics-test-specification-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 89,
+          "line": 121,
           "raw_target": "socionics-reality-modeling-ru",
           "resolved": "wiki/concepts/socionics-reality-modeling-ru.md",
           "ambiguous": []
@@ -19433,15 +19439,16 @@
       "translation_group": "socionics-function-positions",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "source-attribution",
         "research-hypothesis"
       ],
       "claims": {
         "position-is-distinct-from-aspect": "source-attribution",
-        "positions-may-describe-operation-use-modes": "research-hypothesis"
+        "positions-may-describe-operation-use-modes": "research-hypothesis",
+        "dimensionality-may-describe-operation-transfer-breadth": "research-hypothesis"
       },
       "caveat_ids": [
         "not-ability-ranking",
@@ -19460,6 +19467,8 @@
         "position-by-position-summary",
         "source-properties",
         "dimensionality",
+        "dimensionality-in-plain-language",
+        "same-life-example",
         "observations-and-alternatives",
         "non-inferences",
         "researcher-route",
@@ -19489,14 +19498,14 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-uk",
           "resolved": "wiki/concepts/socionics-function-positions-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-uk",
           "resolved": "wiki/concepts/socionics-function-positions-uk.md",
           "ambiguous": []
@@ -19547,56 +19556,56 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-en",
           "resolved": "wiki/concepts/socionics-function-positions-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 25,
+          "line": 27,
           "raw_target": "socionics-function-positions-ru",
           "resolved": "wiki/concepts/socionics-function-positions-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 30,
+          "line": 32,
           "raw_target": "socionics-reality-modeling-uk",
           "resolved": "wiki/concepts/socionics-reality-modeling-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 85,
+          "line": 117,
           "raw_target": "socionics-model-a-uk",
           "resolved": "wiki/concepts/socionics-model-a-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 86,
+          "line": 118,
           "raw_target": "socionics-model-a-blocks-uk",
           "resolved": "wiki/concepts/socionics-model-a-blocks-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 87,
+          "line": 119,
           "raw_target": "socionics-information-elements-uk",
           "resolved": "wiki/concepts/socionics-information-elements-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 88,
+          "line": 120,
           "raw_target": "socionics-test-specification-uk",
           "resolved": "wiki/concepts/socionics-test-specification-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 89,
+          "line": 121,
           "raw_target": "socionics-reality-modeling-uk",
           "resolved": "wiki/concepts/socionics-reality-modeling-uk.md",
           "ambiguous": []
@@ -19659,7 +19668,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 87,
+          "line": 119,
           "raw_target": "socionics-information-elements-en",
           "resolved": "wiki/concepts/socionics-information-elements-en.md",
           "ambiguous": []
@@ -19822,7 +19831,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 87,
+          "line": 119,
           "raw_target": "socionics-information-elements-ru",
           "resolved": "wiki/concepts/socionics-information-elements-ru.md",
           "ambiguous": []
@@ -19985,7 +19994,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 87,
+          "line": 119,
           "raw_target": "socionics-information-elements-uk",
           "resolved": "wiki/concepts/socionics-information-elements-uk.md",
           "ambiguous": []
@@ -20142,7 +20151,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 86,
+          "line": 118,
           "raw_target": "socionics-model-a-blocks-en",
           "resolved": "wiki/concepts/socionics-model-a-blocks-en.md",
           "ambiguous": []
@@ -20292,7 +20301,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 86,
+          "line": 118,
           "raw_target": "socionics-model-a-blocks-ru",
           "resolved": "wiki/concepts/socionics-model-a-blocks-ru.md",
           "ambiguous": []
@@ -20442,7 +20451,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 86,
+          "line": 118,
           "raw_target": "socionics-model-a-blocks-uk",
           "resolved": "wiki/concepts/socionics-model-a-blocks-uk.md",
           "ambiguous": []
@@ -20634,7 +20643,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 85,
+          "line": 117,
           "raw_target": "socionics-model-a-en",
           "resolved": "wiki/concepts/socionics-model-a-en.md",
           "ambiguous": []
@@ -20882,7 +20891,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 85,
+          "line": 117,
           "raw_target": "socionics-model-a-ru",
           "resolved": "wiki/concepts/socionics-model-a-ru.md",
           "ambiguous": []
@@ -21130,7 +21139,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 85,
+          "line": 117,
           "raw_target": "socionics-model-a-uk",
           "resolved": "wiki/concepts/socionics-model-a-uk.md",
           "ambiguous": []
@@ -21393,14 +21402,14 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 30,
+          "line": 32,
           "raw_target": "socionics-reality-modeling-en",
           "resolved": "wiki/concepts/socionics-reality-modeling-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 89,
+          "line": 121,
           "raw_target": "socionics-reality-modeling-en",
           "resolved": "wiki/concepts/socionics-reality-modeling-en.md",
           "ambiguous": []
@@ -21824,14 +21833,14 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 30,
+          "line": 32,
           "raw_target": "socionics-reality-modeling-ru",
           "resolved": "wiki/concepts/socionics-reality-modeling-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 89,
+          "line": 121,
           "raw_target": "socionics-reality-modeling-ru",
           "resolved": "wiki/concepts/socionics-reality-modeling-ru.md",
           "ambiguous": []
@@ -22255,14 +22264,14 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 30,
+          "line": 32,
           "raw_target": "socionics-reality-modeling-uk",
           "resolved": "wiki/concepts/socionics-reality-modeling-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 89,
+          "line": 121,
           "raw_target": "socionics-reality-modeling-uk",
           "resolved": "wiki/concepts/socionics-reality-modeling-uk.md",
           "ambiguous": []
@@ -22634,7 +22643,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-en.md",
-          "line": 88,
+          "line": 120,
           "raw_target": "socionics-test-specification-en",
           "resolved": "wiki/concepts/socionics-test-specification-en.md",
           "ambiguous": []
@@ -22768,7 +22777,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-ru.md",
-          "line": 88,
+          "line": 120,
           "raw_target": "socionics-test-specification-ru",
           "resolved": "wiki/concepts/socionics-test-specification-ru.md",
           "ambiguous": []
@@ -22902,7 +22911,7 @@
         },
         {
           "source": "wiki/concepts/socionics-function-positions-uk.md",
-          "line": 88,
+          "line": 120,
           "raw_target": "socionics-test-specification-uk",
           "resolved": "wiki/concepts/socionics-test-specification-uk.md",
           "ambiguous": []
