@@ -35,16 +35,16 @@ Its codes are compact models of proposed predispositions in abductive, inductive
 <!-- section:core-constructs -->
 ## Core Constructs
 
-The school distinguishes four temporal aspects. The descriptions below are research prompts, not established causal mechanisms.
+The school distinguishes four temporal aspects corresponding to baseline thinking processes. The descriptions below are research prompts and hypotheses, not established causal mechanisms.
 
-| Aspect | Reference question | Strategic hypothesis |
-|---|---|---|
-| Past (P) | What history or continuity matters here? | organization of memory, identity continuity, precedent, and retrospective causal analysis (etiology and origins) |
-| Present / Now (N) | Where are we and what is the current position? | organization of place, state, and immediate situatedness |
-| Future (F) | Where are we going? | organization of direction, expectation, and trajectory |
-| Eternity (E) | What larger meaning or horizon frames this? | organization of existential meaning and durable significance |
+| Aspect | Reference question | Thinking process | Strategic hypothesis |
+|---|---|---|---|
+| Past (P) | What history or continuity matters here? (“Why?”) | causal reasoning (causal analysis) | organization of memory, identity continuity, precedent, and retrospective analysis of causes and origins |
+| Present / Now (N) | Where are we and what is the current position? (“What now?”) | situational-experiential reasoning (contact with the moment) | organization of place, current state, immediate resources, and situated conditions |
+| Future (F) | Where are we going? (“Where?”) | scenario-probabilistic reasoning (path modeling) | organization of direction, probabilistic scenarios, expectations, and trajectory |
+| Eternity (E) | What larger meaning or horizon frames this? (“To what end?”) | meaning-making and sense-making processes (teleology) | organization of existential meaning, meaning-making processes, overarching values, and durable significance |
 
-Eternity concerns a proposed meaning frame. It does not measure morality, altruism, faith, human worth, or the truth of a worldview.
+Eternity concerns a proposed meaning frame and meaning-making processes. It does not measure morality, altruism, faith, human worth, or the truth of a worldview.
 
 <!-- section:position-structure -->
 ## Position Structure

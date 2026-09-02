@@ -29,14 +29,14 @@ This is a BWB research hypothesis, not an established neuroscientific, psychomet
 <!-- section:four-temporal-coordinates -->
 ## Four temporal coordinates
 
-| Aspect | Question | Possible observable task |
-|---|---|---|
-| Present | “What is happening, and what is my place now?” | notice current conditions, role, and need for action |
-| Past | “What happened, and how does it bear on the present?” | distinguish an episode from its later interpretation |
-| Future | “Which paths are possible, and what would change the course?” | construct several scenarios and review criteria |
-| Eternity | “Which meaning or principle outlasts this situation?” | formulate broader orientations and test their application |
+| Aspect | Question | Thinking process | Possible observable task |
+|---|---|---|---|
+| Present | “What is happening, and what is my place now?” | situational-experiential reasoning | notice current conditions, role, resources, and need for action in the moment |
+| Past | “Why did this happen, and what led to it?” | causal reasoning (causal analysis) | distinguish facts from interpretations, identify chronology, causes, and precedents |
+| Future | “Which paths are possible, and what would change the course?” | scenario-probabilistic reasoning | construct probabilistic scenarios, evaluate risks, and set review criteria |
+| Eternity | “Why is this, and which meaning outlasts this situation?” | meaning-making and sense-making (teleology) | formulate overarching value frames, orientations, and test their application |
 
-In BWB, Temporistics belongs to the strategic level: it concerns organization of temporal and existential direction, not moral values.
+In BWB, Temporistics belongs to the strategic level: it concerns organization of temporal and existential direction, not moral values. Distinguishing the causal reasoning of the Past (“Why?”) from the meaning-making of Eternity (“To what end / Why is this significant?”) prevents conflating historical causality with overarching meaning.
 
 <!-- section:hypothesis-about-positional-modes -->
 ## Hypothesis about positional modes
@@ -45,10 +45,10 @@ The following table is BWB's interpretation, not a canonical definition of the s
 
 | Position | Proposed mode | What might be observed | Competing explanation |
 |---|---|---|---|
-| 1st | independently setting a temporal frame | a person quickly states a course and applies it to events | experience, formal authority, occupational role |
-| 2nd | dialogical refinement | a person helps a group compare histories and scenarios | facilitation skill, agreeableness |
-| 3rd | tense search for an explanation | a person gathers more signals and delays closure | anxiety, trauma, situational uncertainty |
-| 4th | accepting an external frame | a person readily uses another's route while remaining able to revise it | trust, lack of knowledge, low topic importance |
+| 1st | independent frame setting (predominantly top-down deductive movement) | a person quickly formulates an orientation/meaning and applies it to specifics | experience, formal authority, occupational role |
+| 2nd | dialogical refinement and comparison | a person helps a group compare histories, scenarios, and meaning systems | facilitation skill, agreeableness |
+| 3rd | tense search for an explanation (inductive/abductive signal gathering) | a person keenly seeks hypotheses, notices contradictions in causes or meaning, delays closure | anxiety, trauma, situational uncertainty |
+| 4th | accepting or delegating an external frame | a person readily uses an existing route from tradition/partner while remaining able to revise it | trust, lack of knowledge, low topic importance |
 
 Deduction, induction, and abduction may name operations within a task. They are not established entities of the positions and should not be moved into a canonical registry.
 

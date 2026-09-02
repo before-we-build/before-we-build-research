@@ -2,6 +2,45 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-02] feat | Ground Temporistics Cognitive Thinking Processes in Peer-Reviewed Academic Literature
+
+- **Academic Grounding of Temporal Cognition:** Added authoritative peer-reviewed citations (with DOI and PubMed identifiers) for the four temporal thinking processes and trait time perspective:
+  - **Past ($P$):** Causal modeling (*Pearl 2009*) and counterfactual simulation (*Byrne 2016*).
+  - **Present ($N$):** Situation awareness (*Endsley 1995*) and situated actions (*Suchman 1987*).
+  - **Future ($F$):** Episodic future thinking / memory prospection (*Schacter et al. 2012*) and navigational prospection (*Seligman et al. 2013*).
+  - **Eternity ($E$):** Integrative meaning-making model (*Park 2010*), teleological cognition (*Kelemen 2012*), and narrative identity (*McAdams 2001*).
+  - **Trait Time Perspective:** Multidimensional continuous metric (*Zimbardo & Boyd 1999 ZTPI*).
+- **Updated Triads & Source Evidence:**
+  - `wiki/concepts/temporal-aspects-{en,ru,uk}.md`: Added `academic-foundations` section with literature references.
+  - `wiki/sources/neural-correlates-analysis-synthesis-2026-{en,ru,uk}.md`: Expanded Evidence Ledger with Situation Awareness, Meaning-Making / Teleology, and ZTPI rows.
+- **Validation:** 41 unit tests, strict wiki validation, section ID sync, wikilink check, and index/inventory generation passed cleanly.
+
+## [2026-09-02] refactor | Formalize Cognitive Thinking Processes in Temporistics & Past vs Eternity Distinction
+
+- **Cognitive Thinking Processes Formalization:** Grounded all 4 Temporistics aspects in specific cognitive thinking processes:
+  - **Past ($P$):** Causal reasoning / analysis (*причинно-следственное мышление*) — analyzing causes, chronology, origins, and lessons from precedents («Почему?»).
+  - **Present ($N$):** Situational-experiential reasoning (*ситуативно-актуальное мышление*) — immediate contact with the moment, evaluating present resources and conditions («Что сейчас?»).
+  - **Future ($F$):** Scenario-probabilistic reasoning (*сценарно-прогностическое мышление*) — modeling probabilistic trajectories and alternative paths («Куда?»).
+  - **Eternity ($E$):** Meaning-making and sense-making processes (*процесс смыслообразования и осмысления*) — teleology, overarching value frames, enduring principles, and purpose («Зачем и ради чего?»).
+- **Past vs Eternity Disambiguation:** Added dedicated comparative section explicitly separating retrospective causal reasoning ($P$) from teleological meaning-making ($E$) to eliminate historical conflations.
+- **Updated Triads:**
+  - `wiki/concepts/temporal-aspects-{en,ru,uk}.md`
+  - `wiki/concepts/temporistics-model-{en,ru,uk}.md`
+  - `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-{en,ru,uk}.md`
+  - `wiki/entities/temporistics-overview-{en,ru,uk}.md`
+  - `wiki/concepts/typology-disambiguation-guide-{en,ru,uk}.md`
+  - `wiki/glossary-core-{en,ru,uk}.md`
+
+## [2026-09-02] refactor | Add смыслообразование / meaning-making construct to Temporistics Eternity
+
+- **Eternity Aspect Conceptual Refinement:** Explicitly integrated the term **«смыслообразование»** (EN: *meaning-making*, UK: *смислотворення*) into the definition, operational construct, and wishes guidelines for the Eternity ($E$) aspect in Temporistics.
+- **Updated Triads:**
+  - `wiki/concepts/temporal-aspects-{en,ru,uk}.md`
+  - `wiki/concepts/temporistics-model-{en,ru,uk}.md`
+  - `wiki/entities/temporistics-overview-{en,ru,uk}.md`
+  - `wiki/concepts/temporistics-test-specification-{en,ru,uk}.md`
+- **Validation:** All 41 unit tests and strict wiki checks passed cleanly.
+
 ## [2026-09-02] refactor | Decouple Peirce epistemic inference modes from Psychosophy operational level
 
 - **Operational vs Strategic Level Disambiguation:** Removed deduction, induction, and abduction labels from Psychosophy breakdowns in `docs/detailed-typology-dud.md` and `docs/detailed-typology-morgenshtern.md`, restoring clean theoretical boundaries:

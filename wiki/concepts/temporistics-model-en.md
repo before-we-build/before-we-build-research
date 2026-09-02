@@ -3,7 +3,7 @@ title: Temporistics Model
 type: concept
 tags: [temporistics, model, theory]
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-09-02
 sources: [raw/temporistics]
 lang: en
 translation_group: temporistics-model
@@ -32,12 +32,14 @@ Temporistics models personality through temporal experience structuring — how 
 - Position is determined by order from 1st through 4th
 
 <!-- section:aspect-categories -->
-## Aspect Categories
+## Aspect Categories and Thinking Processes
 
-- **Past types**: Memory-oriented, traditional
-- **Present types**: Action-oriented, practical
-- **Future types**: Vision-oriented, planning
-- **Eternity types**: Values-oriented, philosophical
+Each aspect directs attention toward a corresponding thinking process:
+
+- **Past types ($P$)**: Prioritize causal reasoning — analyzing origins, chronology, drawing lessons from precedents, and verifying causal links (“Why?”).
+- **Present types ($N$)**: Prioritize situational-experiential reasoning — direct contact with the moment, assessing immediate resources and conditions here and now.
+- **Future types ($F$)**: Prioritize scenario-probabilistic reasoning — modeling probabilistic trajectories, constructing alternative paths, and goal-setting in time.
+- **Eternity types ($E$)**: Prioritize meaning-making and sense-making processes — formulating overarching frames, relating the part to the whole, and seeking enduring significance (“Why and to what end?”).
 
 <!-- section:see-also -->
 ## See Also

@@ -288,7 +288,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 76,
+          "line": 77,
           "raw_target": "adequate-compromise-en",
           "resolved": "wiki/concepts/adequate-compromise-en.md",
           "ambiguous": []
@@ -595,7 +595,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 76,
+          "line": 77,
           "raw_target": "adequate-compromise-ru",
           "resolved": "wiki/concepts/adequate-compromise-ru.md",
           "ambiguous": []
@@ -677,7 +677,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 76,
+          "line": 77,
           "raw_target": "adequate-compromise-uk",
           "resolved": "wiki/concepts/adequate-compromise-uk.md",
           "ambiguous": []
@@ -4084,7 +4084,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 75,
+          "line": 76,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4679,7 +4679,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4890,7 +4890,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 75,
+          "line": 76,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5485,7 +5485,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5696,7 +5696,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 75,
+          "line": 76,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -6291,7 +6291,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -6431,7 +6431,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "compatibility-measurement-methods-en",
           "resolved": "wiki/concepts/compatibility-measurement-methods-en.md",
           "ambiguous": []
@@ -6571,7 +6571,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "compatibility-measurement-methods-ru",
           "resolved": "wiki/concepts/compatibility-measurement-methods-ru.md",
           "ambiguous": []
@@ -6711,7 +6711,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "compatibility-measurement-methods-uk",
           "resolved": "wiki/concepts/compatibility-measurement-methods-uk.md",
           "ambiguous": []
@@ -9538,14 +9538,14 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
@@ -9786,14 +9786,14 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
@@ -10034,14 +10034,14 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -11250,7 +11250,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 74,
+          "line": 75,
           "raw_target": "four-level-compatibility-architecture-en",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
           "ambiguous": []
@@ -11406,7 +11406,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 74,
+          "line": 75,
           "raw_target": "four-level-compatibility-architecture-ru",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
           "ambiguous": []
@@ -11562,7 +11562,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 74,
+          "line": 75,
           "raw_target": "four-level-compatibility-architecture-uk",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
           "ambiguous": []
@@ -14310,6 +14310,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 94,
+          "raw_target": "neural-correlates-analysis-synthesis-en",
+          "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 25,
           "raw_target": "neural-correlates-analysis-synthesis-en",
@@ -14377,6 +14384,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 94,
+          "raw_target": "neural-correlates-analysis-synthesis-ru",
+          "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 24,
           "raw_target": "neural-correlates-analysis-synthesis-ru",
@@ -14440,6 +14454,13 @@
           "source": "index.md",
           "line": 99,
           "raw_target": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
+          "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 94,
+          "raw_target": "neural-correlates-analysis-synthesis-uk",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
           "ambiguous": []
         },
@@ -24236,11 +24257,14 @@
       "claims": {},
       "caveat_ids": [],
       "sources": [
-        "raw/temporistics"
+        "raw/temporistics",
+        "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md"
       ],
       "section_ids": [
         "overview",
         "the-four-aspects",
+        "past-vs-eternity-distinction",
+        "academic-foundations",
         "eternity-oriented-wishes",
         "see-also"
       ],
@@ -24261,7 +24285,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-model-en.md",
-          "line": 45,
+          "line": 47,
           "raw_target": "temporal-aspects-en",
           "resolved": "wiki/concepts/temporal-aspects-en.md",
           "ambiguous": []
@@ -24270,16 +24294,128 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 55,
+          "raw_target": "https://doi.org/10.1017/CBO9780511803161",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
           "line": 56,
+          "raw_target": "https://doi.org/10.1146/annurev-psych-122414-033249",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 56,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26361053/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 58,
+          "raw_target": "https://doi.org/10.1518/001872095779049543",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 61,
+          "raw_target": "https://doi.org/10.1016/j.neuron.2012.11.001",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 61,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23177955/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 62,
+          "raw_target": "https://doi.org/10.1177/1745691612474317",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 62,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26172480/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 64,
+          "raw_target": "https://doi.org/10.1037/a0018301",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 64,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/20192563/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 65,
+          "raw_target": "https://doi.org/10.1016/B978-0-12-397919-3.00010-8",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 65,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23145498/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 66,
+          "raw_target": "https://doi.org/10.1037/1089-2680.5.2.100",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 68,
+          "raw_target": "https://doi.org/10.1037/0022-3514.77.6.1271",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 70,
+          "raw_target": "neural-correlates-analysis-synthesis-2026-en",
+          "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 92,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 57,
+          "line": 93,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 94,
+          "raw_target": "neural-correlates-analysis-synthesis-en",
+          "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
           "ambiguous": []
         }
       ]
@@ -24300,11 +24436,14 @@
       "claims": {},
       "caveat_ids": [],
       "sources": [
-        "raw/temporistics"
+        "raw/temporistics",
+        "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md"
       ],
       "section_ids": [
         "overview",
         "the-four-aspects",
+        "past-vs-eternity-distinction",
+        "academic-foundations",
         "eternity-oriented-wishes",
         "see-also"
       ],
@@ -24325,7 +24464,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-model-ru.md",
-          "line": 46,
+          "line": 48,
           "raw_target": "temporal-aspects-ru",
           "resolved": "wiki/concepts/temporal-aspects-ru.md",
           "ambiguous": []
@@ -24334,16 +24473,128 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 55,
+          "raw_target": "https://doi.org/10.1017/CBO9780511803161",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
           "line": 56,
+          "raw_target": "https://doi.org/10.1146/annurev-psych-122414-033249",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 56,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26361053/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 58,
+          "raw_target": "https://doi.org/10.1518/001872095779049543",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 61,
+          "raw_target": "https://doi.org/10.1016/j.neuron.2012.11.001",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 61,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23177955/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 62,
+          "raw_target": "https://doi.org/10.1177/1745691612474317",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 62,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26172480/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 64,
+          "raw_target": "https://doi.org/10.1037/a0018301",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 64,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/20192563/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 65,
+          "raw_target": "https://doi.org/10.1016/B978-0-12-397919-3.00010-8",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 65,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23145498/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 66,
+          "raw_target": "https://doi.org/10.1037/1089-2680.5.2.100",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 68,
+          "raw_target": "https://doi.org/10.1037/0022-3514.77.6.1271",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 70,
+          "raw_target": "neural-correlates-analysis-synthesis-2026-ru",
+          "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 92,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 57,
+          "line": 93,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 94,
+          "raw_target": "neural-correlates-analysis-synthesis-ru",
+          "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
           "ambiguous": []
         }
       ]
@@ -24364,11 +24615,14 @@
       "claims": {},
       "caveat_ids": [],
       "sources": [
-        "raw/temporistics"
+        "raw/temporistics",
+        "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md"
       ],
       "section_ids": [
         "overview",
         "the-four-aspects",
+        "past-vs-eternity-distinction",
+        "academic-foundations",
         "eternity-oriented-wishes",
         "see-also"
       ],
@@ -24389,7 +24643,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-model-uk.md",
-          "line": 46,
+          "line": 48,
           "raw_target": "temporal-aspects-uk",
           "resolved": "wiki/concepts/temporal-aspects-uk.md",
           "ambiguous": []
@@ -24398,16 +24652,128 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 55,
+          "raw_target": "https://doi.org/10.1017/CBO9780511803161",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
           "line": 56,
+          "raw_target": "https://doi.org/10.1146/annurev-psych-122414-033249",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 56,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26361053/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 58,
+          "raw_target": "https://doi.org/10.1518/001872095779049543",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 61,
+          "raw_target": "https://doi.org/10.1016/j.neuron.2012.11.001",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 61,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23177955/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 62,
+          "raw_target": "https://doi.org/10.1177/1745691612474317",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 62,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26172480/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 64,
+          "raw_target": "https://doi.org/10.1037/a0018301",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 64,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/20192563/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 65,
+          "raw_target": "https://doi.org/10.1016/B978-0-12-397919-3.00010-8",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 65,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23145498/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 66,
+          "raw_target": "https://doi.org/10.1037/1089-2680.5.2.100",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 68,
+          "raw_target": "https://doi.org/10.1037/0022-3514.77.6.1271",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 70,
+          "raw_target": "neural-correlates-analysis-synthesis-2026-uk",
+          "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 92,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 57,
+          "line": 93,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 94,
+          "raw_target": "neural-correlates-analysis-synthesis-uk",
+          "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
           "ambiguous": []
         }
       ]
@@ -24680,7 +25046,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 56,
+          "line": 92,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
@@ -24703,14 +25069,14 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporistics-model-en.md",
-          "line": 45,
+          "line": 47,
           "raw_target": "temporal-aspects-en",
           "resolved": "wiki/concepts/temporal-aspects-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-model-en.md",
-          "line": 46,
+          "line": 48,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
@@ -24751,7 +25117,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 56,
+          "line": 92,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
@@ -24774,14 +25140,14 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporistics-model-ru.md",
-          "line": 46,
+          "line": 48,
           "raw_target": "temporal-aspects-ru",
           "resolved": "wiki/concepts/temporal-aspects-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-model-ru.md",
-          "line": 47,
+          "line": 49,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
@@ -24822,7 +25188,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 56,
+          "line": 92,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
@@ -24845,14 +25211,14 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporistics-model-uk.md",
-          "line": 46,
+          "line": 48,
           "raw_target": "temporal-aspects-uk",
           "resolved": "wiki/concepts/temporal-aspects-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-model-uk.md",
-          "line": 47,
+          "line": 49,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
@@ -28274,28 +28640,28 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 73,
+          "line": 74,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 74,
+          "line": 75,
           "raw_target": "four-level-compatibility-architecture-en",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 75,
+          "line": 76,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 76,
+          "line": 77,
           "raw_target": "adequate-compromise-en",
           "resolved": "wiki/concepts/adequate-compromise-en.md",
           "ambiguous": []
@@ -28348,28 +28714,28 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 73,
+          "line": 74,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 74,
+          "line": 75,
           "raw_target": "four-level-compatibility-architecture-ru",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 75,
+          "line": 76,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 76,
+          "line": 77,
           "raw_target": "adequate-compromise-ru",
           "resolved": "wiki/concepts/adequate-compromise-ru.md",
           "ambiguous": []
@@ -28422,28 +28788,28 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 73,
+          "line": 74,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 74,
+          "line": 75,
           "raw_target": "four-level-compatibility-architecture-uk",
           "resolved": "wiki/concepts/four-level-compatibility-architecture-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 75,
+          "line": 76,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 76,
+          "line": 77,
           "raw_target": "adequate-compromise-uk",
           "resolved": "wiki/concepts/adequate-compromise-uk.md",
           "ambiguous": []
@@ -28553,7 +28919,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-en.md",
-          "line": 73,
+          "line": 74,
           "raw_target": "typology-reconceptualization-en",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
@@ -28735,7 +29101,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-ru.md",
-          "line": 73,
+          "line": 74,
           "raw_target": "typology-reconceptualization-ru",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
@@ -28917,7 +29283,7 @@
         },
         {
           "source": "wiki/concepts/typology-disambiguation-guide-uk.md",
-          "line": 73,
+          "line": 74,
           "raw_target": "typology-reconceptualization-uk",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
@@ -29655,7 +30021,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -29823,7 +30189,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -29991,7 +30357,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -56472,42 +56838,42 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "compatibility-measurement-methods-en",
           "resolved": "wiki/concepts/compatibility-measurement-methods-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "validation-program-en",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "glossary-extended-en",
           "resolved": "wiki/glossary-extended-en.md",
           "ambiguous": []
@@ -56636,42 +57002,42 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "compatibility-measurement-methods-ru",
           "resolved": "wiki/concepts/compatibility-measurement-methods-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "validation-program-ru",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "glossary-extended-ru",
           "resolved": "wiki/glossary-extended-ru.md",
           "ambiguous": []
@@ -56800,42 +57166,42 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "compatibility-measurement-methods-uk",
           "resolved": "wiki/concepts/compatibility-measurement-methods-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 142,
+          "line": 146,
           "raw_target": "validation-program-uk",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "glossary-extended-uk",
           "resolved": "wiki/glossary-extended-uk.md",
           "ambiguous": []
@@ -56909,7 +57275,7 @@
         },
         {
           "source": "wiki/glossary-core-en.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "glossary-extended-en",
           "resolved": "wiki/glossary-extended-en.md",
           "ambiguous": []
@@ -57055,7 +57421,7 @@
         },
         {
           "source": "wiki/glossary-core-ru.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "glossary-extended-ru",
           "resolved": "wiki/glossary-extended-ru.md",
           "ambiguous": []
@@ -57201,7 +57567,7 @@
         },
         {
           "source": "wiki/glossary-core-uk.md",
-          "line": 147,
+          "line": 151,
           "raw_target": "glossary-extended-uk",
           "resolved": "wiki/glossary-extended-uk.md",
           "ambiguous": []
@@ -58438,14 +58804,14 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 57,
+          "line": 93,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-model-en.md",
-          "line": 46,
+          "line": 48,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
@@ -58547,14 +58913,14 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 57,
+          "line": 93,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-model-ru.md",
-          "line": 47,
+          "line": 49,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
@@ -58663,14 +59029,14 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 57,
+          "line": 93,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-model-uk.md",
-          "line": 47,
+          "line": 49,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
@@ -61282,6 +61648,13 @@
           "raw_target": "neural-correlates-analysis-synthesis-2026-en",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 70,
+          "raw_target": "neural-correlates-analysis-synthesis-2026-en",
+          "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "ambiguous": []
         }
       ],
       "outbound_links": [
@@ -61344,104 +61717,132 @@
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 47,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
+          "raw_target": "https://doi.org/10.1518/001872095779049543",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 48,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/20192563/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "line": 48,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23145498/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 49,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
+          "raw_target": "https://doi.org/10.1037/0022-3514.77.6.1271",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 50,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 51,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 52,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 53,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 54,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 55,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 56,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 57,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 58,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 59,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 60,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 61,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "line": 62,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "line": 63,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "line": 64,
           "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27133227/",
           "resolved": null,
           "ambiguous": []
@@ -61489,6 +61890,13 @@
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
           "line": 47,
+          "raw_target": "neural-correlates-analysis-synthesis-2026-ru",
+          "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 70,
           "raw_target": "neural-correlates-analysis-synthesis-2026-ru",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "ambiguous": []
@@ -61554,104 +61962,132 @@
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 40,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
+          "raw_target": "https://doi.org/10.1518/001872095779049543",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 41,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/20192563/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "line": 41,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23145498/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 42,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
+          "raw_target": "https://doi.org/10.1037/0022-3514.77.6.1271",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 43,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 44,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 45,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 46,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 47,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 48,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 49,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 50,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 51,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 52,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 53,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 54,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "line": 55,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "line": 56,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "line": 57,
           "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27133227/",
           "resolved": null,
           "ambiguous": []
@@ -61699,6 +62135,13 @@
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
           "line": 47,
+          "raw_target": "neural-correlates-analysis-synthesis-2026-uk",
+          "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 70,
           "raw_target": "neural-correlates-analysis-synthesis-2026-uk",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "ambiguous": []
@@ -61764,104 +62207,132 @@
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 40,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
+          "raw_target": "https://doi.org/10.1518/001872095779049543",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 41,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/20192563/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "line": 41,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23145498/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 42,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
+          "raw_target": "https://doi.org/10.1037/0022-3514.77.6.1271",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 43,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 44,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 45,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 46,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 47,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 48,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 49,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 50,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 51,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 52,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 53,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 54,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "line": 55,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "line": 56,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "line": 57,
           "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27133227/",
           "resolved": null,
           "ambiguous": []

@@ -56,7 +56,7 @@ Aspect scales:
 | Past | identity through history, memory, continuity, biography |
 | Present | place, current belonging, situational embeddedness |
 | Future | route, direction, planning horizon, trajectory |
-| Eternity | meaning, ultimate frame, trans-situational purpose |
+| Eternity | meaning-making, meaning, ultimate frame, trans-situational purpose |
 
 Position-mode scales:
 

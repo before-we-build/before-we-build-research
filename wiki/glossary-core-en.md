@@ -87,6 +87,10 @@ This glossary fixes how active Before We Build pages use central terms. A defini
 
 **Value-moral foundation** — values, moral obligations, conduct, dignity, consent, safety, responsibility, reciprocity, repair, and non-negotiable boundaries; not a typology.
 
+**Causal reasoning** — in the BWB temporal model, the process of establishing causal links, chronology, origins, and lessons from precedents (Past focus, “Why?” question); distinct from meaning-making.
+
+**Meaning-making** — in the BWB temporal model, the cognitive-existential process of generating overarching significance frames, principles, and value orientations (Eternity focus, “To what end?” question); does not determine moral maturity.
+
 **Strategic compatibility** — compatibility of temporal or existential direction; mapped provisionally to Temporistics, not to values.
 
 **Operational compatibility** — compatibility in organizing decisions and joint action; mapped provisionally to Psychosophy.

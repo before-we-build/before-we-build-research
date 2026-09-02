@@ -24,7 +24,7 @@ The same word in Socionics, Psychosophy, and Temporistics does not automatically
 
 - **Socionics / tactical level:** hypotheses about information modelling.
 - **Psychosophy / operational level:** hypotheses about analysis and synthesis in action.
-- **Temporistics / strategic level:** hypotheses about abductive, inductive, and deductive organization of temporal and existential experience.
+- **Temporistics / strategic level:** hypotheses about abductive, inductive, and deductive organization of temporal and existential experience (causal analysis of Past, situational reasoning of Present, scenario modeling of Future, and meaning-making of Eternity).
 
 These mappings are the project's working architecture, not proof that the three systems are empirically independent.
 
@@ -38,6 +38,7 @@ These mappings are the project's working architecture, not proof that the three 
 | **Logic** in Psychosophy | **Te / Ti** in Socionics | Sharing an everyday word does not establish identity between an operational construct and information aspects. |
 | **Physics** in Psychosophy | **Si / Se** in Socionics | Material embodiment of action and modelling sensory information require different indicators. |
 | **Future** in Temporistics | **Ni** in Socionics | A temporal aspect of life direction and a Socionics information aspect of time belong to different models. |
+| **Eternity** in Temporistics | **Value-moral foundation** in BWB | The former concerns a cognitive-existential meaning-making process; the latter concerns normative commitments, dignity, consent, responsibility, and safety boundaries. |
 
 <!-- section:2-illustrative-combinations -->
 ## 2. Illustrative combinations
