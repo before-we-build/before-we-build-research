@@ -2,6 +2,17 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-02] profile | Yury Dud Multi-Level Research Profile & Transcript Ingestion
+
+- **Public-Figure Research Record:** Created `docs/detailed-typology-dud.md` documenting multi-level research hypotheses for Yury Dud under strict BWB decontamination and ethical standards:
+  - *Level 1 (Value-Moral):* Humanistic values, freedom of expression, personal accountability, anti-authoritarian stance, journalistic independence.
+  - *Level 2 (Temporistics):* **НПБВ** («Звезда», Старожилы — 1N «Хозяин» [Deduction], 2P «Летописец» [Abduction], 3F «Безбилетник» [Induction], 4E «Ученик» [Delegated Deduction]).
+  - *Level 3 (Psychosophy):* **ФВЛЭ** («Гёте», 1st sexta — 1F [Deduction], 2V [Abduction], 3L [Induction], 4E [Delegated Deduction]).
+  - *Level 4 (Socionics):* **ЛИЭ** («Джек Лондон» / LIE, Gamma quadra — 1Te 4D, 2Ni 3D, 3Fe 2D, 4Si 1D, 5Fi 1D, 6Se 2D, 7Ti 3D, 8Ne 4D).
+- **Ethics & Decontamination Protocol:** Integrated Goldwater-rule-style restraint, isolated journalistic interviewer role adaptation and team production from latent baseline traits, and documented falsification criteria.
+- **Transcript Ingestion & Reorganization:** Relocated root transcript `morgenshtern_vdud_2026_transcript.md` into `raw/transcripts/morgenshtern_vdud_2026_transcript.md` and synced with `auto-typologist-research/benchmarks/transcripts/`.
+- **Benchmark Sync:** Registered ground truth profile in `auto-typologist-research/benchmarks/golden_profiles.json`.
+
 ## [2026-09-02] research | Causal Reasoning, Counterfactual Simulation, and Past Aspect Integration
 
 Integrated peer-reviewed cognitive neuroscience research on causal reasoning (Causal Cognition, Bayes Nets), counterfactual thinking, and episodic memory traces into the BWB knowledge base, explicitly mapping them to the strategic level and Temporistics Past ($P$) aspect:
