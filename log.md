@@ -2,6 +2,13 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-02] refactor | Decouple Peirce epistemic inference modes from Psychosophy operational level
+
+- **Operational vs Strategic Level Disambiguation:** Removed deduction, induction, and abduction labels from Psychosophy breakdowns in `docs/detailed-typology-dud.md` and `docs/detailed-typology-morgenshtern.md`, restoring clean theoretical boundaries:
+  - *Strategic Level (Temporistics):* Retains Peirce epistemic inference modes (deduction, induction, abduction) for structuring temporal/existential experience.
+  - *Operational Level (Psychosophy):* Restored to latent processes of analysis and synthesis in action organization (dominant monologue, adaptive dialogue, vulnerable hyper-process, delegated compliance).
+- **Benchmark Sync:** Harmonized operational position properties across `auto-typologist-research/benchmarks/golden_profiles.json` and updated decontamination rules in `auto-typologist-research/README.md`.
+
 ## [2026-09-02] profile | Alisher Morgenshtern Multi-Level Research Profile
 
 - **Public-Figure Research Record:** Created `docs/detailed-typology-morgenshtern.md` documenting multi-level research hypotheses for Alisher Morgenshtern under strict BWB decontamination and ethical standards:
