@@ -2,6 +2,16 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-02] profile | Alisher Morgenshtern Multi-Level Research Profile
+
+- **Public-Figure Research Record:** Created `docs/detailed-typology-morgenshtern.md` documenting multi-level research hypotheses for Alisher Morgenshtern under strict BWB decontamination and ethical standards:
+  - *Level 1 (Value-Moral):* Individualistic autonomy, hedonism, social boundary transgression, public philanthropy.
+  - *Level 2 (Temporistics):* **НВПБ** («Серый Кардинал», Лазутчики — 1N «Хозяин» [Deduction], 2E «Философ» [Abduction], 3P «Критик» [Induction], 4F «Пассажир» [Delegated Deduction]).
+  - *Level 3 (Psychosophy):* **ФЭВЛ** («Дюма», 2nd sexta — 1F [Deduction], 2E [Abduction], 3V [Induction], 4L [Delegated Deduction]).
+  - *Level 4 (Socionics):* **СЭЭ** («Наполеон» / «Политик», Gamma quadra — 1Se 4D, 2Fi 3D, 3Ne 2D, 4Ti 1D, 5Ni 1D, 6Te 2D, 7Si 3D, 8Fe 4D).
+- **Ethics & Decontamination Protocol:** Decontaminated stage persona / shock-value marketing from cognitive baselines; isolated 3V status hypercompensation and verified falsification criteria.
+- **Benchmark Sync:** Registered ground truth profile in `auto-typologist-research/benchmarks/golden_profiles.json`.
+
 ## [2026-09-02] profile | Yury Dud Multi-Level Research Profile & Transcript Ingestion
 
 - **Public-Figure Research Record:** Created `docs/detailed-typology-dud.md` documenting multi-level research hypotheses for Yury Dud under strict BWB decontamination and ethical standards:
