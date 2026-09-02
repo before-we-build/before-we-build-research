@@ -42,7 +42,7 @@ Include horizon, continuity, sequencing of life periods, interpretation of past 
 <!-- section:latent-construct -->
 ## Proposed latent construct
 
-The proposed construct is abduction, induction, and deduction in temporal or existential experience: how a person organizes time-aspects into a frame for direction. Its exact structure and Temporistics mapping remain hypotheses.
+The proposed construct is abduction, induction, and deduction in temporal or existential experience: how a person organizes time-aspects into a frame for direction. This includes retrospective causal analysis (attributing origins and causes through past precedents and counterfactuals) and prospective forecasting (projecting trajectories into the future). Its exact structure and Temporistics mapping remain hypotheses.
 
 <!-- section:shared-example -->
 ## Shared example

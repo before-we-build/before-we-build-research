@@ -49,7 +49,7 @@ Abbreviations and detailed study attribution are provided in [[neural-correlates
 <!-- section:temporal-experience-and-forms-of-inference -->
 ## Temporal experience and forms of inference
 
-Laboratory deduction often involves frontoparietal networks; rule discovery is studied as one analogue of induction. Autobiographical memory and imagining future episodes share part of a core that includes midline and hippocampal systems. Abduction has no single mature map.
+Laboratory deduction often involves frontoparietal networks; rule discovery is studied as one analogue of induction. Causal reasoning relies on dynamic coordination between frontoparietal executive networks (rule-based deduction and constraint checking) and midline/hippocampal default networks (retrieving episodic precedents, mental time travel, and counterfactual simulation). Autobiographical memory and imagining future episodes share part of this core network. Abduction operates retrospectively by drawing on past memory traces to evaluate plausible causes of present outcomes.
 
 These findings do not establish a neurobiology of Temporistics. A narrower hypothesis is that Temporistics scale results *might* be compared with behaviour in tasks such as:
 
@@ -57,7 +57,8 @@ These findings do not establish a neurobiology of Temporistics. A narrower hypot
 |---|---|---|
 | deduction | apply a temporal “if–then” rule | accuracy, time, explanation of the transition |
 | induction | find a pattern in a series of episodes | examples needed, hypothesis changes, rule transfer |
-| abduction | propose causes of an unexpected event | range of alternatives, data requests, confidence revision |
+| abduction / retrospective causality | propose causes of an unexpected event or analyze past precedent | range of alternatives, data requests, confidence revision, etiology depth |
+| counterfactual simulation | evaluate "what would have happened if X was different in the past" | alternative branch plausibility, causal attribution precision |
 | past–future | describe a past episode and several future paths | specificity, flexibility, distinction between fact and interpretation |
 
 Education, language, anxiety, experience, and task familiarity should be considered before testing any added association with a typological scale.

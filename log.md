@@ -2,6 +2,19 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-02] research | Causal Reasoning, Counterfactual Simulation, and Past Aspect Integration
+
+Integrated peer-reviewed cognitive neuroscience research on causal reasoning (Causal Cognition, Bayes Nets), counterfactual thinking, and episodic memory traces into the BWB knowledge base, explicitly mapping them to the strategic level and Temporistics Past ($P$) aspect:
+- **Academic sources added:** Sloman & Lagnado (2015, *Annual Review of Psychology*), De Brigard (2014, *Synthese*), Schacter & Addis (2007).
+- **Core neural dynamics:** Documented that causal inference emerges from dynamic interplay between the Frontoparietal Network (FPN: rule-based deduction, constraint checking) and Default Mode / Hippocampal Network (DMN/MTL: retrieving episodic memory traces, mental time travel, counterfactual simulation).
+- **Temporistics Past ($P$) Aspect Refinement:** Explicitly articulated the role of the Past aspect in retrospective causal analysis (etiology, genesis, origin attribution, and precedent-based counterfactual evaluation).
+- **Updated triads:**
+  - `wiki/sources/neural-correlates-analysis-synthesis-2026-{en,ru,uk}.md`
+  - `wiki/concepts/neural-correlates-analysis-synthesis-{en,ru,uk}.md`
+  - `wiki/entities/temporistics-overview-{en,ru,uk}.md`
+  - `wiki/concepts/strategic-compatibility-{en,ru,uk}.md`
+- **Validation:** All 41 unit tests and strict wiki linters passed (`validate_wiki.py`, `add_wiki_section_ids.py`, `check_wikilinks.py`, `audit_claim_language.py`, `generate_wiki_index.py`, `generate_wiki_inventory.py`).
+
 ## [2026-08-27] profile | Svitlana Tarabarova & Valerii Zaluzhnyi Multi-Agent Decontamination
 
 Refactored and decontaminated the public figure typological profiles in `docs/detailed-typology-tarabarova.md` and `docs/detailed-typology-zaluzhnyi.md`:

@@ -39,7 +39,7 @@ The school distinguishes four temporal aspects. The descriptions below are resea
 
 | Aspect | Reference question | Strategic hypothesis |
 |---|---|---|
-| Past (P) | What history or continuity matters here? | organization of memory, identity continuity, and precedent |
+| Past (P) | What history or continuity matters here? | organization of memory, identity continuity, precedent, and retrospective causal analysis (etiology and origins) |
 | Present / Now (N) | Where are we and what is the current position? | organization of place, state, and immediate situatedness |
 | Future (F) | Where are we going? | organization of direction, expectation, and trajectory |
 | Eternity (E) | What larger meaning or horizon frames this? | organization of existential meaning and durable significance |

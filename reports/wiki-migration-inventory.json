@@ -14327,14 +14327,14 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "neuroscience-compatibility-bridges-en",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "operational-compatibility-en",
           "resolved": "wiki/concepts/operational-compatibility-en.md",
           "ambiguous": []
@@ -14394,14 +14394,14 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "neuroscience-compatibility-bridges-ru",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "operational-compatibility-ru",
           "resolved": "wiki/concepts/operational-compatibility-ru.md",
           "ambiguous": []
@@ -14461,14 +14461,14 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "neuroscience-compatibility-bridges-uk",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "operational-compatibility-uk",
           "resolved": "wiki/concepts/operational-compatibility-uk.md",
           "ambiguous": []
@@ -14522,7 +14522,7 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "neuroscience-compatibility-bridges-en",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-en.md",
           "ambiguous": []
@@ -14676,7 +14676,7 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "neuroscience-compatibility-bridges-ru",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-ru.md",
           "ambiguous": []
@@ -14830,7 +14830,7 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "neuroscience-compatibility-bridges-uk",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-uk.md",
           "ambiguous": []
@@ -15006,7 +15006,7 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "operational-compatibility-en",
           "resolved": "wiki/concepts/operational-compatibility-en.md",
           "ambiguous": []
@@ -15140,7 +15140,7 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "operational-compatibility-ru",
           "resolved": "wiki/concepts/operational-compatibility-ru.md",
           "ambiguous": []
@@ -15274,7 +15274,7 @@
         },
         {
           "source": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
-          "line": 87,
+          "line": 88,
           "raw_target": "operational-compatibility-uk",
           "resolved": "wiki/concepts/operational-compatibility-uk.md",
           "ambiguous": []
@@ -61302,132 +61302,146 @@
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 41,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/21613489/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559114/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 42,
-          "raw_target": "https://philsci-archive.pitt.edu/20134/1/Final",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/24021461/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 43,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/40312608/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/21613489/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 44,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/34843367/",
+          "raw_target": "https://philsci-archive.pitt.edu/20134/1/Final",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 45,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/40312608/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 46,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/34843367/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 47,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 48,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 49,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 50,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 51,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 52,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 53,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 54,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 55,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 56,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 57,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 58,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "line": 59,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "line": 60,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
+          "line": 61,
           "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27133227/",
           "resolved": null,
           "ambiguous": []
@@ -61498,132 +61512,146 @@
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 34,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/21613489/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559114/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 35,
-          "raw_target": "https://philsci-archive.pitt.edu/20134/1/Final",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/24021461/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 36,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/40312608/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/21613489/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 37,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/34843367/",
+          "raw_target": "https://philsci-archive.pitt.edu/20134/1/Final",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 38,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/40312608/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 39,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/34843367/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 40,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 41,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 42,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 43,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 44,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 45,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 46,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 47,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 48,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 49,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 50,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 51,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "line": 52,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "line": 53,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
+          "line": 54,
           "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27133227/",
           "resolved": null,
           "ambiguous": []
@@ -61694,132 +61722,146 @@
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 34,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/21613489/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559114/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 35,
-          "raw_target": "https://philsci-archive.pitt.edu/20134/1/Final",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/24021461/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 36,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/40312608/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/21613489/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 37,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/34843367/",
+          "raw_target": "https://philsci-archive.pitt.edu/20134/1/Final",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 38,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/40312608/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 39,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/34843367/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 40,
-          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288533/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 41,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32762521/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 42,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
+          "raw_target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 43,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/23507394/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 44,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/41688801/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 45,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27627877/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 46,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/29073650/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 47,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/35872175/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 48,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33022298/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 49,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/25559773/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 50,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/32892066/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 51,
-          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/26921410/",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "line": 52,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/33516732/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "line": 53,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/37546477/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
+          "line": 54,
           "raw_target": "https://pubmed.ncbi.nlm.nih.gov/27133227/",
           "resolved": null,
           "ambiguous": []
