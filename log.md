@@ -2,6 +2,14 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-02] feat | Add AGY-Powered Markdown Readability & Golden Profile Manifestation Evaluator
+
+- **Readability & Life-Examples Evaluator:** Created `scripts/check_markdown_readability.py` and unit test suite `tests/test_markdown_readability.py` utilizing the Antigravity CLI (`agy`) and static structural analysis.
+- **Git & CI Integration:** Added support for evaluating staged (`--git-staged`), modified (`--git-modified`), uncommitted (`--git-all`), or custom markdown files, returning actionable structured JSON or terminal reports.
+- **Golden Profile Benchmark Registry:** Embedded ground-truth benchmark cases from `docs/detailed-typology-*.md` (Yury Dud, Alisher Morgenshtern, Valerii Zaluzhnyi, Svitlana Tarabarova, Volodymyr Zelenskyi, Composite DevOps SLI+ELVF+VPNB) to verify and suggest real-world behavioral manifestations of latent processes.
+- **CLI Query Support:** Added `--show-golden [query]` for instant retrieval of real-life case manifestations by aspect, position, or person name.
+- **Validation:** 55 unit tests passed cleanly, strict wiki quality and agent linter checks verified.
+
 ## [2026-09-02] feat | Ground Temporistics Cognitive Thinking Processes in Peer-Reviewed Academic Literature
 
 - **Academic Grounding of Temporal Cognition:** Added authoritative peer-reviewed citations (with DOI and PubMed identifiers) for the four temporal thinking processes and trait time perspective:
