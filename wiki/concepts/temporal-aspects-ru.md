@@ -67,6 +67,8 @@ caveat_ids: []
 - **Временная перспектива как интегральная черта:**
   - *Zimbardo, P. G., & Boyd, J. N. (1999).* Putting time in perspective: A valid, reliable individual-differences metric. *Journal of Personality and Social Psychology*, 77(6), 1271–1288. [DOI: 10.1037/0022-3514.77.6.1271](https://doi.org/10.1037/0022-3514.77.6.1271)
 
+Важно разграничивать когнитивные домены темпоральных аспектов ($P, N, F, E$) и диспозиционные черты темперамента. Мотивационный поисковый драйв (*Novelty Seeking* по Клонингеру, *BAS* по Грею) или избегание вреда (*Harm Avoidance* / *BIS*) сопоставляются в BWB с *позиционными режимами распределения ресурса* (1-й и 3-й позициями), а не являются монополией какого-либо одного временного аспекта (см. [[temporistics-cognitive-resource-routing-creation-model-ru]]).
+
 Подробный реестр нейровизуализационных и когнитивных свидетельств см. в [[neural-correlates-analysis-synthesis-2026-ru]].
 
 <!-- section:eternity-oriented-wishes -->

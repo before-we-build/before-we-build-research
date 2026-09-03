@@ -67,6 +67,8 @@ caveat_ids: []
 - **Часова перспектива як інтегральна риса:**
   - *Zimbardo, P. G., & Boyd, J. N. (1999).* Putting time in perspective: A valid, reliable individual-differences metric. *Journal of Personality and Social Psychology*, 77(6), 1271–1288. [DOI: 10.1037/0022-3514.77.6.1271](https://doi.org/10.1037/0022-3514.77.6.1271)
 
+Важливо розмежовувати когнітивні домени темпоральних аспектів ($P, N, F, E$) та диспозиційні риси темпераменту. Мотиваційний пошуковий драйв (*Novelty Seeking* за Клонінгером, *BAS* за Греєм) або уникнення шкоди (*Harm Avoidance* / *BIS*) зіставляються в BWB з *позиційними режимами розподілу ресурсу* (1-ю та 3-ю позиціями), а не є монополією жодного окремого часового аспекту (див. [[temporistics-cognitive-resource-routing-creation-model-uk]]).
+
 Детальний реєстр нейровізуалізаційних і когнітивних свідчень див. у [[neural-correlates-analysis-synthesis-2026-uk]].
 
 <!-- section:eternity-oriented-wishes -->

@@ -2,6 +2,22 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-03] feat | Integrate Cloninger TCI and Gray RST with Temporistics Positional Modes and Aspects
+
+- **Positional Modes & Biopsychological Motivational Axes:** Integrated psychobiological models of temperament and motivation (Cloninger TCI, Gray/McNaughton RST) with the four-position architecture of Temporistics and Psychosophy:
+  - *Position 1 (Target / Dominant):* Mapped to autonomous exploratory drive, initiative, and appetitive motivation (**Novelty Seeking [NS]** / **BAS**), where the aspect defines the domain of exploration (1N — immediate moment, 1F — future trajectories, 1P — origins and history, 1E — overarching meaning).
+  - *Position 2 (Creative / Dialogical):* Mapped to social plasticity, process orientation, and collaboration (**Reward Dependence [RD]**).
+  - *Position 3 (Vulnerable / Painful):* Mapped to hypervigilance toward errors, conflict monitoring, and behavioral inhibition (**Harm Avoidance [HA]** / **BIS**).
+  - *Position 4 (Low-priority):* Mapped to resource conservation and low error sensitivity.
+- **De-reification and Epistemological Safeguards:** Articulated the fundamental categorical distinction between dispositional temperament traits (continuous biological reactivities) and positional cognitive-existential modes (strategic resource allocation in time), strictly guarding against monoaminergic/neurochemical reductionism.
+- **Updated Triads (EN, RU, UK):**
+  - `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-{en,ru,uk}.md`: Added `biopsychological-motivational-parallels` section with comparative matrix.
+  - `wiki/sources/big-five-alternatives-{en,ru,uk}.md`: Expanded Cloninger TCI (NS, HA, RD, P; SD, C, ST) and documented positional relevance.
+  - `wiki/entities/temporistics-overview-{en,ru,uk}.md`: Added positional motivational analogies to position structure.
+  - `wiki/concepts/temporal-aspects-{en,ru,uk}.md`: Disambiguated cognitive aspect domains ($P, N, F, E$) from temperament traits.
+  - `wiki/entities/host-khozyain-{en,ru,uk}.md`: Added verification questions distinguishing 1N from trait Novelty Seeking.
+- **Validation:** 55 unit tests passed cleanly, strict wiki quality, section ID sync, wikilink check, claim audit, and index/inventory verification passed.
+
 ## [2026-09-02] feat | Add AGY-Powered Markdown Readability & Golden Profile Manifestation Evaluator
 
 - **Readability & Life-Examples Evaluator:** Created `scripts/check_markdown_readability.py` and unit test suite `tests/test_markdown_readability.py` utilizing the Antigravity CLI (`agy`) and static structural analysis.

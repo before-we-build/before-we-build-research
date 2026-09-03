@@ -213,7 +213,7 @@ Four dark personality traits (expansion of Dark Triad):
 | Model | What it adds |
 |-------|--------------|
 | **Zuckerman Alternative Five** | Sensation Seeking / Activity emphasis in a non-Big-Five structure |
-| **Cloninger TCI** | Temperament + character model with biopsychological framing |
+| **Cloninger TCI** | Biopsychological model with 4 temperament dimensions (*Novelty Seeking* [dopaminergic exploratory activation], *Harm Avoidance* [serotonergic inhibition/anxiety], *Reward Dependence* [noradrenergic affiliation], *Persistence*) and 3 character dimensions (*Self-Directedness*, *Cooperativeness*, *Self-Transcendence*). |
 
 ---
 
@@ -226,11 +226,11 @@ Four dark personality traits (expansion of Dark Triad):
 |-----------|-------------------------|-------|
 | **Socionics** | Big Five + HEXACO | Best-established external trait benchmarks |
 | **Psychosophy** | 16PF | Possible higher-resolution comparison space |
-| **Temporistics** | Big Five time-orientation research, RST only as distant analogy | Exploratory only |
+| **Temporistics** | Big Five time-orientation research; Gray's RST and Cloninger's TCI as structural analogies for positional modes | Exploratory only |
 
 **Key Insight from Research**
 
-> Broad Big Five domains are useful, but narrower traits and alternative models may improve prediction or capture constructs that sit partly outside the standard Five-Factor space.
+> Broad Big Five domains are useful, but narrower traits and alternative models may improve prediction or capture constructs that sit partly outside the standard Five-Factor space. Biopsychological models (RST, TCI) serve as structural analogies for positional cognitive modes: position 1 phenomenologically resembles appetitive drive and exploratory initiative (Novelty Seeking / BAS), while position 3 resembles hypervigilance to error and inhibition (Harm Avoidance / BIS).
 
 **Implication for the BWB validation program:**
 - Use established trait measures only as comparison baselines, not as proof of the typological architecture.

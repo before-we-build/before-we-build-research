@@ -67,6 +67,8 @@ The four thinking processes operationalized in Before We Build correspond to est
 - **Trait Time Perspective:**
   - *Zimbardo, P. G., & Boyd, J. N. (1999).* Putting time in perspective: A valid, reliable individual-differences metric. *Journal of Personality and Social Psychology*, 77(6), 1271–1288. [DOI: 10.1037/0022-3514.77.6.1271](https://doi.org/10.1037/0022-3514.77.6.1271)
 
+It is critical to distinguish cognitive domains of temporal aspects ($P, N, F, E$) from dispositional temperament traits. Motivational exploratory drive (*Novelty Seeking* in Cloninger's TCI, *BAS* in Gray's RST) or error sensitivity (*Harm Avoidance* / *BIS*) map in BWB to *positional modes of resource allocation* (positions 1 and 3), rather than being monopolized by any single temporal aspect (see [[temporistics-cognitive-resource-routing-creation-model-en]]).
+
 See [[neural-correlates-analysis-synthesis-2026-en]] for the complete neuroimaging and cognitive evidence ledger.
 
 <!-- section:eternity-oriented-wishes -->

@@ -4070,7 +4070,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4168,7 +4168,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-en.md",
-          "line": 51,
+          "line": 52,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4876,7 +4876,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -4974,7 +4974,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-ru.md",
-          "line": 51,
+          "line": 52,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5682,7 +5682,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -5780,7 +5780,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-uk.md",
-          "line": 51,
+          "line": 52,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -12424,7 +12424,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
@@ -12608,7 +12608,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
@@ -12792,7 +12792,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
@@ -14311,7 +14311,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 94,
+          "line": 96,
           "raw_target": "neural-correlates-analysis-synthesis-en",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
           "ambiguous": []
@@ -14385,7 +14385,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 94,
+          "line": 96,
           "raw_target": "neural-correlates-analysis-synthesis-ru",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
           "ambiguous": []
@@ -14459,7 +14459,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 94,
+          "line": 96,
           "raw_target": "neural-correlates-analysis-synthesis-uk",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
           "ambiguous": []
@@ -14564,7 +14564,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "neuroscience-compatibility-bridges-en",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-en.md",
           "ambiguous": []
@@ -14718,7 +14718,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "neuroscience-compatibility-bridges-ru",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-ru.md",
           "ambiguous": []
@@ -14872,7 +14872,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "neuroscience-compatibility-bridges-uk",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-uk.md",
           "ambiguous": []
@@ -23504,7 +23504,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "strategic-compatibility-en",
           "resolved": "wiki/concepts/strategic-compatibility-en.md",
           "ambiguous": []
@@ -23631,7 +23631,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "strategic-compatibility-ru",
           "resolved": "wiki/concepts/strategic-compatibility-ru.md",
           "ambiguous": []
@@ -23758,7 +23758,7 @@
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "strategic-compatibility-uk",
           "resolved": "wiki/concepts/strategic-compatibility-uk.md",
           "ambiguous": []
@@ -24393,27 +24393,34 @@
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
           "line": 70,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 72,
           "raw_target": "neural-correlates-analysis-synthesis-2026-en",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 93,
+          "line": 95,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 94,
+          "line": 96,
           "raw_target": "neural-correlates-analysis-synthesis-en",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
           "ambiguous": []
@@ -24572,27 +24579,34 @@
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
           "line": 70,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 72,
           "raw_target": "neural-correlates-analysis-synthesis-2026-ru",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 93,
+          "line": 95,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 94,
+          "line": 96,
           "raw_target": "neural-correlates-analysis-synthesis-ru",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
           "ambiguous": []
@@ -24751,27 +24765,34 @@
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
           "line": 70,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 72,
           "raw_target": "neural-correlates-analysis-synthesis-2026-uk",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 93,
+          "line": 95,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 94,
+          "line": 96,
           "raw_target": "neural-correlates-analysis-synthesis-uk",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
           "ambiguous": []
@@ -24804,6 +24825,7 @@
         "status-and-boundaries",
         "four-temporal-coordinates",
         "hypothesis-about-positional-modes",
+        "biopsychological-motivational-parallels",
         "community-as-a-context-for-distributed-attention",
         "christian-application-reading",
         "how-to-test-it",
@@ -24818,8 +24840,22 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporal-aspects-en.md",
+          "line": 70,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/temporistics-third-aspect-sin-patterns-en.md",
           "line": 82,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/temporistics-overview-en.md",
+          "line": 59,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
           "ambiguous": []
@@ -24828,28 +24864,28 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "latent-process-en",
           "resolved": "wiki/concepts/latent-process-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "neuroscience-compatibility-bridges-en",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "strategic-compatibility-en",
           "resolved": "wiki/concepts/strategic-compatibility-en.md",
           "ambiguous": []
@@ -24882,6 +24918,7 @@
         "status-and-boundaries",
         "four-temporal-coordinates",
         "hypothesis-about-positional-modes",
+        "biopsychological-motivational-parallels",
         "community-as-a-context-for-distributed-attention",
         "christian-application-reading",
         "how-to-test-it",
@@ -24896,8 +24933,22 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporal-aspects-ru.md",
+          "line": 70,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md",
           "line": 82,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/temporistics-overview-ru.md",
+          "line": 59,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
           "ambiguous": []
@@ -24906,28 +24957,28 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "latent-process-ru",
           "resolved": "wiki/concepts/latent-process-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "neuroscience-compatibility-bridges-ru",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "strategic-compatibility-ru",
           "resolved": "wiki/concepts/strategic-compatibility-ru.md",
           "ambiguous": []
@@ -24960,6 +25011,7 @@
         "status-and-boundaries",
         "four-temporal-coordinates",
         "hypothesis-about-positional-modes",
+        "biopsychological-motivational-parallels",
         "community-as-a-context-for-distributed-attention",
         "christian-application-reading",
         "how-to-test-it",
@@ -24974,8 +25026,22 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporal-aspects-uk.md",
+          "line": 70,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md",
           "line": 82,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/temporistics-overview-uk.md",
+          "line": 59,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
           "ambiguous": []
@@ -24984,28 +25050,28 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "latent-process-uk",
           "resolved": "wiki/concepts/latent-process-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "neuroscience-compatibility-bridges-uk",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
-          "line": 81,
+          "line": 95,
           "raw_target": "strategic-compatibility-uk",
           "resolved": "wiki/concepts/strategic-compatibility-uk.md",
           "ambiguous": []
@@ -25046,7 +25112,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "temporistics-model-en",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
@@ -25117,7 +25183,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "temporistics-model-ru",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
@@ -25188,7 +25254,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 92,
+          "line": 94,
           "raw_target": "temporistics-model-uk",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
@@ -25708,7 +25774,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-en.md",
-          "line": 52,
+          "line": 53,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
@@ -26400,7 +26466,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-ru.md",
-          "line": 52,
+          "line": 53,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
@@ -27092,7 +27158,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-uk.md",
-          "line": 52,
+          "line": 53,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -33925,21 +33991,21 @@
         },
         {
           "source": "wiki/entities/host-khozyain-en.md",
-          "line": 50,
+          "line": 51,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/host-khozyain-en.md",
-          "line": 51,
+          "line": 52,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/host-khozyain-en.md",
-          "line": 52,
+          "line": 53,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
@@ -34015,21 +34081,21 @@
         },
         {
           "source": "wiki/entities/host-khozyain-ru.md",
-          "line": 50,
+          "line": 51,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/host-khozyain-ru.md",
-          "line": 51,
+          "line": 52,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/host-khozyain-ru.md",
-          "line": 52,
+          "line": 53,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
@@ -34105,21 +34171,21 @@
         },
         {
           "source": "wiki/entities/host-khozyain-uk.md",
-          "line": 50,
+          "line": 51,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/host-khozyain-uk.md",
-          "line": 51,
+          "line": 52,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/entities/host-khozyain-uk.md",
-          "line": 52,
+          "line": 53,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -48868,7 +48934,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-en.md",
-          "line": 50,
+          "line": 51,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -49129,6 +49195,13 @@
       "outbound_links": [
         {
           "source": "wiki/entities/temporistics-overview-en.md",
+          "line": 59,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/temporistics-overview-en.md",
           "line": 109,
           "raw_target": "strategic-compatibility-en",
           "resolved": "wiki/concepts/strategic-compatibility-en.md",
@@ -49264,7 +49337,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-ru.md",
-          "line": 50,
+          "line": 51,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -49525,6 +49598,13 @@
       "outbound_links": [
         {
           "source": "wiki/entities/temporistics-overview-ru.md",
+          "line": 59,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/temporistics-overview-ru.md",
           "line": 109,
           "raw_target": "strategic-compatibility-ru",
           "resolved": "wiki/concepts/strategic-compatibility-ru.md",
@@ -49660,7 +49740,7 @@
         },
         {
           "source": "wiki/entities/host-khozyain-uk.md",
-          "line": 50,
+          "line": 51,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
@@ -49919,6 +49999,13 @@
         }
       ],
       "outbound_links": [
+        {
+          "source": "wiki/entities/temporistics-overview-uk.md",
+          "line": 59,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
         {
           "source": "wiki/entities/temporistics-overview-uk.md",
           "line": 109,
@@ -58804,7 +58891,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 93,
+          "line": 95,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
@@ -58913,7 +59000,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 93,
+          "line": 95,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
@@ -59029,7 +59116,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 93,
+          "line": 95,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
@@ -61651,7 +61738,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-en.md",
-          "line": 70,
+          "line": 72,
           "raw_target": "neural-correlates-analysis-synthesis-2026-en",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "ambiguous": []
@@ -61896,7 +61983,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-ru.md",
-          "line": 70,
+          "line": 72,
           "raw_target": "neural-correlates-analysis-synthesis-2026-ru",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "ambiguous": []
@@ -62141,7 +62228,7 @@
         },
         {
           "source": "wiki/concepts/temporal-aspects-uk.md",
-          "line": 70,
+          "line": 72,
           "raw_target": "neural-correlates-analysis-synthesis-2026-uk",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "ambiguous": []

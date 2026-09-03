@@ -52,6 +52,20 @@ The following table is BWB's interpretation, not a canonical definition of the s
 
 Deduction, induction, and abduction may name operations within a task. They are not established entities of the positions and should not be moved into a canonical registry.
 
+<!-- section:biopsychological-motivational-parallels -->
+### Biopsychological motivational parallels (Cloninger, Gray)
+
+As a heuristic model of cognitive resource allocation, the four-position structure shares structural analogies with basic systems of behavioral motivation (Cloninger's TCI and Gray/McNaughton's RST):
+
+| Position | Motivational-regulatory mode | Biopsychological analogy | Manifestation in aspect domain |
+|---|---|---|---|
+| 1st | Autonomous expansion, initiative, appetitive drive | **Novelty Seeking (NS)** / **BAS (Behavioral Approach)** | Exploratory activity and autonomous mastery of one's domain (1N — immediate environment of the moment; 1F — new trajectories and goals; 1P — reconstruction of origins; 1E — assertion of overarching meaning). |
+| 2nd | Dialogue, plasticity, process orientation | **Reward Dependence (RD)** / Social plasticity | Flexible cooperation, exchanging alternatives, sensitivity to feedback. |
+| 3rd | Risk monitoring, hypervigilance, doubt | **Harm Avoidance (HA)** / **BIS (Behavioral Inhibition)** | Hypersensitivity to errors, competence anxiety, doubts regarding the right to judge, and behavioral inhibition. |
+| 4th | Resource conservation, delegation | **Low reactivity / Resource conservation** | Minimizing attentional costs, lack of internal struggle, peaceful adoption of an external frame. |
+
+These correspondences serve solely as analogies for experimental design. BWB categorically rejects reducing positions to monoamines (dopamine, serotonin): dispositional temperament traits and situational cognitive frames operate at distinct levels of description.
+
 <!-- section:community-as-a-context-for-distributed-attention -->
 ## Community as a context for distributed attention
 

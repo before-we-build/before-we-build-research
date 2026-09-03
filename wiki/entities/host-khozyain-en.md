@@ -43,6 +43,7 @@ The archetype does not determine morality, dignity, calling, profession, safety,
 - How does this temporal theme appear across different contexts?
 - What observation would favor another position?
 - Is the pattern stable outside pressure or a particular role?
+- Does the behavior reflect an autonomous Present frame (1N) or a general dispositional novelty seeking trait (Cloninger's Novelty Seeking)? Does engagement with the present moment persist in routine, familiar conditions without novel stimulation?
 
 <!-- section:see-also -->
 ## See also

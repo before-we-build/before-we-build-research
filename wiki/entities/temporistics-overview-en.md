@@ -56,7 +56,7 @@ Eternity concerns a proposed meaning frame and meaning-making processes. It does
 | 3rd | Painful / Vulnerable | may monitor the domain closely and experience pressure there |
 | 4th | Blind / Low-priority | may accept external framing or invest less attention |
 
-The source tradition also uses strong/weak and Berne-style analogies. BWB retains those only as attributed school language, not as proof of ability, pathology, or interpersonal stance.
+The source tradition also uses strong/weak and Berne-style analogies. BWB retains those only as attributed school language, not as proof of ability, pathology, or interpersonal stance. In BWB's research framing, positional modes are also compared with basic motivational axes of approach and inhibition: position 1 is modeled as autonomous exploratory drive within the aspect's domain (analogous to Novelty Seeking / BAS), while position 3 is modeled as a zone of error monitoring and vulnerability (analogous to Harm Avoidance / BIS; see [[temporistics-cognitive-resource-routing-creation-model-en]]).
 
 <!-- section:type-reference -->
 ## Type Reference
