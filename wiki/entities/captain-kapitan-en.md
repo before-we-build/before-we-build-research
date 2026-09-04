@@ -25,7 +25,7 @@ English · [[captain-kapitan-ru|Русский]] · [[captain-kapitan-uk|Укр�
 <!-- section:meaning -->
 ## Compact meaning
 
-**Captain** is a traditional working alias for **1F / Future**. The position is modeled as an autonomous organizing frame. The alias is a mnemonic, not an observable kind of person.
+**Captain** is a traditional working alias for **1F / Future**. The position is modeled as an autonomous organizing frame. The alias is a mnemonic, not an observable kind of person. In relation to technological progress, it is hypothesized to lean toward projective techno-enthusiasm—viewing technology as a lever to actualize ambitious foresight and expand agency (see [[temporistics-future-technology-attitudes-en]]).
 
 <!-- section:reading -->
 ## How to read it
@@ -50,3 +50,4 @@ The archetype does not determine morality, dignity, calling, profession, safety,
 - [[temporistics-overview-en]]
 - [[compatibility-level-boundaries-en]]
 - [[test-result-reading-guide-en]]
+- [[temporistics-future-technology-attitudes-en]]

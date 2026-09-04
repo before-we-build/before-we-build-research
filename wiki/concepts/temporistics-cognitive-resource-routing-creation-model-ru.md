@@ -92,4 +92,4 @@ caveat_ids: []
 
 Профиль не устанавливает ценность человека, мозговой тип, нравственность, безопасность, судьбу, призвание, пригодность к браку или исход отношений. Страница не предлагает числового бюджета, коэффициентов или вердикта для пары.
 
-См. также: [[strategic-compatibility-ru]], [[latent-process-ru]], [[compatibility-level-boundaries-ru]], [[neuroscience-compatibility-bridges-ru]].
+См. также: [[strategic-compatibility-ru]], [[latent-process-ru]], [[compatibility-level-boundaries-ru]], [[neuroscience-compatibility-bridges-ru]], [[temporistics-future-technology-attitudes-ru]].

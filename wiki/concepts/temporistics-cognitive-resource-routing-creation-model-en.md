@@ -92,4 +92,4 @@ The hypothesis weakens if independent raters do not agree, predicted differences
 
 A profile does not establish human worth, brain type, morality, safety, destiny, vocation, suitability for marriage, or relationship outcome. This page offers no numerical budget, coefficient, or verdict for a pair.
 
-See also: [[strategic-compatibility-en]], [[latent-process-en]], [[compatibility-level-boundaries-en]], [[neuroscience-compatibility-bridges-en]].
+See also: [[strategic-compatibility-en]], [[latent-process-en]], [[compatibility-level-boundaries-en]], [[neuroscience-compatibility-bridges-en]], [[temporistics-future-technology-attitudes-en]].

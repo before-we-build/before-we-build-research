@@ -2,6 +2,24 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-04] feat | Add Temporistics Future Positional Modes and Technology Attitudes Hypothesis
+
+- **Techno-Enthusiasm & Techno-Skepticism across Future Positions:** Articulated a structured research hypothesis connecting the positional modes of the Future ($F$) aspect in Temporistics with baseline attitudes toward technological innovation, progress, and automation:
+  - *Position 1 (1F / Captain):* **Projective techno-enthusiasm** (Novelty Seeking / BAS) — viewing technology as an active lever to actualize ambitious foresight, project will, and overcome environmental bottlenecks.
+  - *Position 4 (4F / Passenger):* **Delegating techno-optimism** (Low Reactivity / External Frame) — trusting external automation and systemic technological inertia, relieving the cognitive burden of forward planning.
+  - *Position 2 (2F / Steersman):* **Instrumental techno-skepticism** (Reward Dependence / Plasticity) — treating technology as situational, bounded tools requiring perpetual human calibration and adaptive course correction.
+  - *Position 3 (3F / Stowaway):* **Existential techno-skepticism and risk auditing** (Harm Avoidance / BIS) — heightened vigilance regarding uncontained systemic failure modes, runaway dynamics, dehumanization, and displacement of human agency.
+- **Epistemological Guardrails & Non-Inferences:** Explicitly established boundaries separating strategic temporal processing from foundational value-moral ethics, tactical information operations ($Te$), operational agency ($1V/3V$), and confounding variables (domain mastery, generational cohort, trait neuroticism).
+- **New Triad (EN, RU, UK):**
+  - `wiki/concepts/temporistics-future-technology-attitudes-{en,ru,uk}.md`: Created complete explanation pages conforming to the Central Page Contract.
+- **Updated Triads (EN, RU, UK):**
+  - `wiki/entities/captain-kapitan-{en,ru,uk}.md`: Added projective techno-enthusiasm note and wikilink.
+  - `wiki/entities/stewersman-rulevoi-{en,ru,uk}.md`: Added instrumental techno-skepticism note and wikilink.
+  - `wiki/entities/stowaway-bezbiletnik-{en,ru,uk}.md`: Added existential techno-skepticism and risk-auditing note and wikilink.
+  - `wiki/entities/passenger-passazhir-{en,ru,uk}.md`: Added delegating techno-optimism note and wikilink.
+  - `wiki/concepts/temporistics-cognitive-resource-routing-creation-model-{en,ru,uk}.md`: Added cross-reference to the new concept.
+- **Validation:** 55 unit tests passed, strict wiki quality, section ID synchronizer, wikilink validator, claim audit, and updated index/inventory passed cleanly.
+
 ## [2026-09-03] feat | Integrate Cloninger TCI and Gray RST with Temporistics Positional Modes and Aspects
 
 - **Positional Modes & Biopsychological Motivational Axes:** Integrated psychobiological models of temperament and motivation (Cloninger TCI, Gray/McNaughton RST) with the four-position architecture of Temporistics and Psychosophy:

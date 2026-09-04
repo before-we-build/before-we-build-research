@@ -25,7 +25,7 @@ English · [[stowaway-bezbiletnik-ru|Русский]] · [[stowaway-bezbiletnik-
 <!-- section:meaning -->
 ## Compact meaning
 
-**Stowaway** is a traditional working alias for **3F / Future**. The position is modeled as a sensitive error-monitoring and revision zone. The alias is a mnemonic, not an observable kind of person.
+**Stowaway** is a traditional working alias for **3F / Future**. The position is modeled as a sensitive error-monitoring and revision zone. The alias is a mnemonic, not an observable kind of person. In relation to technological progress, it is hypothesized to display existential techno-skepticism—heightened risk monitoring, apprehension about runaway consequences of innovation, and vigilance regarding human agency (see [[temporistics-future-technology-attitudes-en]]).
 
 <!-- section:reading -->
 ## How to read it
@@ -50,3 +50,4 @@ The archetype does not determine morality, dignity, calling, profession, safety,
 - [[temporistics-overview-en]]
 - [[compatibility-level-boundaries-en]]
 - [[test-result-reading-guide-en]]
+- [[temporistics-future-technology-attitudes-en]]

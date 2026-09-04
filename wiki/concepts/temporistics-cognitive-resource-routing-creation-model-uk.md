@@ -92,4 +92,4 @@ caveat_ids: []
 
 З профілю не випливають цінність людини, мозковий тип, моральність, безпека, доля, покликання, придатність до шлюбу чи результат стосунків. Сторінка не пропонує числового бюджету, коефіцієнтів або вердикту для пари.
 
-Див. також: [[strategic-compatibility-uk]], [[latent-process-uk]], [[compatibility-level-boundaries-uk]], [[neuroscience-compatibility-bridges-uk]].
+Див. також: [[strategic-compatibility-uk]], [[latent-process-uk]], [[compatibility-level-boundaries-uk]], [[neuroscience-compatibility-bridges-uk]], [[temporistics-future-technology-attitudes-uk]].

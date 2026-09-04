@@ -25,7 +25,7 @@ English · [[passenger-passazhir-ru|Русский]] · [[passenger-passazhir-uk
 <!-- section:meaning -->
 ## Compact meaning
 
-**Passenger** is a traditional working alias for **4F / Future**. The position is modeled as a receptive or externally supported frame. The alias is a mnemonic, not an observable kind of person.
+**Passenger** is a traditional working alias for **4F / Future**. The position is modeled as a receptive or externally supported frame. The alias is a mnemonic, not an observable kind of person. In relation to technological progress, it is hypothesized to lean toward delegating techno-optimism—trusting external automation and the ambient momentum of progress, reducing the cognitive burden of personal forward planning (see [[temporistics-future-technology-attitudes-en]]).
 
 <!-- section:reading -->
 ## How to read it
@@ -50,3 +50,4 @@ The archetype does not determine morality, dignity, calling, profession, safety,
 - [[temporistics-overview-en]]
 - [[compatibility-level-boundaries-en]]
 - [[test-result-reading-guide-en]]
+- [[temporistics-future-technology-attitudes-en]]

@@ -9,12 +9,12 @@
     "phase": "before consolidation and language-path migration"
   },
   "current_summary": {
-    "pages": 603,
-    "translation_groups": 201,
-    "complete_triads": 201,
+    "pages": 606,
+    "translation_groups": 202,
+    "complete_triads": 202,
     "missing_language_files": 0,
     "document_statuses": {
-      "active": 600,
+      "active": 603,
       "historical": 3
     },
     "page_claim_statuses": {
@@ -23,8 +23,8 @@
       "evidence-informed": 3,
       "historical-proposal": 3,
       "normative-rule": 39,
-      "project-definition": 150,
-      "research-hypothesis": 468,
+      "project-definition": 153,
+      "research-hypothesis": 471,
       "source-attribution": 357
     },
     "identified_claim_statuses": {
@@ -4076,6 +4076,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 121,
+          "raw_target": "compatibility-level-boundaries-en",
+          "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/test-result-reading-guide-en.md",
           "line": 23,
           "raw_target": "compatibility-level-boundaries-en",
@@ -4882,6 +4889,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 121,
+          "raw_target": "compatibility-level-boundaries-ru",
+          "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/test-result-reading-guide-ru.md",
           "line": 23,
           "raw_target": "compatibility-level-boundaries-ru",
@@ -5683,6 +5697,13 @@
         {
           "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
           "line": 95,
+          "raw_target": "compatibility-level-boundaries-uk",
+          "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 121,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -24847,6 +24868,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 116,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/temporistics-third-aspect-sin-patterns-en.md",
           "line": 82,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
@@ -24888,6 +24916,13 @@
           "line": 95,
           "raw_target": "strategic-compatibility-en",
           "resolved": "wiki/concepts/strategic-compatibility-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "line": 95,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
           "ambiguous": []
         }
       ]
@@ -24940,6 +24975,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 116,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md",
           "line": 82,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
@@ -24981,6 +25023,13 @@
           "line": 95,
           "raw_target": "strategic-compatibility-ru",
           "resolved": "wiki/concepts/strategic-compatibility-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "line": 95,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
           "ambiguous": []
         }
       ]
@@ -25033,6 +25082,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 116,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md",
           "line": 82,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
@@ -25075,6 +25131,583 @@
           "raw_target": "strategic-compatibility-uk",
           "resolved": "wiki/concepts/strategic-compatibility-uk.md",
           "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "line": 95,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        }
+      ]
+    },
+    {
+      "path": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+      "title": "Attitudes Toward Technology and Future Positions in Temporistics",
+      "lang": "en",
+      "translation_group": "temporistics-future-technology-attitudes",
+      "document_status": "active",
+      "page_role": "explanation",
+      "semantic_version": 1,
+      "reviewed_semantic_version": 1,
+      "claim_status": [
+        "project-definition",
+        "research-hypothesis"
+      ],
+      "claims": {},
+      "caveat_ids": [
+        "typology-is-heuristic",
+        "type-is-not-person",
+        "context-and-safety-override-type",
+        "no-pair-verdict"
+      ],
+      "sources": [
+        "raw/temporistics",
+        "wiki/entities/temporistics-overview-en.md",
+        "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+        "wiki/concepts/compatibility-level-boundaries-en.md"
+      ],
+      "section_ids": [
+        "in-90-seconds",
+        "definition-and-scope",
+        "shared-example",
+        "observations",
+        "hypotheses",
+        "alternatives",
+        "non-inferences",
+        "conversation-questions",
+        "researcher-route",
+        "next-reading"
+      ],
+      "inbound_links": [
+        {
+          "source": "index.md",
+          "line": 185,
+          "raw_target": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "line": 95,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        }
+      ],
+      "outbound_links": [
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 115,
+          "raw_target": "temporistics-overview-en",
+          "resolved": "wiki/entities/temporistics-overview-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 116,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 117,
+          "raw_target": "captain-kapitan-en",
+          "resolved": "wiki/entities/captain-kapitan-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 118,
+          "raw_target": "stewersman-rulevoi-en",
+          "resolved": "wiki/entities/stewersman-rulevoi-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 119,
+          "raw_target": "stowaway-bezbiletnik-en",
+          "resolved": "wiki/entities/stowaway-bezbiletnik-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 120,
+          "raw_target": "passenger-passazhir-en",
+          "resolved": "wiki/entities/passenger-passazhir-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 121,
+          "raw_target": "compatibility-level-boundaries-en",
+          "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
+          "ambiguous": []
+        }
+      ]
+    },
+    {
+      "path": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+      "title": "Отношение к технологиям и позиции Будущего в темпористике",
+      "lang": "ru",
+      "translation_group": "temporistics-future-technology-attitudes",
+      "document_status": "active",
+      "page_role": "explanation",
+      "semantic_version": 1,
+      "reviewed_semantic_version": 1,
+      "claim_status": [
+        "project-definition",
+        "research-hypothesis"
+      ],
+      "claims": {},
+      "caveat_ids": [
+        "typology-is-heuristic",
+        "type-is-not-person",
+        "context-and-safety-override-type",
+        "no-pair-verdict"
+      ],
+      "sources": [
+        "raw/temporistics",
+        "wiki/entities/temporistics-overview-ru.md",
+        "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+        "wiki/concepts/compatibility-level-boundaries-ru.md"
+      ],
+      "section_ids": [
+        "in-90-seconds",
+        "definition-and-scope",
+        "shared-example",
+        "observations",
+        "hypotheses",
+        "alternatives",
+        "non-inferences",
+        "conversation-questions",
+        "researcher-route",
+        "next-reading"
+      ],
+      "inbound_links": [
+        {
+          "source": "index.md",
+          "line": 185,
+          "raw_target": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "line": 95,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        }
+      ],
+      "outbound_links": [
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 115,
+          "raw_target": "temporistics-overview-ru",
+          "resolved": "wiki/entities/temporistics-overview-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 116,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 117,
+          "raw_target": "captain-kapitan-ru",
+          "resolved": "wiki/entities/captain-kapitan-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 118,
+          "raw_target": "stewersman-rulevoi-ru",
+          "resolved": "wiki/entities/stewersman-rulevoi-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 119,
+          "raw_target": "stowaway-bezbiletnik-ru",
+          "resolved": "wiki/entities/stowaway-bezbiletnik-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 120,
+          "raw_target": "passenger-passazhir-ru",
+          "resolved": "wiki/entities/passenger-passazhir-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 121,
+          "raw_target": "compatibility-level-boundaries-ru",
+          "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
+          "ambiguous": []
+        }
+      ]
+    },
+    {
+      "path": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+      "title": "Ставлення до технологій та позиції Майбутнього в темпористиці",
+      "lang": "uk",
+      "translation_group": "temporistics-future-technology-attitudes",
+      "document_status": "active",
+      "page_role": "explanation",
+      "semantic_version": 1,
+      "reviewed_semantic_version": 1,
+      "claim_status": [
+        "project-definition",
+        "research-hypothesis"
+      ],
+      "claims": {},
+      "caveat_ids": [
+        "typology-is-heuristic",
+        "type-is-not-person",
+        "context-and-safety-override-type",
+        "no-pair-verdict"
+      ],
+      "sources": [
+        "raw/temporistics",
+        "wiki/entities/temporistics-overview-uk.md",
+        "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+        "wiki/concepts/compatibility-level-boundaries-uk.md"
+      ],
+      "section_ids": [
+        "in-90-seconds",
+        "definition-and-scope",
+        "shared-example",
+        "observations",
+        "hypotheses",
+        "alternatives",
+        "non-inferences",
+        "conversation-questions",
+        "researcher-route",
+        "next-reading"
+      ],
+      "inbound_links": [
+        {
+          "source": "index.md",
+          "line": 185,
+          "raw_target": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "line": 95,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        }
+      ],
+      "outbound_links": [
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 21,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 115,
+          "raw_target": "temporistics-overview-uk",
+          "resolved": "wiki/entities/temporistics-overview-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 116,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 117,
+          "raw_target": "captain-kapitan-uk",
+          "resolved": "wiki/entities/captain-kapitan-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 118,
+          "raw_target": "stewersman-rulevoi-uk",
+          "resolved": "wiki/entities/stewersman-rulevoi-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 119,
+          "raw_target": "stowaway-bezbiletnik-uk",
+          "resolved": "wiki/entities/stowaway-bezbiletnik-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 120,
+          "raw_target": "passenger-passazhir-uk",
+          "resolved": "wiki/entities/passenger-passazhir-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 121,
+          "raw_target": "compatibility-level-boundaries-uk",
+          "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
+          "ambiguous": []
         }
       ]
     },
@@ -25105,7 +25738,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 186,
+          "line": 187,
           "raw_target": "wiki/concepts/temporistics-model-en.md",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
@@ -25176,7 +25809,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 186,
+          "line": 187,
           "raw_target": "wiki/concepts/temporistics-model-ru.md",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
@@ -25247,7 +25880,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 186,
+          "line": 187,
           "raw_target": "wiki/concepts/temporistics-model-uk.md",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
@@ -25324,7 +25957,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 188,
+          "line": 189,
           "raw_target": "wiki/concepts/temporistics-test-specification-en.md",
           "resolved": "wiki/concepts/temporistics-test-specification-en.md",
           "ambiguous": []
@@ -25373,7 +26006,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 188,
+          "line": 189,
           "raw_target": "wiki/concepts/temporistics-test-specification-ru.md",
           "resolved": "wiki/concepts/temporistics-test-specification-ru.md",
           "ambiguous": []
@@ -25422,7 +26055,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 188,
+          "line": 189,
           "raw_target": "wiki/concepts/temporistics-test-specification-uk.md",
           "resolved": "wiki/concepts/temporistics-test-specification-uk.md",
           "ambiguous": []
@@ -25472,7 +26105,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 189,
+          "line": 190,
           "raw_target": "wiki/concepts/temporistics-third-aspect-sin-patterns-en.md",
           "resolved": "wiki/concepts/temporistics-third-aspect-sin-patterns-en.md",
           "ambiguous": []
@@ -25536,7 +26169,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 189,
+          "line": 190,
           "raw_target": "wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md",
           "resolved": "wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md",
           "ambiguous": []
@@ -25600,7 +26233,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 189,
+          "line": 190,
           "raw_target": "wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md",
           "resolved": "wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md",
           "ambiguous": []
@@ -25662,7 +26295,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 214,
+          "line": 215,
           "raw_target": "wiki/concepts/test-result-reading-guide-en.md",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
@@ -26354,7 +26987,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 214,
+          "line": 215,
           "raw_target": "wiki/concepts/test-result-reading-guide-ru.md",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
@@ -27046,7 +27679,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 214,
+          "line": 215,
           "raw_target": "wiki/concepts/test-result-reading-guide-uk.md",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -27744,7 +28377,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 215,
+          "line": 216,
           "raw_target": "wiki/concepts/third-present-exile-latent-process-en.md",
           "resolved": "wiki/concepts/third-present-exile-latent-process-en.md",
           "ambiguous": []
@@ -27847,7 +28480,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 215,
+          "line": 216,
           "raw_target": "wiki/concepts/third-present-exile-latent-process-ru.md",
           "resolved": "wiki/concepts/third-present-exile-latent-process-ru.md",
           "ambiguous": []
@@ -27950,7 +28583,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 215,
+          "line": 216,
           "raw_target": "wiki/concepts/third-present-exile-latent-process-uk.md",
           "resolved": "wiki/concepts/third-present-exile-latent-process-uk.md",
           "ambiguous": []
@@ -28057,7 +28690,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 216,
+          "line": 217,
           "raw_target": "wiki/concepts/typologies-as-supporting-tools-en.md",
           "resolved": "wiki/concepts/typologies-as-supporting-tools-en.md",
           "ambiguous": []
@@ -28171,7 +28804,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 216,
+          "line": 217,
           "raw_target": "wiki/concepts/typologies-as-supporting-tools-ru.md",
           "resolved": "wiki/concepts/typologies-as-supporting-tools-ru.md",
           "ambiguous": []
@@ -28285,7 +28918,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 216,
+          "line": 217,
           "raw_target": "wiki/concepts/typologies-as-supporting-tools-uk.md",
           "resolved": "wiki/concepts/typologies-as-supporting-tools-uk.md",
           "ambiguous": []
@@ -28386,7 +29019,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 219,
+          "line": 220,
           "raw_target": "wiki/concepts/typology-code-conventions-en.md",
           "resolved": "wiki/concepts/typology-code-conventions-en.md",
           "ambiguous": []
@@ -28487,7 +29120,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 219,
+          "line": 220,
           "raw_target": "wiki/concepts/typology-code-conventions-ru.md",
           "resolved": "wiki/concepts/typology-code-conventions-ru.md",
           "ambiguous": []
@@ -28588,7 +29221,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 219,
+          "line": 220,
           "raw_target": "wiki/concepts/typology-code-conventions-uk.md",
           "resolved": "wiki/concepts/typology-code-conventions-uk.md",
           "ambiguous": []
@@ -28690,7 +29323,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 220,
+          "line": 221,
           "raw_target": "wiki/concepts/typology-disambiguation-guide-en.md",
           "resolved": "wiki/concepts/typology-disambiguation-guide-en.md",
           "ambiguous": []
@@ -28764,7 +29397,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 220,
+          "line": 221,
           "raw_target": "wiki/concepts/typology-disambiguation-guide-ru.md",
           "resolved": "wiki/concepts/typology-disambiguation-guide-ru.md",
           "ambiguous": []
@@ -28838,7 +29471,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 220,
+          "line": 221,
           "raw_target": "wiki/concepts/typology-disambiguation-guide-uk.md",
           "resolved": "wiki/concepts/typology-disambiguation-guide-uk.md",
           "ambiguous": []
@@ -28929,7 +29562,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 221,
+          "line": 222,
           "raw_target": "wiki/concepts/typology-reconceptualization-en.md",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
@@ -29111,7 +29744,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 221,
+          "line": 222,
           "raw_target": "wiki/concepts/typology-reconceptualization-ru.md",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
@@ -29293,7 +29926,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 221,
+          "line": 222,
           "raw_target": "wiki/concepts/typology-reconceptualization-uk.md",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
@@ -29476,7 +30109,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 223,
+          "line": 224,
           "raw_target": "wiki/concepts/typology-test-design-protocol-en.md",
           "resolved": "wiki/concepts/typology-test-design-protocol-en.md",
           "ambiguous": []
@@ -29659,7 +30292,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 223,
+          "line": 224,
           "raw_target": "wiki/concepts/typology-test-design-protocol-ru.md",
           "resolved": "wiki/concepts/typology-test-design-protocol-ru.md",
           "ambiguous": []
@@ -29842,7 +30475,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 223,
+          "line": 224,
           "raw_target": "wiki/concepts/typology-test-design-protocol-uk.md",
           "resolved": "wiki/concepts/typology-test-design-protocol-uk.md",
           "ambiguous": []
@@ -30017,7 +30650,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 224,
+          "line": 225,
           "raw_target": "wiki/concepts/validation-program-en.md",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -30185,7 +30818,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 224,
+          "line": 225,
           "raw_target": "wiki/concepts/validation-program-ru.md",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -30353,7 +30986,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 224,
+          "line": 225,
           "raw_target": "wiki/concepts/validation-program-uk.md",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -30528,7 +31161,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 225,
+          "line": 226,
           "raw_target": "wiki/concepts/value-moral-compatibility-en.md",
           "resolved": "wiki/concepts/value-moral-compatibility-en.md",
           "ambiguous": []
@@ -30675,7 +31308,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 225,
+          "line": 226,
           "raw_target": "wiki/concepts/value-moral-compatibility-ru.md",
           "resolved": "wiki/concepts/value-moral-compatibility-ru.md",
           "ambiguous": []
@@ -30822,7 +31455,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 225,
+          "line": 226,
           "raw_target": "wiki/concepts/value-moral-compatibility-uk.md",
           "resolved": "wiki/concepts/value-moral-compatibility-uk.md",
           "ambiguous": []
@@ -31230,6 +31863,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 117,
+          "raw_target": "captain-kapitan-en",
+          "resolved": "wiki/entities/captain-kapitan-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/captain-kapitan-ru.md",
           "line": 20,
           "raw_target": "captain-kapitan-en",
@@ -31261,6 +31901,13 @@
         },
         {
           "source": "wiki/entities/captain-kapitan-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-en.md",
           "line": 50,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
@@ -31278,6 +31925,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
           "ambiguous": []
         }
       ]
@@ -31320,6 +31974,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 117,
+          "raw_target": "captain-kapitan-ru",
+          "resolved": "wiki/entities/captain-kapitan-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/captain-kapitan-en.md",
           "line": 20,
           "raw_target": "captain-kapitan-ru",
@@ -31351,6 +32012,13 @@
         },
         {
           "source": "wiki/entities/captain-kapitan-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-ru.md",
           "line": 50,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
@@ -31368,6 +32036,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
           "ambiguous": []
         }
       ]
@@ -31410,6 +32085,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 117,
+          "raw_target": "captain-kapitan-uk",
+          "resolved": "wiki/entities/captain-kapitan-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/captain-kapitan-en.md",
           "line": 20,
           "raw_target": "captain-kapitan-uk",
@@ -31441,6 +32123,13 @@
         },
         {
           "source": "wiki/entities/captain-kapitan-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-uk.md",
           "line": 50,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
@@ -31458,6 +32147,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
           "ambiguous": []
         }
       ]
@@ -37362,6 +38058,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 120,
+          "raw_target": "passenger-passazhir-en",
+          "resolved": "wiki/entities/passenger-passazhir-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/passenger-passazhir-ru.md",
           "line": 20,
           "raw_target": "passenger-passazhir-en",
@@ -37393,6 +38096,13 @@
         },
         {
           "source": "wiki/entities/passenger-passazhir-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-en.md",
           "line": 50,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
@@ -37410,6 +38120,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
           "ambiguous": []
         }
       ]
@@ -37452,6 +38169,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 120,
+          "raw_target": "passenger-passazhir-ru",
+          "resolved": "wiki/entities/passenger-passazhir-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/passenger-passazhir-en.md",
           "line": 20,
           "raw_target": "passenger-passazhir-ru",
@@ -37483,6 +38207,13 @@
         },
         {
           "source": "wiki/entities/passenger-passazhir-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-ru.md",
           "line": 50,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
@@ -37500,6 +38231,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
           "ambiguous": []
         }
       ]
@@ -37542,6 +38280,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 120,
+          "raw_target": "passenger-passazhir-uk",
+          "resolved": "wiki/entities/passenger-passazhir-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/passenger-passazhir-en.md",
           "line": 20,
           "raw_target": "passenger-passazhir-uk",
@@ -37573,6 +38318,13 @@
         },
         {
           "source": "wiki/entities/passenger-passazhir-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-uk.md",
           "line": 50,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
@@ -37590,6 +38342,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/passenger-passazhir-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
           "ambiguous": []
         }
       ]
@@ -48069,6 +48828,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 118,
+          "raw_target": "stewersman-rulevoi-en",
+          "resolved": "wiki/entities/stewersman-rulevoi-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/stewersman-rulevoi-ru.md",
           "line": 20,
           "raw_target": "stewersman-rulevoi-en",
@@ -48100,6 +48866,13 @@
         },
         {
           "source": "wiki/entities/stewersman-rulevoi-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-en.md",
           "line": 50,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
@@ -48117,6 +48890,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
           "ambiguous": []
         }
       ]
@@ -48159,6 +48939,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 118,
+          "raw_target": "stewersman-rulevoi-ru",
+          "resolved": "wiki/entities/stewersman-rulevoi-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/stewersman-rulevoi-en.md",
           "line": 20,
           "raw_target": "stewersman-rulevoi-ru",
@@ -48190,6 +48977,13 @@
         },
         {
           "source": "wiki/entities/stewersman-rulevoi-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-ru.md",
           "line": 50,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
@@ -48207,6 +49001,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
           "ambiguous": []
         }
       ]
@@ -48249,6 +49050,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 118,
+          "raw_target": "stewersman-rulevoi-uk",
+          "resolved": "wiki/entities/stewersman-rulevoi-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/stewersman-rulevoi-en.md",
           "line": 20,
           "raw_target": "stewersman-rulevoi-uk",
@@ -48280,6 +49088,13 @@
         },
         {
           "source": "wiki/entities/stewersman-rulevoi-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-uk.md",
           "line": 50,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
@@ -48297,6 +49112,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stewersman-rulevoi-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
           "ambiguous": []
         }
       ]
@@ -48339,6 +49161,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 119,
+          "raw_target": "stowaway-bezbiletnik-en",
+          "resolved": "wiki/entities/stowaway-bezbiletnik-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/stowaway-bezbiletnik-ru.md",
           "line": 20,
           "raw_target": "stowaway-bezbiletnik-en",
@@ -48370,6 +49199,13 @@
         },
         {
           "source": "wiki/entities/stowaway-bezbiletnik-en.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-en.md",
           "line": 50,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
@@ -48387,6 +49223,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-en",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-en.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-en",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
           "ambiguous": []
         }
       ]
@@ -48429,6 +49272,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 119,
+          "raw_target": "stowaway-bezbiletnik-ru",
+          "resolved": "wiki/entities/stowaway-bezbiletnik-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/stowaway-bezbiletnik-en.md",
           "line": 20,
           "raw_target": "stowaway-bezbiletnik-ru",
@@ -48460,6 +49310,13 @@
         },
         {
           "source": "wiki/entities/stowaway-bezbiletnik-ru.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-ru.md",
           "line": 50,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
@@ -48477,6 +49334,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-ru",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-ru.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-ru",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
           "ambiguous": []
         }
       ]
@@ -48519,6 +49383,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 119,
+          "raw_target": "stowaway-bezbiletnik-uk",
+          "resolved": "wiki/entities/stowaway-bezbiletnik-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/stowaway-bezbiletnik-en.md",
           "line": 20,
           "raw_target": "stowaway-bezbiletnik-uk",
@@ -48550,6 +49421,13 @@
         },
         {
           "source": "wiki/entities/stowaway-bezbiletnik-uk.md",
+          "line": 28,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-uk.md",
           "line": 50,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
@@ -48567,6 +49445,13 @@
           "line": 52,
           "raw_target": "test-result-reading-guide-uk",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/stowaway-bezbiletnik-uk.md",
+          "line": 53,
+          "raw_target": "temporistics-future-technology-attitudes-uk",
+          "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
           "ambiguous": []
         }
       ]
@@ -48885,8 +49770,15 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 187,
+          "line": 188,
           "raw_target": "wiki/entities/temporistics-overview-en.md",
+          "resolved": "wiki/entities/temporistics-overview-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "line": 115,
+          "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
         },
@@ -49288,8 +50180,15 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 187,
+          "line": 188,
           "raw_target": "wiki/entities/temporistics-overview-ru.md",
+          "resolved": "wiki/entities/temporistics-overview-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "line": 115,
+          "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
         },
@@ -49691,8 +50590,15 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 187,
+          "line": 188,
           "raw_target": "wiki/entities/temporistics-overview-uk.md",
+          "resolved": "wiki/entities/temporistics-overview-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "line": 115,
+          "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
         },
@@ -50081,7 +50987,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 190,
+          "line": 191,
           "raw_target": "wiki/entities/temporistics-type-efnp-en.md",
           "resolved": "wiki/entities/temporistics-type-efnp-en.md",
           "ambiguous": []
@@ -50170,7 +51076,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 190,
+          "line": 191,
           "raw_target": "wiki/entities/temporistics-type-efnp-ru.md",
           "resolved": "wiki/entities/temporistics-type-efnp-ru.md",
           "ambiguous": []
@@ -50259,7 +51165,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 190,
+          "line": 191,
           "raw_target": "wiki/entities/temporistics-type-efnp-uk.md",
           "resolved": "wiki/entities/temporistics-type-efnp-uk.md",
           "ambiguous": []
@@ -50348,7 +51254,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 191,
+          "line": 192,
           "raw_target": "wiki/entities/temporistics-type-efpn-en.md",
           "resolved": "wiki/entities/temporistics-type-efpn-en.md",
           "ambiguous": []
@@ -50437,7 +51343,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 191,
+          "line": 192,
           "raw_target": "wiki/entities/temporistics-type-efpn-ru.md",
           "resolved": "wiki/entities/temporistics-type-efpn-ru.md",
           "ambiguous": []
@@ -50526,7 +51432,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 191,
+          "line": 192,
           "raw_target": "wiki/entities/temporistics-type-efpn-uk.md",
           "resolved": "wiki/entities/temporistics-type-efpn-uk.md",
           "ambiguous": []
@@ -50615,7 +51521,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 192,
+          "line": 193,
           "raw_target": "wiki/entities/temporistics-type-enfp-en.md",
           "resolved": "wiki/entities/temporistics-type-enfp-en.md",
           "ambiguous": []
@@ -50704,7 +51610,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 192,
+          "line": 193,
           "raw_target": "wiki/entities/temporistics-type-enfp-ru.md",
           "resolved": "wiki/entities/temporistics-type-enfp-ru.md",
           "ambiguous": []
@@ -50793,7 +51699,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 192,
+          "line": 193,
           "raw_target": "wiki/entities/temporistics-type-enfp-uk.md",
           "resolved": "wiki/entities/temporistics-type-enfp-uk.md",
           "ambiguous": []
@@ -50882,7 +51788,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 193,
+          "line": 194,
           "raw_target": "wiki/entities/temporistics-type-enpf-en.md",
           "resolved": "wiki/entities/temporistics-type-enpf-en.md",
           "ambiguous": []
@@ -50971,7 +51877,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 193,
+          "line": 194,
           "raw_target": "wiki/entities/temporistics-type-enpf-ru.md",
           "resolved": "wiki/entities/temporistics-type-enpf-ru.md",
           "ambiguous": []
@@ -51060,7 +51966,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 193,
+          "line": 194,
           "raw_target": "wiki/entities/temporistics-type-enpf-uk.md",
           "resolved": "wiki/entities/temporistics-type-enpf-uk.md",
           "ambiguous": []
@@ -51149,7 +52055,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 194,
+          "line": 195,
           "raw_target": "wiki/entities/temporistics-type-epfn-en.md",
           "resolved": "wiki/entities/temporistics-type-epfn-en.md",
           "ambiguous": []
@@ -51238,7 +52144,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 194,
+          "line": 195,
           "raw_target": "wiki/entities/temporistics-type-epfn-ru.md",
           "resolved": "wiki/entities/temporistics-type-epfn-ru.md",
           "ambiguous": []
@@ -51327,7 +52233,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 194,
+          "line": 195,
           "raw_target": "wiki/entities/temporistics-type-epfn-uk.md",
           "resolved": "wiki/entities/temporistics-type-epfn-uk.md",
           "ambiguous": []
@@ -51416,7 +52322,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 195,
+          "line": 196,
           "raw_target": "wiki/entities/temporistics-type-epnf-en.md",
           "resolved": "wiki/entities/temporistics-type-epnf-en.md",
           "ambiguous": []
@@ -51505,7 +52411,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 195,
+          "line": 196,
           "raw_target": "wiki/entities/temporistics-type-epnf-ru.md",
           "resolved": "wiki/entities/temporistics-type-epnf-ru.md",
           "ambiguous": []
@@ -51594,7 +52500,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 195,
+          "line": 196,
           "raw_target": "wiki/entities/temporistics-type-epnf-uk.md",
           "resolved": "wiki/entities/temporistics-type-epnf-uk.md",
           "ambiguous": []
@@ -51683,7 +52589,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 196,
+          "line": 197,
           "raw_target": "wiki/entities/temporistics-type-fenp-en.md",
           "resolved": "wiki/entities/temporistics-type-fenp-en.md",
           "ambiguous": []
@@ -51772,7 +52678,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 196,
+          "line": 197,
           "raw_target": "wiki/entities/temporistics-type-fenp-ru.md",
           "resolved": "wiki/entities/temporistics-type-fenp-ru.md",
           "ambiguous": []
@@ -51861,7 +52767,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 196,
+          "line": 197,
           "raw_target": "wiki/entities/temporistics-type-fenp-uk.md",
           "resolved": "wiki/entities/temporistics-type-fenp-uk.md",
           "ambiguous": []
@@ -51950,7 +52856,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 197,
+          "line": 198,
           "raw_target": "wiki/entities/temporistics-type-fepn-en.md",
           "resolved": "wiki/entities/temporistics-type-fepn-en.md",
           "ambiguous": []
@@ -52039,7 +52945,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 197,
+          "line": 198,
           "raw_target": "wiki/entities/temporistics-type-fepn-ru.md",
           "resolved": "wiki/entities/temporistics-type-fepn-ru.md",
           "ambiguous": []
@@ -52128,7 +53034,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 197,
+          "line": 198,
           "raw_target": "wiki/entities/temporistics-type-fepn-uk.md",
           "resolved": "wiki/entities/temporistics-type-fepn-uk.md",
           "ambiguous": []
@@ -52217,7 +53123,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 198,
+          "line": 199,
           "raw_target": "wiki/entities/temporistics-type-fnep-en.md",
           "resolved": "wiki/entities/temporistics-type-fnep-en.md",
           "ambiguous": []
@@ -52306,7 +53212,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 198,
+          "line": 199,
           "raw_target": "wiki/entities/temporistics-type-fnep-ru.md",
           "resolved": "wiki/entities/temporistics-type-fnep-ru.md",
           "ambiguous": []
@@ -52395,7 +53301,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 198,
+          "line": 199,
           "raw_target": "wiki/entities/temporistics-type-fnep-uk.md",
           "resolved": "wiki/entities/temporistics-type-fnep-uk.md",
           "ambiguous": []
@@ -52484,7 +53390,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 199,
+          "line": 200,
           "raw_target": "wiki/entities/temporistics-type-fnpe-en.md",
           "resolved": "wiki/entities/temporistics-type-fnpe-en.md",
           "ambiguous": []
@@ -52573,7 +53479,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 199,
+          "line": 200,
           "raw_target": "wiki/entities/temporistics-type-fnpe-ru.md",
           "resolved": "wiki/entities/temporistics-type-fnpe-ru.md",
           "ambiguous": []
@@ -52662,7 +53568,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 199,
+          "line": 200,
           "raw_target": "wiki/entities/temporistics-type-fnpe-uk.md",
           "resolved": "wiki/entities/temporistics-type-fnpe-uk.md",
           "ambiguous": []
@@ -52751,7 +53657,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 200,
+          "line": 201,
           "raw_target": "wiki/entities/temporistics-type-fpen-en.md",
           "resolved": "wiki/entities/temporistics-type-fpen-en.md",
           "ambiguous": []
@@ -52840,7 +53746,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 200,
+          "line": 201,
           "raw_target": "wiki/entities/temporistics-type-fpen-ru.md",
           "resolved": "wiki/entities/temporistics-type-fpen-ru.md",
           "ambiguous": []
@@ -52929,7 +53835,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 200,
+          "line": 201,
           "raw_target": "wiki/entities/temporistics-type-fpen-uk.md",
           "resolved": "wiki/entities/temporistics-type-fpen-uk.md",
           "ambiguous": []
@@ -53018,7 +53924,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 201,
+          "line": 202,
           "raw_target": "wiki/entities/temporistics-type-fpne-en.md",
           "resolved": "wiki/entities/temporistics-type-fpne-en.md",
           "ambiguous": []
@@ -53107,7 +54013,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 201,
+          "line": 202,
           "raw_target": "wiki/entities/temporistics-type-fpne-ru.md",
           "resolved": "wiki/entities/temporistics-type-fpne-ru.md",
           "ambiguous": []
@@ -53196,7 +54102,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 201,
+          "line": 202,
           "raw_target": "wiki/entities/temporistics-type-fpne-uk.md",
           "resolved": "wiki/entities/temporistics-type-fpne-uk.md",
           "ambiguous": []
@@ -53285,7 +54191,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 202,
+          "line": 203,
           "raw_target": "wiki/entities/temporistics-type-nefp-en.md",
           "resolved": "wiki/entities/temporistics-type-nefp-en.md",
           "ambiguous": []
@@ -53374,7 +54280,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 202,
+          "line": 203,
           "raw_target": "wiki/entities/temporistics-type-nefp-ru.md",
           "resolved": "wiki/entities/temporistics-type-nefp-ru.md",
           "ambiguous": []
@@ -53463,7 +54369,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 202,
+          "line": 203,
           "raw_target": "wiki/entities/temporistics-type-nefp-uk.md",
           "resolved": "wiki/entities/temporistics-type-nefp-uk.md",
           "ambiguous": []
@@ -53552,7 +54458,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 203,
+          "line": 204,
           "raw_target": "wiki/entities/temporistics-type-nepf-en.md",
           "resolved": "wiki/entities/temporistics-type-nepf-en.md",
           "ambiguous": []
@@ -53641,7 +54547,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 203,
+          "line": 204,
           "raw_target": "wiki/entities/temporistics-type-nepf-ru.md",
           "resolved": "wiki/entities/temporistics-type-nepf-ru.md",
           "ambiguous": []
@@ -53730,7 +54636,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 203,
+          "line": 204,
           "raw_target": "wiki/entities/temporistics-type-nepf-uk.md",
           "resolved": "wiki/entities/temporistics-type-nepf-uk.md",
           "ambiguous": []
@@ -53819,7 +54725,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 204,
+          "line": 205,
           "raw_target": "wiki/entities/temporistics-type-nfep-en.md",
           "resolved": "wiki/entities/temporistics-type-nfep-en.md",
           "ambiguous": []
@@ -53908,7 +54814,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 204,
+          "line": 205,
           "raw_target": "wiki/entities/temporistics-type-nfep-ru.md",
           "resolved": "wiki/entities/temporistics-type-nfep-ru.md",
           "ambiguous": []
@@ -53997,7 +54903,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 204,
+          "line": 205,
           "raw_target": "wiki/entities/temporistics-type-nfep-uk.md",
           "resolved": "wiki/entities/temporistics-type-nfep-uk.md",
           "ambiguous": []
@@ -54086,7 +54992,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 205,
+          "line": 206,
           "raw_target": "wiki/entities/temporistics-type-nfpe-en.md",
           "resolved": "wiki/entities/temporistics-type-nfpe-en.md",
           "ambiguous": []
@@ -54175,7 +55081,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 205,
+          "line": 206,
           "raw_target": "wiki/entities/temporistics-type-nfpe-ru.md",
           "resolved": "wiki/entities/temporistics-type-nfpe-ru.md",
           "ambiguous": []
@@ -54264,7 +55170,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 205,
+          "line": 206,
           "raw_target": "wiki/entities/temporistics-type-nfpe-uk.md",
           "resolved": "wiki/entities/temporistics-type-nfpe-uk.md",
           "ambiguous": []
@@ -54353,7 +55259,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 206,
+          "line": 207,
           "raw_target": "wiki/entities/temporistics-type-npef-en.md",
           "resolved": "wiki/entities/temporistics-type-npef-en.md",
           "ambiguous": []
@@ -54442,7 +55348,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 206,
+          "line": 207,
           "raw_target": "wiki/entities/temporistics-type-npef-ru.md",
           "resolved": "wiki/entities/temporistics-type-npef-ru.md",
           "ambiguous": []
@@ -54531,7 +55437,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 206,
+          "line": 207,
           "raw_target": "wiki/entities/temporistics-type-npef-uk.md",
           "resolved": "wiki/entities/temporistics-type-npef-uk.md",
           "ambiguous": []
@@ -54620,7 +55526,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 207,
+          "line": 208,
           "raw_target": "wiki/entities/temporistics-type-npfe-en.md",
           "resolved": "wiki/entities/temporistics-type-npfe-en.md",
           "ambiguous": []
@@ -54709,7 +55615,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 207,
+          "line": 208,
           "raw_target": "wiki/entities/temporistics-type-npfe-ru.md",
           "resolved": "wiki/entities/temporistics-type-npfe-ru.md",
           "ambiguous": []
@@ -54798,7 +55704,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 207,
+          "line": 208,
           "raw_target": "wiki/entities/temporistics-type-npfe-uk.md",
           "resolved": "wiki/entities/temporistics-type-npfe-uk.md",
           "ambiguous": []
@@ -54887,7 +55793,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 208,
+          "line": 209,
           "raw_target": "wiki/entities/temporistics-type-pefn-en.md",
           "resolved": "wiki/entities/temporistics-type-pefn-en.md",
           "ambiguous": []
@@ -54976,7 +55882,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 208,
+          "line": 209,
           "raw_target": "wiki/entities/temporistics-type-pefn-ru.md",
           "resolved": "wiki/entities/temporistics-type-pefn-ru.md",
           "ambiguous": []
@@ -55065,7 +55971,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 208,
+          "line": 209,
           "raw_target": "wiki/entities/temporistics-type-pefn-uk.md",
           "resolved": "wiki/entities/temporistics-type-pefn-uk.md",
           "ambiguous": []
@@ -55154,7 +56060,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 209,
+          "line": 210,
           "raw_target": "wiki/entities/temporistics-type-penf-en.md",
           "resolved": "wiki/entities/temporistics-type-penf-en.md",
           "ambiguous": []
@@ -55243,7 +56149,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 209,
+          "line": 210,
           "raw_target": "wiki/entities/temporistics-type-penf-ru.md",
           "resolved": "wiki/entities/temporistics-type-penf-ru.md",
           "ambiguous": []
@@ -55332,7 +56238,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 209,
+          "line": 210,
           "raw_target": "wiki/entities/temporistics-type-penf-uk.md",
           "resolved": "wiki/entities/temporistics-type-penf-uk.md",
           "ambiguous": []
@@ -55421,7 +56327,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 210,
+          "line": 211,
           "raw_target": "wiki/entities/temporistics-type-pfen-en.md",
           "resolved": "wiki/entities/temporistics-type-pfen-en.md",
           "ambiguous": []
@@ -55510,7 +56416,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 210,
+          "line": 211,
           "raw_target": "wiki/entities/temporistics-type-pfen-ru.md",
           "resolved": "wiki/entities/temporistics-type-pfen-ru.md",
           "ambiguous": []
@@ -55599,7 +56505,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 210,
+          "line": 211,
           "raw_target": "wiki/entities/temporistics-type-pfen-uk.md",
           "resolved": "wiki/entities/temporistics-type-pfen-uk.md",
           "ambiguous": []
@@ -55688,7 +56594,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 211,
+          "line": 212,
           "raw_target": "wiki/entities/temporistics-type-pfne-en.md",
           "resolved": "wiki/entities/temporistics-type-pfne-en.md",
           "ambiguous": []
@@ -55777,7 +56683,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 211,
+          "line": 212,
           "raw_target": "wiki/entities/temporistics-type-pfne-ru.md",
           "resolved": "wiki/entities/temporistics-type-pfne-ru.md",
           "ambiguous": []
@@ -55866,7 +56772,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 211,
+          "line": 212,
           "raw_target": "wiki/entities/temporistics-type-pfne-uk.md",
           "resolved": "wiki/entities/temporistics-type-pfne-uk.md",
           "ambiguous": []
@@ -55955,7 +56861,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 212,
+          "line": 213,
           "raw_target": "wiki/entities/temporistics-type-pnef-en.md",
           "resolved": "wiki/entities/temporistics-type-pnef-en.md",
           "ambiguous": []
@@ -56044,7 +56950,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 212,
+          "line": 213,
           "raw_target": "wiki/entities/temporistics-type-pnef-ru.md",
           "resolved": "wiki/entities/temporistics-type-pnef-ru.md",
           "ambiguous": []
@@ -56133,7 +57039,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 212,
+          "line": 213,
           "raw_target": "wiki/entities/temporistics-type-pnef-uk.md",
           "resolved": "wiki/entities/temporistics-type-pnef-uk.md",
           "ambiguous": []
@@ -56222,7 +57128,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 213,
+          "line": 214,
           "raw_target": "wiki/entities/temporistics-type-pnfe-en.md",
           "resolved": "wiki/entities/temporistics-type-pnfe-en.md",
           "ambiguous": []
@@ -56311,7 +57217,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 213,
+          "line": 214,
           "raw_target": "wiki/entities/temporistics-type-pnfe-ru.md",
           "resolved": "wiki/entities/temporistics-type-pnfe-ru.md",
           "ambiguous": []
@@ -56400,7 +57306,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 213,
+          "line": 214,
           "raw_target": "wiki/entities/temporistics-type-pnfe-uk.md",
           "resolved": "wiki/entities/temporistics-type-pnfe-uk.md",
           "ambiguous": []
@@ -58877,7 +59783,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 185,
+          "line": 186,
           "raw_target": "wiki/relations/temporistics-intertype-relations-en.md",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
@@ -58986,7 +59892,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 185,
+          "line": 186,
           "raw_target": "wiki/relations/temporistics-intertype-relations-ru.md",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
@@ -59102,7 +60008,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 185,
+          "line": 186,
           "raw_target": "wiki/relations/temporistics-intertype-relations-uk.md",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
@@ -67833,7 +68739,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 217,
+          "line": 218,
           "raw_target": "wiki/sources/typology-activity-theory-mapping-en.md",
           "resolved": "wiki/sources/typology-activity-theory-mapping-en.md",
           "ambiguous": []
@@ -67905,7 +68811,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 217,
+          "line": 218,
           "raw_target": "wiki/sources/typology-activity-theory-mapping-ru.md",
           "resolved": "wiki/sources/typology-activity-theory-mapping-ru.md",
           "ambiguous": []
@@ -67977,7 +68883,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 217,
+          "line": 218,
           "raw_target": "wiki/sources/typology-activity-theory-mapping-uk.md",
           "resolved": "wiki/sources/typology-activity-theory-mapping-uk.md",
           "ambiguous": []
@@ -68047,7 +68953,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 218,
+          "line": 219,
           "raw_target": "wiki/sources/typology-authors-timeline-en.md",
           "resolved": "wiki/sources/typology-authors-timeline-en.md",
           "ambiguous": []
@@ -68139,7 +69045,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 218,
+          "line": 219,
           "raw_target": "wiki/sources/typology-authors-timeline-ru.md",
           "resolved": "wiki/sources/typology-authors-timeline-ru.md",
           "ambiguous": []
@@ -68231,7 +69137,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 218,
+          "line": 219,
           "raw_target": "wiki/sources/typology-authors-timeline-uk.md",
           "resolved": "wiki/sources/typology-authors-timeline-uk.md",
           "ambiguous": []
@@ -68327,7 +69233,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 222,
+          "line": 223,
           "raw_target": "wiki/sources/typology-researchers-en.md",
           "resolved": "wiki/sources/typology-researchers-en.md",
           "ambiguous": []
@@ -68416,7 +69322,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 222,
+          "line": 223,
           "raw_target": "wiki/sources/typology-researchers-ru.md",
           "resolved": "wiki/sources/typology-researchers-ru.md",
           "ambiguous": []
@@ -68505,7 +69411,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 222,
+          "line": 223,
           "raw_target": "wiki/sources/typology-researchers-uk.md",
           "resolved": "wiki/sources/typology-researchers-uk.md",
           "ambiguous": []
@@ -68586,7 +69492,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 226,
+          "line": 227,
           "raw_target": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-en.md",
           "resolved": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-en.md",
           "ambiguous": []
@@ -68667,7 +69573,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 226,
+          "line": 227,
           "raw_target": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-ru.md",
           "resolved": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-ru.md",
           "ambiguous": []
@@ -68748,7 +69654,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 226,
+          "line": 227,
           "raw_target": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-uk.md",
           "resolved": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-uk.md",
           "ambiguous": []
@@ -73550,6 +74456,33 @@
         "wiki/sources/temporistics-eternity-altruism-hypothesis-en.md",
         "wiki/sources/temporistics-eternity-altruism-hypothesis-ru.md",
         "wiki/sources/temporistics-eternity-altruism-hypothesis-uk.md"
+      ]
+    },
+    {
+      "translation_group": "temporistics-future-technology-attitudes",
+      "locales": [
+        "en",
+        "ru",
+        "uk"
+      ],
+      "missing_locales": [],
+      "complete_triad": true,
+      "locale_counts": {
+        "en": 1,
+        "ru": 1,
+        "uk": 1
+      },
+      "duplicate_locales": {},
+      "statuses": [
+        "active"
+      ],
+      "roles": [
+        "explanation"
+      ],
+      "members": [
+        "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+        "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+        "wiki/concepts/temporistics-future-technology-attitudes-uk.md"
       ]
     },
     {

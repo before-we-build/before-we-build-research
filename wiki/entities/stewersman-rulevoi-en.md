@@ -25,7 +25,7 @@ English · [[stewersman-rulevoi-ru|Русский]] · [[stewersman-rulevoi-uk|�
 <!-- section:meaning -->
 ## Compact meaning
 
-**Steersman** is a traditional working alias for **2F / Future**. The position is modeled as a collaborative and adaptive process. The alias is a mnemonic, not an observable kind of person.
+**Steersman** is a traditional working alias for **2F / Future**. The position is modeled as a shared and adaptive process. The alias is a mnemonic, not an observable kind of person. In relation to technology, it is hypothesized to show instrumental techno-skepticism—viewing technology as a flexible, situational instrument that requires continual human calibration and bounded reliance (see [[temporistics-future-technology-attitudes-en]]).
 
 <!-- section:reading -->
 ## How to read it
@@ -50,3 +50,4 @@ The archetype does not determine morality, dignity, calling, profession, safety,
 - [[temporistics-overview-en]]
 - [[compatibility-level-boundaries-en]]
 - [[test-result-reading-guide-en]]
+- [[temporistics-future-technology-attitudes-en]]

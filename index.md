@@ -6,12 +6,12 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 
 ## Inventory
 
-- Markdown pages: **603**
-- Translation groups: **201**
-- Complete EN/RU/UK triads: **201**
+- Markdown pages: **606**
+- Translation groups: **202**
+- Complete EN/RU/UK triads: **202**
 - Missing language files: **0**
-- Document statuses: active=600, historical=3
-- Page roles: application=24, entity=249, explanation=126, hub=15, relation=12, research-appendix=81, source-summary=96
+- Document statuses: active=603, historical=3
+- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=81, source-summary=96
 
 ## Reader entrypoints
 
@@ -182,6 +182,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | temporistics-cognitive-resource-routing-creation-model | [Temporistics as a Cognitive-Resource Routing Hypothesis](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md) | [Темпористика как гипотеза маршрутизации когнитивного ресурса](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md) | [Темпористика як гіпотеза маршрутизації когнітивного ресурсу](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md) | active | research-appendix | 1 |
 | temporistics-detailed | [Temporistics Detailed](wiki/sources/temporistics-detailed-en.md) | [Подробный обзор Temporistics](wiki/sources/temporistics-detailed-ru.md) | [Докладний огляд Temporistics](wiki/sources/temporistics-detailed-uk.md) | active | source-summary | 1 |
 | temporistics-eternity-altruism-hypothesis | [Temporistics Eternity Position — Altruism Hypothesis](wiki/sources/temporistics-eternity-altruism-hypothesis-en.md) | [Позиция Eternity в Temporistics — гипотеза об альтруизме](wiki/sources/temporistics-eternity-altruism-hypothesis-ru.md) | [Позиція Eternity у Temporistics — гіпотеза про альтруїзм](wiki/sources/temporistics-eternity-altruism-hypothesis-uk.md) | active | source-summary | 1 |
+| temporistics-future-technology-attitudes | [Attitudes Toward Technology and Future Positions in Temporistics](wiki/concepts/temporistics-future-technology-attitudes-en.md) | [Отношение к технологиям и позиции Будущего в темпористике](wiki/concepts/temporistics-future-technology-attitudes-ru.md) | [Ставлення до технологій та позиції Майбутнього в темпористиці](wiki/concepts/temporistics-future-technology-attitudes-uk.md) | active | explanation | 1 |
 | temporistics-intertype-relations | [Proposed Temporistics Intertype Relations](wiki/relations/temporistics-intertype-relations-en.md) | [Предлагаемые интертипные отношения в Temporistics](wiki/relations/temporistics-intertype-relations-ru.md) | [Запропоновані інтертипні відносини в Temporistics](wiki/relations/temporistics-intertype-relations-uk.md) | active | relation | 1 |
 | temporistics-model | [Temporistics Model](wiki/concepts/temporistics-model-en.md) | [Модель темпористики](wiki/concepts/temporistics-model-ru.md) | [Модель темпористики](wiki/concepts/temporistics-model-uk.md) | active | explanation | 1 |
 | temporistics-overview | [Temporistics Overview](wiki/entities/temporistics-overview-en.md) | [Обзор темпористики](wiki/entities/temporistics-overview-ru.md) | [Огляд темпористики](wiki/entities/temporistics-overview-uk.md) | active | entity | 2 |
