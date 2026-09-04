@@ -16,3 +16,13 @@ application of the universal core, not the definition of the whole project.
 
 The complete machine-generated catalog is in [index.md](index.md). Preserved
 source material is explained in [raw/README.md](raw/README.md).
+
+## Repository Organization
+
+- **`wiki/`**: Core peer-reviewed, multi-language knowledge base (strict EN/RU/UK triads).
+- **`raw/`**: Immutable primary source texts.
+- **`applications/`**: Domain and worldview specializations (e.g., [applications/biblical-compatibility/README.md](applications/biblical-compatibility/README.md)).
+- **`research/`**: Empirical case studies, instruments, and academic outreach packets ([research/README.md](research/README.md)).
+- **`protocols/`**: Modular research and typological analysis protocols ([protocols/index.md](protocols/index.md)).
+- **`governance/`**: Ethics policies and legal gates ([governance/README.md](governance/README.md)).
+- **`scripts/` & `tests/`**: Automated verification and ontological consistency engine.

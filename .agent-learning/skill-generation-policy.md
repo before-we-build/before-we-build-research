@@ -68,3 +68,11 @@ Good initial candidates are narrow, low-risk maintenance workflows:
 - provenance-label formatting checks.
 
 Avoid starting with high-risk skills such as definitive typing, medical interpretation, theology judgment, or compatibility score calibration.
+
+## Protocols vs Agent Skills
+
+To maintain categorical clarity across the repository:
+
+- **Research Protocols (`protocols/`):** Universal, platform-independent methodological protocols, analytical frameworks, and outreach guidelines for researchers and general reasoning.
+- **Agent Skills (`.opencode/skills/`):** Runtime-specific execution prompts and tool workflows bound to the OpenCode automated multi-agent architecture.
+- **Approved Skills (`.agent-learning/approved-skills/`):** Governed staging directory for vetted agent skills prior to runtime enablement.

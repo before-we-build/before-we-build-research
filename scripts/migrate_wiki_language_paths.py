@@ -26,6 +26,10 @@ EXCLUDED_FILES = {"log.md"}
 LINK_UPDATE_ENTRIES = (
     "README.md",
     "index.md",
+    "applications",
+    "research",
+    "governance",
+    "protocols",
     "docs",
     "skills",
     "instruments",

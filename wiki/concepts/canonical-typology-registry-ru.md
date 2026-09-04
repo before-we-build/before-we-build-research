@@ -5,7 +5,7 @@ tags: [typology, psychosophy, temporistics, socionics, nomenclature]
 created: 2026-08-27
 updated: 2026-08-30
 lang: ru
-sources: [raw/temporistics/types.md, skills/public-figure-typologist.md]
+sources: [raw/temporistics/types.md, protocols/public-figure-typologist.md]
 translation_group: canonical-typology-registry
 semantic_version: 1
 reviewed_semantic_version: 1

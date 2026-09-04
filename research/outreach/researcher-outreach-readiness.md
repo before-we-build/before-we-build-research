@@ -2,7 +2,7 @@
 
 ## Verdict
 
-**Ready for limited pilot outreach using `docs/researcher-evidence-packet.md`; not ready for empirical or predictive claims.**
+**Ready for limited pilot outreach using `research/outreach/researcher-evidence-packet.md`; not ready for empirical or predictive claims.**
 
 The project is far enough along to talk to a small number of method-aligned researchers. Broad outreach should wait for pilot evidence and a reviewed target list.
 
@@ -13,7 +13,7 @@ The project is far enough along to talk to a small number of method-aligned rese
 | 3-sentence explanation without typology jargon | Yes | The localized Start Here pages and evidence packet provide it |
 | Epistemic status is explicit | Yes | The central triads now distinguish project definitions, hypotheses, evidence, and non-inferences |
 | Credible validation path exists | Yes | The repo has a plausible validation posture for latent-process hypotheses and incremental validity testing |
-| One concrete artifact to send | No -> Now yes | This was missing; `docs/researcher-evidence-packet.md` now fills that gap |
+| One concrete artifact to send | No -> Now yes | This was missing; `research/outreach/researcher-evidence-packet.md` now fills that gap |
 
 ## What Is Strong Enough Already
 
@@ -52,6 +52,6 @@ Use one of these:
 ## Next Steps
 
 1. Build a shortlist of 5 researchers using `researcher-targeter`.
-2. Use `docs/researcher-evidence-packet.md` as the default artifact.
+2. Use `research/outreach/researcher-evidence-packet.md` as the default artifact.
 3. Draft 3 personalized first-contact messages.
 4. Only then send the first outreach batch.

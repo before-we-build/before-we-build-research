@@ -2,6 +2,31 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-04] refactor | Architectural and Logical Repository Restructuring
+
+- **Taxonomic Fundamentum Divisionis & Scope Boundary Enforcement:**
+  - Migrated `biblical-compatibility/` into `applications/biblical-compatibility/`, strictly separating the universal BWB core (`wiki/`, `raw/`) from domain-specific and worldview applications. Added `applications/README.md` cataloging active and reserved application tracks (`cognitive-matchmaker`, `career-military`).
+  - Updated `wiki/concepts/adequate-compromise-{en,ru,uk}.md` source links to `applications/biblical-compatibility/themes/boundaries-and-distance.md`.
+- **Homogeneity and Decomposition of Working Documents (`docs/` and `instruments/`):**
+  - Eliminated singleton root folder `instruments/` by migrating `instruments/pilot-question-bank.md` to `research/instruments/pilot-question-bank.md`.
+  - Decomposed heterogeneous `docs/` folder into structured, typed directories:
+    - `research/case-studies/`: Public-figure decontaminated case analyses (`detailed-typology-*.md`).
+    - `research/outreach/`: Academic partnership and researcher outreach packages (`outreach-*.md`, `researcher-evidence-packet.md`, `researcher-outreach-readiness.md`).
+    - `governance/`: Normative review gates and policy boundaries (`ethics-legal-typology-public-figures.md`, `governance/README.md`).
+  - Updated internal relative links in case studies to point to `governance/ethics-legal-typology-public-figures.md`.
+  - Updated `scripts/check_markdown_readability.py` benchmark document paths to `research/case-studies/`.
+- **Disambiguation of Protocols vs Agent Skills:**
+  - Renamed root `skills/` to `protocols/` to represent universal, platform-independent methodological protocols for researchers and reasoning agents.
+  - Preserved `.opencode/skills/` as runtime-specific tool execution prompts for autonomous OpenCode agents.
+  - Codified the distinction in `.agent-learning/skill-generation-policy.md` and updated `protocols/index.md`.
+  - Updated `wiki/concepts/canonical-typology-registry-{en,ru,uk}.md` source links to `protocols/public-figure-typologist.md`.
+- **Codification of Multi-Language Localization Policy in `AGENTS.md` and `README.md`:**
+  - Established formal policy: `wiki/` remains strictly triadic (EN/RU/UK isomorphic peers), `raw/` preserves original provenance, `applications/` are culturally and community localized (e.g. Ukrainian for biblical compatibility), and `research/protocols/` use working context language.
+- **CI & Verification Hardening:**
+  - Updated `scripts/validate_wiki.py`, `scripts/check_wikilinks.py`, `scripts/audit_claim_language.py`, and `scripts/migrate_wiki_language_paths.py` with the new root directory paths.
+  - Regenerated `index.md` and `reports/wiki-migration-inventory.json`.
+  - Verified with full test suite: all 55 tests and strict checks passed with zero diagnostics.
+
 ## [2026-09-04] feat | Add Temporistics Future Positional Modes and Technology Attitudes Hypothesis
 
 - **Techno-Enthusiasm & Techno-Skepticism across Future Positions:** Articulated a structured research hypothesis connecting the positional modes of the Future ($F$) aspect in Temporistics with baseline attitudes toward technological innovation, progress, and automation:

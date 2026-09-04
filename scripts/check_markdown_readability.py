@@ -2,7 +2,7 @@
 """Markdown Readability and Life-Examples Evaluator with Golden Profile Benchmarks.
 
 Uses the Antigravity CLI (`agy`), static analysis, and ground-truth golden profiles
-(from `docs/detailed-typology-*.md` and `wiki/concepts/composite-profile-*.md`)
+(from `research/case-studies/detailed-typology-*.md` and `wiki/concepts/composite-profile-*.md`)
 to verify that Markdown documents are clear, pleasant to read, avoid dry jargon,
 and include concrete real-life examples of how latent processes manifest.
 """
@@ -57,7 +57,7 @@ class GoldenProfileRegistry:
         self.cases.append(
             GoldenProfileCase(
                 subject_name="Юрий Дудь",
-                doc_path="docs/detailed-typology-dud.md",
+                doc_path="research/case-studies/detailed-typology-dud.md",
                 socionics_code="ЛИЭ (Джек Лондон / Предприниматель)",
                 psychosophy_code="ФВЛЭ (Гёте)",
                 temporistics_code="НПБВ (Звезда, Старожилы)",
@@ -102,7 +102,7 @@ class GoldenProfileRegistry:
         self.cases.append(
             GoldenProfileCase(
                 subject_name="Алишер Моргенштерн",
-                doc_path="docs/detailed-typology-morgenshtern.md",
+                doc_path="research/case-studies/detailed-typology-morgenshtern.md",
                 socionics_code="СЭЭ (Наполеон / Политик)",
                 psychosophy_code="ФЭВЛ (Дюма)",
                 temporistics_code="НВПБ (Серый Кардинал, Лазутчики)",
@@ -147,7 +147,7 @@ class GoldenProfileRegistry:
         self.cases.append(
             GoldenProfileCase(
                 subject_name="Валерий Залужный",
-                doc_path="docs/detailed-typology-zaluzhnyi.md",
+                doc_path="research/case-studies/detailed-typology-zaluzhnyi.md",
                 socionics_code="СЛЭ (Жуков / Маршал)",
                 psychosophy_code="ФВЛЭ (Гёте)",
                 temporistics_code="БНПВ (Колонист)",
@@ -180,7 +180,7 @@ class GoldenProfileRegistry:
         self.cases.append(
             GoldenProfileCase(
                 subject_name="Светлана Тарабарова",
-                doc_path="docs/detailed-typology-tarabarova.md",
+                doc_path="research/case-studies/detailed-typology-tarabarova.md",
                 socionics_code="ИЭЭ (Гексли / Советчик)",
                 psychosophy_code="ЭВФЛ (Пастернак)",
                 temporistics_code="БНПВ (Колонист)",
@@ -207,7 +207,7 @@ class GoldenProfileRegistry:
         self.cases.append(
             GoldenProfileCase(
                 subject_name="Владимир Зеленский",
-                doc_path="docs/detailed-typology-zelenskyi.md",
+                doc_path="research/case-studies/detailed-typology-zelenskyi.md",
                 socionics_code="ЭИЭ (Гамлет / Наставник)",
                 psychosophy_code="ЭФВЛ (Пушкин)",
                 temporistics_code="НПБВ (Звезда, Старожилы)",

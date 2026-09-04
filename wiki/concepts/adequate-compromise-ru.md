@@ -5,7 +5,7 @@ tags: [compatibility, compromise, methodology, boundaries, russian]
 created: 2026-05-22
 updated: 2026-08-30
 lang: ru
-sources: [raw/general/adekvatnyy-kompromiss-tipologii.md, wiki/concepts/compatibility-level-boundaries-ru.md, biblical-compatibility/themes/boundaries-and-distance.md]
+sources: [raw/general/adekvatnyy-kompromiss-tipologii.md, wiki/concepts/compatibility-level-boundaries-ru.md, applications/biblical-compatibility/themes/boundaries-and-distance.md]
 translation_group: adequate-compromise
 semantic_version: 1
 reviewed_semantic_version: 1

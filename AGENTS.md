@@ -108,19 +108,38 @@ frame and clearly label worldview-specific claims.
 │   ├── temporistics/       # Sources on temporistics typology
 │   ├── psychosophy/        # Sources on psychosophy typology
 │   ├── socionics/          # Sources on socionics typology
-│   └── general/             # General project sources
-├── wiki/                   # LLM-generated wiki
-│   ├── concepts/            # Theoretical concept pages
-│   ├── entities/            # Entity pages (types, aspects, functions)
-│   ├── relations/           # Compatibility patterns, intertype relations
-│   ├── sources/             # Source summaries and derived docs
+│   └── general/            # General project sources
+├── wiki/                   # Multi-language knowledge base (strict EN/RU/UK triads)
+│   ├── concepts/           # Theoretical concept pages
+│   ├── entities/           # Entity pages (types, aspects, functions)
+│   ├── relations/          # Compatibility patterns, intertype relations
+│   ├── sources/            # Source summaries and derived docs
 │   ├── glossary-core-{en,ru,uk}.md      # Core terminology triad
 │   ├── glossary-extended-{en,ru,uk}.md  # Extended disambiguation triad
 │   └── slug-migrations.json             # Historical path mapping
+├── applications/           # Domain and worldview specializations
+│   └── biblical-compatibility/ # Christian hermeneutical/pastoral module (Ukrainian)
+├── research/               # Empirical case records, question bank, and outreach
+│   ├── case-studies/       # Public-figure decontaminated case records
+│   ├── instruments/        # Measurement & exploratory question banks
+│   └── outreach/           # Academic collaboration and evidence packets
+├── protocols/              # Modular research & typological analysis protocols
+├── governance/             # Ethical review gates and legal compliance boundaries
+├── scripts/                # Automated verification and index generation scripts
+├── tests/                  # Verification test suite
 ├── index.md                # Generated language-neutral wiki catalog
 ├── log.md                  # Chronological activity log
 └── .agent-learning/        # Controlled self-improvement logs, proposals, reviews, templates
 ```
+
+### Localization & Multi-Language Policy
+
+- **`wiki/`**: Strictly triadic (every active concept/entity/relation has equal, synchronized EN/RU/UK peers with matching claims, caveats, and section IDs).
+- **`raw/`**: Preserves original source language; translations are derived documents.
+- **`applications/`**: Localized to target community or audience (e.g., `applications/biblical-compatibility/` is authored in Ukrainian).
+- **`research/` & `protocols/`**: Pragmatically localized based on research targets, source materials, or intended audience.
+- **`governance/`**: Authoritative normative language (English/Russian/Ukrainian as defined per policy).
+
 
 ## Wiki Conventions
 

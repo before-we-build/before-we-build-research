@@ -1,12 +1,12 @@
-# SKILL INDEX: Before We Build Research & Outreach Skills
+# PROTOCOL INDEX: Before We Build Research & Outreach Protocols
 
-This index organizes the modular skills for research translation, academic outreach, and typological analysis.
+This index organizes the modular research protocols for research translation, academic outreach, and typological analysis.
 
 ## 1. Researcher Outreach Skills
 
 Modular skills for academic communication, translation of typological constructs into academic frameworks, and partnership development.
 
-| Skill | Purpose | Why It Matters |
+| Protocol | Purpose | Why It Matters |
 |-------|---------|----------------|
 | `researcher-outreach-workflow` | Orchestrate the full outreach cycle | Turns isolated skills into a repeatable pipeline |
 | `researcher-targeter` | Find and rank the right researchers/labs | Avoid generic outreach and wasted contacts |
@@ -24,7 +24,7 @@ Modular skills for academic communication, translation of typological constructs
 
 Skills for exploratory typological analysis, interviews, and cross-framework construct comparison.
 
-| Skill | Purpose | Why It Matters |
+| Protocol | Purpose | Why It Matters |
 |-------|---------|----------------|
 | `type-mapper` | Cross-system construct comparison without type conversion | Separates attributed crosswalks, overlaps, differences, and missing evidence |
 | `psychosophy-typer` | Read answers as provisional Psychosophy hypotheses | Separates observations, rivals, and method limitations |
@@ -36,7 +36,7 @@ Skills for exploratory typological analysis, interviews, and cross-framework con
 ## 3. File Inventory
 
 ```
-skills/
+protocols/
 ├── index.md                        # This index
 ├── collaboration-ask-designer.md   # Design concrete asks for researchers
 ├── dating-ai-failures.md           # Analysis of past dating AI mistakes

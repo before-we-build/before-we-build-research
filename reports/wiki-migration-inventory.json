@@ -254,7 +254,7 @@
       "sources": [
         "raw/general/adekvatnyy-kompromiss-tipologii.md",
         "wiki/concepts/compatibility-level-boundaries-en.md",
-        "biblical-compatibility/themes/boundaries-and-distance.md"
+        "applications/biblical-compatibility/themes/boundaries-and-distance.md"
       ],
       "section_ids": [
         "1-boundaries-before-form",
@@ -561,7 +561,7 @@
       "sources": [
         "raw/general/adekvatnyy-kompromiss-tipologii.md",
         "wiki/concepts/compatibility-level-boundaries-ru.md",
-        "biblical-compatibility/themes/boundaries-and-distance.md"
+        "applications/biblical-compatibility/themes/boundaries-and-distance.md"
       ],
       "section_ids": [
         "1-boundaries-before-form",
@@ -643,7 +643,7 @@
       "sources": [
         "raw/general/adekvatnyy-kompromiss-tipologii.md",
         "wiki/concepts/compatibility-level-boundaries-uk.md",
-        "biblical-compatibility/themes/boundaries-and-distance.md"
+        "applications/biblical-compatibility/themes/boundaries-and-distance.md"
       ],
       "section_ids": [
         "1-boundaries-before-form",
@@ -2557,7 +2557,7 @@
       "caveat_ids": [],
       "sources": [
         "raw/temporistics/types.md",
-        "skills/public-figure-typologist.md"
+        "protocols/public-figure-typologist.md"
       ],
       "section_ids": [
         "1-psychosophy-formulas-and-afanasyev-tradition-aliases",
@@ -2600,7 +2600,7 @@
       "caveat_ids": [],
       "sources": [
         "raw/temporistics/types.md",
-        "skills/public-figure-typologist.md"
+        "protocols/public-figure-typologist.md"
       ],
       "section_ids": [
         "1-psychosophy-formulas-and-afanasyev-tradition-aliases",
@@ -2643,7 +2643,7 @@
       "caveat_ids": [],
       "sources": [
         "raw/temporistics/types.md",
-        "skills/public-figure-typologist.md"
+        "protocols/public-figure-typologist.md"
       ],
       "section_ids": [
         "1-psychosophy-formulas-and-afanasyev-tradition-aliases",
@@ -60668,15 +60668,15 @@
       ],
       "inbound_links": [
         {
-          "source": "docs/outreach-gregory-serapio-garcia.md",
-          "line": 17,
+          "source": "index.md",
+          "line": 38,
           "raw_target": "wiki/sources/brain-typology-neuroscience-en.md",
           "resolved": "wiki/sources/brain-typology-neuroscience-en.md",
           "ambiguous": []
         },
         {
-          "source": "index.md",
-          "line": 38,
+          "source": "research/outreach/outreach-gregory-serapio-garcia.md",
+          "line": 17,
           "raw_target": "wiki/sources/brain-typology-neuroscience-en.md",
           "resolved": "wiki/sources/brain-typology-neuroscience-en.md",
           "ambiguous": []

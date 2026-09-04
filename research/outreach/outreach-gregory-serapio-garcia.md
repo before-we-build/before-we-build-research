@@ -26,4 +26,4 @@ designofhumanity@gmail.com
 
 ---
 
-**Evidence packet:** https://raw.githubusercontent.com/before-we-build/before-we-build-research/main/docs/researcher-evidence-packet.md
+**Evidence packet:** https://raw.githubusercontent.com/before-we-build/before-we-build-research/main/research/outreach/researcher-evidence-packet.md
