@@ -2,6 +2,21 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-05] ingest | Scientific Narrative Intelligence Layer (SNIL) and Latent Process Exposition
+
+- **Multi-Agent System & Methodology Ingestion:**
+  - Preserved raw architecture specification at `raw/general/scientific-narrative-intelligence-layer.md`.
+  - Preserved empirical popular science longread and audit log at `raw/general/latent-process-narrative-exposition.md`.
+  - Added modular operational protocol at `protocols/scientific-narrative-intelligence-layer.md` and updated `protocols/index.md`.
+  - Created permanent agent skill definition at `.agents/skills/scientific-narrative/SKILL.md`.
+  - Added synchronized triadic source summaries: `wiki/sources/scientific-narrative-intelligence-layer-{en,ru,uk}.md`.
+- **Cross-References and Concept Grounding:**
+  - Connected `wiki/concepts/latent-process-{en,ru,uk}.md` via Next Reading to the SNIL source summary.
+  - Documented dual-machine verification with OpenAI Codex CLI (`codex exec -s read-only`) and 5-persona reader drop-off simulation.
+- **Verification & Catalog Regeneration:**
+  - Regenerated `index.md` and `reports/wiki-migration-inventory.json`.
+  - Strict CI validation: `validate_wiki.py --strict`, `check_wikilinks.py --strict`, `add_wiki_section_ids.py --check`, `audit_claim_language.py --strict`.
+
 ## [2026-09-04] ingest | Landmark Empirical Foundations for Multi-Level Co-Regulation
 
 - **Ingestion of Four Landmark Academic Papers with Highest Evidential Strength:**

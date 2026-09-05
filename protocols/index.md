@@ -33,7 +33,17 @@ Skills for exploratory typological analysis, interviews, and cross-framework con
 
 ---
 
-## 3. File Inventory
+## 3. Science Communication and Narrative Architecture Skills
+
+Skills for turning complex research and latent-process models into high-retention popular science.
+
+| Protocol | Purpose | Why It Matters |
+|-------|---------|----------------|
+| `scientific-narrative-intelligence-layer` | Transform dry theory into verified popular science | Bridges deep methodology and public understanding without loss of scientific precision |
+
+---
+
+## 4. File Inventory
 
 ```
 protocols/
@@ -51,5 +61,6 @@ protocols/
 ├── researcher-outreach-workflow.md # End-to-end outreach orchestration
 ├── researcher-segmentation.md      # Academic discipline segmentation
 ├── researcher-targeter.md          # Researcher target prioritization
+├── scientific-narrative-intelligence-layer.md # Multi-agent science communication engine
 └── type-mapper.md                 # Cross-system construct comparison
 ```

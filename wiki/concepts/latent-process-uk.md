@@ -77,4 +77,4 @@ sources: [AGENTS.md]
 <!-- section:next-reading -->
 ## Наступне читання
 
-Продовжте з [[epistemic-status-and-inference-limits-uk]] і [[typology-reconceptualization-uk]].
+Продовжте з [[epistemic-status-and-inference-limits-uk]], [[typology-reconceptualization-uk]] та [[scientific-narrative-intelligence-layer-uk]].

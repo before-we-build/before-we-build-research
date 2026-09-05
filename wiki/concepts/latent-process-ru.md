@@ -77,4 +77,4 @@ sources: [AGENTS.md]
 <!-- section:next-reading -->
 ## Следующее чтение
 
-Продолжите с [[epistemic-status-and-inference-limits-ru]] и [[typology-reconceptualization-ru]].
+Продолжите с [[epistemic-status-and-inference-limits-ru]], [[typology-reconceptualization-ru]] и [[scientific-narrative-intelligence-layer-ru]].

@@ -6,12 +6,12 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 
 ## Inventory
 
-- Markdown pages: **624**
-- Translation groups: **208**
-- Complete EN/RU/UK triads: **208**
+- Markdown pages: **627**
+- Translation groups: **209**
+- Complete EN/RU/UK triads: **209**
 - Missing language files: **0**
-- Document statuses: active=621, historical=3
-- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=81, source-summary=114
+- Document statuses: active=624, historical=3
+- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=81, source-summary=117
 
 ## Reader entrypoints
 
@@ -159,6 +159,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | resource-map | [Internet Resource Map](wiki/sources/resource-map-en.md) | [Карта интернет-ресурсов](wiki/sources/resource-map-ru.md) | [Карта інтернет-ресурсів](wiki/sources/resource-map-uk.md) | active | source-summary | 1 |
 | rossignac-milon-bolger-higgins-merged-minds-2021 | [Merged Minds: Generalized Shared Reality in Dyadic Relationships](wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-en.md) | [Соединённые умы: генерализованная разделяемая реальность в диадических отношениях](wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-ru.md) | [З'єднані уми: генералізована розділювана реальність у діадичних стосунках](wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-uk.md) | active | source-summary | 1 |
 | schaner-intrahousehold-preference-heterogeneity-2015 | [Do Opposites Detract? Intrahousehold Preference Heterogeneity and Inefficient Strategic Savings](wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-en.md) | [Вредят ли противоположности? Гетерогенность предпочтений в домохозяйстве и неэффективность сбережений](wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-ru.md) | [Чи шкодять протилежності? Гетерогенність уподобань у домогосподарстві та неефективність заощаджень](wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-uk.md) | active | source-summary | 1 |
+| scientific-narrative-intelligence-layer | [Scientific Narrative Intelligence Layer (SNIL)](wiki/sources/scientific-narrative-intelligence-layer-en.md) | [Слой научной нарративной аналитики (SNIL)](wiki/sources/scientific-narrative-intelligence-layer-ru.md) | [Шар наукової наративної аналітики (SNIL)](wiki/sources/scientific-narrative-intelligence-layer-uk.md) | active | source-summary | 1 |
 | see-sensory-ethical-extrovert | [SEE — Sensory Ethical Extrovert (Napoleon)](wiki/entities/see-sensory-ethical-extrovert-en.md) | [Соционический тип SEE — Наполеон](wiki/entities/see-sensory-ethical-extrovert-ru.md) | [Соціонічний тип SEE — Наполеон](wiki/entities/see-sensory-ethical-extrovert-uk.md) | active | entity | 2 |
 | sei-sensory-ethical-introvert | [SEI — Sensory Ethical Introvert (Dumas)](wiki/entities/sei-sensory-ethical-introvert-en.md) | [Соционический тип SEI — Дюма](wiki/entities/sei-sensory-ethical-introvert-ru.md) | [Соціонічний тип SEI — Дюма](wiki/entities/sei-sensory-ethical-introvert-uk.md) | active | entity | 2 |
 | sle-sensory-logical-extrovert | [SLE — Sensory Logical Extrovert (Zhukov)](wiki/entities/sle-sensory-logical-extrovert-en.md) | [Соционический тип SLE — Жуков](wiki/entities/sle-sensory-logical-extrovert-ru.md) | [Соціонічний тип SLE — Жуков](wiki/entities/sle-sensory-logical-extrovert-uk.md) | active | entity | 2 |

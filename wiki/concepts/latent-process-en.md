@@ -77,4 +77,4 @@ Define indicators, rival constructs, expected convergence and divergence, measur
 <!-- section:next-reading -->
 ## Next reading
 
-Continue with [[epistemic-status-and-inference-limits-en]] and [[typology-reconceptualization-en]].
+Continue with [[epistemic-status-and-inference-limits-en]], [[typology-reconceptualization-en]], and [[scientific-narrative-intelligence-layer-en]].
