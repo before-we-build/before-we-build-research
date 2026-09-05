@@ -14,6 +14,7 @@ from wiki_quality_common import (
 )
 
 DEFAULT_OUTPUT_DIR = REPO_ROOT.parent / "before-we-build.github.io" / "wiki"
+WIKI_SECTION_DIRS = frozenset({"concepts", "entities", "relations", "sources"})
 
 I18N = {
     "uk": {
@@ -90,7 +91,17 @@ def slug_to_url(slug: str, lang: str | None = None) -> str:
     return f"{clean}.html"
 
 
-def render_markdown_to_html(md_text: str, current_lang: str, slug_map: dict[str, str]) -> tuple[str, list[dict[str, str]]]:
+def wiki_root_href(page_path: Path) -> str:
+    """Return the relative URL prefix from a generated page to /wiki/."""
+    return "../" if page_path.parent.name in WIKI_SECTION_DIRS else "./"
+
+
+def render_markdown_to_html(
+    md_text: str,
+    current_lang: str,
+    slug_map: dict[str, str],
+    wiki_root_prefix: str = "./",
+) -> tuple[str, list[dict[str, str]]]:
     """Lightweight, resilient Markdown to semantic HTML renderer with Wikilink & Callout support."""
     lines = md_text.splitlines()
     html_out: list[str] = []
@@ -127,7 +138,8 @@ def render_markdown_to_html(md_text: str, current_lang: str, slug_map: dict[str,
                 target, label = raw, raw
             target_clean = target.strip()
             dest_url = slug_map.get(target_clean, f"{target_clean}.html")
-            return f'<a class="wiki-link" href="{html.escape(dest_url)}">{html.escape(label.strip())}</a>'
+            href = f"{wiki_root_prefix}{dest_url}"
+            return f'<a class="wiki-link" href="{html.escape(href)}">{html.escape(label.strip())}</a>'
 
         s = re.sub(r"\[\[([^\]]+)\]\]", replace_wikilink, s)
 
@@ -282,7 +294,7 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
 
     for page in pages:
         stem = page.path.stem
-        rel_html = f"{page.path.parent.name}/{stem}.html" if page.path.parent.name in ("concepts", "entities", "relations", "sources") else f"{stem}.html"
+        rel_html = f"{page.path.parent.name}/{stem}.html" if page.path.parent.name in WIKI_SECTION_DIRS else f"{stem}.html"
         slug_map[stem] = rel_html
         
         group_id = page.translation_group
@@ -299,6 +311,7 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
         dict_i18n = I18N.get(lang, I18N["uk"])
         title = page.title
         group_peers = groups.get(page.translation_group, {})
+        depth = wiki_root_href(page.path)
 
         # Language switcher buttons
         lang_links = []
@@ -306,10 +319,10 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
             if l in group_peers:
                 peer_page = group_peers[l]
                 peer_url = slug_to_url(peer_page.path.stem)
-                if peer_page.path.parent.name in ("concepts", "entities", "relations", "sources"):
+                if peer_page.path.parent.name in WIKI_SECTION_DIRS:
                     peer_url = f"{peer_page.path.parent.name}/{peer_page.path.stem}.html"
                 active_cls = ' class="active"' if l == lang else ''
-                lang_links.append(f'<a href="../{peer_url}"{active_cls}>{l.upper()}</a>')
+                lang_links.append(f'<a href="{depth}{peer_url}"{active_cls}>{l.upper()}</a>')
             else:
                 lang_links.append(f'<span class="disabled">{l.upper()}</span>')
         
@@ -331,8 +344,6 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
             meta_badges.append(f'<span class="badge badge-status">{html.escape(str(page.metadata["document_status"]))}</span>')
 
         meta_html = " ".join(meta_badges)
-
-        depth = "../" if page.path.parent.name in ("concepts", "entities", "relations", "sources") else "./"
 
         return f"""<!doctype html>
 <html lang="{lang}">
@@ -372,9 +383,9 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
             <div class="sidebar-heading">{dict_i18n["categories"]["concepts"]}</div>
             <ul>
               <li><a href="{depth}concepts/latent-process-{lang}.html">Latent Process</a></li>
-              <li><a href="{depth}concepts/four-levels-of-compatibility-{lang}.html">Four Levels</a></li>
-              <li><a href="{depth}concepts/temporistics-temporal-orientations-{lang}.html">Temporistics</a></li>
-              <li><a href="{depth}concepts/psychosophy-action-synthesis-{lang}.html">Psychosophy</a></li>
+              <li><a href="{depth}concepts/four-level-compatibility-architecture-{lang}.html">Four Levels</a></li>
+              <li><a href="{depth}concepts/temporistics-model-{lang}.html">Temporistics</a></li>
+              <li><a href="{depth}concepts/psychosophy-functions-{lang}.html">Psychosophy</a></li>
               <li><a href="{depth}concepts/socionics-reality-modeling-{lang}.html">Socionics</a></li>
             </ul>
           </div>
@@ -422,7 +433,12 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
 
     # Generate each page
     for page in pages:
-        body_html, toc = render_markdown_to_html(page.body, page.language or "uk", slug_map)
+        body_html, toc = render_markdown_to_html(
+            page.body,
+            page.language or "uk",
+            slug_map,
+            wiki_root_href(page.path),
+        )
         full_html = render_full_page(page, body_html, toc)
         
         target_path = output_dir / slug_map[page.path.stem]
@@ -482,21 +498,21 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
           <div class="hub-icon">🧭</div>
           <h2>4 Рівні сумісності</h2>
           <p>Ціннісно-моральний фундамент, Темпористика, Психософія та Соціоніка як моделі латентних процесів.</p>
-          <a href="concepts/four-levels-of-compatibility-uk.html" class="hub-link">Читати розділ →</a>
+          <a href="concepts/four-level-compatibility-architecture-uk.html" class="hub-link">Читати розділ →</a>
         </div>
 
         <div class="hub-card">
           <div class="hub-icon">⏳</div>
           <h2>Темпористика</h2>
           <p>Сприйняття часу, синхронізація планів, бачення минулого, теперішнього, майбутнього та вічності.</p>
-          <a href="concepts/temporistics-temporal-orientations-uk.html" class="hub-link">Читати розділ →</a>
+          <a href="concepts/temporistics-model-uk.html" class="hub-link">Читати розділ →</a>
         </div>
 
         <div class="hub-card">
           <div class="hub-icon">⚡</div>
           <h2>Психософія</h2>
           <p>Організація енергії та дій: Фізика, Логіка, Воля, Емоція. Ролі 1–4 позицій без ярликів.</p>
-          <a href="concepts/psychosophy-action-synthesis-uk.html" class="hub-link">Читати розділ →</a>
+          <a href="concepts/psychosophy-functions-uk.html" class="hub-link">Читати розділ →</a>
         </div>
 
         <div class="hub-card">

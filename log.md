@@ -108,6 +108,78 @@ Chronological record of wiki activity. Append-only.
   - Regenerated `index.md` and `reports/wiki-migration-inventory.json`.
   - Verified with full test suite: all 55 tests and strict checks passed with zero diagnostics.
 
+## [2026-09-05] fix | Validate generated wiki navigation before deployment
+
+- **Relative Navigation:** Fixed generated wikilinks and language-switcher URLs
+  so pages nested under concepts, entities, relations, and sources resolve from
+  the wiki root instead of from the current subdirectory.
+- **Current Entrypoints:** Replaced three stale generated-site routes with the
+  active four-level architecture, Temporistics model, and Psychosophy functions
+  pages.
+- **Deployment Guard:** Added a generated-HTML reference checker, unit coverage,
+  and a blocking GitHub Actions step before the website repository is updated.
+- **Local SNIL Skill:** Adapted the existing repository-local
+  `scientific-narrative` skill to the available collaboration runtime through
+  the governed log, proposal, request-changes review, and final approval. The
+  skill now documents source provenance, intentional numerical-gate deviations,
+  the five BWB inference levels, and optional adjacent protocols.
+
+## [2026-09-05] docs | Rebuild the compatibility history with the SNIL reader route
+
+- **Narrative Architecture:** Reordered the active EN/RU/UK history triad around
+  one concrete eight-week relocation decision, six distinct problem families,
+  and six parallel historical lines written as question, contribution, and
+  boundary rather than a dense chronology table.
+- **Plain-Language Bridge:** Explained target outcomes, stable allocation,
+  homogamy, actor-partner models, the interpersonal circumplex, latent processes,
+  and the four BWB levels only after giving each term an observable referent.
+- **Epistemic Corrections:** Removed universal and frequency claims unsupported
+  by the source ledger, separated the 2017 and 2020 machine-learning results,
+  marked LLM conversation support as a proposed application, and stated that the
+  BWB synthesis is a project hypothesis rather than a historical validation.
+- **Safety Route:** Moved freely given consent and safety into the opening reader
+  path, added a direct right-to-refuse question, and retained the warning that
+  joint assessment may be unsafe under coercive control.
+- **Multilingual Contract:** Raised the synchronized semantic and reviewed
+  versions to 2 and added matching section IDs for all new EN/RU/UK subsections.
+- **SNIL Collegium:** The final model-based review passed the reader journey and
+  all four epistemic veto checks; clarity rose from 5.5 to 8.4, conceptual
+  understanding from 6.5 to 9.0, momentum from 4.5 to 8.1, and cognitive-load
+  management from 4.0 to 7.8. These are editorial model scores, not reader
+  analytics.
+- **Validation:** 74 unit tests passed; strict wiki schema, synchronized section
+  IDs, wikilinks, claim-language audit, generated index and inventory freshness,
+  static readability for all three languages, agent lint, the strict
+  scientific-narrative gate, skill validation, and `git diff --check` all
+  passed.
+
+## [2026-09-05] feat | Add a History of Attempts to Solve Human Compatibility
+
+- **New Active Triad (EN, RU, UK):** Added
+  `wiki/concepts/human-compatibility-history-{en,ru,uk}.md`, a question-led
+  chronology spanning customary, legal, ethical, classificatory, psychometric,
+  dyadic, therapeutic, allocation, platform, machine-learning, and AI attempts.
+- **Problem Separation:** Distinguished eligibility, description, selection,
+  prediction, formation and repair, and governance and safety; kept introductions,
+  attraction, persistence, satisfaction, performance, and safety as different
+  outcomes.
+- **Historical Guardrails:** Treated the record as non-linear and
+  cross-culturally incomplete, described eugenics and coercive classification as
+  rejected anti-models, and added a distinct 1979–present safety branch for
+  violence, coercive control, and clinical response.
+- **Evidence Ledger:** Added
+  `raw/general/human-compatibility-history-source-ledger.md` with 45
+  source-by-source entries, stated support boundaries, source-quality notes, and
+  open research gaps.
+- **BWB Integration:** Linked the history from the four-level architecture triad
+  and preserved the exact latent-process mappings and universal-core versus
+  application boundary.
+- **Generated Artifacts:** Regenerated `index.md` and
+  `reports/wiki-migration-inventory.json`.
+- **Validation:** 55 unit tests passed; strict wiki schema, synchronized section
+  IDs, wikilinks, claim-language audit, index/inventory freshness, agent lint,
+  and `git diff --check` all passed cleanly.
+
 ## [2026-09-04] feat | Add Temporistics Future Positional Modes and Technology Attitudes Hypothesis
 
 - **Techno-Enthusiasm & Techno-Skepticism across Future Positions:** Articulated a structured research hypothesis connecting the positional modes of the Future ($F$) aspect in Temporistics with baseline attitudes toward technological innovation, progress, and automation:

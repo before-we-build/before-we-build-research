@@ -6,12 +6,12 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 
 ## Inventory
 
-- Markdown pages: **627**
-- Translation groups: **209**
-- Complete EN/RU/UK triads: **209**
+- Markdown pages: **630**
+- Translation groups: **210**
+- Complete EN/RU/UK triads: **210**
 - Missing language files: **0**
-- Document statuses: active=624, historical=3
-- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=81, source-summary=117
+- Document statuses: active=627, historical=3
+- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=84, source-summary=117
 
 ## Reader entrypoints
 
@@ -69,7 +69,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | exile-izgnannik | [Exile (Izgnannik)](wiki/entities/exile-izgnannik-en.md) | [Темпористический архетип 3N — Изгнанник](wiki/entities/exile-izgnannik-ru.md) | [Темпористичний архетип 3N — Вигнанець](wiki/entities/exile-izgnannik-uk.md) | active | entity | 1 |
 | family-formation-principles | [Family Formation Principles](wiki/concepts/family-formation-principles-en.md) | [Принципы формирования семьи](wiki/concepts/family-formation-principles-ru.md) | [Принципи формування сімʼї](wiki/concepts/family-formation-principles-uk.md) | active | application | 2 |
 | fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015 | [Transactive Goal Dynamics](wiki/sources/fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015-en.md) | [Трансактивная динамика целей](wiki/sources/fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015-ru.md) | [Трансактивна динаміка цілей](wiki/sources/fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015-uk.md) | active | source-summary | 2 |
-| four-level-compatibility-architecture | [Four-Level Compatibility Architecture](wiki/concepts/four-level-compatibility-architecture-en.md) | [Четырёхуровневая архитектура совместимости](wiki/concepts/four-level-compatibility-architecture-ru.md) | [Чотирирівнева архітектура сумісності](wiki/concepts/four-level-compatibility-architecture-uk.md) | active | hub | 3 |
+| four-level-compatibility-architecture | [Four-Level Compatibility Architecture](wiki/concepts/four-level-compatibility-architecture-en.md) | [Четырёхуровневая архитектура совместимости](wiki/concepts/four-level-compatibility-architecture-ru.md) | [Чотирирівнева архітектура сумісності](wiki/concepts/four-level-compatibility-architecture-uk.md) | active | hub | 4 |
 | fourth-physics-deep-research | [Fourth Physics (4Ф) in Psychosophy — Deep Research](wiki/sources/fourth-physics-deep-research-en.md) | [Четвёртая Физика (4Ф) в психософии — исследовательский обзор](wiki/sources/fourth-physics-deep-research-ru.md) | [Четверта Фізика (4Ф) у психософії — дослідницький огляд](wiki/sources/fourth-physics-deep-research-uk.md) | active | source-summary | 1 |
 | glossary-audience-translation | [Audience Terminology Map](wiki/glossary-audience-translation-en.md) | [Карта терминов для разных аудиторий](wiki/glossary-audience-translation-ru.md) | [Карта термінів для різних аудиторій](wiki/glossary-audience-translation-uk.md) | active | explanation | 1 |
 | glossary-core | [Core Glossary](wiki/glossary-core-en.md) | [Основной глоссарий](wiki/glossary-core-ru.md) | [Основний глосарій](wiki/glossary-core-uk.md) | active | hub | 5 |
@@ -78,6 +78,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | guo-gong-yang-executive-social-hyperscanning-2026 | [Acute Stress Impacts Executive-Social Function: Evidence From Prefrontal Activation and fNIRS-Based Hyperscanning](wiki/sources/guo-gong-yang-executive-social-hyperscanning-2026-en.md) | [Влияние острого стресса на исполнительно-социальные функции: данные префронтальной активации и fNIRS-гиперсканирования](wiki/sources/guo-gong-yang-executive-social-hyperscanning-2026-ru.md) | [Вплив гострого стресу на виконавчо-соціальні функції: дані префронтальної активації та fNIRS-гіперсканування](wiki/sources/guo-gong-yang-executive-social-hyperscanning-2026-uk.md) | active | source-summary | 1 |
 | guru | [Гуру](wiki/entities/guru-en.md) | [Темпористический архетип 1E — Гуру](wiki/entities/guru-ru.md) | [Темпористичний архетип 1E — Гуру](wiki/entities/guru-uk.md) | active | entity | 1 |
 | host-khozyain | [Host (Khozyain)](wiki/entities/host-khozyain-en.md) | [Темпористический архетип 1N — Хозяин](wiki/entities/host-khozyain-ru.md) | [Темпористичний архетип 1N — Хазяїн](wiki/entities/host-khozyain-uk.md) | active | entity | 1 |
+| human-compatibility-history | [A History of Attempts to Solve Human Compatibility](wiki/concepts/human-compatibility-history-en.md) | [История попыток решить проблему человеческой совместимости](wiki/concepts/human-compatibility-history-ru.md) | [Історія спроб розв’язати проблему людської сумісності](wiki/concepts/human-compatibility-history-uk.md) | active | research-appendix | 2 |
 | iee-intuitive-ethical-extrovert | [IEE — Intuitive Ethical Extrovert (Huxley / the Journalist)](wiki/entities/iee-intuitive-ethical-extrovert-en.md) | [Соционический тип IEE — Гексли](wiki/entities/iee-intuitive-ethical-extrovert-ru.md) | [Соціонічний тип IEE — Гекслі](wiki/entities/iee-intuitive-ethical-extrovert-uk.md) | active | entity | 2 |
 | iei-intuitive-ethical-introvert | [IEI — Intuitive Ethical Introvert (Yesenin)](wiki/entities/iei-intuitive-ethical-introvert-en.md) | [Соционический тип IEI — Есенин](wiki/entities/iei-intuitive-ethical-introvert-ru.md) | [Соціонічний тип IEI — Єсенін](wiki/entities/iei-intuitive-ethical-introvert-uk.md) | active | entity | 2 |
 | iis-41-conference-program-topics | [41st IIS Conference Program — Selected Topics](wiki/sources/iis-41-conference-program-topics-en.md) | [Программа 41-й конференции МИС — избранные темы](wiki/sources/iis-41-conference-program-topics-ru.md) | [Програма 41-ї конференції МІС — вибрані теми](wiki/sources/iis-41-conference-program-topics-uk.md) | active | source-summary | 1 |

@@ -7,6 +7,7 @@ on:
     paths:
       - 'wiki/**'
       - 'scripts/build_wiki_site.py'
+      - 'scripts/check_generated_wiki_links.py'
       - 'scripts/wiki_quality_common.py'
   workflow_dispatch:
 
@@ -46,6 +47,13 @@ jobs:
         working-directory: before-we-build-research
         run: |
           python3 scripts/build_wiki_site.py --output ../before-we-build.github.io/wiki
+
+      - name: Verify generated wiki links
+        working-directory: before-we-build-research
+        run: >-
+          python3 scripts/check_generated_wiki_links.py
+          --root ../before-we-build.github.io/wiki
+          --site-root ../before-we-build.github.io
 
       - name: Commit and push changes to website
         working-directory: before-we-build.github.io

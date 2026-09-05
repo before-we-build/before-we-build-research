@@ -3,11 +3,11 @@ title: Чотирирівнева архітектура сумісності
 type: concept
 tags: [compatibility, architecture, universal-core]
 created: 2026-07-26
-updated: 2026-08-30
+updated: 2026-09-05
 lang: uk
 translation_group: four-level-compatibility-architecture
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, normative-rule]
@@ -84,4 +84,4 @@ Before We Build розділяє чотири питання, які легко 
 <!-- section:next-reading -->
 ## Наступне читання
 
-Читайте [[compatibility-level-boundaries-uk]], потім чотири сторінки рівнів, починаючи з [[value-moral-compatibility-uk]].
+Читайте [[compatibility-level-boundaries-uk]], потім чотири сторінки рівнів, починаючи з [[value-moral-compatibility-uk]]. Для історичного маршруту перейдіть до [[human-compatibility-history-uk]].

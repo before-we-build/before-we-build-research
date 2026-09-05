@@ -3,11 +3,11 @@ title: Four-Level Compatibility Architecture
 type: concept
 tags: [compatibility, architecture, universal-core]
 created: 2026-07-26
-updated: 2026-08-30
+updated: 2026-09-05
 lang: en
 translation_group: four-level-compatibility-architecture
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: hub
 claim_status: [project-definition, research-hypothesis, normative-rule]
@@ -84,4 +84,4 @@ Test incremental value: compare the four-level formulation with simpler models a
 <!-- section:next-reading -->
 ## Next reading
 
-Read [[compatibility-level-boundaries-en]], then the four level pages beginning with [[value-moral-compatibility-en]].
+Read [[compatibility-level-boundaries-en]], then the four level pages beginning with [[value-moral-compatibility-en]]. For the historical route, continue to [[human-compatibility-history-en]].
