@@ -2,6 +2,49 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-04] ingest | Landmark Empirical Foundations for Multi-Level Co-Regulation
+
+- **Ingestion of Four Landmark Academic Papers with Highest Evidential Strength:**
+  - **Butler (2011, PSPR):**
+    - Raw source preserved at `raw/general/butler-temporal-interpersonal-emotion-systems-2011.md`.
+    - Added isomorphic triadic source summaries: `wiki/sources/butler-temporal-interpersonal-emotion-systems-2011-{en,ru,uk}.md`.
+    - Grounded BWB's baseline dynamic paradigm in the Temporal Interpersonal Emotion Systems (TIES) framework, modeling emotional coupling across channels and establishing that synchrony does not inherently indicate health or compatibility.
+  - **Rossignac-Milon et al. (2021, JPSP):**
+    - Raw source preserved at `raw/general/rossignac-milon-bolger-higgins-merged-minds-2021.md`.
+    - Added isomorphic triadic source summaries: `wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-{en,ru,uk}.md`.
+    - Grounded BWB Level 4 (Tactical Information Modeling / Reconstructed Socionics) in empirical generalized shared reality ("merged minds"), demonstrating that communicative coordination builds shared reality and triggers compensatory repair when threatened.
+  - **Fitzsimons, Finkel, & vanDellen (2015, Psych Review):**
+    - Raw source preserved at `raw/general/fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015.md`.
+    - Added isomorphic triadic source summaries: `wiki/sources/fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015-{en,ru,uk}.md`.
+    - Grounded BWB Level 3 (Operational Action Organization / Reconstructed Psychosophy) in Transactive Goal Dynamics (TGD), modeling couples as coupled self-regulating goal systems with interdependent volition, goal allocation, and coordination costs.
+  - **Schaner (2015, AEJ: Applied Economics):**
+    - Raw source preserved at `raw/general/schaner-intrahousehold-preference-heterogeneity-2015.md`.
+    - Added isomorphic triadic source summaries: `wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-{en,ru,uk}.md`.
+    - Grounded BWB Level 2 (Strategic Temporal Coordination / Reconstructed Temporistics) in field-experimental data from couples, proving that mismatch in spouses' intertemporal discount rates causes strategic mistrust, financial hiding, and systemic welfare loss.
+- **Cross-References and Resource Map Update:**
+  - Updated `wiki/sources/resource-map-{en,ru,uk}.md` Section 4 with entries for Butler (2011), Rossignac-Milon et al. (2021), Fitzsimons et al. (2015), and Schaner (2015).
+  - Synchronized `See Also` links in `joel-eastwick-finkel-machine-learning-relationships-2020-{en,ru,uk}.md`.
+- **Verification & Catalog Regeneration:**
+  - Regenerated `index.md` (now 624 pages, 208 complete triads) and `reports/wiki-migration-inventory.json`.
+  - Validated with strict linters (`validate_wiki.py`, `add_wiki_section_ids.py`, `check_wikilinks.py`, `audit_claim_language.py`) and full test suite (55 unit tests passed).
+
+## [2026-09-04] ingest | Guo et al. (2026) and Joel et al. (2020) Empirical Compatibility Sources
+
+- **Ingestion of Dual Landmark Empirical Compatibility Papers:**
+  - **Guo et al. (Brain & Behavior, 2026):**
+    - Raw source preserved at `raw/general/guo-gong-yang-executive-social-hyperscanning-2026.md`.
+    - Added isomorphic triadic source summaries: `wiki/sources/guo-gong-yang-executive-social-hyperscanning-2026-{en,ru,uk}.md`.
+    - Documented the *Executive–Social Function Coupling Hypothesis under Stress*, fNIRS hyperscanning evidence of prefrontal activation (dlPFC, IFG), and inter-brain synchrony (IBS) as a neuroimaging analogue for BWB's tactical co-regulation and conversational repair.
+  - **Joel, Eastwick, Finkel et al. (PNAS, 2020):**
+    - Raw source preserved at `raw/general/joel-eastwick-finkel-machine-learning-relationships-2020.md`.
+    - Added isomorphic triadic source summaries: `wiki/sources/joel-eastwick-finkel-machine-learning-relationships-2020-{en,ru,uk}.md`.
+    - Documented large-scale machine learning benchmark (43 longitudinal studies, 11,196 couples) proving that individual trait-matching explains ~0% of dyadic satisfaction variance, while relationship-specific dynamic processes explain up to 45%, providing empirical justification for BWB's total rejection of static compatibility scores.
+- **Resource Map Synchronization:**
+  - Updated `wiki/sources/resource-map-{en,ru,uk}.md` Section 4 with entries for Volkov et al. (2025), Guo et al. (2026), and Joel et al. (2020).
+- **Verification & Catalog Regeneration:**
+  - Regenerated `index.md` and `reports/wiki-migration-inventory.json`.
+  - Validated with strict linters (`validate_wiki.py`, `add_wiki_section_ids.py`, `check_wikilinks.py`, `audit_claim_language.py`) and full test suite (55 unit tests passed).
+
 ## [2026-09-04] refactor | Architectural and Logical Repository Restructuring
 
 - **Taxonomic Fundamentum Divisionis & Scope Boundary Enforcement:**
