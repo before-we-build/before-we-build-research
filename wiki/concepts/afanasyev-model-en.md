@@ -3,11 +3,11 @@ title: Afanasyev's Psychosophy Model
 type: concept
 tags: [psychosophy, afanasyev, model, operational-level, research-hypothesis]
 created: 2026-04-15
-updated: 2026-08-30
+updated: 2026-09-05
 lang: en
 translation_group: afanasyev-model
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: explanation
 claim_status: [source-attribution, research-hypothesis, contested]
@@ -56,7 +56,7 @@ Psychosophy schools commonly describe the first and fourth positions as result-o
 <!-- section:bwb-interpretation -->
 ## Before We Build interpretation
 
-BWB studies Psychosophy at the **operational level** as a heuristic model of proposed latent processes of synthesis, analysis, and action organization. This mapping may generate questions about initiative, division of responsibility, support, revision, and pressure. It does not establish the mechanism or predict a pair’s outcome.
+BWB studies Psychosophy at the **operational level** as a heuristic model of real-time action organization: balancing holistic synthesis (result, closure of choice) and detailed analysis (negotiating conditions, process) across four aspects. Positions are viewed as the allocation of limited cognitive attention (where analysis is dampened for fast synthesis, where both are balanced, where doubt is heightened, or where choices are delegated). This framing generates practical questions about initiative, labor division, support, and boundaries, without positing a deterministic mechanism or predicting relationship fate.
 
 <!-- section:observation-and-inference -->
 ## Observation and inference

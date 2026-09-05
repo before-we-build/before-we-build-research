@@ -274,15 +274,19 @@ def detect_language(text: str, filepath: Path, metadata: dict[str, Any]) -> str:
     return "en"
 
 
+TABLE_SEP_RE = re.compile(r"^\|(?:\s*[-:]+\s*\|)+$")
+TABLE_ROW_RE = re.compile(r"^\|.*\|$")
+
+
 def _split_into_sentences(text: str, start_line: int) -> list[SentenceInfo]:
     """Split paragraph text into sentences with word counts and parenthesis metrics.
 
-    Treats bullet/numbered list items as distinct semantic units to avoid
-    falsely conjoining semicolon-separated lists into massive run-on sentences.
+    Treats bullet/numbered list items and table cells as distinct semantic units to avoid
+    falsely conjoining semicolon-separated lists or table cells into massive run-on sentences.
     """
     sentence_re = re.compile(r"(?<=[.!?])\s+(?=[A-ZА-ЯІЇЄҐ\d—])")
 
-    # Pre-split on list items if present
+    # Pre-split on list items and table cells if present
     raw_units: list[tuple[str, int]] = []
     lines = text.splitlines()
     cur_unit_lines: list[str] = []
@@ -291,6 +295,17 @@ def _split_into_sentences(text: str, start_line: int) -> list[SentenceInfo]:
     for idx, line in enumerate(lines):
         line_num = start_line + idx
         stripped = line.strip()
+        if TABLE_SEP_RE.match(stripped):
+            continue
+        if TABLE_ROW_RE.match(stripped):
+            if cur_unit_lines:
+                raw_units.append(("\n".join(cur_unit_lines), cur_unit_start))
+                cur_unit_lines = []
+            cells = [c.strip() for c in stripped.split("|") if c.strip()]
+            for cell in cells:
+                raw_units.append((cell, line_num))
+            continue
+
         if LIST_ITEM_START_RE.match(stripped):
             if cur_unit_lines:
                 raw_units.append(("\n".join(cur_unit_lines), cur_unit_start))
@@ -707,6 +722,15 @@ def analyze_document(
     )
 
 
+EXCLUDED_NON_NARRATIVE_FILENAMES = {
+    "log.md",
+    "index.md",
+    "README.md",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+}
+
+
 def check_paths(
     paths: Sequence[Path],
     *,
@@ -715,10 +739,18 @@ def check_paths(
     json_output: bool = False,
 ) -> int:
     """Run narrative readability and quality checks on a sequence of files."""
+    valid_paths = [p for p in paths if p.name not in EXCLUDED_NON_NARRATIVE_FILENAMES]
+    if not valid_paths:
+        if json_output:
+            print(json.dumps({"summary": [], "diagnostics": []}))
+        else:
+            print("No narrative documents to check.")
+        return 0
+
     all_diagnostics: list[Diagnostic] = []
     summaries: list[dict[str, Any]] = []
 
-    for path in paths:
+    for path in valid_paths:
         analysis = analyze_document(path, strict=strict, min_score=min_score)
         all_diagnostics.extend(analysis.diagnostics)
         summaries.append({

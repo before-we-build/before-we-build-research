@@ -2,6 +2,29 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-05] update | Latent Processes in Psychosophy: Operational Synthesis and Analysis Architecture
+
+- **Epistemic & Theoretical Reconceptualization of Psychosophy:**
+  - Grounded Psychosophy strictly on the **operational, everyday action scale** (real-time coordination, task execution, decision closing, emotional tone, and somatic conditions), distinguishing it clearly from Temporistics' existential meaning-making scale.
+  - Formulated the dual-mode nature of all four aspects (Volition, Logic, Emotion, Physics): each aspect operates in both **Synthesis** (holistic closure, result, monolithic certainty) and **Analysis** (step-by-step verification, processuality, condition testing).
+  - Modeled the 4 positions as brain resource allocation and energy budgeting:
+    - *1st position:* Analysis is dampened to conserve energy $\to$ confident, monolithic synthesis.
+    - *2nd position:* Balanced synthesis and analysis $\to$ flexible dialogic process and co-regulation.
+    - *3rd position:* Confident synthesis is blocked $\to$ persistent, anxious micro-analysis (vulnerability to error).
+    - *4th position:* Personal processing dampened $\to$ receptive acceptance of external synthesis (restful delegation).
+  - Grounded asymmetry in an intentional creationist/design framework of mutual interdependence and co-working (со-работничество, Gen 2:18, 1 Cor 12).
+- **Synchronized Triadic Concept & Relation Overhauls:**
+  - `wiki/concepts/operational-compatibility-{en,ru,uk}.md`: Bumped to v3; updated latent construct, Kyiv/Lviv life scenarios, observable traces, and dyadic repair mechanisms.
+  - `wiki/concepts/psychosophy-functions-{en,ru,uk}.md`: Bumped to v3; expanded from stub to full trilingual exposition of dual-mode aspect operations, position energy damping, creationist design complementarity, and preservation of Afanasyev's historical terminology («Молот», «Река», «Язва», «Пылинка») alongside BWB cognitive reinterpretation.
+  - `wiki/concepts/afanasyev-model-{en,ru,uk}.md`: Bumped to v3; updated BWB interpretation to reflect operational synthesis/analysis dynamics and resource budgeting.
+  - `wiki/relations/psychosophy-intertype-relations-{en,ru,uk}.md`: Bumped to v2; enriched position-contact principles with synthesis/analysis dynamics (1↔3 monolith vs micro-analysis, 2↔3 calm exploration of doubts, 1↔4 synthesis delivery/reception).
+  - `wiki/sources/fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015-{en,ru,uk}.md`: Bumped to v2; calibrated epistemic claims distinguishing TGD's scientific dyadic goal regulation from BWB's heuristic 4-aspect partition.
+- **Verification & Quality Checks:**
+  - Enhanced sentence-splitter in `scripts/check_scientific_narrative.py` to handle Markdown tables without false run-on sentence penalties.
+  - Readability evaluation: `scripts/check_scientific_narrative.py` passed with 100/100 on RU and UK, 88.5/100 on EN; `scripts/check_markdown_readability.py` static checks passed with 8/10 on all modified concept/relation triads.
+  - Regenerated `index.md` and `reports/wiki-migration-inventory.json`.
+  - Strict CI verification: passed all 70 unit tests (`python3 -m unittest discover -s tests -v`), `validate_wiki.py --strict`, `check_wikilinks.py --strict`, `add_wiki_section_ids.py --check`, and `audit_claim_language.py --strict`.
+
 ## [2026-09-05] ingest | Scientific Narrative Intelligence Layer (SNIL) and Latent Process Exposition
 
 - **Multi-Agent System & Methodology Ingestion:**

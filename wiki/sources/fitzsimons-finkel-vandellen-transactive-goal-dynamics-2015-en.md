@@ -3,12 +3,12 @@ title: "Transactive Goal Dynamics"
 type: source
 tags: [goal-pursuit, self-regulation, dyadic-systems, motivation, action, academic]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 lang: en
 sources: [https://doi.org/10.1037/a0039654, raw/general/fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015.md]
 translation_group: fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: source-summary
 claim_status: [source-attribution]
@@ -26,7 +26,7 @@ caveat_ids: []
 <!-- section:key-point-for-before-we-build -->
 ## Key Point for Before We Build
 
-In close relationships, self-regulation and goal pursuit are not individual intrapsychic functions, but form an interdependent transactive goal system. Partners function as a coupled regulatory unit where goals, volitional effort, and tasks are dynamically allocated across individuals. This provides a direct scientific foundation for BWB's operational level (reconstructed Psychosophy: analysis, synthesis, and agency in action).
+In close relationships, self-regulation and goal pursuit are not individual intrapsychic functions, but form an interdependent transactive goal system. Partners function as a coupled regulatory unit where goals, volitional effort, and tasks are dynamically allocated across individuals. This provides robust conceptual grounding for investigating BWB's operational level (interdependence of regulation, effort allocation, and action organization), while the specific four-aspect partition of Afanasyev remains a BWB research heuristic rather than a direct finding of TGD.
 
 <!-- section:main-content-of-the-article -->
 ## Main Content of the Article
@@ -43,7 +43,7 @@ The authors propose Transactive Goal Dynamics (TGD) theory, advancing relationsh
 
 | Article Finding | BWB Architectural Stance | Epistemic Status |
 |---|---|---|
-| Coupled dyadic self-regulation and goal pooling | Operational frame (Level 3: organizing action, agency, and energy distribution) | Primary scientific framework for operational compatibility |
+| Coupled dyadic self-regulation and goal pooling | Operational frame (Level 3: organizing action, agency, and energy distribution) | Conceptual grounding for dyadic regulation (not proof of aspects) |
 | Independence of goals from relationship quality | Level independence: shared values (L1) do not guarantee harmonious operational goal pursuit (L3) | Core structural confirmation |
 | Coordination failures deplete executive resources | Practical friction in daily logistics reflects system dynamics, not innate character flaws | Crucial heuristic alignment |
 

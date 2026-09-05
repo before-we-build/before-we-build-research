@@ -3,12 +3,12 @@ title: Psychosophy Intertype Relations
 type: relation
 tags: [psychosophy, relations, compatibility, afanasyev, syntax-of-love, agape, philia, eros]
 created: 2026-04-15
-updated: 2026-08-30
+updated: 2026-09-05
 sources: [raw/psychosophy/psychosophy-compatibility-research.md, raw/psychosophy/psychosophy-relation-naming-sources.md, wiki/concepts/afanasyev-syntax-of-love-en.md, wiki/sources/psychosophy-detailed-en.md, wiki/concepts/compatibility-level-boundaries-en.md]
 lang: en
 translation_group: psychosophy-intertype-relations
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: relation
 claim_status: [research-hypothesis]
@@ -22,7 +22,7 @@ caveat_ids: [no-relation-verdict, naming-traditions-not-equivalent, low-empirica
 
 # Psychosophy Intertype Relations
 
-This page describes Psychosophy relations as hypotheses about the **operational organization of joint action**: pressure, confidence, effort, and the handling of Logic, Emotion, Will, and Physics. It does not predict the fate of a relationship.
+This page describes Psychosophy relations as hypotheses about the **operational organization of joint action**: synthesis and analysis dynamics, confidence, pressure, and the allocation of cognitive effort across Logic, Emotion, Will, and Physics. It does not predict the fate of a relationship.
 
 <!-- section:1-status-and-caveat -->
 ## 1. Status and Caveat
@@ -37,23 +37,23 @@ The positions of the same aspects in two people are compared: **L**, **E**, **V*
 <!-- section:2-1-how-the-signature-is-derived -->
 ### 2.1 How the Signature Is Derived
 
-1. Read A's aspects from first through fourth position.
-2. For each aspect, find the position of that same aspect in B.
-3. Record B's positions in A's order.
+1. Read the aspects of A from the first to the fourth position.
+2. For each aspect, find the position of the same aspect in B.
+3. Record the positions of B in the order of A.
 
-For `LEVF → ELVF`, the result is `2134`. The inverse signature can differ, so direction matters.
+For `LEVF → ELVF`, the result is `2134`. The reverse signature may differ, so direction matters.
 
 <!-- section:3-four-classical-models-from-syntax-of-love -->
-## 3. Four Classical Models from *Syntax of Love*
+## 3. Four Classical Models from "Syntax of Love"
 
-| Model | Proposed contact | Possible resource | Possible friction |
+| Model | Hypothesized contact | Possible resource | Possible friction |
 |---|---|---|---|
-| Eros | 1st–3rd cross | strong engagement | pressure on vulnerability |
-| Philia | matching 1st and 3rd | recognition of strong and painful zones | shared limitations |
-| Pseudophilia | 1–2 and 3–4 crosses | surface coordination | deeper mismatch |
-| Agape | 2nd–3rd cross | flexible support for a vulnerable function | dependence or unwanted help |
+| Eros | cross between 1st and 3rd | strong involvement | pressure on vulnerability |
+| Philia | shared 1st and 3rd | recognition of strengths and sensitivities | shared limitations |
+| Pseudophilia | cross between 1–2 and 3–4 | surface alignment | deeper divergence |
+| Agape | cross between 2nd and 3rd | flexible support for vulnerable function | dependency or unwanted help |
 
-Even the classical names are hypotheses about contact, not pair recommendations.
+Even classical names are contact hypotheses, not pair recommendations.
 
 <!-- section:3-1-naming-traditions-beyond-the-four-models -->
 ### 3.1 Naming Traditions Beyond the Four Models
@@ -63,18 +63,20 @@ The Russian technical extension at Typologies.ru/4X_Pro uses the compositions `F
 <!-- section:4-position-contact-principles -->
 ## 4. Position-Contact Principles
 
-| Contact | Possible resource | Possible friction / what to check |
-|---|---|---|
-| 1↔1 | mutual recognition of strength | competition; who has the right to define |
-| 1↔2 | direction plus flexible processing | inequality; whether the role is agreed |
-| 1↔3 | intensity | pressure, shame, defensiveness; whether there is consent |
-| 1↔4 | confident provision | control or dependence |
-| 2↔2 | joint processing | process without closure |
-| 2↔3 | support for vulnerability | intrusive help or dependence |
-| 2↔4 | optional guidance | the topic may not matter to the receiver |
-| 3↔3 | mutual recognition of pain | limited repair resources |
-| 3↔4 | different levels of attention | feeling ignored |
-| 4↔4 | little friction | little initiative |
+In the BWB model, intertype contacts are viewed as interactions between different modes of synthesis and analysis across partners: where one partner provides a holistic outcome (synthesis) while the other requires step-by-step verification (analysis), or delegates closure externally.
+
+| Contact | Synthesis and analysis dynamics | Possible resource | Possible friction / what to check |
+|---|---|---|---|
+| 1↔1 | collision of two closed syntheses | mutual recognition of sovereign strength | competition over who defines the outcome; imposition of closure |
+| 1↔2 | monolithic synthesis and flexible analysis | clear direction with adaptable execution | inequality; whether the first listens to the second's ongoing analysis |
+| 1↔3 | uncompromising synthesis meets anxious micro-analysis | high mobilizing intensity | perceived pressure, invalidation of doubts, defensive reactivity |
+| 1↔4 | direct delivery of synthesis to a receptive receiver | confident provision; cognitive resource conservation | risk of dependency, subordination, or passivity |
+| 2↔2 | open mutual process analysis | comfortable dialogic exploration and co-creation | analysis paralysis, difficulty establishing a firm final closure |
+| 2↔3 | calm exploration of doubts and collaborative support toward closure | gentle validation of doubts, collaborative path to synthesis | overprotection, intrusive assistance, or fostering dependency |
+| 2↔4 | elaborate analysis offered to a low-involvement receiver | gentle, non-imposing guidance | superfluous detail; the receiver may only want a brief result |
+| 3↔3 | resonance between two anxious micro-analyses | deep mutual empathy and shared sensitivity | shared rumination on risks, lack of energy to finalize decisions |
+| 3↔4 | anxious detail-checking alongside indifference to process | functional division of labor if boundaries are clear | the 3rd feels unheeded; the 4th feels overwhelmed by unnecessary detail |
+| 4↔4 | mutual delegation and minimal personal processing | absence of friction, zero power struggle | inertia; the aspect may be neglected in dyadic daily life |
 
 Rival explanations include skill, experience, attachment, power distribution, stress, role norms, and the specific topic under discussion.
 

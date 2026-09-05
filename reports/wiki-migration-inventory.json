@@ -34,7 +34,7 @@
       "historical-proposal": 6,
       "normative-rule": 33,
       "project-definition": 66,
-      "research-hypothesis": 192,
+      "research-hypothesis": 195,
       "source-attribution": 84
     },
     "groups_with_duplicate_locales": 0,
@@ -957,8 +957,8 @@
       "translation_group": "afanasyev-model",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "source-attribution",
         "research-hypothesis",
@@ -1031,14 +1031,7 @@
         },
         {
           "source": "wiki/concepts/psychosophy-functions-en.md",
-          "line": 39,
-          "raw_target": "afanasyev-model-en",
-          "resolved": "wiki/concepts/afanasyev-model-en.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/concepts/psychosophy-functions-en.md",
-          "line": 40,
+          "line": 85,
           "raw_target": "afanasyev-model-en",
           "resolved": "wiki/concepts/afanasyev-model-en.md",
           "ambiguous": []
@@ -1052,14 +1045,14 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 152,
+          "line": 154,
           "raw_target": "afanasyev-model-en",
           "resolved": "wiki/concepts/afanasyev-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 153,
+          "line": 155,
           "raw_target": "afanasyev-model-en",
           "resolved": "wiki/concepts/afanasyev-model-en.md",
           "ambiguous": []
@@ -1117,8 +1110,8 @@
       "translation_group": "afanasyev-model",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "source-attribution",
         "research-hypothesis",
@@ -1191,14 +1184,7 @@
         },
         {
           "source": "wiki/concepts/psychosophy-functions-ru.md",
-          "line": 39,
-          "raw_target": "afanasyev-model-ru",
-          "resolved": "wiki/concepts/afanasyev-model-ru.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/concepts/psychosophy-functions-ru.md",
-          "line": 40,
+          "line": 85,
           "raw_target": "afanasyev-model-ru",
           "resolved": "wiki/concepts/afanasyev-model-ru.md",
           "ambiguous": []
@@ -1212,14 +1198,14 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 152,
+          "line": 154,
           "raw_target": "afanasyev-model-ru",
           "resolved": "wiki/concepts/afanasyev-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 153,
+          "line": 155,
           "raw_target": "afanasyev-model-ru",
           "resolved": "wiki/concepts/afanasyev-model-ru.md",
           "ambiguous": []
@@ -1277,8 +1263,8 @@
       "translation_group": "afanasyev-model",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "source-attribution",
         "research-hypothesis",
@@ -1351,14 +1337,7 @@
         },
         {
           "source": "wiki/concepts/psychosophy-functions-uk.md",
-          "line": 39,
-          "raw_target": "afanasyev-model-uk",
-          "resolved": "wiki/concepts/afanasyev-model-uk.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/concepts/psychosophy-functions-uk.md",
-          "line": 40,
+          "line": 85,
           "raw_target": "afanasyev-model-uk",
           "resolved": "wiki/concepts/afanasyev-model-uk.md",
           "ambiguous": []
@@ -1372,14 +1351,14 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 152,
+          "line": 154,
           "raw_target": "afanasyev-model-uk",
           "resolved": "wiki/concepts/afanasyev-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 153,
+          "line": 155,
           "raw_target": "afanasyev-model-uk",
           "resolved": "wiki/concepts/afanasyev-model-uk.md",
           "ambiguous": []
@@ -1475,6 +1454,13 @@
           "raw_target": "wiki/concepts/afanasyev-resource-distribution-model-en.md",
           "resolved": "wiki/concepts/afanasyev-resource-distribution-model-en.md",
           "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-en.md",
+          "line": 86,
+          "raw_target": "afanasyev-resource-distribution-model-en",
+          "resolved": "wiki/concepts/afanasyev-resource-distribution-model-en.md",
+          "ambiguous": []
         }
       ],
       "outbound_links": [
@@ -1544,6 +1530,13 @@
           "source": "index.md",
           "line": 30,
           "raw_target": "wiki/concepts/afanasyev-resource-distribution-model-ru.md",
+          "resolved": "wiki/concepts/afanasyev-resource-distribution-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-ru.md",
+          "line": 86,
+          "raw_target": "afanasyev-resource-distribution-model-ru",
           "resolved": "wiki/concepts/afanasyev-resource-distribution-model-ru.md",
           "ambiguous": []
         }
@@ -1617,6 +1610,13 @@
           "raw_target": "wiki/concepts/afanasyev-resource-distribution-model-uk.md",
           "resolved": "wiki/concepts/afanasyev-resource-distribution-model-uk.md",
           "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-uk.md",
+          "line": 86,
+          "raw_target": "afanasyev-resource-distribution-model-uk",
+          "resolved": "wiki/concepts/afanasyev-resource-distribution-model-uk.md",
+          "ambiguous": []
         }
       ],
       "outbound_links": [
@@ -1676,7 +1676,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 154,
+          "line": 156,
           "raw_target": "afanasyev-syntax-of-love-en",
           "resolved": "wiki/concepts/afanasyev-syntax-of-love-en.md",
           "ambiguous": []
@@ -1732,7 +1732,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 154,
+          "line": 156,
           "raw_target": "afanasyev-syntax-of-love-ru",
           "resolved": "wiki/concepts/afanasyev-syntax-of-love-ru.md",
           "ambiguous": []
@@ -1788,7 +1788,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 154,
+          "line": 156,
           "raw_target": "afanasyev-syntax-of-love-uk",
           "resolved": "wiki/concepts/afanasyev-syntax-of-love-uk.md",
           "ambiguous": []
@@ -4042,7 +4042,7 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-en.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -4855,7 +4855,7 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-ru.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
@@ -5668,7 +5668,7 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-uk.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
@@ -15217,8 +15217,8 @@
       "translation_group": "operational-compatibility",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -15299,6 +15299,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/psychosophy-functions-en.md",
+          "line": 87,
+          "raw_target": "operational-compatibility-en",
+          "resolved": "wiki/concepts/operational-compatibility-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/strategic-compatibility-en.md",
           "line": 113,
           "raw_target": "operational-compatibility-en",
@@ -15330,14 +15337,14 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-en.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/operational-compatibility-en.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "tactical-compatibility-en",
           "resolved": "wiki/concepts/tactical-compatibility-en.md",
           "ambiguous": []
@@ -15351,8 +15358,8 @@
       "translation_group": "operational-compatibility",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -15433,6 +15440,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/psychosophy-functions-ru.md",
+          "line": 87,
+          "raw_target": "operational-compatibility-ru",
+          "resolved": "wiki/concepts/operational-compatibility-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/strategic-compatibility-ru.md",
           "line": 113,
           "raw_target": "operational-compatibility-ru",
@@ -15464,14 +15478,14 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-ru.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "compatibility-level-boundaries-ru",
           "resolved": "wiki/concepts/compatibility-level-boundaries-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/operational-compatibility-ru.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "tactical-compatibility-ru",
           "resolved": "wiki/concepts/tactical-compatibility-ru.md",
           "ambiguous": []
@@ -15485,8 +15499,8 @@
       "translation_group": "operational-compatibility",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
@@ -15567,6 +15581,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/psychosophy-functions-uk.md",
+          "line": 87,
+          "raw_target": "operational-compatibility-uk",
+          "resolved": "wiki/concepts/operational-compatibility-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/concepts/strategic-compatibility-uk.md",
           "line": 113,
           "raw_target": "operational-compatibility-uk",
@@ -15598,14 +15619,14 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-uk.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "compatibility-level-boundaries-uk",
           "resolved": "wiki/concepts/compatibility-level-boundaries-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/operational-compatibility-uk.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "tactical-compatibility-uk",
           "resolved": "wiki/concepts/tactical-compatibility-uk.md",
           "ambiguous": []
@@ -16669,20 +16690,30 @@
       "translation_group": "psychosophy-functions",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
-      "claims": {},
-      "caveat_ids": [],
+      "claims": {
+        "psychosophy-functions-model-resource-allocation": "research-hypothesis"
+      },
+      "caveat_ids": [
+        "not-competence",
+        "context-required"
+      ],
       "sources": [
-        "before-we-build/Psyche-Yoga"
+        "before-we-build/Psyche-Yoga",
+        "raw/psychosophy"
       ],
       "section_ids": [
         "overview",
+        "two-modes-in-each-aspect",
         "function-expression-levels",
+        "interpersonal-dynamics",
+        "shared-example",
+        "creationist-complementarity",
         "see-also"
       ],
       "inbound_links": [
@@ -16732,16 +16763,30 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/psychosophy-functions-en.md",
-          "line": 39,
+          "line": 85,
           "raw_target": "afanasyev-model-en",
           "resolved": "wiki/concepts/afanasyev-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/psychosophy-functions-en.md",
-          "line": 40,
-          "raw_target": "afanasyev-model-en",
-          "resolved": "wiki/concepts/afanasyev-model-en.md",
+          "line": 86,
+          "raw_target": "afanasyev-resource-distribution-model-en",
+          "resolved": "wiki/concepts/afanasyev-resource-distribution-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-en.md",
+          "line": 87,
+          "raw_target": "operational-compatibility-en",
+          "resolved": "wiki/concepts/operational-compatibility-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-en.md",
+          "line": 88,
+          "raw_target": "psychosophy-intertype-relations-en",
+          "resolved": "wiki/relations/psychosophy-intertype-relations-en.md",
           "ambiguous": []
         }
       ]
@@ -16753,20 +16798,30 @@
       "translation_group": "psychosophy-functions",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
-      "claims": {},
-      "caveat_ids": [],
+      "claims": {
+        "psychosophy-functions-model-resource-allocation": "research-hypothesis"
+      },
+      "caveat_ids": [
+        "not-competence",
+        "context-required"
+      ],
       "sources": [
-        "before-we-build/Psyche-Yoga"
+        "before-we-build/Psyche-Yoga",
+        "raw/psychosophy"
       ],
       "section_ids": [
         "overview",
+        "two-modes-in-each-aspect",
         "function-expression-levels",
+        "interpersonal-dynamics",
+        "shared-example",
+        "creationist-complementarity",
         "see-also"
       ],
       "inbound_links": [
@@ -16809,16 +16864,30 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/psychosophy-functions-ru.md",
-          "line": 39,
+          "line": 85,
           "raw_target": "afanasyev-model-ru",
           "resolved": "wiki/concepts/afanasyev-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/psychosophy-functions-ru.md",
-          "line": 40,
-          "raw_target": "afanasyev-model-ru",
-          "resolved": "wiki/concepts/afanasyev-model-ru.md",
+          "line": 86,
+          "raw_target": "afanasyev-resource-distribution-model-ru",
+          "resolved": "wiki/concepts/afanasyev-resource-distribution-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-ru.md",
+          "line": 87,
+          "raw_target": "operational-compatibility-ru",
+          "resolved": "wiki/concepts/operational-compatibility-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-ru.md",
+          "line": 88,
+          "raw_target": "psychosophy-intertype-relations-ru",
+          "resolved": "wiki/relations/psychosophy-intertype-relations-ru.md",
           "ambiguous": []
         }
       ]
@@ -16830,20 +16899,30 @@
       "translation_group": "psychosophy-functions",
       "document_status": "active",
       "page_role": "explanation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "project-definition",
         "research-hypothesis"
       ],
-      "claims": {},
-      "caveat_ids": [],
+      "claims": {
+        "psychosophy-functions-model-resource-allocation": "research-hypothesis"
+      },
+      "caveat_ids": [
+        "not-competence",
+        "context-required"
+      ],
       "sources": [
-        "before-we-build/Psyche-Yoga"
+        "before-we-build/Psyche-Yoga",
+        "raw/psychosophy"
       ],
       "section_ids": [
         "overview",
+        "two-modes-in-each-aspect",
         "function-expression-levels",
+        "interpersonal-dynamics",
+        "shared-example",
+        "creationist-complementarity",
         "see-also"
       ],
       "inbound_links": [
@@ -16886,16 +16965,30 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/psychosophy-functions-uk.md",
-          "line": 39,
+          "line": 85,
           "raw_target": "afanasyev-model-uk",
           "resolved": "wiki/concepts/afanasyev-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/psychosophy-functions-uk.md",
-          "line": 40,
-          "raw_target": "afanasyev-model-uk",
-          "resolved": "wiki/concepts/afanasyev-model-uk.md",
+          "line": 86,
+          "raw_target": "afanasyev-resource-distribution-model-uk",
+          "resolved": "wiki/concepts/afanasyev-resource-distribution-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-uk.md",
+          "line": 87,
+          "raw_target": "operational-compatibility-uk",
+          "resolved": "wiki/concepts/operational-compatibility-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/psychosophy-functions-uk.md",
+          "line": 88,
+          "raw_target": "psychosophy-intertype-relations-uk",
+          "resolved": "wiki/relations/psychosophy-intertype-relations-uk.md",
           "ambiguous": []
         }
       ]
@@ -24175,7 +24268,7 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-en.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "tactical-compatibility-en",
           "resolved": "wiki/concepts/tactical-compatibility-en.md",
           "ambiguous": []
@@ -24319,7 +24412,7 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-ru.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "tactical-compatibility-ru",
           "resolved": "wiki/concepts/tactical-compatibility-ru.md",
           "ambiguous": []
@@ -24463,7 +24556,7 @@
         },
         {
           "source": "wiki/concepts/operational-compatibility-uk.md",
-          "line": 113,
+          "line": 133,
           "raw_target": "tactical-compatibility-uk",
           "resolved": "wiki/concepts/tactical-compatibility-uk.md",
           "ambiguous": []
@@ -59171,8 +59264,8 @@
       "translation_group": "psychosophy-intertype-relations",
       "document_status": "active",
       "page_role": "relation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -59227,6 +59320,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/psychosophy-functions-en.md",
+          "line": 88,
+          "raw_target": "psychosophy-intertype-relations-en",
+          "resolved": "wiki/relations/psychosophy-intertype-relations-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/psychosophy-overview-en.md",
           "line": 96,
           "raw_target": "psychosophy-intertype-relations-en",
@@ -59251,35 +59351,35 @@
       "outbound_links": [
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 152,
-          "raw_target": "afanasyev-model-en",
-          "resolved": "wiki/concepts/afanasyev-model-en.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 153,
-          "raw_target": "afanasyev-model-en",
-          "resolved": "wiki/concepts/afanasyev-model-en.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/relations/psychosophy-intertype-relations-en.md",
           "line": 154,
+          "raw_target": "afanasyev-model-en",
+          "resolved": "wiki/concepts/afanasyev-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/relations/psychosophy-intertype-relations-en.md",
+          "line": 155,
+          "raw_target": "afanasyev-model-en",
+          "resolved": "wiki/concepts/afanasyev-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/relations/psychosophy-intertype-relations-en.md",
+          "line": 156,
           "raw_target": "afanasyev-syntax-of-love-en",
           "resolved": "wiki/concepts/afanasyev-syntax-of-love-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 155,
+          "line": 157,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 156,
+          "line": 158,
           "raw_target": "socionics-intertype-relations-en",
           "resolved": "wiki/relations/socionics-intertype-relations-en.md",
           "ambiguous": []
@@ -59293,8 +59393,8 @@
       "translation_group": "psychosophy-intertype-relations",
       "document_status": "active",
       "page_role": "relation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -59349,6 +59449,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/psychosophy-functions-ru.md",
+          "line": 88,
+          "raw_target": "psychosophy-intertype-relations-ru",
+          "resolved": "wiki/relations/psychosophy-intertype-relations-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/psychosophy-overview-ru.md",
           "line": 96,
           "raw_target": "psychosophy-intertype-relations-ru",
@@ -59380,35 +59487,35 @@
       "outbound_links": [
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 152,
-          "raw_target": "afanasyev-model-ru",
-          "resolved": "wiki/concepts/afanasyev-model-ru.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 153,
-          "raw_target": "afanasyev-model-ru",
-          "resolved": "wiki/concepts/afanasyev-model-ru.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
           "line": 154,
+          "raw_target": "afanasyev-model-ru",
+          "resolved": "wiki/concepts/afanasyev-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
+          "line": 155,
+          "raw_target": "afanasyev-model-ru",
+          "resolved": "wiki/concepts/afanasyev-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
+          "line": 156,
           "raw_target": "afanasyev-syntax-of-love-ru",
           "resolved": "wiki/concepts/afanasyev-syntax-of-love-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 155,
+          "line": 157,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 156,
+          "line": 158,
           "raw_target": "socionics-intertype-relations-ru",
           "resolved": "wiki/relations/socionics-intertype-relations-ru.md",
           "ambiguous": []
@@ -59422,8 +59529,8 @@
       "translation_group": "psychosophy-intertype-relations",
       "document_status": "active",
       "page_role": "relation",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "research-hypothesis"
       ],
@@ -59478,6 +59585,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/concepts/psychosophy-functions-uk.md",
+          "line": 88,
+          "raw_target": "psychosophy-intertype-relations-uk",
+          "resolved": "wiki/relations/psychosophy-intertype-relations-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/entities/psychosophy-overview-uk.md",
           "line": 96,
           "raw_target": "psychosophy-intertype-relations-uk",
@@ -59509,35 +59623,35 @@
       "outbound_links": [
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 152,
-          "raw_target": "afanasyev-model-uk",
-          "resolved": "wiki/concepts/afanasyev-model-uk.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 153,
-          "raw_target": "afanasyev-model-uk",
-          "resolved": "wiki/concepts/afanasyev-model-uk.md",
-          "ambiguous": []
-        },
-        {
-          "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
           "line": 154,
+          "raw_target": "afanasyev-model-uk",
+          "resolved": "wiki/concepts/afanasyev-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
+          "line": 155,
+          "raw_target": "afanasyev-model-uk",
+          "resolved": "wiki/concepts/afanasyev-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
+          "line": 156,
           "raw_target": "afanasyev-syntax-of-love-uk",
           "resolved": "wiki/concepts/afanasyev-syntax-of-love-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 155,
+          "line": 157,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 156,
+          "line": 158,
           "raw_target": "socionics-intertype-relations-uk",
           "resolved": "wiki/relations/socionics-intertype-relations-uk.md",
           "ambiguous": []
@@ -59651,7 +59765,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 156,
+          "line": 158,
           "raw_target": "socionics-intertype-relations-en",
           "resolved": "wiki/relations/socionics-intertype-relations-en.md",
           "ambiguous": []
@@ -59795,7 +59909,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 156,
+          "line": 158,
           "raw_target": "socionics-intertype-relations-ru",
           "resolved": "wiki/relations/socionics-intertype-relations-ru.md",
           "ambiguous": []
@@ -59946,7 +60060,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 156,
+          "line": 158,
           "raw_target": "socionics-intertype-relations-uk",
           "resolved": "wiki/relations/socionics-intertype-relations-uk.md",
           "ambiguous": []
@@ -60098,7 +60212,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-en.md",
-          "line": 155,
+          "line": 157,
           "raw_target": "temporistics-intertype-relations-en",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
@@ -60207,7 +60321,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-ru.md",
-          "line": 155,
+          "line": 157,
           "raw_target": "temporistics-intertype-relations-ru",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
@@ -60323,7 +60437,7 @@
         },
         {
           "source": "wiki/relations/psychosophy-intertype-relations-uk.md",
-          "line": 155,
+          "line": 157,
           "raw_target": "temporistics-intertype-relations-uk",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
@@ -62456,8 +62570,8 @@
       "translation_group": "fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015",
       "document_status": "active",
       "page_role": "source-summary",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "source-attribution"
       ],
@@ -62549,8 +62663,8 @@
       "translation_group": "fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015",
       "document_status": "active",
       "page_role": "source-summary",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "source-attribution"
       ],
@@ -62642,8 +62756,8 @@
       "translation_group": "fitzsimons-finkel-vandellen-transactive-goal-dynamics-2015",
       "document_status": "active",
       "page_role": "source-summary",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "source-attribution"
       ],
