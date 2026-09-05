@@ -50,5 +50,8 @@ jobs:
       - name: Lint OpenCode agent manifests
         run: python3 scripts/lint-agents.py --static-only
 
+      - name: Verify scientific narrative readability
+        run: python3 scripts/check_scientific_narrative.py --strict
+
       - name: Check whitespace errors
         run: git diff --check
