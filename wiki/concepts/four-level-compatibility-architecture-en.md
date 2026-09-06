@@ -3,7 +3,7 @@ title: Four-Level Compatibility Architecture
 type: concept
 tags: [compatibility, architecture, universal-core]
 created: 2026-07-26
-updated: 2026-09-05
+updated: 2026-09-06
 lang: en
 translation_group: four-level-compatibility-architecture
 semantic_version: 4
@@ -29,59 +29,65 @@ English · [[four-level-compatibility-architecture-ru|Русский]] · [[four
 <!-- section:in-90-seconds -->
 ## In 90 seconds
 
-Before We Build separates four questions that are easily confused: what should govern a shared undertaking, where it is going, how people act together, and how they exchange information. The first is a non-typological foundation; the other three use typologies as research hypotheses.
+When two people disagree about a shared decision, it helps to ask what the disagreement concerns. What is acceptable? The future? The division of work? Or how each person understood the situation?
 
-Their types are model hypotheses about perception and experience organization, not personality types. See [[typology-reconceptualization-en]].
+Before We Build calls these four groups of questions levels of compatibility. Values, commitments, and safety form the foundation. For the other three levels, the project investigates whether typologies may help. Their types are hypotheses about perception and experience organization, not personality types. Read more about [[typology-reconceptualization-en|the reinterpretation of typologies]].
 
 <!-- section:definition-and-scope -->
-## Definition and scope
+## How the map works
 
-| Level | Basis | Proposed process | Core question |
-|---|---|---|---|
-| Value-moral foundation | worldview, commitments, conduct, consent, safety | values, obligations, responsibility, reciprocity, repair | What should govern what we build? |
-| Strategic | Temporistics | structuring temporal and existential experience | Where are we going and how is continuity understood? |
-| Operational | Psychosophy | analysis and synthesis in action | How do we decide and carry action together? |
-| Tactical | Socionics | information modelling | How do we notice, interpret, exchange, and repair information? |
+| Level | What we consider | Core question |
+|---|---|---|
+| Value-moral foundation | worldview, commitments, conduct, consent, and safety; values, obligations, responsibility, reciprocity, and relationship repair | Which commitments and boundaries should guide our shared undertaking? |
+| Strategic | organizing the experience of time and the meaning of one’s life; the proposed model is Temporistics | Where are we going, and how do we connect past, present, and future? |
+| Operational | analysis and synthesis in action; the proposed model is Psychosophy | How do we make decisions and act together? |
+| Tactical | forming a picture of a situation from information; the proposed model is Socionics | What do we notice, and how do we interpret, communicate, and correct it? |
+
+The first level sets moral commitments and boundaries: it is not a typology. Models at the other levels are used to investigate proposed internal processes.
 
 <!-- section:shared-example -->
-## Shared example
+## Example: deciding to move
 
-For a relocation, the foundation asks which obligations and boundaries apply; strategy asks how the move fits a shared life direction; operations asks who decides and does what; tactics asks how risks, options, and corrections are communicated.
+Two people want to move to another city. One helps an elderly relative: how will that help continue, and which commitments must be honoured? This is a question about the foundation.
+
+How they imagine their future after the move concerns strategy. Who looks for housing, checks costs, and makes decisions concerns joint action. How they tell each other about options and risks, spot mistakes, and clarify information concerns their work with information.
 
 <!-- section:observations -->
 ## What can be observed
 
-Commitments, conduct, plans, decisions, task allocation, information exchange, and outcomes are observable. The level classification is an analytic choice meant to clarify, not a claim that life arrives pre-divided.
+We can see conduct and outcomes, hear commitments and plans, and follow decisions, task allocation, and information exchange. Assigning these observations to four levels helps organize the inquiry. It does not mean that life itself is divided in exactly this way.
 
 <!-- section:hypotheses -->
-## What remains a hypothesis
+## What still needs testing
 
-The architecture may improve questions by separating mechanisms. Whether the typological models validly represent each proposed process and predict pair outcomes is unestablished.
+Separating different possible causes of disagreement may help people ask more precise questions. But it has not been established whether typologies accurately describe the proposed processes or can predict outcomes for two people interacting.
 
 <!-- section:alternatives -->
-## Alternative explanations
+## What affects several levels at once
 
-Legal, financial, cultural, developmental, health, trauma, attachment, skill, and power factors cross levels. They must remain explicit rather than being forced into a typology.
+Law, money, culture, age, health, trauma, attachment, skills, and unequal power may affect any of these questions. They need to be considered directly, rather than explained through a person’s type.
 
 <!-- section:non-inferences -->
-## What must not be inferred
+## Limits of the map
 
-The framework does not prove that compatibility has exactly four natural layers. Agreement at one level does not imply agreement at another. No combination overrides a safety failure.
+The project does not prove that compatibility has exactly four natural layers. Agreement about the future does not guarantee agreement about work or values. No favourable combination justifies coercion or removes a threat to safety.
 
 <!-- section:conversation-questions -->
 ## Questions for conversation
 
-- Which of the four questions are we answering?
-- Are several levels being collapsed into one word?
-- Which contextual constraint changes the answer?
-- Is safety being treated as negotiable compatibility?
+- Which of the four questions are we answering now?
+- Are we using one word for several different disagreements?
+- What circumstances change our answer?
+- Are we asking anyone to sacrifice safety for the shared undertaking?
 
 <!-- section:researcher-route -->
-## For a researcher
+## How to test whether it helps
 
-Test incremental value: compare the four-level formulation with simpler models and assess whether level-specific indicators predict distinct, named outcomes.
+Compare this map with simpler explanations. Name in advance the outcomes you want to predict and the observable indicators for each level. Then test whether indicators from different levels predict different outcomes, and whether the map adds anything beyond simpler models.
 
 <!-- section:next-reading -->
-## Next reading
+## Where to go next
 
-Read [[compatibility-level-boundaries-en]], then the four level pages beginning with [[value-moral-compatibility-en]]. For the historical route, continue to [[human-compatibility-history-en]].
+Read [[compatibility-level-boundaries-en|how to distinguish the levels]]. Then explore each one, starting with the [[value-moral-compatibility-en|value-moral foundation]].
+
+For the historical route, read [[human-compatibility-history-en|the history of compatibility ideas]].

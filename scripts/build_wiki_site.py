@@ -101,6 +101,7 @@ def render_markdown_to_html(
     current_lang: str,
     slug_map: dict[str, str],
     wiki_root_prefix: str = "./",
+    title_map: dict[str, str] | None = None,
 ) -> tuple[str, list[dict[str, str]]]:
     """Lightweight, resilient Markdown to semantic HTML renderer with Wikilink & Callout support."""
     lines = md_text.splitlines()
@@ -135,11 +136,10 @@ def render_markdown_to_html(
             if "|" in raw:
                 target, label = raw.split("|", 1)
             else:
-                target, label = raw, raw
+                target, label = raw, (title_map or {}).get(raw, raw)
             target_clean = target.strip()
             dest_url = slug_map.get(target_clean, f"{target_clean}.html")
-            href = f"{wiki_root_prefix}{dest_url}"
-            return f'<a class="wiki-link" href="{html.escape(href)}">{html.escape(label.strip())}</a>'
+            return f'<a class="wiki-link" href="{html.escape(wiki_root_prefix + dest_url)}">{html.escape(label.strip())}</a>'
 
         s = re.sub(r"\[\[([^\]]+)\]\]", replace_wikilink, s)
 
@@ -256,6 +256,24 @@ def render_markdown_to_html(
             i += 1
             continue
 
+        # Ordered lists preserve the sequence of instructions.
+        ordered = re.match(r"^(\d+)[.)]\s+(.+)$", stripped)
+        if ordered:
+            close_open_structures()
+            html_out.append(f'<ol start="{int(ordered.group(1))}">')
+            while i < len(lines):
+                item = re.match(r"^\d+[.)]\s+(.+)$", lines[i].strip())
+                if not item:
+                    break
+                item_parts = [item.group(1)]
+                i += 1
+                while i < len(lines) and lines[i].startswith("  ") and lines[i].strip():
+                    item_parts.append(lines[i].strip())
+                    i += 1
+                html_out.append(f"<li>{transform_inline(' '.join(item_parts))}</li>")
+            html_out.append("</ol>")
+            continue
+
         # Unordered list item
         if stripped.startswith("- ") or stripped.startswith("* "):
             if in_table:
@@ -264,14 +282,29 @@ def render_markdown_to_html(
                 in_list = True
                 html_out.append("<ul>")
             item_text = stripped[2:].strip()
-            html_out.append(f"<li>{transform_inline(item_text)}</li>")
             i += 1
+            item_parts = [item_text]
+            while i < len(lines) and lines[i].startswith("  ") and lines[i].strip():
+                if lines[i].strip().startswith(("- ", "* ")):
+                    break
+                item_parts.append(lines[i].strip())
+                i += 1
+            html_out.append(f"<li>{transform_inline(' '.join(item_parts))}</li>")
             continue
 
         # Paragraph
         close_open_structures()
-        html_out.append(f"<p>{transform_inline(stripped)}</p>")
+        paragraph = [stripped]
         i += 1
+        while i < len(lines):
+            following = lines[i].strip()
+            if (not following or following.startswith(("#", ">", "```", "<!--", "- ", "* "))
+                    or re.match(r"^\d+[.)]\s", following)
+                    or following.startswith("|") or following.endswith("|")):
+                break
+            paragraph.append(following)
+            i += 1
+        html_out.append(f"<p>{transform_inline(' '.join(paragraph))}</p>")
 
     close_open_structures()
     return "\n".join(html_out), toc
@@ -290,11 +323,12 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
 
     # Build slug map and translation groups
     slug_map: dict[str, str] = {}
+    title_map = {page.path.stem: page.title for page in pages}
     groups: dict[str, dict[str, WikiPage]] = {}
 
     for page in pages:
         stem = page.path.stem
-        rel_html = f"{page.path.parent.name}/{stem}.html" if page.path.parent.name in WIKI_SECTION_DIRS else f"{stem}.html"
+        rel_html = f"{page.path.parent.name}/{stem}.html" if page.path.parent.name in ("concepts", "entities", "relations", "sources") else f"{stem}.html"
         slug_map[stem] = rel_html
         
         group_id = page.translation_group
@@ -319,7 +353,7 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
             if l in group_peers:
                 peer_page = group_peers[l]
                 peer_url = slug_to_url(peer_page.path.stem)
-                if peer_page.path.parent.name in WIKI_SECTION_DIRS:
+                if peer_page.path.parent.name in ("concepts", "entities", "relations", "sources"):
                     peer_url = f"{peer_page.path.parent.name}/{peer_page.path.stem}.html"
                 active_cls = ' class="active"' if l == lang else ''
                 lang_links.append(f'<a href="{depth}{peer_url}"{active_cls}>{l.upper()}</a>')
@@ -332,7 +366,7 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
         toc_html = ""
         if toc:
             toc_items = "".join(f'<li class="toc-level-{t["level"]}"><a href="#{t["id"]}">{html.escape(t["title"])}</a></li>' for t in toc)
-            toc_html = f'<nav class="page-toc"><h4>{dict_i18n["toc"]}</h4><ul>{toc_items}</ul></nav>'
+            toc_html = f'<details class="page-toc"><summary>{dict_i18n["toc"]}</summary><nav><ul>{toc_items}</ul></nav></details>'
 
         # Metadata badges
         meta_badges = []
@@ -382,18 +416,18 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
           <div class="sidebar-section">
             <div class="sidebar-heading">{dict_i18n["categories"]["concepts"]}</div>
             <ul>
-              <li><a href="{depth}concepts/latent-process-{lang}.html">Latent Process</a></li>
-              <li><a href="{depth}concepts/four-level-compatibility-architecture-{lang}.html">Four Levels</a></li>
-              <li><a href="{depth}concepts/temporistics-model-{lang}.html">Temporistics</a></li>
-              <li><a href="{depth}concepts/psychosophy-functions-{lang}.html">Psychosophy</a></li>
-              <li><a href="{depth}concepts/socionics-reality-modeling-{lang}.html">Socionics</a></li>
+              <li><a href="{depth}concepts/latent-process-{lang}.html">{html.escape(title_map["latent-process-" + lang])}</a></li>
+              <li><a href="{depth}concepts/four-level-compatibility-architecture-{lang}.html">{html.escape(title_map["four-level-compatibility-architecture-" + lang])}</a></li>
+              <li><a href="{depth}concepts/strategic-compatibility-{lang}.html">{html.escape(title_map["strategic-compatibility-" + lang])}</a></li>
+              <li><a href="{depth}concepts/operational-compatibility-{lang}.html">{html.escape(title_map["operational-compatibility-" + lang])}</a></li>
+              <li><a href="{depth}concepts/tactical-compatibility-{lang}.html">{html.escape(title_map["tactical-compatibility-" + lang])}</a></li>
             </ul>
           </div>
           <div class="sidebar-section">
             <div class="sidebar-heading">{dict_i18n["categories"]["glossary"]}</div>
             <ul>
-              <li><a href="{depth}glossary-core-{lang}.html">Glossary Core</a></li>
-              <li><a href="{depth}glossary-extended-{lang}.html">Glossary Extended</a></li>
+              <li><a href="{depth}glossary-core-{lang}.html">{html.escape(title_map["glossary-core-" + lang])}</a></li>
+              <li><a href="{depth}glossary-extended-{lang}.html">{html.escape(title_map["glossary-extended-" + lang])}</a></li>
             </ul>
           </div>
         </div>
@@ -433,12 +467,9 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
 
     # Generate each page
     for page in pages:
-        body_html, toc = render_markdown_to_html(
-            page.body,
-            page.language or "uk",
-            slug_map,
-            wiki_root_href(page.path),
-        )
+        depth = wiki_root_href(page.path)
+        body = re.sub(r"^# [^\n]+\n?", "", page.body, count=1, flags=re.MULTILINE)
+        body_html, toc = render_markdown_to_html(body, page.language or "uk", slug_map, wiki_root_prefix=depth, title_map=title_map)
         full_html = render_full_page(page, body_html, toc)
         
         target_path = output_dir / slug_map[page.path.stem]
@@ -485,7 +516,8 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
 
     <div class="wiki-hub-hero">
       <h1>База знань Before We Build</h1>
-      <p class="lead">Дослідницький простір, онтологія 4 рівнів сумісності, розбір латентних процесів та практичні питання для діалогу пар.</p>
+      <p class="lead">Як двом людям домовлятися, приймати рішення та робити спільну справу? Почніть із прикладів і питань для розмови. Типологічні пояснення тут — гіпотези, які потребують перевірки.</p>
+      <p><a href="start-here-uk.html">Почати тут</a> · <a href="start-here-ru.html">Начать здесь</a> · <a href="start-here-en.html">Start here</a></p>
       <div class="search-box hub-search">
         <input type="search" id="wikiSearchInput" placeholder="Пошук по всій базі знань (поняття, типи, шкали)..." />
         <div id="searchResults" class="search-dropdown" hidden></div>
@@ -497,7 +529,7 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
         <div class="hub-card">
           <div class="hub-icon">🧭</div>
           <h2>4 Рівні сумісності</h2>
-          <p>Ціннісно-моральний фундамент, Темпористика, Психософія та Соціоніка як моделі латентних процесів.</p>
+          <p>Що для нас неприпустимо? Куди ми йдемо? Як діємо разом і розуміємо одне одного? Чотири групи питань, які допомагають розібратися в розбіжностях.</p>
           <a href="concepts/four-level-compatibility-architecture-uk.html" class="hub-link">Читати розділ →</a>
         </div>
 
@@ -505,21 +537,21 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
           <div class="hub-icon">⏳</div>
           <h2>Темпористика</h2>
           <p>Сприйняття часу, синхронізація планів, бачення минулого, теперішнього, майбутнього та вічності.</p>
-          <a href="concepts/temporistics-model-uk.html" class="hub-link">Читати розділ →</a>
+          <a href="concepts/strategic-compatibility-uk.html" class="hub-link">Читати розділ →</a>
         </div>
 
         <div class="hub-card">
           <div class="hub-icon">⚡</div>
           <h2>Психософія</h2>
-          <p>Організація енергії та дій: Фізика, Логіка, Воля, Емоція. Ролі 1–4 позицій без ярликів.</p>
-          <a href="concepts/psychosophy-functions-uk.html" class="hub-link">Читати розділ →</a>
+          <p>Як ми обговорюємо рішення, розподіляємо завдання й переходимо до дії? Знайомство з психософією як однією з дослідницьких гіпотез.</p>
+          <a href="concepts/operational-compatibility-uk.html" class="hub-link">Читати розділ →</a>
         </div>
 
         <div class="hub-card">
           <div class="hub-icon">🧩</div>
           <h2>Соціоніка</h2>
-          <p>Інформаційний фрейм та моделювання реальності. 8 операцій і позиційні ролі Моделі А.</p>
-          <a href="concepts/socionics-reality-modeling-uk.html" class="hub-link">Читати розділ →</a>
+          <p>Чому в одній ситуації ми помічаємо різне? Як уточнюємо своє розуміння? Соціоніка пропонує гіпотези для таких запитань.</p>
+          <a href="concepts/tactical-compatibility-uk.html" class="hub-link">Читати розділ →</a>
         </div>
 
         <div class="hub-card">
@@ -539,7 +571,7 @@ def build_site(output_dir: Path = DEFAULT_OUTPUT_DIR):
     </main>
 
     <footer class="footer">
-      <a href="../index.html">← До тестів Before We Build</a> · типові характери, не типи людини
+      <a href="../index.html">← До тестів Before We Build</a> · питання для розмови та дослідження
     </footer>
 
     <script src="wiki-search.js"></script>
@@ -666,6 +698,7 @@ WIKI_CSS = """
 
 .article-layout {
   display: flex;
+  flex-direction: column;
   gap: 32px;
 }
 
@@ -674,7 +707,12 @@ WIKI_CSS = """
   min-width: 0;
   font-size: 1.05rem;
   line-height: 1.7;
+  max-width: 72ch;
+  overflow-wrap: anywhere;
 }
+
+.article-body p { margin: 0 0 1.1em; }
+.article-body li { margin-bottom: 0.5em; }
 
 .article-body h2 {
   font-size: 1.5rem;
@@ -706,23 +744,25 @@ h3:hover .anchor-link {
 }
 
 .page-toc {
-  flex: 0 0 220px;
-  position: sticky;
-  top: 32px;
-  align-self: flex-start;
+  order: -1;
+  width: 100%;
+  box-sizing: border-box;
   font-size: 0.85rem;
   background: var(--surface-soft);
   padding: 16px;
   border-radius: var(--radius-md);
 }
 
-.page-toc h4 {
+.page-toc summary {
+  cursor: pointer;
+  font-weight: 600;
   margin: 0 0 10px 0;
   font-size: 0.9rem;
   color: var(--primary-dark);
 }
 
 .page-toc ul {
+  columns: 2 16rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -955,6 +995,7 @@ th {
     flex-direction: column;
   }
   .wiki-sidebar {
+    flex-basis: auto;
     position: static;
     height: auto;
     border-right: none;

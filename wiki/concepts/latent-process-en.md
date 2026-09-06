@@ -3,7 +3,7 @@ title: Latent Process
 type: concept
 tags: [latent-process, methodology, inference]
 created: 2026-04-24
-updated: 2026-08-30
+updated: 2026-09-06
 lang: en
 translation_group: latent-process
 semantic_version: 3
@@ -29,52 +29,67 @@ English · [[latent-process-ru|Русский]] · [[latent-process-uk|Укра�
 <!-- section:in-90-seconds -->
 ## In 90 seconds
 
-A latent process is a proposed process that cannot be observed directly but may help explain a recurring set of indicators. In Before We Build it is a research construct, not a hidden object discovered by assigning a type.
+Someone keeps asking what will happen several years from now. We can hear the questions. But we do not yet know why they ask them.
+
+One possible explanation is a particular way of organizing their experience of time. Such a proposed internal process is called latent because it cannot be observed directly. In Before We Build it is an idea to test. Assigning a type does not mean discovering a process.
 
 <!-- section:definition-and-scope -->
-## Definition and scope
+## Observation and explanation are different steps
 
-Keep five things separate: the whole personality, an observed trace or descriptive pattern, a type-pattern hypothesis about perception and experience organization, a latent-process hypothesis, and a natural-predisposition hypothesis. A causal mechanism is a further and stronger claim. Moving between these layers requires evidence.
+Several things need to be distinguished. The whole person cannot be reduced to any of them.
+
+1. **Observation and description:** what someone said or did, and what recurs.
+2. **Type hypothesis:** a proposal that the recurrence fits a particular way of perceiving and organizing experience.
+3. **Process hypothesis:** a proposal about internal activity that might explain the recurrence.
+4. **Natural-predisposition hypothesis:** a proposal that this tendency has a natural basis.
+
+Each further step needs separate evidence. Claiming a causal mechanism is an even stronger inference: fitting the observations is not enough.
 
 <!-- section:shared-example -->
-## Shared example
+## Example: questions before a move
 
-In relocation discussions, repeated requests to compare long-term scenarios are observable. “Future-oriented pattern” is a description. A Temporistics interpretation is a type hypothesis. A particular process for organizing temporal experience is a latent-process hypothesis. None of these alone proves why the person acted that way.
+In several discussions about moving, someone asks to compare long-term scenarios. This is an observation. “They often consider future consequences” describes a recurrence, or pattern.
+
+Interpreting this pattern through Temporistics proposes a type hypothesis. Proposing a particular way of organizing temporal experience is a latent-process hypothesis. None of these steps alone proves why the person acted that way.
 
 <!-- section:observations -->
-## What can be observed
+## What observations to collect
 
-Useful indicators include behaviour across repeated tasks, language, timing, choices under uncertainty, revisions, and disagreement between self-report and conduct. Indicators should be defined before observing the outcome they are meant to predict.
+Use several indicators, rather than one memorable event. Consider behaviour across repeated tasks, words, timing, choices under uncertainty, and revisions to decisions. Compare what people say about themselves with their conduct.
+
+Define the indicators in advance, before learning the outcome you want to predict. Otherwise it is easy to select only what fits an outcome you already know.
 
 <!-- section:hypotheses -->
-## What remains a hypothesis
+## What the hypothesis needs to explain
 
-A process is useful only if it explains coherent variance, can be distinguished from rival constructs, and improves a domain-specific prediction. Typological position-to-process mappings remain unvalidated project hypotheses. The further claim that a pattern reflects a natural predisposition also requires separate evidence and does not establish innateness.
+A useful process hypothesis must explain why several observable indicators vary together. It must be distinguishable from other possible explanations and tested for whether it improves prediction in a specific domain.
+
+Mappings between typological positions and processes remain unvalidated project hypotheses. A proposed natural basis for a tendency also needs separate evidence. It does not establish innateness.
 
 <!-- section:alternatives -->
-## Alternative explanations
+## What else could produce the same result
 
-Skills, knowledge, incentives, social roles, stress, culture, and measurement error may create the same indicator pattern. Several different latent models can also fit the same observations.
+Skills, knowledge, incentives, social roles, stress, culture, and measurement errors may produce the same set of indicators. Even several different models of internal processes may fit the same observations equally well.
 
 <!-- section:non-inferences -->
-## What must not be inferred
+## What is not enough for a conclusion
 
-A coherent story is not causal proof. A type pattern is not the latent variable itself. One striking anecdote does not establish stability, generality, or compatibility.
+A convincing story does not prove a cause. A description of a type pattern is not the proposed latent process or variable itself. One striking case does not show that a characteristic is stable, applies everywhere, or establishes compatibility.
 
 <!-- section:conversation-questions -->
 ## Questions for conversation
 
-- What did we actually observe?
-- Which step in the inference chain are we making?
-- What other process predicts the same trace?
-- Which new observation would distinguish the hypotheses?
+- What exactly did we observe?
+- Are we describing a recurrence, proposing a type, or proposing an explanatory process?
+- What other explanation predicts the same behaviour?
+- What do we need to observe next to distinguish these explanations?
 
 <!-- section:researcher-route -->
-## For a researcher
+## How to prepare a test
 
-Define indicators, rival constructs, expected convergence and divergence, measurement error, and an outcome before testing the model. See [[compatibility-measurement-methods-en]].
+Before testing the model, write down what you will observe, the explanations you will compare with the hypothesis, and the outcome you want to predict. Specify which indicators should agree and which should differ, as well as the measurement error you expect. Read more about [[compatibility-measurement-methods-en|compatibility measurement methods]].
 
 <!-- section:next-reading -->
-## Next reading
+## Where to go next
 
-Continue with [[epistemic-status-and-inference-limits-en]], [[typology-reconceptualization-en]], and [[scientific-narrative-intelligence-layer-en]].
+Read about [[epistemic-status-and-inference-limits-en|the limits of inference]], then [[typology-reconceptualization-en|the reinterpretation of typologies]]. For explaining such ideas without losing accuracy, see the [[scientific-narrative-intelligence-layer-en|scientific narrative page]].

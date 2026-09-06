@@ -80,6 +80,7 @@ master-orchestrator ⚜ (reports_to: null)
 ├── Explanation / Outreach Team
 │   ├── type-explain (scope: short typology concept Q&A)
 │   ├── before-we-build-plain-language-translator (scope: explain Before We Build simply to non-specialists)
+│   ├── naturalness-style-reviewer (scope: naturalness, formulaic prose and translationese; no authorship detection)
 │   ├── vanka-the-layman (scope: blunt ordinary-person understandability and practical-value review)
 │   ├── before-we-build-storyteller (scope: stories, metaphors, examples, public narrative)
 │   ├── before-we-build-skeptic-bridge (scope: skeptic-safe, caveated research framing)
@@ -129,6 +130,7 @@ Default behavior:
 - If the user asks to improve agents, add agent memory, create agent skills/routines, or make the system self-improving, route to `agent-improvement-steward`.
 - If the user asks for Baptist-oriented Bible explanation, preaching help, discipleship, church life, pastoral-care framing, Christian ethics, spiritual discernment, or whether an idea is useful and safe for a Baptist audience, route to `baptist-pastor`; use `christian-theology-researcher` for broader cross-tradition theology or doctrinal caveat review.
 - If the user asks to explain Before We Build to normal people, use `before-we-build-plain-language-translator`; for stories use `before-we-build-storyteller`; for skeptical audiences use `before-we-build-skeptic-bridge`; for talks/slides/landing pages use `before-we-build-presentation-designer`.
+- If the user asks about AI-sounding or “neural” prose, naturalness, repetitive rhetoric or translationese, use `naturalness-style-reviewer` after editing and before final caveat review. Treat findings as editorial judgments, never proof of AI authorship or a request to evade detectors.
 - If the user asks whether a complex idea, theory, product, website, explanation, infographic, startup, or Before We Build page is understandable to ordinary non-expert people, use `vanka-the-layman`.
 
 Direct self-answering is allowed only for:
@@ -262,6 +264,7 @@ Can request specific level
 | Baptist Bible teaching / preaching / discipleship / church-life / Baptist audience review | baptist-pastor |
 | Agent self-improvement / agent instruction patches | agent-improvement-steward |
 | Plain-language explanation of Before We Build for beginners | before-we-build-plain-language-translator |
+| Naturalness / AI-sounding prose / formulaic language / translationese | naturalness-style-reviewer |
 | Ordinary-person understandability / practical-value check | vanka-the-layman |
 | Stories, metaphors, examples, social posts | before-we-build-storyteller |
 | Skeptic-safe or research-safe public framing | before-we-build-skeptic-bridge |
@@ -368,6 +371,7 @@ candidate explanations without presenting an inferred process as observed:
 
 - agent-improvement-steward: Controlled self-improvement loop for `.opencode/agents/*.md`, improvement proposals, review-gated instruction patches
 - before-we-build-plain-language-translator: Explains Before We Build and typology concepts simply to non-specialists
+- naturalness-style-reviewer: Reviews concrete style problems and proposes meaning-preserving edits; does not determine AI authorship
 - vanka-the-layman: Blunt ordinary-person reviewer for whether complex ideas, products, websites, explanations, infographics, or startup pitches are understandable, useful, and worth caring about to non-experts
 - before-we-build-storyteller: Turns Before We Build into stories, metaphors, analogies, and memorable public examples
 - before-we-build-skeptic-bridge: Frames Before We Build safely for skeptics, researchers, and typology-critical audiences

@@ -1785,3 +1785,59 @@ with a plain-language bridge from dimensionality to latent reality modeling.
   transfer, support, pressure, or a rival explanation.
 - Raised the synchronized semantic and reviewed versions to `3` and added the
   `dimensionality-may-describe-operation-transfer-breadth` research claim.
+
+
+---
+
+## [2026-09-06] documentation | Reader-focused wiki editing and site rendering
+
+**Action:** Convened the scientific-narrative editorial roles at the user's
+request and revised eight complete EN/RU/UK groups (24 pages): start-here,
+main-idea, four-level-compatibility-architecture, latent-process, and all four
+compatibility levels.
+
+**Result:**
+- Introduced concepts through concrete situations, explained specialist terms,
+  and preserved the shared section IDs, examples, claims, and caveats.
+- Corrected categorical operational-process language to research hypotheses
+  and explicitly separated the Christian interpretation from the universal
+  core; raised that triad's semantic version after review.
+- Fixed site-wide paragraph wrapping, list rendering, localized link labels,
+  navigation paths, duplicate article titles, and the cramped reading column.
+- Added HTML regression coverage and built all 627 pages locally. External
+  publication was not performed.
+- Recorded the editorial findings and scope in
+  `reports/readability-collegium-2026-09-06.md`. Readability lint is treated as
+  an auxiliary check, not evidence from a real reader study.
+
+
+---
+
+## [2026-09-06] agents | Research-grounded naturalness and style reviewer
+
+**Action:** At the user's explicit request, studied primary research abstracts
+and relevant NIST report sections before adding `naturalness-style-reviewer`.
+
+**Result:**
+- Recorded four sources and access limits in a dated raw intake register;
+  added the synchronized `ai-text-style-evidence` EN/RU/UK source summary.
+- Added a read-only explanation-team agent for concrete editorial defects,
+  preserving scientific meaning and declining unsupported authorship scores.
+- Integrated the sixth role into SNIL after editing and before the final
+  epistemic and reader-panel passes; updated master and organization routing.
+- Completed the controlled observation → proposal → independent source/caveat
+  review → patch loop and a separate four-passage behavior exercise.
+- The exercise preserved effective prose and necessary caveats; it is not an
+  empirical reader study. OpenCode CLI is not installed in this environment;
+  runtime discovery there is unverified. Manifest validation and delegated
+  instruction execution are checked separately.
+
+
+## [2026-09-06] integration | Prepare readability changes for GitHub
+
+Integrated the readability and naturalness-review work with upstream
+`1d0c8b5` before pushing. Preserved the compatibility-history triad, the updated
+SNIL runtime/reference, and generated-link deployment checks. Kept the upstream
+wiki-root URL API while adding readable labels and paragraph rendering.
+All 79 tests, wiki validations and skill validation passed after integration;
+the existing untracked reports/archive material is outside this commit.

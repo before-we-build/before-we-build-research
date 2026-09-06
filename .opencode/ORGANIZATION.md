@@ -35,6 +35,7 @@ master-orchestrator (gold) ⚜
 ├── Explanation Team
 │   ├── type-explain (gray)
 │   ├── before-we-build-plain-language-translator (skyblue)
+│   ├── naturalness-style-reviewer (steelblue)
 │   ├── before-we-build-storyteller (orange)
 │   ├── before-we-build-skeptic-bridge (teal)
 │   └── before-we-build-presentation-designer (orchid)
@@ -69,7 +70,7 @@ master-orchestrator (gold) ⚜
 ### 5. Explanation / Outreach Team
 **Lead:** before-we-build-plain-language-translator
 **Purpose:** Present Before We Build to ordinary users, skeptical audiences, collaborators, and communities using simple language, stories, caveats, and presentation formats.
-**Agents:** type-explain, before-we-build-plain-language-translator, before-we-build-storyteller, before-we-build-skeptic-bridge, before-we-build-presentation-designer
+**Agents:** type-explain, before-we-build-plain-language-translator, naturalness-style-reviewer, before-we-build-storyteller, before-we-build-skeptic-bridge, before-we-build-presentation-designer
 
 ## Principles Applied
 
@@ -135,7 +136,9 @@ master-orchestrator (gold) ⚜
 1. User → master-orchestrator
 2. Orchestrator → explanation/outreach specialist based on audience and format
 3. Specialist → plain explanation / story / skeptic-safe framing / presentation package
-4. If factual depth is needed → route to relevant research or caveat reviewer first
+4. For naturalness / AI-sounding-prose review → naturalness-style-reviewer → editor
+5. Final empirical-claims review → reader panel when applicable; style review does not establish authorship
+6. If factual depth is needed → route to relevant research or caveat reviewer first
 ```
 
 ## Naming Conventions

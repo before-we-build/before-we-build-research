@@ -3,7 +3,7 @@ title: Main Idea
 type: concept
 tags: [foundations, universal-core, four-level-architecture]
 created: 2026-04-26
-updated: 2026-08-30
+updated: 2026-09-06
 lang: en
 translation_group: main-idea
 semantic_version: 3
@@ -29,61 +29,65 @@ English · [[main-idea-ru|Русский]] · [[main-idea-uk|Українськ�
 <!-- section:in-90-seconds -->
 ## In 90 seconds
 
-Before We Build turns compatibility from a label into a structured inquiry. It asks first what should govern a shared undertaking, then examines direction, action, and information exchange. Typologies supply provisional vocabulary for the last three questions; evidence from real conduct, context, consent, and outcomes remains primary.
+Two people can want the same thing and still misunderstand each other. Both may agree to move, for example, while having different ideas about commitments to relatives, their future life, and preparations for the move.
 
-A type is a model hypothesis about a pattern of perception and experience organization, not a personality type. A possible natural predisposition is a further research hypothesis, not established innateness.
+Before We Build proposes discussing these questions separately: what must we honour, where are we going, how do we act together, and how do we understand information? The starting points are real conduct, circumstances, free consent, and outcomes. Typologies offer only provisional explanations for the last three questions.
 
 <!-- section:definition-and-scope -->
-## Definition and scope
+## Four questions about a shared undertaking
 
-The project studies any two people in a named domain. Its required map is:
+The approach can be used with any two people. Specify the task: a relationship, shared work, or another undertaking.
 
-| Level | Primary basis | Question |
+| Level | What we draw on | What we ask |
 |---|---|---|
-| Value-moral foundation | commitments, conduct, consent, safety | What should govern what we build? |
-| Strategic | Temporistics | Where and through what temporal meaning are we going? |
-| Operational | Psychosophy | How do we organize decisions and joint action? |
-| Tactical | Socionics | How do we model and exchange information? |
+| Value-moral foundation | commitments, conduct, consent, safety | What must we not sacrifice to reach our goal? |
+| Strategic | Temporistics as a research model | Where are we going, and how do we connect past, present, and future? |
+| Operational | Psychosophy as a research model | How do we make decisions and act together? |
+| Tactical | Socionics as a research model | How do we form a picture of the situation and communicate it to each other? |
 
 <!-- section:shared-example -->
-## Shared example
+## Back to the move
 
-In a possible relocation, shared hopes do not answer whether an obligation to a dependant can be broken; agreement about duty does not decide who researches housing; efficient task division does not guarantee that risks were understood in the same way. The four levels keep these questions distinct.
+One person helps an elderly relative. Wanting to move does not answer how that commitment will be met. It needs its own discussion.
+
+Suppose they find a solution. They still need to understand how each imagines their future in the new city. Then they must agree who will look for housing and who will check costs. Even after that, they should compare how they understood the risks. Answering one question does not answer the others.
 
 <!-- section:observations -->
-## What can be observed
+## What can be checked in daily life
 
-We can record claims, choices, timing, division of labour, information requests, corrections, and outcomes. These observations may support several explanations.
+Record what people say and choose, the deadlines they name, how they divide work, and what information they request. Then examine what they revised and what happened. The same observations may allow several explanations.
 
 <!-- section:hypotheses -->
-## What remains a hypothesis
+## Where hypotheses begin
 
-Socionics, Psychosophy, and Temporistics are treated as non-equivalent heuristic models of proposed latent processes. Their respective mapping to the tactical, operational, and strategic levels within the four-level architecture is a research hypothesis, not an established fact of psychology.
+A type in this project is a hypothesis about a recurring way of perceiving and organizing experience, not a personality type. A proposed internal process explaining it is called latent: we cannot observe it directly. Proposing a natural basis for a predisposition is another step that needs separate testing. Innateness has not been established.
+
+Socionics, Psychosophy, and Temporistics are proposed as different models for investigating these processes. Linking them to the tactical, operational, and strategic levels is a project hypothesis, not a proven fact of psychology.
 
 <!-- section:alternatives -->
-## Alternative explanations
+## Other explanations to check
 
-Patterns attributed to a typology may instead arise from training, family culture, language, disability, trauma, role expectations, or current constraints. The framework requires those rivals to be considered.
+Recurring behaviour may reflect training, family culture, language, disability, trauma, role expectations, or present constraints. These explanations need to be considered alongside a typological one.
 
 <!-- section:non-inferences -->
-## What must not be inferred
+## What must not be concluded
 
-No level describes the whole person. A type does not determine values, moral worth, safety, or relationship outcome. Ease at one level does not compensate for coercion or erase conflict at another.
+No level describes the whole person. A type does not determine values, moral worth, relationship safety, or outcomes. Easy communication does not justify coercion or remove disagreements about other matters.
 
 <!-- section:conversation-questions -->
 ## Questions for conversation
 
-- Which level does this disagreement actually concern?
-- Are we describing conduct or guessing a hidden process?
-- What context might produce the same pattern?
-- What evidence would count against our preferred explanation?
+- Is our disagreement about commitments, the future, action, or information?
+- Are we describing an action or proposing what happens inside the person?
+- What circumstances could have produced the same behaviour?
+- What evidence would show that our explanation is wrong?
 
 <!-- section:researcher-route -->
-## For a researcher
+## How to study this
 
-The proposed chain is observation → pattern description → latent-process hypothesis → domain-specific prediction → validation against outcomes. See [[latent-process-en]] and [[validation-program-en]].
+First record an observation. Then describe what recurs and propose an explanation involving an internal process. Use that explanation to make a prediction for a specific situation, and test it against outcomes. Read more about [[latent-process-en|latent processes]] and the [[validation-program-en|validation programme]].
 
 <!-- section:next-reading -->
-## Next reading
+## Where to go next
 
-Continue with [[four-level-compatibility-architecture-en]] and [[typology-reconceptualization-en]].
+Continue with [[four-level-compatibility-architecture-en|four levels of compatibility]]. Then read [[typology-reconceptualization-en|how the project reinterprets typologies]].

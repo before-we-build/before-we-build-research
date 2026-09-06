@@ -68,3 +68,5 @@ BWB rejects presenting explanatory analogies (puppet theater, clock mechanisms, 
 ## Next reading
 
 Continue with [[latent-process-en]], [[epistemic-status-and-inference-limits-en]], and [[four-level-compatibility-architecture-en]].
+
+[[ai-text-style-evidence-en]]

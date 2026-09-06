@@ -68,3 +68,5 @@ BWB принимает методологию SNIL как стандарт дл�
 ## Следующее чтение
 
 Продолжите с [[latent-process-ru]], [[epistemic-status-and-inference-limits-ru]] и [[four-level-compatibility-architecture-ru]].
+
+[[ai-text-style-evidence-ru]]

@@ -3,7 +3,7 @@ title: Value-Moral Compatibility
 type: concept
 tags: [compatibility, values, morality, safety]
 created: 2026-07-26
-updated: 2026-08-30
+updated: 2026-09-06
 lang: en
 translation_group: value-moral-compatibility
 semantic_version: 2
@@ -27,12 +27,14 @@ English · [[value-moral-compatibility-ru|Русский]] · [[value-moral-comp
 <!-- section:in-90-seconds -->
 ## In 90 seconds
 
-This level asks whether two people's values, obligations, conduct, consent, and non-negotiable boundaries can support a named relationship or shared task. It is the foundation of the framework, not a fourth typology or a measure of human worth.
+Can we rely on each other when keeping a promise becomes difficult? This is the central question of value-moral compatibility. Before making a shared commitment, two people need to discuss what they owe each other, which differences they can accept, and whether each can safely say no.
+
+Before We Build treats values, conduct, consent, responsibility, reciprocity, repair, and non-negotiable boundaries as its foundation. Typologies cannot answer these questions or measure a person's worth.
 
 <!-- section:definition-and-scope -->
 ## Definition and scope
 
-Compatibility here means sufficient alignment or workable difference concerning truth, dignity, promises, responsibility, reciprocity, repair, autonomy, and safety. The domain must be named: colleagueship, friendship, marriage, care, business, or another undertaking.
+Here, compatibility means enough agreement about truth, dignity, promises, responsibility, mutual help, repair, freedom of choice, and safety to sustain a particular undertaking. Some differences may be workable; others may rule it out. First name the undertaking: friendship, marriage, care, business, or work as colleagues. A workable arrangement in one setting need not work in another.
 
 <!-- section:inclusion-exclusion -->
 ## What belongs here — and what does not
@@ -40,29 +42,29 @@ Compatibility here means sufficient alignment or workable difference concerning 
 Include stated commitments, choices when commitments conflict, repeated conduct, accountability, consent, coercion, and safety. Do not infer these from Socionics, Psychosophy, Temporistics, social ease, or task efficiency.
 
 <!-- section:latent-construct -->
-## Proposed construct
+## What kind of framework is this?
 
-This is a normative and behavioural frame, not a latent typological construct. Applications must state their moral sources openly rather than pretending that the foundation is value-free.
+This level sets out moral commitments and asks how they appear in conduct. It does not propose a hidden psychological type. Each application must explain where its moral commitments come from; the foundation is not value-free.
 
 <!-- section:shared-example -->
 ## Shared example
 
-Before relocating, one person has an acknowledged duty to care for a dependant. The key question is not whether both enjoy change, but whether a plan honours the duty without deception, abandonment, or coercion.
+Two people are considering a move. One regularly cares for a relative who depends on that help. Before choosing a city, they need to work out who will provide care, whether the arrangement is realistic, and whether everyone involved can speak freely. Enjoying change together is not enough if the plan relies on deception, abandonment, or coercion.
 
 <!-- section:observations -->
 ## What can be observed
 
-Observe what each person states, chooses under cost, does repeatedly, discloses, repairs after failure, and permits the other to refuse.
+Compare promises with later actions. What did the person disclose before the decision? What happened when keeping the agreement cost time or money? After a failure, did they acknowledge it and repair the harm? Could the other person refuse without punishment?
 
 <!-- section:observable-indicators -->
-## Observable indicators
+## What to look for across situations
 
 Relevant indicators include consistency between words and conduct, truthful disclosure, respect for refusal, responsibility for consequences, reciprocal burden-sharing, and meaningful repair. One episode requires context.
 
 <!-- section:interaction-mechanism -->
-## Possible pair mechanism
+## How this may affect working together
 
-Compatible commitments can support trust and coordinated sacrifice. Incompatible non-negotiables can make a shared project incoherent. Power can suppress visible disagreement, so apparent peace is not enough.
+When commitments fit together, two people may find it easier to trust each other and agree on sacrifices. If one person's essential boundary rules out what the other requires, the shared undertaking may not be workable. Apparent peace is not enough: a person with less power may be afraid to disagree.
 
 <!-- section:hypotheses -->
 ## What remains a hypothesis
@@ -80,14 +82,14 @@ Apparent inconsistency may reflect danger, constrained choices, misunderstanding
 Shared declarations without responsible conduct do not establish compatibility. A respectful disagreement on a negotiable practice does not establish incompatibility.
 
 <!-- section:falsification -->
-## What would challenge the interpretation
+## When to reconsider this explanation
 
 Revise an interpretation when longitudinal conduct contradicts self-report, when the supposed non-negotiable proves negotiable, or when independent evidence shows that consent was constrained.
 
 <!-- section:evidence-status -->
-## Evidence status
+## What is established?
 
-The separation of this level is a project definition grounded in explicit normative safety commitments. Particular predictive indicators require validation by domain and population.
+Before We Build defines this level around explicit moral commitments, including safety. Research still needs to establish which observations help predict specific outcomes, for which activities, and for which groups of people.
 
 <!-- section:non-inferences -->
 ## What must not be inferred
@@ -105,9 +107,9 @@ Do not rank dignity, salvation, holiness, civilization, or personal worth. Agree
 <!-- section:researcher-route -->
 ## For a researcher
 
-Separate self-report, decision direction, observed conduct, repair, power, and outcomes. Do not combine them into an unvalidated moral score.
+Record separately what people say about themselves, what they choose, what they do, how they repair harm, who has power, and what follows. Do not collapse these records into an untested moral score.
 
 <!-- section:next-reading -->
-## Next reading
+## Where to go next
 
 Continue with [[strategic-compatibility-en]] and [[christian-application-overview-en]].

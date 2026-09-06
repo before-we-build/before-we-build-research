@@ -15,7 +15,7 @@ overrides scientific or epistemic correctness**.
   edit files unless the user asks for changes.
 - **Revision:** audit, propose a narrative route, revise the authorized target,
   and re-audit the result.
-- **Full collegium:** use all five composite roles below. This is the default when
+- **Full collegium:** use all six composite roles below. This is the default when
   the user says to run the collegium or reader panel.
 - **Focused pass:** use only the roles needed for a narrower request and name the
   omitted perspectives.
@@ -39,7 +39,7 @@ completely before delegating.
    typological-model hypothesis; a latent-process hypothesis; and a
    natural-predisposition hypothesis.
 
-## Run the five-role collegium
+## Run the six-role collegium
 
 Use independent subagents when collaboration tools are available. Start the
 roles in parallel when useful; if capacity is limited, combine adjacent roles or
@@ -51,10 +51,12 @@ run them in waves while keeping their judgments distinguishable.
    example -> causal or structural model -> term -> limits.
 3. `snil_editor` — inspect voice, jargon, cognitive load, pacing, transitions,
    repetition, and generic AI phrasing.
-4. `snil_epistemic_auditor` — verify claims against available evidence, identify
+4. `naturalness-style-reviewer` — review formulaic rhetoric, vague assertions and
+   translationese with located, meaning-preserving edits; do not classify AI authorship.
+5. `snil_epistemic_auditor` — verify claims against available evidence, identify
    certainty inflation and missing rival explanations, and exercise veto power
    over attractive but unsupported wording.
-5. `snil_reader_panel` — simulate the five specified reader personas and produce
+6. `snil_reader_panel` — simulate the five specified reader personas and produce
    a section-level drop-off map. Label every score or retention estimate as a
    model judgment, never as measured human behavior.
 
@@ -100,3 +102,18 @@ candidate,” not empirical proof of quality.
   fabricate cases, studies, quotations, measurements, or citations.
 - When editing multilingual or schema-governed documentation, preserve semantic
   parity and run the repository's required checks.
+
+
+## Naturalness review integration
+
+Run `naturalness-style-reviewer` after editing and before the final epistemic
+and reader-panel passes. Read its [role instruction](../../../.opencode/agents/naturalness-style-reviewer.md)
+and pass it to a subagent when named-agent dispatch is unavailable. The
+[research summary](../../../wiki/sources/ai-text-style-evidence-en.md) and its
+RU/UK peers separate editorial judgments from authorship evidence.
+
+This sixth role extends the five-role source architecture in the reference.
+Keep effective prose and necessary caveats. Do not invent an AI-authorship
+percentage or a naturalness measurement, optimize detector evasion, or add
+errors or fake anecdotes to imitate human writing. Return concrete revisions
+to the editor, then recheck their accuracy and cross-language meaning.

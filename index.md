@@ -6,12 +6,12 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 
 ## Inventory
 
-- Markdown pages: **630**
-- Translation groups: **210**
-- Complete EN/RU/UK triads: **210**
+- Markdown pages: **633**
+- Translation groups: **211**
+- Complete EN/RU/UK triads: **211**
 - Missing language files: **0**
-- Document statuses: active=627, historical=3
-- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=84, source-summary=117
+- Document statuses: active=630, historical=3
+- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=84, source-summary=120
 
 ## Reader entrypoints
 
@@ -29,6 +29,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | afanasyev-model | [Afanasyev's Psychosophy Model](wiki/concepts/afanasyev-model-en.md) | [Модель психософии Афанасьева](wiki/concepts/afanasyev-model-ru.md) | [Модель психософії Афанасьєва](wiki/concepts/afanasyev-model-uk.md) | active | explanation | 3 |
 | afanasyev-resource-distribution-model | [A Resource Reading of Afanasyev's Model](wiki/concepts/afanasyev-resource-distribution-model-en.md) | [Ресурсное прочтение модели Афанасьева](wiki/concepts/afanasyev-resource-distribution-model-ru.md) | [Ресурсне прочитання моделі Афанасьєва](wiki/concepts/afanasyev-resource-distribution-model-uk.md) | active | research-appendix | 1 |
 | afanasyev-syntax-of-love | [Afanasyev's Syntax of Love](wiki/concepts/afanasyev-syntax-of-love-en.md) | [«Синтаксис любви» Афанасьева](wiki/concepts/afanasyev-syntax-of-love-ru.md) | [«Синтаксис кохання» Афанасьєва](wiki/concepts/afanasyev-syntax-of-love-uk.md) | active | explanation | 1 |
+| ai-text-style-evidence | [AI text style: evidence and editorial limits](wiki/sources/ai-text-style-evidence-en.md) | [«Нейронность» текста: исследования и границы редактуры](wiki/sources/ai-text-style-evidence-ru.md) | [«Нейронність» тексту: дослідження та межі редагування](wiki/sources/ai-text-style-evidence-uk.md) | active | source-summary | 1 |
 | augustinaviciute-information-metabolism-foundations | [Augustinavičiūtė — Information-Metabolism Foundations for the Aspect Audit](wiki/sources/augustinaviciute-information-metabolism-foundations-en.md) | [Аугустинавичюте — основания информационного метаболизма для аудита аспектов](wiki/sources/augustinaviciute-information-metabolism-foundations-ru.md) | [Аугустінавічюте — засади інформаційного метаболізму для аудиту аспектів](wiki/sources/augustinaviciute-information-metabolism-foundations-uk.md) | active | source-summary | 1 |
 | avtor-author | [Автор](wiki/entities/avtor-author-en.md) | [Темпористический архетип 1P — Автор](wiki/entities/avtor-author-ru.md) | [Темпористичний архетип 1P — Автор](wiki/entities/avtor-author-uk.md) | active | entity | 1 |
 | baptist-audience-public-figure-typing | [Working Hypotheses About Public Figures Relevant to Ukraine's Baptist Audience](wiki/concepts/baptist-audience-public-figure-typing-en.md) | [Рабочие гипотезы о публичных фигурах, значимых для баптистской аудитории Украины](wiki/concepts/baptist-audience-public-figure-typing-ru.md) | [Робочі гіпотези про публічних осіб, значущих для баптистської аудиторії України](wiki/concepts/baptist-audience-public-figure-typing-uk.md) | active | research-appendix | 1 |
@@ -104,7 +105,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | neural-correlates-analysis-synthesis | [Neural Correlates of Analysis and Synthesis Across Domains](wiki/concepts/neural-correlates-analysis-synthesis-en.md) | [Нейронные корреляты анализа и синтеза в разных доменах](wiki/concepts/neural-correlates-analysis-synthesis-ru.md) | [Нейронні кореляти аналізу й синтезу в різних доменах](wiki/concepts/neural-correlates-analysis-synthesis-uk.md) | active | research-appendix | 1 |
 | neural-correlates-analysis-synthesis-2026 | [Neural Correlates of Analysis and Integration — Research Note (2026)](wiki/sources/neural-correlates-analysis-synthesis-2026-en.md) | [Нейронные корреляты анализа и интеграции — исследовательская заметка (2026)](wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md) | [Нейронні кореляти аналізу та інтеграції — дослідницька нотатка (2026)](wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md) | active | source-summary | 1 |
 | neuroscience-compatibility-bridges | [Neuroscience Compatibility Bridges](wiki/concepts/neuroscience-compatibility-bridges-en.md) | [Нейронаучные мосты к совместимости](wiki/concepts/neuroscience-compatibility-bridges-ru.md) | [Нейронаукові мости до сумісності](wiki/concepts/neuroscience-compatibility-bridges-uk.md) | active | research-appendix | 1 |
-| operational-compatibility | [Operational Compatibility](wiki/concepts/operational-compatibility-en.md) | [Операционная совместимость](wiki/concepts/operational-compatibility-ru.md) | [Операційна сумісність](wiki/concepts/operational-compatibility-uk.md) | active | explanation | 3 |
+| operational-compatibility | [Operational Compatibility](wiki/concepts/operational-compatibility-en.md) | [Операционная совместимость](wiki/concepts/operational-compatibility-ru.md) | [Операційна сумісність](wiki/concepts/operational-compatibility-uk.md) | active | explanation | 4 |
 | passenger-passazhir | [Passenger (Passazhir)](wiki/entities/passenger-passazhir-en.md) | [Темпористический архетип 4F — Пассажир](wiki/entities/passenger-passazhir-ru.md) | [Темпористичний архетип 4F — Пасажир](wiki/entities/passenger-passazhir-uk.md) | active | entity | 1 |
 | philistine-obyvatel | [Philistine (Obyvatel)](wiki/entities/philistine-obyvatel-en.md) | [Темпористический архетип 3E — Обыватель](wiki/entities/philistine-obyvatel-ru.md) | [Темпористичний архетип 3E — Міщанин](wiki/entities/philistine-obyvatel-uk.md) | active | entity | 1 |
 | philosopher-filosof | [Philosopher (Filosof)](wiki/entities/philosopher-filosof-en.md) | [Темпористический архетип 2E — Философ](wiki/entities/philosopher-filosof-ru.md) | [Темпористичний архетип 2E — Філософ](wiki/entities/philosopher-filosof-uk.md) | active | entity | 1 |
