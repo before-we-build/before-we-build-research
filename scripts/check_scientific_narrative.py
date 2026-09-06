@@ -21,6 +21,7 @@ from wiki_quality_common import (
     REPO_ROOT,
     exit_code,
     line_number,
+    load_wiki_pages,
     markdown_files,
     parse_frontmatter,
     print_report,
@@ -101,7 +102,9 @@ NEGATED_RE = re.compile(
 def is_negated(text: str, start: int, end: int) -> bool:
     """Check if the matched segment is preceded by a qualifying negation within window."""
     context = text[max(0, start - 80) : end]
-    return bool(NEGATED_RE.search(context))
+    return bool(NEGATED_RE.search(context)) or bool(
+        re.search(r"\bavoid claims about\b[^.!?\n]*$", context, re.IGNORECASE)
+    )
 
 
 # Epistemic inflation patterns: overconfident certainty, premature claims, biological fatalism
@@ -284,7 +287,7 @@ def _split_into_sentences(text: str, start_line: int) -> list[SentenceInfo]:
     Treats bullet/numbered list items and table cells as distinct semantic units to avoid
     falsely conjoining semicolon-separated lists or table cells into massive run-on sentences.
     """
-    sentence_re = re.compile(r"(?<=[.!?])\s+(?=[A-ZА-ЯІЇЄҐ\d—])")
+    sentence_re = re.compile(r"(?<=[.!?])\s+(?=[*_]*[A-ZА-ЯІЇЄҐ\d—])")
 
     # Pre-split on list items and table cells if present
     raw_units: list[tuple[str, int]] = []
@@ -739,7 +742,11 @@ def check_paths(
     json_output: bool = False,
 ) -> int:
     """Run narrative readability and quality checks on a sequence of files."""
-    valid_paths = [p for p in paths if p.name not in EXCLUDED_NON_NARRATIVE_FILENAMES]
+    valid_paths = [
+        p for p in paths
+        if p.resolve().is_relative_to(REPO_ROOT / "wiki")
+        or p.name not in EXCLUDED_NON_NARRATIVE_FILENAMES
+    ]
     if not valid_paths:
         if json_output:
             print(json.dumps({"summary": [], "diagnostics": []}))
@@ -787,7 +794,7 @@ def main() -> int:
         "paths",
         nargs="*",
         type=Path,
-        help="Files or directories to audit (defaults to narrative expositions in raw/ and docs/).",
+        help="Files or directories to audit (defaults to all wiki pages included by the site builder).",
     )
     parser.add_argument(
         "--strict",
@@ -811,12 +818,9 @@ def main() -> int:
     if args.paths:
         target_files = markdown_files(REPO_ROOT, [str(p) for p in args.paths])
     else:
-        target_files = markdown_files(
-            REPO_ROOT,
-            [
-                "raw/general/latent-process-narrative-exposition.md",
-            ],
-        )
+        target_files = [page.path for page in load_wiki_pages(REPO_ROOT)]
+        if not target_files:
+            parser.error("No public wiki pages found; refusing an empty readability audit.")
 
     return check_paths(
         target_files,

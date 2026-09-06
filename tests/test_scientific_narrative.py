@@ -1,6 +1,11 @@
 from __future__ import annotations
 
 import sys
+import contextlib
+import io
+import json
+import tempfile
+from unittest.mock import patch
 import unittest
 from pathlib import Path
 
@@ -8,6 +13,7 @@ REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPOSITORY_ROOT / "scripts"))
 
 from check_scientific_narrative import (
+    main,
     analyze_document,
     detect_language,
     parse_markdown_paragraphs,
@@ -145,6 +151,58 @@ class GroundTruthBenchmarkTests(unittest.TestCase):
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("readability-score-below-threshold", codes)
 
+
+
+class PublicWikiAuditTests(unittest.TestCase):
+    def test_default_audits_every_published_markdown_including_nested_and_readme(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths = ["wiki/start-here-en.md", "wiki/concepts/example-ru.md", "wiki/README.md"]
+            for name in paths:
+                page = root / name
+                page.parent.mkdir(parents=True, exist_ok=True)
+                page.write_text("A clear explanation.", encoding="utf-8")
+            # An unpublished raw source must not replace or join the default corpus.
+            (root / "raw").mkdir()
+            (root / "raw/source.md").write_text("Source text.", encoding="utf-8")
+            output = io.StringIO()
+            with patch("check_scientific_narrative.REPO_ROOT", root), patch.object(
+                sys, "argv", ["checker", "--strict", "--json"]
+            ), contextlib.redirect_stdout(output):
+                self.assertEqual(main(), 0)
+            summaries = json.loads(output.getvalue())["summary"]
+            self.assertEqual({Path(row["path"]).name for row in summaries},
+                             {Path(name).name for name in paths})
+
+    def test_empty_default_corpus_fails(self):
+        with tempfile.TemporaryDirectory() as directory, patch(
+            "check_scientific_narrative.REPO_ROOT", Path(directory)
+        ), patch.object(sys, "argv", ["checker", "--strict"]), contextlib.redirect_stderr(io.StringIO()):
+            with self.assertRaises(SystemExit) as raised:
+                main()
+            self.assertEqual(raised.exception.code, 2)
+
+    def test_explicit_source_path_still_blocks_bad_text(self):
+        with tempfile.TemporaryDirectory() as directory:
+            page = Path(directory) / "source-en.md"
+            page.write_text("This model guarantees compatibility.", encoding="utf-8")
+            output = io.StringIO()
+            with patch.object(sys, "argv", ["checker", str(page), "--strict", "--json"]), contextlib.redirect_stdout(output):
+                self.assertEqual(main(), 1)
+            self.assertEqual(len(json.loads(output.getvalue())["summary"]), 1)
+
+    def test_bold_sentence_start_does_not_merge_sentences(self):
+        text = " ".join(["word"] * 28) + ". **Another " + " ".join(["word"] * 27) + ".**"
+        doc = analyze_document(Path("example-en.md"), text, strict=True)
+        self.assertEqual(doc.sentence_count, 2)
+        self.assertFalse(any(d.code == "extreme-sentence-overload" for d in doc.diagnostics))
+
+    def test_avoid_claims_caution_does_not_hide_next_sentence_guarantee(self):
+        caution = "Avoid claims about a chosen spouse, guaranteed family outcome, ideal pair, or a type-based decision."
+        doc = analyze_document(Path("example-en.md"), caution, strict=True)
+        self.assertFalse(any(d.code.startswith("epistemic-") for d in doc.diagnostics))
+        doc = analyze_document(Path("example-en.md"), caution + " This model guarantees compatibility.", strict=True)
+        self.assertTrue(any(d.code == "epistemic-guarantee-outcome" for d in doc.diagnostics))
 
 if __name__ == "__main__":
     unittest.main()

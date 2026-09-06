@@ -9,6 +9,8 @@ on:
       - 'scripts/build_wiki_site.py'
       - 'scripts/check_generated_wiki_links.py'
       - 'scripts/wiki_quality_common.py'
+      - 'scripts/check_scientific_narrative.py'
+      - '.github/workflows/deploy-wiki.yml'
   workflow_dispatch:
 
 permissions:
@@ -42,6 +44,17 @@ jobs:
         run: |
           python3 scripts/validate_wiki.py --strict
           python3 scripts/check_wikilinks.py --strict
+
+      - name: Verify public wiki readability before publishing
+        working-directory: before-we-build-research
+        run: python3 scripts/check_scientific_narrative.py --strict --json > wiki-readability.json
+
+      - name: Upload wiki readability report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-readability
+          path: before-we-build-research/wiki-readability.json
 
       - name: Build static HTML wiki
         working-directory: before-we-build-research

@@ -1841,3 +1841,23 @@ SNIL runtime/reference, and generated-link deployment checks. Kept the upstream
 wiki-root URL API while adding readable labels and paragraph rendering.
 All 79 tests, wiki validations and skill validation passed after integration;
 the existing untracked reports/archive material is outside this commit.
+
+
+## [2026-09-06] automation | Audit readability across the public wiki
+
+Changed the readability check's default corpus to the same wiki page loader
+used by the site builder. Empty default discovery now fails; published pages
+are not excluded by generic filenames. Explicit source-file checks remain
+supported, and CI retains the original source narrative check.
+Both quality CI and the deployment workflow now run the strict public-wiki
+check and upload a JSON report, including on failure. Publication stops when
+the readability gate fails. Checker and deployment workflow changes also
+trigger the deployment workflow.
+Fixed false positives for bold sentence openings and the caution "Avoid claims
+about"; split two long English sentences without changing their claims.
+Added five regression tests for corpus coverage, empty discovery, explicit
+source checks, formatting, and caution versus assertion.
+Validation: all 84 tests and all mandatory wiki checks passed. The complete
+633-page audit passed with a minimum SNS of 78.5, zero errors, and 443 editorial
+warnings. These are heuristic checks, not measured reader comprehension.
+Changes were validated locally; no remote workflow or publication was run.

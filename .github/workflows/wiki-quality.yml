@@ -51,7 +51,17 @@ jobs:
         run: python3 scripts/lint-agents.py --static-only
 
       - name: Verify scientific narrative readability
-        run: python3 scripts/check_scientific_narrative.py --strict
+        run: python3 scripts/check_scientific_narrative.py --strict --json > wiki-readability.json
+
+      - name: Upload wiki readability report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-readability
+          path: wiki-readability.json
+
+      - name: Verify source narrative readability
+        run: python3 scripts/check_scientific_narrative.py raw/general/latent-process-narrative-exposition.md --strict
 
       - name: Check whitespace errors
         run: git diff --check
