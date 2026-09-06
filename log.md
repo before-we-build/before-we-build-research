@@ -1892,3 +1892,10 @@ Changes were validated locally; no remote workflow or publication was run.
 - Connected all history-language peers to the catalog; preserved the initial bibliography in a new raw source ledger and recorded searches/access in research/compatibility-catalog/. This is a selected historical seed set, not an exhaustive systematic review or typology validation.
 - Bounded independent provenance review checked three primary abstracts and sampled translation/inference boundaries; clarified the Dyrenforth denominator and Hawkins effect-size wording. See reports/compatibility-catalog-review-2026-09-06.md for limits.
 - Regenerated the index and migration inventory. Validation: 110 tests passed; required strict wiki, section, link, claim, index, inventory, adapter, linter, readability, and whitespace checks passed locally. Publication was not performed.
+
+## [2026-09-06] review | Research architecture assessment
+
+- Assessed the available knowledge, empirical, measurement, agent, and publication architecture with three bounded AI specialist reviews and primary methodological sources.
+- Recorded implemented strengths, gaps between specifications and evidence, instrument/status inconsistencies, and a proposed route to one reproducible study. Recommendations remain proposals.
+- Baseline verification: 110 tests and all executed strict wiki, section, link, claim, index, inventory, adapter, linter, readability, and whitespace checks passed locally.
+- Evidence: reports/research-architecture-assessment-2026-09-06-ru.md. Existing wiki, research instruments, agent instructions, and workflows were not changed by this assessment.
