@@ -1861,3 +1861,25 @@ Validation: all 84 tests and all mandatory wiki checks passed. The complete
 633-page audit passed with a minimum SNS of 78.5, zero errors, and 443 editorial
 warnings. These are heuristic checks, not measured reader comprehension.
 Changes were validated locally; no remote workflow or publication was run.
+
+
+## [2026-09-06] maintenance | Agent organization cleanup
+
+- Audited 53 project agents; explicit modes, synchronized reporting structure and generated complete roster.
+- Removed contradictory coordinator instructions and undocumented scheduling claims; clarified deliverable owners and on-demand lifecycle.
+- Added organizational regression checks to the existing agent linter and tests; permission enforcement remains runtime-unverified.
+- Evidence: reports/agent-organization-audit-2026-09-06.md and matching .agent-learning log/proposal/review.
+
+## [2026-09-06] maintenance | Shared agent core and runtime adapters
+
+- Extracted 53 canonical roles and neutral registry under .agents; generated OpenCode V1 and Codex standalone-agent adapters from one source.
+- Preserved role content, OpenCode model choices and governance; Codex inherits session models and uses the main session as entrypoint.
+- Added deterministic generation, drift checks, native TOML tests and conservative output ownership checks; updated active authoring pointers and wiki source scanning.
+- Evidence: reports/agent-core-adapters-2026-09-06.md and matching .agent-learning records.
+
+## [2026-09-06] review | Agent architecture pre-commit verification
+
+- Compared the shared core and adapters with primary Anthropic, OpenAI and OpenCode guidance; recorded scope and runtime/evaluation limits.
+- Independent adapter_review identified read-role persistence mismatches; fixed owner-write handoffs and parser validation, then passed re-review.
+- All 110 tests and required local quality checks passed. GitHub Actions is the configured CI; no GitLab remote or pipeline is present.
+- Evidence: reports/agent-best-practices-review-2026-09-06.md.

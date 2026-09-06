@@ -47,6 +47,9 @@ jobs:
           --output reports/wiki-migration-inventory.json
           --check
 
+      - name: Verify shared agent core and generated adapters
+        run: python3 scripts/generate_agent_adapters.py --check
+
       - name: Lint OpenCode agent manifests
         run: python3 scripts/lint-agents.py --static-only
 

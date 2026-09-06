@@ -8,7 +8,7 @@ status: active
 
 # Agent Improvement Review Checklist
 
-Use this checklist before applying changes to `.opencode/agents/*.md`.
+Use this checklist before applying changes to `.agents/roles/*.md`.
 
 ## Proposal metadata
 
@@ -30,7 +30,7 @@ Use this checklist before applying changes to `.opencode/agents/*.md`.
 ## Governance checks
 
 - [ ] Consistent with `AGENTS.md`.
-- [ ] Consistent with `.opencode/ORGANIZATION.md` if relevant.
+- [ ] Consistent with `.agents/ORGANIZATION.md` if relevant.
 - [ ] Agent scope remains clear.
 - [ ] Reporting line remains correct.
 - [ ] Instructions are not duplicated excessively across agents.

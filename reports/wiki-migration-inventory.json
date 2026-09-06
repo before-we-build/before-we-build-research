@@ -3957,8 +3957,8 @@
       ],
       "inbound_links": [
         {
-          "source": ".opencode/agents/socionics-intertype-relations-expert.md",
-          "line": 113,
+          "source": ".agents/roles/socionics-intertype-relations-expert.md",
+          "line": 98,
           "raw_target": "compatibility-level-boundaries-en",
           "resolved": "wiki/concepts/compatibility-level-boundaries-en.md",
           "ambiguous": []
@@ -12395,8 +12395,8 @@
       ],
       "inbound_links": [
         {
-          "source": ".opencode/agents/socionics-intertype-relations-expert.md",
-          "line": 113,
+          "source": ".agents/roles/socionics-intertype-relations-expert.md",
+          "line": 98,
           "raw_target": "intertype-relation-naming-audit-en",
           "resolved": "wiki/concepts/intertype-relation-naming-audit-en.md",
           "ambiguous": []
@@ -60269,8 +60269,8 @@
       ],
       "inbound_links": [
         {
-          "source": ".opencode/agents/socionics-intertype-relations-expert.md",
-          "line": 113,
+          "source": ".agents/roles/socionics-intertype-relations-expert.md",
+          "line": 98,
           "raw_target": "socionics-intertype-relations-en",
           "resolved": "wiki/relations/socionics-intertype-relations-en.md",
           "ambiguous": []

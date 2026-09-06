@@ -14,11 +14,13 @@ import subprocess
 import sys
 from pathlib import Path
 
+from check_agent_organization import read_fields
+from generate_agent_adapters import sync as check_adapters
+
 AGENTS_DIR = Path(".opencode/agents")
 
 ERRORS = {
-    "permission_singular": "Use 'permissions:' (plural) instead of 'permission:'",
-    "reports_to_underscore": "Use 'reportsto:' (camelCase) instead of 'reports_to:'",
+    "reports_to_underscore": "Organizational metadata belongs in .agents/registry.json, not a runtime adapter",
     "invalid_color": "Invalid color. Must be a quoted HEX code (e.g., '#FF0000')",
     "extra_keys": "Extra keys not allowed in frontmatter (cron, time, questions). Move to description.",
     "missing_required": "Required field '{field}' is missing",
@@ -30,7 +32,7 @@ ERRORS = {
     "agent_not_registered": "Agent file is valid but not listed by `opencode agent list`",
 }
 
-REQUIRED_FIELDS = {"name", "description", "model"}
+REQUIRED_FIELDS = {"description", "model"}
 
 
 def load_available_models() -> tuple[dict[str, set[str]], str | None]:
@@ -112,25 +114,14 @@ def lint_file(
     errors = []
     content = filepath.read_text()
 
-    if not content.startswith("---"):
-        return errors
+    try:
+        fields = read_fields(content)
+    except ValueError as exc:
+        return [{"code": "invalid_frontmatter", "msg": str(exc)}]
 
-    frontmatter_end = content[3:].find("---")
-    if frontmatter_end == -1:
-        return errors
-
-    frontmatter = content[3:frontmatter_end]
-    lines = frontmatter.strip().split("\n")
-
-    fields = {}
-    for line in lines:
-        if ":" in line:
-            key = line.split(":", 1)[0].strip()
-            value = line.split(":", 1)[1].strip()
-            fields[key] = value
-
-    if re.search(r"^permission:", content, re.MULTILINE):
-        errors.append({"code": "permission_singular", "msg": ERRORS["permission_singular"]})
+    # Schema depends on runtime generation; this is not a permission audit.
+    if "permission" in fields and "permissions" in fields:
+        errors.append({"code": "mixed_permission_schema", "msg": "Do not mix permission and permissions schemas"})
 
     if re.search(r"^reports_to:", content, re.MULTILINE):
         errors.append({"code": "reports_to_underscore", "msg": ERRORS["reports_to_underscore"]})
@@ -149,8 +140,8 @@ def lint_file(
         if field not in fields:
             errors.append({"code": "missing_required", "msg": ERRORS["missing_required"].format(field=field)})
 
-    if "name" in fields:
-        agent_name = fields["name"].strip().strip('"').strip("'")
+    if "description" in fields:
+        agent_name = fields.get("name", filepath.stem).strip().strip('"').strip("'")
         if filepath.stem != agent_name:
             errors.append({
                 "code": "filename_name_mismatch",
@@ -200,8 +191,8 @@ def main():
     args = parser.parse_args()
 
     if not AGENTS_DIR.exists():
-        print("No .opencode/agents directory found")
-        sys.exit(0)
+        print("Missing generated .opencode/agents directory")
+        sys.exit(1)
 
     if args.static_only:
         available_models, model_load_error = None, None
@@ -223,6 +214,12 @@ def main():
         if errors:
             all_errors[md_file] = errors
 
+    organization_errors = check_adapters(Path.cwd())
+    if organization_errors:
+        all_errors[Path('.agents/registry.json')] = [
+            {"code": "organization", "msg": error} for error in organization_errors
+        ]
+
     if all_errors:
         print("OpenCode Agent Linter: ERRORS FOUND\n")
         for file, errors in all_errors.items():
@@ -234,6 +231,7 @@ def main():
         sys.exit(1)
     else:
         print("OpenCode Agent Linter: OK")
+        print("Runtime permission enforcement is not validated by this linter.")
         sys.exit(0)
 
 if __name__ == "__main__":

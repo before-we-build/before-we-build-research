@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "entrypoint": "master-orchestrator",
+  "roles": {
+    "agent-improvement-steward": {
+      "description": "Governance agent for controlled self-improvement of Before We Build agents. Use when audit results, repeated failures, new repository policies, or user requests imply that `.agents/roles/*.md` should be improved. Produces auditable improvement proposals and safe patches; does not silently self-modify agents without review/approval.",
+      "team": "orchestration",
+      "scope": "agent improvement + governance",
+      "reports_to": "master-orchestrator",
+      "access": "write"
+    },
+    "alias-canonical-naming-steward": {
+      "description": "Wiki/data governance agent for canonical codes, aliases, multilingual naming, transliteration, disputed names, and duplicate identity resolution across Socionics, Psychosophy, and Temporistics.",
+      "team": "wiki",
+      "scope": "aliases + canonical naming",
+      "reports_to": "wiki-consistency-checker",
+      "access": "read"
+    },
+    "baptist-pastor": {
+      "description": "Baptist-oriented pastoral and theological specialist for Bible explanation, Baptist doctrine, preaching help, discipleship, church life, pastoral-care framing, spiritual discernment boundaries, Christian ethics, and usefulness/safety review for Baptist audiences. Gives Scripture-grounded, Baptist-aware counsel with clear caveats. Not a real pastor, not a substitute for a local church, licensed counselor, physician, lawyer, elder board, or emergency services.",
+      "team": "research",
+      "scope": "baptist pastoral theology",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "before-we-build-plain-language-translator": {
+      "description": "Plain-language expert for explaining Before We Build, Socionics, Psychosophy, Temporistics, compatibility levels, and latent-process ideas to non-specialists. Use when the user wants the idea explained simply, without jargon, for friends, family, beginners, or a general audience. Not for deep research, typing, scoring, or validation claims.",
+      "team": "explanation",
+      "scope": "plain-language explanation",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "before-we-build-presentation-designer": {
+      "description": "Presentation and outreach-format expert for packaging Before We Build into talks, slide outlines, landing pages, demos, workshop scripts, and public-facing narratives. Use when the user wants to present the project to normal users, researchers, collaborators, investors, or communities.",
+      "team": "explanation",
+      "scope": "presentations + outreach packaging",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "before-we-build-skeptic-bridge": {
+      "description": "Communication expert for explaining Before We Build to skeptical, scientific, or typology-critical audiences. Use when the user wants to present the idea without sounding pseudoscientific, overconfident, cultish, deterministic, or like “psychology of everything.” Focuses on caveats, falsifiability, measurement, and honest positioning.",
+      "team": "explanation",
+      "scope": "skeptical-audience communication",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "before-we-build-storyteller": {
+      "description": "Storytelling and analogy expert for presenting Before We Build to ordinary people through metaphors, narratives, examples, dialogues, and memorable explanations. Use for social media threads, talks, landing-page copy, short scripts, analogies, and examples that make the idea emotionally understandable without overclaiming.",
+      "team": "explanation",
+      "scope": "storytelling + analogies",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "christian-theology-researcher": {
+      "description": "Research agent for Christian theological evaluation of typology, neuroscience, prophecy, spiritual experience, anthropology, discernment, and pastoral caveats. Provides Orthodox, Catholic, Protestant, and patristic context where relevant. Not for diagnosing spiritual states, declaring revelation authentic/false, or replacing pastoral/spiritual counsel.",
+      "team": "research",
+      "scope": "christian-theology",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "civilian-career-advisor": {
+      "description": "Evidence-first civilian career exploration agent. Compares verified skills, work samples, preferences, constraints, accommodations, and current role requirements; typology may generate an optional question but never ranks jobs or determines fit.",
+      "team": "analysis",
+      "scope": "civilian career exploration",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "clinical-neurologist-expert": {
+      "description": "Clinical neurology expert for reviewing neurological symptoms, red flags, differential-diagnosis boundaries, neuropsychological findings, seizure/migraine/sleep/movement/cognitive issues, and medical safety caveats relevant to Before We Build. Not for diagnosing, prescribing, or replacing a licensed neurologist or emergency care.",
+      "team": "research",
+      "scope": "clinical-neurology",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "compatibility-conversation-mapper": {
+      "description": "Builds a qualitative, context-specific map of possible resources, frictions, rival explanations, and conversation questions across the four Before We Build levels. Never produces a compatibility score or partner verdict.",
+      "team": "analysis",
+      "scope": "qualitative compatibility mapping",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "compatibility-measurement-researcher": {
+      "description": "Defines what evidence and validation would be required before Before We Build could measure an outcome-specific compatibility construct. Does not propose current scores, weights, rankings, or thresholds.",
+      "team": "analysis",
+      "scope": "compatibility measurement research",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "copyright-licensing-reviewer": {
+      "description": "Narrow publication-rights review agent for Before We Build wiki/source ingestion. Reviews copyright, licensing, attribution, fair use/fair dealing risk, source excerpts, web/PDF republication risk, and routes data/privacy issues to appropriate reviewers. Not a lawyer and not a substitute for licensed legal advice.",
+      "team": "wiki",
+      "scope": "copyright licensing publication rights",
+      "reports_to": "wiki-consistency-checker",
+      "access": "read"
+    },
+    "data-pipeline-engineer": {
+      "description": "Designs and audits data schemas, ETL, anonymization, quality flags, follow-up tracking, raw/clean dataset separation, and reproducible research data pipelines for Before We Build.",
+      "team": "research",
+      "scope": "research-data-pipeline",
+      "reports_to": "research-orchestrator",
+      "access": "read"
+    },
+    "empirical-claims-caveats-reviewer": {
+      "description": "Reviewer for empirical overclaims and missing caveats in Before We Build. Use to ensure typological hypotheses are not stated as proven facts or deterministic compatibility rules.",
+      "team": "wiki",
+      "scope": "empirical claims + caveats",
+      "reports_to": "wiki-consistency-checker",
+      "access": "read"
+    },
+    "ethics-and-consent-reviewer": {
+      "description": "Reviews consent, privacy, sensitive inference, data minimization, participant communications, deletion policies, and user-facing research risks for Before We Build studies.",
+      "team": "research",
+      "scope": "ethics-consent-privacy",
+      "reports_to": "research-orchestrator",
+      "access": "read"
+    },
+    "experiment-designer": {
+      "description": "Designs preregistered studies, pilots, longitudinal protocols, A/B tests, variables, outcomes, inclusion criteria, and analysis-ready research plans for Before We Build validation.",
+      "team": "research",
+      "scope": "experiment-design",
+      "reports_to": "research-orchestrator",
+      "access": "read"
+    },
+    "finance-ops-planner": {
+      "description": "Financial and operations planning agent for Before We Build / Cognitive Matchmaker. Use for content pipeline budgets, unit economics, CAC assumptions, tool/API/subscription costs, contractor costs, burn rate, break-even scenarios, and early growth financial planning. Not a licensed financial advisor and not for tax, legal, securities, or investment advice.",
+      "team": "analysis",
+      "scope": "finance ops + unit economics + budget planning",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "literature-researcher": {
+      "description": "Finds, triages, and summarizes external literature relevant to Before We Build research methodology, psychometrics, relationship outcomes, compatibility, teams, and validation baselines.",
+      "team": "research",
+      "scope": "literature-research",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "marketing-claims-safety-reviewer": {
+      "description": "Reviewer for Before We Build / Cognitive Matchmaker marketing content before publication. Use to check TikTok scripts, captions, landing copy, ads, social posts, and video packages for pseudoscientific, deterministic, clinical, sensitive-attribute, or manipulative dating claims.",
+      "team": "explanation",
+      "scope": "marketing claims safety review",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "master-orchestrator": {
+      "description": "Central delegation-first orchestrator for the universal Before We Build research framework. Use this when the user needs routing, expert selection, multi-agent synthesis, or doesn't know which system to use. Its primary job is to inspect available experts, delegate to the right expert or expert team, then synthesize their outputs. It should not perform specialist analysis itself except for trivial clarification or final synthesis.",
+      "team": "orchestration",
+      "scope": "orchestration",
+      "reports_to": null,
+      "access": "write"
+    },
+    "military-roles-researcher": {
+      "description": "Agent for researching Ukrainian military specialties. Periodically updates role database, requirements, and new positions. Use for: current UA army specialties, role requirements, or database updates. (On demand; weekly review is a recommendation, not a configured scheduler.)",
+      "team": "research",
+      "scope": "military-roles",
+      "reports_to": "typology-researcher",
+      "access": "write"
+    },
+    "military-specialty-advisor": {
+      "description": "Evidence-first military-role information and preparation agent. Uses verified qualifications, current official requirements, informed preferences, and safety constraints; never uses typology for selection, exclusion, or assignment.",
+      "team": "analysis",
+      "scope": "military role information and preparation",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "naturalness-style-reviewer": {
+      "description": "Editorial reviewer for unnatural, generic, formulaic or AI-sounding prose in EN/RU/UK. Use for requests about neural-sounding text, AI slop, naturalness, repetitive rhetoric or translationese. Returns evidence-backed passage edits; does not determine AI authorship, score AI probability or optimize detector evasion.",
+      "team": "explanation",
+      "scope": "text naturalness and formulaic-style review",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "neuroscience-researcher": {
+      "description": "Research agent for neuroscience, cognitive neuroscience, affective neuroscience, neuropsychology, brain networks, executive function, social neuroscience, and neural correlates relevant to compatibility, role fit, decision-making, emotion, time perception, and communication. Not for typology-specific claims unless used as external context.",
+      "team": "research",
+      "scope": "neuroscience",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "psychometrics-methodologist": {
+      "description": "Methodological expert for construct validity, reliability, item design, measurement invariance, and psychometric evaluation of Before We Build typing instruments.",
+      "team": "research",
+      "scope": "psychometrics",
+      "reports_to": "research-orchestrator",
+      "access": "read"
+    },
+    "psychosophy-intertype-relations-expert": {
+      "description": "Deep expert for Psychosophy/Psyche Yoga intertype relations. Use when the task is to explain why relations such as Agape, Eros, Philia, Pseudophilia, Revision, Anchor, and related function-position contacts are named as they are and whether the names accurately capture the operational process.",
+      "team": "research",
+      "scope": "psychosophy-intertype-relations",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "psychosophy-interview-typer": {
+      "description": "Conducts an exploratory Psychosophy interview and compares provisional candidate hypotheses with rival and contextual explanations.",
+      "team": "typing",
+      "scope": "interview-method",
+      "reports_to": "typing-lead",
+      "access": "write",
+      "method": "interview"
+    },
+    "psychosophy-quick-typer": {
+      "description": "Uses a short aspect-ranking prompt for reflection and candidate generation; it does not determine a Psychosophy type.",
+      "team": "typing",
+      "scope": "quick-method",
+      "reports_to": "typing-lead",
+      "access": "read",
+      "method": "quick"
+    },
+    "psychosophy-researcher": {
+      "description": "Research agent for Psychosophy (Психософия, ПЙ-типы) by Afanasyev only. Use this when user asks about psychosophy: Воля, Логика, Эмоция, Физика, function positions. Not for socionics or temporistics.",
+      "team": "research",
+      "scope": "psychosophy",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "psychosophy-test-typer": {
+      "description": "Reads an existing Psychosophy test as an unvalidated instrument and returns evidence-bounded candidate hypotheses, never a diagnostic type verdict.",
+      "team": "typing",
+      "scope": "test-method",
+      "reports_to": "typing-lead",
+      "access": "read",
+      "method": "test"
+    },
+    "publication-planner-agent": {
+      "description": "Publication planning agent for Before We Build / Cognitive Matchmaker social media. Use to create posting calendars, upload checklists, approval gates, scheduling plans, and publication packages. Does not publish automatically without platform credentials and explicit human approval.",
+      "team": "explanation",
+      "scope": "publication planning + approval workflow",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "research-orchestrator": {
+      "description": "Coordinator for agentic Before We Build research pipelines. Use when a task requires multi-agent study design, data collection planning, validation workflow, evidence audits, and human approval routing.",
+      "team": "research",
+      "scope": "agentic-research-orchestration",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "responsive-ui-design-systems-expert": {
+      "description": "Senior frontend engineer and UI systems specialist for website layout, mobile adaptation, responsive design, UI/UX structure, design systems, component libraries, spacing, typography, accessibility, and frontend visual consistency.",
+      "team": "engineering",
+      "scope": "responsive-ui-design-systems",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "short-video-package-builder": {
+      "description": "End-to-end short-video package builder for Before We Build / Cognitive Matchmaker. Use when the user wants a TikTok, Reel, YouTube Short, or social video package from idea to upload-ready assets: script, voiceover, storyboard, subtitles, captions, hashtags, production spec, and optional local assembly instructions. Does not publish without a separate publisher workflow and explicit approval.",
+      "team": "explanation",
+      "scope": "short video packaging + production specs",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "social-caption-hashtag-agent": {
+      "description": "Caption, hashtag, title, pinned-comment, and CTA agent for Before We Build / Cognitive Matchmaker social posts. Use to package approved video or post content for TikTok, Instagram, YouTube Shorts, Facebook, X, and Threads.",
+      "team": "explanation",
+      "scope": "captions + hashtags + CTAs",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "social-media-strategy-agent": {
+      "description": "Social media strategy expert for promoting Before We Build and Cognitive Matchmaker across TikTok, YouTube, Instagram, Facebook, X, and Threads. Use when the user wants content strategy, platform planning, campaign structure, audience segmentation, growth experiments, or social-media positioning without pseudoscientific or deterministic marketing claims.",
+      "team": "explanation",
+      "scope": "social media strategy + growth positioning",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "sociology-researcher": {
+      "description": "Research agent for sociology and social-science context. Use this when user asks about social groups, institutions, class, norms, roles, organizations, demographics, social stratification, labor markets, family patterns, dating markets, military/civilian social structures, or empirical sociology. Not for typology-specific claims unless used as external context.",
+      "team": "research",
+      "scope": "sociology",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "socionics-intertype-relations-expert": {
+      "description": "Deep expert for Socionics intertype relations. Use when the task is to explain why Socionics relations are named as they are, what Model A information process they describe, and whether a name accurately captures the tactical intertype mechanism.",
+      "team": "research",
+      "scope": "socionics-intertype-relations",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "socionics-researcher": {
+      "description": "Research agent for Socionics source doctrine and BWB reality-modeling hypotheses. Use for information aspects, aspect operations, Model A position modes, types, intertype relations, and Reinin signs. Not for Psychosophy or Temporistics.",
+      "team": "research",
+      "scope": "socionics",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "source-provenance-auditor": {
+      "description": "Wiki governance agent for tracing claims from raw sources to derived wiki pages, separating primary source, secondary summary, interpretation, hypothesis, and speculation.",
+      "team": "wiki",
+      "scope": "source provenance + citations",
+      "reports_to": "wiki-consistency-checker",
+      "access": "read"
+    },
+    "statistical-validation-agent": {
+      "description": "Statistical methodology agent for validation studies, power analysis, preregistered hypotheses, model comparison, confidence intervals, and outcome evaluation.",
+      "team": "research",
+      "scope": "statistical-validation",
+      "reports_to": "research-orchestrator",
+      "access": "read"
+    },
+    "temporistics-intertype-relations-expert": {
+      "description": "Deep expert for proposed Temporistics intertype relations. Use when the task is to explain reconstructed Temporistics relation signatures, why a proposed name was chosen, whether it reflects the strategic temporal/existential process, and how to rename it without importing Socionics or Psychosophy labels.",
+      "team": "research",
+      "scope": "temporistics-intertype-relations",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "temporistics-researcher": {
+      "description": "Research agent for Temporistics theory: temporal aspects, positions, full type permutations, authors, sources, and Before We Build strategic-level framing. Not for Socionics or Psychosophy.",
+      "team": "research",
+      "scope": "temporistics",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "type-explain": {
+      "description": "Simple Q&A agent for explaining typological concepts to users. Use this when user asks \"what is MBTI\", \"what does my type mean\", \"explain ЭЛВФ\". For public Before We Build explanation, storytelling, skeptical framing, or presentations, use the Before We Build explanation/outreach specialists instead. NOT for research, advice, or scoring.",
+      "team": "explanation",
+      "scope": "explain concepts",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "typing-lead": {
+      "description": "Coordinator for multi-system typing workflows. Use when typing evidence must be gathered, compared, bounded, or reconciled across Psychosophy, Socionics, and Temporistics.",
+      "team": "typing",
+      "scope": "typing-coordination",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "typology-researcher": {
+      "description": "Coordinates source doctrine and cross-system typology questions. For empirical study pipelines use research-orchestrator directly; for a single known topic use its specialist directly.",
+      "team": "research",
+      "scope": "research-coordination",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "typology-test-evaluation-expert": {
+      "description": "Coordination and safety expert for evaluating Before We Build typology tests, questionnaires, item banks, typing instruments, and score-interpretation protocols across Socionics, Psychosophy, and Temporistics. Delegates psychometric, statistical, ethics, caveat, and domain-specific judgments; does not type people definitively or validate typologies by itself.",
+      "team": "research",
+      "scope": "typology test evaluation + item-bank review coordination",
+      "reports_to": "typology-researcher",
+      "access": "read"
+    },
+    "vanka-the-layman": {
+      "description": "Blunt layperson comprehension reviewer. Use when checking whether a complex idea, project, theory, product, website, explanation, infographic, startup, or Before We Build page is understandable and valuable to ordinary non-expert people. Tests clarity, practical benefit, jargon, fake-sounding claims, and likely confusion. Not for deciding whether claims are scientifically true, validated, ethical, clinical, theological, statistical, or typologically correct.",
+      "team": "explanation",
+      "scope": "layperson comprehension review",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "visual-explainer": {
+      "description": "Visual Explainer, information designer, and explainer illustrator. Use when the user wants to convert complex ideas into simple drawings, visual metaphors, infographics, storyboard concepts, or emotionally understandable visual explanations. Not for deciding scientific, theological, psychological, clinical, or technical truth claims.",
+      "team": "explanation",
+      "scope": "visual explanation + information design",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "visual-storyboard-agent": {
+      "description": "Visual storyboard and production-spec agent for Before We Build / Cognitive Matchmaker short-form and long-form social videos. Use to turn approved scripts into scene-by-scene visuals, b-roll lists, AI visual prompts, subtitle layout, pacing, thumbnails, and editor-ready instructions.",
+      "team": "explanation",
+      "scope": "visual storyboard + production design",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "wiki-consistency-checker": {
+      "description": "Agent for finding logical contradictions in wiki and LLM wiki. Scans for term conflicts, logic gaps, outdated info, and missing cross-references. Creates issues for human resolution. (On demand; weekly review is a recommendation, not a configured scheduler.)",
+      "team": "wiki",
+      "scope": "contradictions + consistency",
+      "reports_to": "master-orchestrator",
+      "access": "read"
+    },
+    "wiki-contributor": {
+      "description": "Creates or updates equal EN/RU/UK wiki groups from reviewed research, preserves source provenance, regenerates the catalog, and appends the activity log.",
+      "team": "wiki",
+      "scope": "create wiki pages",
+      "reports_to": "wiki-consistency-checker",
+      "access": "write"
+    }
+  }
+}

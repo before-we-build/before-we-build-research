@@ -156,10 +156,10 @@ class LinkCheckerHardeningTests(unittest.TestCase):
         self.assertNotIn("old-slug", {item.code for item in diagnostics})
         self.assertEqual(diagnostics, [])
 
-    def test_default_scan_covers_instruments_and_opencode_documentation(self) -> None:
+    def test_default_scan_covers_instruments_and_canonical_agent_documentation(self) -> None:
         self.write("instruments/pilot.md", "[missing](instrument-missing.md)\n")
-        self.write(".opencode/agents/reviewer.md", "[missing](agent-missing.md)\n")
-        self.write(".opencode/ORGANIZATION.md", "[missing](organization-missing.md)\n")
+        self.write(".agents/roles/reviewer.md", "[missing](agent-missing.md)\n")
+        self.write(".agents/ORGANIZATION.md", "[missing](organization-missing.md)\n")
 
         diagnostics = check_links(self.root, strict=True, check_orphans=False)
         missing_paths = {
@@ -169,8 +169,8 @@ class LinkCheckerHardeningTests(unittest.TestCase):
             missing_paths,
             {
                 "instruments/pilot.md",
-                ".opencode/agents/reviewer.md",
-                ".opencode/ORGANIZATION.md",
+                ".agents/roles/reviewer.md",
+                ".agents/ORGANIZATION.md",
             },
         )
 

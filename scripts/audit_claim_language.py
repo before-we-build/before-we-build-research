@@ -46,7 +46,7 @@ DEFAULT_SCAN_ENTRIES = (
     "skills",
     "instruments",
     "biblical-compatibility",
-    ".opencode/agents",
+    ".agents/roles",
 )
 
 

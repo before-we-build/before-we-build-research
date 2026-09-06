@@ -107,7 +107,7 @@ candidate,” not empirical proof of quality.
 ## Naturalness review integration
 
 Run `naturalness-style-reviewer` after editing and before the final epistemic
-and reader-panel passes. Read its [role instruction](../../../.opencode/agents/naturalness-style-reviewer.md)
+and reader-panel passes. Read its [role instruction](../../roles/naturalness-style-reviewer.md)
 and pass it to a subagent when named-agent dispatch is unavailable. The
 [research summary](../../../wiki/sources/ai-text-style-evidence-en.md) and its
 RU/UK peers separate editorial judgments from authorship evidence.

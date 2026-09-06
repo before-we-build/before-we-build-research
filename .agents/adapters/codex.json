@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "format": "standalone-toml",
+  "max_concurrent_threads_per_session": 3,
+  "roles": {}
+}

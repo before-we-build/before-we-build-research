@@ -43,8 +43,8 @@ DEFAULT_SCAN_ENTRIES = (
     "skills",
     "instruments",
     "biblical-compatibility",
-    ".opencode/agents",
-    ".opencode/ORGANIZATION.md",
+    ".agents/roles",
+    ".agents/ORGANIZATION.md",
 )
 WIKILINK_RE = re.compile(r"(?<!!)\[\[([^\]\n]+)\]\]")
 MARKDOWN_LINK_RE = re.compile(r"(?<!!)\[([^\]\n]*)\]\(([^)\n]+)\)")

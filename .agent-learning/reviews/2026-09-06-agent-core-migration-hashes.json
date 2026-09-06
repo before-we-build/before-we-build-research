@@ -1,0 +1,214 @@
+{
+  "agent-improvement-steward": {
+    "original_sha256": "b740434ae25c46a627da0b3c68bf07abf201913d765281bcd1bd6f0ddc99c37a",
+    "normalized_body_sha256": "3d5aae6f17fb9e47607bf006b2c82bdd59d9ae03a0f2ec732774fe6e882a06a4"
+  },
+  "alias-canonical-naming-steward": {
+    "original_sha256": "eb666754bc6775c8ff9d99c9e75a3d64b08abbe1cbac3525154d89609b5936d9",
+    "normalized_body_sha256": "297b486cf51317d51801ae4963bbe4ee5c7aabe7e0988f8713e037f25bb08f03"
+  },
+  "baptist-pastor": {
+    "original_sha256": "1a3bba95007cddd35350d527f9342cb40f0ccbe2a76f18bad7ca91a400cbf713",
+    "normalized_body_sha256": "a069a5e01d3ee6ea9385f913077f7f7bec77589ad63e45ffd5654dfc45737c90"
+  },
+  "before-we-build-plain-language-translator": {
+    "original_sha256": "16a46bde4615601047e23f62b757750e4faa4e8fb7922730a7902db540b8e0bd",
+    "normalized_body_sha256": "1998e7d1a2a9df12c78038502eaa3591bef6d897fd93131dd314d869fa40ac2e"
+  },
+  "before-we-build-presentation-designer": {
+    "original_sha256": "8fafa6ded44da5a26f7e879ed17ab38c7ab4094b87e073ce6f3398ff8bf4969c",
+    "normalized_body_sha256": "d519054b449dc18f6c18f745e985072074eedf7686b61552bce290da9ebebafc"
+  },
+  "before-we-build-skeptic-bridge": {
+    "original_sha256": "db2de032455a2d9102b17677dc87d0731dfc0c8fa26d32afdb3b14fdf554b105",
+    "normalized_body_sha256": "326e91f19746416fc7fdb7a30a4a92d04b374bd744ba1594114c704b38822ffd"
+  },
+  "before-we-build-storyteller": {
+    "original_sha256": "abf34632fc9bb51901231ad9848c654b89746aaa497b5d0a2849b47e9dcebe39",
+    "normalized_body_sha256": "91a79ca7b46e3472fcd02466032a8e42202c050b4bb62b3f856daa0295d01d92"
+  },
+  "christian-theology-researcher": {
+    "original_sha256": "16f325f6281993ab790c70f19f3d9de71b4539a0e3bcc24f9df5074492c32916",
+    "normalized_body_sha256": "00bd2e41408cb33de03f2e015ab5ac1efe87a5c2d80ab8b9d575bd276d2aa6a6"
+  },
+  "civilian-career-advisor": {
+    "original_sha256": "0236f6b63982406e88f7646ac1d3ced5f3c17526a5388a2bb07fe76c21f0b0ef",
+    "normalized_body_sha256": "672783597cfcf9caaa2e4c91f204691f916444cf0360973e8db09fdfc356ccae"
+  },
+  "clinical-neurologist-expert": {
+    "original_sha256": "d296459dc529fb3c4a5a23933122e969c8495aa945817a36388c7ee336a77c8a",
+    "normalized_body_sha256": "54cbf36487e8b21aca83379d81aa4b8f358cf63bebf73e65b1160f69db4f1034"
+  },
+  "compatibility-conversation-mapper": {
+    "original_sha256": "c8883bdca72893aadb87f5ae0e0b8b35a3f38ede1372bb5adee7df67703c3928",
+    "normalized_body_sha256": "c1f32192523dba1a09b308e2a37e555c342863211e8a4a281876e08e9363e96a"
+  },
+  "compatibility-measurement-researcher": {
+    "original_sha256": "0411c5ac05d743b866775fb3c5ac5b7bbbb00822cf742e5b541185edb6e8bead",
+    "normalized_body_sha256": "960027ec37d7946aab36fa5c5084d77ac8e8f3e3066fc85d845f499cb206f662"
+  },
+  "copyright-licensing-reviewer": {
+    "original_sha256": "6cf6d45b5fd7aa4f69b27dcfd36016f721ee9901812ca201ce8d09d62ac74fec",
+    "normalized_body_sha256": "676cf6528c75ef66b7ea0848695a76cbe1fefe18440e2e55fe6ba5e269970b8f"
+  },
+  "data-pipeline-engineer": {
+    "original_sha256": "16f055b7d59d274d4e8767d556f5fc7ffdbb9622aaea9fe70ce5ad4f0eb8f829",
+    "normalized_body_sha256": "edd9461c97c7aaa5036b86524694fc9b3eb6cc03bce968dbf2747355004dbf3c"
+  },
+  "empirical-claims-caveats-reviewer": {
+    "original_sha256": "a99311a71a1b7602db2b07379262fadbc6c3ca31583a336019ba705d99e94c78",
+    "normalized_body_sha256": "af61204ae91ef5de7500938e1eec01d43b478c79af495c25750216e67b9e2535"
+  },
+  "ethics-and-consent-reviewer": {
+    "original_sha256": "ae433ab670cfbcfb872fa4bb38de7740c104ca915db9a57c7904df7c00d0e14c",
+    "normalized_body_sha256": "87d355599ece85b27e433d6175352ed7c8d732d2d8355004dcf15cca6bd479b6"
+  },
+  "experiment-designer": {
+    "original_sha256": "37e82d3fe829066e9396733ed9909e840297f51e1ea18d3eac1b00e740041724",
+    "normalized_body_sha256": "0c2fa75b17d230fd8a9ad9d574b4c026b0ecb6b5facb9fe1adece470c98fdd45"
+  },
+  "finance-ops-planner": {
+    "original_sha256": "4d57f394b492bf699158088c62d53fa8051bce0df9e1279db9399429a88287f2",
+    "normalized_body_sha256": "60e5fb19954c6657d2296fce3f72da8e5665467575d03bf86e926a57fc3e77f4"
+  },
+  "literature-researcher": {
+    "original_sha256": "bc4d632ab8896c8e8c834b48f49c43289d8c0480ff1819da855458e0483d7ed3",
+    "normalized_body_sha256": "070004237e720d69bfa36a8a20ee182547e183dd74029e89937842d1f5bbff8d"
+  },
+  "marketing-claims-safety-reviewer": {
+    "original_sha256": "1be8c283e63a6ca5be6f8cb7db5686af7003dbf809b06ac9588c681f5d4def83",
+    "normalized_body_sha256": "355f0baaa57ee10e76e871c8ac3ecaf04365c60ff9b4c127d5f89951e4e779cd"
+  },
+  "master-orchestrator": {
+    "original_sha256": "d4249e86a165e816aa1de9bf9830c71fc3712621043d5813adaba5444d279709",
+    "normalized_body_sha256": "ceedcf3500c9c1f87c82a18d8fdea2118c3b45a965cd446e1901045f69d0cebf"
+  },
+  "military-roles-researcher": {
+    "original_sha256": "09936725056b3114311930c3dbc9955733ea86646bfe4f49feb9221365d7bc19",
+    "normalized_body_sha256": "c10f908c405a6497b60dcd438c9ff5032ab532474989355db1385500ce001fb4"
+  },
+  "military-specialty-advisor": {
+    "original_sha256": "4819fcd9d13adb3ea84b7b3760bf4d450f0ca59504b00e69510bc62eb135cf48",
+    "normalized_body_sha256": "04e1c5f115ff05c94158247915ce908fbe03e01ca0ec55a24ed5107537118cf0"
+  },
+  "naturalness-style-reviewer": {
+    "original_sha256": "99ca1d2fbf187eb1e6b5831f094aa013d9aa03b4c0d7149c1b67c033790a3e9e",
+    "normalized_body_sha256": "7ff2de61e96f8bc6f7b49f9a63297c11f0c14a6063702e26c98e6368b8242fd0"
+  },
+  "neuroscience-researcher": {
+    "original_sha256": "68623b3e9a1e27179843a92e302da92a70bf96a02463ec52479ec176679593b3",
+    "normalized_body_sha256": "9c780b130a7c637997bbcdc8b0d1a38bc5e7b308ecf463e0e7ffdab039eba144"
+  },
+  "psychometrics-methodologist": {
+    "original_sha256": "dc0446e38e88a53376e92126a00e4f4dd29e6d25bdf6a7a12854592dc49ed4a6",
+    "normalized_body_sha256": "7e9fee162cd9a655f393dbee1ae870baa2f0ef0a5c67a901f03f4caec287d270"
+  },
+  "psychosophy-intertype-relations-expert": {
+    "original_sha256": "028819ce69c1447771326e31a48f1243facd53041476f9c9a4a904e578a5c918",
+    "normalized_body_sha256": "5c550fea4f87c4e8dee24c8950b6663ff0f62cd5979339865908435366d871b7"
+  },
+  "psychosophy-interview-typer": {
+    "original_sha256": "8bc2497b441809e364bf3816528b1108b38c9a0518489f5bf5854d87ca6fa565",
+    "normalized_body_sha256": "47f93525303412dbb9c20410ae77433277f3f79050816f768234a678a8b6e257"
+  },
+  "psychosophy-quick-typer": {
+    "original_sha256": "91a0f24e30d9fab03ba6f17ce82968d4b426de7554131f5600ec31b5cc67d717",
+    "normalized_body_sha256": "3d0788d389c44e4beed464e6b16fb8ac8969dfe3328141a3b78178a78384476b"
+  },
+  "psychosophy-researcher": {
+    "original_sha256": "ea1a0834c6b9b5fdede2c3f5ec41fe9071efbb9074eb0efd8e52470ce07d2a8c",
+    "normalized_body_sha256": "ef4447bdd11b03f17d3989eabbf07326e6ee1f73e4a9a8f03751ab679226d953"
+  },
+  "psychosophy-test-typer": {
+    "original_sha256": "c5ae372fa738e438e26ae1453c9eec84a9f729cf33409acae11b0ae9044647fe",
+    "normalized_body_sha256": "859a8e7bb94d2cacf785dc856cfa91c7cb0075432e58818cb2e7acf51e90873e"
+  },
+  "publication-planner-agent": {
+    "original_sha256": "65c5cbfd86908eb4b05097702f73130f56d5dbbaa5ee6c3ad0f2d3634d6a50e5",
+    "normalized_body_sha256": "27ce3b63091022fd172057e737e58d7a6925a83e095ae9987dc32c8942d4801b"
+  },
+  "research-orchestrator": {
+    "original_sha256": "013f91397ef0bcfe26066b00b8952deec260f18a05449a8a298ed8a3c9589790",
+    "normalized_body_sha256": "d154b6f5773b983a5aa0a860b9e1920a13e6b04fbe126e1bf1cea0f2f28e3215"
+  },
+  "responsive-ui-design-systems-expert": {
+    "original_sha256": "febe0ae3ecff3c8b00f88cd95911bf3af8a51b58184d8d0995ff633145f0d3fa",
+    "normalized_body_sha256": "cb25cdd6b915d4ab4c62a15d9215400b8504dff7da2cb1121f92500ec4778fbc"
+  },
+  "short-video-package-builder": {
+    "original_sha256": "d51c1e551b1423a824be0af3d92c2fd40fc261a7fe953eeca216c1682a98b107",
+    "normalized_body_sha256": "e16f83784fb98c24ef267b193365fcd074c1bae5783c863faefa1f5cda7d871f"
+  },
+  "social-caption-hashtag-agent": {
+    "original_sha256": "a0044f59a11209b3c64c05cc8313a9e51b9c66e04f0ec319855aca1c5fc642fe",
+    "normalized_body_sha256": "1abfa2735afb33c1568a626f0c7851c3355bd416776ac9212b1323195766ec53"
+  },
+  "social-media-strategy-agent": {
+    "original_sha256": "1bb296c8a8afaec41c9f23b1bd0d1d1c8b184f84e98d7f308aa1539904b2d5cd",
+    "normalized_body_sha256": "8cb59b04eb904955c31d3c60433e41b55a69518f3c8a16d1cf89b747bb3e7349"
+  },
+  "sociology-researcher": {
+    "original_sha256": "03d261434bf21b98c542fc5e0ec77ed15e90dc1c803c9c4d683b2b12c946b0e8",
+    "normalized_body_sha256": "52b34214a72573dc74b958f00980217e03ae3a88f9f5d95b7624dcaa4a410f39"
+  },
+  "socionics-intertype-relations-expert": {
+    "original_sha256": "1b8a107f11004c1e654666a4b51b011e753c97bb9468403bf8301d2f6d4d5dec",
+    "normalized_body_sha256": "333c26e8924e3c4969932b2e9359828b066066e1959454322f26120b38780166"
+  },
+  "socionics-researcher": {
+    "original_sha256": "2c5072e8a7e4093e73032c5da880eee98692753d448a4e1ce007f7aa798f0c53",
+    "normalized_body_sha256": "15ed804f06954b9ec5aa42bf94a8bb0c203214164ff335b40c172bd835f21c02"
+  },
+  "source-provenance-auditor": {
+    "original_sha256": "7534bf5fe737236799d984ff7be849567dcfe5b40afe0b76c5454605713b0ca5",
+    "normalized_body_sha256": "cdda3628e6109a78092214f5a2e4eb015bf758ed2289a1a60955455f16420db2"
+  },
+  "statistical-validation-agent": {
+    "original_sha256": "c624e87b4138c0894f7937fbb8dc65184834873f7ce7ff86ecb8dba06e60bdbe",
+    "normalized_body_sha256": "5a803c3f640e9e54a0ae9b8d40e4eeaf6d129085df5ec7568b363e1cfdfc6f25"
+  },
+  "temporistics-intertype-relations-expert": {
+    "original_sha256": "1d78ff77dba5f9d93886a8e12fdf1c507212e1776826b337f09d4d22a15ed4e3",
+    "normalized_body_sha256": "8db78b7af5478bd9ff911b8b88dfca0f4dc0081a0d2a273b29689de3711bd185"
+  },
+  "temporistics-researcher": {
+    "original_sha256": "808ae54bdb7da821204b8bef374d1b521e0fb96685b23986f71cdd9a00fae6e0",
+    "normalized_body_sha256": "25c81bd2646889c1b9ae092fede3d791b462744dd0ef4cab8f9f60ab4f64301e"
+  },
+  "type-explain": {
+    "original_sha256": "def60108a6c6334e1f1f31bac26c7ff2c8f79cf93b20f8862d9595e882609e5d",
+    "normalized_body_sha256": "59d359c6d41398fb10976b834a6c75d5b082247a833183fced6ca02a6bdc376c"
+  },
+  "typing-lead": {
+    "original_sha256": "469fe6adb9db5a202f4196a5260c69f5bacd554bd6f493899c12264de5527a73",
+    "normalized_body_sha256": "55a6d33dd47bff5d1a68badb225da3a18925d1e1aa67328f31953f62ac9dd3fe"
+  },
+  "typology-researcher": {
+    "original_sha256": "9bca71df6ad4b40698efbd778cd719892be38c90ff3d41c75d0f000b676707c2",
+    "normalized_body_sha256": "1638580bb7787883c77edaba4b8353303d1c1a5bf4438301999e0622aa7e059d"
+  },
+  "typology-test-evaluation-expert": {
+    "original_sha256": "169c3929b802466c16dcd79159e92ca1d0ad6c0a71dac1ec2447c4ab8eaa0c0c",
+    "normalized_body_sha256": "1749ce1b0007f5caebeb4ef3c67d4eaf9939fb2ae7f3df58b211dab3ddc742ab"
+  },
+  "vanka-the-layman": {
+    "original_sha256": "96c6c709c80c8c261e5aed598ad6f19095f1c52ab7a8f922c5fe5129c7555900",
+    "normalized_body_sha256": "6a35c0f8a0eb92430fc8cf6d096a2761bdcc0059eaa2c0223f88568086026c15"
+  },
+  "visual-explainer": {
+    "original_sha256": "db62c945c4cb3baf8d062e7f148bc950538a5dedfc79a58cb5e90d6abba0b569",
+    "normalized_body_sha256": "e22d7e2d6cbf894769816305182ebce93fdd203ae519f96a9acdb0788bbe7cb7"
+  },
+  "visual-storyboard-agent": {
+    "original_sha256": "9376e1350e6f4ba3129ffda407c1f0a96866c91cc77b578ff5d0959259bb5b72",
+    "normalized_body_sha256": "52726cda318213d13400f3089244d6c06fe4ef8c545dc33970ab953c1233ccd2"
+  },
+  "wiki-consistency-checker": {
+    "original_sha256": "ef6f462026acd94b7267b8c7272e8e35607912d15e09fa32a44a9f5aaba807a0",
+    "normalized_body_sha256": "28635c0b4330212552c88a976cfc78fc7483fbaa554659bbe85d184ab0d2002a"
+  },
+  "wiki-contributor": {
+    "original_sha256": "a40a9450319e382bb5f40b022d17cf949da86a049a5432edb9f7643fe06c03eb",
+    "normalized_body_sha256": "19c551818833ed9023397335e7cf5dbc99d5db054c055255f746214c0e2da82c"
+  }
+}

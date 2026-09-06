@@ -222,6 +222,31 @@ latent construct, observable indicators, possible pair mechanism,
 counterexamples and rival hypotheses, falsification conditions, and current
 evidence status.
 
+## Agent architecture and runtime adapters
+
+The authoritative role registry is `.agents/registry.json`; instructions live in
+`.agents/roles/*.md`. Read `.agents/ORGANIZATION.md` for task ownership and
+`.agents/README.md` for adapter capabilities and authoring instructions.
+
+In the main session, use `.agents/roles/master-orchestrator.md` for orchestration.
+A delegated session uses its assigned role instead of becoming another root.
+Use available subagents for bounded specialist work; delegate independent parts
+in parallel when useful and keep one writer per artifact. Do not spawn the
+entire roster for a routine task. A missing capability is a disclosed limitation,
+not permission to pretend that an independent review happened.
+
+Codex project subagents are generated in `.codex/agents/`; OpenCode agents in
+`.opencode/agents/`. If named-role dispatch is unavailable but generic subagents
+exist, pass the selected canonical role and shared organization instructions
+explicitly. Host permissions, tool availability and session constraints prevail.
+Model choice belongs to adapter settings or the current user-selected session,
+not to the shared role definition. Do not launch nested CLI model sessions to
+simulate independent review.
+
+After an authorized core/config change, run:
+`python3 scripts/generate_agent_adapters.py --write`, then
+`python3 scripts/generate_agent_adapters.py --check` and the required checks below.
+
 ## Operations
 
 ### Agent Self-Improvement Workflow
@@ -231,7 +256,7 @@ Agent instruction changes are governance changes. They should be handled through
 1. Record the observed failure, audit finding, or user feedback in `.agent-learning/logs/`.
 2. Create an improvement proposal in `.agent-learning/proposals/` using the template.
 3. Route high-risk changes to relevant reviewers, such as provenance, caveats, psychometrics, statistics, theology, neuroscience, clinical, sociology, military, or system-specific experts.
-4. Apply patches to `.opencode/agents/*.md` only after explicit user request or approval.
+4. Apply patches to `.agents/roles/*.md`, `.agents/registry.json`, shared organizational instructions, or `.agents/adapters/*.json` only after explicit user request or approval; then regenerate the runtime adapters. Do not hand-edit generated `.opencode/agents/*.md` or `.codex/agents/*.toml`.
 5. Store review decisions in `.agent-learning/reviews/`.
 
 Self-improvement should make agents more truthful, traceable, humble, and better delegated. It must not weaken caveats or convert hypotheses into facts.

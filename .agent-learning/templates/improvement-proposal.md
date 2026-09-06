@@ -14,7 +14,7 @@ sources: []
 
 ## 1. Target agent(s)
 
-- `.opencode/agents/<agent-name>.md`
+- `.agents/roles/<agent-name>.md`
 
 ## 2. Observed failure or opportunity
 

@@ -9,7 +9,7 @@ The goal is inspired by systems like Hermes Agent: agents should learn from expe
 ```text
 .agent-learning/
 ├── logs/        # observed failures, lessons, and task retrospectives
-├── proposals/   # proposed changes to .opencode/agents/*.md
+├── proposals/   # proposed changes to .agents/roles/*.md
 ├── reviews/     # review decisions and safety checks
 ├── skill-drafts/ # inactive reusable skill drafts generated from repeated workflows
 ├── approved-skills/ # approved reusable skills; activation still depends on runtime support
@@ -56,4 +56,8 @@ Drafts in `skill-drafts/` are not active instructions. Approved skills in `appro
 
 ## Steward agent
 
-Use `.opencode/agents/agent-improvement-steward.md` for creating and reviewing improvement proposals.
+Use `.agents/roles/agent-improvement-steward.md` for creating and reviewing improvement proposals.
+
+Role registry, shared organization and adapter settings are also governed instructions.
+Edit the shared source, then regenerate OpenCode and Codex outputs with
+`python3 scripts/generate_agent_adapters.py --write`; never maintain separate prompt copies.

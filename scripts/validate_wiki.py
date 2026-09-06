@@ -148,6 +148,7 @@ SOURCE_REPOSITORY_PREFIXES = (
     "research/",
     "governance/",
     ".opencode/",
+    ".agents/",
     ".agent-learning/",
     "biblical-compatibility/",
     "instruments/",

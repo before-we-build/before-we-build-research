@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "format": "opencode-v1",
+  "default_model": "openai/gpt-5.4",
+  "roles": {
+    "agent-improvement-steward": {
+      "color": "#7B68EE",
+      "model": "openai/gpt-5.5"
+    },
+    "alias-canonical-naming-steward": {
+      "color": "#DAA520"
+    },
+    "baptist-pastor": {
+      "color": "#5B3A29"
+    },
+    "before-we-build-plain-language-translator": {
+      "color": "#87CEEB"
+    },
+    "before-we-build-presentation-designer": {
+      "color": "#DA70D6"
+    },
+    "before-we-build-skeptic-bridge": {
+      "color": "#20B2AA"
+    },
+    "before-we-build-storyteller": {
+      "color": "#FFB347"
+    },
+    "christian-theology-researcher": {
+      "color": "#8B4513"
+    },
+    "civilian-career-advisor": {
+      "color": "#4682B4"
+    },
+    "clinical-neurologist-expert": {
+      "color": "#2F4F4F"
+    },
+    "compatibility-conversation-mapper": {
+      "color": "#FF0000"
+    },
+    "compatibility-measurement-researcher": {
+      "color": "#DC143C"
+    },
+    "copyright-licensing-reviewer": {
+      "color": "#6B7280"
+    },
+    "data-pipeline-engineer": {
+      "color": "#4682B4"
+    },
+    "empirical-claims-caveats-reviewer": {
+      "color": "#CD5C5C"
+    },
+    "ethics-and-consent-reviewer": {
+      "color": "#8B0000"
+    },
+    "experiment-designer": {
+      "color": "#6A5ACD"
+    },
+    "finance-ops-planner": {
+      "color": "#2E8B57"
+    },
+    "literature-researcher": {
+      "color": "#708090"
+    },
+    "marketing-claims-safety-reviewer": {
+      "color": "#DC143C"
+    },
+    "master-orchestrator": {
+      "color": "#FFD700",
+      "model": "openai/gpt-5.5"
+    },
+    "military-roles-researcher": {
+      "color": "#006400"
+    },
+    "military-specialty-advisor": {
+      "color": "#808000"
+    },
+    "naturalness-style-reviewer": {
+      "color": "#4682B4"
+    },
+    "neuroscience-researcher": {
+      "color": "#4B0082"
+    },
+    "psychometrics-methodologist": {
+      "color": "#228B22"
+    },
+    "psychosophy-intertype-relations-expert": {
+      "color": "#00A060"
+    },
+    "psychosophy-interview-typer": {},
+    "psychosophy-quick-typer": {
+      "model": "openai/gpt-5.4-mini"
+    },
+    "psychosophy-researcher": {
+      "color": "#008000"
+    },
+    "psychosophy-test-typer": {},
+    "publication-planner-agent": {
+      "color": "#9370DB"
+    },
+    "research-orchestrator": {
+      "color": "#4B0082"
+    },
+    "responsive-ui-design-systems-expert": {
+      "color": "#38BDF8",
+      "model": "openai/gpt-5.5"
+    },
+    "short-video-package-builder": {
+      "color": "#00BFFF"
+    },
+    "social-caption-hashtag-agent": {
+      "color": "#20B2AA"
+    },
+    "social-media-strategy-agent": {
+      "color": "#FF6B6B"
+    },
+    "sociology-researcher": {
+      "color": "#8B4513"
+    },
+    "socionics-intertype-relations-expert": {
+      "color": "#1E5BFF"
+    },
+    "socionics-researcher": {
+      "color": "#0000FF"
+    },
+    "source-provenance-auditor": {
+      "color": "#B8860B"
+    },
+    "statistical-validation-agent": {
+      "color": "#2E8B57"
+    },
+    "temporistics-intertype-relations-expert": {
+      "color": "#00B8C8"
+    },
+    "temporistics-researcher": {
+      "color": "#6A5ACD"
+    },
+    "type-explain": {
+      "color": "#EE82EE"
+    },
+    "typing-lead": {
+      "color": "#8A2BE2"
+    },
+    "typology-researcher": {
+      "color": "#808080"
+    },
+    "typology-test-evaluation-expert": {
+      "color": "#6A5ACD"
+    },
+    "vanka-the-layman": {
+      "color": "#D2B48C"
+    },
+    "visual-explainer": {
+      "color": "#4DB6AC"
+    },
+    "visual-storyboard-agent": {
+      "color": "#FFA500"
+    },
+    "wiki-consistency-checker": {
+      "color": "#FF00FF"
+    },
+    "wiki-contributor": {
+      "color": "#FFC0CB"
+    }
+  }
+}
