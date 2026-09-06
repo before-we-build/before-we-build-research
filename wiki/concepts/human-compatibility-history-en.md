@@ -3,11 +3,11 @@ title: A History of Attempts to Solve Human Compatibility
 type: concept
 tags: [compatibility, history, timeline, research-methodology, universal-core]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-06
 lang: en
 translation_group: human-compatibility-history
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [project-definition, source-attribution, evidence-informed, normative-rule]
@@ -452,6 +452,13 @@ evaluation of AI-supported conversations.
 
 <!-- section:source-map -->
 ## Source map
+
+For a closer look at scientific work, open the
+[[compatibility-research-catalog-en|compatibility research catalog]]. Its first
+release contains 24 works on close relationships, friendship, teams,
+prediction, and relationship change. Entries explain questions, methods,
+findings, and limitations, with publication links and text-access information.
+This is a thematic selection with search records, not an exhaustive systematic review.
 
 Source-by-source details—URL, type, supported conclusions, and limitations—are
 recorded in `raw/general/human-compatibility-history-source-ledger.md`.

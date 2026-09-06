@@ -3,11 +3,11 @@ title: История попыток решить проблему челове�
 type: concept
 tags: [compatibility, history, timeline, research-methodology, universal-core]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-06
 lang: ru
 translation_group: human-compatibility-history
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [project-definition, source-attribution, evidence-informed, normative-rule]
@@ -438,6 +438,13 @@ BWB предлагает проектировать ИИ как ограниче
 
 <!-- section:source-map -->
 ## Карта источников
+
+Для подробного знакомства с научными работами откройте
+[[compatibility-research-catalog-ru|каталог исследований совместимости]]. Первый
+выпуск содержит 24 работы о близких отношениях, дружбе, командах,
+прогнозировании и изменениях отношений. Карточки объясняют вопрос, метод,
+выводы и ограничения; дают ссылки на публикации и отмечают доступность текста.
+Это тематический отбор с журналами поиска, а не полный систематический обзор.
 
 Сведения по каждому источнику — URL, тип, поддерживаемые выводы и ограничения —
 собраны в `raw/general/human-compatibility-history-source-ledger.md`. Более

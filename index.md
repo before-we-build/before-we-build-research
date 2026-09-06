@@ -6,12 +6,12 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 
 ## Inventory
 
-- Markdown pages: **633**
-- Translation groups: **211**
-- Complete EN/RU/UK triads: **211**
+- Markdown pages: **645**
+- Translation groups: **215**
+- Complete EN/RU/UK triads: **215**
 - Missing language files: **0**
-- Document statuses: active=630, historical=3
-- Page roles: application=24, entity=249, explanation=129, hub=15, relation=12, research-appendix=84, source-summary=120
+- Document statuses: active=642, historical=3
+- Page roles: application=24, entity=249, explanation=129, hub=18, relation=12, research-appendix=84, source-summary=129
 
 ## Reader entrypoints
 
@@ -52,6 +52,10 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | compatibility-level-boundaries | [Compatibility Level Boundaries](wiki/concepts/compatibility-level-boundaries-en.md) | [Границы уровней совместимости](wiki/concepts/compatibility-level-boundaries-ru.md) | [Межі рівнів сумісності](wiki/concepts/compatibility-level-boundaries-uk.md) | active | explanation | 2 |
 | compatibility-measurement-methods | [Compatibility Measurement Methods](wiki/concepts/compatibility-measurement-methods-en.md) | [Методы измерения совместимости](wiki/concepts/compatibility-measurement-methods-ru.md) | [Методи вимірювання сумісності](wiki/concepts/compatibility-measurement-methods-uk.md) | active | research-appendix | 1 |
 | compatibility-measurement-roadmap | [Compatibility Measurement Roadmap](wiki/concepts/compatibility-measurement-roadmap-en.md) | [Дорожная карта измерения совместимости](wiki/concepts/compatibility-measurement-roadmap-ru.md) | [Дорожня карта вимірювання сумісності](wiki/concepts/compatibility-measurement-roadmap-uk.md) | active | explanation | 1 |
+| compatibility-research-catalog | [Catalog of Scientific Research on Compatibility](wiki/concepts/compatibility-research-catalog-en.md) | [Каталог научных исследований совместимости](wiki/concepts/compatibility-research-catalog-ru.md) | [Каталог наукових досліджень сумісності](wiki/concepts/compatibility-research-catalog-uk.md) | active | hub | 1 |
+| compatibility-studies-cooperation | [Compatibility studies: teams and friendship](wiki/sources/compatibility-studies-cooperation-en.md) | [Исследования совместимости: команды и дружба](wiki/sources/compatibility-studies-cooperation-ru.md) | [Дослідження сумісності: команди і дружба](wiki/sources/compatibility-studies-cooperation-uk.md) | active | source-summary | 1 |
+| compatibility-studies-couples | [Compatibility studies: romantic couples](wiki/sources/compatibility-studies-couples-en.md) | [Исследования совместимости: романтические пары](wiki/sources/compatibility-studies-couples-ru.md) | [Дослідження сумісності: романтичні пари](wiki/sources/compatibility-studies-couples-uk.md) | active | source-summary | 1 |
+| compatibility-studies-prediction | [Compatibility studies: prediction and relationship interventions](wiki/sources/compatibility-studies-prediction-en.md) | [Исследования совместимости: прогнозы и программы помощи парам](wiki/sources/compatibility-studies-prediction-ru.md) | [Дослідження сумісності: прогнози та програми допомоги парам](wiki/sources/compatibility-studies-prediction-uk.md) | active | source-summary | 1 |
 | competitor-mosaic-relationship-intelligence | [Mosaic: potential competitor and naming conflict](wiki/sources/competitor-mosaic-relationship-intelligence-en.md) | [Mosaic: потенциальный конкурент и конфликт названия](wiki/sources/competitor-mosaic-relationship-intelligence-ru.md) | [Mosaic: потенційний конкурент і конфлікт назви](wiki/sources/competitor-mosaic-relationship-intelligence-uk.md) | active | source-summary | 1 |
 | composite-intertype-combinatorics | [Combinatorics of Composite Intertype Structures](wiki/concepts/composite-intertype-combinatorics-en.md) | [Комбинаторика составных интертипных структур](wiki/concepts/composite-intertype-combinatorics-ru.md) | [Комбінаторика складених інтертипних структур](wiki/concepts/composite-intertype-combinatorics-uk.md) | active | research-appendix | 1 |
 | composite-profile-sli-elvf-vpnb | [Core Composite Profile SLI + ELVF + EPNF](wiki/concepts/composite-profile-sli-elvf-vpnb-en.md) | [Композитный профиль СЛИ + ЭЛВФ + ВПНБ](wiki/concepts/composite-profile-sli-elvf-vpnb-ru.md) | [Композитний профіль СЛІ + ЕЛВФ + Вч-Ми-Тп-Мб](wiki/concepts/composite-profile-sli-elvf-vpnb-uk.md) | active | explanation | 2 |
@@ -79,7 +83,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | guo-gong-yang-executive-social-hyperscanning-2026 | [Acute Stress Impacts Executive-Social Function: Evidence From Prefrontal Activation and fNIRS-Based Hyperscanning](wiki/sources/guo-gong-yang-executive-social-hyperscanning-2026-en.md) | [Влияние острого стресса на исполнительно-социальные функции: данные префронтальной активации и fNIRS-гиперсканирования](wiki/sources/guo-gong-yang-executive-social-hyperscanning-2026-ru.md) | [Вплив гострого стресу на виконавчо-соціальні функції: дані префронтальної активації та fNIRS-гіперсканування](wiki/sources/guo-gong-yang-executive-social-hyperscanning-2026-uk.md) | active | source-summary | 1 |
 | guru | [Гуру](wiki/entities/guru-en.md) | [Темпористический архетип 1E — Гуру](wiki/entities/guru-ru.md) | [Темпористичний архетип 1E — Гуру](wiki/entities/guru-uk.md) | active | entity | 1 |
 | host-khozyain | [Host (Khozyain)](wiki/entities/host-khozyain-en.md) | [Темпористический архетип 1N — Хозяин](wiki/entities/host-khozyain-ru.md) | [Темпористичний архетип 1N — Хазяїн](wiki/entities/host-khozyain-uk.md) | active | entity | 1 |
-| human-compatibility-history | [A History of Attempts to Solve Human Compatibility](wiki/concepts/human-compatibility-history-en.md) | [История попыток решить проблему человеческой совместимости](wiki/concepts/human-compatibility-history-ru.md) | [Історія спроб розв’язати проблему людської сумісності](wiki/concepts/human-compatibility-history-uk.md) | active | research-appendix | 2 |
+| human-compatibility-history | [A History of Attempts to Solve Human Compatibility](wiki/concepts/human-compatibility-history-en.md) | [История попыток решить проблему человеческой совместимости](wiki/concepts/human-compatibility-history-ru.md) | [Історія спроб розв’язати проблему людської сумісності](wiki/concepts/human-compatibility-history-uk.md) | active | research-appendix | 3 |
 | iee-intuitive-ethical-extrovert | [IEE — Intuitive Ethical Extrovert (Huxley / the Journalist)](wiki/entities/iee-intuitive-ethical-extrovert-en.md) | [Соционический тип IEE — Гексли](wiki/entities/iee-intuitive-ethical-extrovert-ru.md) | [Соціонічний тип IEE — Гекслі](wiki/entities/iee-intuitive-ethical-extrovert-uk.md) | active | entity | 2 |
 | iei-intuitive-ethical-introvert | [IEI — Intuitive Ethical Introvert (Yesenin)](wiki/entities/iei-intuitive-ethical-introvert-en.md) | [Соционический тип IEI — Есенин](wiki/entities/iei-intuitive-ethical-introvert-ru.md) | [Соціонічний тип IEI — Єсенін](wiki/entities/iei-intuitive-ethical-introvert-uk.md) | active | entity | 2 |
 | iis-41-conference-program-topics | [41st IIS Conference Program — Selected Topics](wiki/sources/iis-41-conference-program-topics-en.md) | [Программа 41-й конференции МИС — избранные темы](wiki/sources/iis-41-conference-program-topics-ru.md) | [Програма 41-ї конференції МІС — вибрані теми](wiki/sources/iis-41-conference-program-topics-uk.md) | active | source-summary | 1 |

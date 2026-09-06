@@ -3,11 +3,11 @@ title: Історія спроб розв’язати проблему людс
 type: concept
 tags: [compatibility, history, timeline, research-methodology, universal-core]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-06
 lang: uk
 translation_group: human-compatibility-history
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
 claim_status: [project-definition, source-attribution, evidence-informed, normative-rule]
@@ -429,6 +429,13 @@ BWB пропонує проєктувати ШІ як обмежений доп�
 
 <!-- section:source-map -->
 ## Карта джерел
+
+Для докладного знайомства з науковими працями відкрийте
+[[compatibility-research-catalog-uk|каталог досліджень сумісності]]. Перший
+випуск містить 24 праці про близькі стосунки, дружбу, команди,
+прогнозування та зміни стосунків. Картки пояснюють питання, метод,
+висновки й обмеження; дають посилання на публікації та позначають доступність тексту.
+Це тематична добірка з журналами пошуку, а не повний систематичний огляд.
 
 Відомості про кожне джерело — URL, тип, висновки, які воно підтримує, та
 обмеження — зібрано в

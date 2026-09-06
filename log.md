@@ -1883,3 +1883,12 @@ Changes were validated locally; no remote workflow or publication was run.
 - Independent adapter_review identified read-role persistence mismatches; fixed owner-write handoffs and parser validation, then passed re-review.
 - All 110 tests and required local quality checks passed. GitHub Actions is the configured CI; no GitLab remote or pipeline is present.
 - Evidence: reports/agent-best-practices-review-2026-09-06.md.
+
+
+## [2026-09-06] research | First compatibility research catalog
+
+- Added a catalog hub and three source collections in synchronized EN/RU/UK: 24 distinct peer-reviewed publications on close relationships, friendship/teamwork, prediction, and relationship interventions.
+- Each card includes a publication link, question, design/sample information where verified, accessible findings, access depth, limits, and explicitly proposed BWB research uses. Negative results and conflicting similarity findings remain visible.
+- Connected all history-language peers to the catalog; preserved the initial bibliography in a new raw source ledger and recorded searches/access in research/compatibility-catalog/. This is a selected historical seed set, not an exhaustive systematic review or typology validation.
+- Bounded independent provenance review checked three primary abstracts and sampled translation/inference boundaries; clarified the Dyrenforth denominator and Hawkins effect-size wording. See reports/compatibility-catalog-review-2026-09-06.md for limits.
+- Regenerated the index and migration inventory. Validation: 110 tests passed; required strict wiki, section, link, claim, index, inventory, adapter, linter, readability, and whitespace checks passed locally. Publication was not performed.
