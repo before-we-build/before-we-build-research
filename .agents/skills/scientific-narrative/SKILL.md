@@ -15,8 +15,8 @@ overrides scientific or epistemic correctness**.
   edit files unless the user asks for changes.
 - **Revision:** audit, propose a narrative route, revise the authorized target,
   and re-audit the result.
-- **Full collegium:** use all six composite roles below. This is the default when
-  the user says to run the collegium or reader panel.
+- **Full collegium:** launch all six roles below as six distinct child agents.
+  This is the default when the user says to run the collegium or reader panel.
 - **Focused pass:** use only the roles needed for a narrower request and name the
   omitted perspectives.
 
@@ -41,9 +41,11 @@ completely before delegating.
 
 ## Run the six-role collegium
 
-Use independent subagents when collaboration tools are available. Start the
-roles in parallel when useful; if capacity is limited, combine adjacent roles or
-run them in waves while keeping their judgments distinguishable.
+Full mode requires a separate child identity and a completed review for each
+role below. Keep the director in the main session; it does not count as one of
+the six. At capacity, wait for completion and release slots using the host's
+supported lifecycle, then launch the remaining roles in waves. Do not combine
+roles or reuse one child as different reviewers to satisfy full mode.
 
 1. `snil_architect` — map concepts, prerequisite knowledge, reader questions,
    narrative order, and avoidable detours.
@@ -60,9 +62,45 @@ run them in waves while keeping their judgments distinguishable.
    a section-level drop-off map. Label every score or retention estimate as a
    model judgment, never as measured human behavior.
 
-Do not launch a nested Codex CLI process merely to imitate independence. Use the
-current collaboration mechanism or clearly disclose when a role was performed
-by the orchestrator.
+### Dispatch and handoff
+
+The five `snil_*` names are workflow task names, not registered agent types.
+With `collaboration.spawn_agent`, use `agent_type: "default"` and the matching
+`task_name` for each. Give each child the corresponding section of
+`references/architecture-specification.md` (text or a required file read), the
+shared evidence boundaries, target files/text and revision, audience, expected
+output, and read-only review scope. Require `.agents/ORGANIZATION.md` and tell
+children to return findings without spawning another panel. Do not pass a
+`snil_*` name as `agent_type` or rely on the task name alone to convey its role.
+
+For `naturalness-style-reviewer`, use that registered `agent_type` when exposed
+by the host. Otherwise use a distinct default child with its complete canonical
+role instruction, and disclose the generic dispatch. On other hosts, use the
+equivalent available delegation tool and record its returned child identity.
+Never claim registration or execution solely from files on disk.
+
+Architect, explainer and editor may review the same initial revision in
+parallel. The director owns any authorized edits. Run naturalness review after
+the editorial pass and, in revision mode, after applying edits. Apply accepted
+naturalness fixes before the final epistemic and reader-panel reviews, which
+may run in parallel. If subsequent edits affect their conclusions, send the
+changed revision back to the affected reviewers before final synthesis. Record
+which revision each result covers; do not present an older review as final.
+
+### Completion evidence
+
+Keep a six-row execution ledger in the report: role, actual child ID/task path,
+dispatch type, reviewed revision, status, and returned result reference (message
+or artifact). Copy IDs from tool responses, and mark completion only after a
+substantive role-specific result arrives. A spawn acknowledgement is not a
+completed review. Record failed attempts and any replacement child IDs.
+
+Only label the result a completed full collegium when all six distinct children
+have returned the required reviews. If a role fails or delegation is unavailable,
+report the missing role and incomplete status. Useful partial work may be
+returned as a reduced review; disclose combined or director-performed roles and
+never count them as independent children. Focused mode names omitted roles.
+Do not launch nested Codex CLI sessions to imitate independence.
 
 ## Synthesize as director
 
@@ -76,6 +114,7 @@ Reconcile disagreements using this priority order:
 Return:
 
 - the verdict and intended audience;
+- the execution ledger and full / focused / incomplete coverage;
 - strengths worth preserving;
 - the highest-risk passages with precise locations;
 - consensus findings and material disagreements;

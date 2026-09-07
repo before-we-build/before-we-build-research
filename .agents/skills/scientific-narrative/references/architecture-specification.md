@@ -4,7 +4,7 @@
 
 - Provenance and intentional adaptations
 - Design objective
-- Twenty-two perspectives, clustered into five roles
+- Twenty-two source perspectives in five roles, plus naturalness review
 - Scorecard and gates
 - Final report template
 
@@ -21,8 +21,10 @@ This reference adapts three repository records:
   `.agents/skills/scientific-narrative/SKILL.md`, is the immutable
   pre-adaptation runtime entrypoint that names `invoke_subagent`.
 
-The current skill preserves the five runtime clusters and 22 perspectives with
-these intentional deviations:
+The current skill preserves the five source clusters and 22 perspectives and
+adds a sixth child role, `naturalness-style-reviewer`. Full mode requires six
+distinct children under the dispatch and completion contract in `../SKILL.md`.
+The director remains in the main session. Intentional deviations:
 
 1. Nested `codex exec` and unavailable `invoke_subagent` calls are replaced by
    the collaboration mechanism available to the running Codex instance.
@@ -53,7 +55,7 @@ The narrative rule is: each next thought should answer a question that has just
 arisen for the reader or create a more useful question. This is a heuristic, not
 a license to manufacture suspense.
 
-## Twenty-two perspectives, clustered into five roles
+## Twenty-two source perspectives in five roles, plus naturalness review
 
 ### `snil_architect`
 
@@ -166,6 +168,15 @@ Aggregate these into a section-level drop-off map using qualitative risk
 if used, must be visibly labeled as uncalibrated model estimates rather than
 real analytics.
 
+### `naturalness-style-reviewer`
+
+The sixth role extends the source architecture. Use the canonical instruction
+at `../../../roles/naturalness-style-reviewer.md`, resolved relative to this
+file. Review located formulaic rhetoric, vague assertions and translationese;
+return meaning-preserving edits and preserved caveats. Do not infer AI authorship.
+Run after the editorial pass and before final epistemic and reader-panel review.
+Dispatch and lifecycle rules are maintained in `../SKILL.md`.
+
 ## Scorecard and gates
 
 Score 0–10, with one or two evidence sentences for each:
@@ -201,3 +212,6 @@ a validated scale and must not be presented as observed reader performance.
 7. **Revision plan** — smallest coherent set of changes in dependency order.
 8. **Limits** — missing evidence, audience assumptions, and which findings are
    simulated rather than measured.
+9. **Execution ledger** — all six roles, actual child IDs/task paths, dispatch
+   types, reviewed revisions, statuses and result references. Label full,
+   focused or incomplete coverage using the completion rules in `../SKILL.md`.

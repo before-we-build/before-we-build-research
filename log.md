@@ -1899,3 +1899,7 @@ Changes were validated locally; no remote workflow or publication was run.
 - Recorded implemented strengths, gaps between specifications and evidence, instrument/status inconsistencies, and a proposed route to one reproducible study. Recommendations remain proposals.
 - Baseline verification: 110 tests and all executed strict wiki, section, link, claim, index, inventory, adapter, linter, readability, and whitespace checks passed locally.
 - Evidence: reports/research-architecture-assessment-2026-09-06-ru.md. Existing wiki, research instruments, agent instructions, and workflows were not changed by this assessment.
+
+## 2026-09-07 — Explicit six-child SNIL execution
+
+Updated the scientific-narrative skill and architecture reference to require six distinct completed child reviews in full mode, explicit dispatch, waves and an execution ledger. Verified six actual role-specific returns on an immutable short fixture; 110 tests and all blocking repository checks passed. Bundled skill validator was unavailable because PyYAML is missing. See `reports/snil-independent-launches-2026-09-07.md` and the matching agent-learning proposal/review.
