@@ -9,40 +9,35 @@ The goal is inspired by systems like Hermes Agent: agents should learn from expe
 ```text
 .agent-learning/
 ├── logs/        # observed failures, lessons, and task retrospectives
-├── proposals/   # proposed changes to .agents/roles/*.md
+├── proposals/   # proposed changes to canonical specs in governance/agent-system/ or .agents/roles/
 ├── reviews/     # review decisions and safety checks
 ├── skill-drafts/ # inactive reusable skill drafts generated from repeated workflows
-├── approved-skills/ # approved reusable skills; activation still depends on runtime support
+├── approved-skills/ # approved reusable skills conforming to Agent Skills specification
 └── templates/   # proposal/review templates
 ```
 
 ## Default workflow
 
 ```text
-Experience / audit finding
-→ learning log entry
-→ improvement proposal
-→ specialist review if needed
+Experience / audit finding / user feedback
+→ learning log entry (logs/)
+→ improvement proposal (proposals/) targeting canonical contracts (governance/agent-system/)
+→ specialist review if needed (reviews/)
 → human approval or explicit implementation request
-→ patch to agent instructions
-→ post-change verification
+→ patch to canonical specifications
+→ compile projections across targets (scripts/agent_system.py build / scripts/generate_agent_adapters.py --write)
+→ post-change drift verification (scripts/agent_system.py check-drift / scripts/generate_agent_adapters.py --check)
 ```
 
-## Skill generation workflow
+## Supported Harness Targets
 
-Agents may draft reusable skills when they notice repeated, stable workflows. Drafting is allowed; silent activation is not.
+Projections are compiled from canonical contracts into:
+- **Google Antigravity**: `.agents/agents/*.md`, `.agents/skills/`
+- **Anthropic Claude Code**: `.claude/agents/*.md`, `CLAUDE.md`
+- **OpenAI Codex**: `.codex/agents/*.toml`
+- **OpenCode**: `.opencode/agents/*.md`
 
-```text
-Repeated task / recurring failure
-→ learning log entry
-→ inactive skill draft in skill-drafts/
-→ proposal describing purpose, risks, and reviewers
-→ review and human approval
-→ approved skill copied to approved-skills/ or runtime skill directory
-→ post-change verification
-```
-
-Drafts in `skill-drafts/` are not active instructions. Approved skills in `approved-skills/` are governance artifacts unless explicitly connected to a runtime skill system.
+Direct manual edits to projection files are prohibited and flagged by CI drift checks.
 
 ## Rules
 
@@ -51,13 +46,10 @@ Drafts in `skill-drafts/` are not active instructions. Approved skills in `appro
 3. Do not treat generated agent output as primary evidence.
 4. Preserve delegation-first routing.
 5. Prefer small enforceable instruction patches over broad rewrites.
-6. Agents may auto-draft skills, but must not auto-apply or activate skills without explicit approval.
+6. Proposals must target canonical specifications in `governance/agent-system/`, `.agents/roles/`, or `.agent-learning/approved-skills/`.
 7. Skills must not replace specialist review in high-risk domains.
 
 ## Steward agent
 
-Use `.agents/roles/agent-improvement-steward.md` for creating and reviewing improvement proposals.
-
-Role registry, shared organization and adapter settings are also governed instructions.
-Edit the shared source, then regenerate OpenCode and Codex outputs with
-`python3 scripts/generate_agent_adapters.py --write`; never maintain separate prompt copies.
+Use `governance/agent-system/roles/agent-improvement-steward.yaml` and `.agents/roles/agent-improvement-steward.md` for creating and reviewing improvement proposals.
+Compile and verify all projections via `python3 scripts/agent_system.py build` and `python3 scripts/generate_agent_adapters.py --write`.

@@ -1,0 +1,38 @@
+api_version: bwb.agent/v1
+kind: TargetRegistry
+targets:
+  antigravity:
+    name: "Google Antigravity"
+    vendor: "google"
+    runtime: "antigravity"
+    agents_dir: ".agents/agents"
+    rules_dir: ".agents/rules"
+    skills_dir: ".agents/skills"
+    format: "antigravity_agent"
+    default_model: "gemini-2.5-pro"
+    capabilities_supported:
+      - fs.read
+      - fs.write
+      - exec.sandboxed
+      - web.search
+      - sources.retrieve
+      - artifact.emit
+      - subagent.spawn
+
+  claude-code:
+    name: "Anthropic Claude Code"
+    vendor: "anthropic"
+    runtime: "claude_code"
+    agents_dir: ".claude/agents"
+    bootstrap_file: "CLAUDE.md"
+    skills_dir: ".claude/skills"
+    format: "claude_subagent"
+    default_model: "claude-3-7-sonnet"
+    capabilities_supported:
+      - fs.read
+      - fs.write
+      - exec.sandboxed
+      - web.search
+      - artifact.emit
+      - subagent.spawn
+

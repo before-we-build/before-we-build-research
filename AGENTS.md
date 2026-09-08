@@ -251,13 +251,14 @@ After an authorized core/config change, run:
 
 ### Agent Self-Improvement Workflow
 
-Agent instruction changes are governance changes. They should be handled through the controlled learning loop in `.agent-learning/`, not silent self-modification.
+Agent instruction changes are governance changes. They should be handled through the controlled learning loop in `.agent-learning/`, not silent self-modification. The repository uses a three-tier architecture: canonical contracts in `governance/agent-system/` and `.agents/roles/`, compiled projections across supported harnesses (Google Antigravity, Anthropic Claude Code, OpenAI Codex, OpenCode), and proposal-first stewardship.
 
 1. Record the observed failure, audit finding, or user feedback in `.agent-learning/logs/`.
-2. Create an improvement proposal in `.agent-learning/proposals/` using the template.
-3. Route high-risk changes to relevant reviewers, such as provenance, caveats, psychometrics, statistics, theology, neuroscience, clinical, sociology, military, or system-specific experts.
-4. Apply patches to `.agents/roles/*.md`, `.agents/registry.json`, shared organizational instructions, or `.agents/adapters/*.json` only after explicit user request or approval; then regenerate the runtime adapters. Do not hand-edit generated `.opencode/agents/*.md` or `.codex/agents/*.toml`.
+2. Create an improvement proposal in `.agent-learning/proposals/` targeting canonical specifications, policies, or approved skills.
+3. Route high-risk changes to relevant reviewers according to `governance/agent-system/policies/review-routing.yaml` (provenance, caveats, psychometrics, statistics, theology, neuroscience, clinical, sociology, military, or system-specific experts).
+4. Apply patches to canonical specifications only after explicit user request or approval; then regenerate the runtime projections (`python3 scripts/agent_system.py build` and `python3 scripts/generate_agent_adapters.py --write`). Do not hand-edit generated files in `.opencode/agents/`, `.claude/agents/`, or `.codex/agents/`.
 5. Store review decisions in `.agent-learning/reviews/`.
+6. Verify compliance with `python3 scripts/agent_system.py check-drift` and `python3 scripts/generate_agent_adapters.py --check`.
 
 Self-improvement should make agents more truthful, traceable, humble, and better delegated. It must not weaken caveats or convert hypotheses into facts.
 

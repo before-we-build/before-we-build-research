@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://beforewebuild.org/schemas/agent-system/role.schema.json",
+  "title": "Canonical Agent Role Contract",
+  "description": "Vendor-agnostic specification defining agent responsibility, authority, delegation boundaries, and safety invariants.",
+  "type": "object",
+  "required": [
+    "api_version",
+    "kind",
+    "id",
+    "revision",
+    "description",
+    "scope",
+    "instructions_ref",
+    "accountability"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "api_version": {
+      "type": "string",
+      "enum": ["bwb.agent/v1"]
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["Role"]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10
+    },
+    "scope": {
+      "type": "object",
+      "required": ["includes", "excludes"],
+      "additionalProperties": false,
+      "properties": {
+        "includes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "excludes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      }
+    },
+    "instructions_ref": {
+      "type": "string",
+      "pattern": "\\.md$"
+    },
+    "policy_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "accountability": {
+      "type": "object",
+      "required": ["reports_to"],
+      "additionalProperties": false,
+      "properties": {
+        "reports_to": {
+          "type": "string"
+        }
+      }
+    },
+    "delegation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "may_delegate_to": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "may_request_reviews": {
+          "type": "boolean",
+          "default": false
+        },
+        "may_override_blocking_review": {
+          "type": "boolean",
+          "default": false
+        },
+        "workflow_ref": {
+          "type": "string"
+        }
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "required": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "fs.read",
+              "fs.write",
+              "exec.sandboxed",
+              "web.search",
+              "sources.retrieve",
+              "artifact.emit",
+              "subagent.spawn"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "optional": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "propose_changes": {
+          "type": "boolean",
+          "default": false
+        },
+        "approve_own_changes": {
+          "type": "boolean",
+          "default": false
+        },
+        "activate_changes": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "contracts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input": { "type": "string" },
+        "output": { "type": "string" }
+      }
+    },
+    "evaluation_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  }
+}

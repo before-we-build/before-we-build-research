@@ -1,0 +1,17 @@
+api_version: bwb.agent/v1
+kind: Policy
+id: change-control
+title: Agent Instruction Change Control Policy
+rules:
+  - id: proposal-first
+    description: "All changes to agent behavior, role contracts, skills, or policies must originate as formal proposals in .agent-learning/proposals/."
+    enforcement: ci
+  - id: no-silent-modification
+    description: "Agents are strictly prohibited from directly modifying canonical roles or target projection files without explicit human approval."
+    enforcement: ci
+  - id: non-weakening-of-caveats
+    description: "No proposal may weaken, remove, or bypass an existing caveat without concurrence from the responsible domain reviewer."
+    enforcement: human-review
+  - id: deterministic-release
+    description: "Projections in .opencode/, .claude/, .codex/, and .agents/ are generated deterministically by scripts/agent_system.py upon release approval."
+    enforcement: ci

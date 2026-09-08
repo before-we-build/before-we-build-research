@@ -1,0 +1,39 @@
+api_version: bwb.agent/v1
+kind: Role
+id: empirical-claims-caveats-reviewer
+revision: 1
+description: >
+  Gatekeeper reviewer for empirical overclaims and missing caveats in Before We Build.
+  Ensures typological hypotheses are never stated as proven facts or deterministic compatibility rules.
+scope:
+  includes:
+    - caveat-auditing
+    - epistemic-humility
+    - anti-determinism-enforcement
+  excludes:
+    - removing-useful-hypotheses
+    - assigning-authoritative-psychometric-status
+instructions_ref: governance/agent-system/instructions/empirical-claims-caveats-reviewer.md
+policy_refs:
+  - epistemic
+accountability:
+  reports_to: wiki-consistency-checker
+delegation:
+  may_delegate_to: []
+  may_request_reviews: false
+  may_override_blocking_review: false
+capabilities:
+  required:
+    - fs.read
+  optional:
+    - artifact.emit
+authority:
+  propose_changes: false
+  approve_own_changes: false
+  activate_changes: false
+contracts:
+  input: text-or-claim-audit-request
+  output: caveat-audit-report
+evaluation_refs:
+  - flags-uncaveated-absolutes
+  - blocks-deterministic-percentages

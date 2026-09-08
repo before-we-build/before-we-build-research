@@ -5,16 +5,27 @@ created: YYYY-MM-DD
 updated: YYYY-MM-DD
 status: proposed # proposed | in-review | approved | applied | rejected | superseded
 risk: safe # safe | moderate | high-risk
-target_agents: []
+target_entities:
+  - kind: role # role | instruction | policy | skill
+    id: <entity-id>
+    path: governance/agent-system/roles/<role-id>.yaml # or .agents/roles/<role-id>.md
+affected_targets:
+  - antigravity
+  - claude-code
+  - codex
+  - opencode
 required_reviewers: []
 sources: []
 ---
 
 # Agent Improvement Proposal: <short title>
 
-## 1. Target agent(s)
+## 1. Target canonical entity
 
-- `.agents/roles/<agent-name>.md`
+- `governance/agent-system/roles/<role-id>.yaml` / `governance/agent-system/instructions/<role-id>.md`
+- or `.agents/roles/<agent-name>.md`
+- or `governance/agent-system/policies/<policy-id>.yaml`
+- or `.agent-learning/approved-skills/<skill-id>/`
 
 ## 2. Observed failure or opportunity
 

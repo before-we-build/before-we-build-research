@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "constitution_digest": "aadc0f25beeeb438250cd30a4e204ca6ddbdefc0ec0908eeda17faebb49b1db7",
+  "canonical_sources": {
+    "governance/agent-system/roles/agent-improvement-steward.yaml": "716e373bd95f3664b170c090188831a9d973458621ed2532181647e00b180742",
+    "governance/agent-system/roles/empirical-claims-caveats-reviewer.yaml": "1dda6610a55a2fa1d742e9289969bb9691123a5657298cf8efd8984b00c72672",
+    "governance/agent-system/roles/source-provenance-auditor.yaml": "bee4b7aad6f1a3cb52198094c11733a9e80995f7b6f6c0a0c64baadf58d0589d"
+  },
+  "policies": {
+    "governance/agent-system/policies/change-control.yaml": "7fa0fd9aaadfacbe377b34ee66f5c677be7b020cdf71c6bb84c7fef60ace6271",
+    "governance/agent-system/policies/epistemic.yaml": "19b858e0d8f6573581277206622c195cdbecec5ac36e4d9414925ebd859f9bf0",
+    "governance/agent-system/policies/review-routing.yaml": "2576f0ff52ef317b002071e1fdba118e5e491fa5e06343d2a9c84346820a0436"
+  },
+  "projections": {
+    ".agents/agents/agent-improvement-steward.md": "614b95a883241764b23e49f92a38ffac332c20e184ddbff7ff3b236500c1e4cb",
+    ".agents/agents/empirical-claims-caveats-reviewer.md": "38f5fe04b181b70dc43ef27b5b3a5b0b4fd9ed2722acff6872101e36c5f6ef36",
+    ".agents/agents/source-provenance-auditor.md": "2a865e8fc880b14c75fe92dc72277e0e7fa0f5c1efba4fa2269d15a70422acf3",
+    ".claude/agents/agent-improvement-steward.md": "72aace0d979c2b8821ffa20c013346b3d766aeb28e6abe87b3153a2f96616c25",
+    ".claude/agents/empirical-claims-caveats-reviewer.md": "9a1c78639a8d6ab197699d39cbc72cc9b1d36bb34bf3cb8d815b6bbf827774b8",
+    ".claude/agents/source-provenance-auditor.md": "15ba8df321fb8a8feefd0380b0bcb4d795213d9b970c3d29fe5c1543de6a4120",
+    "CLAUDE.md": "f90251981283012fe16315e45b8b8ba6845e0589ea6b5e16368e1ceb745afc57"
+  }
+}

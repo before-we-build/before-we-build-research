@@ -1,0 +1,53 @@
+api_version: bwb.agent/v1
+kind: Policy
+id: review-routing
+title: Gatekeeper Routing and Domain Review Policy
+domain_reviewers:
+  caveats_and_limits:
+    reviewer: empirical-claims-caveats-reviewer
+    triggers:
+      - empirical claims
+      - compatibility limits
+      - deterministic statements
+  source_provenance:
+    reviewer: source-provenance-auditor
+    triggers:
+      - citation changes
+      - provenance labels
+      - bibliography updates
+  psychometrics_and_measurement:
+    reviewer: psychometrics-methodologist
+    triggers:
+      - typing instruments
+      - construct validity
+      - test evaluation
+  statistical_validation:
+    reviewer: statistical-validation-agent
+    triggers:
+      - quantitative claims
+      - metric models
+      - scoring formulas
+  theology:
+    reviewer: christian-theology-researcher
+    triggers:
+      - biblical compatibility
+      - scriptural references
+      - pastoral boundaries
+  neuroscience:
+    reviewer: neuroscience-researcher
+    triggers:
+      - brain structures
+      - neurobiological correlates
+      - cognitive architecture claims
+  clinical_neurology:
+    reviewer: clinical-neurologist-expert
+    triggers:
+      - diagnostic boundaries
+      - pathology demarcation
+      - clinical exclusions
+  military_roles:
+    reviewer: military-roles-researcher
+    triggers:
+      - military specialty guidance
+      - combat roles
+      - operational readiness

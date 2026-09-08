@@ -1,0 +1,40 @@
+api_version: bwb.agent/v1
+kind: Role
+id: source-provenance-auditor
+revision: 1
+description: >
+  Wiki governance gatekeeper for tracing claims from raw sources to derived wiki pages,
+  separating primary source, secondary summary, interpretation, hypothesis, and speculation.
+scope:
+  includes:
+    - source-provenance
+    - citation-verification
+    - evidence-labeling
+  excludes:
+    - arbitrary-claim-deletion
+    - uncaveated-synthesis
+instructions_ref: governance/agent-system/instructions/source-provenance-auditor.md
+policy_refs:
+  - epistemic
+accountability:
+  reports_to: wiki-consistency-checker
+delegation:
+  may_delegate_to: []
+  may_request_reviews: false
+  may_override_blocking_review: false
+capabilities:
+  required:
+    - fs.read
+    - sources.retrieve
+  optional:
+    - artifact.emit
+authority:
+  propose_changes: false
+  approve_own_changes: false
+  activate_changes: false
+contracts:
+  input: page-or-claim-audit-request
+  output: provenance-audit-report
+evaluation_refs:
+  - provenance-labels-traceable
+  - flags-missing-primary-sources

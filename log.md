@@ -2,6 +2,17 @@
 
 Chronological record of wiki activity. Append-only.
 
+## [2026-09-08] feat | Multi-harness universal agent architecture and governance compiler
+
+- Implemented three-tier vendor-agnostic agent architecture decoupling canonical contracts from runtime projections (Google Antigravity, Anthropic Claude Code, OpenAI Codex, OpenCode).
+- Added `governance/agent-system/architecture.md` defining capability intersection formula and distinct accountability/delegation/review gates.
+- Added `governance/agent-system/schemas/role.schema.json` and canonical contracts for core roles (`agent-improvement-steward`, `source-provenance-auditor`, `empirical-claims-caveats-reviewer`).
+- Added canonical governance policies (`epistemic.yaml`, `change-control.yaml`, `review-routing.yaml`).
+- Created `scripts/agent_system.py` providing schema validation, projection compilation, CI drift detection, and capability compliance reporting.
+- Generated deployment projections across `.agents/agents/`, `.claude/agents/`, `CLAUDE.md`, `.codex/agents/`, and synchronized `.opencode/agents/`.
+- Added Codex personal consultant skill (`.agents/skills/codex-personal-consultant/SKILL.md`) and runner (`scripts/consult_codex_personal.py`).
+- Updated `AGENTS.md`, `.agent-learning/README.md`, and proposal templates to target canonical entities.
+
 ## [2026-09-05] update | Latent Processes in Psychosophy: Operational Synthesis and Analysis Architecture
 
 - **Epistemic & Theoretical Reconceptualization of Psychosophy:**

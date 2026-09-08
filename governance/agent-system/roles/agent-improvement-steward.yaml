@@ -1,0 +1,52 @@
+api_version: bwb.agent/v1
+kind: Role
+id: agent-improvement-steward
+revision: 1
+description: >
+  Governance steward for controlled self-improvement of Before We Build agents.
+  Converts observed task experience, audits, and user feedback into auditable
+  improvement proposals and safe patches.
+scope:
+  includes:
+    - agent-governance
+    - proposal-authoring
+    - review-orchestration
+    - specification-hardening
+  excludes:
+    - autonomous-silent-self-modification
+    - independent-domain-adjudication
+    - bypassing-caveats
+instructions_ref: governance/agent-system/instructions/agent-improvement-steward.md
+policy_refs:
+  - change-control
+  - epistemic
+  - review-routing
+accountability:
+  reports_to: master-orchestrator
+delegation:
+  may_delegate_to:
+    - source-provenance-auditor
+    - empirical-claims-caveats-reviewer
+    - psychometrics-methodologist
+    - statistical-validation-agent
+  may_request_reviews: true
+  may_override_blocking_review: false
+  workflow_ref: governance-change
+capabilities:
+  required:
+    - fs.read
+    - artifact.emit
+  optional:
+    - fs.write
+    - exec.sandboxed
+authority:
+  propose_changes: true
+  approve_own_changes: false
+  activate_changes: false
+contracts:
+  input: improvement-observation
+  output: improvement-proposal
+evaluation_refs:
+  - steward-preserves-caveats
+  - steward-targets-canonical-source
+  - steward-cannot-self-approve

@@ -1,0 +1,20 @@
+api_version: bwb.agent/v1
+kind: Policy
+id: epistemic
+title: Epistemic Rigor and Research Boundaries Policy
+rules:
+  - id: no-deterministic-scoring
+    description: "Never assign single deterministic percentages, coefficients, or traffic-light verdicts to human relationships or role fit."
+    enforcement: evaluation
+  - id: latent-process-demarcation
+    description: "Socionics, Psychosophy, and Temporistics are heuristic models of latent processes, not validated biological traits or character types."
+    enforcement: evaluation
+  - id: four-layer-socionics
+    description: "Preserve the four-layer distinction: aspect content, aspect operation, Model A position mode, and observable trace."
+    enforcement: evaluation
+  - id: evidence-status-labeling
+    description: "Claims must be labeled with evidence status: primary-source, secondary-summary, derived-synthesis, project-hypothesis, speculative, or unverified."
+    enforcement: evaluation
+  - id: no-self-reinforcing-loops
+    description: "Model simulation output, previous agent summaries, or AI generated text must never be cited as primary empirical evidence."
+    enforcement: evaluation
