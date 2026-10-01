@@ -24,14 +24,14 @@ class AdapterTests(unittest.TestCase):
         }}
         self.save_registry()
         for name in self.registry['roles']:
-            (self.root / f'.agents/roles/{name}.md').write_text(f'# {name}\nPreserve evidence.\n')
+            (self.root / f'.agents/roles/{name}.md').write_text(f'# {name}\nPreserve evidence.\n', encoding='utf-8')
         self.save('.agents/adapters/opencode.json', {'schema_version': 1, 'format': 'opencode-v1', 'default_model': 'vendor/model', 'roles': {}})
         self.save('.agents/adapters/codex.json', {'schema_version': 1, 'format': 'standalone-toml', 'max_concurrent_threads_per_session': 3, 'roles': {}})
         self.save('opencode.json', {'default_agent': 'root'})
-        (self.root / '.agents/ORGANIZATION.md').write_text('# Shared\n<!-- agent-roster:start -->\n<!-- agent-roster:end -->\n')
+        (self.root / '.agents/ORGANIZATION.md').write_text('# Shared\n<!-- agent-roster:start -->\n<!-- agent-roster:end -->\n', encoding='utf-8')
 
     def save(self, path, data):
-        (self.root / path).write_text(json.dumps(data))
+        (self.root / path).write_text(json.dumps(data), encoding='utf-8')
 
     def save_registry(self):
         self.save('.agents/registry.json', self.registry)
@@ -63,7 +63,7 @@ class AdapterTests(unittest.TestCase):
     def test_role_change_propagates_to_both_runtimes(self):
         sync(self.root, write=True)
         p = self.root / '.agents/roles/reviewer.md'
-        p.write_text(p.read_text()+'Check counterexamples.\n')
+        p.write_text(p.read_text(encoding='utf-8')+'Check counterexamples.\n', encoding='utf-8')
         errors = sync(self.root)
         self.assertTrue(any('.codex/agents/reviewer.toml' in e for e in errors))
         self.assertTrue(any('.opencode/agents/reviewer.md' in e for e in errors))
@@ -71,38 +71,51 @@ class AdapterTests(unittest.TestCase):
 
     def test_prompt_roundtrip_with_quotes_unicode_and_backslashes(self):
         body = '# Українська\n""" and \'\'\' and \\path\\file\n$HOME is literal.\n'
-        (self.root / '.agents/roles/reviewer.md').write_text(body)
+        (self.root / '.agents/roles/reviewer.md').write_text(body, encoding='utf-8')
         outputs = render(self.root)
         cfg = tomllib.loads(outputs['.codex/agents/reviewer.toml'])
         _, roles = load_core(self.root)
         self.assertEqual(cfg['developer_instructions'], prompt(roles['reviewer']))
         self.assertTrue(outputs['.opencode/agents/reviewer.md'].endswith(cfg['developer_instructions']))
 
+    def test_unicode_and_crlf_sources_generate_utf8_lf_artifacts(self):
+        path = self.root / '.agents/roles/reviewer.md'
+        path.write_bytes('# Українська — русский\r\nПример: \\path\\file\r\n'.encode('utf-8'))
+        self.registry['roles']['reviewer']['description'] = 'Перевірка — проверка'
+        self.save_registry()
+        self.assertEqual(sync(self.root, write=True), [])
+        for relative, expected in render(self.root).items():
+            with self.subTest(path=relative):
+                actual = (self.root / relative).read_bytes()
+                self.assertEqual(actual, expected.encode('utf-8'))
+                self.assertNotIn(b'\r\n', actual)
+        self.assertEqual(sync(self.root), [])
+
     def test_refuses_unowned_config_before_any_write(self):
         (self.root / '.codex').mkdir()
         cfg = self.root / '.codex/config.toml'
-        cfg.write_text('user_setting = true\n')
+        cfg.write_text('user_setting = true\n', encoding='utf-8')
         self.assertTrue(any('unowned' in e for e in sync(self.root, write=True)))
-        self.assertEqual(cfg.read_text(), 'user_setting = true\n')
+        self.assertEqual(cfg.read_text(encoding='utf-8'), 'user_setting = true\n')
         self.assertFalse((self.root / '.opencode/agents').exists())
 
     def test_detects_manual_generated_edit(self):
         sync(self.root, write=True)
         path = self.root / '.codex/agents/reviewer.toml'
-        path.write_text(path.read_text()+'# drift\n')
+        path.write_text(path.read_text(encoding='utf-8')+'# drift\n', encoding='utf-8')
         self.assertTrue(any('reviewer.toml' in e for e in sync(self.root)))
 
     def test_extra_adapter_is_not_deleted(self):
         sync(self.root, write=True)
         path = self.root / '.codex/agents/extra.toml'
-        path.write_text('# personal\n')
+        path.write_text('# personal\n', encoding='utf-8')
         self.assertTrue(sync(self.root, write=True))
         self.assertTrue(path.exists())
 
     def test_missing_role_and_unknown_override_fail(self):
         (self.root / '.agents/roles/reviewer.md').unlink()
         self.assertTrue(sync(self.root))
-        (self.root / '.agents/roles/reviewer.md').write_text('# Review\n')
+        (self.root / '.agents/roles/reviewer.md').write_text('# Review\n', encoding='utf-8')
         self.save('.agents/adapters/codex.json', {'schema_version': 1, 'format': 'standalone-toml', 'max_concurrent_threads_per_session': 3, 'roles': {'unknown': {'model': 'x'}}})
         self.assertTrue(sync(self.root))
 
@@ -123,10 +136,15 @@ class AdapterTests(unittest.TestCase):
     def test_symlink_output_refused(self):
         (self.root / '.codex').mkdir()
         target = self.root / 'user.toml'
-        target.write_text('untouched')
-        (self.root / '.codex/config.toml').symlink_to(target)
+        target.write_text('untouched', encoding='utf-8')
+        try:
+            (self.root / '.codex/config.toml').symlink_to(target)
+        except OSError as exc:
+            if sys.platform == 'win32' and getattr(exc, 'winerror', None) == 1314:
+                self.skipTest('Windows requires Developer Mode or symlink privilege for this test')
+            raise
         self.assertTrue(sync(self.root, write=True, adopt_existing=True))
-        self.assertEqual(target.read_text(), 'untouched')
+        self.assertEqual(target.read_text(encoding='utf-8'), 'untouched')
 
     def test_native_overrides_are_separate(self):
         self.save('.agents/adapters/codex.json', {'schema_version': 1, 'format': 'standalone-toml', 'max_concurrent_threads_per_session': 3, 'roles': {'reviewer': {'model': 'explicit-model', 'model_reasoning_effort': 'high'}}})
@@ -137,7 +155,7 @@ class AdapterTests(unittest.TestCase):
 
     def test_duplicate_json_role_is_rejected(self):
         path = self.root / '.agents/registry.json'
-        path.write_text('{"schema_version": 1, "entrypoint": "root", "roles": {}, "roles": {}}')
+        path.write_text('{"schema_version": 1, "entrypoint": "root", "roles": {}, "roles": {}}', encoding='utf-8')
         self.assertTrue(any('Duplicate JSON key' in e for e in sync(self.root)))
 
     def test_non_object_configs_fail_without_writes(self):
@@ -146,14 +164,14 @@ class AdapterTests(unittest.TestCase):
                          '.agents/generated-files.json'):
             with self.subTest(path=relative):
                 path = self.root / relative
-                previous = path.read_text() if path.exists() else None
-                path.write_text('[]')
+                previous = path.read_text(encoding='utf-8') if path.exists() else None
+                path.write_text('[]', encoding='utf-8')
                 self.assertTrue(any('Expected JSON object' in e for e in sync(self.root, write=True)))
                 self.assertFalse((self.root / '.opencode/agents').exists())
                 if previous is None:
                     path.unlink()
                 else:
-                    path.write_text(previous)
+                    path.write_text(previous, encoding='utf-8')
 
     def test_actual_repository_is_synchronized(self):
         self.assertEqual(sync(Path(__file__).resolve().parents[1]), [])

@@ -69,7 +69,7 @@ def load_json(path: Path) -> dict:
                 raise ValueError(f'Duplicate JSON key: {key}')
             result[key] = value
         return result
-    value = json.loads(path.read_text(), object_pairs_hook=unique)
+    value = json.loads(path.read_text(encoding='utf-8'), object_pairs_hook=unique)
     if not isinstance(value, dict):
         raise ValueError(f'Expected JSON object: {path}')
     return value
@@ -97,7 +97,7 @@ def load_core(root: Path) -> tuple[str, dict]:
         parent = fields['reports_to']
         if parent is not None and (not isinstance(parent, str) or parent not in roles):
             raise ValueError(f'{name}: unknown parent')
-        body = (root / '.agents/roles' / (name + '.md')).read_text()
+        body = (root / '.agents/roles' / (name + '.md')).read_text(encoding='utf-8')
         if not body.strip():
             raise ValueError(f'{name}: empty role instruction')
         result[name] = dict(fields, body=body)
@@ -120,13 +120,13 @@ def check(root: Path = Path('.'), *, write: bool = False) -> list[str]:
     try:
         entrypoint, roles = load_core(root)
         path = root / '.agents/ORGANIZATION.md'
-        text = path.read_text()
+        text = path.read_text(encoding='utf-8')
         if text.count(START) != 1 or text.count(END) != 1 or text.index(START) > text.index(END):
             return ['Organization must contain exactly one ordered roster marker pair']
         expected = text[:text.index(START)] + roster(organization_fields(entrypoint, roles)) + text[text.index(END) + len(END):]
         if expected != text:
             if write:
-                path.write_text(expected)
+                path.write_text(expected, encoding='utf-8', newline='\n')
             else:
                 return ['Organization roster is stale; run scripts/generate_agent_adapters.py --write']
         return []

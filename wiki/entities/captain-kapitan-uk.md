@@ -3,7 +3,7 @@ title: Темпористичний архетип 1F — Капітан
 type: entity
 tags: [temporistics, future, aspect-position, 1f, uk]
 created: 2026-04-30
-updated: 2026-08-30
+updated: 2026-10-01
 lang: uk
 sources: ["raw/temporistics", "wiki/entities/temporistics-overview-uk.md", "wiki/concepts/compatibility-level-boundaries-uk.md", "wiki/concepts/test-result-reading-guide-uk.md"]
 translation_group: captain-kapitan
@@ -51,3 +51,4 @@ caveat_ids: []
 - [[compatibility-level-boundaries-uk]]
 - [[test-result-reading-guide-uk]]
 - [[temporistics-future-technology-attitudes-uk]]
+- [[migraine-forecasting-evidence-uk]]

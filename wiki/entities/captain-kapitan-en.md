@@ -3,7 +3,7 @@ title: Captain (Kapitan)
 type: entity
 tags: [temporistics, future, first-aspect, temporistics-type]
 created: 2025-01-15
-updated: 2026-08-30
+updated: 2026-10-01
 lang: en
 sources: ["raw/temporistics", "wiki/entities/temporistics-overview-en.md", "wiki/concepts/compatibility-level-boundaries-en.md", "wiki/concepts/test-result-reading-guide-en.md"]
 translation_group: captain-kapitan
@@ -51,3 +51,4 @@ The archetype does not determine morality, dignity, calling, profession, safety,
 - [[compatibility-level-boundaries-en]]
 - [[test-result-reading-guide-en]]
 - [[temporistics-future-technology-attitudes-en]]
+- [[migraine-forecasting-evidence-en]]

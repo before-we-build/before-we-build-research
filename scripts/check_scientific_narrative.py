@@ -831,4 +831,9 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    # CLI reports contain multilingual text even when redirected to a pipe.
+    # Use the same output encoding on Windows and Unix, without changing
+    # streams when this module is imported by tests or other callers.
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
     sys.exit(main())

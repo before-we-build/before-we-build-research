@@ -99,7 +99,7 @@ def render(root: Path) -> dict[str, str]:
         'and [authoring guide](../.agents/README.md) apply to all adapters.\n'
         'This path is retained for existing references.\n')
     org_path = root / '.agents/ORGANIZATION.md'
-    org = org_path.read_text()
+    org = org_path.read_text(encoding='utf-8')
     start, end = '<!-- agent-roster:start -->', '<!-- agent-roster:end -->'
     if org.count(start) != 1 or org.count(end) != 1 or org.index(start) > org.index(end):
         raise ValueError('Organization needs one ordered roster marker pair')
@@ -138,7 +138,7 @@ def sync(root: Path, *, write: bool = False, adopt_existing: bool = False) -> li
             errors.append(f'Refusing symlink output: {relative}')
             continue
         exists = path.exists()
-        current = path.read_text() if exists else None
+        current = path.read_text(encoding='utf-8') if exists else None
         if current != content:
             if (write and exists and relative not in {'.agents/ORGANIZATION.md', MANIFEST}
                     and MARKER not in current and relative not in previous['files'] and not adopt_existing):
@@ -152,7 +152,7 @@ def sync(root: Path, *, write: bool = False, adopt_existing: bool = False) -> li
     for relative, content in changes:
         path = root / relative
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(content)
+        path.write_text(content, encoding='utf-8', newline='\n')
     return []
 
 

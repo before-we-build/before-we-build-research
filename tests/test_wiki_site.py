@@ -47,8 +47,8 @@ class WikiSiteReadabilityTests(unittest.TestCase):
             with redirect_stdout(io.StringIO()):
                 build_site(Path(directory))
             root = Path(directory)
-            start = (root / "start-here-ru.html").read_text()
-            article = (root / "concepts/main-idea-ru.html").read_text()
+            start = (root / "start-here-ru.html").read_text(encoding="utf-8")
+            article = (root / "concepts/main-idea-ru.html").read_text(encoding="utf-8")
             self.assertEqual(start.count("<h1"), 1)
             self.assertEqual(article.count("<h1"), 1)
             self.assertIn('href="./start-here-en.html"', start)

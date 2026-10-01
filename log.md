@@ -1914,3 +1914,16 @@ Changes were validated locally; no remote workflow or publication was run.
 ## 2026-09-07 — Explicit six-child SNIL execution
 
 Updated the scientific-narrative skill and architecture reference to require six distinct completed child reviews in full mode, explicit dispatch, waves and an execution ledger. Verified six actual role-specific returns on an immutable short fixture; 110 tests and all blocking repository checks passed. Bundled skill validator was unavailable because PyYAML is missing. See `reports/snil-independent-launches-2026-09-07.md` and the matching agent-learning proposal/review.
+
+## [2026-10-01] research | Migraine, forecasting and first Future
+
+- Preserved the user's apparent association as an unquantified hypothesis in a new dated raw source register; no participant identities or health records collected.
+- Added a reviewed EN/RU/UK source-summary group with six external references, mixed/null interoception findings, source access limits, and distinctions between external forecasting, future orientation, physiological prediction and own-attack warnings.
+- Added a proposed research route with separate H1/H2/H3 tests, independent/blinded measures, comparison groups, rival explanations and consent boundaries. Connected all Captain peers and regenerated the catalog/inventory.
+- Bounded AI clinical and Temporistics reviews informed ingestion; root reviewed triad equivalence. See reports/migraine-forecasting-ingest-review-2026-10-01.md. Full unittest baseline: 105/110 passed, five pre-existing Windows migration-path errors; strict content checks passed.
+
+## [2026-10-01] maintenance | Cross-platform quality checks
+
+- Fixed Windows migration failures by separating POSIX repository links from native filesystem paths and treating regex replacement destinations as literal text.
+- Made agent tooling and test fixtures explicitly UTF-8; generated adapters use LF. Added cross-host path, literal-backslash, multilingual CRLF and legacy-console regression coverage. Symlink protection tests skip only Windows missing-symlink-privilege error 1314.
+- Expanded wiki-quality CI to Ubuntu, macOS and Windows, using the setup-python interpreter and distinct report artifact names. Native Windows validation: all 114 tests and required content/adapter/readability checks passed, without UTF-8-mode overrides. Remote macOS/Linux/Windows CI has not been executed in this session.

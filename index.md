@@ -6,12 +6,12 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 
 ## Inventory
 
-- Markdown pages: **645**
-- Translation groups: **215**
-- Complete EN/RU/UK triads: **215**
+- Markdown pages: **648**
+- Translation groups: **216**
+- Complete EN/RU/UK triads: **216**
 - Missing language files: **0**
-- Document statuses: active=642, historical=3
-- Page roles: application=24, entity=249, explanation=129, hub=18, relation=12, research-appendix=84, source-summary=129
+- Document statuses: active=645, historical=3
+- Page roles: application=24, entity=249, explanation=129, hub=18, relation=12, research-appendix=84, source-summary=132
 
 ## Reader entrypoints
 
@@ -104,6 +104,7 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | main-idea | [Main Idea](wiki/concepts/main-idea-en.md) | [Главная идея](wiki/concepts/main-idea-ru.md) | [Головна ідея](wiki/concepts/main-idea-uk.md) | active | hub | 3 |
 | mbti-socionics-terminology-mapping | [MBTI ↔ Socionics Terminology Mapping](wiki/concepts/mbti-socionics-terminology-mapping-en.md) | [Сопоставление терминологии MBTI ↔ соционики](wiki/concepts/mbti-socionics-terminology-mapping-ru.md) | [Зіставлення термінології MBTI ↔ соціоніки](wiki/concepts/mbti-socionics-terminology-mapping-uk.md) | active | research-appendix | 1 |
 | michelangelo-phenomenon | [Michelangelo Phenomenon](wiki/concepts/michelangelo-phenomenon-en.md) | [Феномен Микеланджело](wiki/concepts/michelangelo-phenomenon-ru.md) | [Феномен Мікеланджело](wiki/concepts/michelangelo-phenomenon-uk.md) | active | explanation | 1 |
+| migraine-forecasting-evidence | [Migraine, forecasting, and first Future — evidence review](wiki/sources/migraine-forecasting-evidence-en.md) | [Мигрень, прогнозирование и первое Будущее — обзор свидетельств](wiki/sources/migraine-forecasting-evidence-ru.md) | [Мігрень, прогнозування і перше Майбутнє — огляд свідчень](wiki/sources/migraine-forecasting-evidence-uk.md) | active | source-summary | 1 |
 | multilingual-translation-policy | [Multilingual Translation Policy](wiki/concepts/multilingual-translation-policy-en.md) | [Политика многоязычных переводов](wiki/concepts/multilingual-translation-policy-ru.md) | [Політика багатомовних перекладів](wiki/concepts/multilingual-translation-policy-uk.md) | active | research-appendix | 2 |
 | music-styles-and-psychosophy-emotion | [Music Styles as Rough Markers of Psychosophy Emotion Position](wiki/concepts/music-styles-and-psychosophy-emotion-en.md) | [Музыкальные стили как грубые маркеры позиции Эмоции в психософии](wiki/concepts/music-styles-and-psychosophy-emotion-ru.md) | [Музичні стилі як приблизні ознаки позиції Емоції в психософії](wiki/concepts/music-styles-and-psychosophy-emotion-uk.md) | active | research-appendix | 2 |
 | neural-correlates-analysis-synthesis | [Neural Correlates of Analysis and Synthesis Across Domains](wiki/concepts/neural-correlates-analysis-synthesis-en.md) | [Нейронные корреляты анализа и синтеза в разных доменах](wiki/concepts/neural-correlates-analysis-synthesis-ru.md) | [Нейронні кореляти аналізу й синтезу в різних доменах](wiki/concepts/neural-correlates-analysis-synthesis-uk.md) | active | research-appendix | 1 |

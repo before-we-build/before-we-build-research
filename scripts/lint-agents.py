@@ -112,7 +112,7 @@ def lint_file(
     static_only: bool = False,
 ) -> list[dict[str, str]]:
     errors = []
-    content = filepath.read_text()
+    content = filepath.read_text(encoding='utf-8')
 
     try:
         fields = read_fields(content)

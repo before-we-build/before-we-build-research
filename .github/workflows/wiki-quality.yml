@@ -11,7 +11,11 @@ permissions:
 
 jobs:
   validate-wiki:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 10
 
     steps:
@@ -24,47 +28,47 @@ jobs:
           python-version: "3.11"
 
       - name: Run quality-tool tests
-        run: python3 -m unittest discover -s tests -v
+        run: python -m unittest discover -s tests -v
 
       - name: Validate multilingual wiki contract
-        run: python3 scripts/validate_wiki.py --strict
+        run: python scripts/validate_wiki.py --strict
 
       - name: Verify synchronized section identifiers
-        run: python3 scripts/add_wiki_section_ids.py --check
+        run: python scripts/add_wiki_section_ids.py --check
 
       - name: Validate links, anchors, localized targets, and orphans
-        run: python3 scripts/check_wikilinks.py --strict
+        run: python scripts/check_wikilinks.py --strict
 
       - name: Audit claim language
-        run: python3 scripts/audit_claim_language.py --strict
+        run: python scripts/audit_claim_language.py --strict
 
       - name: Verify generated wiki index
-        run: python3 scripts/generate_wiki_index.py --check
+        run: python scripts/generate_wiki_index.py --check
 
       - name: Verify generated migration inventory
         run: >-
-          python3 scripts/generate_wiki_inventory.py
+          python scripts/generate_wiki_inventory.py
           --output reports/wiki-migration-inventory.json
           --check
 
       - name: Verify shared agent core and generated adapters
-        run: python3 scripts/generate_agent_adapters.py --check
+        run: python scripts/generate_agent_adapters.py --check
 
       - name: Lint OpenCode agent manifests
-        run: python3 scripts/lint-agents.py --static-only
+        run: python scripts/lint-agents.py --static-only
 
       - name: Verify scientific narrative readability
-        run: python3 scripts/check_scientific_narrative.py --strict --json > wiki-readability.json
+        run: python scripts/check_scientific_narrative.py --strict --json > wiki-readability.json
 
       - name: Upload wiki readability report
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: wiki-readability
+          name: wiki-readability-${{ matrix.os }}
           path: wiki-readability.json
 
       - name: Verify source narrative readability
-        run: python3 scripts/check_scientific_narrative.py raw/general/latent-process-narrative-exposition.md --strict
+        run: python scripts/check_scientific_narrative.py raw/general/latent-process-narrative-exposition.md --strict
 
       - name: Check whitespace errors
         run: git diff --check

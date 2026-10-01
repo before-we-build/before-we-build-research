@@ -16,7 +16,7 @@ import argparse
 import json
 import re
 from collections import defaultdict
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 
 LANG_SUFFIX = re.compile(r"-(en|ru|uk)$")
@@ -338,7 +338,7 @@ def _localized_path_target(
 
     path_part, separator, anchor = target.partition("#")
     path_part = path_part.strip()
-    name = Path(path_part.replace("\\", "/")).name
+    name = PurePosixPath(path_part.replace("\\", "/")).name
     has_markdown_extension = name.lower().endswith(".md")
     stem = name[:-3] if has_markdown_extension else name
     suffix_match = LANG_SUFFIX.search(stem)
@@ -365,9 +365,9 @@ def _localized_path_target(
 
     mapped = _mapped_link_path(path_part, path_map)
     if mapped is not None:
-        mapped_path = Path(mapped)
+        mapped_path = PurePosixPath(mapped)
         localized = str(mapped_path.with_name(selected.name if has_markdown_extension else selected.stem))
-        # Path() normalizes a leading ``./`` away. Restore it for stable diffs.
+        # PurePosixPath normalizes a leading ``./`` away. Restore it for stable diffs.
         if mapped.startswith("./") and not localized.startswith("./"):
             localized = "./" + localized
     else:
@@ -465,7 +465,7 @@ def rewrite_links(
     # have the same filename.
     for old, new in sorted(path_map.items(), key=lambda item: len(item[0]), reverse=True):
         localized_new = new
-        new_path = Path(new)
+        new_path = PurePosixPath(new)
         suffix_match = LANG_SUFFIX.search(new_path.stem)
         target_group = LANG_SUFFIX.sub("", new_path.stem)
         if suffix_match and target_group in groups and source_lang in groups[target_group]:
@@ -475,7 +475,9 @@ def rewrite_links(
         exact_path = re.compile(
             rf"(?<![A-Za-z0-9_./-]){re.escape(old)}(?![A-Za-z0-9_./-])"
         )
-        text = exact_path.sub(localized_new, text)
+        # Treat the destination as literal text, never as a regex replacement
+        # template (which would interpret backslashes as escapes).
+        text = exact_path.sub(lambda match: localized_new, text)
     return text
 
 
@@ -572,7 +574,7 @@ def main() -> int:
             print(f"  {old.relative_to(root)} -> {new.relative_to(root)}")
         return 1
     path_map = {
-        str(old.relative_to(root)): str(new.relative_to(root))
+        old.relative_to(root).as_posix(): new.relative_to(root).as_posix()
         for old, new in renames.items()
         if old != new
     }
@@ -582,11 +584,11 @@ def main() -> int:
     }
     english_entrypoints: dict[str, str] = {}
     for old, migrated in path_map.items():
-        migrated_path = Path(migrated)
+        migrated_path = PurePosixPath(migrated)
         match = LANG_SUFFIX.search(migrated_path.stem)
         group = LANG_SUFFIX.sub("", migrated_path.stem) if match else None
         if group and group in groups and "en" in groups[group]:
-            english_entrypoints[old] = str(groups[group]["en"].relative_to(root))
+            english_entrypoints[old] = groups[group]["en"].relative_to(root).as_posix()
         elif migrated.endswith("-en.md"):
             english_entrypoints[old] = migrated
 

@@ -5,7 +5,8 @@ import subprocess
 import sys
 import tempfile
 import unittest
-from pathlib import Path
+from pathlib import Path, PurePosixPath, PureWindowsPath
+from unittest.mock import patch
 
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +17,48 @@ from migrate_wiki_language_paths import rewrite_links  # noqa: E402
 
 
 class MigrationLinkHardeningTests(unittest.TestCase):
+    def test_repository_destinations_are_posix_on_every_host(self) -> None:
+        source = (
+            "[[wiki/concepts/sample.md#overview]]\n"
+            '[read](./wiki/concepts/sample.md#overview "Sample")\n'
+            "sources: [wiki/concepts/sample.md]\n"
+        )
+        expected = (
+            "[[wiki/concepts/sample-ru.md#overview]]\n"
+            '[read](./wiki/concepts/sample-ru.md#overview "Sample")\n'
+            "sources: [wiki/concepts/sample-ru.md]\n"
+        )
+        for path_type in (PurePosixPath, PureWindowsPath):
+            with self.subTest(path_type=path_type.__name__):
+                groups = {
+                    "sample": {
+                        lang: path_type(f"/repo/wiki/concepts/sample-{lang}.md")
+                        for lang in ("en", "ru", "uk")
+                    }
+                }
+                # Simulate either host's native path semantics without needing
+                # that operating system to exercise the regression.
+                with patch("migrate_wiki_language_paths.Path", path_type):
+                    migrated = rewrite_links(
+                        source,
+                        "ru",
+                        groups,
+                        {"wiki/concepts/sample.md": "wiki/concepts/sample-en.md"},
+                    )
+                self.assertEqual(migrated, expected)
+
+    def test_plain_path_replacement_preserves_literal_backslashes(self) -> None:
+        destination = r"wiki\concepts\sample-en.md"
+        self.assertEqual(
+            rewrite_links(
+                "wiki/concepts/sample.md",
+                "en",
+                {},
+                {"wiki/concepts/sample.md": destination},
+            ),
+            destination,
+        )
+
     def test_two_writes_preserve_discovered_migration_history(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
             root = Path(temporary_directory)

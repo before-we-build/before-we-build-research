@@ -4,6 +4,8 @@ import sys
 import contextlib
 import io
 import json
+import os
+import subprocess
 import tempfile
 from unittest.mock import patch
 import unittest
@@ -154,6 +156,22 @@ class GroundTruthBenchmarkTests(unittest.TestCase):
 
 
 class PublicWikiAuditTests(unittest.TestCase):
+    def test_cli_reports_unicode_with_legacy_console_encoding(self):
+        with tempfile.TemporaryDirectory() as directory:
+            page = Path(directory) / 'é-українська-en.md'
+            page.write_text('A clear explanation.', encoding='utf-8')
+            environment = dict(os.environ, PYTHONIOENCODING='cp1251')
+            for json_output in (False, True):
+                with self.subTest(json_output=json_output):
+                    command = [sys.executable, str(REPOSITORY_ROOT / 'scripts/check_scientific_narrative.py'), str(page)]
+                    if json_output:
+                        command.append('--json')
+                    result = subprocess.run(command, env=environment, capture_output=True, encoding='utf-8')
+                    self.assertEqual(result.returncode, 0, result.stderr)
+                    self.assertIn(page.name, result.stdout)
+                    if json_output:
+                        self.assertEqual(len(json.loads(result.stdout)['summary']), 1)
+
     def test_default_audits_every_published_markdown_including_nested_and_readme(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

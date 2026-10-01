@@ -9,33 +9,33 @@
     "phase": "before consolidation and language-path migration"
   },
   "current_summary": {
-    "pages": 645,
-    "translation_groups": 215,
-    "complete_triads": 215,
+    "pages": 648,
+    "translation_groups": 216,
+    "complete_triads": 216,
     "missing_language_files": 0,
     "document_statuses": {
-      "active": 642,
+      "active": 645,
       "historical": 3
     },
     "page_claim_statuses": {
       "application-guidance": 57,
-      "contested": 9,
+      "contested": 12,
       "evidence-informed": 6,
       "historical-proposal": 3,
       "normative-rule": 42,
-      "project-definition": 165,
-      "research-hypothesis": 471,
-      "source-attribution": 393
+      "project-definition": 168,
+      "research-hypothesis": 474,
+      "source-attribution": 396
     },
     "identified_claim_statuses": {
       "application-guidance": 45,
-      "contested": 6,
+      "contested": 9,
       "evidence-informed": 6,
       "historical-proposal": 6,
       "normative-rule": 36,
-      "project-definition": 75,
-      "research-hypothesis": 195,
-      "source-attribution": 87
+      "project-definition": 78,
+      "research-hypothesis": 204,
+      "source-attribution": 96
     },
     "groups_with_duplicate_locales": 0,
     "active_orphan_groups": 0
@@ -10017,6 +10017,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 103,
+          "raw_target": "epistemic-status-and-inference-limits-en",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/sources/psychosophy-physics-functions-en.md",
           "line": 599,
           "raw_target": "epistemic-status-and-inference-limits-en",
@@ -10286,6 +10293,13 @@
           "ambiguous": []
         },
         {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 103,
+          "raw_target": "epistemic-status-and-inference-limits-ru",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
+          "ambiguous": []
+        },
+        {
           "source": "wiki/sources/psychosophy-physics-functions-ru.md",
           "line": 599,
           "raw_target": "epistemic-status-and-inference-limits-ru",
@@ -10550,6 +10564,13 @@
         {
           "source": "wiki/sources/competitor-mosaic-relationship-intelligence-uk.md",
           "line": 102,
+          "raw_target": "epistemic-status-and-inference-limits-uk",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 103,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -15118,7 +15139,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 107,
+          "line": 108,
           "raw_target": "wiki/concepts/multilingual-translation-policy-en.md",
           "resolved": "wiki/concepts/multilingual-translation-policy-en.md",
           "ambiguous": []
@@ -15193,7 +15214,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 107,
+          "line": 108,
           "raw_target": "wiki/concepts/multilingual-translation-policy-ru.md",
           "resolved": "wiki/concepts/multilingual-translation-policy-ru.md",
           "ambiguous": []
@@ -15268,7 +15289,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 107,
+          "line": 108,
           "raw_target": "wiki/concepts/multilingual-translation-policy-uk.md",
           "resolved": "wiki/concepts/multilingual-translation-policy-uk.md",
           "ambiguous": []
@@ -15367,7 +15388,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 108,
+          "line": 109,
           "raw_target": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
           "ambiguous": []
@@ -15459,7 +15480,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 108,
+          "line": 109,
           "raw_target": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
           "ambiguous": []
@@ -15551,7 +15572,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 108,
+          "line": 109,
           "raw_target": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
           "ambiguous": []
@@ -15618,7 +15639,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 109,
+          "line": 110,
           "raw_target": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-en.md",
           "ambiguous": []
@@ -15692,7 +15713,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 109,
+          "line": 110,
           "raw_target": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-ru.md",
           "ambiguous": []
@@ -15766,7 +15787,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 109,
+          "line": 110,
           "raw_target": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
           "resolved": "wiki/concepts/neural-correlates-analysis-synthesis-uk.md",
           "ambiguous": []
@@ -15850,7 +15871,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 111,
+          "line": 112,
           "raw_target": "wiki/concepts/neuroscience-compatibility-bridges-en.md",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-en.md",
           "ambiguous": []
@@ -16004,7 +16025,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 111,
+          "line": 112,
           "raw_target": "wiki/concepts/neuroscience-compatibility-bridges-ru.md",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-ru.md",
           "ambiguous": []
@@ -16158,7 +16179,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 111,
+          "line": 112,
           "raw_target": "wiki/concepts/neuroscience-compatibility-bridges-uk.md",
           "resolved": "wiki/concepts/neuroscience-compatibility-bridges-uk.md",
           "ambiguous": []
@@ -16320,7 +16341,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 112,
+          "line": 113,
           "raw_target": "wiki/concepts/operational-compatibility-en.md",
           "resolved": "wiki/concepts/operational-compatibility-en.md",
           "ambiguous": []
@@ -16461,7 +16482,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 112,
+          "line": 113,
           "raw_target": "wiki/concepts/operational-compatibility-ru.md",
           "resolved": "wiki/concepts/operational-compatibility-ru.md",
           "ambiguous": []
@@ -16602,7 +16623,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 112,
+          "line": 113,
           "raw_target": "wiki/concepts/operational-compatibility-uk.md",
           "resolved": "wiki/concepts/operational-compatibility-uk.md",
           "ambiguous": []
@@ -16734,7 +16755,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 116,
+          "line": 117,
           "raw_target": "wiki/concepts/project-positioning-en.md",
           "resolved": "wiki/concepts/project-positioning-en.md",
           "ambiguous": []
@@ -16866,7 +16887,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 116,
+          "line": 117,
           "raw_target": "wiki/concepts/project-positioning-ru.md",
           "resolved": "wiki/concepts/project-positioning-ru.md",
           "ambiguous": []
@@ -16998,7 +17019,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 116,
+          "line": 117,
           "raw_target": "wiki/concepts/project-positioning-uk.md",
           "resolved": "wiki/concepts/project-positioning-uk.md",
           "ambiguous": []
@@ -17137,7 +17158,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 117,
+          "line": 118,
           "raw_target": "wiki/concepts/prophetic-visionary-cognition-en.md",
           "resolved": "wiki/concepts/prophetic-visionary-cognition-en.md",
           "ambiguous": []
@@ -17241,7 +17262,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 117,
+          "line": 118,
           "raw_target": "wiki/concepts/prophetic-visionary-cognition-ru.md",
           "resolved": "wiki/concepts/prophetic-visionary-cognition-ru.md",
           "ambiguous": []
@@ -17345,7 +17366,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 117,
+          "line": 118,
           "raw_target": "wiki/concepts/prophetic-visionary-cognition-uk.md",
           "resolved": "wiki/concepts/prophetic-visionary-cognition-uk.md",
           "ambiguous": []
@@ -17438,7 +17459,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 118,
+          "line": 119,
           "raw_target": "wiki/concepts/psychology-of-everything-en.md",
           "resolved": "wiki/concepts/psychology-of-everything-en.md",
           "ambiguous": []
@@ -17552,7 +17573,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 118,
+          "line": 119,
           "raw_target": "wiki/concepts/psychology-of-everything-ru.md",
           "resolved": "wiki/concepts/psychology-of-everything-ru.md",
           "ambiguous": []
@@ -17666,7 +17687,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 118,
+          "line": 119,
           "raw_target": "wiki/concepts/psychology-of-everything-uk.md",
           "resolved": "wiki/concepts/psychology-of-everything-uk.md",
           "ambiguous": []
@@ -17781,7 +17802,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 122,
+          "line": 123,
           "raw_target": "wiki/concepts/psychosophy-functions-en.md",
           "resolved": "wiki/concepts/psychosophy-functions-en.md",
           "ambiguous": []
@@ -17889,7 +17910,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 122,
+          "line": 123,
           "raw_target": "wiki/concepts/psychosophy-functions-ru.md",
           "resolved": "wiki/concepts/psychosophy-functions-ru.md",
           "ambiguous": []
@@ -17990,7 +18011,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 122,
+          "line": 123,
           "raw_target": "wiki/concepts/psychosophy-functions-uk.md",
           "resolved": "wiki/concepts/psychosophy-functions-uk.md",
           "ambiguous": []
@@ -18089,7 +18110,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 128,
+          "line": 129,
           "raw_target": "wiki/concepts/psychosophy-test-specification-en.md",
           "resolved": "wiki/concepts/psychosophy-test-specification-en.md",
           "ambiguous": []
@@ -18139,7 +18160,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 128,
+          "line": 129,
           "raw_target": "wiki/concepts/psychosophy-test-specification-ru.md",
           "resolved": "wiki/concepts/psychosophy-test-specification-ru.md",
           "ambiguous": []
@@ -18189,7 +18210,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 128,
+          "line": 129,
           "raw_target": "wiki/concepts/psychosophy-test-specification-uk.md",
           "resolved": "wiki/concepts/psychosophy-test-specification-uk.md",
           "ambiguous": []
@@ -18240,7 +18261,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 156,
+          "line": 157,
           "raw_target": "wiki/concepts/public-figure-typing-agent-pipeline-en.md",
           "resolved": "wiki/concepts/public-figure-typing-agent-pipeline-en.md",
           "ambiguous": []
@@ -18319,7 +18340,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 156,
+          "line": 157,
           "raw_target": "wiki/concepts/public-figure-typing-agent-pipeline-ru.md",
           "resolved": "wiki/concepts/public-figure-typing-agent-pipeline-ru.md",
           "ambiguous": []
@@ -18398,7 +18419,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 156,
+          "line": 157,
           "raw_target": "wiki/concepts/public-figure-typing-agent-pipeline-uk.md",
           "resolved": "wiki/concepts/public-figure-typing-agent-pipeline-uk.md",
           "ambiguous": []
@@ -18489,7 +18510,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 157,
+          "line": 158,
           "raw_target": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-en.md",
           "resolved": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-en.md",
           "ambiguous": []
@@ -18587,7 +18608,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 157,
+          "line": 158,
           "raw_target": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md",
           "resolved": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-ru.md",
           "ambiguous": []
@@ -18685,7 +18706,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 157,
+          "line": 158,
           "raw_target": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-uk.md",
           "resolved": "wiki/concepts/public-figure-typing-evidence-dossiers-batch-1-uk.md",
           "ambiguous": []
@@ -18769,7 +18790,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 158,
+          "line": 159,
           "raw_target": "wiki/concepts/public-figure-typing-evidence-protocol-en.md",
           "resolved": "wiki/concepts/public-figure-typing-evidence-protocol-en.md",
           "ambiguous": []
@@ -18867,7 +18888,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 158,
+          "line": 159,
           "raw_target": "wiki/concepts/public-figure-typing-evidence-protocol-ru.md",
           "resolved": "wiki/concepts/public-figure-typing-evidence-protocol-ru.md",
           "ambiguous": []
@@ -18965,7 +18986,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 158,
+          "line": 159,
           "raw_target": "wiki/concepts/public-figure-typing-evidence-protocol-uk.md",
           "resolved": "wiki/concepts/public-figure-typing-evidence-protocol-uk.md",
           "ambiguous": []
@@ -19072,7 +19093,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 159,
+          "line": 160,
           "raw_target": "wiki/concepts/public-figure-typing-methodology-audit-en.md",
           "resolved": "wiki/concepts/public-figure-typing-methodology-audit-en.md",
           "ambiguous": []
@@ -19165,7 +19186,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 159,
+          "line": 160,
           "raw_target": "wiki/concepts/public-figure-typing-methodology-audit-ru.md",
           "resolved": "wiki/concepts/public-figure-typing-methodology-audit-ru.md",
           "ambiguous": []
@@ -19258,7 +19279,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 159,
+          "line": 160,
           "raw_target": "wiki/concepts/public-figure-typing-methodology-audit-uk.md",
           "resolved": "wiki/concepts/public-figure-typing-methodology-audit-uk.md",
           "ambiguous": []
@@ -19350,7 +19371,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 160,
+          "line": 161,
           "raw_target": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-en.md",
           "resolved": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-en.md",
           "ambiguous": []
@@ -19425,7 +19446,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 161,
+          "line": 162,
           "raw_target": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-en.md",
           "resolved": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-en.md",
           "ambiguous": []
@@ -19500,7 +19521,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 161,
+          "line": 162,
           "raw_target": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md",
           "resolved": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-ru.md",
           "ambiguous": []
@@ -19575,7 +19596,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 161,
+          "line": 162,
           "raw_target": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-uk.md",
           "resolved": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-method-v2-uk.md",
           "ambiguous": []
@@ -19646,7 +19667,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 160,
+          "line": 161,
           "raw_target": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-ru.md",
           "resolved": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-ru.md",
           "ambiguous": []
@@ -19717,7 +19738,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 160,
+          "line": 161,
           "raw_target": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-uk.md",
           "resolved": "wiki/concepts/public-figure-typing-pipeline-run-2026-06-21-uk.md",
           "ambiguous": []
@@ -19785,7 +19806,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 162,
+          "line": 163,
           "raw_target": "wiki/concepts/public-language-boundaries-en.md",
           "resolved": "wiki/concepts/public-language-boundaries-en.md",
           "ambiguous": []
@@ -19845,7 +19866,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 162,
+          "line": 163,
           "raw_target": "wiki/concepts/public-language-boundaries-ru.md",
           "resolved": "wiki/concepts/public-language-boundaries-ru.md",
           "ambiguous": []
@@ -19905,7 +19926,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 162,
+          "line": 163,
           "raw_target": "wiki/concepts/public-language-boundaries-uk.md",
           "resolved": "wiki/concepts/public-language-boundaries-uk.md",
           "ambiguous": []
@@ -19957,7 +19978,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 164,
+          "line": 165,
           "raw_target": "wiki/concepts/report-caveat-standard-en.md",
           "resolved": "wiki/concepts/report-caveat-standard-en.md",
           "ambiguous": []
@@ -19995,7 +20016,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 164,
+          "line": 165,
           "raw_target": "wiki/concepts/report-caveat-standard-ru.md",
           "resolved": "wiki/concepts/report-caveat-standard-ru.md",
           "ambiguous": []
@@ -20033,7 +20054,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 164,
+          "line": 165,
           "raw_target": "wiki/concepts/report-caveat-standard-uk.md",
           "resolved": "wiki/concepts/report-caveat-standard-uk.md",
           "ambiguous": []
@@ -20087,7 +20108,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 173,
+          "line": 174,
           "raw_target": "wiki/concepts/sociological-compatibility-analogues-en.md",
           "resolved": "wiki/concepts/sociological-compatibility-analogues-en.md",
           "ambiguous": []
@@ -20261,7 +20282,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 173,
+          "line": 174,
           "raw_target": "wiki/concepts/sociological-compatibility-analogues-ru.md",
           "resolved": "wiki/concepts/sociological-compatibility-analogues-ru.md",
           "ambiguous": []
@@ -20435,7 +20456,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 173,
+          "line": 174,
           "raw_target": "wiki/concepts/sociological-compatibility-analogues-uk.md",
           "resolved": "wiki/concepts/sociological-compatibility-analogues-uk.md",
           "ambiguous": []
@@ -20608,7 +20629,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 176,
+          "line": 177,
           "raw_target": "wiki/concepts/socionics-function-positions-en.md",
           "resolved": "wiki/concepts/socionics-function-positions-en.md",
           "ambiguous": []
@@ -20788,7 +20809,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 176,
+          "line": 177,
           "raw_target": "wiki/concepts/socionics-function-positions-ru.md",
           "resolved": "wiki/concepts/socionics-function-positions-ru.md",
           "ambiguous": []
@@ -20968,7 +20989,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 176,
+          "line": 177,
           "raw_target": "wiki/concepts/socionics-function-positions-uk.md",
           "resolved": "wiki/concepts/socionics-function-positions-uk.md",
           "ambiguous": []
@@ -21145,7 +21166,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 177,
+          "line": 178,
           "raw_target": "wiki/concepts/socionics-information-elements-en.md",
           "resolved": "wiki/concepts/socionics-information-elements-en.md",
           "ambiguous": []
@@ -21308,7 +21329,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 177,
+          "line": 178,
           "raw_target": "wiki/concepts/socionics-information-elements-ru.md",
           "resolved": "wiki/concepts/socionics-information-elements-ru.md",
           "ambiguous": []
@@ -21471,7 +21492,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 177,
+          "line": 178,
           "raw_target": "wiki/concepts/socionics-information-elements-uk.md",
           "resolved": "wiki/concepts/socionics-information-elements-uk.md",
           "ambiguous": []
@@ -21635,7 +21656,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 180,
+          "line": 181,
           "raw_target": "wiki/concepts/socionics-model-a-blocks-en.md",
           "resolved": "wiki/concepts/socionics-model-a-blocks-en.md",
           "ambiguous": []
@@ -21785,7 +21806,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 180,
+          "line": 181,
           "raw_target": "wiki/concepts/socionics-model-a-blocks-ru.md",
           "resolved": "wiki/concepts/socionics-model-a-blocks-ru.md",
           "ambiguous": []
@@ -21935,7 +21956,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 180,
+          "line": 181,
           "raw_target": "wiki/concepts/socionics-model-a-blocks-uk.md",
           "resolved": "wiki/concepts/socionics-model-a-blocks-uk.md",
           "ambiguous": []
@@ -22085,7 +22106,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 179,
+          "line": 180,
           "raw_target": "wiki/concepts/socionics-model-a-en.md",
           "resolved": "wiki/concepts/socionics-model-a-en.md",
           "ambiguous": []
@@ -22333,7 +22354,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 179,
+          "line": 180,
           "raw_target": "wiki/concepts/socionics-model-a-ru.md",
           "resolved": "wiki/concepts/socionics-model-a-ru.md",
           "ambiguous": []
@@ -22581,7 +22602,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 179,
+          "line": 180,
           "raw_target": "wiki/concepts/socionics-model-a-uk.md",
           "resolved": "wiki/concepts/socionics-model-a-uk.md",
           "ambiguous": []
@@ -22837,7 +22858,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 183,
+          "line": 184,
           "raw_target": "wiki/concepts/socionics-reality-modeling-en.md",
           "resolved": "wiki/concepts/socionics-reality-modeling-en.md",
           "ambiguous": []
@@ -23268,7 +23289,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 183,
+          "line": 184,
           "raw_target": "wiki/concepts/socionics-reality-modeling-ru.md",
           "resolved": "wiki/concepts/socionics-reality-modeling-ru.md",
           "ambiguous": []
@@ -23699,7 +23720,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 183,
+          "line": 184,
           "raw_target": "wiki/concepts/socionics-reality-modeling-uk.md",
           "resolved": "wiki/concepts/socionics-reality-modeling-uk.md",
           "ambiguous": []
@@ -24127,7 +24148,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 185,
+          "line": 186,
           "raw_target": "wiki/concepts/socionics-test-specification-en.md",
           "resolved": "wiki/concepts/socionics-test-specification-en.md",
           "ambiguous": []
@@ -24261,7 +24282,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 185,
+          "line": 186,
           "raw_target": "wiki/concepts/socionics-test-specification-ru.md",
           "resolved": "wiki/concepts/socionics-test-specification-ru.md",
           "ambiguous": []
@@ -24395,7 +24416,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 185,
+          "line": 186,
           "raw_target": "wiki/concepts/socionics-test-specification-uk.md",
           "resolved": "wiki/concepts/socionics-test-specification-uk.md",
           "ambiguous": []
@@ -24515,7 +24536,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 186,
+          "line": 187,
           "raw_target": "wiki/concepts/spiritual-foundation-levels-en.md",
           "resolved": "wiki/concepts/spiritual-foundation-levels-en.md",
           "ambiguous": []
@@ -24586,7 +24607,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 186,
+          "line": 187,
           "raw_target": "wiki/concepts/spiritual-foundation-levels-ru.md",
           "resolved": "wiki/concepts/spiritual-foundation-levels-ru.md",
           "ambiguous": []
@@ -24657,7 +24678,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 186,
+          "line": 187,
           "raw_target": "wiki/concepts/spiritual-foundation-levels-uk.md",
           "resolved": "wiki/concepts/spiritual-foundation-levels-uk.md",
           "ambiguous": []
@@ -24732,7 +24753,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 187,
+          "line": 188,
           "raw_target": "wiki/concepts/spiritual-maturity-models-comparison-en.md",
           "resolved": "wiki/concepts/spiritual-maturity-models-comparison-en.md",
           "ambiguous": []
@@ -24800,7 +24821,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 187,
+          "line": 188,
           "raw_target": "wiki/concepts/spiritual-maturity-models-comparison-ru.md",
           "resolved": "wiki/concepts/spiritual-maturity-models-comparison-ru.md",
           "ambiguous": []
@@ -24868,7 +24889,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 187,
+          "line": 188,
           "raw_target": "wiki/concepts/spiritual-maturity-models-comparison-uk.md",
           "resolved": "wiki/concepts/spiritual-maturity-models-comparison-uk.md",
           "ambiguous": []
@@ -24946,7 +24967,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 191,
+          "line": 192,
           "raw_target": "wiki/concepts/strategic-compatibility-en.md",
           "resolved": "wiki/concepts/strategic-compatibility-en.md",
           "ambiguous": []
@@ -25073,7 +25094,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 191,
+          "line": 192,
           "raw_target": "wiki/concepts/strategic-compatibility-ru.md",
           "resolved": "wiki/concepts/strategic-compatibility-ru.md",
           "ambiguous": []
@@ -25200,7 +25221,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 191,
+          "line": 192,
           "raw_target": "wiki/concepts/strategic-compatibility-uk.md",
           "resolved": "wiki/concepts/strategic-compatibility-uk.md",
           "ambiguous": []
@@ -25330,7 +25351,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 193,
+          "line": 194,
           "raw_target": "wiki/concepts/tactical-compatibility-en.md",
           "resolved": "wiki/concepts/tactical-compatibility-en.md",
           "ambiguous": []
@@ -25474,7 +25495,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 193,
+          "line": 194,
           "raw_target": "wiki/concepts/tactical-compatibility-ru.md",
           "resolved": "wiki/concepts/tactical-compatibility-ru.md",
           "ambiguous": []
@@ -25618,7 +25639,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 193,
+          "line": 194,
           "raw_target": "wiki/concepts/tactical-compatibility-uk.md",
           "resolved": "wiki/concepts/tactical-compatibility-uk.md",
           "ambiguous": []
@@ -25741,7 +25762,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 194,
+          "line": 195,
           "raw_target": "wiki/concepts/temporal-aspects-en.md",
           "resolved": "wiki/concepts/temporal-aspects-en.md",
           "ambiguous": []
@@ -25927,7 +25948,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 194,
+          "line": 195,
           "raw_target": "wiki/concepts/temporal-aspects-ru.md",
           "resolved": "wiki/concepts/temporal-aspects-ru.md",
           "ambiguous": []
@@ -26113,7 +26134,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 194,
+          "line": 195,
           "raw_target": "wiki/concepts/temporal-aspects-uk.md",
           "resolved": "wiki/concepts/temporal-aspects-uk.md",
           "ambiguous": []
@@ -26304,7 +26325,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 195,
+          "line": 196,
           "raw_target": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
           "ambiguous": []
@@ -26411,7 +26432,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 195,
+          "line": 196,
           "raw_target": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
           "ambiguous": []
@@ -26518,7 +26539,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 195,
+          "line": 196,
           "raw_target": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
           "ambiguous": []
@@ -26631,7 +26652,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 198,
+          "line": 199,
           "raw_target": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
           "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
           "ambiguous": []
@@ -26821,7 +26842,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 198,
+          "line": 199,
           "raw_target": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
           "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
           "ambiguous": []
@@ -27011,7 +27032,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 198,
+          "line": 199,
           "raw_target": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
           "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
           "ambiguous": []
@@ -27187,7 +27208,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 200,
+          "line": 201,
           "raw_target": "wiki/concepts/temporistics-model-en.md",
           "resolved": "wiki/concepts/temporistics-model-en.md",
           "ambiguous": []
@@ -27258,7 +27279,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 200,
+          "line": 201,
           "raw_target": "wiki/concepts/temporistics-model-ru.md",
           "resolved": "wiki/concepts/temporistics-model-ru.md",
           "ambiguous": []
@@ -27329,7 +27350,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 200,
+          "line": 201,
           "raw_target": "wiki/concepts/temporistics-model-uk.md",
           "resolved": "wiki/concepts/temporistics-model-uk.md",
           "ambiguous": []
@@ -27406,7 +27427,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 202,
+          "line": 203,
           "raw_target": "wiki/concepts/temporistics-test-specification-en.md",
           "resolved": "wiki/concepts/temporistics-test-specification-en.md",
           "ambiguous": []
@@ -27455,7 +27476,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 202,
+          "line": 203,
           "raw_target": "wiki/concepts/temporistics-test-specification-ru.md",
           "resolved": "wiki/concepts/temporistics-test-specification-ru.md",
           "ambiguous": []
@@ -27504,7 +27525,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 202,
+          "line": 203,
           "raw_target": "wiki/concepts/temporistics-test-specification-uk.md",
           "resolved": "wiki/concepts/temporistics-test-specification-uk.md",
           "ambiguous": []
@@ -27554,7 +27575,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 203,
+          "line": 204,
           "raw_target": "wiki/concepts/temporistics-third-aspect-sin-patterns-en.md",
           "resolved": "wiki/concepts/temporistics-third-aspect-sin-patterns-en.md",
           "ambiguous": []
@@ -27618,7 +27639,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 203,
+          "line": 204,
           "raw_target": "wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md",
           "resolved": "wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md",
           "ambiguous": []
@@ -27682,7 +27703,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 203,
+          "line": 204,
           "raw_target": "wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md",
           "resolved": "wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md",
           "ambiguous": []
@@ -27744,7 +27765,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 228,
+          "line": 229,
           "raw_target": "wiki/concepts/test-result-reading-guide-en.md",
           "resolved": "wiki/concepts/test-result-reading-guide-en.md",
           "ambiguous": []
@@ -28436,7 +28457,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 228,
+          "line": 229,
           "raw_target": "wiki/concepts/test-result-reading-guide-ru.md",
           "resolved": "wiki/concepts/test-result-reading-guide-ru.md",
           "ambiguous": []
@@ -29128,7 +29149,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 228,
+          "line": 229,
           "raw_target": "wiki/concepts/test-result-reading-guide-uk.md",
           "resolved": "wiki/concepts/test-result-reading-guide-uk.md",
           "ambiguous": []
@@ -29826,7 +29847,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 229,
+          "line": 230,
           "raw_target": "wiki/concepts/third-present-exile-latent-process-en.md",
           "resolved": "wiki/concepts/third-present-exile-latent-process-en.md",
           "ambiguous": []
@@ -29929,7 +29950,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 229,
+          "line": 230,
           "raw_target": "wiki/concepts/third-present-exile-latent-process-ru.md",
           "resolved": "wiki/concepts/third-present-exile-latent-process-ru.md",
           "ambiguous": []
@@ -30032,7 +30053,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 229,
+          "line": 230,
           "raw_target": "wiki/concepts/third-present-exile-latent-process-uk.md",
           "resolved": "wiki/concepts/third-present-exile-latent-process-uk.md",
           "ambiguous": []
@@ -30139,7 +30160,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 230,
+          "line": 231,
           "raw_target": "wiki/concepts/typologies-as-supporting-tools-en.md",
           "resolved": "wiki/concepts/typologies-as-supporting-tools-en.md",
           "ambiguous": []
@@ -30253,7 +30274,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 230,
+          "line": 231,
           "raw_target": "wiki/concepts/typologies-as-supporting-tools-ru.md",
           "resolved": "wiki/concepts/typologies-as-supporting-tools-ru.md",
           "ambiguous": []
@@ -30367,7 +30388,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 230,
+          "line": 231,
           "raw_target": "wiki/concepts/typologies-as-supporting-tools-uk.md",
           "resolved": "wiki/concepts/typologies-as-supporting-tools-uk.md",
           "ambiguous": []
@@ -30468,7 +30489,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 233,
+          "line": 234,
           "raw_target": "wiki/concepts/typology-code-conventions-en.md",
           "resolved": "wiki/concepts/typology-code-conventions-en.md",
           "ambiguous": []
@@ -30569,7 +30590,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 233,
+          "line": 234,
           "raw_target": "wiki/concepts/typology-code-conventions-ru.md",
           "resolved": "wiki/concepts/typology-code-conventions-ru.md",
           "ambiguous": []
@@ -30670,7 +30691,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 233,
+          "line": 234,
           "raw_target": "wiki/concepts/typology-code-conventions-uk.md",
           "resolved": "wiki/concepts/typology-code-conventions-uk.md",
           "ambiguous": []
@@ -30772,7 +30793,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 234,
+          "line": 235,
           "raw_target": "wiki/concepts/typology-disambiguation-guide-en.md",
           "resolved": "wiki/concepts/typology-disambiguation-guide-en.md",
           "ambiguous": []
@@ -30846,7 +30867,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 234,
+          "line": 235,
           "raw_target": "wiki/concepts/typology-disambiguation-guide-ru.md",
           "resolved": "wiki/concepts/typology-disambiguation-guide-ru.md",
           "ambiguous": []
@@ -30920,7 +30941,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 234,
+          "line": 235,
           "raw_target": "wiki/concepts/typology-disambiguation-guide-uk.md",
           "resolved": "wiki/concepts/typology-disambiguation-guide-uk.md",
           "ambiguous": []
@@ -31011,7 +31032,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 235,
+          "line": 236,
           "raw_target": "wiki/concepts/typology-reconceptualization-en.md",
           "resolved": "wiki/concepts/typology-reconceptualization-en.md",
           "ambiguous": []
@@ -31193,7 +31214,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 235,
+          "line": 236,
           "raw_target": "wiki/concepts/typology-reconceptualization-ru.md",
           "resolved": "wiki/concepts/typology-reconceptualization-ru.md",
           "ambiguous": []
@@ -31375,7 +31396,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 235,
+          "line": 236,
           "raw_target": "wiki/concepts/typology-reconceptualization-uk.md",
           "resolved": "wiki/concepts/typology-reconceptualization-uk.md",
           "ambiguous": []
@@ -31558,7 +31579,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 237,
+          "line": 238,
           "raw_target": "wiki/concepts/typology-test-design-protocol-en.md",
           "resolved": "wiki/concepts/typology-test-design-protocol-en.md",
           "ambiguous": []
@@ -31741,7 +31762,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 237,
+          "line": 238,
           "raw_target": "wiki/concepts/typology-test-design-protocol-ru.md",
           "resolved": "wiki/concepts/typology-test-design-protocol-ru.md",
           "ambiguous": []
@@ -31924,7 +31945,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 237,
+          "line": 238,
           "raw_target": "wiki/concepts/typology-test-design-protocol-uk.md",
           "resolved": "wiki/concepts/typology-test-design-protocol-uk.md",
           "ambiguous": []
@@ -32099,7 +32120,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 238,
+          "line": 239,
           "raw_target": "wiki/concepts/validation-program-en.md",
           "resolved": "wiki/concepts/validation-program-en.md",
           "ambiguous": []
@@ -32267,7 +32288,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 238,
+          "line": 239,
           "raw_target": "wiki/concepts/validation-program-ru.md",
           "resolved": "wiki/concepts/validation-program-ru.md",
           "ambiguous": []
@@ -32435,7 +32456,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 238,
+          "line": 239,
           "raw_target": "wiki/concepts/validation-program-uk.md",
           "resolved": "wiki/concepts/validation-program-uk.md",
           "ambiguous": []
@@ -32610,7 +32631,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 239,
+          "line": 240,
           "raw_target": "wiki/concepts/value-moral-compatibility-en.md",
           "resolved": "wiki/concepts/value-moral-compatibility-en.md",
           "ambiguous": []
@@ -32757,7 +32778,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 239,
+          "line": 240,
           "raw_target": "wiki/concepts/value-moral-compatibility-ru.md",
           "resolved": "wiki/concepts/value-moral-compatibility-ru.md",
           "ambiguous": []
@@ -32904,7 +32925,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 239,
+          "line": 240,
           "raw_target": "wiki/concepts/value-moral-compatibility-uk.md",
           "resolved": "wiki/concepts/value-moral-compatibility-uk.md",
           "ambiguous": []
@@ -33331,6 +33352,13 @@
           "raw_target": "captain-kapitan-en",
           "resolved": "wiki/entities/captain-kapitan-en.md",
           "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 103,
+          "raw_target": "captain-kapitan-en",
+          "resolved": "wiki/entities/captain-kapitan-en.md",
+          "ambiguous": []
         }
       ],
       "outbound_links": [
@@ -33381,6 +33409,13 @@
           "line": 53,
           "raw_target": "temporistics-future-technology-attitudes-en",
           "resolved": "wiki/concepts/temporistics-future-technology-attitudes-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-en.md",
+          "line": 54,
+          "raw_target": "migraine-forecasting-evidence-en",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-en.md",
           "ambiguous": []
         }
       ]
@@ -33442,6 +33477,13 @@
           "raw_target": "captain-kapitan-ru",
           "resolved": "wiki/entities/captain-kapitan-ru.md",
           "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 103,
+          "raw_target": "captain-kapitan-ru",
+          "resolved": "wiki/entities/captain-kapitan-ru.md",
+          "ambiguous": []
         }
       ],
       "outbound_links": [
@@ -33492,6 +33534,13 @@
           "line": 53,
           "raw_target": "temporistics-future-technology-attitudes-ru",
           "resolved": "wiki/concepts/temporistics-future-technology-attitudes-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-ru.md",
+          "line": 54,
+          "raw_target": "migraine-forecasting-evidence-ru",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
           "ambiguous": []
         }
       ]
@@ -33553,6 +33602,13 @@
           "raw_target": "captain-kapitan-uk",
           "resolved": "wiki/entities/captain-kapitan-uk.md",
           "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 103,
+          "raw_target": "captain-kapitan-uk",
+          "resolved": "wiki/entities/captain-kapitan-uk.md",
+          "ambiguous": []
         }
       ],
       "outbound_links": [
@@ -33603,6 +33659,13 @@
           "line": 53,
           "raw_target": "temporistics-future-technology-attitudes-uk",
           "resolved": "wiki/concepts/temporistics-future-technology-attitudes-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-uk.md",
+          "line": 54,
+          "raw_target": "migraine-forecasting-evidence-uk",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-uk.md",
           "ambiguous": []
         }
       ]
@@ -39501,7 +39564,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 113,
+          "line": 114,
           "raw_target": "wiki/entities/passenger-passazhir-en.md",
           "resolved": "wiki/entities/passenger-passazhir-en.md",
           "ambiguous": []
@@ -39612,7 +39675,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 113,
+          "line": 114,
           "raw_target": "wiki/entities/passenger-passazhir-ru.md",
           "resolved": "wiki/entities/passenger-passazhir-ru.md",
           "ambiguous": []
@@ -39723,7 +39786,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 113,
+          "line": 114,
           "raw_target": "wiki/entities/passenger-passazhir-uk.md",
           "resolved": "wiki/entities/passenger-passazhir-uk.md",
           "ambiguous": []
@@ -39834,7 +39897,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 114,
+          "line": 115,
           "raw_target": "wiki/entities/philistine-obyvatel-en.md",
           "resolved": "wiki/entities/philistine-obyvatel-en.md",
           "ambiguous": []
@@ -39924,7 +39987,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 114,
+          "line": 115,
           "raw_target": "wiki/entities/philistine-obyvatel-ru.md",
           "resolved": "wiki/entities/philistine-obyvatel-ru.md",
           "ambiguous": []
@@ -40014,7 +40077,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 114,
+          "line": 115,
           "raw_target": "wiki/entities/philistine-obyvatel-uk.md",
           "resolved": "wiki/entities/philistine-obyvatel-uk.md",
           "ambiguous": []
@@ -40104,7 +40167,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 115,
+          "line": 116,
           "raw_target": "wiki/entities/philosopher-filosof-en.md",
           "resolved": "wiki/entities/philosopher-filosof-en.md",
           "ambiguous": []
@@ -40194,7 +40257,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 115,
+          "line": 116,
           "raw_target": "wiki/entities/philosopher-filosof-ru.md",
           "resolved": "wiki/entities/philosopher-filosof-ru.md",
           "ambiguous": []
@@ -40284,7 +40347,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 115,
+          "line": 116,
           "raw_target": "wiki/entities/philosopher-filosof-uk.md",
           "resolved": "wiki/entities/philosopher-filosof-uk.md",
           "ambiguous": []
@@ -40386,7 +40449,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 125,
+          "line": 126,
           "raw_target": "wiki/entities/psychosophy-overview-en.md",
           "resolved": "wiki/entities/psychosophy-overview-en.md",
           "ambiguous": []
@@ -40733,7 +40796,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 125,
+          "line": 126,
           "raw_target": "wiki/entities/psychosophy-overview-ru.md",
           "resolved": "wiki/entities/psychosophy-overview-ru.md",
           "ambiguous": []
@@ -41080,7 +41143,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 125,
+          "line": 126,
           "raw_target": "wiki/entities/psychosophy-overview-uk.md",
           "resolved": "wiki/entities/psychosophy-overview-uk.md",
           "ambiguous": []
@@ -41414,7 +41477,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 129,
+          "line": 130,
           "raw_target": "wiki/entities/psychosophy-type-eflv-en.md",
           "resolved": "wiki/entities/psychosophy-type-eflv-en.md",
           "ambiguous": []
@@ -41503,7 +41566,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 129,
+          "line": 130,
           "raw_target": "wiki/entities/psychosophy-type-eflv-ru.md",
           "resolved": "wiki/entities/psychosophy-type-eflv-ru.md",
           "ambiguous": []
@@ -41592,7 +41655,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 129,
+          "line": 130,
           "raw_target": "wiki/entities/psychosophy-type-eflv-uk.md",
           "resolved": "wiki/entities/psychosophy-type-eflv-uk.md",
           "ambiguous": []
@@ -41681,7 +41744,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 130,
+          "line": 131,
           "raw_target": "wiki/entities/psychosophy-type-efvl-en.md",
           "resolved": "wiki/entities/psychosophy-type-efvl-en.md",
           "ambiguous": []
@@ -41770,7 +41833,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 130,
+          "line": 131,
           "raw_target": "wiki/entities/psychosophy-type-efvl-ru.md",
           "resolved": "wiki/entities/psychosophy-type-efvl-ru.md",
           "ambiguous": []
@@ -41859,7 +41922,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 130,
+          "line": 131,
           "raw_target": "wiki/entities/psychosophy-type-efvl-uk.md",
           "resolved": "wiki/entities/psychosophy-type-efvl-uk.md",
           "ambiguous": []
@@ -41948,7 +42011,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 131,
+          "line": 132,
           "raw_target": "wiki/entities/psychosophy-type-elfv-en.md",
           "resolved": "wiki/entities/psychosophy-type-elfv-en.md",
           "ambiguous": []
@@ -42037,7 +42100,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 131,
+          "line": 132,
           "raw_target": "wiki/entities/psychosophy-type-elfv-ru.md",
           "resolved": "wiki/entities/psychosophy-type-elfv-ru.md",
           "ambiguous": []
@@ -42126,7 +42189,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 131,
+          "line": 132,
           "raw_target": "wiki/entities/psychosophy-type-elfv-uk.md",
           "resolved": "wiki/entities/psychosophy-type-elfv-uk.md",
           "ambiguous": []
@@ -42215,7 +42278,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 132,
+          "line": 133,
           "raw_target": "wiki/entities/psychosophy-type-elvf-en.md",
           "resolved": "wiki/entities/psychosophy-type-elvf-en.md",
           "ambiguous": []
@@ -42304,7 +42367,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 132,
+          "line": 133,
           "raw_target": "wiki/entities/psychosophy-type-elvf-ru.md",
           "resolved": "wiki/entities/psychosophy-type-elvf-ru.md",
           "ambiguous": []
@@ -42393,7 +42456,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 132,
+          "line": 133,
           "raw_target": "wiki/entities/psychosophy-type-elvf-uk.md",
           "resolved": "wiki/entities/psychosophy-type-elvf-uk.md",
           "ambiguous": []
@@ -42482,7 +42545,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 133,
+          "line": 134,
           "raw_target": "wiki/entities/psychosophy-type-evfl-en.md",
           "resolved": "wiki/entities/psychosophy-type-evfl-en.md",
           "ambiguous": []
@@ -42571,7 +42634,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 133,
+          "line": 134,
           "raw_target": "wiki/entities/psychosophy-type-evfl-ru.md",
           "resolved": "wiki/entities/psychosophy-type-evfl-ru.md",
           "ambiguous": []
@@ -42660,7 +42723,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 133,
+          "line": 134,
           "raw_target": "wiki/entities/psychosophy-type-evfl-uk.md",
           "resolved": "wiki/entities/psychosophy-type-evfl-uk.md",
           "ambiguous": []
@@ -42749,7 +42812,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 134,
+          "line": 135,
           "raw_target": "wiki/entities/psychosophy-type-evlf-en.md",
           "resolved": "wiki/entities/psychosophy-type-evlf-en.md",
           "ambiguous": []
@@ -42838,7 +42901,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 134,
+          "line": 135,
           "raw_target": "wiki/entities/psychosophy-type-evlf-ru.md",
           "resolved": "wiki/entities/psychosophy-type-evlf-ru.md",
           "ambiguous": []
@@ -42927,7 +42990,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 134,
+          "line": 135,
           "raw_target": "wiki/entities/psychosophy-type-evlf-uk.md",
           "resolved": "wiki/entities/psychosophy-type-evlf-uk.md",
           "ambiguous": []
@@ -43016,7 +43079,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 135,
+          "line": 136,
           "raw_target": "wiki/entities/psychosophy-type-felv-en.md",
           "resolved": "wiki/entities/psychosophy-type-felv-en.md",
           "ambiguous": []
@@ -43105,7 +43168,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 135,
+          "line": 136,
           "raw_target": "wiki/entities/psychosophy-type-felv-ru.md",
           "resolved": "wiki/entities/psychosophy-type-felv-ru.md",
           "ambiguous": []
@@ -43194,7 +43257,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 135,
+          "line": 136,
           "raw_target": "wiki/entities/psychosophy-type-felv-uk.md",
           "resolved": "wiki/entities/psychosophy-type-felv-uk.md",
           "ambiguous": []
@@ -43283,7 +43346,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 136,
+          "line": 137,
           "raw_target": "wiki/entities/psychosophy-type-fevl-en.md",
           "resolved": "wiki/entities/psychosophy-type-fevl-en.md",
           "ambiguous": []
@@ -43372,7 +43435,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 136,
+          "line": 137,
           "raw_target": "wiki/entities/psychosophy-type-fevl-ru.md",
           "resolved": "wiki/entities/psychosophy-type-fevl-ru.md",
           "ambiguous": []
@@ -43461,7 +43524,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 136,
+          "line": 137,
           "raw_target": "wiki/entities/psychosophy-type-fevl-uk.md",
           "resolved": "wiki/entities/psychosophy-type-fevl-uk.md",
           "ambiguous": []
@@ -43550,7 +43613,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 137,
+          "line": 138,
           "raw_target": "wiki/entities/psychosophy-type-flev-en.md",
           "resolved": "wiki/entities/psychosophy-type-flev-en.md",
           "ambiguous": []
@@ -43639,7 +43702,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 137,
+          "line": 138,
           "raw_target": "wiki/entities/psychosophy-type-flev-ru.md",
           "resolved": "wiki/entities/psychosophy-type-flev-ru.md",
           "ambiguous": []
@@ -43728,7 +43791,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 137,
+          "line": 138,
           "raw_target": "wiki/entities/psychosophy-type-flev-uk.md",
           "resolved": "wiki/entities/psychosophy-type-flev-uk.md",
           "ambiguous": []
@@ -43817,7 +43880,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 138,
+          "line": 139,
           "raw_target": "wiki/entities/psychosophy-type-flve-en.md",
           "resolved": "wiki/entities/psychosophy-type-flve-en.md",
           "ambiguous": []
@@ -43906,7 +43969,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 138,
+          "line": 139,
           "raw_target": "wiki/entities/psychosophy-type-flve-ru.md",
           "resolved": "wiki/entities/psychosophy-type-flve-ru.md",
           "ambiguous": []
@@ -43995,7 +44058,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 138,
+          "line": 139,
           "raw_target": "wiki/entities/psychosophy-type-flve-uk.md",
           "resolved": "wiki/entities/psychosophy-type-flve-uk.md",
           "ambiguous": []
@@ -44084,7 +44147,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 139,
+          "line": 140,
           "raw_target": "wiki/entities/psychosophy-type-fvel-en.md",
           "resolved": "wiki/entities/psychosophy-type-fvel-en.md",
           "ambiguous": []
@@ -44173,7 +44236,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 139,
+          "line": 140,
           "raw_target": "wiki/entities/psychosophy-type-fvel-ru.md",
           "resolved": "wiki/entities/psychosophy-type-fvel-ru.md",
           "ambiguous": []
@@ -44262,7 +44325,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 139,
+          "line": 140,
           "raw_target": "wiki/entities/psychosophy-type-fvel-uk.md",
           "resolved": "wiki/entities/psychosophy-type-fvel-uk.md",
           "ambiguous": []
@@ -44351,7 +44414,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 140,
+          "line": 141,
           "raw_target": "wiki/entities/psychosophy-type-fvle-en.md",
           "resolved": "wiki/entities/psychosophy-type-fvle-en.md",
           "ambiguous": []
@@ -44440,7 +44503,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 140,
+          "line": 141,
           "raw_target": "wiki/entities/psychosophy-type-fvle-ru.md",
           "resolved": "wiki/entities/psychosophy-type-fvle-ru.md",
           "ambiguous": []
@@ -44529,7 +44592,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 140,
+          "line": 141,
           "raw_target": "wiki/entities/psychosophy-type-fvle-uk.md",
           "resolved": "wiki/entities/psychosophy-type-fvle-uk.md",
           "ambiguous": []
@@ -44618,7 +44681,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 141,
+          "line": 142,
           "raw_target": "wiki/entities/psychosophy-type-lefv-en.md",
           "resolved": "wiki/entities/psychosophy-type-lefv-en.md",
           "ambiguous": []
@@ -44707,7 +44770,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 141,
+          "line": 142,
           "raw_target": "wiki/entities/psychosophy-type-lefv-ru.md",
           "resolved": "wiki/entities/psychosophy-type-lefv-ru.md",
           "ambiguous": []
@@ -44796,7 +44859,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 141,
+          "line": 142,
           "raw_target": "wiki/entities/psychosophy-type-lefv-uk.md",
           "resolved": "wiki/entities/psychosophy-type-lefv-uk.md",
           "ambiguous": []
@@ -44885,7 +44948,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 142,
+          "line": 143,
           "raw_target": "wiki/entities/psychosophy-type-levf-en.md",
           "resolved": "wiki/entities/psychosophy-type-levf-en.md",
           "ambiguous": []
@@ -44974,7 +45037,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 142,
+          "line": 143,
           "raw_target": "wiki/entities/psychosophy-type-levf-ru.md",
           "resolved": "wiki/entities/psychosophy-type-levf-ru.md",
           "ambiguous": []
@@ -45063,7 +45126,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 142,
+          "line": 143,
           "raw_target": "wiki/entities/psychosophy-type-levf-uk.md",
           "resolved": "wiki/entities/psychosophy-type-levf-uk.md",
           "ambiguous": []
@@ -45152,7 +45215,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 143,
+          "line": 144,
           "raw_target": "wiki/entities/psychosophy-type-lfev-en.md",
           "resolved": "wiki/entities/psychosophy-type-lfev-en.md",
           "ambiguous": []
@@ -45241,7 +45304,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 143,
+          "line": 144,
           "raw_target": "wiki/entities/psychosophy-type-lfev-ru.md",
           "resolved": "wiki/entities/psychosophy-type-lfev-ru.md",
           "ambiguous": []
@@ -45330,7 +45393,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 143,
+          "line": 144,
           "raw_target": "wiki/entities/psychosophy-type-lfev-uk.md",
           "resolved": "wiki/entities/psychosophy-type-lfev-uk.md",
           "ambiguous": []
@@ -45419,7 +45482,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 144,
+          "line": 145,
           "raw_target": "wiki/entities/psychosophy-type-lfve-en.md",
           "resolved": "wiki/entities/psychosophy-type-lfve-en.md",
           "ambiguous": []
@@ -45508,7 +45571,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 144,
+          "line": 145,
           "raw_target": "wiki/entities/psychosophy-type-lfve-ru.md",
           "resolved": "wiki/entities/psychosophy-type-lfve-ru.md",
           "ambiguous": []
@@ -45597,7 +45660,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 144,
+          "line": 145,
           "raw_target": "wiki/entities/psychosophy-type-lfve-uk.md",
           "resolved": "wiki/entities/psychosophy-type-lfve-uk.md",
           "ambiguous": []
@@ -45686,7 +45749,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 145,
+          "line": 146,
           "raw_target": "wiki/entities/psychosophy-type-lvef-en.md",
           "resolved": "wiki/entities/psychosophy-type-lvef-en.md",
           "ambiguous": []
@@ -45775,7 +45838,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 145,
+          "line": 146,
           "raw_target": "wiki/entities/psychosophy-type-lvef-ru.md",
           "resolved": "wiki/entities/psychosophy-type-lvef-ru.md",
           "ambiguous": []
@@ -45864,7 +45927,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 145,
+          "line": 146,
           "raw_target": "wiki/entities/psychosophy-type-lvef-uk.md",
           "resolved": "wiki/entities/psychosophy-type-lvef-uk.md",
           "ambiguous": []
@@ -45953,7 +46016,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 146,
+          "line": 147,
           "raw_target": "wiki/entities/psychosophy-type-lvfe-en.md",
           "resolved": "wiki/entities/psychosophy-type-lvfe-en.md",
           "ambiguous": []
@@ -46042,7 +46105,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 146,
+          "line": 147,
           "raw_target": "wiki/entities/psychosophy-type-lvfe-ru.md",
           "resolved": "wiki/entities/psychosophy-type-lvfe-ru.md",
           "ambiguous": []
@@ -46131,7 +46194,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 146,
+          "line": 147,
           "raw_target": "wiki/entities/psychosophy-type-lvfe-uk.md",
           "resolved": "wiki/entities/psychosophy-type-lvfe-uk.md",
           "ambiguous": []
@@ -46220,7 +46283,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 147,
+          "line": 148,
           "raw_target": "wiki/entities/psychosophy-type-vefl-en.md",
           "resolved": "wiki/entities/psychosophy-type-vefl-en.md",
           "ambiguous": []
@@ -46309,7 +46372,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 147,
+          "line": 148,
           "raw_target": "wiki/entities/psychosophy-type-vefl-ru.md",
           "resolved": "wiki/entities/psychosophy-type-vefl-ru.md",
           "ambiguous": []
@@ -46398,7 +46461,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 147,
+          "line": 148,
           "raw_target": "wiki/entities/psychosophy-type-vefl-uk.md",
           "resolved": "wiki/entities/psychosophy-type-vefl-uk.md",
           "ambiguous": []
@@ -46487,7 +46550,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 148,
+          "line": 149,
           "raw_target": "wiki/entities/psychosophy-type-velf-en.md",
           "resolved": "wiki/entities/psychosophy-type-velf-en.md",
           "ambiguous": []
@@ -46576,7 +46639,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 148,
+          "line": 149,
           "raw_target": "wiki/entities/psychosophy-type-velf-ru.md",
           "resolved": "wiki/entities/psychosophy-type-velf-ru.md",
           "ambiguous": []
@@ -46665,7 +46728,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 148,
+          "line": 149,
           "raw_target": "wiki/entities/psychosophy-type-velf-uk.md",
           "resolved": "wiki/entities/psychosophy-type-velf-uk.md",
           "ambiguous": []
@@ -46754,7 +46817,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 149,
+          "line": 150,
           "raw_target": "wiki/entities/psychosophy-type-vfel-en.md",
           "resolved": "wiki/entities/psychosophy-type-vfel-en.md",
           "ambiguous": []
@@ -46843,7 +46906,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 149,
+          "line": 150,
           "raw_target": "wiki/entities/psychosophy-type-vfel-ru.md",
           "resolved": "wiki/entities/psychosophy-type-vfel-ru.md",
           "ambiguous": []
@@ -46932,7 +46995,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 149,
+          "line": 150,
           "raw_target": "wiki/entities/psychosophy-type-vfel-uk.md",
           "resolved": "wiki/entities/psychosophy-type-vfel-uk.md",
           "ambiguous": []
@@ -47021,7 +47084,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 150,
+          "line": 151,
           "raw_target": "wiki/entities/psychosophy-type-vfle-en.md",
           "resolved": "wiki/entities/psychosophy-type-vfle-en.md",
           "ambiguous": []
@@ -47110,7 +47173,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 150,
+          "line": 151,
           "raw_target": "wiki/entities/psychosophy-type-vfle-ru.md",
           "resolved": "wiki/entities/psychosophy-type-vfle-ru.md",
           "ambiguous": []
@@ -47199,7 +47262,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 150,
+          "line": 151,
           "raw_target": "wiki/entities/psychosophy-type-vfle-uk.md",
           "resolved": "wiki/entities/psychosophy-type-vfle-uk.md",
           "ambiguous": []
@@ -47288,7 +47351,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 151,
+          "line": 152,
           "raw_target": "wiki/entities/psychosophy-type-vlef-en.md",
           "resolved": "wiki/entities/psychosophy-type-vlef-en.md",
           "ambiguous": []
@@ -47377,7 +47440,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 151,
+          "line": 152,
           "raw_target": "wiki/entities/psychosophy-type-vlef-ru.md",
           "resolved": "wiki/entities/psychosophy-type-vlef-ru.md",
           "ambiguous": []
@@ -47466,7 +47529,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 151,
+          "line": 152,
           "raw_target": "wiki/entities/psychosophy-type-vlef-uk.md",
           "resolved": "wiki/entities/psychosophy-type-vlef-uk.md",
           "ambiguous": []
@@ -47555,7 +47618,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 152,
+          "line": 153,
           "raw_target": "wiki/entities/psychosophy-type-vlfe-en.md",
           "resolved": "wiki/entities/psychosophy-type-vlfe-en.md",
           "ambiguous": []
@@ -47644,7 +47707,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 152,
+          "line": 153,
           "raw_target": "wiki/entities/psychosophy-type-vlfe-ru.md",
           "resolved": "wiki/entities/psychosophy-type-vlfe-ru.md",
           "ambiguous": []
@@ -47733,7 +47796,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 152,
+          "line": 153,
           "raw_target": "wiki/entities/psychosophy-type-vlfe-uk.md",
           "resolved": "wiki/entities/psychosophy-type-vlfe-uk.md",
           "ambiguous": []
@@ -47823,7 +47886,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 163,
+          "line": 164,
           "raw_target": "wiki/entities/reader-chitatel-en.md",
           "resolved": "wiki/entities/reader-chitatel-en.md",
           "ambiguous": []
@@ -47913,7 +47976,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 163,
+          "line": 164,
           "raw_target": "wiki/entities/reader-chitatel-ru.md",
           "resolved": "wiki/entities/reader-chitatel-ru.md",
           "ambiguous": []
@@ -48003,7 +48066,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 163,
+          "line": 164,
           "raw_target": "wiki/entities/reader-chitatel-uk.md",
           "resolved": "wiki/entities/reader-chitatel-uk.md",
           "ambiguous": []
@@ -48104,7 +48167,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 169,
+          "line": 170,
           "raw_target": "wiki/entities/see-sensory-ethical-extrovert-en.md",
           "resolved": "wiki/entities/see-sensory-ethical-extrovert-en.md",
           "ambiguous": []
@@ -48212,7 +48275,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 169,
+          "line": 170,
           "raw_target": "wiki/entities/see-sensory-ethical-extrovert-ru.md",
           "resolved": "wiki/entities/see-sensory-ethical-extrovert-ru.md",
           "ambiguous": []
@@ -48320,7 +48383,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 169,
+          "line": 170,
           "raw_target": "wiki/entities/see-sensory-ethical-extrovert-uk.md",
           "resolved": "wiki/entities/see-sensory-ethical-extrovert-uk.md",
           "ambiguous": []
@@ -48428,7 +48491,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 170,
+          "line": 171,
           "raw_target": "wiki/entities/sei-sensory-ethical-introvert-en.md",
           "resolved": "wiki/entities/sei-sensory-ethical-introvert-en.md",
           "ambiguous": []
@@ -48536,7 +48599,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 170,
+          "line": 171,
           "raw_target": "wiki/entities/sei-sensory-ethical-introvert-ru.md",
           "resolved": "wiki/entities/sei-sensory-ethical-introvert-ru.md",
           "ambiguous": []
@@ -48644,7 +48707,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 170,
+          "line": 171,
           "raw_target": "wiki/entities/sei-sensory-ethical-introvert-uk.md",
           "resolved": "wiki/entities/sei-sensory-ethical-introvert-uk.md",
           "ambiguous": []
@@ -48752,7 +48815,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 171,
+          "line": 172,
           "raw_target": "wiki/entities/sle-sensory-logical-extrovert-en.md",
           "resolved": "wiki/entities/sle-sensory-logical-extrovert-en.md",
           "ambiguous": []
@@ -48860,7 +48923,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 171,
+          "line": 172,
           "raw_target": "wiki/entities/sle-sensory-logical-extrovert-ru.md",
           "resolved": "wiki/entities/sle-sensory-logical-extrovert-ru.md",
           "ambiguous": []
@@ -48968,7 +49031,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 171,
+          "line": 172,
           "raw_target": "wiki/entities/sle-sensory-logical-extrovert-uk.md",
           "resolved": "wiki/entities/sle-sensory-logical-extrovert-uk.md",
           "ambiguous": []
@@ -49076,7 +49139,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 172,
+          "line": 173,
           "raw_target": "wiki/entities/sli-sensory-logical-introvert-en.md",
           "resolved": "wiki/entities/sli-sensory-logical-introvert-en.md",
           "ambiguous": []
@@ -49191,7 +49254,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 172,
+          "line": 173,
           "raw_target": "wiki/entities/sli-sensory-logical-introvert-ru.md",
           "resolved": "wiki/entities/sli-sensory-logical-introvert-ru.md",
           "ambiguous": []
@@ -49306,7 +49369,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 172,
+          "line": 173,
           "raw_target": "wiki/entities/sli-sensory-logical-introvert-uk.md",
           "resolved": "wiki/entities/sli-sensory-logical-introvert-uk.md",
           "ambiguous": []
@@ -49425,7 +49488,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 181,
+          "line": 182,
           "raw_target": "wiki/entities/socionics-overview-en.md",
           "resolved": "wiki/entities/socionics-overview-en.md",
           "ambiguous": []
@@ -49712,7 +49775,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 181,
+          "line": 182,
           "raw_target": "wiki/entities/socionics-overview-ru.md",
           "resolved": "wiki/entities/socionics-overview-ru.md",
           "ambiguous": []
@@ -49999,7 +50062,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 181,
+          "line": 182,
           "raw_target": "wiki/entities/socionics-overview-uk.md",
           "resolved": "wiki/entities/socionics-overview-uk.md",
           "ambiguous": []
@@ -50271,7 +50334,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 189,
+          "line": 190,
           "raw_target": "wiki/entities/stewersman-rulevoi-en.md",
           "resolved": "wiki/entities/stewersman-rulevoi-en.md",
           "ambiguous": []
@@ -50382,7 +50445,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 189,
+          "line": 190,
           "raw_target": "wiki/entities/stewersman-rulevoi-ru.md",
           "resolved": "wiki/entities/stewersman-rulevoi-ru.md",
           "ambiguous": []
@@ -50493,7 +50556,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 189,
+          "line": 190,
           "raw_target": "wiki/entities/stewersman-rulevoi-uk.md",
           "resolved": "wiki/entities/stewersman-rulevoi-uk.md",
           "ambiguous": []
@@ -50604,7 +50667,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 190,
+          "line": 191,
           "raw_target": "wiki/entities/stowaway-bezbiletnik-en.md",
           "resolved": "wiki/entities/stowaway-bezbiletnik-en.md",
           "ambiguous": []
@@ -50715,7 +50778,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 190,
+          "line": 191,
           "raw_target": "wiki/entities/stowaway-bezbiletnik-ru.md",
           "resolved": "wiki/entities/stowaway-bezbiletnik-ru.md",
           "ambiguous": []
@@ -50826,7 +50889,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 190,
+          "line": 191,
           "raw_target": "wiki/entities/stowaway-bezbiletnik-uk.md",
           "resolved": "wiki/entities/stowaway-bezbiletnik-uk.md",
           "ambiguous": []
@@ -50937,7 +51000,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 192,
+          "line": 193,
           "raw_target": "wiki/entities/student-uchenik-en.md",
           "resolved": "wiki/entities/student-uchenik-en.md",
           "ambiguous": []
@@ -51027,7 +51090,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 192,
+          "line": 193,
           "raw_target": "wiki/entities/student-uchenik-ru.md",
           "resolved": "wiki/entities/student-uchenik-ru.md",
           "ambiguous": []
@@ -51117,7 +51180,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 192,
+          "line": 193,
           "raw_target": "wiki/entities/student-uchenik-uk.md",
           "resolved": "wiki/entities/student-uchenik-uk.md",
           "ambiguous": []
@@ -51219,7 +51282,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 201,
+          "line": 202,
           "raw_target": "wiki/entities/temporistics-overview-en.md",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -51629,7 +51692,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 201,
+          "line": 202,
           "raw_target": "wiki/entities/temporistics-overview-ru.md",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -52039,7 +52102,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 201,
+          "line": 202,
           "raw_target": "wiki/entities/temporistics-overview-uk.md",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
@@ -52436,7 +52499,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 204,
+          "line": 205,
           "raw_target": "wiki/entities/temporistics-type-efnp-en.md",
           "resolved": "wiki/entities/temporistics-type-efnp-en.md",
           "ambiguous": []
@@ -52525,7 +52588,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 204,
+          "line": 205,
           "raw_target": "wiki/entities/temporistics-type-efnp-ru.md",
           "resolved": "wiki/entities/temporistics-type-efnp-ru.md",
           "ambiguous": []
@@ -52614,7 +52677,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 204,
+          "line": 205,
           "raw_target": "wiki/entities/temporistics-type-efnp-uk.md",
           "resolved": "wiki/entities/temporistics-type-efnp-uk.md",
           "ambiguous": []
@@ -52703,7 +52766,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 205,
+          "line": 206,
           "raw_target": "wiki/entities/temporistics-type-efpn-en.md",
           "resolved": "wiki/entities/temporistics-type-efpn-en.md",
           "ambiguous": []
@@ -52792,7 +52855,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 205,
+          "line": 206,
           "raw_target": "wiki/entities/temporistics-type-efpn-ru.md",
           "resolved": "wiki/entities/temporistics-type-efpn-ru.md",
           "ambiguous": []
@@ -52881,7 +52944,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 205,
+          "line": 206,
           "raw_target": "wiki/entities/temporistics-type-efpn-uk.md",
           "resolved": "wiki/entities/temporistics-type-efpn-uk.md",
           "ambiguous": []
@@ -52970,7 +53033,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 206,
+          "line": 207,
           "raw_target": "wiki/entities/temporistics-type-enfp-en.md",
           "resolved": "wiki/entities/temporistics-type-enfp-en.md",
           "ambiguous": []
@@ -53059,7 +53122,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 206,
+          "line": 207,
           "raw_target": "wiki/entities/temporistics-type-enfp-ru.md",
           "resolved": "wiki/entities/temporistics-type-enfp-ru.md",
           "ambiguous": []
@@ -53148,7 +53211,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 206,
+          "line": 207,
           "raw_target": "wiki/entities/temporistics-type-enfp-uk.md",
           "resolved": "wiki/entities/temporistics-type-enfp-uk.md",
           "ambiguous": []
@@ -53237,7 +53300,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 207,
+          "line": 208,
           "raw_target": "wiki/entities/temporistics-type-enpf-en.md",
           "resolved": "wiki/entities/temporistics-type-enpf-en.md",
           "ambiguous": []
@@ -53326,7 +53389,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 207,
+          "line": 208,
           "raw_target": "wiki/entities/temporistics-type-enpf-ru.md",
           "resolved": "wiki/entities/temporistics-type-enpf-ru.md",
           "ambiguous": []
@@ -53415,7 +53478,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 207,
+          "line": 208,
           "raw_target": "wiki/entities/temporistics-type-enpf-uk.md",
           "resolved": "wiki/entities/temporistics-type-enpf-uk.md",
           "ambiguous": []
@@ -53504,7 +53567,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 208,
+          "line": 209,
           "raw_target": "wiki/entities/temporistics-type-epfn-en.md",
           "resolved": "wiki/entities/temporistics-type-epfn-en.md",
           "ambiguous": []
@@ -53593,7 +53656,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 208,
+          "line": 209,
           "raw_target": "wiki/entities/temporistics-type-epfn-ru.md",
           "resolved": "wiki/entities/temporistics-type-epfn-ru.md",
           "ambiguous": []
@@ -53682,7 +53745,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 208,
+          "line": 209,
           "raw_target": "wiki/entities/temporistics-type-epfn-uk.md",
           "resolved": "wiki/entities/temporistics-type-epfn-uk.md",
           "ambiguous": []
@@ -53771,7 +53834,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 209,
+          "line": 210,
           "raw_target": "wiki/entities/temporistics-type-epnf-en.md",
           "resolved": "wiki/entities/temporistics-type-epnf-en.md",
           "ambiguous": []
@@ -53860,7 +53923,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 209,
+          "line": 210,
           "raw_target": "wiki/entities/temporistics-type-epnf-ru.md",
           "resolved": "wiki/entities/temporistics-type-epnf-ru.md",
           "ambiguous": []
@@ -53949,7 +54012,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 209,
+          "line": 210,
           "raw_target": "wiki/entities/temporistics-type-epnf-uk.md",
           "resolved": "wiki/entities/temporistics-type-epnf-uk.md",
           "ambiguous": []
@@ -54038,7 +54101,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 210,
+          "line": 211,
           "raw_target": "wiki/entities/temporistics-type-fenp-en.md",
           "resolved": "wiki/entities/temporistics-type-fenp-en.md",
           "ambiguous": []
@@ -54127,7 +54190,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 210,
+          "line": 211,
           "raw_target": "wiki/entities/temporistics-type-fenp-ru.md",
           "resolved": "wiki/entities/temporistics-type-fenp-ru.md",
           "ambiguous": []
@@ -54216,7 +54279,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 210,
+          "line": 211,
           "raw_target": "wiki/entities/temporistics-type-fenp-uk.md",
           "resolved": "wiki/entities/temporistics-type-fenp-uk.md",
           "ambiguous": []
@@ -54305,7 +54368,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 211,
+          "line": 212,
           "raw_target": "wiki/entities/temporistics-type-fepn-en.md",
           "resolved": "wiki/entities/temporistics-type-fepn-en.md",
           "ambiguous": []
@@ -54394,7 +54457,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 211,
+          "line": 212,
           "raw_target": "wiki/entities/temporistics-type-fepn-ru.md",
           "resolved": "wiki/entities/temporistics-type-fepn-ru.md",
           "ambiguous": []
@@ -54483,7 +54546,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 211,
+          "line": 212,
           "raw_target": "wiki/entities/temporistics-type-fepn-uk.md",
           "resolved": "wiki/entities/temporistics-type-fepn-uk.md",
           "ambiguous": []
@@ -54572,7 +54635,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 212,
+          "line": 213,
           "raw_target": "wiki/entities/temporistics-type-fnep-en.md",
           "resolved": "wiki/entities/temporistics-type-fnep-en.md",
           "ambiguous": []
@@ -54661,7 +54724,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 212,
+          "line": 213,
           "raw_target": "wiki/entities/temporistics-type-fnep-ru.md",
           "resolved": "wiki/entities/temporistics-type-fnep-ru.md",
           "ambiguous": []
@@ -54750,7 +54813,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 212,
+          "line": 213,
           "raw_target": "wiki/entities/temporistics-type-fnep-uk.md",
           "resolved": "wiki/entities/temporistics-type-fnep-uk.md",
           "ambiguous": []
@@ -54839,7 +54902,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 213,
+          "line": 214,
           "raw_target": "wiki/entities/temporistics-type-fnpe-en.md",
           "resolved": "wiki/entities/temporistics-type-fnpe-en.md",
           "ambiguous": []
@@ -54928,7 +54991,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 213,
+          "line": 214,
           "raw_target": "wiki/entities/temporistics-type-fnpe-ru.md",
           "resolved": "wiki/entities/temporistics-type-fnpe-ru.md",
           "ambiguous": []
@@ -55017,7 +55080,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 213,
+          "line": 214,
           "raw_target": "wiki/entities/temporistics-type-fnpe-uk.md",
           "resolved": "wiki/entities/temporistics-type-fnpe-uk.md",
           "ambiguous": []
@@ -55106,7 +55169,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 214,
+          "line": 215,
           "raw_target": "wiki/entities/temporistics-type-fpen-en.md",
           "resolved": "wiki/entities/temporistics-type-fpen-en.md",
           "ambiguous": []
@@ -55195,7 +55258,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 214,
+          "line": 215,
           "raw_target": "wiki/entities/temporistics-type-fpen-ru.md",
           "resolved": "wiki/entities/temporistics-type-fpen-ru.md",
           "ambiguous": []
@@ -55284,7 +55347,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 214,
+          "line": 215,
           "raw_target": "wiki/entities/temporistics-type-fpen-uk.md",
           "resolved": "wiki/entities/temporistics-type-fpen-uk.md",
           "ambiguous": []
@@ -55373,7 +55436,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 215,
+          "line": 216,
           "raw_target": "wiki/entities/temporistics-type-fpne-en.md",
           "resolved": "wiki/entities/temporistics-type-fpne-en.md",
           "ambiguous": []
@@ -55462,7 +55525,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 215,
+          "line": 216,
           "raw_target": "wiki/entities/temporistics-type-fpne-ru.md",
           "resolved": "wiki/entities/temporistics-type-fpne-ru.md",
           "ambiguous": []
@@ -55551,7 +55614,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 215,
+          "line": 216,
           "raw_target": "wiki/entities/temporistics-type-fpne-uk.md",
           "resolved": "wiki/entities/temporistics-type-fpne-uk.md",
           "ambiguous": []
@@ -55640,7 +55703,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 216,
+          "line": 217,
           "raw_target": "wiki/entities/temporistics-type-nefp-en.md",
           "resolved": "wiki/entities/temporistics-type-nefp-en.md",
           "ambiguous": []
@@ -55729,7 +55792,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 216,
+          "line": 217,
           "raw_target": "wiki/entities/temporistics-type-nefp-ru.md",
           "resolved": "wiki/entities/temporistics-type-nefp-ru.md",
           "ambiguous": []
@@ -55818,7 +55881,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 216,
+          "line": 217,
           "raw_target": "wiki/entities/temporistics-type-nefp-uk.md",
           "resolved": "wiki/entities/temporistics-type-nefp-uk.md",
           "ambiguous": []
@@ -55907,7 +55970,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 217,
+          "line": 218,
           "raw_target": "wiki/entities/temporistics-type-nepf-en.md",
           "resolved": "wiki/entities/temporistics-type-nepf-en.md",
           "ambiguous": []
@@ -55996,7 +56059,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 217,
+          "line": 218,
           "raw_target": "wiki/entities/temporistics-type-nepf-ru.md",
           "resolved": "wiki/entities/temporistics-type-nepf-ru.md",
           "ambiguous": []
@@ -56085,7 +56148,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 217,
+          "line": 218,
           "raw_target": "wiki/entities/temporistics-type-nepf-uk.md",
           "resolved": "wiki/entities/temporistics-type-nepf-uk.md",
           "ambiguous": []
@@ -56174,7 +56237,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 218,
+          "line": 219,
           "raw_target": "wiki/entities/temporistics-type-nfep-en.md",
           "resolved": "wiki/entities/temporistics-type-nfep-en.md",
           "ambiguous": []
@@ -56263,7 +56326,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 218,
+          "line": 219,
           "raw_target": "wiki/entities/temporistics-type-nfep-ru.md",
           "resolved": "wiki/entities/temporistics-type-nfep-ru.md",
           "ambiguous": []
@@ -56352,7 +56415,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 218,
+          "line": 219,
           "raw_target": "wiki/entities/temporistics-type-nfep-uk.md",
           "resolved": "wiki/entities/temporistics-type-nfep-uk.md",
           "ambiguous": []
@@ -56441,7 +56504,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 219,
+          "line": 220,
           "raw_target": "wiki/entities/temporistics-type-nfpe-en.md",
           "resolved": "wiki/entities/temporistics-type-nfpe-en.md",
           "ambiguous": []
@@ -56530,7 +56593,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 219,
+          "line": 220,
           "raw_target": "wiki/entities/temporistics-type-nfpe-ru.md",
           "resolved": "wiki/entities/temporistics-type-nfpe-ru.md",
           "ambiguous": []
@@ -56619,7 +56682,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 219,
+          "line": 220,
           "raw_target": "wiki/entities/temporistics-type-nfpe-uk.md",
           "resolved": "wiki/entities/temporistics-type-nfpe-uk.md",
           "ambiguous": []
@@ -56708,7 +56771,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 220,
+          "line": 221,
           "raw_target": "wiki/entities/temporistics-type-npef-en.md",
           "resolved": "wiki/entities/temporistics-type-npef-en.md",
           "ambiguous": []
@@ -56797,7 +56860,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 220,
+          "line": 221,
           "raw_target": "wiki/entities/temporistics-type-npef-ru.md",
           "resolved": "wiki/entities/temporistics-type-npef-ru.md",
           "ambiguous": []
@@ -56886,7 +56949,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 220,
+          "line": 221,
           "raw_target": "wiki/entities/temporistics-type-npef-uk.md",
           "resolved": "wiki/entities/temporistics-type-npef-uk.md",
           "ambiguous": []
@@ -56975,7 +57038,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 221,
+          "line": 222,
           "raw_target": "wiki/entities/temporistics-type-npfe-en.md",
           "resolved": "wiki/entities/temporistics-type-npfe-en.md",
           "ambiguous": []
@@ -57064,7 +57127,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 221,
+          "line": 222,
           "raw_target": "wiki/entities/temporistics-type-npfe-ru.md",
           "resolved": "wiki/entities/temporistics-type-npfe-ru.md",
           "ambiguous": []
@@ -57153,7 +57216,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 221,
+          "line": 222,
           "raw_target": "wiki/entities/temporistics-type-npfe-uk.md",
           "resolved": "wiki/entities/temporistics-type-npfe-uk.md",
           "ambiguous": []
@@ -57242,7 +57305,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 222,
+          "line": 223,
           "raw_target": "wiki/entities/temporistics-type-pefn-en.md",
           "resolved": "wiki/entities/temporistics-type-pefn-en.md",
           "ambiguous": []
@@ -57331,7 +57394,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 222,
+          "line": 223,
           "raw_target": "wiki/entities/temporistics-type-pefn-ru.md",
           "resolved": "wiki/entities/temporistics-type-pefn-ru.md",
           "ambiguous": []
@@ -57420,7 +57483,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 222,
+          "line": 223,
           "raw_target": "wiki/entities/temporistics-type-pefn-uk.md",
           "resolved": "wiki/entities/temporistics-type-pefn-uk.md",
           "ambiguous": []
@@ -57509,7 +57572,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 223,
+          "line": 224,
           "raw_target": "wiki/entities/temporistics-type-penf-en.md",
           "resolved": "wiki/entities/temporistics-type-penf-en.md",
           "ambiguous": []
@@ -57598,7 +57661,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 223,
+          "line": 224,
           "raw_target": "wiki/entities/temporistics-type-penf-ru.md",
           "resolved": "wiki/entities/temporistics-type-penf-ru.md",
           "ambiguous": []
@@ -57687,7 +57750,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 223,
+          "line": 224,
           "raw_target": "wiki/entities/temporistics-type-penf-uk.md",
           "resolved": "wiki/entities/temporistics-type-penf-uk.md",
           "ambiguous": []
@@ -57776,7 +57839,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 224,
+          "line": 225,
           "raw_target": "wiki/entities/temporistics-type-pfen-en.md",
           "resolved": "wiki/entities/temporistics-type-pfen-en.md",
           "ambiguous": []
@@ -57865,7 +57928,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 224,
+          "line": 225,
           "raw_target": "wiki/entities/temporistics-type-pfen-ru.md",
           "resolved": "wiki/entities/temporistics-type-pfen-ru.md",
           "ambiguous": []
@@ -57954,7 +58017,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 224,
+          "line": 225,
           "raw_target": "wiki/entities/temporistics-type-pfen-uk.md",
           "resolved": "wiki/entities/temporistics-type-pfen-uk.md",
           "ambiguous": []
@@ -58043,7 +58106,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 225,
+          "line": 226,
           "raw_target": "wiki/entities/temporistics-type-pfne-en.md",
           "resolved": "wiki/entities/temporistics-type-pfne-en.md",
           "ambiguous": []
@@ -58132,7 +58195,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 225,
+          "line": 226,
           "raw_target": "wiki/entities/temporistics-type-pfne-ru.md",
           "resolved": "wiki/entities/temporistics-type-pfne-ru.md",
           "ambiguous": []
@@ -58221,7 +58284,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 225,
+          "line": 226,
           "raw_target": "wiki/entities/temporistics-type-pfne-uk.md",
           "resolved": "wiki/entities/temporistics-type-pfne-uk.md",
           "ambiguous": []
@@ -58310,7 +58373,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 226,
+          "line": 227,
           "raw_target": "wiki/entities/temporistics-type-pnef-en.md",
           "resolved": "wiki/entities/temporistics-type-pnef-en.md",
           "ambiguous": []
@@ -58399,7 +58462,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 226,
+          "line": 227,
           "raw_target": "wiki/entities/temporistics-type-pnef-ru.md",
           "resolved": "wiki/entities/temporistics-type-pnef-ru.md",
           "ambiguous": []
@@ -58488,7 +58551,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 226,
+          "line": 227,
           "raw_target": "wiki/entities/temporistics-type-pnef-uk.md",
           "resolved": "wiki/entities/temporistics-type-pnef-uk.md",
           "ambiguous": []
@@ -58577,7 +58640,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 227,
+          "line": 228,
           "raw_target": "wiki/entities/temporistics-type-pnfe-en.md",
           "resolved": "wiki/entities/temporistics-type-pnfe-en.md",
           "ambiguous": []
@@ -58666,7 +58729,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 227,
+          "line": 228,
           "raw_target": "wiki/entities/temporistics-type-pnfe-ru.md",
           "resolved": "wiki/entities/temporistics-type-pnfe-ru.md",
           "ambiguous": []
@@ -58755,7 +58818,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 227,
+          "line": 228,
           "raw_target": "wiki/entities/temporistics-type-pnfe-uk.md",
           "resolved": "wiki/entities/temporistics-type-pnfe-uk.md",
           "ambiguous": []
@@ -60390,7 +60453,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 123,
+          "line": 124,
           "raw_target": "wiki/relations/psychosophy-intertype-relations-en.md",
           "resolved": "wiki/relations/psychosophy-intertype-relations-en.md",
           "ambiguous": []
@@ -60519,7 +60582,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 123,
+          "line": 124,
           "raw_target": "wiki/relations/psychosophy-intertype-relations-ru.md",
           "resolved": "wiki/relations/psychosophy-intertype-relations-ru.md",
           "ambiguous": []
@@ -60655,7 +60718,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 123,
+          "line": 124,
           "raw_target": "wiki/relations/psychosophy-intertype-relations-uk.md",
           "resolved": "wiki/relations/psychosophy-intertype-relations-uk.md",
           "ambiguous": []
@@ -60799,7 +60862,7 @@
         },
         {
           "source": "index.md",
-          "line": 178,
+          "line": 179,
           "raw_target": "wiki/relations/socionics-intertype-relations-en.md",
           "resolved": "wiki/relations/socionics-intertype-relations-en.md",
           "ambiguous": []
@@ -60943,7 +61006,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 178,
+          "line": 179,
           "raw_target": "wiki/relations/socionics-intertype-relations-ru.md",
           "resolved": "wiki/relations/socionics-intertype-relations-ru.md",
           "ambiguous": []
@@ -61094,7 +61157,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 178,
+          "line": 179,
           "raw_target": "wiki/relations/socionics-intertype-relations-uk.md",
           "resolved": "wiki/relations/socionics-intertype-relations-uk.md",
           "ambiguous": []
@@ -61253,7 +61316,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 199,
+          "line": 200,
           "raw_target": "wiki/relations/temporistics-intertype-relations-en.md",
           "resolved": "wiki/relations/temporistics-intertype-relations-en.md",
           "ambiguous": []
@@ -61362,7 +61425,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 199,
+          "line": 200,
           "raw_target": "wiki/relations/temporistics-intertype-relations-ru.md",
           "resolved": "wiki/relations/temporistics-intertype-relations-ru.md",
           "ambiguous": []
@@ -61478,7 +61541,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 199,
+          "line": 200,
           "raw_target": "wiki/relations/temporistics-intertype-relations-uk.md",
           "resolved": "wiki/relations/temporistics-intertype-relations-uk.md",
           "ambiguous": []
@@ -67344,6 +67407,481 @@
       ]
     },
     {
+      "path": "wiki/sources/migraine-forecasting-evidence-en.md",
+      "title": "Migraine, forecasting, and first Future — evidence review",
+      "lang": "en",
+      "translation_group": "migraine-forecasting-evidence",
+      "document_status": "active",
+      "page_role": "source-summary",
+      "semantic_version": 1,
+      "reviewed_semantic_version": 1,
+      "claim_status": [
+        "source-attribution",
+        "research-hypothesis",
+        "contested",
+        "project-definition"
+      ],
+      "claims": {
+        "migraine-user-observation": "source-attribution",
+        "migraine-first-future-source": "source-attribution",
+        "migraine-predictive-processing-theory": "source-attribution",
+        "migraine-interoception-mixed-evidence": "contested",
+        "migraine-forecasting-h1": "research-hypothesis",
+        "migraine-first-future-h2": "research-hypothesis",
+        "forecasting-first-future-h3": "research-hypothesis",
+        "migraine-construct-separation": "project-definition"
+      },
+      "caveat_ids": [
+        "unquantified-observation",
+        "distinct-constructs",
+        "no-direct-study-found",
+        "heterogeneous-tasks",
+        "selection-and-confounding",
+        "no-diagnostic-inference"
+      ],
+      "sources": [
+        "raw/general/2026-10-01-migraine-forecasting-source-register.md",
+        "raw/temporistics/kapitan-captain.md",
+        "https://doi.org/10.1016/j.neubiorev.2024.105536",
+        "https://doi.org/10.3389/fneur.2025.1643260",
+        "https://doi.org/10.1038/s41598-025-31149-0",
+        "https://doi.org/10.1212/01.WNL.0000052998.58526.A9",
+        "https://doi.org/10.2147/JPR.S175602",
+        "https://ichd-3.org/1-migraine/"
+      ],
+      "section_ids": [
+        "scope",
+        "source-claims",
+        "source-evidence",
+        "source-limitations",
+        "bwb-accepts",
+        "bwb-contested",
+        "bwb-rejected-or-historical",
+        "researcher-route"
+      ],
+      "inbound_links": [
+        {
+          "source": "index.md",
+          "line": 107,
+          "raw_target": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-en.md",
+          "line": 54,
+          "raw_target": "migraine-forecasting-evidence-en",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-en",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-en",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "ambiguous": []
+        }
+      ],
+      "outbound_links": [
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-ru",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-uk",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 63,
+          "raw_target": "https://doi.org/10.1016/j.neubiorev.2024.105536",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 64,
+          "raw_target": "https://doi.org/10.3389/fneur.2025.1643260",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 65,
+          "raw_target": "https://doi.org/10.1038/s41598-025-31149-0",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 66,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/12654956/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 67,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/30310310/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 68,
+          "raw_target": "https://ichd-3.org/1-migraine/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 103,
+          "raw_target": "captain-kapitan-en",
+          "resolved": "wiki/entities/captain-kapitan-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 103,
+          "raw_target": "epistemic-status-and-inference-limits-en",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
+          "ambiguous": []
+        }
+      ]
+    },
+    {
+      "path": "wiki/sources/migraine-forecasting-evidence-ru.md",
+      "title": "Мигрень, прогнозирование и первое Будущее — обзор свидетельств",
+      "lang": "ru",
+      "translation_group": "migraine-forecasting-evidence",
+      "document_status": "active",
+      "page_role": "source-summary",
+      "semantic_version": 1,
+      "reviewed_semantic_version": 1,
+      "claim_status": [
+        "source-attribution",
+        "research-hypothesis",
+        "contested",
+        "project-definition"
+      ],
+      "claims": {
+        "migraine-user-observation": "source-attribution",
+        "migraine-first-future-source": "source-attribution",
+        "migraine-predictive-processing-theory": "source-attribution",
+        "migraine-interoception-mixed-evidence": "contested",
+        "migraine-forecasting-h1": "research-hypothesis",
+        "migraine-first-future-h2": "research-hypothesis",
+        "forecasting-first-future-h3": "research-hypothesis",
+        "migraine-construct-separation": "project-definition"
+      },
+      "caveat_ids": [
+        "unquantified-observation",
+        "distinct-constructs",
+        "no-direct-study-found",
+        "heterogeneous-tasks",
+        "selection-and-confounding",
+        "no-diagnostic-inference"
+      ],
+      "sources": [
+        "raw/general/2026-10-01-migraine-forecasting-source-register.md",
+        "raw/temporistics/kapitan-captain.md",
+        "https://doi.org/10.1016/j.neubiorev.2024.105536",
+        "https://doi.org/10.3389/fneur.2025.1643260",
+        "https://doi.org/10.1038/s41598-025-31149-0",
+        "https://doi.org/10.1212/01.WNL.0000052998.58526.A9",
+        "https://doi.org/10.2147/JPR.S175602",
+        "https://ichd-3.org/1-migraine/"
+      ],
+      "section_ids": [
+        "scope",
+        "source-claims",
+        "source-evidence",
+        "source-limitations",
+        "bwb-accepts",
+        "bwb-contested",
+        "bwb-rejected-or-historical",
+        "researcher-route"
+      ],
+      "inbound_links": [
+        {
+          "source": "index.md",
+          "line": 107,
+          "raw_target": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "research/instruments/migraine-forecasting-hypothesis-2026-10-01.md",
+          "line": 3,
+          "raw_target": "migraine-forecasting-evidence-ru",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-ru.md",
+          "line": 54,
+          "raw_target": "migraine-forecasting-evidence-ru",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-ru",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-ru",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "ambiguous": []
+        }
+      ],
+      "outbound_links": [
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-en",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-uk",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 63,
+          "raw_target": "https://doi.org/10.1016/j.neubiorev.2024.105536",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 64,
+          "raw_target": "https://doi.org/10.3389/fneur.2025.1643260",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 65,
+          "raw_target": "https://doi.org/10.1038/s41598-025-31149-0",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 66,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/12654956/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 67,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/30310310/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 68,
+          "raw_target": "https://ichd-3.org/1-migraine/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 103,
+          "raw_target": "captain-kapitan-ru",
+          "resolved": "wiki/entities/captain-kapitan-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 103,
+          "raw_target": "epistemic-status-and-inference-limits-ru",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
+          "ambiguous": []
+        }
+      ]
+    },
+    {
+      "path": "wiki/sources/migraine-forecasting-evidence-uk.md",
+      "title": "Мігрень, прогнозування і перше Майбутнє — огляд свідчень",
+      "lang": "uk",
+      "translation_group": "migraine-forecasting-evidence",
+      "document_status": "active",
+      "page_role": "source-summary",
+      "semantic_version": 1,
+      "reviewed_semantic_version": 1,
+      "claim_status": [
+        "source-attribution",
+        "research-hypothesis",
+        "contested",
+        "project-definition"
+      ],
+      "claims": {
+        "migraine-user-observation": "source-attribution",
+        "migraine-first-future-source": "source-attribution",
+        "migraine-predictive-processing-theory": "source-attribution",
+        "migraine-interoception-mixed-evidence": "contested",
+        "migraine-forecasting-h1": "research-hypothesis",
+        "migraine-first-future-h2": "research-hypothesis",
+        "forecasting-first-future-h3": "research-hypothesis",
+        "migraine-construct-separation": "project-definition"
+      },
+      "caveat_ids": [
+        "unquantified-observation",
+        "distinct-constructs",
+        "no-direct-study-found",
+        "heterogeneous-tasks",
+        "selection-and-confounding",
+        "no-diagnostic-inference"
+      ],
+      "sources": [
+        "raw/general/2026-10-01-migraine-forecasting-source-register.md",
+        "raw/temporistics/kapitan-captain.md",
+        "https://doi.org/10.1016/j.neubiorev.2024.105536",
+        "https://doi.org/10.3389/fneur.2025.1643260",
+        "https://doi.org/10.1038/s41598-025-31149-0",
+        "https://doi.org/10.1212/01.WNL.0000052998.58526.A9",
+        "https://doi.org/10.2147/JPR.S175602",
+        "https://ichd-3.org/1-migraine/"
+      ],
+      "section_ids": [
+        "scope",
+        "source-claims",
+        "source-evidence",
+        "source-limitations",
+        "bwb-accepts",
+        "bwb-contested",
+        "bwb-rejected-or-historical",
+        "researcher-route"
+      ],
+      "inbound_links": [
+        {
+          "source": "index.md",
+          "line": 107,
+          "raw_target": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/entities/captain-kapitan-uk.md",
+          "line": 54,
+          "raw_target": "migraine-forecasting-evidence-uk",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-uk",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-uk",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "ambiguous": []
+        }
+      ],
+      "outbound_links": [
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-en",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 44,
+          "raw_target": "migraine-forecasting-evidence-ru",
+          "resolved": "wiki/sources/migraine-forecasting-evidence-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 63,
+          "raw_target": "https://doi.org/10.1016/j.neubiorev.2024.105536",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 64,
+          "raw_target": "https://doi.org/10.3389/fneur.2025.1643260",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 65,
+          "raw_target": "https://doi.org/10.1038/s41598-025-31149-0",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 66,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/12654956/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 67,
+          "raw_target": "https://pubmed.ncbi.nlm.nih.gov/30310310/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 68,
+          "raw_target": "https://ichd-3.org/1-migraine/",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 103,
+          "raw_target": "captain-kapitan-uk",
+          "resolved": "wiki/entities/captain-kapitan-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/migraine-forecasting-evidence-uk.md",
+          "line": 103,
+          "raw_target": "epistemic-status-and-inference-limits-uk",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
+          "ambiguous": []
+        }
+      ]
+    },
+    {
       "path": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
       "title": "Neural Correlates of Analysis and Integration — Research Note (2026)",
       "lang": "en",
@@ -67376,7 +67914,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 110,
+          "line": 111,
           "raw_target": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-en.md",
           "ambiguous": []
@@ -67628,7 +68166,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 110,
+          "line": 111,
           "raw_target": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-ru.md",
           "ambiguous": []
@@ -67880,7 +68418,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 110,
+          "line": 111,
           "raw_target": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "resolved": "wiki/sources/neural-correlates-analysis-synthesis-2026-uk.md",
           "ambiguous": []
@@ -68139,7 +68677,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 119,
+          "line": 120,
           "raw_target": "wiki/sources/psychology-of-everything-synthesis-en.md",
           "resolved": "wiki/sources/psychology-of-everything-synthesis-en.md",
           "ambiguous": []
@@ -68251,7 +68789,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 119,
+          "line": 120,
           "raw_target": "wiki/sources/psychology-of-everything-synthesis-ru.md",
           "resolved": "wiki/sources/psychology-of-everything-synthesis-ru.md",
           "ambiguous": []
@@ -68356,7 +68894,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 119,
+          "line": 120,
           "raw_target": "wiki/sources/psychology-of-everything-synthesis-uk.md",
           "resolved": "wiki/sources/psychology-of-everything-synthesis-uk.md",
           "ambiguous": []
@@ -68489,7 +69027,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 120,
+          "line": 121,
           "raw_target": "wiki/sources/psychosophy-detailed-en.md",
           "resolved": "wiki/sources/psychosophy-detailed-en.md",
           "ambiguous": []
@@ -68636,7 +69174,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 120,
+          "line": 121,
           "raw_target": "wiki/sources/psychosophy-detailed-ru.md",
           "resolved": "wiki/sources/psychosophy-detailed-ru.md",
           "ambiguous": []
@@ -68811,7 +69349,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 120,
+          "line": 121,
           "raw_target": "wiki/sources/psychosophy-detailed-uk.md",
           "resolved": "wiki/sources/psychosophy-detailed-uk.md",
           "ambiguous": []
@@ -69000,7 +69538,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 121,
+          "line": 122,
           "raw_target": "wiki/sources/psychosophy-emotion-functions-en.md",
           "resolved": "wiki/sources/psychosophy-emotion-functions-en.md",
           "ambiguous": []
@@ -69147,7 +69685,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 121,
+          "line": 122,
           "raw_target": "wiki/sources/psychosophy-emotion-functions-ru.md",
           "resolved": "wiki/sources/psychosophy-emotion-functions-ru.md",
           "ambiguous": []
@@ -69294,7 +69832,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 121,
+          "line": 122,
           "raw_target": "wiki/sources/psychosophy-emotion-functions-uk.md",
           "resolved": "wiki/sources/psychosophy-emotion-functions-uk.md",
           "ambiguous": []
@@ -69441,7 +69979,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 124,
+          "line": 125,
           "raw_target": "wiki/sources/psychosophy-logic-functions-en.md",
           "resolved": "wiki/sources/psychosophy-logic-functions-en.md",
           "ambiguous": []
@@ -69588,7 +70126,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 124,
+          "line": 125,
           "raw_target": "wiki/sources/psychosophy-logic-functions-ru.md",
           "resolved": "wiki/sources/psychosophy-logic-functions-ru.md",
           "ambiguous": []
@@ -69735,7 +70273,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 124,
+          "line": 125,
           "raw_target": "wiki/sources/psychosophy-logic-functions-uk.md",
           "resolved": "wiki/sources/psychosophy-logic-functions-uk.md",
           "ambiguous": []
@@ -69886,7 +70424,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 126,
+          "line": 127,
           "raw_target": "wiki/sources/psychosophy-physics-functions-en.md",
           "resolved": "wiki/sources/psychosophy-physics-functions-en.md",
           "ambiguous": []
@@ -70072,7 +70610,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 126,
+          "line": 127,
           "raw_target": "wiki/sources/psychosophy-physics-functions-ru.md",
           "resolved": "wiki/sources/psychosophy-physics-functions-ru.md",
           "ambiguous": []
@@ -70265,7 +70803,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 126,
+          "line": 127,
           "raw_target": "wiki/sources/psychosophy-physics-functions-uk.md",
           "resolved": "wiki/sources/psychosophy-physics-functions-uk.md",
           "ambiguous": []
@@ -70410,7 +70948,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 127,
+          "line": 128,
           "raw_target": "wiki/sources/psychosophy-quadras-en.md",
           "resolved": "wiki/sources/psychosophy-quadras-en.md",
           "ambiguous": []
@@ -70485,7 +71023,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 127,
+          "line": 128,
           "raw_target": "wiki/sources/psychosophy-quadras-ru.md",
           "resolved": "wiki/sources/psychosophy-quadras-ru.md",
           "ambiguous": []
@@ -70567,7 +71105,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 127,
+          "line": 128,
           "raw_target": "wiki/sources/psychosophy-quadras-uk.md",
           "resolved": "wiki/sources/psychosophy-quadras-uk.md",
           "ambiguous": []
@@ -70647,7 +71185,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 153,
+          "line": 154,
           "raw_target": "wiki/sources/psychosophy-typing-methods-en.md",
           "resolved": "wiki/sources/psychosophy-typing-methods-en.md",
           "ambiguous": []
@@ -70741,7 +71279,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 153,
+          "line": 154,
           "raw_target": "wiki/sources/psychosophy-typing-methods-ru.md",
           "resolved": "wiki/sources/psychosophy-typing-methods-ru.md",
           "ambiguous": []
@@ -70842,7 +71380,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 153,
+          "line": 154,
           "raw_target": "wiki/sources/psychosophy-typing-methods-uk.md",
           "resolved": "wiki/sources/psychosophy-typing-methods-uk.md",
           "ambiguous": []
@@ -70989,7 +71527,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 154,
+          "line": 155,
           "raw_target": "wiki/sources/psychosophy-volition-functions-en.md",
           "resolved": "wiki/sources/psychosophy-volition-functions-en.md",
           "ambiguous": []
@@ -71136,7 +71674,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 154,
+          "line": 155,
           "raw_target": "wiki/sources/psychosophy-volition-functions-ru.md",
           "resolved": "wiki/sources/psychosophy-volition-functions-ru.md",
           "ambiguous": []
@@ -71283,7 +71821,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 154,
+          "line": 155,
           "raw_target": "wiki/sources/psychosophy-volition-functions-uk.md",
           "resolved": "wiki/sources/psychosophy-volition-functions-uk.md",
           "ambiguous": []
@@ -71387,7 +71925,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 155,
+          "line": 156,
           "raw_target": "wiki/sources/psypilot-ai-psychologist-toolkit-en.md",
           "resolved": "wiki/sources/psypilot-ai-psychologist-toolkit-en.md",
           "ambiguous": []
@@ -71434,7 +71972,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 155,
+          "line": 156,
           "raw_target": "wiki/sources/psypilot-ai-psychologist-toolkit-ru.md",
           "resolved": "wiki/sources/psypilot-ai-psychologist-toolkit-ru.md",
           "ambiguous": []
@@ -71481,7 +72019,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 155,
+          "line": 156,
           "raw_target": "wiki/sources/psypilot-ai-psychologist-toolkit-uk.md",
           "resolved": "wiki/sources/psypilot-ai-psychologist-toolkit-uk.md",
           "ambiguous": []
@@ -71531,7 +72069,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 165,
+          "line": 166,
           "raw_target": "wiki/sources/resource-map-en.md",
           "resolved": "wiki/sources/resource-map-en.md",
           "ambiguous": []
@@ -71666,7 +72204,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 165,
+          "line": 166,
           "raw_target": "wiki/sources/resource-map-ru.md",
           "resolved": "wiki/sources/resource-map-ru.md",
           "ambiguous": []
@@ -71801,7 +72339,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 165,
+          "line": 166,
           "raw_target": "wiki/sources/resource-map-uk.md",
           "resolved": "wiki/sources/resource-map-uk.md",
           "ambiguous": []
@@ -71929,7 +72467,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 166,
+          "line": 167,
           "raw_target": "wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-en.md",
           "resolved": "wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-en.md",
           "ambiguous": []
@@ -72015,7 +72553,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 166,
+          "line": 167,
           "raw_target": "wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-ru.md",
           "resolved": "wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-ru.md",
           "ambiguous": []
@@ -72101,7 +72639,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 166,
+          "line": 167,
           "raw_target": "wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-uk.md",
           "resolved": "wiki/sources/rossignac-milon-bolger-higgins-merged-minds-2021-uk.md",
           "ambiguous": []
@@ -72187,7 +72725,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 167,
+          "line": 168,
           "raw_target": "wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-en.md",
           "resolved": "wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-en.md",
           "ambiguous": []
@@ -72273,7 +72811,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 167,
+          "line": 168,
           "raw_target": "wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-ru.md",
           "resolved": "wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-ru.md",
           "ambiguous": []
@@ -72359,7 +72897,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 167,
+          "line": 168,
           "raw_target": "wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-uk.md",
           "resolved": "wiki/sources/schaner-intrahousehold-preference-heterogeneity-2015-uk.md",
           "ambiguous": []
@@ -72442,7 +72980,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 168,
+          "line": 169,
           "raw_target": "wiki/sources/scientific-narrative-intelligence-layer-en.md",
           "resolved": "wiki/sources/scientific-narrative-intelligence-layer-en.md",
           "ambiguous": []
@@ -72560,7 +73098,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 168,
+          "line": 169,
           "raw_target": "wiki/sources/scientific-narrative-intelligence-layer-ru.md",
           "resolved": "wiki/sources/scientific-narrative-intelligence-layer-ru.md",
           "ambiguous": []
@@ -72678,7 +73216,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 168,
+          "line": 169,
           "raw_target": "wiki/sources/scientific-narrative-intelligence-layer-uk.md",
           "resolved": "wiki/sources/scientific-narrative-intelligence-layer-uk.md",
           "ambiguous": []
@@ -72838,7 +73376,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 174,
+          "line": 175,
           "raw_target": "wiki/sources/socionics-detailed-en.md",
           "resolved": "wiki/sources/socionics-detailed-en.md",
           "ambiguous": []
@@ -72963,7 +73501,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 174,
+          "line": 175,
           "raw_target": "wiki/sources/socionics-detailed-ru.md",
           "resolved": "wiki/sources/socionics-detailed-ru.md",
           "ambiguous": []
@@ -73095,7 +73633,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 174,
+          "line": 175,
           "raw_target": "wiki/sources/socionics-detailed-uk.md",
           "resolved": "wiki/sources/socionics-detailed-uk.md",
           "ambiguous": []
@@ -73189,7 +73727,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 175,
+          "line": 176,
           "raw_target": "wiki/sources/socionics-function-dichotomies-en.md",
           "resolved": "wiki/sources/socionics-function-dichotomies-en.md",
           "ambiguous": []
@@ -73290,7 +73828,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 175,
+          "line": 176,
           "raw_target": "wiki/sources/socionics-function-dichotomies-ru.md",
           "resolved": "wiki/sources/socionics-function-dichotomies-ru.md",
           "ambiguous": []
@@ -73391,7 +73929,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 175,
+          "line": 176,
           "raw_target": "wiki/sources/socionics-function-dichotomies-uk.md",
           "resolved": "wiki/sources/socionics-function-dichotomies-uk.md",
           "ambiguous": []
@@ -73491,7 +74029,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 182,
+          "line": 183,
           "raw_target": "wiki/sources/socionics-plus-minus-signs-en.md",
           "resolved": "wiki/sources/socionics-plus-minus-signs-en.md",
           "ambiguous": []
@@ -73563,7 +74101,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 182,
+          "line": 183,
           "raw_target": "wiki/sources/socionics-plus-minus-signs-ru.md",
           "resolved": "wiki/sources/socionics-plus-minus-signs-ru.md",
           "ambiguous": []
@@ -73635,7 +74173,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 182,
+          "line": 183,
           "raw_target": "wiki/sources/socionics-plus-minus-signs-uk.md",
           "resolved": "wiki/sources/socionics-plus-minus-signs-uk.md",
           "ambiguous": []
@@ -73712,7 +74250,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 184,
+          "line": 185,
           "raw_target": "wiki/sources/socionics-reinin-dichotomies-en.md",
           "resolved": "wiki/sources/socionics-reinin-dichotomies-en.md",
           "ambiguous": []
@@ -73803,7 +74341,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 184,
+          "line": 185,
           "raw_target": "wiki/sources/socionics-reinin-dichotomies-ru.md",
           "resolved": "wiki/sources/socionics-reinin-dichotomies-ru.md",
           "ambiguous": []
@@ -73894,7 +74432,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 184,
+          "line": 185,
           "raw_target": "wiki/sources/socionics-reinin-dichotomies-uk.md",
           "resolved": "wiki/sources/socionics-reinin-dichotomies-uk.md",
           "ambiguous": []
@@ -74004,7 +74542,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 196,
+          "line": 197,
           "raw_target": "wiki/sources/temporistics-detailed-en.md",
           "resolved": "wiki/sources/temporistics-detailed-en.md",
           "ambiguous": []
@@ -74092,7 +74630,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 196,
+          "line": 197,
           "raw_target": "wiki/sources/temporistics-detailed-ru.md",
           "resolved": "wiki/sources/temporistics-detailed-ru.md",
           "ambiguous": []
@@ -74188,7 +74726,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 196,
+          "line": 197,
           "raw_target": "wiki/sources/temporistics-detailed-uk.md",
           "resolved": "wiki/sources/temporistics-detailed-uk.md",
           "ambiguous": []
@@ -74273,7 +74811,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 197,
+          "line": 198,
           "raw_target": "wiki/sources/temporistics-eternity-altruism-hypothesis-en.md",
           "resolved": "wiki/sources/temporistics-eternity-altruism-hypothesis-en.md",
           "ambiguous": []
@@ -74351,7 +74889,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 197,
+          "line": 198,
           "raw_target": "wiki/sources/temporistics-eternity-altruism-hypothesis-ru.md",
           "resolved": "wiki/sources/temporistics-eternity-altruism-hypothesis-ru.md",
           "ambiguous": []
@@ -74429,7 +74967,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 197,
+          "line": 198,
           "raw_target": "wiki/sources/temporistics-eternity-altruism-hypothesis-uk.md",
           "resolved": "wiki/sources/temporistics-eternity-altruism-hypothesis-uk.md",
           "ambiguous": []
@@ -74502,7 +75040,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 231,
+          "line": 232,
           "raw_target": "wiki/sources/typology-activity-theory-mapping-en.md",
           "resolved": "wiki/sources/typology-activity-theory-mapping-en.md",
           "ambiguous": []
@@ -74574,7 +75112,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 231,
+          "line": 232,
           "raw_target": "wiki/sources/typology-activity-theory-mapping-ru.md",
           "resolved": "wiki/sources/typology-activity-theory-mapping-ru.md",
           "ambiguous": []
@@ -74646,7 +75184,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 231,
+          "line": 232,
           "raw_target": "wiki/sources/typology-activity-theory-mapping-uk.md",
           "resolved": "wiki/sources/typology-activity-theory-mapping-uk.md",
           "ambiguous": []
@@ -74716,7 +75254,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 232,
+          "line": 233,
           "raw_target": "wiki/sources/typology-authors-timeline-en.md",
           "resolved": "wiki/sources/typology-authors-timeline-en.md",
           "ambiguous": []
@@ -74815,7 +75353,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 232,
+          "line": 233,
           "raw_target": "wiki/sources/typology-authors-timeline-ru.md",
           "resolved": "wiki/sources/typology-authors-timeline-ru.md",
           "ambiguous": []
@@ -74914,7 +75452,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 232,
+          "line": 233,
           "raw_target": "wiki/sources/typology-authors-timeline-uk.md",
           "resolved": "wiki/sources/typology-authors-timeline-uk.md",
           "ambiguous": []
@@ -75017,7 +75555,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 236,
+          "line": 237,
           "raw_target": "wiki/sources/typology-researchers-en.md",
           "resolved": "wiki/sources/typology-researchers-en.md",
           "ambiguous": []
@@ -75106,7 +75644,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 236,
+          "line": 237,
           "raw_target": "wiki/sources/typology-researchers-ru.md",
           "resolved": "wiki/sources/typology-researchers-ru.md",
           "ambiguous": []
@@ -75195,7 +75733,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 236,
+          "line": 237,
           "raw_target": "wiki/sources/typology-researchers-uk.md",
           "resolved": "wiki/sources/typology-researchers-uk.md",
           "ambiguous": []
@@ -75276,7 +75814,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 240,
+          "line": 241,
           "raw_target": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-en.md",
           "resolved": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-en.md",
           "ambiguous": []
@@ -75357,7 +75895,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 240,
+          "line": 241,
           "raw_target": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-ru.md",
           "resolved": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-ru.md",
           "ambiguous": []
@@ -75438,7 +75976,7 @@
       "inbound_links": [
         {
           "source": "index.md",
-          "line": 240,
+          "line": 241,
           "raw_target": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-uk.md",
           "resolved": "wiki/sources/volkov-voloskova-gladkikh-multilevel-compatibility-2025-uk.md",
           "ambiguous": []
@@ -75537,7 +76075,7 @@
         },
         {
           "source": "index.md",
-          "line": 188,
+          "line": 189,
           "raw_target": "wiki/start-here-en.md",
           "resolved": "wiki/start-here-en.md",
           "ambiguous": []
@@ -75692,7 +76230,7 @@
         },
         {
           "source": "index.md",
-          "line": 188,
+          "line": 189,
           "raw_target": "wiki/start-here-ru.md",
           "resolved": "wiki/start-here-ru.md",
           "ambiguous": []
@@ -75847,7 +76385,7 @@
         },
         {
           "source": "index.md",
-          "line": 188,
+          "line": 189,
           "raw_target": "wiki/start-here-uk.md",
           "resolved": "wiki/start-here-uk.md",
           "ambiguous": []
@@ -78134,6 +78672,33 @@
         "wiki/concepts/michelangelo-phenomenon-en.md",
         "wiki/concepts/michelangelo-phenomenon-ru.md",
         "wiki/concepts/michelangelo-phenomenon-uk.md"
+      ]
+    },
+    {
+      "translation_group": "migraine-forecasting-evidence",
+      "locales": [
+        "en",
+        "ru",
+        "uk"
+      ],
+      "missing_locales": [],
+      "complete_triad": true,
+      "locale_counts": {
+        "en": 1,
+        "ru": 1,
+        "uk": 1
+      },
+      "duplicate_locales": {},
+      "statuses": [
+        "active"
+      ],
+      "roles": [
+        "source-summary"
+      ],
+      "members": [
+        "wiki/sources/migraine-forecasting-evidence-en.md",
+        "wiki/sources/migraine-forecasting-evidence-ru.md",
+        "wiki/sources/migraine-forecasting-evidence-uk.md"
       ]
     },
     {
