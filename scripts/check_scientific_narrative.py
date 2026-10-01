@@ -742,10 +742,21 @@ def check_paths(
     json_output: bool = False,
 ) -> int:
     """Run narrative readability and quality checks on a sequence of files."""
+    wiki_root = (REPO_ROOT / "wiki").resolve()
+
+    def in_wiki(path: Path) -> bool:
+        resolved = path.resolve()
+        if resolved.is_relative_to(wiki_root):
+            return True
+        # On case-insensitive macOS volumes resolve() retains caller casing.
+        # Compare directory identity without assuming every host ignores case.
+        return wiki_root.is_dir() and any(
+            parent.samefile(wiki_root) for parent in resolved.parents
+        )
+
     valid_paths = [
         p for p in paths
-        if p.resolve().is_relative_to(REPO_ROOT / "wiki")
-        or p.name not in EXCLUDED_NON_NARRATIVE_FILENAMES
+        if p.name not in EXCLUDED_NON_NARRATIVE_FILENAMES or in_wiki(p)
     ]
     if not valid_paths:
         if json_output:

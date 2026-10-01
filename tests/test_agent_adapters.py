@@ -4,6 +4,7 @@ import tempfile
 import tomllib
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from generate_agent_adapters import render, sync, prompt, MARKER
@@ -35,6 +36,14 @@ class AdapterTests(unittest.TestCase):
 
     def save_registry(self):
         self.save('.agents/registry.json', self.registry)
+
+    def symlink(self, link, target, *, directory=False):
+        try:
+            link.symlink_to(target, target_is_directory=directory)
+        except OSError as exc:
+            if sys.platform == 'win32' and getattr(exc, 'winerror', None) == 1314:
+                self.skipTest('Windows requires Developer Mode or symlink privilege for this test')
+            raise
 
     def test_generate_and_check_idempotent(self):
         self.assertEqual(sync(self.root, write=True), [])
@@ -137,14 +146,48 @@ class AdapterTests(unittest.TestCase):
         (self.root / '.codex').mkdir()
         target = self.root / 'user.toml'
         target.write_text('untouched', encoding='utf-8')
-        try:
-            (self.root / '.codex/config.toml').symlink_to(target)
-        except OSError as exc:
-            if sys.platform == 'win32' and getattr(exc, 'winerror', None) == 1314:
-                self.skipTest('Windows requires Developer Mode or symlink privilege for this test')
-            raise
+        self.symlink(self.root / '.codex/config.toml', target)
         self.assertTrue(sync(self.root, write=True, adopt_existing=True))
         self.assertEqual(target.read_text(encoding='utf-8'), 'untouched')
+
+    def test_host_symlink_ancestor_above_repository_is_allowed(self):
+        # Exercise real host aliases like macOS /var -> /private/var.
+        with tempfile.TemporaryDirectory() as directory:
+            alias = Path(directory) / 'host-alias'
+            self.symlink(alias, self.root.parent, directory=True)
+            aliased_root = alias / self.root.name
+            self.assertEqual(sync(aliased_root, write=True), [])
+            self.assertEqual(sync(aliased_root), [])
+            self.assertEqual(sync(self.root), [])
+
+    def test_symlink_guard_stops_at_repository_root(self):
+        checked = []
+
+        def is_symlink(path):
+            checked.append(path)
+            return path == self.root.parent.parent
+
+        with patch.object(Path, 'is_symlink', is_symlink):
+            self.assertEqual(sync(self.root, write=True), [])
+        self.assertIn(self.root, checked)
+        self.assertTrue(all(path.is_relative_to(self.root) for path in checked))
+
+    def test_symlinked_repository_root_is_refused(self):
+        with patch.object(Path, 'is_symlink', lambda path: path == self.root):
+            self.assertTrue(any('symlink output' in e for e in sync(self.root, write=True)))
+        self.assertFalse((self.root / '.opencode/agents').exists())
+
+    def test_symlinked_output_parent_is_refused_before_any_write(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory)
+            sentinel = target / 'config.toml'
+            sentinel.write_text('untouched', encoding='utf-8')
+            self.symlink(self.root / '.codex', target, directory=True)
+            self.assertTrue(any('symlink output' in e for e in
+                                sync(self.root, write=True, adopt_existing=True)))
+            self.assertEqual(sentinel.read_text(encoding='utf-8'), 'untouched')
+            self.assertEqual(list(target.iterdir()), [sentinel])
+            self.assertFalse((self.root / '.opencode/agents').exists())
 
     def test_native_overrides_are_separate(self):
         self.save('.agents/adapters/codex.json', {'schema_version': 1, 'format': 'standalone-toml', 'max_concurrent_threads_per_session': 3, 'roles': {'reviewer': {'model': 'explicit-model', 'model_reasoning_effort': 'high'}}})

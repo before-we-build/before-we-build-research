@@ -19,6 +19,7 @@ from check_scientific_narrative import (
     analyze_document,
     detect_language,
     parse_markdown_paragraphs,
+    check_paths,
 )
 
 
@@ -199,6 +200,37 @@ class PublicWikiAuditTests(unittest.TestCase):
             with self.assertRaises(SystemExit) as raised:
                 main()
             self.assertEqual(raised.exception.code, 2)
+
+    def test_wiki_readme_is_audited_with_normalized_repository_root(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'unused').mkdir()
+            (root / 'wiki').mkdir()
+            page = root / 'wiki/README.md'
+            page.write_text('This model guarantees compatibility.', encoding='utf-8')
+            outside = root / 'README.md'
+            outside.write_text('Repository instructions.', encoding='utf-8')
+            output = io.StringIO()
+            with patch('check_scientific_narrative.REPO_ROOT', root / 'unused/..'), contextlib.redirect_stdout(output):
+                self.assertEqual(check_paths([page, outside], strict=True, json_output=True), 1)
+            summary = json.loads(output.getvalue())['summary']
+            self.assertEqual(len(summary), 1)
+            self.assertEqual(Path(summary[0]['path']).name, 'README.md')
+
+    def test_wiki_readme_is_audited_with_filesystem_case_alias(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            wiki = root / 'wiki'
+            wiki.mkdir()
+            case_alias = root / 'WIKI'
+            if not case_alias.exists():
+                self.skipTest('Filesystem is case-sensitive; no case alias exists')
+            page = case_alias / 'README.md'
+            page.write_text('This model guarantees compatibility.', encoding='utf-8')
+            output = io.StringIO()
+            with patch('check_scientific_narrative.REPO_ROOT', root), contextlib.redirect_stdout(output):
+                self.assertEqual(check_paths([page], strict=True, json_output=True), 1)
+            self.assertEqual(len(json.loads(output.getvalue())['summary']), 1)
 
     def test_explicit_source_path_still_blocks_bad_text(self):
         with tempfile.TemporaryDirectory() as directory:

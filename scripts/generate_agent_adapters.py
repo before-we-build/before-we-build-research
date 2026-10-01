@@ -133,8 +133,9 @@ def sync(root: Path, *, write: bool = False, adopt_existing: bool = False) -> li
     changes = []
     for relative, content in outputs.items():
         path = root / relative
-        # Do not follow generated output symlinks, including a symlinked parent.
-        if any(p.is_symlink() for p in [path, *path.parents] if p != root.parent):
+        # Check the output and its ancestors through the repository root.
+        # Host aliases above it (for example macOS /var) are not outputs.
+        if any(p.is_symlink() for p in [path, *path.parents[:len(Path(relative).parts)]]):
             errors.append(f'Refusing symlink output: {relative}')
             continue
         exists = path.exists()
