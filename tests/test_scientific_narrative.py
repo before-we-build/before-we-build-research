@@ -19,12 +19,13 @@ from check_scientific_narrative import (
     analyze_document,
     detect_language,
     parse_markdown_paragraphs,
+    check_paths,
 )
 
 
 class ClicheDetectorTests(unittest.TestCase):
     def test_russian_cliches_detected(self) -> None:
-        text = "В современном мире ни для кого не секрет, что эта идея играет ключевую роль."
+        text = "� ᮢ६����� ��� �� ��� ���� �� ᥪ��, �� �� ���� ��ࠥ� ���祢�� ஫�."
         doc = analyze_document(Path("test-ru.md"), text)
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("cliche-modern-world", codes)
@@ -40,7 +41,7 @@ class ClicheDetectorTests(unittest.TestCase):
         self.assertIn("cliche-delve-into", codes)
 
     def test_ukrainian_cliches_detected(self) -> None:
-        text = "У сучасному світі ні для кого не секрет, що цей фактор відіграє ключову роль."
+        text = "� ���᭮�� �?�? �? ��� ���� �� ᥪ��, � 楩 䠪�� �?�?��� ���箢� ஫�."
         doc = analyze_document(Path("test-uk.md"), text)
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("cliche-modern-world", codes)
@@ -48,7 +49,7 @@ class ClicheDetectorTests(unittest.TestCase):
         self.assertIn("cliche-plays-role", codes)
 
     def test_clean_text_has_no_cliche_flags(self) -> None:
-        text = "Мы сидели на кухне и наблюдали за тем, как закипает медный чайник с узким носиком."
+        text = "�� ᨤ��� �� ��孥 � ������ �� ⥬, ��� �������� ����� 砩��� � 㧪�� ��ᨪ��."
         doc = analyze_document(Path("test-clean.md"), text)
         cliche_codes = [d.code for d in doc.diagnostics if d.code.startswith("cliche-")]
         self.assertEqual(len(cliche_codes), 0)
@@ -56,15 +57,15 @@ class ClicheDetectorTests(unittest.TestCase):
 
 class EpistemicInflationTests(unittest.TestCase):
     def test_flags_unsupported_guarantees(self) -> None:
-        text = "Этот соционический тип на 100% определяет поведение человека и гарантирует совместимость в браке."
+        text = "��� �樮���᪨� ⨯ �� 100% ��।���� ��������� 祫����� � ��࠭���� ᮢ���⨬���� � �ࠪ�."
         doc = analyze_document(Path("test-epistemic-ru.md"), text, strict=True)
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("epistemic-fatal-determinism", codes)
         self.assertIn("epistemic-guarantee-outcome", codes)
 
     def test_allows_negated_and_qualified_cautions(self) -> None:
-        text = "Важно подчеркнуть, что типологическая модель не гарантирует совместимость и не определяет судьбу."
-        # Negated claims ("не гарантирует", "не определяет") must not trigger epistemic inflation
+        text = "����� ����ભ���, �� ⨯������᪠� ������ �� ��࠭���� ᮢ���⨬���� � �� ��।���� ����."
+        # Negated claims ("�� ��࠭����", "�� ��।����") must not trigger epistemic inflation
         doc = analyze_document(Path("test-negated-ru.md"), text)
         epistemic_codes = [d.code for d in doc.diagnostics if d.code.startswith("epistemic-")]
         self.assertEqual(len(epistemic_codes), 0)
@@ -80,27 +81,27 @@ class EpistemicInflationTests(unittest.TestCase):
 class SentenceAndParagraphComplexityTests(unittest.TestCase):
     def test_flags_overlong_sentence(self) -> None:
         # Sentence with 40 words
-        long_sentence = " ".join(["слово"] * 40) + "."
+        long_sentence = " ".join(["᫮��"] * 40) + "."
         doc = analyze_document(Path("test-len-ru.md"), long_sentence)
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("overlong-sentence", codes)
 
     def test_flags_extreme_sentence_overload(self) -> None:
         # Sentence with 65 words
-        huge_sentence = " ".join(["термин"] * 65) + "."
+        huge_sentence = " ".join(["�ନ�"] * 65) + "."
         doc = analyze_document(Path("test-extreme-ru.md"), huge_sentence)
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("extreme-sentence-overload", codes)
 
     def test_flags_overlong_paragraph(self) -> None:
         # Paragraph with 180 words in short sentences
-        paragraph = " ".join(["Короткая фраза здесь."] * 60)
+        paragraph = " ".join(["���⪠� �ࠧ� �����."] * 60)
         doc = analyze_document(Path("test-para-ru.md"), paragraph)
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("overlong-paragraph", codes)
 
     def test_detects_nested_parentheses(self) -> None:
-        text = "Это простое утверждение (с уточнением (которое содержит еще одно (вложенное) примечание)) требует внимания."
+        text = "�� ���⮥ �⢥ত���� (� ��筥���� (���஥ ᮤ�ন� �� ���� (���������) �ਬ�砭��)) �ॡ�� ��������."
         doc = analyze_document(Path("test-paren.md"), text)
         codes = {d.code for d in doc.diagnostics}
         self.assertIn("deep-parentheses", codes)
@@ -108,7 +109,7 @@ class SentenceAndParagraphComplexityTests(unittest.TestCase):
 
 class CognitiveHazardAndCitationTests(unittest.TestCase):
     def test_citation_blockquotes_are_exempted_from_stylistic_penalties(self) -> None:
-        quote = "> В современном мире ни для кого не секрет, что эта цитата из старого трактата очень длинная и многословная.\n\nАвторский чистый текст идет следом."
+        quote = "> � ᮢ६����� ��� �� ��� ���� �� ᥪ��, �� �� ��� �� ��ண� �ࠪ�� �祭� ������� � �����᫮����.\n\n����᪨� ���� ⥪�� ���� ᫥���."
         doc = analyze_document(Path("test-cite.md"), quote)
         cliche_codes = [d.code for d in doc.diagnostics if d.code.startswith("cliche-")]
         self.assertEqual(len(cliche_codes), 0)
@@ -116,9 +117,9 @@ class CognitiveHazardAndCitationTests(unittest.TestCase):
 
     def test_sustained_fatigue_zone_detected(self) -> None:
         # Create 3 consecutive paragraphs each with C_j >= 2
-        bad_p1 = "В современном мире " + " ".join(["слово"] * 40) + "."
-        bad_p2 = "Ни для кого не секрет, что " + " ".join(["факт"] * 40) + "."
-        bad_p3 = "Как известно, " + " ".join(["наблюдение"] * 40) + "."
+        bad_p1 = "� ᮢ६����� ��� " + " ".join(["᫮��"] * 40) + "."
+        bad_p2 = "�� ��� ���� �� ᥪ��, �� " + " ".join(["䠪�"] * 40) + "."
+        bad_p3 = "��� �����⭮, " + " ".join(["�������"] * 40) + "."
         text = f"{bad_p1}\n\n{bad_p2}\n\n{bad_p3}"
 
         doc = analyze_document(Path("test-fatigue.md"), text)
@@ -138,14 +139,14 @@ class GroundTruthBenchmarkTests(unittest.TestCase):
 
     def test_bad_synthetic_text_fails_threshold(self) -> None:
         bad_text = (
-            "В современном мире ни для кого не секрет, что типологическая модель жестко детерминирует "
-            + " ".join(["и фатально предопределяет судьбу"] * 10)
-            + " и гарантирует совместимость.\n\n"
-            "Давайте погрузимся в этот вопрос (хотя это (очевидно (всем))), ведь это играет ключевую роль "
-            + " ".join(["в бесконечно длинном потоке канцелярита"] * 8)
+            "� ᮢ६����� ��� �� ��� ���� �� ᥪ��, �� ⨯������᪠� ������ ���⪮ ���ନ����� "
+            + " ".join(["� �⠫쭮 �।��।���� ����"] * 10)
+            + " � ��࠭���� ᮢ���⨬����.\n\n"
+            "������ ����㧨��� � ��� ����� (��� �� (�祢���� (�ᥬ))), ���� �� ��ࠥ� ���祢�� ஫� "
+            + " ".join(["� ��᪮��筮 ������� ��⮪� ���楫���"] * 8)
             + ".\n\n"
-            "Стоит подчеркнуть, что научно доказанная типология на 100% определяет характер "
-            + " ".join(["без всяких сомнений и без единого вопроса читателя"] * 6)
+            "�⮨� ����ભ���, �� ���筮 ���������� ⨯������ �� 100% ��।���� �ࠪ�� "
+            + " ".join(["��� ��直� ᮬ����� � ��� ������� ����� ��⥫�"] * 6)
             + "."
         )
         doc = analyze_document(Path("synthetic-bad.md"), bad_text, strict=True, min_score=75.0)
@@ -158,7 +159,7 @@ class GroundTruthBenchmarkTests(unittest.TestCase):
 class PublicWikiAuditTests(unittest.TestCase):
     def test_cli_reports_unicode_with_legacy_console_encoding(self):
         with tempfile.TemporaryDirectory() as directory:
-            page = Path(directory) / 'é-українська-en.md'
+            page = Path(directory) / 'e-�����쪠-en.md'
             page.write_text('A clear explanation.', encoding='utf-8')
             environment = dict(os.environ, PYTHONIOENCODING='cp1251')
             for json_output in (False, True):
@@ -199,6 +200,37 @@ class PublicWikiAuditTests(unittest.TestCase):
             with self.assertRaises(SystemExit) as raised:
                 main()
             self.assertEqual(raised.exception.code, 2)
+
+    def test_wiki_readme_is_audited_with_normalized_repository_root(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'unused').mkdir()
+            (root / 'wiki').mkdir()
+            page = root / 'wiki/README.md'
+            page.write_text('This model guarantees compatibility.', encoding='utf-8')
+            outside = root / 'README.md'
+            outside.write_text('Repository instructions.', encoding='utf-8')
+            output = io.StringIO()
+            with patch('check_scientific_narrative.REPO_ROOT', root / 'unused/..'), contextlib.redirect_stdout(output):
+                self.assertEqual(check_paths([page, outside], strict=True, json_output=True), 1)
+            summary = json.loads(output.getvalue())['summary']
+            self.assertEqual(len(summary), 1)
+            self.assertEqual(Path(summary[0]['path']).name, 'README.md')
+
+    def test_wiki_readme_is_audited_with_filesystem_case_alias(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            wiki = root / 'wiki'
+            wiki.mkdir()
+            case_alias = root / 'WIKI'
+            if not case_alias.exists():
+                self.skipTest('Filesystem is case-sensitive; no case alias exists')
+            page = case_alias / 'README.md'
+            page.write_text('This model guarantees compatibility.', encoding='utf-8')
+            output = io.StringIO()
+            with patch('check_scientific_narrative.REPO_ROOT', root), contextlib.redirect_stdout(output):
+                self.assertEqual(check_paths([page], strict=True, json_output=True), 1)
+            self.assertEqual(len(json.loads(output.getvalue())['summary']), 1)
 
     def test_explicit_source_path_still_blocks_bad_text(self):
         with tempfile.TemporaryDirectory() as directory:
