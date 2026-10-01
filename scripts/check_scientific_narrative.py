@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic Scientific Narrative & Readability Quality Checker for Before We Build.
 
-Evaluates narrative flow, cognitive fatigue hazards, AI/bureaucratic cliches,
+Evaluates narrative flow, cognitive fatigue hazards, AI/bureaucratic clichés,
 sentence complexity, and epistemic boundaries across Russian, English, and Ukrainian texts.
 Works statically without external LLM dependencies for instantaneous CI verification.
 """
@@ -49,21 +49,21 @@ THRESHOLDS = {
     },
 }
 
-# Empty cliches, robotic phrasing, and bureaucratic filler
+# Empty clichés, robotic phrasing, and bureaucratic filler
 CLICHE_PATTERNS: dict[str, list[tuple[str, re.Pattern[str]]]] = {
     "ru": [
-        ("cliche-modern-world", re.compile(r"\b�\s+ᮢ६�����(?:\s+��६�⥫쭮\s+�����饬��)?\s+���\b", re.IGNORECASE)),
-        ("cliche-no-secret", re.compile(r"\b��\s+���\s+����\s+��\s+ᥪ��\b", re.IGNORECASE)),
-        ("cliche-lets-dive", re.compile(r"\b������\s+(?:����㧨���|ࠧ��६��|����ﭥ�\s+�������)\b", re.IGNORECASE)),
-        ("cliche-plays-role", re.compile(r"\b��ࠥ�\s+(?:������|���祢��|������)\s+஫�\b", re.IGNORECASE)),
-        ("cliche-integral-part", re.compile(r"\b����\s+����ꥬ�����\s+�����\b", re.IGNORECASE)),
-        ("cliche-cannot-not-note", re.compile(r"\b�����\s+��\s+(?:�⬥���|㯮�����|����ભ���)\b", re.IGNORECASE)),
-        ("cliche-worth-stressing", re.compile(r"\b�⮨�\s+(?:����ભ���|�⬥���|᪠����|�������)\b", re.IGNORECASE)),
-        ("cliche-as-known", re.compile(r"\b���\s+�����⭮\b", re.IGNORECASE)),
-        ("cliche-must-understand", re.compile(r"\b����室���\s+��������\b", re.IGNORECASE)),
-        ("cliche-central-place", re.compile(r"\b��������\s+業�ࠫ쭮�\s+����\b", re.IGNORECASE)),
-        ("cliche-nothing-else-than", re.compile(r"\b�।�⠢���\s+ᮡ��\s+��\s+��\s+����,\s+���\b", re.IGNORECASE)),
-        ("cliche-today-day", re.compile(r"\b��\s+ᥣ����譨�\s+����\b", re.IGNORECASE)),
+        ("cliche-modern-world", re.compile(r"\bв\s+современном(?:\s+стремительно\s+меняющемся)?\s+мире\b", re.IGNORECASE)),
+        ("cliche-no-secret", re.compile(r"\bни\s+для\s+кого\s+не\s+секрет\b", re.IGNORECASE)),
+        ("cliche-lets-dive", re.compile(r"\bдавайте\s+(?:погрузимся|разберемся|взглянем\s+поближе)\b", re.IGNORECASE)),
+        ("cliche-plays-role", re.compile(r"\bиграет\s+(?:важную|ключевую|решающую)\s+роль\b", re.IGNORECASE)),
+        ("cliche-integral-part", re.compile(r"\bявляется\s+неотъемлемой\s+частью\b", re.IGNORECASE)),
+        ("cliche-cannot-not-note", re.compile(r"\bнельзя\s+не\s+(?:отметить|упомянуть|подчеркнуть)\b", re.IGNORECASE)),
+        ("cliche-worth-stressing", re.compile(r"\bстоит\s+(?:подчеркнуть|отметить|сказать|заметить)\b", re.IGNORECASE)),
+        ("cliche-as-known", re.compile(r"\bкак\s+известно\b", re.IGNORECASE)),
+        ("cliche-must-understand", re.compile(r"\bнеобходимо\s+понимать\b", re.IGNORECASE)),
+        ("cliche-central-place", re.compile(r"\bзанимает\s+центральное\s+место\b", re.IGNORECASE)),
+        ("cliche-nothing-else-than", re.compile(r"\bпредставляет\s+собой\s+не\s+что\s+иное,\s+как\b", re.IGNORECASE)),
+        ("cliche-today-day", re.compile(r"\bна\s+сегодняшний\s+день\b", re.IGNORECASE)),
     ],
     "en": [
         ("cliche-today-world", re.compile(r"\bin\s+today'?s\s+(?:fast-paced\s+)?world\b", re.IGNORECASE)),
@@ -77,16 +77,16 @@ CLICHE_PATTERNS: dict[str, list[tuple[str, re.Pattern[str]]]] = {
         ("cliche-at-end-of-day", re.compile(r"\bat\s+the\s+end\s+of\s+the\s+day\b", re.IGNORECASE)),
     ],
     "uk": [
-        ("cliche-modern-world", re.compile(r"\b�\s+���᭮��(?:\s+�?�?,\s+�\s+���?���\s+��?�������|\s+�?�?)\b", re.IGNORECASE)),
-        ("cliche-no-secret", re.compile(r"\b�?\s+���\s+����\s+��\s+ᥪ��\b", re.IGNORECASE)),
-        ("cliche-plays-role", re.compile(r"\b�?�?���\s+(?:�������|���箢�|���?蠫��)\s+஫�\b", re.IGNORECASE)),
-        ("cliche-worth-stressing", re.compile(r"\b����\s+(?:�?���᫨�|�������|��������)\b", re.IGNORECASE)),
-        ("cliche-cannot-not-note", re.compile(r"\b��\s+�����\s+��\s+(?:�������|�?������|������)\b", re.IGNORECASE)),
-        ("cliche-must-understand", re.compile(r"\b�����?���\s+஧�?�\b", re.IGNORECASE)),
-        ("cliche-as-known", re.compile(r"\b�\s+�?����\b", re.IGNORECASE)),
-        ("cliche-central-place", re.compile(r"\b���?���\s+業�ࠫ쭥\s+�?��\b", re.IGNORECASE)),
-        ("cliche-nothing-else-than", re.compile(r"\b�\s+��\s+稬\s+?�訬,\s+�\b", re.IGNORECASE)),
-        ("cliche-today-day", re.compile(r"\b��\s+�쮣���?�?�\s+����\b", re.IGNORECASE)),
+        ("cliche-modern-world", re.compile(r"\bу\s+сучасному(?:\s+світі,\s+що\s+стрімко\s+змінюється|\s+світі)\b", re.IGNORECASE)),
+        ("cliche-no-secret", re.compile(r"\bні\s+для\s+кого\s+не\s+секрет\b", re.IGNORECASE)),
+        ("cliche-plays-role", re.compile(r"\bвідіграє\s+(?:важливу|ключову|вирішальну)\s+роль\b", re.IGNORECASE)),
+        ("cliche-worth-stressing", re.compile(r"\bварто\s+(?:підкреслити|зазначити|наголосити)\b", re.IGNORECASE)),
+        ("cliche-cannot-not-note", re.compile(r"\bне\s+можна\s+не\s+(?:зазначити|відзначити|згадати)\b", re.IGNORECASE)),
+        ("cliche-must-understand", re.compile(r"\bнеобхідно\s+розуміти\b", re.IGNORECASE)),
+        ("cliche-as-known", re.compile(r"\bяк\s+відомо\b", re.IGNORECASE)),
+        ("cliche-central-place", re.compile(r"\bпосідає\s+центральне\s+місце\b", re.IGNORECASE)),
+        ("cliche-nothing-else-than", re.compile(r"\bє\s+не\s+чим\s+іншим,\s+як\b", re.IGNORECASE)),
+        ("cliche-today-day", re.compile(r"\bна\s+сьогоднішній\s+день\b", re.IGNORECASE)),
     ],
 }
 
@@ -94,7 +94,7 @@ CLICHE_PATTERNS: dict[str, list[tuple[str, re.Pattern[str]]]] = {
 NEGATED_RE = re.compile(
     r"(?:\bnot\b|\bnever\b|\bcannot\b|\bcan't\b|\bdoes\s+not\b|\bdo\s+not\b|"
     r"\bno\b|\brather\s+than\b|\binstead\s+of\b|\bwithout\b|"
-    r"\b��\b|\b��\b|\b�?\b|\b��\s+����\b|\b��\s+�\b|\b��\s+����\b).{0,120}$",
+    r"\bне\b|\bни\b|\bні\b|\bне\s+може\b|\bне\s+є\b|\bне\s+является\b).{0,120}$",
     re.IGNORECASE,
 )
 
@@ -113,30 +113,30 @@ EPISTEMIC_PATTERNS: dict[str, list[tuple[str, re.Pattern[str]]]] = {
         (
             "epistemic-guarantee-outcome",
             re.compile(
-                r"\b(?:⨯|⨯�����\w*|������)\b.{0,60}\b��࠭��\w+\b|"
-                r"\b��࠭��\w+\b.{0,60}\b(?:ᮢ���⨬���\w*|�⭮襭\w*|�ࠪ\w*|��室\w*)\b",
+                r"\b(?:тип|типологи\w*|модель)\b.{0,60}\bгарантир\w+\b|"
+                r"\bгарантир\w+\b.{0,60}\b(?:совместимост\w*|отношен\w*|брак\w*|исход\w*)\b",
                 re.IGNORECASE,
             ),
         ),
         (
             "epistemic-fatal-determinism",
             re.compile(
-                r"\b(?:�⠫쭮|���⪮|������᪨)\s+(?:�।��।���\w+|���ନ���\w+)\b|"
-                r"\b��\s+100%\s+(?:��।���\w+|�।᪠�뢠\w+)\b",
+                r"\b(?:фатально|жестко|генетически)\s+(?:предопределя\w+|детерминир\w+)\b|"
+                r"\bна\s+100%\s+(?:определя\w+|предсказыва\w+)\b",
                 re.IGNORECASE,
             ),
         ),
         (
             "epistemic-proven-typology",
             re.compile(
-                r"\b���筮\s+(?:�������\w*|���⢥ত��\w*)\s+(?:ᮢ���⨬���\w*|⨯\w*|�樮���\w*|�����\w*|⥬����⨪\w*)\b",
+                r"\bнаучно\s+(?:доказан\w*|подтвержден\w*)\s+(?:совместимост\w*|тип\w*|соционик\w*|психософи\w*|темпористик\w*)\b",
                 re.IGNORECASE,
             ),
         ),
         (
             "epistemic-innate-essence",
             re.compile(
-                r"\b����\s+(?:�஦�����|��������᪨�)\s+(?:���㫥�|᢮��⢮�|�������)\b",
+                r"\bявляется\s+(?:врожденным|биологическим)\s+(?:модулем|свойством|каналом)\b",
                 re.IGNORECASE,
             ),
         ),
@@ -177,30 +177,30 @@ EPISTEMIC_PATTERNS: dict[str, list[tuple[str, re.Pattern[str]]]] = {
         (
             "epistemic-guarantee-outcome",
             re.compile(
-                r"\b(?:⨯|⨯����?\w*|������)\b.{0,60}\b��࠭��\w+\b|"
-                r"\b��࠭��\w+\b.{0,60}\b(?:��?�\w*|���㭪\w*|��\w*|१����\w*)\b",
+                r"\b(?:тип|типологі\w*|модель)\b.{0,60}\bгаранту\w+\b|"
+                r"\bгаранту\w+\b.{0,60}\b(?:сумісн\w*|стосунк\w*|шлюб\w*|результат\w*)\b",
                 re.IGNORECASE,
             ),
         ),
         (
             "epistemic-fatal-determinism",
             re.compile(
-                r"\b(?:�⠫쭮|����⪮|�����筮)\s+(?:�㬮���\w+|����?��\w+)\b|"
-                r"\b��\s+100%\s+(?:������\w+|��।���\w+)\b",
+                r"\b(?:фатально|жорстко|генетично)\s+(?:зумовлю\w+|детерміну\w+)\b|"
+                r"\bна\s+100%\s+(?:визнача\w+|передбача\w+)\b",
                 re.IGNORECASE,
             ),
         ),
         (
             "epistemic-proven-typology",
             re.compile(
-                r"\b��㪮��\s+(?:�������\w*|�?�⢥द��\w*)\s+(?:��?�\w*|⨯\w*|��?��?�\w*|�����?\w*|⥬����⨪\w*)\b",
+                r"\bнауково\s+(?:доведен\w*|підтверджен\w*)\s+(?:сумісн\w*|тип\w*|соціонік\w*|психософі\w*|темпористик\w*)\b",
                 re.IGNORECASE,
             ),
         ),
         (
             "epistemic-innate-essence",
             re.compile(
-                r"\b�\s+(?:�த�����|�?����?筨�)\s+(?:���㫥�|�������)\b",
+                r"\bє\s+(?:вродженим|біологічним)\s+(?:модулем|каналом)\b",
                 re.IGNORECASE,
             ),
         ),
@@ -265,8 +265,8 @@ def detect_language(text: str, filepath: Path, metadata: dict[str, Any]) -> str:
         return "ru"
 
     # Character frequency fallback
-    cyrillic_ukrainian_chars = set("?��??��?")
-    cyrillic_chars = set("������񦧨�����������������������������������������������������")
+    cyrillic_ukrainian_chars = set("іїєґІЇЄҐ")
+    cyrillic_chars = set("абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ")
 
     text_chars = set(text)
     if text_chars & cyrillic_ukrainian_chars:
@@ -287,7 +287,7 @@ def _split_into_sentences(text: str, start_line: int) -> list[SentenceInfo]:
     Treats bullet/numbered list items and table cells as distinct semantic units to avoid
     falsely conjoining semicolon-separated lists or table cells into massive run-on sentences.
     """
-    sentence_re = re.compile(r"(?<=[.!?])\s+(?=[*_]*[A-Z�-�?��?\d-])")
+    sentence_re = re.compile(r"(?<=[.!?])\s+(?=[*_]*[A-ZА-ЯІЇЄҐ\d—])")
 
     # Pre-split on list items and table cells if present
     raw_units: list[tuple[str, int]] = []
@@ -504,13 +504,13 @@ def analyze_document(
         sentences = _split_into_sentences(p_text, s_line)
         total_sentences += len(sentences)
 
-        if any("-" in s.text or " - " in s.text or "<" in s.text for s in sentences):
+        if any("—" in s.text or " – " in s.text or "«" in s.text for s in sentences):
             dialogue_markers += 1
 
         p_cliches: list[tuple[str, str, int]] = []
         p_epistemic: list[tuple[str, str, int]] = []
 
-        # Blockquotes with citations are exempted from stylistic / cliche penalties
+        # Blockquotes with citations are exempted from stylistic / cliché penalties
         if not is_bq:
             for code, pattern in cliche_list:
                 for match in pattern.finditer(p_text):
@@ -522,7 +522,7 @@ def analyze_document(
                         Diagnostic(
                             severity="warning",
                             code=code,
-                            message=f"Detected cliche or robotic phrase: <{m_text}>. Rephrase in direct, vivid voice.",
+                            message=f"Detected cliché or robotic phrase: «{m_text}». Rephrase in direct, vivid voice.",
                             path=str(filepath),
                             line=m_line,
                         )
@@ -540,7 +540,7 @@ def analyze_document(
                         Diagnostic(
                             severity=severity(strict, always_error=strict),
                             code=code,
-                            message=f"Epistemic certainty inflation: <{m_text}>. Typology and latent models must not guarantee outcomes or assert unverified fatalism.",
+                            message=f"Epistemic certainty inflation: «{m_text}». Typology and latent models must not guarantee outcomes or assert unverified fatalism.",
                             path=str(filepath),
                             line=m_line,
                         )
@@ -629,7 +629,7 @@ def analyze_document(
                 Diagnostic(
                     severity="warning",
                     code="cognitive-hazard-paragraph",
-                    message=f"Paragraph attention hazard index C_{p_idx} = {c_j} >= 2 (dense sentences/cliches/parentheses). Reader drop-off risk elevated.",
+                    message=f"Paragraph attention hazard index C_{p_idx} = {c_j} >= 2 (dense sentences/clichés/parentheses). Reader drop-off risk elevated.",
                     path=str(filepath),
                     line=s_line,
                 )

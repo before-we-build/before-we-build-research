@@ -79,7 +79,7 @@ class AdapterTests(unittest.TestCase):
         self.assertEqual(sync(self.root, write=True), [])
 
     def test_prompt_roundtrip_with_quotes_unicode_and_backslashes(self):
-        body = '# ������쪠\n""" and \'\'\' and \\path\\file\n$HOME is literal.\n'
+        body = '# Українська\n""" and \'\'\' and \\path\\file\n$HOME is literal.\n'
         (self.root / '.agents/roles/reviewer.md').write_text(body, encoding='utf-8')
         outputs = render(self.root)
         cfg = tomllib.loads(outputs['.codex/agents/reviewer.toml'])
@@ -89,8 +89,8 @@ class AdapterTests(unittest.TestCase):
 
     def test_unicode_and_crlf_sources_generate_utf8_lf_artifacts(self):
         path = self.root / '.agents/roles/reviewer.md'
-        path.write_bytes('# ������쪠 - ���᪨�\r\n�ਬ��: \\path\\file\r\n'.encode('utf-8'))
-        self.registry['roles']['reviewer']['description'] = '��ॢ?ઠ - �஢�ઠ'
+        path.write_bytes('# Українська — русский\r\nПример: \\path\\file\r\n'.encode('utf-8'))
+        self.registry['roles']['reviewer']['description'] = 'Перевірка — проверка'
         self.save_registry()
         self.assertEqual(sync(self.root, write=True), [])
         for relative, expected in render(self.root).items():
