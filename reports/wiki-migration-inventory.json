@@ -15571,6 +15571,13 @@
       ],
       "inbound_links": [
         {
+          "source": "applications/biblical-compatibility/themes/music-tastes-in-church.md",
+          "line": 79,
+          "raw_target": "../../../wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "ambiguous": []
+        },
+        {
           "source": "index.md",
           "line": 109,
           "raw_target": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",

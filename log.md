@@ -1927,3 +1927,10 @@ Updated the scientific-narrative skill and architecture reference to require six
 - Fixed Windows migration failures by separating POSIX repository links from native filesystem paths and treating regex replacement destinations as literal text.
 - Made agent tooling and test fixtures explicitly UTF-8; generated adapters use LF. Added cross-host path, literal-backslash, multilingual CRLF and legacy-console regression coverage. Symlink protection tests skip only Windows missing-symlink-privilege error 1314.
 - Expanded wiki-quality CI to Ubuntu, macOS and Windows, using the setup-python interpreter and distinct report artifact names. Native Windows validation: all 114 tests and required content/adapter/readability checks passed, without UTF-8-mode overrides. Remote macOS/Linux/Windows CI has not been executed in this session.
+
+## [2026-10-23] application | Plain-language church music reader
+
+- Added `applications/biblical-compatibility/themes/music-tastes-in-church.md`, a Ukrainian reader page with a short welcome, four everyday descriptions of musical experience, 12 illustrative church situations, and optional research details in collapsible blocks.
+- Kept the invitation to make room for different tastes warm and distinct from criticism of ministers. Separated Christian pastoral care from the unverified Psychosophy explanation; retained context, no typing by genre, and no inference about spiritual maturity.
+- Linked the reader from the application README and retained the existing research article. Bounded AI pastoral and lay-reader editorial reviews informed the final wording; no testing with actual church readers was performed.
+- Validation: 120 unit tests passed using a writable temporary directory after incorporating the published cross-platform fixes; strict wiki, section, link, claim, index, adapter, agent-linter and readability checks passed. Regenerated the migration inventory for the new application link and regenerated the unchanged wiki catalog.
