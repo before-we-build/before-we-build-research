@@ -34,7 +34,7 @@
       "historical-proposal": 6,
       "normative-rule": 36,
       "project-definition": 81,
-      "research-hypothesis": 207,
+      "research-hypothesis": 213,
       "source-attribution": 102
     },
     "groups_with_duplicate_locales": 0,
@@ -10053,7 +10053,7 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 111,
+          "line": 159,
           "raw_target": "epistemic-status-and-inference-limits-en",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
           "ambiguous": []
@@ -10336,7 +10336,7 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 111,
+          "line": 159,
           "raw_target": "epistemic-status-and-inference-limits-ru",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
           "ambiguous": []
@@ -10619,7 +10619,7 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 111,
+          "line": 159,
           "raw_target": "epistemic-status-and-inference-limits-uk",
           "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
           "ambiguous": []
@@ -26388,7 +26388,14 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 111,
+          "line": 127,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
+          "line": 159,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
           "ambiguous": []
@@ -26502,7 +26509,14 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 111,
+          "line": 127,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
+          "line": 159,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
           "ambiguous": []
@@ -26616,7 +26630,14 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 111,
+          "line": 127,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
+          "line": 159,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
           "ambiguous": []
@@ -51646,7 +51667,7 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 111,
+          "line": 159,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -52070,7 +52091,7 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 111,
+          "line": 159,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -52494,7 +52515,7 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 111,
+          "line": 159,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []
@@ -75095,8 +75116,8 @@
       "translation_group": "temporistics-future-ministry-age-hypothesis",
       "document_status": "active",
       "page_role": "source-summary",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "source-attribution",
         "research-hypothesis",
@@ -75106,7 +75127,9 @@
         "ministry-age-user-observation": "source-attribution",
         "ministry-age-source-contact-motif": "source-attribution",
         "future-position-ministry-age-association": "research-hypothesis",
-        "ministry-age-distinct-constructs": "project-definition"
+        "ministry-age-distinct-constructs": "project-definition",
+        "future-position-ministry-format-hypothesis": "research-hypothesis",
+        "ministry-format-counterpredictions": "research-hypothesis"
       },
       "caveat_ids": [
         "unquantified-observation",
@@ -75114,14 +75137,21 @@
         "distinct-constructs",
         "selection-and-confounding",
         "no-typing-by-ministry",
-        "no-vocational-inference"
+        "no-vocational-inference",
+        "format-hypothesis-untested"
       ],
       "sources": [
         "raw/general/2026-10-30-future-ministry-age-source-register.md",
+        "raw/general/2026-10-30-future-ministry-format-hypothesis-register.md",
         "raw/temporistics/kapitan-captain.md",
         "raw/temporistics/rulevoi-steversman.md",
         "raw/temporistics/bezbiletnik-stowaway.md",
         "raw/temporistics/passazhir-passenger.md",
+        "raw/temporistics/khozyain-host.md",
+        "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+        "https://www.temporistics.space/types/future2",
+        "https://www.temporistics.space/types/future3",
+        "https://www.temporistics.space/types/present1",
         "https://doi.org/10.1080/00224545.2015.1090946",
         "https://doi.org/10.1080/00049530.2024.2428306",
         "https://doi.org/10.1093/geronb/gbv005",
@@ -75136,6 +75166,8 @@
         "source-limitations",
         "bwb-accepts",
         "bwb-contested",
+        "format-hypothesis",
+        "counterexamples-and-predictions",
         "bwb-rejected-or-historical",
         "researcher-route",
         "next-reading"
@@ -75157,14 +75189,14 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-en",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-en",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
           "ambiguous": []
@@ -75173,77 +75205,105 @@
       "outbound_links": [
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-ru",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-uk",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 55,
+          "line": 67,
           "raw_target": "http://temporistics.ru/types/future3",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 69,
+          "line": 81,
           "raw_target": "https://doi.org/10.1080/00224545.2015.1090946",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 70,
+          "line": 82,
           "raw_target": "https://doi.org/10.1080/00049530.2024.2428306",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 71,
+          "line": 83,
           "raw_target": "https://doi.org/10.1093/geronb/gbv005",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 72,
+          "line": 84,
           "raw_target": "https://doi.org/10.1111/bjso.12146",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 73,
+          "line": 85,
           "raw_target": "https://doi.org/10.1037/0882-7974.17.1.125",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 111,
-          "raw_target": "epistemic-status-and-inference-limits-en",
-          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
+          "line": 125,
+          "raw_target": "https://www.temporistics.space/types/future2",
+          "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 111,
+          "line": 125,
+          "raw_target": "https://www.temporistics.space/types/future3",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
+          "line": 127,
+          "raw_target": "https://www.temporistics.space/types/present1",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
+          "line": 127,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 111,
+          "line": 159,
+          "raw_target": "epistemic-status-and-inference-limits-en",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
+          "line": 159,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-en",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
+          "line": 159,
           "raw_target": "temporistics-overview-en",
           "resolved": "wiki/entities/temporistics-overview-en.md",
           "ambiguous": []
@@ -75257,8 +75317,8 @@
       "translation_group": "temporistics-future-ministry-age-hypothesis",
       "document_status": "active",
       "page_role": "source-summary",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "source-attribution",
         "research-hypothesis",
@@ -75268,7 +75328,9 @@
         "ministry-age-user-observation": "source-attribution",
         "ministry-age-source-contact-motif": "source-attribution",
         "future-position-ministry-age-association": "research-hypothesis",
-        "ministry-age-distinct-constructs": "project-definition"
+        "ministry-age-distinct-constructs": "project-definition",
+        "future-position-ministry-format-hypothesis": "research-hypothesis",
+        "ministry-format-counterpredictions": "research-hypothesis"
       },
       "caveat_ids": [
         "unquantified-observation",
@@ -75276,14 +75338,21 @@
         "distinct-constructs",
         "selection-and-confounding",
         "no-typing-by-ministry",
-        "no-vocational-inference"
+        "no-vocational-inference",
+        "format-hypothesis-untested"
       ],
       "sources": [
         "raw/general/2026-10-30-future-ministry-age-source-register.md",
+        "raw/general/2026-10-30-future-ministry-format-hypothesis-register.md",
         "raw/temporistics/kapitan-captain.md",
         "raw/temporistics/rulevoi-steversman.md",
         "raw/temporistics/bezbiletnik-stowaway.md",
         "raw/temporistics/passazhir-passenger.md",
+        "raw/temporistics/khozyain-host.md",
+        "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+        "https://www.temporistics.space/types/future2",
+        "https://www.temporistics.space/types/future3",
+        "https://www.temporistics.space/types/present1",
         "https://doi.org/10.1080/00224545.2015.1090946",
         "https://doi.org/10.1080/00049530.2024.2428306",
         "https://doi.org/10.1093/geronb/gbv005",
@@ -75298,6 +75367,8 @@
         "source-limitations",
         "bwb-accepts",
         "bwb-contested",
+        "format-hypothesis",
+        "counterexamples-and-predictions",
         "bwb-rejected-or-historical",
         "researcher-route",
         "next-reading"
@@ -75326,14 +75397,14 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-ru",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-ru",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
           "ambiguous": []
@@ -75342,77 +75413,105 @@
       "outbound_links": [
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-en",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-uk",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 55,
+          "line": 67,
           "raw_target": "http://temporistics.ru/types/future3",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 69,
+          "line": 81,
           "raw_target": "https://doi.org/10.1080/00224545.2015.1090946",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 70,
+          "line": 82,
           "raw_target": "https://doi.org/10.1080/00049530.2024.2428306",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 71,
+          "line": 83,
           "raw_target": "https://doi.org/10.1093/geronb/gbv005",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 72,
+          "line": 84,
           "raw_target": "https://doi.org/10.1111/bjso.12146",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 73,
+          "line": 85,
           "raw_target": "https://doi.org/10.1037/0882-7974.17.1.125",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 111,
-          "raw_target": "epistemic-status-and-inference-limits-ru",
-          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
+          "line": 125,
+          "raw_target": "https://www.temporistics.space/types/future2",
+          "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 111,
+          "line": 125,
+          "raw_target": "https://www.temporistics.space/types/future3",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
+          "line": 127,
+          "raw_target": "https://www.temporistics.space/types/present1",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
+          "line": 127,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 111,
+          "line": 159,
+          "raw_target": "epistemic-status-and-inference-limits-ru",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
+          "line": 159,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-ru",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
+          "line": 159,
           "raw_target": "temporistics-overview-ru",
           "resolved": "wiki/entities/temporistics-overview-ru.md",
           "ambiguous": []
@@ -75426,8 +75525,8 @@
       "translation_group": "temporistics-future-ministry-age-hypothesis",
       "document_status": "active",
       "page_role": "source-summary",
-      "semantic_version": 1,
-      "reviewed_semantic_version": 1,
+      "semantic_version": 2,
+      "reviewed_semantic_version": 2,
       "claim_status": [
         "source-attribution",
         "research-hypothesis",
@@ -75437,7 +75536,9 @@
         "ministry-age-user-observation": "source-attribution",
         "ministry-age-source-contact-motif": "source-attribution",
         "future-position-ministry-age-association": "research-hypothesis",
-        "ministry-age-distinct-constructs": "project-definition"
+        "ministry-age-distinct-constructs": "project-definition",
+        "future-position-ministry-format-hypothesis": "research-hypothesis",
+        "ministry-format-counterpredictions": "research-hypothesis"
       },
       "caveat_ids": [
         "unquantified-observation",
@@ -75445,14 +75546,21 @@
         "distinct-constructs",
         "selection-and-confounding",
         "no-typing-by-ministry",
-        "no-vocational-inference"
+        "no-vocational-inference",
+        "format-hypothesis-untested"
       ],
       "sources": [
         "raw/general/2026-10-30-future-ministry-age-source-register.md",
+        "raw/general/2026-10-30-future-ministry-format-hypothesis-register.md",
         "raw/temporistics/kapitan-captain.md",
         "raw/temporistics/rulevoi-steversman.md",
         "raw/temporistics/bezbiletnik-stowaway.md",
         "raw/temporistics/passazhir-passenger.md",
+        "raw/temporistics/khozyain-host.md",
+        "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+        "https://www.temporistics.space/types/future2",
+        "https://www.temporistics.space/types/future3",
+        "https://www.temporistics.space/types/present1",
         "https://doi.org/10.1080/00224545.2015.1090946",
         "https://doi.org/10.1080/00049530.2024.2428306",
         "https://doi.org/10.1093/geronb/gbv005",
@@ -75467,6 +75575,8 @@
         "source-limitations",
         "bwb-accepts",
         "bwb-contested",
+        "format-hypothesis",
+        "counterexamples-and-predictions",
         "bwb-rejected-or-historical",
         "researcher-route",
         "next-reading"
@@ -75488,14 +75598,14 @@
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-uk",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-uk",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
           "ambiguous": []
@@ -75504,77 +75614,105 @@
       "outbound_links": [
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-en",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 39,
+          "line": 49,
           "raw_target": "temporistics-future-ministry-age-hypothesis-ru",
           "resolved": "wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 55,
+          "line": 67,
           "raw_target": "http://temporistics.ru/types/future3",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 69,
+          "line": 81,
           "raw_target": "https://doi.org/10.1080/00224545.2015.1090946",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 70,
+          "line": 82,
           "raw_target": "https://doi.org/10.1080/00049530.2024.2428306",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 71,
+          "line": 83,
           "raw_target": "https://doi.org/10.1093/geronb/gbv005",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 72,
+          "line": 84,
           "raw_target": "https://doi.org/10.1111/bjso.12146",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 73,
+          "line": 85,
           "raw_target": "https://doi.org/10.1037/0882-7974.17.1.125",
           "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 111,
-          "raw_target": "epistemic-status-and-inference-limits-uk",
-          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
+          "line": 125,
+          "raw_target": "https://www.temporistics.space/types/future2",
+          "resolved": null,
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 111,
+          "line": 125,
+          "raw_target": "https://www.temporistics.space/types/future3",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
+          "line": 127,
+          "raw_target": "https://www.temporistics.space/types/present1",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
+          "line": 127,
           "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
           "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
-          "line": 111,
+          "line": 159,
+          "raw_target": "epistemic-status-and-inference-limits-uk",
+          "resolved": "wiki/concepts/epistemic-status-and-inference-limits-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
+          "line": 159,
+          "raw_target": "temporistics-cognitive-resource-routing-creation-model-uk",
+          "resolved": "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md",
+          "line": 159,
           "raw_target": "temporistics-overview-uk",
           "resolved": "wiki/entities/temporistics-overview-uk.md",
           "ambiguous": []

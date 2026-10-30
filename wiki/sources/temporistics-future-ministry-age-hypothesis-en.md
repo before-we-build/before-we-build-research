@@ -6,8 +6,8 @@ created: 2026-10-30
 updated: 2026-10-30
 lang: en
 translation_group: temporistics-future-ministry-age-hypothesis
-semantic_version: 1
-reviewed_semantic_version: 1
+semantic_version: 2
+reviewed_semantic_version: 2
 document_status: active
 page_role: source-summary
 claim_status: [source-attribution, research-hypothesis, project-definition]
@@ -20,13 +20,23 @@ claims:
     status: research-hypothesis
   - id: ministry-age-distinct-constructs
     status: project-definition
-caveat_ids: [unquantified-observation, no-direct-study-found, distinct-constructs, selection-and-confounding, no-typing-by-ministry, no-vocational-inference]
+  - id: future-position-ministry-format-hypothesis
+    status: research-hypothesis
+  - id: ministry-format-counterpredictions
+    status: research-hypothesis
+caveat_ids: [unquantified-observation, no-direct-study-found, distinct-constructs, selection-and-confounding, no-typing-by-ministry, no-vocational-inference, format-hypothesis-untested]
 sources:
   - "raw/general/2026-10-30-future-ministry-age-source-register.md"
+  - "raw/general/2026-10-30-future-ministry-format-hypothesis-register.md"
   - "raw/temporistics/kapitan-captain.md"
   - "raw/temporistics/rulevoi-steversman.md"
   - "raw/temporistics/bezbiletnik-stowaway.md"
   - "raw/temporistics/passazhir-passenger.md"
+  - "raw/temporistics/khozyain-host.md"
+  - "wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md"
+  - "https://www.temporistics.space/types/future2"
+  - "https://www.temporistics.space/types/future3"
+  - "https://www.temporistics.space/types/present1"
   - "https://doi.org/10.1080/00224545.2015.1090946"
   - "https://doi.org/10.1080/00049530.2024.2428306"
   - "https://doi.org/10.1093/geronb/gbv005"
@@ -44,6 +54,8 @@ English · [[temporistics-future-ministry-age-hypothesis-ru|Русский]] · 
 A user reported a pattern in church ministry: people provisionally described as first or fourth Future serve young people, while those described as second or third Future serve older adults. The proposed association is untested. The report supplies no counts, comparison groups, position-assessment procedure, or counterexamples.
 
 This page preserves the question and nearby research. Its church context is one application of the universal Before We Build research core. It does not establish a pattern across churches or other kinds of helping.
+
+A further working hypothesis asks whether ministry format helps explain the apparent age pattern.
 
 <!-- section:source-claims -->
 ## What the sources claim
@@ -91,7 +103,43 @@ Temporistics remains a hypothesis about latent processes of abduction, induction
 ## What remains untested
 
 <!-- claim:future-position-ministry-age-association -->
-The hypothesis compares independently assessed 1F/4F and 2F/3F candidates with comparable opportunities. Is the relative share of youth ministry versus older-adult ministry higher in the first group? Report all four positions separately. Neither the direction nor the mechanism is established. The sources give no sufficient explanation specifically for 4F–youth or 2F–older-adult associations.
+The hypothesis compares independently assessed 1F/4F and 2F/3F candidates with comparable opportunities. Is the relative share of youth ministry versus older-adult ministry higher in the first group? Report all four positions separately. Neither the direction nor the mechanism is established. The interpretation below remains open, particularly the second/fourth-position scenarios and the proposed connection between format and age.
+
+<!-- section:format-hypothesis -->
+## A working hypothesis about ministry format
+
+<!-- claim:future-position-ministry-format-hypothesis -->
+This explanation was proposed in assistant/specialist discussion and recorded at the user's request. It adds an interpretation, not new observations.
+
+Perhaps 1F/4F candidates prefer a clear direction: the first supplies it, the fourth accepts an external frame. A 2F candidate may flexibly accompany changing plans; a 3F candidate may check vulnerabilities and seek support. Their motivations can differ within each pair. Fourth Future does not imply optimism; third-Future checking can be internal and does not imply enjoyment of uncertainty.
+
+| Position / code | Possible ministry scenario |
+|---|---|
+| 1F | Creates a youth project and gives it a future direction. |
+| 4F | Joins an established youth programme with a clear direction. |
+| 2F | Helps an older person adapt plans and choose next steps. |
+| 3F | Helps older people while finding hope in their experience of a worthwhile, imperfect life. |
+
+These are imagined scenarios. One possible route to the reported grouping would be a difference in emphasis between the observed church's programmes. Youth ministry might emphasize a shared vision/project, and older-adult ministry individual accompaniment. That difference has not been established. Either ministry can combine both features.
+
+The [second-Future source](https://www.temporistics.space/types/future2) describes flexible paths and helping others choose them. The [third-Future source](https://www.temporistics.space/types/future3) proposes hope through contact with contented older people. Receiving support still differs from choosing to serve them.
+
+[[temporistics-cognitive-resource-routing-creation-model-en|BWB position modes]] are a revisable reconstruction. The [first-Present description](https://www.temporistics.space/types/present1), preserved in `raw/temporistics/khozyain-host.md`, contrasts a first-position monologue, fourth-position adaptation, and second/third-position dialogue about Present. Extending that pattern to Future is another assumption. Psychosophy's result/process axis cannot be imported as an established Temporistics law.
+
+<!-- section:counterexamples-and-predictions -->
+## Counterexamples and testable predictions
+
+<!-- claim:ministry-format-counterpredictions -->
+The following are imagined counter-scenarios, not collected cases:
+
+- A 2F candidate prefers youth mentoring that requires continual adjustment.
+- A 4F candidate joins a regular, clearly organized older-adult visiting programme.
+- A 1F candidate creates a project for older people.
+- A 3F candidate avoids older-adult contact when it increases anxiety.
+
+Measure age and format separately. Within the same age group, compare a clear-direction project with responsive individual accompaniment; within the same format, compare age groups. Measure these features independently and allow their combination. Keep creating a direction distinct from accepting one. The format hypothesis predicts differences that follow these features across beneficiary ages.
+
+With adequate independent measures, a precise null or reversed association with format would weaken this explanation. A persistent age association without a format association would also challenge it. A positive finding would still not justify typing or ministry assignment.
 
 <!-- section:bwb-rejected-or-historical -->
 ## What BWB rejects
