@@ -1934,3 +1934,10 @@ Updated the scientific-narrative skill and architecture reference to require six
 - Kept the invitation to make room for different tastes warm and distinct from criticism of ministers. Separated Christian pastoral care from the unverified Psychosophy explanation; retained context, no typing by genre, and no inference about spiritual maturity.
 - Linked the reader from the application README and retained the existing research article. Bounded AI pastoral and lay-reader editorial reviews informed the final wording; no testing with actual church readers was performed.
 - Validation: 120 unit tests passed using a writable temporary directory after incorporating the published cross-platform fixes; strict wiki, section, link, claim, index, adapter, agent-linter and readability checks passed. Regenerated the migration inventory for the new application link and regenerated the unchanged wiki catalog.
+
+## [2026-10-30] research | Future positions and age of church-ministry recipients
+
+- Preserved the user's unquantified observation: proposed 1F/4F association with youth ministry and 2F/3F with older-adult ministry. The user confirmed church context; counts, typing method and counterexamples remain unknown.
+- Added a reviewed EN/RU/UK source-summary group, dated source ledger and proposed research route. Five primary studies provide adjacent findings and rival explanations, without directly testing the typological grouping. Access is limited to abstracts and indexed primary-source excerpts.
+- Distinguished the archived 3F contact recommendation from serving older adults, and kept ministry choice separate from calling, ability, spiritual maturity and type inference. Independent AI domain, literature, wiki and methodology work informed the ingestion; no participant study occurred.
+- Updated localized overview links and regenerated the catalog and inventory. All 120 tests and required content, adapter, linter and readability checks passed. Built and visually inspected the local EN/RU/UK pages; generated-link verification passed with actual companion-site assets. Review details: `reports/future-ministry-age-ingest-review-2026-10-30.md`.

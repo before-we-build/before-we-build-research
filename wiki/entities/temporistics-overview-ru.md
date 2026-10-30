@@ -3,7 +3,7 @@ title: Обзор темпористики
 type: entity
 tags: [temporistics, strategic-level, overview, russian]
 created: 2026-04-26
-updated: 2026-08-30
+updated: 2026-10-30
 lang: ru
 claim_status: [project-definition, source-attribution, research-hypothesis]
 claims:
@@ -16,8 +16,8 @@ claims:
 caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 translation_group: temporistics-overview
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: entity
 ---
@@ -108,6 +108,7 @@ Eternity относится к предполагаемой смысловой �
 
 - [[strategic-compatibility-ru]]
 - [[temporistics-detailed-ru]]
+- [[temporistics-future-ministry-age-hypothesis-ru]] — исследовательская гипотеза о возрасте адресатов церковного служения.
 - [[temporistics-intertype-relations-ru]]
 - [[compatibility-level-boundaries-ru]]
 - [[psychosophy-overview-ru]]

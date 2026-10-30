@@ -3,7 +3,7 @@ title: Огляд темпористики
 type: entity
 tags: [temporistics, strategic-level, overview, ukrainian]
 created: 2026-04-26
-updated: 2026-08-30
+updated: 2026-10-30
 lang: uk
 claim_status: [project-definition, source-attribution, research-hypothesis]
 claims:
@@ -16,8 +16,8 @@ claims:
 caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context-and-safety-override-type, innateness-not-established]
 sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 translation_group: temporistics-overview
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: entity
 ---
@@ -108,6 +108,7 @@ Eternity стосується передбачуваної смислової р
 
 - [[strategic-compatibility-uk]]
 - [[temporistics-detailed-uk]]
+- [[temporistics-future-ministry-age-hypothesis-uk]] — дослідницька гіпотеза про вік адресатів церковного служіння.
 - [[temporistics-intertype-relations-uk]]
 - [[compatibility-level-boundaries-uk]]
 - [[psychosophy-overview-uk]]

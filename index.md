@@ -6,12 +6,12 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 
 ## Inventory
 
-- Markdown pages: **648**
-- Translation groups: **216**
-- Complete EN/RU/UK triads: **216**
+- Markdown pages: **651**
+- Translation groups: **217**
+- Complete EN/RU/UK triads: **217**
 - Missing language files: **0**
-- Document statuses: active=645, historical=3
-- Page roles: application=24, entity=249, explanation=129, hub=18, relation=12, research-appendix=84, source-summary=132
+- Document statuses: active=648, historical=3
+- Page roles: application=24, entity=249, explanation=129, hub=18, relation=12, research-appendix=84, source-summary=135
 
 ## Reader entrypoints
 
@@ -196,10 +196,11 @@ This is the generated, language-neutral catalog. Reader entrypoints are the loca
 | temporistics-cognitive-resource-routing-creation-model | [Temporistics as a Cognitive-Resource Routing Hypothesis](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-en.md) | [Темпористика как гипотеза маршрутизации когнитивного ресурса](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-ru.md) | [Темпористика як гіпотеза маршрутизації когнітивного ресурсу](wiki/concepts/temporistics-cognitive-resource-routing-creation-model-uk.md) | active | research-appendix | 1 |
 | temporistics-detailed | [Temporistics Detailed](wiki/sources/temporistics-detailed-en.md) | [Подробный обзор Temporistics](wiki/sources/temporistics-detailed-ru.md) | [Докладний огляд Temporistics](wiki/sources/temporistics-detailed-uk.md) | active | source-summary | 1 |
 | temporistics-eternity-altruism-hypothesis | [Temporistics Eternity Position — Altruism Hypothesis](wiki/sources/temporistics-eternity-altruism-hypothesis-en.md) | [Позиция Eternity в Temporistics — гипотеза об альтруизме](wiki/sources/temporistics-eternity-altruism-hypothesis-ru.md) | [Позиція Eternity у Temporistics — гіпотеза про альтруїзм](wiki/sources/temporistics-eternity-altruism-hypothesis-uk.md) | active | source-summary | 1 |
+| temporistics-future-ministry-age-hypothesis | [Future positions and the age of people served in church ministry](wiki/sources/temporistics-future-ministry-age-hypothesis-en.md) | [Позиции Будущего и возраст адресатов церковного служения](wiki/sources/temporistics-future-ministry-age-hypothesis-ru.md) | [Позиції Майбутнього та вік адресатів церковного служіння](wiki/sources/temporistics-future-ministry-age-hypothesis-uk.md) | active | source-summary | 1 |
 | temporistics-future-technology-attitudes | [Attitudes Toward Technology and Future Positions in Temporistics](wiki/concepts/temporistics-future-technology-attitudes-en.md) | [Отношение к технологиям и позиции Будущего в темпористике](wiki/concepts/temporistics-future-technology-attitudes-ru.md) | [Ставлення до технологій та позиції Майбутнього в темпористиці](wiki/concepts/temporistics-future-technology-attitudes-uk.md) | active | explanation | 1 |
 | temporistics-intertype-relations | [Proposed Temporistics Intertype Relations](wiki/relations/temporistics-intertype-relations-en.md) | [Предлагаемые интертипные отношения в Temporistics](wiki/relations/temporistics-intertype-relations-ru.md) | [Запропоновані інтертипні відносини в Temporistics](wiki/relations/temporistics-intertype-relations-uk.md) | active | relation | 1 |
 | temporistics-model | [Temporistics Model](wiki/concepts/temporistics-model-en.md) | [Модель темпористики](wiki/concepts/temporistics-model-ru.md) | [Модель темпористики](wiki/concepts/temporistics-model-uk.md) | active | explanation | 1 |
-| temporistics-overview | [Temporistics Overview](wiki/entities/temporistics-overview-en.md) | [Обзор темпористики](wiki/entities/temporistics-overview-ru.md) | [Огляд темпористики](wiki/entities/temporistics-overview-uk.md) | active | entity | 2 |
+| temporistics-overview | [Temporistics Overview](wiki/entities/temporistics-overview-en.md) | [Обзор темпористики](wiki/entities/temporistics-overview-ru.md) | [Огляд темпористики](wiki/entities/temporistics-overview-uk.md) | active | entity | 3 |
 | temporistics-test-specification | [Temporistics Test Specification](wiki/concepts/temporistics-test-specification-en.md) | [Спецификация теста по темпористике](wiki/concepts/temporistics-test-specification-ru.md) | [Специфікація тесту з темпористики](wiki/concepts/temporistics-test-specification-uk.md) | active | research-appendix | 2 |
 | temporistics-third-aspect-sin-patterns | [The Third Temporal Aspect: Source Motifs and Christian Discernment](wiki/concepts/temporistics-third-aspect-sin-patterns-en.md) | [Третий временной аспект: мотивы источника и христианское рассуждение](wiki/concepts/temporistics-third-aspect-sin-patterns-ru.md) | [Третій часовий аспект: мотиви джерела й християнське розпізнавання](wiki/concepts/temporistics-third-aspect-sin-patterns-uk.md) | active | explanation | 1 |
 | temporistics-type-efnp | [Temporistics Type EFNP](wiki/entities/temporistics-type-efnp-en.md) | [Темпористический тип ВБНП (EFNP)](wiki/entities/temporistics-type-efnp-ru.md) | [Темпористичний тип Вч-Мб-Тп-Ми (EFNP)](wiki/entities/temporistics-type-efnp-uk.md) | active | entity | 1 |

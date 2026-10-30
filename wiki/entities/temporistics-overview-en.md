@@ -3,7 +3,7 @@ title: Temporistics Overview
 type: entity
 tags: [temporistics, strategic-level, overview]
 created: 2026-04-15
-updated: 2026-08-30
+updated: 2026-10-30
 claim_status: [project-definition, source-attribution, research-hypothesis]
 claims:
   - id: temporistics-strategic-model
@@ -16,8 +16,8 @@ caveat_ids: [typology-is-heuristic, type-is-not-person, no-pair-verdict, context
 sources: [raw/temporistics/theory-description.md, raw/temporistics/types.md]
 lang: en
 translation_group: temporistics-overview
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: entity
 ---
@@ -108,6 +108,7 @@ These sources establish attributed school definitions, codes, archetypes, and te
 
 - [[strategic-compatibility-en]]
 - [[temporistics-detailed-en]]
+- [[temporistics-future-ministry-age-hypothesis-en]] — research hypothesis about the age of people served in church ministry.
 - [[temporistics-intertype-relations-en]]
 - [[compatibility-level-boundaries-en]]
 - [[psychosophy-overview-en]]
