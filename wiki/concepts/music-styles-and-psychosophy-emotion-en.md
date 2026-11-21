@@ -3,21 +3,25 @@ title: Music Styles as Rough Markers of Psychosophy Emotion Position
 type: concept
 tags: [psychosophy, emotion, music, aesthetics, heuristic, english]
 created: 2026-05-12
-updated: 2026-08-30
+updated: 2026-11-21
 lang: en
 translation_group: music-styles-and-psychosophy-emotion
-semantic_version: 2
-reviewed_semantic_version: 2
+semantic_version: 3
+reviewed_semantic_version: 3
 document_status: active
 page_role: research-appendix
-claim_status: [research-hypothesis, application-guidance]
+claim_status: [research-hypothesis, application-guidance, source-attribution]
 claims:
   - id: music-function-may-provide-weak-emotion-indicators
     status: research-hypothesis
   - id: genre-alone-cannot-establish-emotion-position
     status: application-guidance
-caveat_ids: [culture-context-confounding, no-typing-from-playlist, systems-not-equivalent, no-pair-inference]
-sources: [wiki/sources/psychosophy-detailed-en.md, wiki/concepts/emotion-vs-ethics-boundary-en.md]
+  - id: expert-assigned-emotion-groups-and-communication
+    status: source-attribution
+  - id: listening-dynamics-and-purposes-studied-without-emotion-positions
+    status: source-attribution
+caveat_ids: [culture-context-confounding, no-typing-from-playlist, systems-not-equivalent, no-pair-inference, predefined-interpretive-groups, no-joint-neurobehavioral-evidence]
+sources: [wiki/sources/psychosophy-detailed-en.md, wiki/concepts/emotion-vs-ethics-boundary-en.md, https://rjep.ru/jour/index.php/rjep/article/download/112/57, https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf, https://doi.org/10.1177/0305735612440615, https://doi.org/10.3389/fnhum.2015.00466, https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full, https://doi.org/10.1177/03057356261469388, https://www.nature.com/articles/nn.2726]
 ---
 
 # Music Styles as Rough Markers of Psychosophy Emotion Position
@@ -30,6 +34,31 @@ English · [[music-styles-and-psychosophy-emotion-ru|Русский]] · [[music
 This is a **working heuristic**, not a way to type someone by their playlist. Musical taste depends on culture, age, environment, faith, experience, language, wounds, habit, social circle, and the current season of life. A musical style can therefore be only a weak observable trace that helps ask better questions about Emotion; it does not prove the Emotion position.
 
 In the Before We Build framework, Psychosophy Emotion does not mean “how kind/empathic a person is” and it is not Socionics Ethics. It describes how a person works with emotional state as material for action: setting a tone, co-regulating, anxiously seeking a form of expression, or receiving a ready-made emotional frame.
+
+<!-- section:empirical-evidence -->
+## What the studies measured
+
+<!-- claim:expert-assigned-emotion-groups-and-communication -->
+**Result-oriented and process-oriented Emotion.** Zvonaryova and Kovalenko (2022) studied 145 consultation clients. Using their own interview method, two experts agreed on each participant's position. The authors compared 89 participants assigned to positions 1 or 4 with 56 assigned to positions 2 or 3. The point-biserial correlation between group membership and self-reported steadiness in communication was *r* = .483 (*p* < .001). The scale had low internal consistency (Cronbach's α = .54). For self-reported energy for communication, the correlation was *r* = .238 (*p* = .004). For desires in communication it was *r* = −.064 (*p* = .441). The four positions appear separately in descriptive plots. [Zvonaryova & Kovalenko, 2022, pp. 122–126, Tables 2–3](https://rjep.ru/jour/index.php/rjep/article/download/112/57#page=10)
+
+The categories were specified in advance, and the interview and questionnaire assessed related constructs in the same sample. The study examined how those assignments related to questionnaire scores. It did not test for naturally occurring groups, musical taste, or physiological responses.
+
+<!-- claim:listening-dynamics-and-purposes-studied-without-emotion-positions -->
+**Observations relevant to the four hypotheses.** Each study below measured a specific behavior or response. Participants' Psychosophy positions were outside the scope of these studies.
+
+- **1E — setting the emotional tone.** Three guitarists played with instructed emotional intentions. For each of four target emotions, the researchers correlated the performers' assigned intention with ratings from 30 listeners. The coefficients ranged from .74 to .95. Do people consistently choose music to set a mood for others, and does the listeners' mood change? [Juslin, 2000](https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf)
+
+- **2E — adjusting the mood together.** The experiment involved 50 listeners. Those with a friend or partner reported more intense emotions than listeners alone (2.41 versus 1.77 on a 0–4 scale, *p* < .001). Skin conductance also differed (partial η² = .28, *p* < .001). The experiment assessed the effect of company. Partners were asked not to talk, and only one listener per pair was measured physiologically, leaving mutual adjustment untested. [Liljeström et al., 2013](https://doi.org/10.1177/0305735612440615)
+
+- **3E — finding a way to express difficult feelings.** Self-reported use of music to vent negative feelings correlated with anxiety (*n* = 123, *r* = .24, *p* = .007). Seeking solace was measured separately. In the pooled fMRI subset (*n* = 56), the strategies analyzed showed no statistically significant association with medial prefrontal activity. Does music make it easier to express a feeling someone otherwise hesitates to share? [Carlson et al., 2015](https://doi.org/10.3389/fnhum.2015.00466)
+
+- **4E — entering an already established mood.** In a survey of 834 people, background listening was among 129 reasons studied and fell within the dimension of arousal and mood regulation. Does a listener consistently prefer a mood set by someone else? [Schäfer et al., 2013](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full)
+
+**Listening purpose and musical features.** Tan and Harrison (2026) analyzed 5,334 recommended tracks from a survey of 229 participants covering seven mood-regulation scenarios. Two statistical components accounted for 52.9% of the variance in the tracks' measured audio features. Tracks suggested for creating a positive mood scored higher on energy and positivity. Tracks suggested for reflecting on feelings or seeking comfort were more instrumental. [Tan & Harrison, 2026](https://doi.org/10.1177/03057356261469388)
+
+**Brain physiology during listening.** Salimpoor and colleagues studied listeners selected for reliably experiencing musical chills. Eight contributed usable PET data. In the fMRI analysis, caudate activity was stronger in anticipation of the emotional peak, while nucleus accumbens activity was stronger at the peak. Both phases occurred within the same listeners. [Salimpoor et al., 2011](https://www.nature.com/articles/nn.2726)
+
+The studies reviewed here provide no joint measurement of Emotion positions, musical behavior, and brain physiology. The proposed positions, the two-group split, and the genre examples below remain hypotheses for research on musical behavior.
 
 <!-- section:basis-in-the-current-wiki -->
 ## Basis in the Current Wiki

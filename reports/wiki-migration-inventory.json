@@ -25,7 +25,7 @@
       "normative-rule": 42,
       "project-definition": 171,
       "research-hypothesis": 477,
-      "source-attribution": 399
+      "source-attribution": 402
     },
     "identified_claim_statuses": {
       "application-guidance": 45,
@@ -35,7 +35,7 @@
       "normative-rule": 36,
       "project-definition": 81,
       "research-hypothesis": 213,
-      "source-attribution": 102
+      "source-attribution": 108
     },
     "groups_with_duplicate_locales": 0,
     "active_orphan_groups": 0
@@ -15361,28 +15361,41 @@
       "translation_group": "music-styles-and-psychosophy-emotion",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "research-hypothesis",
-        "application-guidance"
+        "application-guidance",
+        "source-attribution"
       ],
       "claims": {
         "music-function-may-provide-weak-emotion-indicators": "research-hypothesis",
-        "genre-alone-cannot-establish-emotion-position": "application-guidance"
+        "genre-alone-cannot-establish-emotion-position": "application-guidance",
+        "expert-assigned-emotion-groups-and-communication": "source-attribution",
+        "listening-dynamics-and-purposes-studied-without-emotion-positions": "source-attribution"
       },
       "caveat_ids": [
         "culture-context-confounding",
         "no-typing-from-playlist",
         "systems-not-equivalent",
-        "no-pair-inference"
+        "no-pair-inference",
+        "predefined-interpretive-groups",
+        "no-joint-neurobehavioral-evidence"
       ],
       "sources": [
         "wiki/sources/psychosophy-detailed-en.md",
-        "wiki/concepts/emotion-vs-ethics-boundary-en.md"
+        "wiki/concepts/emotion-vs-ethics-boundary-en.md",
+        "https://rjep.ru/jour/index.php/rjep/article/download/112/57",
+        "https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf",
+        "https://doi.org/10.1177/0305735612440615",
+        "https://doi.org/10.3389/fnhum.2015.00466",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full",
+        "https://doi.org/10.1177/03057356261469388",
+        "https://www.nature.com/articles/nn.2726"
       ],
       "section_ids": [
         "status",
+        "empirical-evidence",
         "basis-in-the-current-wiki",
         "how-to-read-a-musical-style",
         "correct-mapping-order",
@@ -15416,14 +15429,14 @@
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-en",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-en",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
           "ambiguous": []
@@ -15432,16 +15445,65 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-ru",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-uk",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 42,
+          "raw_target": "https://rjep.ru/jour/index.php/rjep/article/download/112/57",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 49,
+          "raw_target": "https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 51,
+          "raw_target": "https://doi.org/10.1177/0305735612440615",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 53,
+          "raw_target": "https://doi.org/10.3389/fnhum.2015.00466",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 55,
+          "raw_target": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 57,
+          "raw_target": "https://doi.org/10.1177/03057356261469388",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 59,
+          "raw_target": "https://www.nature.com/articles/nn.2726",
+          "resolved": null,
           "ambiguous": []
         }
       ]
@@ -15453,28 +15515,41 @@
       "translation_group": "music-styles-and-psychosophy-emotion",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "research-hypothesis",
-        "application-guidance"
+        "application-guidance",
+        "source-attribution"
       ],
       "claims": {
         "music-function-may-provide-weak-emotion-indicators": "research-hypothesis",
-        "genre-alone-cannot-establish-emotion-position": "application-guidance"
+        "genre-alone-cannot-establish-emotion-position": "application-guidance",
+        "expert-assigned-emotion-groups-and-communication": "source-attribution",
+        "listening-dynamics-and-purposes-studied-without-emotion-positions": "source-attribution"
       },
       "caveat_ids": [
         "culture-context-confounding",
         "no-typing-from-playlist",
         "systems-not-equivalent",
-        "no-pair-inference"
+        "no-pair-inference",
+        "predefined-interpretive-groups",
+        "no-joint-neurobehavioral-evidence"
       ],
       "sources": [
         "wiki/sources/psychosophy-detailed-ru.md",
-        "wiki/concepts/emotion-vs-ethics-boundary-ru.md"
+        "wiki/concepts/emotion-vs-ethics-boundary-ru.md",
+        "https://rjep.ru/jour/index.php/rjep/article/download/112/57",
+        "https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf",
+        "https://doi.org/10.1177/0305735612440615",
+        "https://doi.org/10.3389/fnhum.2015.00466",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full",
+        "https://doi.org/10.1177/03057356261469388",
+        "https://www.nature.com/articles/nn.2726"
       ],
       "section_ids": [
         "status",
+        "empirical-evidence",
         "basis-in-the-current-wiki",
         "how-to-read-a-musical-style",
         "correct-mapping-order",
@@ -15508,14 +15583,14 @@
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-ru",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-ru",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
           "ambiguous": []
@@ -15524,16 +15599,65 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-en",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-uk",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 42,
+          "raw_target": "https://rjep.ru/jour/index.php/rjep/article/download/112/57",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 49,
+          "raw_target": "https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 51,
+          "raw_target": "https://doi.org/10.1177/0305735612440615",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 53,
+          "raw_target": "https://doi.org/10.3389/fnhum.2015.00466",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 55,
+          "raw_target": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 57,
+          "raw_target": "https://doi.org/10.1177/03057356261469388",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 59,
+          "raw_target": "https://www.nature.com/articles/nn.2726",
+          "resolved": null,
           "ambiguous": []
         }
       ]
@@ -15545,28 +15669,41 @@
       "translation_group": "music-styles-and-psychosophy-emotion",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 2,
-      "reviewed_semantic_version": 2,
+      "semantic_version": 3,
+      "reviewed_semantic_version": 3,
       "claim_status": [
         "research-hypothesis",
-        "application-guidance"
+        "application-guidance",
+        "source-attribution"
       ],
       "claims": {
         "music-function-may-provide-weak-emotion-indicators": "research-hypothesis",
-        "genre-alone-cannot-establish-emotion-position": "application-guidance"
+        "genre-alone-cannot-establish-emotion-position": "application-guidance",
+        "expert-assigned-emotion-groups-and-communication": "source-attribution",
+        "listening-dynamics-and-purposes-studied-without-emotion-positions": "source-attribution"
       },
       "caveat_ids": [
         "culture-context-confounding",
         "no-typing-from-playlist",
         "systems-not-equivalent",
-        "no-pair-inference"
+        "no-pair-inference",
+        "predefined-interpretive-groups",
+        "no-joint-neurobehavioral-evidence"
       ],
       "sources": [
         "wiki/sources/psychosophy-detailed-uk.md",
-        "wiki/concepts/emotion-vs-ethics-boundary-uk.md"
+        "wiki/concepts/emotion-vs-ethics-boundary-uk.md",
+        "https://rjep.ru/jour/index.php/rjep/article/download/112/57",
+        "https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf",
+        "https://doi.org/10.1177/0305735612440615",
+        "https://doi.org/10.3389/fnhum.2015.00466",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full",
+        "https://doi.org/10.1177/03057356261469388",
+        "https://www.nature.com/articles/nn.2726"
       ],
       "section_ids": [
         "status",
+        "empirical-evidence",
         "basis-in-the-current-wiki",
         "how-to-read-a-musical-style",
         "correct-mapping-order",
@@ -15607,14 +15744,14 @@
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-uk",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-uk",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
           "ambiguous": []
@@ -15623,16 +15760,65 @@
       "outbound_links": [
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-en",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
           "ambiguous": []
         },
         {
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
-          "line": 25,
+          "line": 29,
           "raw_target": "music-styles-and-psychosophy-emotion-ru",
           "resolved": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 42,
+          "raw_target": "https://rjep.ru/jour/index.php/rjep/article/download/112/57",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 49,
+          "raw_target": "https://www.brainmusic.org/EducationalActivitiesFolder/Juslin_emotion2000.pdf",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 51,
+          "raw_target": "https://doi.org/10.1177/0305735612440615",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 53,
+          "raw_target": "https://doi.org/10.3389/fnhum.2015.00466",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 55,
+          "raw_target": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2013.00511/full",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 57,
+          "raw_target": "https://doi.org/10.1177/03057356261469388",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 59,
+          "raw_target": "https://www.nature.com/articles/nn.2726",
+          "resolved": null,
           "ambiguous": []
         }
       ]

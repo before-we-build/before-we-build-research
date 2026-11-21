@@ -1948,3 +1948,8 @@ Updated the scientific-narrative skill and architecture reference to require six
 - Preserved the assistant/specialist origin in a new raw follow-up register; the original observation register remains unchanged. Distinguished the Present analogy, BWB reconstruction and unmeasured connection between ministry format and beneficiary age.
 - Extended the proposed research route with separate H1/H2 questions, independent format assessment, position-specific predictions and a possible age-by-format vignette module. No participant study was started. Review details: `reports/future-ministry-format-hypothesis-review-2026-10-30.md`.
 - Validation: all 120 repository tests and required wiki, source, adapter, linter and readability checks passed. Updated sections were visually checked in EN/RU/UK; the static build and generated links passed with the actual companion-site files. These checks do not validate the proposed association or mechanism.
+
+## [2026-11-21] research | Music preferences and Psychosophy Emotion evidence
+
+- Updated the three music and Emotion articles with a published comparison of expert-assigned 1E/4E and 2E/3E groups. Recorded the communication correlations, scale reliability, and limits of the sampling and classification methods.
+- Added primary research on four observable listening or expression behaviors, on musical choices for different purposes, and on the timing of brain responses during music listening. None of the reviewed studies measured musical behavior, brain physiology, and Psychosophy Emotion position together.
