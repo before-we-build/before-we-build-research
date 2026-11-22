@@ -1,0 +1,5233 @@
+{
+  "search_date": "2026-11-22",
+  "indexed": {
+    "interface": "Europe PMC REST search, PubMed records (SRC:MED), resultType=core, pageSize=200, cursorMark paging",
+    "queries": [
+      {
+        "id": "P",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND ((TITLE_ABS:\"emotion recognition\" OR TITLE_ABS:\"emotion perception\" OR TITLE_ABS:\"empathic accuracy\" OR TITLE_ABS:\"emotion identification\") AND (TITLE_ABS:facial OR TITLE_ABS:voice OR TITLE_ABS:vocal OR TITLE_ABS:prosody OR TITLE_ABS:context OR TITLE_ABS:multimodal))",
+        "hits": 170
+      },
+      {
+        "id": "S",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND (TITLE_ABS:\"ensemble perception\" OR TITLE_ABS:\"crowd emotion\" OR TITLE_ABS:\"face-context integration\" OR TITLE_ABS:\"facial expressions in context\" OR TITLE_ABS:\"mixed emotions\")",
+        "hits": 7
+      },
+      {
+        "id": "D",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND (TITLE_ABS:\"emotion differentiation\" OR TITLE_ABS:\"emotional differentiation\" OR TITLE_ABS:\"emotional granularity\" OR TITLE_ABS:\"affect labeling\" OR TITLE_ABS:\"affect labelling\")",
+        "hits": 7
+      },
+      {
+        "id": "N",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND ((TITLE_ABS:\"emotion generation\" OR TITLE_ABS:\"emotion elicitation\" OR TITLE_ABS:\"emotion processing\" OR TITLE_ABS:\"emotional processing\" OR TITLE_ABS:\"emotional experience\" OR TITLE_ABS:\"emotion appraisal\") AND (TITLE_ABS:fMRI OR TITLE_ABS:neuroimaging OR TITLE_ABS:EEG OR TITLE_ABS:psychophysiology))",
+        "hits": 191
+      },
+      {
+        "id": "R",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND ((TITLE_ABS:\"cognitive reappraisal\" OR TITLE_ABS:\"expressive suppression\" OR TITLE_ABS:\"process model of emotion regulation\") AND (TITLE_ABS:neuroimaging OR TITLE_ABS:fMRI OR TITLE_ABS:physiological OR TITLE_ABS:physiology OR TITLE_ABS:experiment* OR TITLE_ABS:\"emotion regulation\"))",
+        "hits": 74
+      },
+      {
+        "id": "I",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND (TITLE_ABS:\"interpersonal emotion regulation\" OR TITLE_ABS:\"emotion co-regulation\" OR TITLE_ABS:\"emotional coregulation\" OR (TITLE_ABS:\"physiological synchrony\" AND (TITLE_ABS:emotion* OR TITLE_ABS:affect*)))",
+        "hits": 8
+      },
+      {
+        "id": "A",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND ((TITLE_ABS:\"cognitive appraisal\" OR TITLE_ABS:\"appraisal theory\" OR TITLE_ABS:\"cognitive appraisals\") AND (TITLE:emotion* OR TITLE:affect*))",
+        "hits": 4
+      },
+      {
+        "id": "C",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND ((TITLE_ABS:\"emotion category\" OR TITLE_ABS:\"emotion categories\" OR TITLE_ABS:\"discrete emotions\" OR TITLE_ABS:\"brain basis of emotion\") AND (TITLE_ABS:fMRI OR TITLE_ABS:neuroimaging OR TITLE_ABS:EEG OR TITLE_ABS:physiolog*))",
+        "hits": 9
+      },
+      {
+        "id": "M",
+        "query": "SRC:MED AND FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (PUB_TYPE:\"systematic review\" OR PUB_TYPE:\"meta-analysis\" OR TITLE_ABS:\"systematic review\" OR TITLE_ABS:\"meta-analysis\") AND ((TITLE_ABS:\"emotional body expressions\" OR TITLE_ABS:\"emotional prosody\" OR TITLE_ABS:\"vocal emotion\" OR TITLE_ABS:\"facial expression recognition\" OR TITLE_ABS:\"emotional facial expressions\") AND (TITLE_ABS:healthy OR TITLE_ABS:context OR TITLE_ABS:fMRI OR TITLE_ABS:EEG OR TITLE_ABS:cultur*))",
+        "hits": 20
+      }
+    ],
+    "flow": {
+      "retrieved": 490,
+      "repeated_pmids": 21,
+      "screened": 469,
+      "excluded_title_screen": 325,
+      "included": 86,
+      "excluded_after_further_screening": 58
+    },
+    "records": [
+      {
+        "pmid": "12030820",
+        "queries": [
+          "N"
+        ],
+        "title": "Functional neuroanatomy of emotion: a meta-analysis of emotion activation studies in PET and fMRI.",
+        "date": "2002-06-01",
+        "doi": "10.1006/nimg.2002.1087",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "55 PET/fMRI studies in healthy participants; task and elicitation contrasts differ."
+      },
+      {
+        "pmid": "15145620",
+        "queries": [
+          "N"
+        ],
+        "title": "Lateralization of amygdala activation: a systematic review of functional neuroimaging studies.",
+        "date": "2004-05-01",
+        "doi": "10.1016/j.brainresrev.2004.02.004",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "54 fMRI/PET studies; left amygdala more often reported, no general type inference."
+      },
+      {
+        "pmid": "16915379",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroimaging and electrophysiological studies of the effects of acute tryptophan depletion: a systematic review of the literature.",
+        "date": "2006-08-17",
+        "doi": "10.1007/s00213-006-0493-1",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "17174405",
+        "queries": [
+          "N"
+        ],
+        "title": "Prefrontal cortical functional abnormality in major depressive disorder: a stereotactic meta-analysis.",
+        "date": "2006-12-15",
+        "doi": "10.1016/j.jad.2006.11.009",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "17898336",
+        "queries": [
+          "N"
+        ],
+        "title": "Functional neuroimaging of anxiety: a meta-analysis of emotional processing in PTSD, social anxiety disorder, and specific phobia.",
+        "date": "2007-10-01",
+        "doi": "10.1176/appi.ajp.2007.07030504",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "18076995",
+        "queries": [
+          "N"
+        ],
+        "title": "Predictors of amygdala activation during the processing of emotional stimuli: a meta-analysis of 385 PET and fMRI studies.",
+        "date": "2007-11-12",
+        "doi": "10.1016/j.brainresrev.2007.10.012",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "385 studies of amygdala activation; stimulus, task and scanner factors predict detection."
+      },
+      {
+        "pmid": "18276008",
+        "queries": [
+          "P"
+        ],
+        "title": "A meta-analytic review of emotion recognition and aging: implications for neuropsychological models of aging.",
+        "date": "2008-01-11",
+        "doi": "10.1016/j.neubiorev.2008.01.001",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Typical human differences in recognizing emotional signals."
+      },
+      {
+        "pmid": "18316124",
+        "queries": [
+          "N"
+        ],
+        "title": "The role of the amygdala in emotional processing: a quantitative meta-analysis of functional neuroimaging studies.",
+        "date": "2008-01-17",
+        "doi": "10.1016/j.neubiorev.2007.12.002",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Meta-analysis of response strength in amygdala across emotional visual stimuli."
+      },
+      {
+        "pmid": "18381770",
+        "queries": [
+          "N"
+        ],
+        "title": "Social cognition and the brain: a meta-analysis.",
+        "date": "2009-03-01",
+        "doi": "10.1002/hbm.20547",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "18579414",
+        "queries": [
+          "C"
+        ],
+        "title": "Functional grouping and cortical-subcortical interactions in emotion: a meta-analysis of neuroimaging studies.",
+        "date": "2008-04-11",
+        "doi": "10.1016/j.neuroimage.2008.03.059",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "162 neuroimaging studies; six groupings of co-activated regions."
+      },
+      {
+        "pmid": "18835452",
+        "queries": [
+          "N"
+        ],
+        "title": "Functional topography in the human cerebellum: a meta-analysis of neuroimaging studies.",
+        "date": "2008-09-16",
+        "doi": "10.1016/j.neuroimage.2008.08.039",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "19329561",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion perception in schizophrenia: a meta-analytic review.",
+        "date": "2009-03-27",
+        "doi": "10.1093/schbul/sbn192",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "19336391",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "Facial emotion processing in schizophrenia: a meta-analysis of functional neuroimaging data.",
+        "date": "2009-03-30",
+        "doi": "10.1093/schbul/sbn190",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "19348735",
+        "queries": [
+          "N"
+        ],
+        "title": "Laterality effect on emotional faces processing: ALE meta-analysis of evidence.",
+        "date": "2009-01-29",
+        "doi": "10.1016/j.neulet.2009.01.065",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "105 fMRI studies, 1600 healthy participants; no general right-lateralization."
+      },
+      {
+        "pmid": "19883137",
+        "queries": [
+          "A"
+        ],
+        "title": "Cognitive appraisals and emotions predict cortisol and immune responses: a meta-analysis of acute laboratory social stressors and emotion inductions.",
+        "date": "2009-11-01",
+        "doi": "10.1037/a0016909",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "66 articles with experimental stress or emotion induction and cortisol or immune outcomes."
+      },
+      {
+        "pmid": "19929758",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroimaging support for discrete neural correlates of basic emotions: a voxel-based meta-analysis.",
+        "date": "2010-12-01",
+        "doi": "10.1162/jocn.2009.21366",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "Pairwise voxel-based contrasts can distinguish patterns across emotion categories."
+      },
+      {
+        "pmid": "20060677",
+        "queries": [
+          "A"
+        ],
+        "title": "Conceptualizing couples' decision making in PGD: emerging cognitive, emotional, and moral dimensions.",
+        "date": "2010-01-08",
+        "doi": "10.1016/j.pec.2009.11.017",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "20230112",
+        "queries": [
+          "P"
+        ],
+        "title": "A meta-analysis of performance on emotion recognition tasks in Parkinson's disease.",
+        "date": "2010-03-01",
+        "doi": "10.1037/a0018104",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "20404410",
+        "queries": [
+          "P"
+        ],
+        "title": "The development of emotion perception in face and voice during infancy.",
+        "date": "2010-01-01",
+        "doi": "10.3233/rnn-2010-0499",
+        "decision": "excluded_after_further_screening",
+        "reason": "Thematic narrative with search procedure unavailable"
+      },
+      {
+        "pmid": "20483476",
+        "queries": [
+          "P"
+        ],
+        "title": "Impaired facial emotion perception in schizophrenia: a meta-analysis.",
+        "date": "2010-05-18",
+        "doi": "10.1016/j.psychres.2009.03.035",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "20934859",
+        "queries": [
+          "N"
+        ],
+        "title": "Functional neuroimaging in anorexia nervosa: a clinical approach.",
+        "date": "2010-10-08",
+        "doi": "10.1016/j.eurpsy.2010.07.011",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21030092",
+        "queries": [
+          "N"
+        ],
+        "title": "Brain effects of antidepressants in major depression: a meta-analysis of emotional processing studies.",
+        "date": "2010-10-27",
+        "doi": "10.1016/j.jad.2010.09.032",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21152015",
+        "queries": [
+          "P"
+        ],
+        "title": "Impaired attribution of emotion to facial expressions in anxiety and major depression.",
+        "date": "2010-12-01",
+        "doi": "10.1371/journal.pone.0015058",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21320248",
+        "queries": [
+          "N"
+        ],
+        "title": "A quantitative meta-analysis of fMRI studies in bipolar disorder.",
+        "date": "2011-02-01",
+        "doi": "10.1111/j.1399-5618.2011.00893.x",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21350872",
+        "queries": [
+          "N"
+        ],
+        "title": "Converging evidence for the advantage of dynamic facial expressions.",
+        "date": "2011-02-25",
+        "doi": "10.1007/s10548-011-0171-4",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Systematic quantitative component on dynamic facial expressions; primary experiments separate."
+      },
+      {
+        "pmid": "21395594",
+        "queries": [
+          "I"
+        ],
+        "title": "Emotion regulation and the quality of social interaction: does the ability to evaluate emotional situations and identify effective responses matter?",
+        "date": "2011-04-01",
+        "doi": "10.1111/j.1467-6494.2010.00689.x",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "21463043",
+        "queries": [
+          "P"
+        ],
+        "title": "Meta-analysis of facial affect recognition difficulties after traumatic brain injury.",
+        "date": "2011-05-01",
+        "doi": "10.1037/a0021908",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21470688",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroimaging-based markers of bipolar disorder: evidence from two meta-analyses.",
+        "date": "2011-04-05",
+        "doi": "10.1016/j.jad.2011.03.016",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21601927",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion perception in depression and bipolar disorder: a quantitative review.",
+        "date": "2011-05-23",
+        "doi": "10.1016/j.psychres.2011.04.019",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21624424",
+        "queries": [
+          "N"
+        ],
+        "title": "A meta-analysis of whole-brain diffusion tensor imaging studies in bipolar disorder.",
+        "date": "2011-05-23",
+        "doi": "10.1016/j.pnpbp.2011.05.009",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21669291",
+        "queries": [
+          "N",
+          "R"
+        ],
+        "title": "Fear is only as deep as the mind allows: a coordinate-based meta-analysis of neuroimaging studies on the regulation of negative affect.",
+        "date": "2011-06-06",
+        "doi": "10.1016/j.neuroimage.2011.05.073",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Coordinate synthesis comparing extinction, placebo, and cognitive regulation of aversiveness."
+      },
+      {
+        "pmid": "21699916",
+        "queries": [
+          "P"
+        ],
+        "title": "Emotion recognition in Huntington's disease: a systematic review.",
+        "date": "2011-06-12",
+        "doi": "10.1016/j.neubiorev.2011.06.002",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21766999",
+        "queries": [
+          "C"
+        ],
+        "title": "Discrete emotions predict changes in cognition, judgment, experience, behavior, and physiology: a meta-analysis of experimental emotion elicitations.",
+        "date": "2011-09-01",
+        "doi": "10.1037/a0024244",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "687 elicitation studies, 49473 participants; emotion and outcome-dependent effects."
+      },
+      {
+        "pmid": "21802859",
+        "queries": [
+          "P"
+        ],
+        "title": "A sniff of trust: meta-analysis of the effects of intranasal oxytocin administration on face recognition, trust to in-group, and trust to out-group.",
+        "date": "2011-07-29",
+        "doi": "10.1016/j.psyneuen.2011.07.008",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "21818311",
+        "queries": [
+          "N"
+        ],
+        "title": "Film excerpts shown to specifically elicit various affects lead to overlapping activation foci in a large set of symmetrical brain regions in males.",
+        "date": "2011-07-27",
+        "doi": "10.1371/journal.pone.0022343",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21820878",
+        "queries": [
+          "N"
+        ],
+        "title": "Common and distinct neural correlates of emotional processing in Bipolar Disorder and Major Depressive Disorder: a voxel-based meta-analysis of functional magnetic resonance imaging studies.",
+        "date": "2011-08-05",
+        "doi": "10.1016/j.euroneuro.2011.07.003",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21993193",
+        "queries": [
+          "N"
+        ],
+        "title": "Meta-analysis of functional neuroimaging studies of emotion perception and experience in schizophrenia.",
+        "date": "2011-10-11",
+        "doi": "10.1016/j.biopsych.2011.09.007",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "21998649",
+        "queries": [
+          "P"
+        ],
+        "title": "Autism spectrum disorders and schizophrenia: meta-analysis of the neural correlates of social cognition.",
+        "date": "2011-10-05",
+        "doi": "10.1371/journal.pone.0025322",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22001789",
+        "queries": [
+          "N"
+        ],
+        "title": "Exposure to subliminal arousing stimuli induces robust activation in the amygdala, hippocampus, anterior cingulate, insular cortex and primary visual cortex: a systematic meta-analysis of fMRI studies.",
+        "date": "2011-10-07",
+        "doi": "10.1016/j.neuroimage.2011.09.077",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Masked emotion subgroup of fMRI ALE for arousing stimuli."
+      },
+      {
+        "pmid": "22211280",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in euthymic bipolar disorder: systematic review and meta-analytic approach.",
+        "date": "2011-12-30",
+        "doi": "10.1111/j.1600-0447.2011.01808.x",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22297065",
+        "queries": [
+          "P"
+        ],
+        "title": "Systematic review of the neural basis of social cognition in patients with mood disorders.",
+        "date": "2012-05-01",
+        "doi": "10.1503/jpn.100179",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22319593",
+        "queries": [
+          "N"
+        ],
+        "title": "Introspective minds: using ALE meta-analyses to study commonalities in the neural correlates of emotional processing, social & unconstrained cognition.",
+        "date": "2012-02-03",
+        "doi": "10.1371/journal.pone.0030920",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Separate emotion meta-analysis compared to social and resting cognition."
+      },
+      {
+        "pmid": "22450197",
+        "queries": [
+          "N"
+        ],
+        "title": "Sex differences in brain activation to emotional stimuli: a meta-analysis of neuroimaging studies.",
+        "date": "2012-03-17",
+        "doi": "10.1016/j.neuropsychologia.2012.03.011",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Valence-dependent sex contrasts in earlier neuroimaging meta-analysis; includes indirect contrasts."
+      },
+      {
+        "pmid": "22503725",
+        "queries": [
+          "N"
+        ],
+        "title": "Pain and emotion in the insular cortex: evidence for functional reorganization in major depression.",
+        "date": "2012-04-06",
+        "doi": "10.1016/j.neulet.2012.03.095",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22582737",
+        "queries": [
+          "R"
+        ],
+        "title": "Dealing with feeling: a meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation.",
+        "date": "2012-05-14",
+        "doi": "10.1037/a0027600",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "306 comparisons; cognitive change d=.36 overall, peripheral physiology d=.05 [-.07,.16]."
+      },
+      {
+        "pmid": "22617651",
+        "queries": [
+          "C"
+        ],
+        "title": "The brain basis of emotion: a meta-analytic review.",
+        "date": "2012-06-01",
+        "doi": "10.1017/s0140525x11000446",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "Little support for consistent one-region localization of individual emotion categories."
+      },
+      {
+        "pmid": "22738433",
+        "queries": [
+          "N"
+        ],
+        "title": "Facial emotion processing in major depression: a systematic review of neuroimaging findings.",
+        "date": "2011-11-07",
+        "doi": "10.1186/2045-5380-1-10",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22849611",
+        "queries": [
+          "P"
+        ],
+        "title": "The perception of positive and negative facial expressions in unilateral brain-damaged patients: A meta-analysis.",
+        "date": "2012-08-01",
+        "doi": "10.1080/1357650x.2012.703206",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22874625",
+        "queries": [
+          "N"
+        ],
+        "title": "Evidence of diagnostic specificity in the neural correlates of facial affect processing in bipolar disorder and schizophrenia: a meta-analysis of functional imaging studies.",
+        "date": "2012-07-09",
+        "doi": "10.1017/s0033291712001432",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22921939",
+        "queries": [
+          "N"
+        ],
+        "title": "Sexual dimorphism in the human brain: evidence from neuroimaging.",
+        "date": "2012-08-22",
+        "doi": "10.1016/j.mri.2012.06.007",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22927931",
+        "queries": [
+          "P",
+          "M"
+        ],
+        "title": "Alexithymia and the processing of emotional facial expressions (EFEs): systematic review, unanswered questions and further perspectives.",
+        "date": "2012-08-23",
+        "doi": "10.1371/journal.pone.0042429",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "22936519",
+        "queries": [
+          "N"
+        ],
+        "title": "A coordinate-based meta-analytic model of trauma processing in posttraumatic stress disorder.",
+        "date": "2012-08-30",
+        "doi": "10.1002/hbm.22155",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "22944264",
+        "queries": [
+          "P"
+        ],
+        "title": "Not just fear and sadness: meta-analytic evidence of pervasive emotion recognition deficits for facial and vocal expressions in psychopathy.",
+        "date": "2012-08-27",
+        "doi": "10.1016/j.neubiorev.2012.08.006",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23095586",
+        "queries": [
+          "N"
+        ],
+        "title": "[Treating specific childhood phobia in a single session? A systematic review of the literature].",
+        "date": "2012-06-14",
+        "doi": "10.1016/j.encep.2012.04.002",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23096764",
+        "queries": [
+          "P"
+        ],
+        "title": "Motor, emotional, and cognitive empathy in children and adolescents with autism spectrum disorder and conduct disorder.",
+        "date": "2013-04-01",
+        "doi": "10.1007/s10802-012-9689-5",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23149223",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition in borderline personality disorder.",
+        "date": "2012-11-13",
+        "doi": "10.1017/s0033291712002607",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23206667",
+        "queries": [
+          "N"
+        ],
+        "title": "Emotional valence modulates brain functional abnormalities in depression: evidence from a meta-analysis of fMRI studies.",
+        "date": "2012-12-01",
+        "doi": "10.1016/j.neubiorev.2012.11.015",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23294094",
+        "queries": [
+          "C"
+        ],
+        "title": "The hundred-year emotion war: are emotions natural kinds or psychological constructions? Comment on Lench, Flores, and Bench (2011).",
+        "date": "2013-01-01",
+        "doi": "10.1037/a0029038",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23294095",
+        "queries": [
+          "C"
+        ],
+        "title": "Searching for evidence, not a war: reply to Lindquist, Siegel, Quigley, and Barrett (2013).",
+        "date": "2013-01-01",
+        "doi": "10.1037/a0029296",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23408565",
+        "queries": [
+          "N"
+        ],
+        "title": "The neural representation of abstract words: the role of emotion.",
+        "date": "2013-02-13",
+        "doi": "10.1093/cercor/bht025",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23475001",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition in child psychiatry: a systematic review.",
+        "date": "2013-03-06",
+        "doi": "10.1016/j.ridd.2013.01.008",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23500608",
+        "queries": [
+          "N"
+        ],
+        "title": "Brain stimulation studies of non-motor cerebellar function: a systematic review.",
+        "date": "2013-03-13",
+        "doi": "10.1016/j.neubiorev.2013.03.001",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23575742",
+        "queries": [
+          "P"
+        ],
+        "title": "The impact of a single administration of intranasal oxytocin on the recognition of basic emotions in humans: a meta-analysis.",
+        "date": "2013-04-10",
+        "doi": "10.1038/npp.2013.86",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "23611263",
+        "queries": [
+          "P"
+        ],
+        "title": "The 5% difference: early sensory processing predicts sarcasm perception in schizophrenia and schizo-affective disorder.",
+        "date": "2013-04-24",
+        "doi": "10.1017/s0033291713000834",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23623507",
+        "queries": [
+          "N"
+        ],
+        "title": "Altered risk-related processing in substance users: imbalance of pain and gain.",
+        "date": "2013-04-23",
+        "doi": "10.1016/j.drugalcdep.2013.03.019",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23685122",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroticism and the brain: a quantitative meta-analysis of neuroimaging studies investigating emotion processing.",
+        "date": "2013-05-15",
+        "doi": "10.1016/j.neubiorev.2013.05.005",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Neuroticism and task response: corrected correlations only for negative > neutral."
+      },
+      {
+        "pmid": "23695233",
+        "queries": [
+          "P"
+        ],
+        "title": "Sniffing around oxytocin: review and meta-analyses of trials in healthy and clinical groups with implications for pharmacotherapy.",
+        "date": "2013-05-21",
+        "doi": "10.1038/tp.2013.34",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "23755001",
+        "queries": [
+          "N"
+        ],
+        "title": "Segregation of the human medial prefrontal cortex in social cognition.",
+        "date": "2013-05-29",
+        "doi": "10.3389/fnhum.2013.00232",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23765157",
+        "queries": [
+          "R"
+        ],
+        "title": "Cognitive reappraisal of emotion: a meta-analysis of human neuroimaging studies.",
+        "date": "2013-06-13",
+        "doi": "10.1093/cercor/bht154",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "48 neuroimaging studies of instructed cognitive reappraisal."
+      },
+      {
+        "pmid": "23886514",
+        "queries": [
+          "N"
+        ],
+        "title": "Acute neural effects of selective serotonin reuptake inhibitors versus noradrenaline reuptake inhibitors on emotion processing: Implications for differential treatment efficacy.",
+        "date": "2013-07-22",
+        "doi": "10.1016/j.neubiorev.2013.07.010",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23886515",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural correlates of alexithymia: a meta-analysis of emotion processing studies.",
+        "date": "2013-07-22",
+        "doi": "10.1016/j.neubiorev.2013.07.008",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "15 neuroimaging studies of alexithymia as a trait during emotional tasks."
+      },
+      {
+        "pmid": "23928089",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural correlates of dysfunctional emotion regulation in major depressive disorder. A systematic review of neuroimaging studies.",
+        "date": "2013-08-06",
+        "doi": "10.1016/j.neubiorev.2013.07.018",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23975275",
+        "queries": [
+          "N"
+        ],
+        "title": "Prolonged hemodynamic response during incidental facial emotion processing in inter-episode bipolar I disorder.",
+        "date": "2014-03-01",
+        "doi": "10.1007/s11682-013-9246-z",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "23986672",
+        "queries": [
+          "N"
+        ],
+        "title": "Comparison of activation patterns between masking and inattention tasks: a coordinate-based meta-analysis of implicit emotional face processing.",
+        "date": "2013-08-26",
+        "doi": "10.3389/fnhum.2013.00459",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "41 studies, 830 healthy participants; overlap and differences between masking and inattention."
+      },
+      {
+        "pmid": "24268469",
+        "queries": [
+          "P"
+        ],
+        "title": "Neurocognition and symptoms identify links between facial recognition and emotion processing in schizophrenia: meta-analytic findings.",
+        "date": "2013-11-21",
+        "doi": "10.1016/j.schres.2013.10.015",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "24333650",
+        "queries": [
+          "P"
+        ],
+        "title": "A systematic review and meta-analysis of 'Systems for Social Processes' in eating disorders.",
+        "date": "2013-12-11",
+        "doi": "10.1016/j.neubiorev.2013.12.002",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "24400860",
+        "queries": [
+          "P"
+        ],
+        "title": "Sex differences in the ability to recognise non-verbal displays of emotion: a meta-analysis.",
+        "date": "2014-01-08",
+        "doi": "10.1080/02699931.2013.875889",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Synthesis of emotion recognition tasks."
+      },
+      {
+        "pmid": "24455472",
+        "queries": [
+          "N"
+        ],
+        "title": "Functional brain imaging studies of youth depression: a systematic review.",
+        "date": "2013-12-11",
+        "doi": "10.1016/j.nicl.2013.11.009",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "24574071",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "Facial emotion processing in borderline personality disorder: a systematic review and meta-analysis.",
+        "date": "2014-02-27",
+        "doi": "10.1007/s11065-014-9254-9",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "24897894",
+        "queries": [
+          "R"
+        ],
+        "title": "Relation between emotion regulation and mental health: a meta-analysis review.",
+        "date": "2014-04-01",
+        "doi": "10.2466/03.20.pr0.114k22w4",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "24915526",
+        "queries": [
+          "P"
+        ],
+        "title": "Impairments in facial affect recognition associated with autism spectrum disorders: a meta-analysis.",
+        "date": "2014-06-10",
+        "doi": "10.1017/s0954579414000479",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25043736",
+        "queries": [
+          "N"
+        ],
+        "title": "The functional profile of the human amygdala in affective processing: insights from intracranial recordings.",
+        "date": "2014-06-19",
+        "doi": "10.1016/j.cortex.2014.06.010",
+        "decision": "excluded_after_further_screening",
+        "reason": "Invasive patient recordings without transferable nonclinical subgroup"
+      },
+      {
+        "pmid": "25105273",
+        "queries": [
+          "R"
+        ],
+        "title": "Cognitive emotion regulation strategies, alexithymia and dissociation in schizophrenia, a review and meta-analysis.",
+        "date": "2014-07-24",
+        "doi": "10.1016/j.cpr.2014.07.002",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25178803",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion identification in early-onset and first-episode psychosis: a systematic review with meta-analysis.",
+        "date": "2014-08-30",
+        "doi": "10.1016/j.schres.2014.07.049",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25194208",
+        "queries": [
+          "N"
+        ],
+        "title": "Common and distinct neural correlates of facial emotion processing in social anxiety disorder and Williams syndrome: A systematic review and voxel-based meta-analysis of functional resonance imaging studies.",
+        "date": "2014-09-04",
+        "doi": "10.1016/j.neuropsychologia.2014.08.027",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25395075",
+        "queries": [
+          "P"
+        ],
+        "title": "Meta-analysis of emotion recognition deficits in major depressive disorder.",
+        "date": "2014-11-14",
+        "doi": "10.1017/s0033291714002591",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25404919",
+        "queries": [
+          "N"
+        ],
+        "title": "Meta-analyses of developing brain function in high-risk and emerged bipolar disorder.",
+        "date": "2014-11-03",
+        "doi": "10.3389/fpsyt.2014.00141",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25421727",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation and posttraumatic stress symptoms: a meta-analysis.",
+        "date": "2014-11-24",
+        "doi": "10.1080/16506073.2014.980753",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25492885",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial affect processing deficits in schizophrenia: a meta-analysis of antipsychotic treatment effects.",
+        "date": "2014-12-09",
+        "doi": "10.1177/0269881114560184",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25520163",
+        "queries": [
+          "N"
+        ],
+        "title": "Neurophysiological effects of acute oxytocin administration: systematic review and meta-analysis of placebo-controlled imaging studies.",
+        "date": "2015-01-01",
+        "doi": "10.1503/jpn.130289",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25680990",
+        "queries": [
+          "C"
+        ],
+        "title": "Intrinsic connectivity in the human brain does not reveal networks for 'basic' emotions.",
+        "date": "2015-02-12",
+        "doi": "10.1093/scan/nsv013",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "25745133",
+        "queries": [
+          "P"
+        ],
+        "title": "Allelic variation in 5-HTTLPR and the effects of citalopram on the emotional neural network.",
+        "date": "2015-03-05",
+        "doi": "10.1192/bjp.bp.114.150128",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "25821147",
+        "queries": [
+          "N"
+        ],
+        "title": "Reliability of an fMRI paradigm for emotional processing in a multisite longitudinal study.",
+        "date": "2015-03-28",
+        "doi": "10.1002/hbm.22791",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25825285",
+        "queries": [
+          "N"
+        ],
+        "title": "Gray matter atrophy in narcolepsy: An activation likelihood estimation meta-analysis.",
+        "date": "2015-03-28",
+        "doi": "10.1016/j.neubiorev.2015.03.009",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "25926805",
+        "queries": [
+          "S"
+        ],
+        "title": "Eliciting mixed emotions: a meta-analysis comparing models, types, and measures.",
+        "date": "2015-04-15",
+        "doi": "10.3389/fpsyg.2015.00428",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "Mixed affect induction: 63 studies, 7157 participants, d=.77 [.68,.87]."
+      },
+      {
+        "pmid": "25935068",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural Correlates of Disturbed Emotion Processing in Borderline Personality Disorder: A Multimodal Meta-Analysis.",
+        "date": "2015-04-08",
+        "doi": "10.1016/j.biopsych.2015.03.027",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26057835",
+        "queries": [
+          "P"
+        ],
+        "title": "The ability of adults with an intellectual disability to recognise facial expressions of emotion in comparison with typically developing individuals: A systematic review.",
+        "date": "2015-06-06",
+        "doi": "10.1016/j.ridd.2015.05.007",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26074298",
+        "queries": [
+          "N"
+        ],
+        "title": "Affective mapping: An activation likelihood estimation (ALE) meta-analysis.",
+        "date": "2015-06-11",
+        "doi": "10.1016/j.bandc.2015.04.006",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "ALE maps for seven affect categories; overlap as well as selective convergence."
+      },
+      {
+        "pmid": "26155761",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "Emotion and Theory of Mind in Schizophrenia-Investigating the Role of the Cerebellum.",
+        "date": "2016-06-01",
+        "doi": "10.1007/s12311-015-0696-2",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26339798",
+        "queries": [
+          "N"
+        ],
+        "title": "Structural and Functional Alterations in Right Dorsomedial Prefrontal and Left Insular Cortex Co-Localize in Adolescents with Aggressive Behaviour: An ALE Meta-Analysis.",
+        "date": "2015-09-04",
+        "doi": "10.1371/journal.pone.0136553",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26350954",
+        "queries": [
+          "N"
+        ],
+        "title": "Neurofunctional topography of the human hippocampus.",
+        "date": "2015-09-09",
+        "doi": "10.1002/hbm.22987",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26405369",
+        "queries": [
+          "S"
+        ],
+        "title": "Children's emotion understanding: A meta-analysis of training studies.",
+        "date": "2015-09-01",
+        "doi": "10.1016/j.dr.2015.05.001",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "26417770",
+        "queries": [
+          "N"
+        ],
+        "title": "A systematic review of structural and functional MRI differences between psychotic and nonpsychotic depression.",
+        "date": "2015-09-01",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26455876",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in Huntington's disease: A meta-analysis.",
+        "date": "2015-10-08",
+        "doi": "10.1016/j.bbr.2015.10.001",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26546735",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition in alcohol and substance use disorders: A meta-analysis.",
+        "date": "2015-11-10",
+        "doi": "10.1016/j.neubiorev.2015.11.001",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26686467",
+        "queries": [
+          "P"
+        ],
+        "title": "Practitioner Review: Involving young people with callous unemotional traits in treatment--does it work? A systematic review.",
+        "date": "2015-12-21",
+        "doi": "10.1111/jcpp.12494",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26707895",
+        "queries": [
+          "P",
+          "M"
+        ],
+        "title": "Meta-analysis of social cognition in attention-deficit/hyperactivity disorder (ADHD): comparison with healthy controls and autistic spectrum disorder.",
+        "date": "2015-12-28",
+        "doi": "10.1017/s0033291715002573",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26846227",
+        "queries": [
+          "N"
+        ],
+        "title": "A Systematic Review and Meta-analysis of Neuroimaging in Oppositional Defiant Disorder (ODD) and Conduct Disorder (CD) Taking Attention-Deficit Hyperactivity Disorder (ADHD) Into Account.",
+        "date": "2016-02-05",
+        "doi": "10.1007/s11065-015-9315-8",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26854015",
+        "queries": [
+          "N"
+        ],
+        "title": "Computational meta-analysis of statistical parametric maps in major depression.",
+        "date": "2016-02-08",
+        "doi": "10.1002/hbm.23108",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "26908633",
+        "queries": [
+          "N"
+        ],
+        "title": "Direction of Amygdala-Neocortex Interaction During Dynamic Facial Expression Processing.",
+        "date": "2017-03-01",
+        "doi": "10.1093/cercor/bhw036",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "27056068",
+        "queries": [
+          "P"
+        ],
+        "title": "Meta-Analysis of Facial Emotion Recognition in Behavioral Variant Frontotemporal Dementia: Comparison With Alzheimer Disease and Healthy Controls.",
+        "date": "2016-04-06",
+        "doi": "10.1177/0891988716640375",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27117677",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in schizophrenia in comparison to bipolar disorder: A meta-analysis.",
+        "date": "2016-04-23",
+        "doi": "10.1016/j.schres.2016.04.018",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27179192",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in temporal lobe epilepsy: A systematic review and meta-analysis.",
+        "date": "2016-05-11",
+        "doi": "10.1016/j.yebeh.2016.04.024",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27288319",
+        "queries": [
+          "R"
+        ],
+        "title": "Neuroimaging cognitive reappraisal in clinical populations to define neural targets for enhancing emotion regulation. A systematic review.",
+        "date": "2016-06-08",
+        "doi": "10.1016/j.neuroimage.2016.06.009",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "27324894",
+        "queries": [
+          "P"
+        ],
+        "title": "Social Cognition in Multiple Sclerosis: a Meta-Analysis.",
+        "date": "2016-06-20",
+        "doi": "10.1007/s11065-016-9320-6",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27354969",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion perception in schizophrenia: Does sex matter?",
+        "date": "2016-06-22",
+        "doi": "10.5498/wjp.v6.i2.257",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27387060",
+        "queries": [
+          "D"
+        ],
+        "title": "A Meta-analysis on the Association Between Emotional Awareness and Borderline Personality Pathology.",
+        "date": "2016-07-07",
+        "doi": "10.1521/pedi_2016_30_257",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "27523497",
+        "queries": [
+          "N"
+        ],
+        "title": "Meta-Analysis of fMRI Studies of Disruptive Behavior Disorders.",
+        "date": "2016-08-13",
+        "doi": "10.1176/appi.ajp.2016.15081089",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27539864",
+        "queries": [
+          "D"
+        ],
+        "title": "The role of language in the experience and perception of emotion: a neuroimaging meta-analysis.",
+        "date": "2017-02-01",
+        "doi": "10.1093/scan/nsw121",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "386 imaging studies/experiments in database; emotion-word availability and task convergence."
+      },
+      {
+        "pmid": "27552444",
+        "queries": [
+          "N"
+        ],
+        "title": "Mapping the brain correlates of borderline personality disorder: A functional neuroimaging meta-analysis of resting state studies.",
+        "date": "2016-07-28",
+        "doi": "10.1016/j.jad.2016.07.025",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27559819",
+        "queries": [
+          "R"
+        ],
+        "title": "Change the things you can: Emotion regulation is more beneficial for people from lower than from higher socioeconomic status.",
+        "date": "2016-08-25",
+        "doi": "10.1037/emo0000210",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27655736",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in multiple sclerosis: A systematic review and meta-analysis.",
+        "date": "2016-09-21",
+        "doi": "10.1212/wnl.0000000000003236",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27734198",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion Regulation Strategies in Depressive and Anxiety Symptoms in Youth: A Meta-Analytic Review.",
+        "date": "2016-10-12",
+        "doi": "10.1007/s10964-016-0585-0",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27829086",
+        "queries": [
+          "N"
+        ],
+        "title": "Altered Brain Activity in Unipolar Depression Revisited: Meta-analyses of Neuroimaging Studies.",
+        "date": "2017-01-01",
+        "doi": "10.1001/jamapsychiatry.2016.2783",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "27836460",
+        "queries": [
+          "P"
+        ],
+        "title": "Perceiving emotional expressions in others: Activation likelihood estimation meta-analyses of explicit evaluation, passive perception and incidental perception of emotions.",
+        "date": "2016-11-09",
+        "doi": "10.1016/j.neubiorev.2016.10.020",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Synthesis of emotion recognition tasks."
+      },
+      {
+        "pmid": "28002755",
+        "queries": [
+          "P"
+        ],
+        "title": "Meta-analysis of social cognition in amyotrophic lateral sclerosis.",
+        "date": "2016-12-05",
+        "doi": "10.1016/j.cortex.2016.11.012",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28072415",
+        "queries": [
+          "N"
+        ],
+        "title": "Functional neuroimaging effects of recently discovered genetic risk loci for schizophrenia and polygenic risk profile in five RDoC subdomains.",
+        "date": "2017-01-10",
+        "doi": "10.1038/tp.2016.272",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28088652",
+        "queries": [
+          "N"
+        ],
+        "title": "Convergence of interoception, emotion, and social cognition: A twofold fMRI meta-analysis and lesion approach.",
+        "date": "2016-12-29",
+        "doi": "10.1016/j.cortex.2016.12.019",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Task meta-analyses for interoception, emotion and social cognition; lesion comparison treated separately."
+      },
+      {
+        "pmid": "28099136",
+        "queries": [
+          "P"
+        ],
+        "title": "Alexithymia and automatic processing of emotional stimuli: a systematic review.",
+        "date": "2017-04-01",
+        "doi": "10.1515/revneuro-2016-0049",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Typical or nonclinical contrast in emotion recognition."
+      },
+      {
+        "pmid": "28106934",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroimaging the neural correlates of increased risk for substance use disorders in attention-deficit/hyperactivity disorder-A systematic review.",
+        "date": "2017-01-20",
+        "doi": "10.1111/ajad.12500",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28284777",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in first-degree relatives of patients with bipolar disorder: A meta-analysis.",
+        "date": "2017-03-08",
+        "doi": "10.1016/j.euroneuro.2017.02.009",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28301202",
+        "queries": [
+          "R"
+        ],
+        "title": "The structure of common emotion regulation strategies: A meta-analytic examination.",
+        "date": "2017-04-01",
+        "doi": "10.1037/bul0000093",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "Correlations/factors among strategy scores; nonclinical subgroup reported separately."
+      },
+      {
+        "pmid": "28394141",
+        "queries": [
+          "P"
+        ],
+        "title": "Empathic accuracy and relationship satisfaction: A meta-analytic review.",
+        "date": "2017-04-10",
+        "doi": "10.1037/fam0000320",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "28449613",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "Emotion recognition and theory of mind in schizophrenia: A meta-analysis of neuroimaging studies.",
+        "date": "2017-05-30",
+        "doi": "10.1080/15622975.2017.1324176",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28456569",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural correlates of cognitive control in gambling disorder: a systematic review of fMRI studies.",
+        "date": "2017-04-26",
+        "doi": "10.1016/j.neubiorev.2017.04.025",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28579400",
+        "queries": [
+          "N",
+          "R"
+        ],
+        "title": "Emotion regulation in mood and anxiety disorders: A meta-analysis of fMRI cognitive reappraisal studies.",
+        "date": "2017-06-01",
+        "doi": "10.1016/j.pnpbp.2017.06.001",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "28616996",
+        "queries": [
+          "R"
+        ],
+        "title": "Coping, emotion regulation, and psychopathology in childhood and adolescence: A meta-analysis and narrative review.",
+        "date": "2017-06-15",
+        "doi": "10.1037/bul0000110",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28639876",
+        "queries": [
+          "P"
+        ],
+        "title": "Meta-Analysis of Social Cognition in Mild Cognitive Impairment.",
+        "date": "2017-07-01",
+        "doi": "10.1177/0891988717710337",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28698082",
+        "queries": [
+          "P"
+        ],
+        "title": "Mechanisms of facial emotion recognition in autism spectrum disorders: Insights from eye tracking and electroencephalography.",
+        "date": "2017-07-08",
+        "doi": "10.1016/j.neubiorev.2017.06.016",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "28764994",
+        "queries": [
+          "N"
+        ],
+        "title": "Alexithymia in multiple sclerosis: A systematic review of literature.",
+        "date": "2017-07-29",
+        "doi": "10.1016/j.neuropsychologia.2017.07.034",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29024361",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotional processing in obesity: a systematic review and exploratory meta-analysis.",
+        "date": "2017-10-10",
+        "doi": "10.1111/obr.12607",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29045812",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion perception in patients with epilepsy: A systematic review with meta-analysis.",
+        "date": "2017-10-16",
+        "doi": "10.1016/j.neubiorev.2017.10.013",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29148830",
+        "queries": [
+          "R"
+        ],
+        "title": "Age differences in the use of emotion regulation strategies derived from the process model of emotion regulation: a systematic review.",
+        "date": "2017-11-17",
+        "doi": "10.1080/13607863.2017.1396575",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Age comparisons of emotion-regulation strategies within the process model."
+      },
+      {
+        "pmid": "29175518",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognitive dysfunction as a clinical marker: A systematic review of meta-analyses across 30 clinical conditions.",
+        "date": "2017-11-24",
+        "doi": "10.1016/j.neubiorev.2017.11.014",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29186621",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "Is the voice an auditory face? An ALE meta-analysis comparing vocal and facial emotion processing.",
+        "date": "2018-01-01",
+        "doi": "10.1093/scan/nsx142",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "ALE comparison of facial and vocal processing; shared and channel-specific convergence."
+      },
+      {
+        "pmid": "29360475",
+        "queries": [
+          "N"
+        ],
+        "title": "Structure of the alexithymic brain: A parametric coordinate-based meta-analysis.",
+        "date": "2018-01-31",
+        "doi": "10.1016/j.neubiorev.2018.01.004",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29484767",
+        "queries": [
+          "N"
+        ],
+        "title": "Dissociable meta-analytic brain networks contribute to coordinated emotional processing.",
+        "date": "2018-02-26",
+        "doi": "10.1002/hbm.24018",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Clustering of 1747 BrainMap experiments yielded patterns grouping experiments, not participants."
+      },
+      {
+        "pmid": "29514588",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation in social anxiety: a systematic investigation and meta-analysis using self-report, subjective, and event-related potentials measures.",
+        "date": "2018-03-07",
+        "doi": "10.1080/02699931.2018.1446414",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "29546855",
+        "queries": [
+          "R"
+        ],
+        "title": "A Novel Framework Based on the Improved Job Demands-Resources (JD-R) Model to Understand the Impact of Job Characteristics on Job Burnout from the View of Emotion Regulation Theory.",
+        "date": "2018-03-01",
+        "doi": "10.24869/psyd.2018.26",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29550459",
+        "queries": [
+          "N"
+        ],
+        "title": "Emotional Processing in Obsessive-Compulsive Disorder: A Systematic Review and Meta-analysis of 25 Functional Neuroimaging Studies.",
+        "date": "2018-02-03",
+        "doi": "10.1016/j.bpsc.2018.01.009",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29688128",
+        "queries": [
+          "D"
+        ],
+        "title": "Emotion differentiation dissected: between-category, within-category, and integral emotion differentiation, and their relation to well-being.",
+        "date": "2018-04-24",
+        "doi": "10.1080/02699931.2018.1465894",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "29733250",
+        "queries": [
+          "N"
+        ],
+        "title": "The neural correlates of attachment style during emotional processing: an activation likelihood estimation meta-analysis.",
+        "date": "2018-05-07",
+        "doi": "10.1080/14616734.2018.1465105",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "12 fMRI studies of attachment scores and responses to emotional stimuli."
+      },
+      {
+        "pmid": "29785110",
+        "queries": [
+          "R"
+        ],
+        "title": "Prefrontoparietal dysfunction during emotion regulation in anxiety disorder: a meta-analysis of functional magnetic resonance imaging studies.",
+        "date": "2018-05-09",
+        "doi": "10.2147/ndt.s165677",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "29879391",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroimaging Impaired Response Inhibition and Salience Attribution in Human Drug Addiction: A Systematic Review.",
+        "date": "2018-06-01",
+        "doi": "10.1016/j.neuron.2018.03.048",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "29879563",
+        "queries": [
+          "N"
+        ],
+        "title": "Oxytocin and brain activity in humans: A systematic review and coordinate-based meta-analysis of functional MRI studies.",
+        "date": "2018-05-24",
+        "doi": "10.1016/j.psyneuen.2018.05.031",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Healthy-adult task ALE separately analyzed from clinical and resting-state evidence."
+      },
+      {
+        "pmid": "29922137",
+        "queries": [
+          "M"
+        ],
+        "title": "Brain Responses to Dynamic Facial Expressions: A Normative Meta-Analysis.",
+        "date": "2018-06-05",
+        "doi": "10.3389/fnhum.2018.00227",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "14 studies, 216 participants and 28 experiments with dynamic facial expressions."
+      },
+      {
+        "pmid": "29987638",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural pathways of maternal responding: systematic review and meta-analysis.",
+        "date": "2018-07-09",
+        "doi": "10.1007/s00737-018-0878-2",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "30031025",
+        "queries": [
+          "P"
+        ],
+        "title": "Predicting antidepressant response using early changes in cognition: A systematic review.",
+        "date": "2018-07-18",
+        "doi": "10.1016/j.bbr.2018.07.011",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30039831",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural functional correlates of emotional processing in patients with first-episode psychoses: an activation likelihood estimation (ALE) meta-analysis.",
+        "date": "2018-07-01",
+        "doi": "10.12871/00039829201811",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30064053",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation in social anxiety and depression: a systematic review of expressive suppression and cognitive reappraisal.",
+        "date": "2018-07-23",
+        "doi": "10.1016/j.cpr.2018.07.004",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30065878",
+        "queries": [
+          "P"
+        ],
+        "title": "Effects of age on the identification of emotions in facial expressions: a meta-analysis.",
+        "date": "2018-07-25",
+        "doi": "10.7717/peerj.5278",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Direct task performance in emotion recognition."
+      },
+      {
+        "pmid": "30093877",
+        "queries": [
+          "P"
+        ],
+        "title": "Disruption of Inferior Longitudinal Fasciculus Microstructure in Parkinson's Disease: A Systematic Review of Diffusion Tensor Imaging Studies.",
+        "date": "2018-07-26",
+        "doi": "10.3389/fneur.2018.00598",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30212509",
+        "queries": [
+          "R"
+        ],
+        "title": "Does emotion regulation engage the same neural circuit as working memory? A meta-analytical comparison between cognitive reappraisal of negative emotion and 2-back working memory task.",
+        "date": "2018-09-13",
+        "doi": "10.1371/journal.pone.0203753",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Neural convergence of reappraisal separately assessed against working-memory tasks."
+      },
+      {
+        "pmid": "30266026",
+        "queries": [
+          "N"
+        ],
+        "title": "A quantitative meta-analysis of fMRI studies investigating emotional processing in excessive worriers: Application of activation likelihood estimation analysis.",
+        "date": "2018-09-17",
+        "doi": "10.1016/j.jad.2018.09.049",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30336573",
+        "queries": [
+          "M"
+        ],
+        "title": "Emotional Prosody Processing in Schizophrenic Patients: A Selective Review and Meta-Analysis.",
+        "date": "2018-10-17",
+        "doi": "10.3390/jcm7100363",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30444299",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural signatures of the risk for bipolar disorder: A meta-analysis of structural and functional neuroimaging studies.",
+        "date": "2018-12-14",
+        "doi": "10.1111/bdi.12720",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30459645",
+        "queries": [
+          "P"
+        ],
+        "title": "Social Cognition in Schizophrenia and Autism Spectrum Disorders: A Systematic Review and Meta-Analysis of Direct Comparisons.",
+        "date": "2018-10-24",
+        "doi": "10.3389/fpsyt.2018.00504",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "30588398",
+        "queries": [
+          "R"
+        ],
+        "title": "Systematic review and meta-analysis of age-related differences in instructed emotion regulation success.",
+        "date": "2018-12-18",
+        "doi": "10.7717/peerj.6051",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Age comparisons of instructed strategy efficacy."
+      },
+      {
+        "pmid": "30601878",
+        "queries": [
+          "P"
+        ],
+        "title": "Patterns of Nonsocial and Social Cognitive Functioning in Adults With Autism Spectrum Disorder: A Systematic Review and Meta-analysis.",
+        "date": "2019-02-01",
+        "doi": "10.1001/jamapsychiatry.2018.3645",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31063939",
+        "queries": [
+          "N"
+        ],
+        "title": "Functional brain alterations in acute sleep deprivation: An activation likelihood estimation meta-analysis.",
+        "date": "2019-03-28",
+        "doi": "10.1016/j.smrv.2019.03.008",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31201527",
+        "queries": [
+          "R"
+        ],
+        "title": "The role of emotion regulation in socially anxious children and adolescents: a systematic review.",
+        "date": "2019-06-14",
+        "doi": "10.1007/s00787-019-01359-9",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31219881",
+        "queries": [
+          "R"
+        ],
+        "title": "A Meta-analysis and Systematic Review of Emotion-Regulation Strategies in Borderline Personality Disorder.",
+        "date": "2019-07-01",
+        "doi": "10.1097/hrp.0000000000000212",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31221021",
+        "queries": [
+          "P"
+        ],
+        "title": "A meta-analysis of the relationship between emotion recognition ability and intelligence.",
+        "date": "2019-06-21",
+        "doi": "10.1080/02699931.2019.1632801",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Direct task performance in emotion recognition."
+      },
+      {
+        "pmid": "31260806",
+        "queries": [
+          "N"
+        ],
+        "title": "Are Functional Brain Alterations Present in Low Back Pain? A Systematic Review of EEG Studies.",
+        "date": "2019-06-28",
+        "doi": "10.1016/j.jpain.2019.06.010",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31278951",
+        "queries": [
+          "N",
+          "R"
+        ],
+        "title": "Common and distinct neural correlates of fear extinction and cognitive reappraisal: A meta-analysis of fMRI studies.",
+        "date": "2019-07-03",
+        "doi": "10.1016/j.neubiorev.2019.06.029",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Coordinate synthesis comparing fear extinction and cognitive reappraisal."
+      },
+      {
+        "pmid": "31302506",
+        "queries": [
+          "R"
+        ],
+        "title": "The relevance of cognitive emotion regulation to psychotic symptoms - A systematic review and meta-analysis.",
+        "date": "2019-06-14",
+        "doi": "10.1016/j.cpr.2019.101746",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31336113",
+        "queries": [
+          "P"
+        ],
+        "title": "Social perceptual function in parkinson's disease: A meta-analysis.",
+        "date": "2019-07-20",
+        "doi": "10.1016/j.neubiorev.2019.07.011",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31491048",
+        "queries": [
+          "P"
+        ],
+        "title": "Affective cognition in bipolar disorder: A systematic review by the ISBD targeting cognition task force.",
+        "date": "2019-10-16",
+        "doi": "10.1111/bdi.12834",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31696974",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in post-traumatic stress disorder: A systematic review.",
+        "date": "2019-11-07",
+        "doi": "10.1111/bjc.12238",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31863185",
+        "queries": [
+          "S"
+        ],
+        "title": "Concurrent amygdalar and ventromedial prefrontal cortical responses during emotion processing: a meta-analysis of the effects of valence of emotion and passive exposure versus active regulation.",
+        "date": "2019-12-20",
+        "doi": "10.1007/s00429-019-02007-3",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Pooled task contrasts of emotional valence and passive versus active regulation."
+      },
+      {
+        "pmid": "31910059",
+        "queries": [
+          "M"
+        ],
+        "title": "The mentalization profile in patients with eating disorders: a systematic review and meta-analysis.",
+        "date": "2020-01-07",
+        "doi": "10.1080/08039488.2019.1707869",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31932173",
+        "queries": [
+          "P"
+        ],
+        "title": "Systematic review and meta-analysis of the relationship between genetic risk for schizophrenia and facial emotion recognition.",
+        "date": "2020-01-11",
+        "doi": "10.1016/j.schres.2019.12.031",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31964160",
+        "queries": [
+          "N"
+        ],
+        "title": "Identification of Common Neural Circuit Disruptions in Emotional Processing Across Psychiatric Disorders.",
+        "date": "2020-01-22",
+        "doi": "10.1176/appi.ajp.2019.18111271",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "31999152",
+        "queries": [
+          "P"
+        ],
+        "title": "Task characteristics influence facial emotion recognition age-effects: A meta-analytic review.",
+        "date": "2020-01-30",
+        "doi": "10.1037/pag0000441",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Cross-cultural decoding of visible or audible expression."
+      },
+      {
+        "pmid": "32006553",
+        "queries": [
+          "N"
+        ],
+        "title": "Modality-specific overlaps in brain structure and function in obsessive-compulsive disorder: Multimodal meta-analysis of case-control MRI studies.",
+        "date": "2020-01-30",
+        "doi": "10.1016/j.neubiorev.2020.01.033",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32026101",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial expressions and eye tracking in individuals with social anxiety disorder: a systematic review.",
+        "date": "2019-04-11",
+        "doi": "10.1186/s41155-019-0121-8",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32051490",
+        "queries": [
+          "N"
+        ],
+        "title": "Brain Differences Associated with Self-Injurious Thoughts and Behaviors: A Meta-Analysis of Neuroimaging Studies.",
+        "date": "2020-02-12",
+        "doi": "10.1038/s41598-020-59490-6",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32169412",
+        "queries": [
+          "N"
+        ],
+        "title": "Impact of early life adversities on human brain functioning: A coordinate-based meta-analysis.",
+        "date": "2020-03-10",
+        "doi": "10.1016/j.neubiorev.2020.03.008",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32551983",
+        "queries": [
+          "P"
+        ],
+        "title": "Measuring change in facial emotion recognition in individuals with autism spectrum disorder: A systematic review.",
+        "date": "2020-06-18",
+        "doi": "10.1177/1362361320925334",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32702870",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition in adult with traumatic brain injury: A protocol for systematic review and meta-analysis.",
+        "date": "2020-07-01",
+        "doi": "10.1097/md.0000000000021154",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32710330",
+        "queries": [
+          "N"
+        ],
+        "title": "Abnormal neural activities in adults and youths with major depressive disorder during emotional processing: a meta-analysis.",
+        "date": "2021-04-01",
+        "doi": "10.1007/s11682-020-00299-2",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32713184",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition in children with externalising behaviours: A systematic review.",
+        "date": "2020-07-25",
+        "doi": "10.1177/1359104520945390",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32720741",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation and psychological distress in cancer survivors: A systematic review and meta-analysis.",
+        "date": "2020-07-28",
+        "doi": "10.1002/smi.2972",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32754058",
+        "queries": [
+          "N"
+        ],
+        "title": "Alterations in Task-Related Brain Activation in Children, Adolescents and Young Adults at Familial High-Risk for Schizophrenia or Bipolar Disorder - A Systematic Review.",
+        "date": "2020-07-10",
+        "doi": "10.3389/fpsyt.2020.00632",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32872066",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in multiple sclerosis and its subtypes: A protocol for systematic review and meta-analysis.",
+        "date": "2020-08-01",
+        "doi": "10.1097/md.0000000000021750",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32872076",
+        "queries": [
+          "P"
+        ],
+        "title": "Empathy and theory of mind in multiple sclerosis: A protocol for systematic review and meta-analysis.",
+        "date": "2020-08-01",
+        "doi": "10.1097/md.0000000000021773",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "32924798",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial mimicry, empathy, and emotion recognition: a meta-analysis of correlations.",
+        "date": "2020-09-13",
+        "doi": "10.1080/02699931.2020.1815655",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "EMG mimicry versus recognition: k=9, r=-.06, 95% CI [-.25,.13]."
+      },
+      {
+        "pmid": "32955675",
+        "queries": [
+          "P"
+        ],
+        "title": "Technological advancements and opportunities in Neuromarketing: a systematic review.",
+        "date": "2020-09-21",
+        "doi": "10.1186/s40708-020-00109-x",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33091714",
+        "queries": [
+          "P"
+        ],
+        "title": "Are facial emotion recognition tasks adequate for assessing social cognition in older people? A review of the literature.",
+        "date": "2020-10-05",
+        "doi": "10.1016/j.archger.2020.104277",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "27 studies of observed recognition in healthy older adults."
+      },
+      {
+        "pmid": "33142156",
+        "queries": [
+          "N"
+        ],
+        "title": "The activity and connectivity of the facial emotion processing neural circuitry in bipolar disorder: a systematic review.",
+        "date": "2020-10-25",
+        "doi": "10.1016/j.jad.2020.10.038",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33483120",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion Regulatory Strategies in Complicated Grief: A Systematic Review.",
+        "date": "2020-04-13",
+        "doi": "10.1016/j.beth.2020.04.004",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33516732",
+        "queries": [
+          "N"
+        ],
+        "title": "Amygdala-prefrontal connectivity during emotion regulation: A meta-analysis of psychophysiological interactions.",
+        "date": "2021-01-29",
+        "doi": "10.1016/j.neuropsychologia.2021.107767",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "15 fMRI PPI studies; convergent amygdala–prefrontal connectivity during regulation."
+      },
+      {
+        "pmid": "33528022",
+        "queries": [
+          "N"
+        ],
+        "title": "A systematic review of studies that used NIRS to measure neural activation during emotion processing in healthy individuals.",
+        "date": "2021-03-01",
+        "doi": "10.1093/scan/nsab017",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "85 healthy-participant fNIRS papers; perception results inconsistent, no pooled effect."
+      },
+      {
+        "pmid": "33551817",
+        "queries": [
+          "N"
+        ],
+        "title": "The Impact of Cannabidiol on Human Brain Function: A Systematic Review.",
+        "date": "2021-01-21",
+        "doi": "10.3389/fphar.2020.618184",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33583059",
+        "queries": [
+          "R"
+        ],
+        "title": "Building an emotion regulation recommender algorithm for socially anxious individuals using contextual bandits.",
+        "date": "2021-02-14",
+        "doi": "10.1111/bjc.12282",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33639359",
+        "queries": [
+          "P"
+        ],
+        "title": "Emotion regulation in pediatric bipolar disorder: A meta-analysis of published studies.",
+        "date": "2021-02-05",
+        "doi": "10.1016/j.jad.2021.02.010",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33722617",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural correlates of emotional processing in psychosis risk and onset - A systematic review and meta-analysis of fMRI studies.",
+        "date": "2021-03-17",
+        "doi": "10.1016/j.neubiorev.2021.03.010",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33723876",
+        "queries": [
+          "N"
+        ],
+        "title": "Brain activity during facial processing in autism spectrum disorder: an activation likelihood estimation (ALE) meta-analysis of neuroimaging studies.",
+        "date": "2021-03-15",
+        "doi": "10.1111/jcpp.13412",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33744915",
+        "queries": [
+          "N"
+        ],
+        "title": "The neuroimaging evidence of brain abnormalities in functional movement disorders.",
+        "date": "2021-09-01",
+        "doi": "10.1093/brain/awab131",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33762983",
+        "queries": [
+          "N"
+        ],
+        "title": "GABA, Glutamate and Neural Activity: A Systematic Review With Meta-Analysis of Multimodal <sup>1</sup>H-MRS-fMRI Studies.",
+        "date": "2021-03-08",
+        "doi": "10.3389/fpsyt.2021.644315",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "33962135",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in multiple sclerosis and its subtypes: A meta-analysis.",
+        "date": "2021-04-24",
+        "doi": "10.1016/j.msard.2021.102973",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34017272",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial Emotion Recognition in Schizophrenia.",
+        "date": "2021-05-04",
+        "doi": "10.3389/fpsyt.2021.633717",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34025469",
+        "queries": [
+          "P"
+        ],
+        "title": "New Technologies as Promising Tools for Assessing Facial Emotion Expressions Impairments in ASD: A Systematic Review.",
+        "date": "2021-05-05",
+        "doi": "10.3389/fpsyt.2021.634756",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34031363",
+        "queries": [
+          "N"
+        ],
+        "title": "Parsing variability in borderline personality disorder: a meta-analysis of neuroimaging studies.",
+        "date": "2021-05-24",
+        "doi": "10.1038/s41398-021-01446-z",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34052280",
+        "queries": [
+          "C"
+        ],
+        "title": "Facial expression recognition: A meta-analytic review of theoretical models and neuroimaging evidence.",
+        "date": "2021-05-28",
+        "doi": "10.1016/j.neubiorev.2021.05.023",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "141 studies, 3138 participants; shared and selective patterns in facial recognition."
+      },
+      {
+        "pmid": "34093322",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial Emotion Recognition and Emotional Memory From the Ovarian-Hormone Perspective: A Systematic Review.",
+        "date": "2021-05-20",
+        "doi": "10.3389/fpsyg.2021.641250",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Synthesis of performance on emotion recognition tasks."
+      },
+      {
+        "pmid": "34131885",
+        "queries": [
+          "P"
+        ],
+        "title": "Emotion Recognition and Traumatic Brain Injury: a Systematic Review and Meta-Analysis.",
+        "date": "2021-06-15",
+        "doi": "10.1007/s11065-021-09510-7",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34161918",
+        "queries": [
+          "N"
+        ],
+        "title": "The functional neural architecture of dysfunctional reward processing in autism.",
+        "date": "2021-05-28",
+        "doi": "10.1016/j.nicl.2021.102700",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34185792",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation and peripheral psychophysiological correlates in the management of induced pain: A systematic review.",
+        "date": "2021-06-29",
+        "doi": "10.1371/journal.pone.0253509",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34229285",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition in major depressive disorder: A meta-analytic review.",
+        "date": "2021-06-26",
+        "doi": "10.1016/j.jad.2021.06.053",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34264705",
+        "queries": [
+          "D"
+        ],
+        "title": "Emotion differentiation and behavioral dysregulation in clinical and nonclinical samples: A meta-analysis.",
+        "date": "2021-07-15",
+        "doi": "10.1037/emo0000968",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "34280319",
+        "queries": [
+          "N"
+        ],
+        "title": "Anxiety in Parkinson's Disease: A Systematic Review of Neuroimaging Studies.",
+        "date": "2021-07-19",
+        "doi": "10.1176/appi.neuropsych.20110272",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34286900",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion training as an intervention in autism spectrum disorder: A meta-analysis of randomized controlled trials.",
+        "date": "2021-07-19",
+        "doi": "10.1002/aur.2565",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34287622",
+        "queries": [
+          "R"
+        ],
+        "title": "Evaluation of Cognitive Behavioral Therapy vs Mindfulness Meditation in Brain Changes During Reappraisal and Acceptance Among Patients With Social Anxiety Disorder: A Randomized Clinical Trial.",
+        "date": "2021-10-01",
+        "doi": "10.1001/jamapsychiatry.2021.1862",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34291465",
+        "queries": [
+          "P"
+        ],
+        "title": "A meta-analysis of the effects of social-cognitive training in schizophrenia: The role of treatment characteristics and study quality.",
+        "date": "2021-07-21",
+        "doi": "10.1111/bjc.12320",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34438255",
+        "queries": [
+          "N"
+        ],
+        "title": "Networks underpinning emotion: A systematic review and synthesis of functional and effective connectivity.",
+        "date": "2021-08-24",
+        "doi": "10.1016/j.neuroimage.2021.118486",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "33 healthy-participant connectivity studies; results support context-dependent coupling."
+      },
+      {
+        "pmid": "34440473",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroimaging Studies of Nonsuicidal Self-Injury in Youth: A Systematic Review.",
+        "date": "2021-07-22",
+        "doi": "10.3390/life11080729",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34562542",
+        "queries": [
+          "N"
+        ],
+        "title": "Separate neural networks of implicit emotional processing between pictures and words: A coordinate-based meta-analysis of brain imaging studies.",
+        "date": "2021-09-22",
+        "doi": "10.1016/j.neubiorev.2021.09.041",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "35 picture and 34 word experiments; different convergent peaks during implicit negative processing."
+      },
+      {
+        "pmid": "34607619",
+        "queries": [
+          "M"
+        ],
+        "title": "Aprosodia Subsequent to Right Hemisphere Brain Damage: A Systematic Review and Meta-Analysis.",
+        "date": "2021-10-05",
+        "doi": "10.1017/s1355617721000825",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34619449",
+        "queries": [
+          "N"
+        ],
+        "title": "Alterations of regional spontaneous brain activities in anxiety disorders: A meta-analysis.",
+        "date": "2021-09-25",
+        "doi": "10.1016/j.jad.2021.09.062",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34822877",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in female adults with Anorexia Nervosa: A systematic review.",
+        "date": "2021-11-22",
+        "doi": "10.1016/j.neubiorev.2021.11.035",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34843305",
+        "queries": [
+          "C"
+        ],
+        "title": "Emotion dynamics in children and adolescents: A meta-analytic and descriptive review.",
+        "date": "2021-11-29",
+        "doi": "10.1037/emo0000970",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "102 ecological momentary assessment studies, 19928 young participants; emotion dynamics and differentiation."
+      },
+      {
+        "pmid": "34844572",
+        "queries": [
+          "N"
+        ],
+        "title": "A systematic review of the effects of psychiatric medications on social cognition.",
+        "date": "2021-11-29",
+        "doi": "10.1186/s12888-021-03545-z",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34909277",
+        "queries": [
+          "P"
+        ],
+        "title": "Alexithymia and facial emotion recognition in patients with craniofacial pain and association of alexithymia with anxiety and depression: a systematic review with meta-analysis.",
+        "date": "2021-11-29",
+        "doi": "10.7717/peerj.12545",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "34974069",
+        "queries": [
+          "P"
+        ],
+        "title": "A systematic review and meta-analysis of facial emotion recognition in autism spectrum disorder: The specificity of deficits and the role of task characteristics.",
+        "date": "2021-12-31",
+        "doi": "10.1016/j.neubiorev.2021.104518",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35083952",
+        "queries": [
+          "P"
+        ],
+        "title": "How cognitive and emotional empathy relate to rational thinking: empirical evidence and meta-analysis.",
+        "date": "2022-01-27",
+        "doi": "10.1080/00224545.2021.1985415",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35137241",
+        "queries": [
+          "C"
+        ],
+        "title": "Meta-analytic activation maps can help identify affective processes captured by contrast-based task fMRI: the case of threat-related facial expressions.",
+        "date": "2022-09-01",
+        "doi": "10.1093/scan/nsac010",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "35182608",
+        "queries": [
+          "P"
+        ],
+        "title": "Pharmacological compounds targeting emotional cognition in alcohol use disorder: A systematic review.",
+        "date": "2022-02-17",
+        "doi": "10.1016/j.pnpbp.2022.110535",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35214551",
+        "queries": [
+          "P"
+        ],
+        "title": "Automatic Emotion Recognition in Children with Autism: A Systematic Literature Review.",
+        "date": "2022-02-20",
+        "doi": "10.3390/s22041649",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35250718",
+        "queries": [
+          "M"
+        ],
+        "title": "Face Processing in Early Development: A Systematic Review of Behavioral Studies and Considerations in Times of COVID-19 Pandemic.",
+        "date": "2022-02-18",
+        "doi": "10.3389/fpsyg.2022.778247",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "129 infant face-processing studies; expression discrimination is discussed separately."
+      },
+      {
+        "pmid": "35349194",
+        "queries": [
+          "R"
+        ],
+        "title": "Meta-analytic evidence for downregulation of the amygdala during working memory maintenance.",
+        "date": "2022-03-29",
+        "doi": "10.1002/hbm.25828",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Distinct reappraisal comparator with a meta-analysis of working-memory tasks."
+      },
+      {
+        "pmid": "35428551",
+        "queries": [
+          "P"
+        ],
+        "title": "Neuromodulation of facial emotion recognition in health and disease: A systematic review.",
+        "date": "2022-04-12",
+        "doi": "10.1016/j.neucli.2022.03.005",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "35572000",
+        "queries": [
+          "N"
+        ],
+        "title": "Altered Resting Brain Functions in Patients With Irritable Bowel Syndrome: A Systematic Review.",
+        "date": "2022-04-29",
+        "doi": "10.3389/fnhum.2022.851586",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35636561",
+        "queries": [
+          "R"
+        ],
+        "title": "The neural bases of expressive suppression: A systematic review of functional neuroimaging studies.",
+        "date": "2022-05-28",
+        "doi": "10.1016/j.neubiorev.2022.104708",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "12 fMRI studies of expressive suppression. Amygdala/insula results mixed."
+      },
+      {
+        "pmid": "35654963",
+        "queries": [
+          "N"
+        ],
+        "title": "Activation network mapping for integration of heterogeneous fMRI findings.",
+        "date": "2022-06-02",
+        "doi": "10.1038/s41562-022-01371-1",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35664889",
+        "queries": [
+          "N"
+        ],
+        "title": "Convergent regional brain abnormalities in behavioral variant frontotemporal dementia: A neuroimaging meta-analysis of 73 studies.",
+        "date": "2022-05-29",
+        "doi": "10.1002/dad2.12318",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35737561",
+        "queries": [
+          "R",
+          "I"
+        ],
+        "title": "Shame on me for needing you: A multistudy examination of links between receiving interpersonal emotion regulation and experiencing shame.",
+        "date": "2022-06-23",
+        "doi": "10.1037/emo0001109",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "35814075",
+        "queries": [
+          "R"
+        ],
+        "title": "The Development of Cognitive Reappraisal From Early Childhood Through Adolescence: A Systematic Review and Methodological Recommendations.",
+        "date": "2022-06-22",
+        "doi": "10.3389/fpsyg.2022.875964",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Typical development of experimentally assessed cognitive reappraisal."
+      },
+      {
+        "pmid": "35840128",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition and schizotypal traits: A systematic review of behavioural studies.",
+        "date": "2022-07-15",
+        "doi": "10.1111/eip.13328",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Dimensional schizotypal traits reported separately from diagnosed cases."
+      },
+      {
+        "pmid": "35843369",
+        "queries": [
+          "N"
+        ],
+        "title": "Real-time fMRI neurofeedback as a new treatment for psychiatric disorders: A meta-analysis.",
+        "date": "2022-07-16",
+        "doi": "10.1016/j.pnpbp.2022.110605",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35851975",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation in substance use disorders: a systematic review and meta-analysis.",
+        "date": "2022-08-11",
+        "doi": "10.1111/add.16001",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35927625",
+        "queries": [
+          "N"
+        ],
+        "title": "Headache-related circuits and high frequencies evaluated by EEG, MRI, PET as potential biomarkers to differentiate chronic and episodic migraine: Evidence from a systematic review.",
+        "date": "2022-08-04",
+        "doi": "10.1186/s10194-022-01465-1",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35945478",
+        "queries": [
+          "P"
+        ],
+        "title": "Disentangling emotional signals in the brain: an ALE meta-analysis of vocal affect perception.",
+        "date": "2022-08-09",
+        "doi": "10.3758/s13415-022-01030-y",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "Vocal affect: 38 ALE contrasts and 695 participants in main analysis."
+      },
+      {
+        "pmid": "35961153",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition and empathy in adults with obsessive compulsive disorder: A meta-analysis.",
+        "date": "2022-07-28",
+        "doi": "10.1016/j.psychres.2022.114752",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "35999332",
+        "queries": [
+          "N"
+        ],
+        "title": "Explicit and Implicit Emotion Processing in the Cerebellum: A Meta-analysis and Systematic Review.",
+        "date": "2022-08-23",
+        "doi": "10.1007/s12311-022-01459-4",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "80 studies, 2761 participants; explicit and implicit cerebellar emotion contrasts."
+      },
+      {
+        "pmid": "36063620",
+        "queries": [
+          "R"
+        ],
+        "title": "The emotion regulation process in somatic symptom disorders and related conditions - A systematic narrative review.",
+        "date": "2022-08-21",
+        "doi": "10.1016/j.cpr.2022.102196",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36087760",
+        "queries": [
+          "D"
+        ],
+        "title": "Furthering the language hypothesis of alexithymia: An integrated review and meta-analysis.",
+        "date": "2022-09-08",
+        "doi": "10.1016/j.neubiorev.2022.104864",
+        "decision": "excluded_after_further_screening",
+        "reason": "Pooled subgroup for differentiation combines clinical and healthy studies, without clinical-status subgroup"
+      },
+      {
+        "pmid": "36151909",
+        "queries": [
+          "N"
+        ],
+        "title": "Mirror neurons and empathy-related regions in psychopathy: Systematic review, meta-analysis, and a working model.",
+        "date": "2022-10-04",
+        "doi": "10.1080/17470919.2022.2128868",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36186867",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in children and adolescents with epilepsy: A meta-analysis.",
+        "date": "2022-09-15",
+        "doi": "10.3389/fpsyt.2022.983565",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36276336",
+        "queries": [
+          "P"
+        ],
+        "title": "Theory of mind and facial emotion recognition in adults with temporal lobe epilepsy: A meta-analysis.",
+        "date": "2022-10-06",
+        "doi": "10.3389/fpsyt.2022.976439",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36291215",
+        "queries": [
+          "N"
+        ],
+        "title": "A Meta-Analysis of fMRI Studies of Youth Cannabis Use: Alterations in Executive Control, Social Cognition/Emotion Processing, and Reward Processing in Cannabis Using Youth.",
+        "date": "2022-09-23",
+        "doi": "10.3390/brainsci12101281",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36362705",
+        "queries": [
+          "R"
+        ],
+        "title": "The Effects of Virtual Reality in Targeting Transdiagnostic Factors for Mental Health: A Systematic Review of the Literature.",
+        "date": "2022-10-31",
+        "doi": "10.3390/jcm11216463",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36375232",
+        "queries": [
+          "N"
+        ],
+        "title": "The neural correlates of socio-cognitive factors and eating disorders in young people: A systematic review.",
+        "date": "2022-11-04",
+        "doi": "10.1016/j.jpsychires.2022.10.058",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36380188",
+        "queries": [
+          "P"
+        ],
+        "title": "Association between fractional amplitude of low-frequency fluctuation (fALFF) and facial emotion recognition ability in first-episode schizophrenia patients: a fMRI study.",
+        "date": "2022-11-15",
+        "doi": "10.1038/s41598-022-24258-7",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36462610",
+        "queries": [
+          "N"
+        ],
+        "title": "Limbic and cortical regions as functional biomarkers associated with emotion regulation in bipolar disorder: A meta-analysis of neuroimaging studies.",
+        "date": "2022-11-30",
+        "doi": "10.1016/j.jad.2022.11.071",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36481231",
+        "queries": [
+          "S"
+        ],
+        "title": "Paternal pregnancy-related anxiety: Systematic review of men's concerns and experiences during their partners' pregnancies.",
+        "date": "2022-12-05",
+        "doi": "10.1016/j.jad.2022.11.092",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36497921",
+        "queries": [
+          "R"
+        ],
+        "title": "The Relationship between Emotion Regulation (ER) and Problematic Smartphone Use (PSU): A Systematic Review and Meta-Analyses.",
+        "date": "2022-11-28",
+        "doi": "10.3390/ijerph192315848",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36511171",
+        "queries": [
+          "N"
+        ],
+        "title": "Annual Research Review: Emotion processing in offspring of mothers with depression diagnoses - a systematic review of neural and physiological research.",
+        "date": "2022-12-13",
+        "doi": "10.1111/jcpp.13734",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36567655",
+        "queries": [
+          "I"
+        ],
+        "title": "A meta-analysis of mother-child synchrony in respiratory sinus arrhythmia and contextual risk.",
+        "date": "2023-01-01",
+        "doi": "10.1002/dev.22355",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "12 studies, 14 samples, 1201 dyads; RSA synchrony b=.031 [.01,.05], challenge moderator uncertain."
+      },
+      {
+        "pmid": "36577728",
+        "queries": [
+          "N"
+        ],
+        "title": "Disrupted functional connectivity of the brain reward system in substance use problems: A meta-analysis of functional neuroimaging studies.",
+        "date": "2023-01-01",
+        "doi": "10.1111/adb.13257",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36606133",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion identification impairments in Chinese persons living with schizophrenia: A meta-analysis.",
+        "date": "2022-12-20",
+        "doi": "10.3389/fpsyt.2022.1097350",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36673984",
+        "queries": [
+          "R"
+        ],
+        "title": "Linking Cognitive Reappraisal and Expressive Suppression to Mindfulness: A Three-Level Meta-Analysis.",
+        "date": "2023-01-10",
+        "doi": "10.3390/ijerph20021241",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "36680910",
+        "queries": [
+          "R"
+        ],
+        "title": "Managing emotions in panic disorder: A systematic review of studies related to emotional intelligence, alexithymia, emotion regulation, and coping.",
+        "date": "2023-01-11",
+        "doi": "10.1016/j.jbtep.2023.101835",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36782061",
+        "queries": [
+          "N"
+        ],
+        "title": "Prefrontal, parietal, and limbic condition-dependent differences in bipolar disorder: a large-scale meta-analysis of functional neuroimaging studies.",
+        "date": "2023-02-13",
+        "doi": "10.1038/s41380-023-01974-8",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36843351",
+        "queries": [
+          "P"
+        ],
+        "title": "Establishing the Relationship Between Attention Deficit Hyperactivity Disorder and Emotional Facial Expression Recognition Deficit: A Systematic Review.",
+        "date": "2023-02-26",
+        "doi": "10.1177/10870547231154901",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36870234",
+        "queries": [
+          "P"
+        ],
+        "title": "Insomnia and impacts on facial expression recognition accuracy, intensity and speed: A meta-analysis.",
+        "date": "2023-02-04",
+        "doi": "10.1016/j.jpsychires.2023.02.001",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "36907121",
+        "queries": [
+          "P"
+        ],
+        "title": "The acute effects of alcohol on social cognition: A systematic review of experimental studies.",
+        "date": "2023-03-02",
+        "doi": "10.1016/j.drugalcdep.2023.109830",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Acute alcohol and recognition outcomes; potentially overlaps 38017644."
+      },
+      {
+        "pmid": "36965452",
+        "queries": [
+          "R"
+        ],
+        "title": "Intolerance of uncertainty and emotion regulation: A meta-analytic and systematic review.",
+        "date": "2023-03-16",
+        "doi": "10.1016/j.cpr.2023.102270",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "36988918",
+        "queries": [
+          "N"
+        ],
+        "title": "Association Between the Fronto-Limbic Network and Cognitive and Emotional Functioning in Individuals With Bipolar Disorder: A Systematic Review and Meta-analysis.",
+        "date": "2023-05-01",
+        "doi": "10.1001/jamapsychiatry.2023.0131",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "36997510",
+        "queries": [
+          "N"
+        ],
+        "title": "Emotion processing in youths with conduct problems: an fMRI meta-analysis.",
+        "date": "2023-03-30",
+        "doi": "10.1038/s41398-023-02363-z",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37307790",
+        "queries": [
+          "I"
+        ],
+        "title": "Risk and protective factors for stress generation: A meta-analytic review.",
+        "date": "2023-06-05",
+        "doi": "10.1016/j.cpr.2023.102299",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "37410880",
+        "queries": [
+          "P"
+        ],
+        "title": "Can the Ability to Recognize Facial Emotions in Individuals With Neurodegenerative Disease be Improved? A Systematic Review and Meta-analysis.",
+        "date": "2023-12-01",
+        "doi": "10.1097/wnn.0000000000000348",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37448490",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "The conscious processing of emotion in depression disorder: a meta-analysis of neuroimaging studies.",
+        "date": "2023-06-28",
+        "doi": "10.3389/fpsyt.2023.1099426",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37469125",
+        "queries": [
+          "N"
+        ],
+        "title": "MRI biomarkers for memory-related impairment in amyotrophic lateral sclerosis: a systematic review.",
+        "date": "2023-07-19",
+        "doi": "10.1080/21678421.2023.2236651",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37538200",
+        "queries": [
+          "N"
+        ],
+        "title": "Conceptualizing psychological resilience through resting-state functional MRI in a mentally healthy population: a systematic review.",
+        "date": "2023-07-19",
+        "doi": "10.3389/fnbeh.2023.1175064",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37546477",
+        "queries": [
+          "R"
+        ],
+        "title": "Comparing reappraisal and acceptance strategies to understand the neural architecture of emotion regulation: a meta-analytic approach.",
+        "date": "2023-07-21",
+        "doi": "10.3389/fpsyg.2023.1187092",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Coordinate synthesis of experimentally instructed reappraisal and acceptance."
+      },
+      {
+        "pmid": "37625644",
+        "queries": [
+          "P"
+        ],
+        "title": "Differences in facial emotion recognition between bipolar disorder and other clinical populations: A systematic review and meta-analysis.",
+        "date": "2023-08-23",
+        "doi": "10.1016/j.pnpbp.2023.110847",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37631629",
+        "queries": [
+          "P"
+        ],
+        "title": "New Trends in Emotion Recognition Using Image Analysis by Neural Networks, A Systematic Review.",
+        "date": "2023-08-10",
+        "doi": "10.3390/s23167092",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37672106",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial expression recognition deficits in frontotemporal dementia and Alzheimer's disease: a meta-analytic investigation of effects of phenotypic variant, task modality, geographical region and symptomatic specificity.",
+        "date": "2023-09-06",
+        "doi": "10.1007/s00415-023-11927-4",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37715528",
+        "queries": [
+          "P"
+        ],
+        "title": "Vocal emotion recognition in attention-deficit hyperactivity disorder: a meta-analysis.",
+        "date": "2023-09-16",
+        "doi": "10.1080/02699931.2023.2258590",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37757486",
+        "queries": [
+          "R"
+        ],
+        "title": "Unpacking reappraisal: a systematic review of fMRI studies of distancing and reinterpretation.",
+        "date": "2023-10-01",
+        "doi": "10.1093/scan/nsad050",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "32 healthy-adult fMRI studies; distancing and reinterpretation; no reliable difference in pooled reports."
+      },
+      {
+        "pmid": "37758325",
+        "queries": [
+          "P"
+        ],
+        "title": "The Impact of Musical Rehabilitation on Complex Sound Perception in Cochlear Implant Users: A Systematic Review.",
+        "date": "2023-09-28",
+        "doi": "10.1097/mao.0000000000004025",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37766661",
+        "queries": [
+          "N"
+        ],
+        "title": "Food and non-alcoholic beverage marketing in children and adults: A systematic review and activation likelihood estimation meta-analysis of functional magnetic resonance imaging studies.",
+        "date": "2023-09-28",
+        "doi": "10.1111/obr.13643",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37780168",
+        "queries": [
+          "I"
+        ],
+        "title": "A systematic review of the role of teachers' support in promoting socially shared regulatory strategies for learning.",
+        "date": "2023-09-14",
+        "doi": "10.3389/fpsyg.2023.1208012",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "37783710",
+        "queries": [
+          "N"
+        ],
+        "title": "A coordinate-based meta-analysis of human amygdala connectivity alterations related to early life adversities.",
+        "date": "2023-10-02",
+        "doi": "10.1038/s41598-023-43057-2",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37864116",
+        "queries": [
+          "P"
+        ],
+        "title": "Application of facial neuromuscular electrical stimulation (fNMES) in psychophysiological research: Practical recommendations based on a systematic review of the literature.",
+        "date": "2023-10-20",
+        "doi": "10.3758/s13428-023-02262-7",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "37904259",
+        "queries": [
+          "P"
+        ],
+        "title": "Dynamic and/or multimodal assessments for social cognition in neuropsychology: Results from a systematic literature review.",
+        "date": "2023-10-30",
+        "doi": "10.1080/13854046.2023.2266172",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "37910106",
+        "queries": [
+          "N"
+        ],
+        "title": "Adverse Life Experiences and Brain Function: A Meta-Analysis of Functional Magnetic Resonance Imaging Findings.",
+        "date": "2023-11-01",
+        "doi": "10.1001/jamanetworkopen.2023.40018",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "37971850",
+        "queries": [
+          "R"
+        ],
+        "title": "The role of trait reappraisal in response to emotional ambiguity: A systematic review and meta-analysis.",
+        "date": "2023-11-16",
+        "doi": "10.1037/emo0001316",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "13 studies, 2086 participants; trait reappraisal vs interpretation bias r=-.18 [-.27,-.09]."
+      },
+      {
+        "pmid": "38017644",
+        "queries": [
+          "P"
+        ],
+        "title": "A systematic review of the acute effects of alcohol on emotion recognition of facial expressions.",
+        "date": "2023-12-01",
+        "doi": "10.1111/adb.13345",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Acute alcohol and facial emotion recognition in nonclinical social drinkers."
+      },
+      {
+        "pmid": "38049598",
+        "queries": [
+          "N"
+        ],
+        "title": "Effects of psychotherapy on brain activation during negative emotional processing in patients with posttraumatic stress disorder: a systematic review and meta-analysis.",
+        "date": "2023-12-05",
+        "doi": "10.1007/s11682-023-00831-0",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38113382",
+        "queries": [
+          "R"
+        ],
+        "title": "Cognitive reappraisal of food craving and emotions: a coordinate-based meta-analysis of fMRI studies.",
+        "date": "2024-01-01",
+        "doi": "10.1093/scan/nsad077",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Affective reappraisal datasets distinguished from food-craving outcomes."
+      },
+      {
+        "pmid": "38156251",
+        "queries": [
+          "R"
+        ],
+        "title": "Habitual Expressive Suppression of Positive, but not Negative, Emotions Consistently Predicts Lower Well-being across Two Culturally Distinct Regions.",
+        "date": "2023-09-21",
+        "doi": "10.1007/s42761-023-00221-1",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "38237538",
+        "queries": [
+          "N"
+        ],
+        "title": "Whole-brain structural and functional neuroimaging of individuals who attempted suicide and people who did not: A systematic review and exploratory coordinate-based meta-analysis.",
+        "date": "2024-01-17",
+        "doi": "10.1016/j.euroneuro.2023.10.003",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38272868",
+        "queries": [
+          "M"
+        ],
+        "title": "Major depressive disorder associated alterations in the effective connectivity of the face processing network: a systematic review.",
+        "date": "2024-01-25",
+        "doi": "10.1038/s41398-024-02734-0",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38332859",
+        "queries": [
+          "N"
+        ],
+        "title": "Altered resting-state brain functional activities and networks in Crohn's disease: a systematic review.",
+        "date": "2024-01-24",
+        "doi": "10.3389/fnins.2024.1319359",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38348133",
+        "queries": [
+          "N"
+        ],
+        "title": "A systematic review and coordinate-based meta-analysis of fMRI studies on acupuncture at LR 3.",
+        "date": "2024-01-29",
+        "doi": "10.3389/fnins.2024.1341567",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38350594",
+        "queries": [
+          "P"
+        ],
+        "title": "Meanness and affective processing: A meta-analysis of EEG findings on emotional face processing in individuals with psychopathic traits.",
+        "date": "2024-02-11",
+        "doi": "10.1016/j.biopsycho.2024.108764",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "38402398",
+        "queries": [
+          "P"
+        ],
+        "title": "Development and application of emotion recognition technology - a systematic literature review.",
+        "date": "2024-02-24",
+        "doi": "10.1186/s40359-024-01581-4",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38447702",
+        "queries": [
+          "N"
+        ],
+        "title": "Measurement of event-related potentials from electroencephalography to evaluate emotional processing in Fibromyalgia Syndrome: A systematic review and meta-analysis.",
+        "date": "2024-03-04",
+        "doi": "10.1016/j.ijpsycho.2024.112327",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38514803",
+        "queries": [
+          "N"
+        ],
+        "title": "The nested hierarchical model of self and its non-relational vs relational posttraumatic manifestation: an fMRI meta-analysis of emotional processing.",
+        "date": "2024-03-21",
+        "doi": "10.1038/s41380-024-02520-w",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38546155",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion malleability beliefs matter in emotion regulation: a comprehensive review and meta-analysis.",
+        "date": "2024-03-28",
+        "doi": "10.1080/02699931.2024.2334833",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "38657292",
+        "queries": [
+          "R"
+        ],
+        "title": "A meta-analysis of cognitive reappraisal and personal resilience.",
+        "date": "2024-04-07",
+        "doi": "10.1016/j.cpr.2024.102428",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38666115",
+        "queries": [
+          "N"
+        ],
+        "title": "The positive and negative emotion functions related to loneliness: a systematic review of behavioural and neuroimaging studies.",
+        "date": "2023-11-24",
+        "doi": "10.1093/psyrad/kkad029",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Exposure to loneliness; 11 of 29 studies assessed brain correlates of emotions, direction inconsistent."
+      },
+      {
+        "pmid": "38672044",
+        "queries": [
+          "N"
+        ],
+        "title": "Brain Activation for Social Cognition and Emotion Processing Tasks in Borderline Personality Disorder: A Meta-Analysis of Neuroimaging Studies.",
+        "date": "2024-04-18",
+        "doi": "10.3390/brainsci14040395",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38686422",
+        "queries": [
+          "P"
+        ],
+        "title": "[Research progress on emotion recognition by combining virtual reality environment and electroencephalogram signals].",
+        "date": "2024-04-01",
+        "doi": "10.7507/1001-5515.202310045",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38708762",
+        "queries": [
+          "N"
+        ],
+        "title": "Abnormal neural activation during negative emotion processing in anxiety disorders: a coordinate-based meta-analysis.",
+        "date": "2024-05-06",
+        "doi": "10.1017/s1092852924000166",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38723429",
+        "queries": [
+          "P"
+        ],
+        "title": "Sensing technologies and machine learning methods for emotion recognition in autism: Systematic review.",
+        "date": "2024-05-03",
+        "doi": "10.1016/j.ijmedinf.2024.105469",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38724430",
+        "queries": [
+          "N"
+        ],
+        "title": "[Neuroimaging correlates of classical psychedelics effects: A systematic review].",
+        "date": "2024-05-08",
+        "doi": "10.1016/j.encep.2024.02.007",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38726033",
+        "queries": [
+          "N"
+        ],
+        "title": "Brain functional connectivity in hyperthyroid patients: systematic review.",
+        "date": "2024-04-24",
+        "doi": "10.3389/fnins.2024.1383355",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38803203",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial recognition, laterality judgement, alexithymia and resulting central nervous system adaptations in chronic primary headache and facial pain-A systematic review and meta-analysis.",
+        "date": "2024-05-27",
+        "doi": "10.1111/joor.13742",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38860431",
+        "queries": [
+          "P"
+        ],
+        "title": "Research Review: Social cognition and everyday social skills in children and adolescents with attention-deficit/hyperactivity disorder: a meta-analysis of case-control studies.",
+        "date": "2024-06-11",
+        "doi": "10.1111/jcpp.14006",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38870915",
+        "queries": [
+          "R"
+        ],
+        "title": "Association between Pathological Narcissism and Emotion Dysregulation: A Systematic Review.",
+        "date": "2024-06-13",
+        "doi": "10.1159/000538546",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38894274",
+        "queries": [
+          "P"
+        ],
+        "title": "Systematic Review of Emotion Detection with Computer Vision and Deep Learning.",
+        "date": "2024-05-28",
+        "doi": "10.3390/s24113484",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "38966729",
+        "queries": [
+          "P"
+        ],
+        "title": "Integrating artificial intelligence to assess emotions in learning environments: a systematic literature review.",
+        "date": "2024-06-19",
+        "doi": "10.3389/fpsyg.2024.1387089",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39020497",
+        "queries": [
+          "N"
+        ],
+        "title": "Scalp acupuncture targets for neurological disorders：evidence from neuroimaging studies (part 2).",
+        "date": "2024-07-01",
+        "doi": "10.13702/j.1000-0607.20230016",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39050382",
+        "queries": [
+          "P"
+        ],
+        "title": "Harnessing Few-Shot Learning for EEG signal classification: a survey of state-of-the-art techniques and future directions.",
+        "date": "2024-07-10",
+        "doi": "10.3389/fnhum.2024.1421922",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39116268",
+        "queries": [
+          "N"
+        ],
+        "title": "The Mindful Brain: A Systematic Review of the Neural Correlates of Trait Mindfulness.",
+        "date": "2024-11-01",
+        "doi": "10.1162/jocn_a_02230",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39167864",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion perception in individuals with clinical high risk for psychosis compared with healthy controls, first-episode psychosis, and in predicting psychosis transition: A systematic review and meta-analysis.",
+        "date": "2024-08-15",
+        "doi": "10.1016/j.psychres.2024.116143",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39214437",
+        "queries": [
+          "N"
+        ],
+        "title": "Large-scale meta-analyses and network analyses of neural substrates underlying human escalated aggression.",
+        "date": "2024-08-28",
+        "doi": "10.1016/j.neuroimage.2024.120824",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39243683",
+        "queries": [
+          "R"
+        ],
+        "title": "The deficit in cognitive reappraisal capacity in individuals with anxiety or depressive disorders: meta-analyses of behavioral and neuroimaging studies.",
+        "date": "2024-08-13",
+        "doi": "10.1016/j.cpr.2024.102480",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "39261314",
+        "queries": [
+          "N"
+        ],
+        "title": "Hemispheric asymmetries in borderline personality disorder: a systematic review.",
+        "date": "2024-09-12",
+        "doi": "10.1007/s00406-024-01888-8",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39298231",
+        "queries": [
+          "P"
+        ],
+        "title": "Age-related changes in emotion recognition across childhood: A meta-analytic review.",
+        "date": "2024-09-01",
+        "doi": "10.1037/bul0000442",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "129 studies of typical development; children's emotion recognition varies with age and task."
+      },
+      {
+        "pmid": "39358735",
+        "queries": [
+          "R"
+        ],
+        "title": "The role of emotion regulation in perinatal depression and anxiety: a systematic review.",
+        "date": "2024-10-02",
+        "doi": "10.1186/s40359-024-02033-9",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39397677",
+        "queries": [
+          "N"
+        ],
+        "title": "Patterns of abnormal activations in severe mental disorders a transdiagnostic data-driven meta-analysis of task-based fMRI studies.",
+        "date": "2024-10-14",
+        "doi": "10.1017/s003329172400165x",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39404856",
+        "queries": [
+          "A"
+        ],
+        "title": "Associations between cognitive appraisals and emotions: A meta-analytic review.",
+        "date": "2024-10-14",
+        "doi": "10.1037/bul0000452",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "Appraisal and emotion: 251 reports, 309 studies, 2634 effects; predicted relationships mean r=.33."
+      },
+      {
+        "pmid": "39406999",
+        "queries": [
+          "N"
+        ],
+        "title": "Convergent functional effects of antidepressants in major depressive disorder: a neuroimaging meta-analysis.",
+        "date": "2024-10-15",
+        "doi": "10.1038/s41380-024-02780-6",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39417024",
+        "queries": [
+          "R"
+        ],
+        "title": "Strategies and goals in Emotion Regulation models: a systematic review.",
+        "date": "2024-10-02",
+        "doi": "10.3389/fpsyg.2024.1425465",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "39455086",
+        "queries": [
+          "N"
+        ],
+        "title": "Altered neural activities during emotion regulation in depression: a meta-analysis.",
+        "date": "2024-09-01",
+        "doi": "10.1503/jpn.240046",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39461377",
+        "queries": [
+          "P"
+        ],
+        "title": "\"Does facial emotion recognition mediate the relationship between preterm birth and social skills? - A meta-analysis\".",
+        "date": "2024-10-25",
+        "doi": "10.1016/j.jad.2024.10.110",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39469249",
+        "queries": [
+          "D"
+        ],
+        "title": "Weight-control compensatory behaviors patterns and correlates: a scoping review.",
+        "date": "2024-10-14",
+        "doi": "10.3389/fpsyg.2024.1383662",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "39480309",
+        "queries": [
+          "I"
+        ],
+        "title": "Coregulation between parents and elementary school-aged children in response to challenge and in association with child outcomes: A systematic review.",
+        "date": "2024-10-31",
+        "doi": "10.1037/dev0001864",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "14 nonclinical parent–child challenge studies; synchrony results depend on kind and context."
+      },
+      {
+        "pmid": "39541515",
+        "queries": [
+          "R"
+        ],
+        "title": "Loneliness and emotion regulation: A meta-analytic review.",
+        "date": "2024-11-14",
+        "doi": "10.1037/emo0001438",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "39554694",
+        "queries": [
+          "N"
+        ],
+        "title": "Common and divergent neuroimaging features in major depression, posttraumatic stress disorder, and their comorbidity.",
+        "date": "2024-11-04",
+        "doi": "10.1093/psyrad/kkae022",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39595880",
+        "queries": [
+          "P"
+        ],
+        "title": "A Systematic Review on Social Cognition in ADHD: The Role of Language, Theory of Mind, and Executive Functions.",
+        "date": "2024-11-01",
+        "doi": "10.3390/brainsci14111117",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39815640",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "An ALE meta-analysis of the neural evidence of facial emotion processing in autism.",
+        "date": "2025-01-15",
+        "doi": "10.1080/15622975.2024.2446823",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39818596",
+        "queries": [
+          "R"
+        ],
+        "title": "A systematic review of emotion regulation measurement in children and adolescents diagnosed with intellectual disabilities.",
+        "date": "2020-08-10",
+        "doi": "10.3109/13668250.2020.1784520",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39833317",
+        "queries": [
+          "N"
+        ],
+        "title": "Modulating Cognitive Function with Antihypertensive Medications: a Comprehensive Systematic Review On FMRI Studies.",
+        "date": "2025-01-20",
+        "doi": "10.1007/s00062-024-01494-0",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39913025",
+        "queries": [
+          "R"
+        ],
+        "title": "Religion and Emotion Regulation: A Systematic Review of Quantitative Studies.",
+        "date": "2025-02-06",
+        "doi": "10.1007/s10943-024-02216-z",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "39947526",
+        "queries": [
+          "S"
+        ],
+        "title": "Deep Continuous Sedation Until Death and Experience of Relatives and Healthcare Providers: A Systematic Review.",
+        "date": "2025-02-11",
+        "doi": "10.1016/j.jpainsymman.2025.02.004",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39975971",
+        "queries": [
+          "N"
+        ],
+        "title": "Multimodal abnormalities of brain function in chronic low back pain: a systematic review and meta-analysis of neuroimaging studies.",
+        "date": "2025-02-05",
+        "doi": "10.3389/fnins.2025.1535288",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "39995740",
+        "queries": [
+          "N"
+        ],
+        "title": "Potential neural mechanisms of acupuncture therapy on migraine: a systematic review and activation likelihood estimation meta-analysis update.",
+        "date": "2025-01-22",
+        "doi": "10.21037/qims-24-916",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40077009",
+        "queries": [
+          "P"
+        ],
+        "title": "AI Applications to Reduce Loneliness Among Older Adults: A Systematic Review of Effectiveness and Technologies.",
+        "date": "2025-02-20",
+        "doi": "10.3390/healthcare13050446",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40086716",
+        "queries": [
+          "N"
+        ],
+        "title": "Common neural correlates of chronic pain - A systematic review and meta-analysis of resting-state fMRI studies.",
+        "date": "2025-03-12",
+        "doi": "10.1016/j.pnpbp.2025.111326",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40099668",
+        "queries": [
+          "P"
+        ],
+        "title": "Artificial Intelligence in Facial Palsy Treatment: A Systematic Review and Recommendations.",
+        "date": "2025-03-18",
+        "doi": "10.1097/prs.0000000000012105",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40113519",
+        "queries": [
+          "P"
+        ],
+        "title": "Sensory Feedback in Parkinson Disease Voice Production: A Systematic Review.",
+        "date": "2025-03-19",
+        "doi": "10.1016/j.jvoice.2025.02.039",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40137070",
+        "queries": [
+          "P"
+        ],
+        "title": "Gender and Accuracy in Decoding Affect Cues: A Meta-Analysis.",
+        "date": "2025-03-18",
+        "doi": "10.3390/jintelligence13030038",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "1011 studies of nonverbal decoding; average sex difference r=.12 (d=.24)."
+      },
+      {
+        "pmid": "40138749",
+        "queries": [
+          "N"
+        ],
+        "title": "Abnormal brain activation in autism spectrum disorder during negative emotion processing: A meta-analysis of functional neuroimaging studies.",
+        "date": "2025-03-21",
+        "doi": "10.1016/j.jpsychires.2025.03.032",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40149742",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "From Neural Networks to Emotional Networks: A Systematic Review of EEG-Based Emotion Recognition in Cognitive Neuroscience and Real-World Applications.",
+        "date": "2025-02-20",
+        "doi": "10.3390/brainsci15030220",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "40159715",
+        "queries": [
+          "P"
+        ],
+        "title": "Relationships Between Immune-Inflammatory Features and Social Cognitive Impairments in Patients With Schizophrenia Spectrum Disorders: A Systematic Review.",
+        "date": "2025-04-01",
+        "doi": "10.1002/brb3.70384",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40180758",
+        "queries": [
+          "P"
+        ],
+        "title": "Interactions between faces and visual context in emotion perception: A meta-analysis.",
+        "date": "2025-04-03",
+        "doi": "10.3758/s13423-025-02678-6",
+        "decision": "included",
+        "verification": "full text",
+        "evidence": "Face and visual context both shift categorization; face superiority not established."
+      },
+      {
+        "pmid": "40234629",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation and mental health across cultures: a systematic review and meta-analysis.",
+        "date": "2025-04-15",
+        "doi": "10.1038/s41562-025-02168-8",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "40266625",
+        "queries": [
+          "N"
+        ],
+        "title": "Distinct Convergent Brain Alterations in Sleep Disorders and Sleep Deprivation: A Meta-Analysis.",
+        "date": "2025-07-01",
+        "doi": "10.1001/jamapsychiatry.2025.0488",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40268326",
+        "queries": [
+          "N"
+        ],
+        "title": "Joint and distinct neural structure and function deficits in major depressive disorder with suicidality: a multimodal meta-analysis of MRI studies.",
+        "date": "2025-03-01",
+        "doi": "10.1503/jpn.240112",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40287119",
+        "queries": [
+          "N"
+        ],
+        "title": "The effects of childhood adversity: Two specific neural patterns.",
+        "date": "2025-04-25",
+        "doi": "10.1016/j.neubiorev.2025.106176",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40311771",
+        "queries": [
+          "N"
+        ],
+        "title": "Amygdala hyperactivation in childhood maltreatment: An ALE-based meta-analysis on emotion-related processing.",
+        "date": "2025-04-29",
+        "doi": "10.1016/j.neubiorev.2025.106180",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40354956",
+        "queries": [
+          "N"
+        ],
+        "title": "Decoding the altruistic brain: An ALE meta-analysis of the functional localization of giving behaviors.",
+        "date": "2025-05-10",
+        "doi": "10.1016/j.neubiorev.2025.106205",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40356880",
+        "queries": [
+          "N"
+        ],
+        "title": "Seed-based resting-state connectivity as a neurosignature in fibromyalgia and depression: a narrative systematic review.",
+        "date": "2025-04-28",
+        "doi": "10.3389/fnhum.2025.1548617",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40379231",
+        "queries": [
+          "M"
+        ],
+        "title": "Linguistic and emotional prosody: A systematic review and ALE meta-analysis.",
+        "date": "2025-05-14",
+        "doi": "10.1016/j.neubiorev.2025.106210",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "ALE synthesis of affective and linguistic prosody in healthy participants."
+      },
+      {
+        "pmid": "40396576",
+        "queries": [
+          "S"
+        ],
+        "title": "Dispositional Religiosity Predicts Increased Incidence of Mixed Emotions: Evidence Across Five Studies Spanning Two Countries.",
+        "date": "2025-05-21",
+        "doi": "10.1177/01461672251337120",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "40441648",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation deficits in skin picking (excoriation) disorder: A systematic review.",
+        "date": "2025-05-27",
+        "doi": "10.1016/j.jad.2025.119500",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40456393",
+        "queries": [
+          "N"
+        ],
+        "title": "Neurocognitive effects of psilocybin: A systematic and comprehensive review of neuroimaging studies in humans.",
+        "date": "2025-05-31",
+        "doi": "10.1016/j.neubiorev.2025.106239",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40482576",
+        "queries": [
+          "N"
+        ],
+        "title": "A fMRI meta-analysis of emotion processing in the psychosis spectrum reveals no significant alterations in at-risk individuals.",
+        "date": "2025-05-30",
+        "doi": "10.1016/j.psychres.2025.116565",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40490007",
+        "queries": [
+          "N"
+        ],
+        "title": "EEG-based affective brain-computer interfaces: recent advancements and future challenges.",
+        "date": "2025-06-27",
+        "doi": "10.1088/1741-2552/ade290",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40507763",
+        "queries": [
+          "P"
+        ],
+        "title": "Children and Adolescents with Co-Occurring Attention-Deficit/Hyperactivity Disorder and Autism Spectrum Disorder: A Systematic Review of Multimodal Interventions.",
+        "date": "2025-06-05",
+        "doi": "10.3390/jcm14114000",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40546275",
+        "queries": [
+          "I"
+        ],
+        "title": "Interpersonal emotion regulation and mental health among cancer survivors: A systematic review.",
+        "date": "2025-04-01",
+        "doi": "10.1016/j.ijchp.2025.100592",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "40578755",
+        "queries": [
+          "N"
+        ],
+        "title": "Systematic Review: Convergence and Divergence Between Autism Spectrum Disorder and Obsessive-Compulsive Disorder: Genetic, Neuroimaging, and Cognitive Findings.",
+        "date": "2025-06-25",
+        "doi": "10.1016/j.jaac.2025.06.017",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40590497",
+        "queries": [
+          "I"
+        ],
+        "title": "The Self and Its Intersubjective Synchrony in Psychotherapy: A Systematic Review.",
+        "date": "2025-07-01",
+        "doi": "10.1002/cpp.70110",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "40625554",
+        "queries": [
+          "P"
+        ],
+        "title": "A review of hybrid EEG-based multimodal human-computer interfaces using deep learning: applications, advances, and challenges.",
+        "date": "2025-03-22",
+        "doi": "10.1007/s13534-025-00469-5",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40631731",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial Emotion Recognition Trainings for Children and Adolescents: A Transdiagnostic Systematic Review and Meta-Analysis.",
+        "date": "2025-07-01",
+        "doi": "10.1002/cpp.70116",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40766925",
+        "queries": [
+          "P"
+        ],
+        "title": "Implementation of generative AI for the assessment and treatment of autism spectrum disorders: a scoping review.",
+        "date": "2025-07-22",
+        "doi": "10.3389/fpsyt.2025.1628216",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40819234",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation strategies to improve outcomes in family caregivers of people with Alzheimer's disease and related dementias: A systematic review.",
+        "date": "2025-08-17",
+        "doi": "10.1177/13591053251354882",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "40876497",
+        "queries": [
+          "P"
+        ],
+        "title": "Links between auditory verbal hallucinations and auditory emotional perception: A systematic review.",
+        "date": "2025-08-26",
+        "doi": "10.1016/j.neubiorev.2025.106351",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40926440",
+        "queries": [
+          "P"
+        ],
+        "title": "Machine learning techniques to classify emotions from electroencephalogram topographic maps: A systematic review.",
+        "date": "2025-09-08",
+        "doi": "10.1016/j.compbiomed.2025.111022",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40938374",
+        "queries": [
+          "N"
+        ],
+        "title": "Resting-state functional MRI activity and connectivity in inflammatory bowel disease: a systematic review.",
+        "date": "2025-09-12",
+        "doi": "10.1007/s00234-025-03756-1",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40939909",
+        "queries": [
+          "R"
+        ],
+        "title": "Distinct prefrontal lateralization in placebo and reappraisal mechanisms: An ALE meta-analysis.",
+        "date": "2025-09-10",
+        "doi": "10.1016/j.neuroimage.2025.121459",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "ALE comparison of placebo and reappraisal; separate significant task peaks."
+      },
+      {
+        "pmid": "40951795",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial Emotion Recognition in Sleep Deprivation: A Systematic Review and Meta-Analysis.",
+        "date": "2023-06-12",
+        "doi": "10.5334/irsp.679",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "40992620",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "Efficacy of non-invasive brain stimulation on theory of mind and emotion processing in neuropsychiatric disorders: A systematic review and meta-analysis.",
+        "date": "2025-09-22",
+        "doi": "10.1016/j.neubiorev.2025.106380",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "40994905",
+        "queries": [
+          "R"
+        ],
+        "title": "A Systematic Review of the Impact of Cancer Survivorship Interventions With Asian American Cancer Survivors.",
+        "date": "2023-04-27",
+        "doi": "10.1037/aap0000317",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41027025",
+        "queries": [
+          "P"
+        ],
+        "title": "Speech Emotion Recognition in Mental Health: Systematic Review of Voice-Based Applications.",
+        "date": "2025-09-30",
+        "doi": "10.2196/74260",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41033253",
+        "queries": [
+          "R"
+        ],
+        "title": "Changes of emotion regulation strategies in Chinese children and adolescents during 2003-2023: A cross-temporal meta-analysis.",
+        "date": "2025-09-30",
+        "doi": "10.1016/j.actpsy.2025.105557",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Typical cohorts of children and adolescents: cross-temporal trends in self-reported strategies."
+      },
+      {
+        "pmid": "41120434",
+        "queries": [
+          "N"
+        ],
+        "title": "Advancing image-based meta-analysis through systematic use of crowdsourced NeuroVault data.",
+        "date": "2025-10-21",
+        "doi": "10.1038/s41598-025-20328-8",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "41123396",
+        "queries": [
+          "S"
+        ],
+        "title": "Hematopoietic Stem Cell Transplantation and Psychosocial Impacts on Sibling Donors of Pediatric Patients: A Systematic Review of Qualitative Studies.",
+        "date": "2025-10-01",
+        "doi": "10.1188/25.onf.413-425",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41166343",
+        "queries": [
+          "P"
+        ],
+        "title": "Emotion recognition in people with Huntington's disease: A comprehensive systematic review.",
+        "date": "2025-10-30",
+        "doi": "10.1177/18796397251390252",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41237605",
+        "queries": [
+          "R"
+        ],
+        "title": "Cognitive reappraisal of conditioned fear: A systematic review.",
+        "date": "2025-11-09",
+        "doi": "10.1016/j.jbtep.2025.102076",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Systematically selected studies of reappraising conditioned fear."
+      },
+      {
+        "pmid": "41241882",
+        "queries": [
+          "P"
+        ],
+        "title": "[Emotion detection by motion analysis: a comparison of human and machine-based processing].",
+        "date": "2025-11-16",
+        "doi": "10.1556/650.2025.33365",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "41255064",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in Korsakoff's syndrome: A meta-analysis.",
+        "date": "2025-11-18",
+        "doi": "10.1111/add.70256",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41271623",
+        "queries": [
+          "N"
+        ],
+        "title": "Common neural dysfunction in psychiatric disorders: Insights from a meta-analysis of resting-state fMRI studies.",
+        "date": "2025-11-21",
+        "doi": "10.1038/s41398-025-03760-2",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41280186",
+        "queries": [
+          "P"
+        ],
+        "title": "Speech analysis and speech emotion recognition in mental disease: a scoping review.",
+        "date": "2025-11-06",
+        "doi": "10.3389/fpsyg.2025.1645860",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41315485",
+        "queries": [
+          "P"
+        ],
+        "title": "A meta-analytic analysis of the acute effects of MDMA on empathy and emotion recognition in humans.",
+        "date": "2025-11-29",
+        "doi": "10.1038/s41598-025-25610-3",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "41389167",
+        "queries": [
+          "N"
+        ],
+        "title": "Neuroimaging Evidence of Facial Emotion Processing in Autism Spectrum Disorder: A Meta-Analysis of Functional Neuroimaging Studies.",
+        "date": "2025-12-13",
+        "doi": "10.1007/s10803-025-07135-w",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41402228",
+        "queries": [
+          "P"
+        ],
+        "title": "Assessment of social cognition impairments in patients with amyotrophic lateral sclerosis: How can it be improved? A systematic review.",
+        "date": "2025-12-15",
+        "doi": "10.1016/j.neurol.2025.11.003",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41402604",
+        "queries": [
+          "A"
+        ],
+        "title": "Emotion Regulation Differences Between Gender and Sexuality Groups: A Systematic Review and Meta-Analysis.",
+        "date": "2025-11-01",
+        "doi": "10.1007/s10508-025-03276-2",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "41429329",
+        "queries": [
+          "R"
+        ],
+        "title": "Assessment of changes in late positive potential during emotion regulation: Evidence from a three-level meta-analysis.",
+        "date": "2025-12-20",
+        "doi": "10.1016/j.brainresbull.2025.111700",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Three-level EEG synthesis of LPP changes during experimentally cued regulation."
+      },
+      {
+        "pmid": "41435625",
+        "queries": [
+          "P",
+          "M"
+        ],
+        "title": "Facial expression recognition in older adults with depression: a meta-analytic review.",
+        "date": "2025-12-11",
+        "doi": "10.1016/j.psychres.2025.116889",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41457665",
+        "queries": [
+          "P"
+        ],
+        "title": "Digital Social Cognition Training Enhancing Social Cognition in Patients With Schizophrenia: A Systematic Review and Meta-Analysis.",
+        "date": "2025-12-28",
+        "doi": "10.1111/acps.70060",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41507657",
+        "queries": [
+          "M"
+        ],
+        "title": "Neural correlates of emotional prosody in Parkinson's disease: A systematic review.",
+        "date": "2026-01-08",
+        "doi": "10.3758/s13415-025-01379-w",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41521787",
+        "queries": [
+          "P"
+        ],
+        "title": "Facial emotion recognition deficits in bipolar disorder: A systematic review and meta-analysis.",
+        "date": "2026-01-12",
+        "doi": "10.1192/j.eurpsy.2025.10147",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41583775",
+        "queries": [
+          "R"
+        ],
+        "title": "Exploring the relationships among interpersonal competence, perceived stress and cognitive reappraisal in Chinese PAP recruits: a longitudinal cross-lag study.",
+        "date": "2026-01-09",
+        "doi": "10.3389/fpsyg.2025.1672339",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41643756",
+        "queries": [
+          "N"
+        ],
+        "title": "Uncovering the role of sociodemographic factors in sex/gender differences in emotional brain activation: an SDM-PSI meta-analysis of fMRI studies.",
+        "date": "2026-02-03",
+        "doi": "10.1016/j.neuroimage.2026.121777",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "63 studies, 5436 participants; no significant whole-brain main effect of sex/gender."
+      },
+      {
+        "pmid": "41669154",
+        "queries": [
+          "R"
+        ],
+        "title": "A 2025 systematic review of teacher emotion regulation and well-being: implications for student engagement, learning outcomes, and professional development in EFL contexts.",
+        "date": "2026-01-26",
+        "doi": "10.3389/fpsyg.2025.1715266",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "41684115",
+        "queries": [
+          "P"
+        ],
+        "title": "Pharmacological interventions for social cognitive impairments in schizophrenia: A systematic review and network meta-analysis of randomized controlled trials.",
+        "date": "2026-02-13",
+        "doi": "10.1192/j.eurpsy.2026.10159",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41704404",
+        "queries": [
+          "M"
+        ],
+        "title": "Cultural differences in the production of emotional facial expressions: a review.",
+        "date": "2026-02-02",
+        "doi": "10.3389/fpsyg.2026.1699374",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "21 articles on production of posed or spontaneous facial expressions across cultures."
+      },
+      {
+        "pmid": "41707759",
+        "queries": [
+          "N"
+        ],
+        "title": "Oxytocin, sex hormones and brain activity in facial expression processing: A sex-based systematic review.",
+        "date": "2026-02-16",
+        "doi": "10.1016/j.neubiorev.2026.106610",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "38 healthy-adult articles about hormones and fMRI during facial emotion processing."
+      },
+      {
+        "pmid": "41728596",
+        "queries": [
+          "P"
+        ],
+        "title": "The utilization of virtual reality in the training of de-escalation of aggression for both providers and users of public and healthcare services from the new millennium to the COVID-19 era: a systematic review.",
+        "date": "2026-02-05",
+        "doi": "10.3389/fmed.2026.1657986",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41731284",
+        "queries": [
+          "N"
+        ],
+        "title": "A systematic review on dysconnectivity in face and emotion processing networks in schizophrenia.",
+        "date": "2026-02-24",
+        "doi": "10.3758/s13415-025-01391-0",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41739768",
+        "queries": [
+          "N"
+        ],
+        "title": "Do first-line treatments for obsessive-compulsive disorder impact brain structure and function? A systematic review.",
+        "date": "2026-02-25",
+        "doi": "10.47626/1516-4446-2025-4691",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41746853",
+        "queries": [
+          "P"
+        ],
+        "title": "Magnetoencephalographic Signatures of Facial Emotion Processing in Schizophrenia and Major Depressive Disorder: A Systematic Review.",
+        "date": "2026-02-26",
+        "doi": "10.1159/000550903",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41749073",
+        "queries": [
+          "N"
+        ],
+        "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using ALE.",
+        "date": "2026-02-27",
+        "doi": "10.1017/s0033291726103419",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41768176",
+        "queries": [
+          "N"
+        ],
+        "title": "The neurobiology of internet addiction: a scoping review of developmental and gender-specific mechanisms.",
+        "date": "2026-02-12",
+        "doi": "10.3389/fpsyg.2026.1729470",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41804256",
+        "queries": [
+          "N"
+        ],
+        "title": "Effect of ketamine on reward processing in depressive disorders: a systematic review of neuroimaging studies.",
+        "date": "2026-03-10",
+        "doi": "10.1017/s109285292610087x",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41855642",
+        "queries": [
+          "P"
+        ],
+        "title": "Comment on \"Facial expression recognition in older adults with depression: A meta-analytic review\".",
+        "date": "2026-03-09",
+        "doi": "10.1016/j.psychres.2026.117083",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41865383",
+        "queries": [
+          "P"
+        ],
+        "title": "Effects of cognitive and language decline on communication in mild cognitive impairment: An integrative systematic review.",
+        "date": "2026-03-22",
+        "doi": "10.1080/23279095.2026.2647059",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41892500",
+        "queries": [
+          "R"
+        ],
+        "title": "Assessment of Cognitive Emotion Regulation in Gambling Disorder: A Systematic Review of the Literature.",
+        "date": "2026-03-05",
+        "doi": "10.3390/clinpract16030056",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41897173",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion Regulation and Eating Disorders in Sports: A Systematic Review.",
+        "date": "2026-03-11",
+        "doi": "10.3390/healthcare14060719",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41897236",
+        "queries": [
+          "R"
+        ],
+        "title": "Systematic Review of Artificial Intelligence in Positive and Existential Psychiatry: Advancing Mental and Emotional Health Through Metacompetency Development.",
+        "date": "2026-03-19",
+        "doi": "10.3390/healthcare14060783",
+        "decision": "excluded_after_further_screening",
+        "reason": "Methods, instruments, machine decoding, or intervention-focused without relevant separable baseline"
+      },
+      {
+        "pmid": "41915946",
+        "queries": [
+          "N"
+        ],
+        "title": "Neural correlates of implicit emotion processing and regulation in the SEAT paradigm: A meta-analysis of fMRI studies.",
+        "date": "2026-03-27",
+        "doi": "10.1016/j.pscychresns.2026.112203",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "SEAT fMRI tasks: 10 studies, 489 participants; attentional shift and appraisal contrasts."
+      },
+      {
+        "pmid": "41916532",
+        "queries": [
+          "P"
+        ],
+        "title": "Overlapping Effects of Music Training on Multisensory and Emotion Processing: A Systematic Review.",
+        "date": "2026-02-20",
+        "doi": "10.1163/22134808-bja10186",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Musician/nonmusician results for emotional speech; training causation unresolved."
+      },
+      {
+        "pmid": "41936403",
+        "queries": [
+          "N"
+        ],
+        "title": "Accessing the Unspoken: A Systematic Review on the Use of Psychophysiology in Research on Persons With Severe or Profound Intellectual Disabilities.",
+        "date": "2026-03-01",
+        "doi": "10.1111/jar.70222",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41943995",
+        "queries": [
+          "P"
+        ],
+        "title": "A Systematic Review on Computer Vision in Play-Based Research and Interventions for Autistic Children.",
+        "date": "2026-04-07",
+        "doi": "10.1002/aur.70249",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41955542",
+        "queries": [
+          "M"
+        ],
+        "title": "Innovations in Deaf Health Care Communication: Systematic Review of Sign Language Recognition Systems.",
+        "date": "2026-04-09",
+        "doi": "10.2196/70417",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41990522",
+        "queries": [
+          "N",
+          "M"
+        ],
+        "title": "Alcohol use disorder and emotional processing patterns: Insights from a systematic review.",
+        "date": "2026-04-09",
+        "doi": "10.1016/j.psychres.2026.117165",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "41993836",
+        "queries": [
+          "N"
+        ],
+        "title": "Neurobiological insights into perinatal depression: a multi-dimensional integration of brain structure, function, and metabolism.",
+        "date": "2026-04-01",
+        "doi": "10.3389/fpsyt.2026.1802534",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42022241",
+        "queries": [
+          "N"
+        ],
+        "title": "Structural and functional brain alterations in patients with hyperacusis: MRI systematic review.",
+        "date": "2026-04-01",
+        "doi": "10.3389/fnhum.2026.1785826",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42029741",
+        "queries": [
+          "M"
+        ],
+        "title": "I have my eye on the emotion: a review of eye-tracking studies exploring processing of emotional facial expressions.",
+        "date": "2026-04-24",
+        "doi": "10.1007/s00426-026-02294-6",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Systematic eye-tracking review: regions inspected depend on expression and context."
+      },
+      {
+        "pmid": "42041779",
+        "queries": [
+          "N"
+        ],
+        "title": "Mapping the Digital Mind: A Meta-Analysis of EEG Biomarkers in Cognition, Emotion, and Mental Health.",
+        "date": "2026-03-29",
+        "doi": "10.3390/brainsci16040368",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Affective EEG subsets: emotional processing and regulation LPP separately pooled."
+      },
+      {
+        "pmid": "42041799",
+        "queries": [
+          "R"
+        ],
+        "title": "Neuropsychological Mechanisms Associated with the Effectiveness of AI-Delivered Health Promotion Programs: A Comprehensive Meta-Analysis.",
+        "date": "2026-03-31",
+        "doi": "10.3390/brainsci16040389",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42063172",
+        "queries": [
+          "N"
+        ],
+        "title": "Neurological and biological correlations of ODD with ADHD in children and adolescents: a systematic review.",
+        "date": "2026-04-30",
+        "doi": "10.1186/s40359-026-04637-9",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42098872",
+        "queries": [
+          "R"
+        ],
+        "title": "Cultural background and pandemic context as moderators of the association between expressive suppression and sleep quality in healthy adults: a systematic review and meta‑analysis.",
+        "date": "2026-05-07",
+        "doi": "10.1186/s40359-026-04527-0",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42112746",
+        "queries": [
+          "P",
+          "M"
+        ],
+        "title": "Recognizing vocal emotions in two unfamiliar languages: universal patterns versus cultural and prosodic proximity.",
+        "date": "2026-05-11",
+        "doi": "10.1515/phon-2025-0046",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "42114728",
+        "queries": [
+          "P"
+        ],
+        "title": "Emotion recognition deficits in Alzheimer's disease: A meta-analysis.",
+        "date": "2026-05-13",
+        "doi": "10.1016/j.neubiorev.2026.106745",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42128720",
+        "queries": [
+          "M"
+        ],
+        "title": "Gaps and Future Directions in the Research About Masking and Voice Production: Bibliometric Analysis, Systematic Literature Review, and Meta-analysis.",
+        "date": "2026-05-13",
+        "doi": "10.1016/j.jvoice.2026.04.013",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42157226",
+        "queries": [
+          "N"
+        ],
+        "title": "Meta-analysis of neural correlates of working memory, reward, and emotion processing in major depressive disorder using AES-SDM.",
+        "date": "2026-05-19",
+        "doi": "10.1186/s12888-026-08154-2",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42215453",
+        "queries": [
+          "R"
+        ],
+        "title": "Emotion regulation impairment across psychiatric disorders: a systematic review and meta-analysis.",
+        "date": "2026-05-29",
+        "doi": "10.1038/s41398-026-04119-x",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "42227204",
+        "queries": [
+          "P"
+        ],
+        "title": "Psychometric properties of the Ekman 60-Faces Test in clinical populations: A systematic review and meta-analysis.",
+        "date": "2026-06-02",
+        "doi": "10.1111/jnp.70052",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42314507",
+        "queries": [
+          "R"
+        ],
+        "title": "Meta-analysis of associations between childhood emotional abuse and adulthood emotion regulation.",
+        "date": "2026-06-12",
+        "doi": "10.1016/j.cpr.2026.102778",
+        "decision": "excluded_after_further_screening",
+        "reason": "Eligible emotion endpoint not reported separately from cognition, distress, or broader outcomes"
+      },
+      {
+        "pmid": "42398079",
+        "queries": [
+          "N"
+        ],
+        "title": "A neuroimaging meta-analysis on social impression formation of stable characteristics.",
+        "date": "2026-06-01",
+        "doi": "10.1093/cercor/bhag087",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42398157",
+        "queries": [
+          "P"
+        ],
+        "title": "MRI correlates of emotion recognition in vascular dementia: An empty systematic review.",
+        "date": "2026-07-03",
+        "doi": "10.1016/j.actpsy.2026.107349",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42413809",
+        "queries": [
+          "N"
+        ],
+        "title": "Domain-Derived Biomarkers of Treatment Response in Major Depressive Disorder: An Activation Likelihood Estimation Neuroimaging Meta-Analysis.",
+        "date": "2026-09-09",
+        "doi": "10.1016/j.biopsych.2026.06.027",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42416677",
+        "queries": [
+          "R"
+        ],
+        "title": "The effects of mindfulness-based interventions on emotion regulation/dysregulation in people with mental health conditions: A systematic review and meta-analysis.",
+        "date": "2026-02-12",
+        "doi": "10.1002/jcv2.70103",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42421731",
+        "queries": [
+          "N"
+        ],
+        "title": "Guided Imagery and Music modulates neural circuits in mood disorders: a systematic review of mechanisms and clinical efficacy.",
+        "date": "2026-06-24",
+        "doi": "10.3389/fpsyg.2026.1739840",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42444986",
+        "queries": [
+          "P"
+        ],
+        "title": "Social cognition in Parkinson's disease: a comprehensive systematic review and integrative conceptual framework.",
+        "date": "2026-06-29",
+        "doi": "10.3389/fnagi.2026.1863728",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42457783",
+        "queries": [
+          "N"
+        ],
+        "title": "Distinct neural alterations in schizophrenia and autism: a task-based functional neuroimaging meta-analysis of social cognition and emotion processing.",
+        "date": "2026-07-15",
+        "doi": "10.1038/s41598-026-59244-w",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42475039",
+        "queries": [
+          "R"
+        ],
+        "title": "Moderating role of occupational context in the relationship between emotion regulation and burnout syndrome: A structural equation modeling (SEM) meta-analytic review.",
+        "date": "2026-07-20",
+        "doi": "10.1037/ocp0000440",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42476388",
+        "queries": [
+          "M"
+        ],
+        "title": "Goal relevance shapes the behavioral impact of facial emotions: A meta-analysis.",
+        "date": "2026-07-20",
+        "doi": "10.1016/j.neubiorev.2026.106881",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Inhibitory-control and readiness effects of emotional faces depend on task goal."
+      },
+      {
+        "pmid": "42486214",
+        "queries": [
+          "P"
+        ],
+        "title": "Prenatal androgens and female-advantaged cognition: A systematic review and Bayesian meta-analysis in congenital adrenal hyperplasia.",
+        "date": "2026-07-22",
+        "doi": "10.1016/j.neubiorev.2026.106877",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42558363",
+        "queries": [
+          "P",
+          "N"
+        ],
+        "title": "The influence of olfactory stimuli on social cognition, prejudice and emotions: a systematic review of the literature.",
+        "date": "2026-07-22",
+        "doi": "10.3389/fpsyg.2026.1883832",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Emotion perception section separately reports the effects of odors on face tasks."
+      },
+      {
+        "pmid": "42599715",
+        "queries": [
+          "N"
+        ],
+        "title": "Prevalence, predictors, and emerging biomarkers for cognitive impairment and neuropsychiatric manifestations in Parkinson's disease in Africa: A systematic review.",
+        "date": "2026-08-14",
+        "doi": "10.1177/1877718x261479269",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42656314",
+        "queries": [
+          "R"
+        ],
+        "title": "Cognitive decision-making in police use of force: a scoping review based on eye-tracking research.",
+        "date": "2026-08-12",
+        "doi": "10.3389/fpsyg.2026.1837475",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42658637",
+        "queries": [
+          "D"
+        ],
+        "title": "Differentiating emotions reduces negative affect: Evidence from a new experimental paradigm.",
+        "date": "2026-08-27",
+        "doi": "10.1037/emo0001738",
+        "decision": "excluded_after_further_screening",
+        "reason": "Primary investigation, secondary analysis of selected datasets, or internal synthesis rather than systematic review"
+      },
+      {
+        "pmid": "42735833",
+        "queries": [
+          "N"
+        ],
+        "title": "Shared Functional Abnormalities Within Somatosensory Cortex in Obsessive-Compulsive Disorder and Anxiety Disorders: A Comparative Meta-Analysis.",
+        "date": "2026-09-14",
+        "doi": "10.1016/j.bpsc.2026.09.004",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42769075",
+        "queries": [
+          "N"
+        ],
+        "title": "Toward evidence-based neuroarchitecture: a systematic mapping and framework for immersive spatial cognition.",
+        "date": "2026-09-07",
+        "doi": "10.3389/fpsyg.2026.1919278",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42798744",
+        "queries": [
+          "P",
+          "M"
+        ],
+        "title": "Emotion recognition and human-robot interaction: a systematic review of methods and applications.",
+        "date": "2026-09-11",
+        "doi": "10.3389/frobt.2026.1891746",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42817270",
+        "queries": [
+          "P"
+        ],
+        "title": "Affective Computing Approaches in Child-Robot Interaction: A Systematic Review and Taxonomy.",
+        "date": "2026-09-09",
+        "doi": "10.3390/s26185721",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42837092",
+        "queries": [
+          "P"
+        ],
+        "title": "Multilevel Meta-analyses of Emotional Processing Deficits Associated with Callous-Unemotional (CU) Traits: Do They Differ by Age and Sex?",
+        "date": "2026-10-06",
+        "doi": "10.1007/s10567-026-00586-2",
+        "decision": "excluded_after_further_screening",
+        "reason": "Clinical or risk-comparison scope without separately usable typical emotion outcome"
+      },
+      {
+        "pmid": "42873489",
+        "queries": [
+          "P",
+          "M"
+        ],
+        "title": "A systematic review of emotional facial expression recognition in patients with mild cognitive impairment.",
+        "date": "2026-10-14",
+        "doi": "10.1177/13872877261489584",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42893975",
+        "queries": [
+          "N"
+        ],
+        "title": "Brain functional changes of suicidal ideation and behaviours: a meta-analysis of task-based fMRI studies.",
+        "date": "2026-07-22",
+        "doi": "10.1038/s41398-026-04293-y",
+        "decision": "excluded_title_screen"
+      },
+      {
+        "pmid": "42991973",
+        "queries": [
+          "P"
+        ],
+        "title": "The Relationship Between Childhood Maltreatment and Emotion Recognition in Adults: A Systematic Review and Meta-Analysis.",
+        "date": "2026-05-26",
+        "doi": "10.1007/s40653-026-00901-7",
+        "decision": "included",
+        "verification": "abstract",
+        "evidence": "Community subgroup; childhood adversity and facial recognition."
+      },
+      {
+        "pmid": "43037520",
+        "queries": [
+          "P"
+        ],
+        "title": "Electrophysiological correlates of emotion processing in schizophrenia: a systematic review and meta-analysis of P300 event-related potentials.",
+        "date": "2026-11-16",
+        "doi": "10.1159/nps/adyag009",
+        "decision": "excluded_title_screen"
+      }
+    ]
+  },
+  "supplementary": {
+    "scope": "Selected citation chains and targeted web searches; no total-hit denominator claimed for web search.",
+    "queries": [
+      "emotion recognition face voice context meta-analysis",
+      "neuroimaging ALE vocal affect perception",
+      "N170 emotional expression meta-analysis",
+      "cross-cultural facial and vocal emotion recognition systematic review",
+      "ensemble emotion perception synthesis meta-analysis",
+      "emotion differentiation emotion regulation systematic review",
+      "emotion formation cognitive appraisal neuroimaging meta-analysis"
+    ],
+    "reviews_added_after_deduplication": [
+      {
+        "source": "10.1177/00220221251334811",
+        "title": "Li et al., mechanisms of cross-cultural facial emotion recognition",
+        "verification": "full text",
+        "evidence": "105 articles; 20238 healthy adults; qualitative synthesis."
+      },
+      {
+        "source": "10.1177/1754073919897295",
+        "title": "Laukka and Elfenbein, cross-cultural vocal emotion",
+        "verification": "abstract",
+        "evidence": "37 studies; above-chance recognition and in-group advantage."
+      },
+      {
+        "source": "10.1016/j.neubiorev.2015.06.002",
+        "title": "Hinojosa et al., N170 and facial emotional expressions",
+        "verification": "abstract",
+        "evidence": "57 experiments, 1645 participants; no pooled magnitude extracted."
+      },
+      {
+        "source": "10.1037/emo0000042",
+        "title": "Nummenmaa and Calvo, detection and recognition of facial expressions",
+        "verification": "full text",
+        "evidence": "34 identification and 37 visual search studies; task and stimulus moderators."
+      },
+      {
+        "source": "10.1503/jpn.230065",
+        "title": "Lukito et al., fMRI during different facial emotional expressions",
+        "verification": "full text",
+        "evidence": "55 datasets, 1489 participants; emotion-specific threshold differences."
+      },
+      {
+        "source": "10.1371/journal.pcbi.1004066",
+        "title": "Wager et al., category-specific emotional brain responses",
+        "verification": "full text",
+        "evidence": "148 neuroimaging studies, 2159 participants; distributed category-related patterns."
+      },
+      {
+        "source": "10.1016/j.neuroimage.2010.10.011",
+        "title": "Sabatinelli et al., emotional faces and natural scenes",
+        "verification": "abstract",
+        "evidence": "Coordinates by stimulus category; distributed and partially overlapping convergence."
+      },
+      {
+        "source": "10.17315/kjhp.2026.31.4.009",
+        "title": "Jang et al., effects of affect labeling",
+        "verification": "abstract",
+        "evidence": "43 studies. Physiological and behavioral responses generally declined or stabilized, while subjective results were mixed."
+      }
+    ],
+    "illustrative_original_papers": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5716353/",
+      "https://www.nature.com/articles/s41467-024-46670-5",
+      "https://doi.org/10.1177/0956797618773357",
+      "https://doi.org/10.1038/s41593-024-01605-7",
+      "https://www.nature.com/articles/s41586-026-11203-1",
+      "https://doi.org/10.1007/s42761-023-00183-4",
+      "https://pubmed.ncbi.nlm.nih.gov/12899316/"
+    ]
+  },
+  "direct": {
+    "europe_pmc": {
+      "query": "FIRST_PDATE:[1900-01-01 TO 2026-11-22] AND (TITLE_ABS:psychosophy OR TITLE_ABS:\"psyche yoga\" OR TITLE_ABS:\"psyche-yoga\" OR TITLE_ABS:\"psychosophia\" OR TITLE_ABS:\"attitudinal psyche\" OR TITLE_ABS:психософия OR TITLE_ABS:психософія OR TITLE_ABS:\"психе-йога\" OR (TITLE_ABS:Afanasyev AND TITLE_ABS:\"syntax of love\") OR (TITLE_ABS:Afanasiev AND TITLE_ABS:\"syntax of love\") OR (TITLE_ABS:Афанасьев AND TITLE_ABS:\"синтаксис любви\"))",
+      "hits": 0
+    },
+    "pubmed": {
+      "query": "psychosophy[Title/Abstract] OR \"psyche yoga\"[Title/Abstract] OR \"attitudinal psyche\"[Title/Abstract] OR \"психософия\"[Title/Abstract] OR \"психе-йога\"[Title/Abstract]",
+      "hits": 0,
+      "note": "Query translation dropped Cyrillic tokens; English coverage only."
+    },
+    "openalex": {
+      "interface": "GET /works?filter=title.search:<term>&per-page=100&select=id,doi,display_name,publication_year,type",
+      "searches": {
+        "psychosophy": 2,
+        "psyche yoga": 5,
+        "attitudinal psyche": 0,
+        "психософия": 5,
+        "психософии": 8
+      },
+      "hits": 20,
+      "repeated_ids": 1,
+      "screened": 19,
+      "included": 0,
+      "records": {
+        "W2500329747": "historical use of psychosophy, different construct",
+        "W7165630156": "empirical study of Psychosophy Logic",
+        "W612912412": "actual yoga and Jung, different construct",
+        "W7161476330": "actual yoga and Jung, different construct",
+        "W2212799805": "yoga therapy, different construct",
+        "W7135606044": "yoga charity project, different construct",
+        "W3152846834": "yoga/spiritual connection, different construct",
+        "W3088578424": "comparison of concepts, no participant outcome",
+        "W3183743586": "theoretical systems modeling",
+        "W3186855568": "concept comparison and proposed methods",
+        "W3186512271": "theoretical systems modeling, overlapping with W3183743586",
+        "W3084956411": "hypothesized correspondence between typologies",
+        "W3185164078": "case discussion of Physics and Will",
+        "W3186373683": "illustrative case",
+        "W3183970467": "theory of psychological defences and third position",
+        "W3003806526": "Will only; abstract-level decision",
+        "W7119442274": "single illustrative example mentioning 4E",
+        "W3183753133": "Physics and Socionics intuition/sensing contrast",
+        "W7225811281": "theoretical model and examples, no measured emotion outcome"
+      }
+    },
+    "web": {
+      "scope": "Russian and English targeted web search, Russian journal archives, author bibliography, publication-reference follow-up. eLIBRARY site index only; native results unavailable.",
+      "replay": {
+        "scope": "Displayed URL rows for eight individual web searches (medium output); counts do not estimate search engine totals or unique studies.",
+        "rows": 54,
+        "distinct_normalized_urls": 51,
+        "queries": [
+          [
+            "\"психософия\" \"эмоция\" \"выборка\" исследование результаты Афанасьев рецензируемое",
+            12
+          ],
+          [
+            "\"психософия\" \"результативная\" \"эмоция\" \"корреляция\" эксперимент данные",
+            4
+          ],
+          [
+            "\"психософия\" \"ЭЭГ\" \"эмоция\" исследование",
+            2
+          ],
+          [
+            "\"психософия\" Афанасьев \"восприятие эмоций\" OR \"распознавание эмоций\" эксперимент",
+            10
+          ],
+          [
+            "(\"Psychosophy\" OR \"Psyche Yoga\" OR \"Attitudinal Psyche\") (\"Afanasyev\" OR \"Afanasiev\") (\"emotion regulation\" OR \"emotion recognition\" OR neuroscience OR validation) research",
+            12
+          ],
+          [
+            "\"Аспект «Эмоция» в психософии\" \"саморегуляция\" Звонарёва",
+            2
+          ],
+          [
+            "site:elibrary.ru психософия эмоция Афанасьев Коваленко Звонарёва выборка",
+            3
+          ],
+          [
+            "site:cyberleninka.ru OR site:psyjournals.ru \"психософия\" Афанасьев Эмоция распознавание",
+            9
+          ]
+        ]
+      },
+      "queries": [
+        "психософия Афанасьев первая вторая третья четвертая эмоция эмпирическое исследование",
+        "\"психософия\" \"распознавание эмоций\" Афанасьев выборка корреляция",
+        "\"психософия\" \"ЭЭГ\" OR \"фМРТ\" Афанасьев Эмоция",
+        "психософия эмоция \"результативная\" \"процессионная\" Звонарёва Коваленко",
+        "\"psychosophy\" \"Afanasyev\" empirical emotion processing",
+        "\"Аспект «Эмоция» в психософии\" \"Звонарёва\"",
+        "\"10.37882/2500-3682.2026.06.05\""
+      ],
+      "records": [
+        {
+          "source": "https://rjep.ru/jour/index.php/rjep/article/download/112/57",
+          "study": "Zvonaryova and Kovalenko 2022",
+          "decision": "included; 145 consultation clients, prespecified 1+4 vs 2+3 and communication self-report. Individual positions descriptive, no lab or biology."
+        },
+        {
+          "source": "https://psychology.snauka.ru/2022/11/8702",
+          "study": "Kanunnikov 2022",
+          "decision": "screened full text; thinking-style outcomes do not directly assay emotion processing, but result/process nulls retained as context."
+        },
+        {
+          "source": "https://sibsocionic.ru/scientific",
+          "study": "Zvonaryova 2026, DOI 10.37882/2500-3682.2026.06.05",
+          "decision": "potentially eligible; full report unavailable, DOI did not resolve. Methods and results unverified."
+        },
+        {
+          "source": "https://rjep.ru/jour/index.php/rjep/article/view/603",
+          "study": "Makovskaya 2024",
+          "decision": "emotional positions but vocational motivation outcomes."
+        },
+        {
+          "source": "https://rjep.ru/jour/index.php/rjep/article/view/807",
+          "study": "Kovalenko 2025",
+          "decision": "couple compatibility and types, no eligible emotion-process outcomes."
+        },
+        {
+          "source": "https://mir-nauki.com/32PSMN320.html",
+          "study": "Kovalenko and Zvonaryova 2020",
+          "decision": "measures emotional intelligence using Socionics contrasts, not Psychosophy Emotion."
+        },
+        {
+          "source": "https://rl-online.su/articles/1-02/articles/articles/rl2024_3/1492.html",
+          "study": "Zvonaryova and Kovalenko 2024",
+          "decision": "temperament, stress and self-esteem; reported classification variables do not identify Emotion position."
+        },
+        {
+          "source": "https://doi.org/10.15862/109PSMN624",
+          "study": "Lebedev 2024",
+          "decision": "Socionics/Talanov classification, no eligible Psychosophy contrast."
+        },
+        {
+          "source": "https://pub.asobr.org/mag/jour3.php?link=po012023",
+          "study": "Kovalenko and Zvonaryova 2023",
+          "decision": "methods of testing; accessible journal abstract reports no eligible Emotion-position outcome."
+        },
+        {
+          "source": "https://publishing.socionic.info/index.php/socionics/article/view/349",
+          "study": "Petrova 2013",
+          "decision": "illustrative case material, no comparative outcome."
+        },
+        {
+          "source": "https://pi-rao.ru/news/event/132/",
+          "study": "Glukharev 2012, Psychosophy and psychophysiology",
+          "decision": "seminar title only; no research report, sample or results."
+        },
+        {
+          "source": "https://quantitativesocionics.org/miscellaneous/socionics-and-other-personality-models/on-how-v-l-talanovs-questionnaires-measure-proximity-to-each-of-the-psychosophy-types",
+          "study": "Talanov 2018",
+          "decision": "community questionnaire method bootstrapped from self-reported labels, no eligible independent endpoint."
+        }
+      ]
+    }
+  }
+}

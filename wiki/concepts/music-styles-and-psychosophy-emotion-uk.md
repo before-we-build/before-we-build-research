@@ -3,11 +3,11 @@ title: Музичні стилі як приблизні ознаки позиц
 type: concept
 tags: [psychosophy, emotion, music, aesthetics, heuristic, ukrainian]
 created: 2026-05-12
-updated: 2026-11-21
+updated: 2026-11-22
 lang: uk
 translation_group: music-styles-and-psychosophy-emotion
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis, application-guidance, source-attribution]
@@ -59,6 +59,8 @@ sources: [wiki/sources/psychosophy-detailed-uk.md, wiki/concepts/emotion-vs-ethi
 **Фізіологія мозку під час прослуховування.** Salimpoor і колеги відібрали слухачів, у яких музика стабільно викликала мурашки. Придатні дані ПЕТ отримали у восьми людей. За даними фМРТ хвостате ядро сильніше активувалося в очікуванні емоційного піка, а прилегле ядро — під час піка. Обидві фази спостерігали в тих самих слухачів. [Salimpoor та співавт., 2011](https://www.nature.com/articles/nn.2726)
 
 У розглянутих роботах позицію Емоції, музичну поведінку та фізіологію мозку разом не вимірювали. Зв’язок окремих позицій і поділу на дві групи з музичною поведінкою, включно з наведеними нижче жанровими прикладами, залишається дослідницькою гіпотезою.
+
+У ширшому огляді розглянуто окремі лабораторні завдання на розрізнення емоцій, поєднання емоційних сигналів і переоцінку ситуації. Пошук не виявив досліджень, які пов’язували б результати цих завдань або прямі вимірювання активності мозку з окремими позиціями Емоції чи з поділом на 1Е/4Е і 2Е/3Е. [Огляд досліджень обробки емоцій (російською)](https://github.com/before-we-build/before-we-build-research/blob/main/research/literature/emotion-processing-review-2026-11-22-ru.md#восприятие-обработка-синтез-и-анализ-эмоций)
 
 <!-- section:basis-in-the-current-wiki -->
 ## Основа в поточній вікі

@@ -15361,8 +15361,8 @@
       "translation_group": "music-styles-and-psychosophy-emotion",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 3,
-      "reviewed_semantic_version": 3,
+      "semantic_version": 4,
+      "reviewed_semantic_version": 4,
       "claim_status": [
         "research-hypothesis",
         "application-guidance",
@@ -15505,6 +15505,13 @@
           "raw_target": "https://www.nature.com/articles/nn.2726",
           "resolved": null,
           "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-en.md",
+          "line": 63,
+          "raw_target": "https://github.com/before-we-build/before-we-build-research/blob/main/research/literature/emotion-processing-review-2026-11-22-ru.md",
+          "resolved": null,
+          "ambiguous": []
         }
       ]
     },
@@ -15515,8 +15522,8 @@
       "translation_group": "music-styles-and-psychosophy-emotion",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 3,
-      "reviewed_semantic_version": 3,
+      "semantic_version": 4,
+      "reviewed_semantic_version": 4,
       "claim_status": [
         "research-hypothesis",
         "application-guidance",
@@ -15659,6 +15666,13 @@
           "raw_target": "https://www.nature.com/articles/nn.2726",
           "resolved": null,
           "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-ru.md",
+          "line": 63,
+          "raw_target": "https://github.com/before-we-build/before-we-build-research/blob/main/research/literature/emotion-processing-review-2026-11-22-ru.md",
+          "resolved": null,
+          "ambiguous": []
         }
       ]
     },
@@ -15669,8 +15683,8 @@
       "translation_group": "music-styles-and-psychosophy-emotion",
       "document_status": "active",
       "page_role": "research-appendix",
-      "semantic_version": 3,
-      "reviewed_semantic_version": 3,
+      "semantic_version": 4,
+      "reviewed_semantic_version": 4,
       "claim_status": [
         "research-hypothesis",
         "application-guidance",
@@ -15818,6 +15832,13 @@
           "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
           "line": 59,
           "raw_target": "https://www.nature.com/articles/nn.2726",
+          "resolved": null,
+          "ambiguous": []
+        },
+        {
+          "source": "wiki/concepts/music-styles-and-psychosophy-emotion-uk.md",
+          "line": 63,
+          "raw_target": "https://github.com/before-we-build/before-we-build-research/blob/main/research/literature/emotion-processing-review-2026-11-22-ru.md",
           "resolved": null,
           "ambiguous": []
         }
@@ -16698,6 +16719,13 @@
           "source": "index.md",
           "line": 113,
           "raw_target": "wiki/concepts/operational-compatibility-ru.md",
+          "resolved": "wiki/concepts/operational-compatibility-ru.md",
+          "ambiguous": []
+        },
+        {
+          "source": "research/literature/emotion-processing-review-2026-11-22-ru.md",
+          "line": 21,
+          "raw_target": "../../wiki/concepts/operational-compatibility-ru.md",
           "resolved": "wiki/concepts/operational-compatibility-ru.md",
           "ambiguous": []
         },

@@ -3,11 +3,11 @@ title: Музыкальные стили как грубые маркеры по
 type: concept
 tags: [psychosophy, emotion, music, aesthetics, heuristic, russian]
 created: 2026-05-12
-updated: 2026-11-21
+updated: 2026-11-22
 lang: ru
 translation_group: music-styles-and-psychosophy-emotion
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis, application-guidance, source-attribution]
@@ -59,6 +59,8 @@ sources: [wiki/sources/psychosophy-detailed-ru.md, wiki/concepts/emotion-vs-ethi
 **Физиология мозга во время прослушивания.** Salimpoor и коллеги отобрали слушателей, у которых музыка устойчиво вызывала мурашки. Пригодные данные ПЭТ получили у восьми человек. По данным фМРТ хвостатое ядро сильнее активировалось в ожидании эмоционального пика, а прилежащее ядро — во время пика. Обе фазы наблюдались у одних и тех же слушателей. [Salimpoor и соавт., 2011](https://www.nature.com/articles/nn.2726)
 
 В рассмотренных работах позицию Эмоции, музыкальное поведение и физиологию мозга вместе не измеряли. Связь отдельных позиций и деления на две группы с музыкальным поведением, включая приведённые ниже жанровые примеры, остаётся исследовательской гипотезой.
+
+В более широком обзоре рассмотрены отдельные лабораторные задачи на различение эмоций, объединение эмоциональных сигналов и переоценку ситуации. Поиск не выявил исследований, которые связывали бы результаты этих задач или прямые измерения активности мозга с отдельными позициями Эмоции либо с разделением на 1Э/4Э и 2Э/3Э. [Обзор исследований обработки эмоций](https://github.com/before-we-build/before-we-build-research/blob/main/research/literature/emotion-processing-review-2026-11-22-ru.md#восприятие-обработка-синтез-и-анализ-эмоций)
 
 <!-- section:basis-in-the-current-wiki -->
 ## Основание в текущей вики

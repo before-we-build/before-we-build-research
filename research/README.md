@@ -6,4 +6,5 @@ This directory contains empirical case studies, research instruments, and academ
 
 - **`case-studies/`**: Detailed typological case records and methodological exercises (e.g. public-figure analysis under strict decontamination and ethical boundaries).
 - **`instruments/`**: Validated measurement and exploration instruments (e.g. `pilot-question-bank.md`).
+- **`literature/`**: Research reviews and their documented search records. See the [emotion-processing review and Psychosophy evidence assessment](literature/emotion-processing-review-2026-11-22-ru.md).
 - **`outreach/`**: Academic outreach packs, researcher target mappings, and readiness evaluations.

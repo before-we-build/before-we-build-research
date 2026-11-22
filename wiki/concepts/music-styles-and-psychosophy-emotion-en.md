@@ -3,11 +3,11 @@ title: Music Styles as Rough Markers of Psychosophy Emotion Position
 type: concept
 tags: [psychosophy, emotion, music, aesthetics, heuristic, english]
 created: 2026-05-12
-updated: 2026-11-21
+updated: 2026-11-22
 lang: en
 translation_group: music-styles-and-psychosophy-emotion
-semantic_version: 3
-reviewed_semantic_version: 3
+semantic_version: 4
+reviewed_semantic_version: 4
 document_status: active
 page_role: research-appendix
 claim_status: [research-hypothesis, application-guidance, source-attribution]
@@ -59,6 +59,8 @@ The categories were specified in advance, and the interview and questionnaire as
 **Brain physiology during listening.** Salimpoor and colleagues studied listeners selected for reliably experiencing musical chills. Eight contributed usable PET data. In the fMRI analysis, caudate activity was stronger in anticipation of the emotional peak, while nucleus accumbens activity was stronger at the peak. Both phases occurred within the same listeners. [Salimpoor et al., 2011](https://www.nature.com/articles/nn.2726)
 
 The studies reviewed here provide no joint measurement of Emotion positions, musical behavior, and brain physiology. The proposed positions, the two-group split, and the genre examples below remain hypotheses for research on musical behavior.
+
+A broader literature review covers distinct lab tasks for telling emotions apart, combining emotional cues, and reappraising a situation. The search found no study that linked performance on those tasks or direct measures of brain activity to any of the four Emotion positions or to the 1E/4E and 2E/3E split. [Review of emotion processing (Russian)](https://github.com/before-we-build/before-we-build-research/blob/main/research/literature/emotion-processing-review-2026-11-22-ru.md#восприятие-обработка-синтез-и-анализ-эмоций)
 
 <!-- section:basis-in-the-current-wiki -->
 ## Basis in the Current Wiki

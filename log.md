@@ -1953,3 +1953,9 @@ Updated the scientific-narrative skill and architecture reference to require six
 
 - Updated the three music and Emotion articles with a published comparison of expert-assigned 1E/4E and 2E/3E groups. Recorded the communication correlations, scale reliability, and limits of the sampling and classification methods.
 - Added primary research on four observable listening or expression behaviors, on musical choices for different purposes, and on the timing of brain responses during music listening. None of the reviewed studies measured musical behavior, brain physiology, and Psychosophy Emotion position together.
+
+## [2026-11-22] research | Emotion processing and Psychosophy evidence review
+
+- Added a Russian-language systematic overview and a machine-readable search ledger. Screened 469 unique PubMed records and retained 94 reviews including those found through supplementary routes.
+- Searched separately for primary Psychosophy studies. Recorded the reported communication questionnaire contrast between 1E/4E and 2E/3E, the descriptive figures for individual positions, and the unavailable 2026 report.
+- Linked the review from all three language versions of the music and Emotion article.
