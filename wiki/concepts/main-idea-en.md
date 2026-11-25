@@ -3,7 +3,7 @@ title: Main Idea
 type: concept
 tags: [foundations, universal-core, four-level-architecture]
 created: 2026-04-26
-updated: 2026-09-06
+updated: 2026-11-25
 lang: en
 translation_group: main-idea
 semantic_version: 3
@@ -29,14 +29,14 @@ English · [[main-idea-ru|Русский]] · [[main-idea-uk|Українськ�
 <!-- section:in-90-seconds -->
 ## In 90 seconds
 
-Two people can want the same thing and still misunderstand each other. Both may agree to move, for example, while having different ideas about commitments to relatives, their future life, and preparations for the move.
+Two people can want the same thing and still misunderstand each other. They might both agree to move, for example. Each may have a different idea of what they owe their relatives, what life will look like after the move, and how to prepare.
 
-Before We Build proposes discussing these questions separately: what must we honour, where are we going, how do we act together, and how do we understand information? The starting points are real conduct, circumstances, free consent, and outcomes. Typologies offer only provisional explanations for the last three questions.
+Before We Build proposes taking these questions one at a time. What must we honour? Where are we going? How do we act together? How do we make sense of information? Start with what people actually do, the circumstances they face, whether they consent freely, and what happens. The project uses typologies to suggest preliminary explanations for the last three questions only.
 
 <!-- section:definition-and-scope -->
 ## Four questions about a shared undertaking
 
-The approach can be used with any two people. Specify the task: a relationship, shared work, or another undertaking.
+Any two people can use this approach. Start by naming what you want to do together, whether that means building a relationship, sharing work, or taking on something else.
 
 | Level | What we draw on | What we ask |
 |---|---|---|
@@ -48,21 +48,21 @@ The approach can be used with any two people. Specify the task: a relationship, 
 <!-- section:shared-example -->
 ## Back to the move
 
-One person helps an elderly relative. Wanting to move does not answer how that commitment will be met. It needs its own discussion.
+One person helps an elderly relative. First, they need to talk about how that person can keep that commitment if they move.
 
-Suppose they find a solution. They still need to understand how each imagines their future in the new city. Then they must agree who will look for housing and who will check costs. Even after that, they should compare how they understood the risks. Answering one question does not answer the others.
+Suppose they find a solution. They still need to understand how each pictures life in the new city. Then they need to agree who will look for housing and who will check the costs. After that, they should compare how each understood the risks. Answering one question does not answer the others.
 
 <!-- section:observations -->
 ## What can be checked in daily life
 
-Record what people say and choose, the deadlines they name, how they divide work, and what information they request. Then examine what they revised and what happened. The same observations may allow several explanations.
+Record what people say and choose, what deadlines they name, how they divide the work, and what information they ask for. Then see what they revise and what happens next. The same observations can fit several explanations.
 
 <!-- section:hypotheses -->
 ## Where hypotheses begin
 
-A type in this project is a hypothesis about a recurring way of perceiving and organizing experience, not a personality type. A proposed internal process explaining it is called latent: we cannot observe it directly. Proposing a natural basis for a predisposition is another step that needs separate testing. Innateness has not been established.
+A type in this project is a hypothesis about a recurring way of perceiving and organizing experience, not a personality type. An internal process might explain that pattern. We call such a process latent because we cannot observe it directly. Whether the predisposition has a natural basis is a separate question to test. Innateness has not been established.
 
-Socionics, Psychosophy, and Temporistics are proposed as different models for investigating these processes. Linking them to the tactical, operational, and strategic levels is a project hypothesis, not a proven fact of psychology.
+The project proposes Socionics, Psychosophy, and Temporistics as different models for investigating these processes. Linking them to the tactical, operational, and strategic levels is a project hypothesis, not a proven fact of psychology.
 
 <!-- section:alternatives -->
 ## Other explanations to check
@@ -85,7 +85,7 @@ No level describes the whole person. A type does not determine values, moral wor
 <!-- section:researcher-route -->
 ## How to study this
 
-First record an observation. Then describe what recurs and propose an explanation involving an internal process. Use that explanation to make a prediction for a specific situation, and test it against outcomes. Read more about [[latent-process-en|latent processes]] and the [[validation-program-en|validation programme]].
+First record an observation. Describe what recurs and propose an internal process that could explain it. Use that explanation to make a prediction for a specific situation and check it against what happens. Read more about [[latent-process-en|latent processes]] and the [[validation-program-en|validation programme]].
 
 <!-- section:next-reading -->
 ## Where to go next

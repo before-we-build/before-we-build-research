@@ -1963,3 +1963,7 @@ Updated the scientific-narrative skill and architecture reference to require six
 ## [2026-11-25] editorial | README and Start Here
 
 - Simplified the README introduction and edited the English, Russian, and Ukrainian Start Here pages for clarity. Preserved links, claim statuses, and the limits on diagnosis, compatibility, and evidence for a natural predisposition.
+
+## [2026-11-25] editorial | Main Idea and Four-Level Compatibility Architecture
+
+- Edited both EN/RU/UK groups for clarity. Kept the relocation example, links, claim statuses, the limits of the typological hypotheses, and the priority of safety.
