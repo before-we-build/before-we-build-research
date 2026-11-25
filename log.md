@@ -1959,3 +1959,7 @@ Updated the scientific-narrative skill and architecture reference to require six
 - Added a Russian-language systematic overview and a machine-readable search ledger. Screened 469 unique PubMed records and retained 94 reviews including those found through supplementary routes.
 - Searched separately for primary Psychosophy studies. Recorded the reported communication questionnaire contrast between 1E/4E and 2E/3E, the descriptive figures for individual positions, and the unavailable 2026 report.
 - Linked the review from all three language versions of the music and Emotion article.
+
+## [2026-11-25] editorial | README and Start Here
+
+- Simplified the README introduction and edited the English, Russian, and Ukrainian Start Here pages for clarity. Preserved links, claim statuses, and the limits on diagnosis, compatibility, and evidence for a natural predisposition.
